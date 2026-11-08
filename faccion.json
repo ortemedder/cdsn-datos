@@ -145,7 +145,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1794153721,
+   "t": 1794161451,
    "src": "EDDN",
    "inf": 14.89,
    "ctrl": false,
@@ -163,7 +163,7 @@
      "tipo": "war",
      "estado": "active",
      "contra": "Bundhar Group",
-     "ganados": 1,
+     "ganados": 2,
      "perdidos": 1
     }
    ],
@@ -523,9 +523,9 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794174786.923278,
-  "msgs": 42215,
-  "mios": 1
+  "ultimo": 0,
+  "msgs": 1269,
+  "mios": 0
  },
- "t": 1794174787.1844037
+ "t": 0
 }

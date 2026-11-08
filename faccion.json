@@ -470,13 +470,13 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794172692,
-   "src": "EDSM",
+   "t": 1794176350,
+   "src": "EDDN",
    "inf": 92.31,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
-    "Civil liberty",
+    "CivilLiberty",
     "Boom",
     "Expansion"
    ],
@@ -519,13 +519,46 @@
    "segunda": "Flotta Stellare",
    "segunda_inf": 57.81,
    "conflictos": []
+  },
+  "Hyades Sector JX-T c3-13": {
+   "sys": "Hyades Sector JX-T c3-13",
+   "t": 1794175553,
+   "src": "EDDN",
+   "inf": 63.73,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 19.54,
+   "conflictos": []
+  },
+  "Ndabangluya": {
+   "sys": "Ndabangluya",
+   "t": 1794175997,
+   "src": "EDDN",
+   "inf": 63.13,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Boom",
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 17.64,
+   "conflictos": []
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 1269,
-  "mios": 0
+  "ultimo": 1794176351.5686607,
+  "msgs": 23512,
+  "mios": 3
  },
- "t": 0
+ "t": 1794176357.3904219
 }

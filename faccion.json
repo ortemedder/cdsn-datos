@@ -503,13 +503,29 @@
    "segunda": "Sirius Special Forces",
    "segunda_inf": 56.35,
    "conflictos": []
+  },
+  "Ryujingit": {
+   "sys": "Ryujingit",
+   "t": 1794174785,
+   "src": "EDDN",
+   "inf": 8.66,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flotta Stellare",
+   "segunda_inf": 57.81,
+   "conflictos": []
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 21037,
-  "mios": 0
+  "ultimo": 1794174786.923278,
+  "msgs": 42215,
+  "mios": 1
  },
- "t": 1794173057.1460917
+ "t": 1794174787.1844037
 }

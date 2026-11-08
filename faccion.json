@@ -1,0 +1,499 @@
+{
+ "faccion": "Caballeros de Sion",
+ "sistemas": {
+  "Pirawoth": {
+   "sys": "Pirawoth",
+   "t": 1794135035,
+   "src": "EDSM",
+   "inf": 69.9,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Beasts of Bestia",
+   "segunda_inf": 12.35,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "Tascheter Sector CG-X b1-2": {
+   "sys": "Tascheter Sector CG-X b1-2",
+   "t": 1793827795,
+   "src": "EDSM",
+   "inf": 55.08,
+   "ctrl": true,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Ngauna Incorporated",
+   "segunda_inf": 18.82,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "Hyades Sector SU-N b7-5": {
+   "sys": "Hyades Sector SU-N b7-5",
+   "t": 1794153986,
+   "src": "EDDN",
+   "inf": 57.98,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 25.95,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "Hyades Sector VA-M b8-3": {
+   "sys": "Hyades Sector VA-M b8-3",
+   "t": 1793383793,
+   "src": "EDSM",
+   "inf": 17.66,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Beasts of Bestia",
+   "segunda_inf": 57.98,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "Menkalinan": {
+   "sys": "Menkalinan",
+   "t": 1794157712,
+   "src": "EDDN",
+   "inf": 12.84,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 57.97,
+   "conflictos": [],
+   "prev": 12.63,
+   "prev_t": 1793838233
+  },
+  "SPOCS 253": {
+   "sys": "SPOCS 253",
+   "t": 1793811957,
+   "src": "EDSM",
+   "inf": 11.79,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Flotta Stellare",
+   "segunda_inf": 51.45,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "BD+47 1236": {
+   "sys": "BD+47 1236",
+   "t": 1793726518,
+   "src": "EDSM",
+   "inf": 10.9,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Quebecois Patriots",
+   "segunda_inf": 46.8,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "Hyades Sector UF-M b8-0": {
+   "sys": "Hyades Sector UF-M b8-0",
+   "t": 1794160640,
+   "src": "EDDN",
+   "inf": 54.55,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 23.28,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  },
+  "Hyades Sector DB-X d1-112": {
+   "sys": "Hyades Sector DB-X d1-112",
+   "t": 1794153721,
+   "src": "EDDN",
+   "inf": 14.89,
+   "ctrl": false,
+   "estado": "War",
+   "activos": [
+    "Expansion",
+    "War"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 70.23,
+   "conflictos": [
+    {
+     "tipo": "war",
+     "estado": "active",
+     "contra": "Bundhar Group",
+     "ganados": 1,
+     "perdidos": 1
+    }
+   ],
+   "prev": null,
+   "prev_t": null
+  },
+  "Tascheter Sector ZZ-Y b1": {
+   "sys": "Tascheter Sector ZZ-Y b1",
+   "t": 1794142886,
+   "src": "EDDN",
+   "inf": 21.88,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 45.75,
+   "conflictos": []
+  },
+  "Jitabed": {
+   "sys": "Jitabed",
+   "t": 1794143086,
+   "src": "EDDN",
+   "inf": 46.12,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 19.48,
+   "conflictos": []
+  },
+  "Catun": {
+   "sys": "Catun",
+   "t": 1794134953,
+   "src": "EDDN",
+   "inf": 67.33,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 12.87,
+   "conflictos": []
+  },
+  "Epsilon Sculptoris": {
+   "sys": "Epsilon Sculptoris",
+   "t": 1794145160,
+   "src": "EDDN",
+   "inf": 10.61,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Guardians of Tranquillity",
+   "segunda_inf": 45.35,
+   "conflictos": []
+  },
+  "Tascheter Sector YZ-Y b6": {
+   "sys": "Tascheter Sector YZ-Y b6",
+   "t": 1794148206,
+   "src": "EDDN",
+   "inf": 22.26,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [
+    "Election"
+   ],
+   "recuperando": [],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 25.98,
+   "conflictos": [
+    {
+     "tipo": "election",
+     "estado": "pending",
+     "contra": "New Adjukru Coalition",
+     "ganados": 0,
+     "perdidos": 0
+    }
+   ]
+  },
+  "Hyades Sector XV-L b8-3": {
+   "sys": "Hyades Sector XV-L b8-3",
+   "t": 1794155398,
+   "src": "EDDN",
+   "inf": 8.25,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "The Fatherhood",
+   "segunda_inf": 51.21,
+   "conflictos": []
+  },
+  "LP 158-2": {
+   "sys": "LP 158-2",
+   "t": 1794155464,
+   "src": "EDDN",
+   "inf": 10.1,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Social LP 158-2 Resistance",
+   "segunda_inf": 29.6,
+   "conflictos": []
+  },
+  "LP 254-40": {
+   "sys": "LP 254-40",
+   "t": 1794157074,
+   "src": "EDDN",
+   "inf": 11.3,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "LP 254-40 Co",
+   "segunda_inf": 63.13,
+   "conflictos": []
+  },
+  "Yin Sector WO-A b1": {
+   "sys": "Yin Sector WO-A b1",
+   "t": 1794157120,
+   "src": "EDDN",
+   "inf": 14.84,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "LP 254-40 Co",
+   "segunda_inf": 48.65,
+   "conflictos": []
+  },
+  "BD+34 1378": {
+   "sys": "BD+34 1378",
+   "t": 1794157166,
+   "src": "EDDN",
+   "inf": 53.91,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Revolutionary BD+34 1378 Future",
+   "segunda_inf": 13.28,
+   "conflictos": []
+  },
+  "Hyades Sector LI-S c4-15": {
+   "sys": "Hyades Sector LI-S c4-15",
+   "t": 1794157265,
+   "src": "EDDN",
+   "inf": 6.78,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 64.7,
+   "conflictos": []
+  },
+  "Hyades Sector SZ-N b7-0": {
+   "sys": "Hyades Sector SZ-N b7-0",
+   "t": 1794157378,
+   "src": "EDDN",
+   "inf": 5.0,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 71.33,
+   "conflictos": []
+  },
+  "Jangore": {
+   "sys": "Jangore",
+   "t": 1794159039,
+   "src": "EDDN",
+   "inf": 6.81,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Beasts of Bestia",
+   "segunda_inf": 59.02,
+   "conflictos": []
+  },
+  "Diaguthivar": {
+   "sys": "Diaguthivar",
+   "t": 1794160512,
+   "src": "EDDN",
+   "inf": 5.32,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 66.8,
+   "conflictos": []
+  },
+  "Adjukru": {
+   "sys": "Adjukru",
+   "t": 1794162781,
+   "src": "EDDN",
+   "inf": 64.75,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "160 S.O.A.R.",
+   "segunda_inf": 13.84,
+   "conflictos": []
+  },
+  "Burr": {
+   "sys": "Burr",
+   "t": 1794163337,
+   "src": "EDDN",
+   "inf": 39.8,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "160 S.O.A.R.",
+   "segunda_inf": 19.7,
+   "conflictos": []
+  },
+  "Elivagar": {
+   "sys": "Elivagar",
+   "t": 1794163427,
+   "src": "EDDN",
+   "inf": 39.11,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Elivagar for Equality",
+   "segunda_inf": 18.82,
+   "conflictos": []
+  },
+  "Makum": {
+   "sys": "Makum",
+   "t": 1794166032,
+   "src": "EDDN",
+   "inf": 3.69,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flat Galaxy Society",
+   "segunda_inf": 71.86,
+   "conflictos": []
+  },
+  "Swoilz HE-D c1-13": {
+   "sys": "Swoilz HE-D c1-13",
+   "t": 1794160752,
+   "src": "EDDN",
+   "inf": 92.31,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "CivilLiberty",
+    "Boom",
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Natural Atese Front",
+   "segunda_inf": 4.9,
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
+  }
+ },
+ "eddn": {
+  "ok": true,
+  "ultimo": 0,
+  "msgs": 1611,
+  "mios": 0
+ },
+ "t": 0
+}

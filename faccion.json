@@ -487,13 +487,29 @@
    "conflictos": [],
    "prev": null,
    "prev_t": null
+  },
+  "Hyades Sector JX-T c3-19": {
+   "sys": "Hyades Sector JX-T c3-19",
+   "t": 1794169688,
+   "src": "EDDN",
+   "inf": 9.85,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 56.35,
+   "conflictos": []
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 1611,
-  "mios": 0
+  "ultimo": 1794169689.5290642,
+  "msgs": 48672,
+  "mios": 1
  },
- "t": 0
+ "t": 1794169697.715877
 }

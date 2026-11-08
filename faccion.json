@@ -145,7 +145,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1794161451,
+   "t": 1794177397,
    "src": "EDDN",
    "inf": 14.89,
    "ctrl": false,
@@ -278,7 +278,7 @@
   },
   "LP 158-2": {
    "sys": "LP 158-2",
-   "t": 1794155464,
+   "t": 1794177357,
    "src": "EDDN",
    "inf": 10.1,
    "ctrl": false,
@@ -290,7 +290,9 @@
    "recuperando": [],
    "segunda": "Social LP 158-2 Resistance",
    "segunda_inf": 29.6,
-   "conflictos": []
+   "conflictos": [],
+   "prev": null,
+   "prev_t": null
   },
   "LP 254-40": {
    "sys": "LP 254-40",
@@ -556,9 +558,9 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794176351.5686607,
-  "msgs": 23512,
-  "mios": 3
+  "ultimo": 1794177398.6012487,
+  "msgs": 57880,
+  "mios": 5
  },
- "t": 1794176357.3904219
+ "t": 1794177407.421315
 }

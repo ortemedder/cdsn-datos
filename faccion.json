@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 22
+    "2026-11-09": 24
    },
    "pn": {
     "J9W-B6T": {
@@ -4344,10 +4344,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794240409.6872563,
-  "msgs": 567856,
+  "msgs": 582810,
   "mios": 21
  },
- "t": 1794240950.0291715,
+ "t": 1794242000.4638257,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4452,7 +4452,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794240492
+   "t": 1794241634
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5773,7 +5773,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794240442
+   "t": 1794241582
   },
   "Labe": {
    "pos": [
@@ -6228,7 +6228,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794238710
+   "t": 1794241214
   },
   "Wuluang": {
    "pos": [
@@ -6440,6 +6440,89 @@
     "Zemina Torval"
    ],
    "t": 1794240944
+  },
+  "LFT 446": {
+   "pos": [
+    -18.125,
+    15.46875,
+    -68.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794241143
+  },
+  "Ross 23": {
+   "pos": [
+    -45.71875,
+    0.875,
+    -75.21875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.1671,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794241381
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.287452,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794241146
+  },
+  "Zephyrus": {
+   "pos": [
+    -21.84375,
+    12.59375,
+    -60.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.241935,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794241688
+  },
+  "Tjapan": {
+   "pos": [
+    -32.5625,
+    37.5,
+    -84.8125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.006566,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794241987
   }
  }
 }

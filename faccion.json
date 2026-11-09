@@ -2786,13 +2786,106 @@
     "gov": "Democracy",
     "alg": "Independent"
    }
+  },
+  "HIP 19292": {
+   "sys": "HIP 19292",
+   "t": 1794185054,
+   "src": "EDDN",
+   "inf": 13.29,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Lavigny's Legion",
+   "segunda_inf": 52.85,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Lavigny's Legion",
+     "inf": 52.85,
+     "gov": "Patronage",
+     "alg": "Empire",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Phracani Patron's Principles",
+     "inf": 18.28,
+     "gov": "Patronage",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 13.29,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Chapterhouse of Inquisition",
+     "inf": 9.09,
+     "gov": "Patronage",
+     "alg": "Empire",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Phracani Jet Family",
+     "inf": 6.49,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Lavigny's Legion",
+   "pos": [
+    117.96875,
+    -119.8125,
+    -14.1875
+   ],
+   "sis": {
+    "pob": 204368,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Patronage;",
+    "alg": "Empire"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "A. Lavigny-Duval"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 746,
-  "mios": 0
+  "ultimo": 1794185055.3251338,
+  "msgs": 38489,
+  "mios": 1
  },
- "t": 0
+ "t": 1794185060.83609
 }

@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 97
+    "2026-11-09": 103
    },
    "pn": {
     "J9W-B6T": {
@@ -4390,10 +4390,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794251475.3375697,
-  "msgs": 772747,
+  "msgs": 791106,
   "mios": 27
  },
- "t": 1794251936.0956376,
+ "t": 1794252726.4642994,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -6994,6 +6994,110 @@
     "Jerome Archer"
    ],
    "t": 1794251803
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.435994,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794251970
+  },
+  "Loki Tan": {
+   "pos": [
+    32.375,
+    28.34375,
+    -109.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.170263,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794252005
+  },
+  "Tascheter Sector CG-O a6-1": {
+   "pos": [
+    7.96875,
+    -43.84375,
+    -44.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794252438
+  },
+  "Zosia": {
+   "pos": [
+    -16.75,
+    19.59375,
+    -60.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257229,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794252487
+  },
+  "Hyades Sector XV-L b8-6": {
+   "pos": [
+    -42.125,
+    -10.1875,
+    -94.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.079463,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794252621
+  },
+  "Bestia": {
+   "pos": [
+    -36.09375,
+    -1.46875,
+    -84.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.129712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794252686
   }
  }
 }

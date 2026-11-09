@@ -1529,24 +1529,23 @@
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
-   "t": 1794148206,
+   "t": 1794226579,
    "src": "EDDN",
    "inf": 22.26,
    "ctrl": false,
-   "estado": "Expansion",
+   "estado": "Election",
    "activos": [
-    "Expansion"
-   ],
-   "pendientes": [
+    "Expansion",
     "Election"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 25.98,
+   "segunda_inf": 28.4,
    "conflictos": [
     {
      "tipo": "election",
-     "estado": "pending",
+     "estado": "active",
      "contra": "New Adjukru Coalition",
      "ganados": 0,
      "perdidos": 0
@@ -1555,25 +1554,25 @@
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 25.98,
+     "inf": 28.4,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "New Adjukru Coalition",
      "inf": 22.26,
      "gov": "Confederacy",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Election"
      ],
-     "jug": false
+     "pend": [],
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -1581,30 +1580,29 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
-      "Expansion"
-     ],
-     "pend": [
+      "Expansion",
       "Election"
      ],
-     "jug": true
+     "pend": [],
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 19.54,
+     "inf": 17.93,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Revolutionary Party of Rong",
-     "inf": 9.97,
+     "inf": 9.16,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "THE AZGHARIE",
@@ -1614,13 +1612,42 @@
     -93.40625
    ],
    "sis": {
-    "pob": 75378274,
-    "eco": "Industrial",
-    "eco2": "Refinery",
-    "seg": "Low",
-    "gov": "Democracy",
+    "pob": 75379931,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Fortified",
+    "prog": 0.072868,
+    "ref": 197,
+    "soc": 1033,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-09": 2
+   },
+   "pn": {
+    "T9K-12H": {
+     "n": "L*******************T",
+     "t": 1794226579
+    },
+    "N6J-80Z": {
+     "n": "FRESH PRINCE OF ALTAIR",
+     "t": 1794226579
+    }
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
@@ -3667,11 +3694,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794196870.1162963,
-  "msgs": 368987,
-  "mios": 4
+  "ultimo": 1794226580.922942,
+  "msgs": 378843,
+  "mios": 6
  },
- "t": 1794225395.5466626,
+ "t": 1794226585.7670622,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3908,7 +3935,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794224799
+   "t": 1794225924
   },
   "Lorden": {
    "pos": [
@@ -4232,7 +4259,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794223745
+   "t": 1794225932
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -4851,13 +4878,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.261238,
+   "prog": 0.261281,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794225199
+   "t": 1794226304
   },
   "Opila": {
    "pos": [
@@ -4977,6 +5004,58 @@
     "Zemina Torval"
    ],
    "t": 1794225064
+  },
+  "BD+33 801": {
+   "pos": [
+    -31.3125,
+    -25.03125,
+    -107.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794225922
+  },
+  "Kenna": {
+   "pos": [
+    -5.5,
+    -100.53125,
+    -10.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.265805,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794225998
+  },
+  "Tascheter Sector YZ-Y b6": {
+   "pos": [
+    -18.65625,
+    5.8125,
+    -93.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.072868,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794226579
   }
  }
 }

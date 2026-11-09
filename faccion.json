@@ -3007,15 +3007,96 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Col 285 Sector YZ-U b17-3": {
+   "sys": "Col 285 Sector YZ-U b17-3",
+   "t": 1794195170,
+   "src": "EDDN",
+   "inf": 12.93,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Solaris Xeno-Psychology Group",
+   "segunda_inf": 51.92,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Solaris Xeno-Psychology Group",
+     "inf": 51.92,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Labour of Any Na",
+     "inf": 21.31,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Social Binar Values Party",
+     "inf": 13.84,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 12.93,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "pos": [
+    136.46875,
+    -15,
+    17.34375
+   ],
+   "sis": {
+    "pob": 1591355,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Cooperative;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "A. Lavigny-Duval",
+     "Zemina Torval"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794191569.3732488,
-  "msgs": 37618,
-  "mios": 1
+  "ultimo": 1794195174.7313278,
+  "msgs": 85446,
+  "mios": 2
  },
- "t": 1794191571.7101974,
+ "t": 1794194941.9427302,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3061,7 +3142,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.255818,
+   "prog": 0.255726,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -3069,7 +3150,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794189050
+   "t": 1794191527
   },
   "Hoder": {
    "pos": [
@@ -3120,7 +3201,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794190772
+   "t": 1794191876
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -3172,6 +3253,87 @@
     "Jerome Archer"
    ],
    "t": 1794174644
+  },
+  "Jita Ten": {
+   "pos": [
+    26.28125,
+    11.6875,
+    -74.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.262309,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794177616
+  },
+  "Hyades Sector YG-K b9-5": {
+   "pos": [
+    -57.84375,
+    3.34375,
+    -83.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794192136
+  },
+  "Tialocan": {
+   "pos": [
+    99.65625,
+    -124.5,
+    -7.71875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.297269,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794192645
+  },
+  "Wolf 218": {
+   "pos": [
+    -39.40625,
+    -9.5,
+    -74.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794194897
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.122855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794194931
   }
  }
 }

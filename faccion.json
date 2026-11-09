@@ -2838,9 +2838,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794176350,
+   "t": 1794236156,
    "src": "EDDN",
-   "inf": 92.31,
+   "inf": 90.71,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -2851,43 +2851,41 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 4.9,
+   "segunda_inf": 6.89,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 92.31,
+     "inf": 90.71,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
-      "Civil liberty",
+      "CivilLiberty",
       "Boom",
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Natural Atese Front",
-     "inf": 4.9,
+     "inf": 6.89,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 2.8,
+     "inf": 2.4,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
      ],
-     "jug": true
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -2897,16 +2895,36 @@
     280.59375
    ],
    "sis": {
-    "pob": 34597633,
-    "eco": "Refinery",
-    "eco2": "Industrial",
-    "seg": "Low",
-    "gov": "Democracy",
+    "pob": 36099963,
+    "eco": "$economy_Refinery;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
    },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
    "trafico": {
-    "2026-11-09": 8
-   }
+    "2026-11-09": 10
+   },
+   "pn": {
+    "J9W-B6T": {
+     "n": "NOSTRAMO - II",
+     "t": 1794236156
+    },
+    "H5L-70M": {
+     "n": "[CDSN] Folkvangr",
+     "t": 1794236156
+    }
+   },
+   "prev": 92.31,
+   "prev_t": 1794176350
   },
   "Hyades Sector JX-T c3-19": {
    "sys": "Hyades Sector JX-T c3-19",
@@ -3942,11 +3960,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794232951.8811085,
-  "msgs": 466462,
-  "mios": 14
+  "ultimo": 1794236165.198875,
+  "msgs": 500955,
+  "mios": 16
  },
- "t": 1794233907.803727,
+ "t": 1794236598.2549577,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4427,7 +4445,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794198599
+   "t": 1794236350
   },
   "Moram": {
    "pos": [
@@ -4547,13 +4565,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.315103,
+   "prog": 0.315112,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794230856
+   "t": 1794234409
   },
   "Decima": {
    "pos": [
@@ -5126,13 +5144,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.261281,
+   "prog": 0.261492,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794226304
+   "t": 1794234119
   },
   "Opila": {
    "pos": [
@@ -5695,6 +5713,90 @@
     "Jerome Archer"
    ],
    "t": 1794233895
+  },
+  "Vardh": {
+   "pos": [
+    -34.21875,
+    -18.4375,
+    -113.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794234943
+  },
+  "Tascheter Sector XO-A b6": {
+   "pos": [
+    -1.75,
+    -16.34375,
+    -108.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794235881
+  },
+  "Tascheter Sector CG-X b1-4": {
+   "pos": [
+    -14.53125,
+    5.59375,
+    -75.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794236461
+  },
+  "HIP 44510": {
+   "pos": [
+    138.6875,
+    -9.5625,
+    6.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794236508
+  },
+  "Col 285 Sector AQ-P a35-4": {
+   "pos": [
+    143,
+    -26.28125,
+    29.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794236585
   }
  }
 }

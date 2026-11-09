@@ -2869,7 +2869,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794259088,
+   "t": 1794259852,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 143
+    "2026-11-09": 145
    },
    "pn": {
     "J9W-B6T": {
@@ -2951,7 +2951,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794259088
+     "t": 1794259852
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2959,7 +2959,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794259088
+     "t": 1794259852
     }
    },
    "prev": 92.31,
@@ -4692,11 +4692,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794259089.177908,
-  "msgs": 937616,
-  "mios": 43
+  "ultimo": 1794259852.7496233,
+  "msgs": 957293,
+  "mios": 44
  },
- "t": 1794259101.2590184,
+ "t": 1794260011.7351263,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4817,7 +4817,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794191300
+   "t": 1794260006
   },
   "Agrippa": {
    "pos": [
@@ -5161,7 +5161,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794258326
+   "t": 1794259925
   },
   "Moram": {
    "pos": [
@@ -5667,7 +5667,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794213803
+   "t": 1794259319
   },
   "Nyal": {
    "pos": [
@@ -5967,7 +5967,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794225922
+   "t": 1794259359
   },
   "Kenna": {
    "pos": [
@@ -6121,7 +6121,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794258701
+   "t": 1794259417
   },
   "Hyades Sector SU-N b7-5": {
    "pos": [
@@ -6247,7 +6247,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794231465
+   "t": 1794259660
   },
   "Chicoana": {
    "pos": [
@@ -6821,7 +6821,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794244727
+   "t": 1794186275
   },
   "Oisi": {
    "pos": [
@@ -7230,7 +7230,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794250780
+   "t": 1794259070
   },
   "Hyades Sector QE-O b7-3": {
    "pos": [
@@ -7348,7 +7348,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794252438
+   "t": 1794258499
   },
   "Zosia": {
    "pos": [

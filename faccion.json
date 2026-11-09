@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794230997,
+   "t": 1794232634,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 7
+    "2026-11-09": 8
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -3823,15 +3823,130 @@
      "Li Yong-Rui"
     ]
    }
+  },
+  "Condharwal": {
+   "sys": "Condharwal",
+   "t": 1794232370,
+   "src": "EDDN",
+   "inf": 26.62,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Condharwal Council",
+   "segunda_inf": 18.32,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 26.62,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Condharwal Council",
+     "inf": 18.32,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Democrats of Condharwal",
+     "inf": 14.68,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [
+      "War"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Order of Enblackenment",
+     "inf": 14.68,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [
+      "War"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Noblemen of Condharwal",
+     "inf": 12.55,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Condharwal Exchange",
+     "inf": 12.15,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Condharwal Purple Partnership",
+     "inf": 1.01,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -15.09375,
+    14.9375,
+    -81.25
+   ],
+   "sis": {
+    "pob": 95281,
+    "eco": "$economy_Colony;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.061712,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794231002.861778,
-  "msgs": 442456,
-  "mios": 12
+  "ultimo": 1794232951.8811085,
+  "msgs": 454980,
+  "mios": 14
  },
- "t": 1794231987.2451108,
+ "t": 1794232957.4846694,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4392,7 +4507,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794231310
+   "t": 1794232628
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -5068,7 +5183,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794223647
+   "t": 1794232921
   },
   "Ross 584": {
    "pos": [
@@ -5324,7 +5439,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794230997
+   "t": 1794232634
   },
   "LP 941-16": {
    "pos": [
@@ -5514,6 +5629,57 @@
     "Jerome Archer"
    ],
    "t": 1794231717
+  },
+  "Chimechilo": {
+   "pos": [
+    20.8125,
+    -84.875,
+    -12.90625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.261286,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794232384
+  },
+  "LTT 751": {
+   "pos": [
+    6.375,
+    -95.625,
+    -10.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794232718
+  },
+  "Condharwal": {
+   "pos": [
+    -15.09375,
+    14.9375,
+    -81.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.061712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794232370
   }
  }
 }

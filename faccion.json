@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794186525,
+   "t": 1794227877,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -248,7 +248,7 @@
     -107.59375
    ],
    "sis": {
-    "pob": 566402579,
+    "pob": 566981748,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -267,6 +267,9 @@
      "Zemina Torval",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-09": 2
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -3715,11 +3718,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794227084.6852026,
-  "msgs": 388640,
-  "mios": 7
+  "ultimo": 1794227878.5555234,
+  "msgs": 399304,
+  "mios": 8
  },
- "t": 1794227476.0401452,
+ "t": 1794228336.347913,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4280,7 +4283,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794225932
+   "t": 1794228012
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -5058,7 +5061,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794225998
+   "t": 1794228326
   },
   "Tascheter Sector YZ-Y b6": {
    "pos": [
@@ -5146,6 +5149,106 @@
     "Jerome Archer"
    ],
    "t": 1794227474
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155443,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794227626
+  },
+  "Dewikum": {
+   "pos": [
+    19.375,
+    -0.28125,
+    -68.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794227698
+  },
+  "Ceti Sector KX-T b3-0": {
+   "pos": [
+    -2.25,
+    -104.3125,
+    -19.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.541253,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794227741
+  },
+  "Hyades Sector SU-N b7-5": {
+   "pos": [
+    -17.6875,
+    -1,
+    -107.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794227877
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1794227923
+  },
+  "EGM 823": {
+   "pos": [
+    10.59375,
+    -75.875,
+    -9.03125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253169,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794227941
   }
  }
 }

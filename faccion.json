@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 8
+    "2026-11-09": 12
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -3943,10 +3943,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794232951.8811085,
-  "msgs": 454980,
+  "msgs": 466462,
   "mios": 14
  },
- "t": 1794232957.4846694,
+ "t": 1794233907.803727,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4051,7 +4051,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794231886
+   "t": 1794233678
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5003,7 +5003,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794216469
+   "t": 1794233061
   },
   "Col 285 Sector TD-T a33-2": {
    "pos": [
@@ -5372,7 +5372,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794227474
+   "t": 1794233629
   },
   "Labe": {
    "pos": [
@@ -5680,6 +5680,21 @@
     "Jerome Archer"
    ],
    "t": 1794232370
+  },
+  "Tascheter Sector WE-Q a5-2": {
+   "pos": [
+    11.9375,
+    -31.1875,
+    -50.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794233895
   }
  }
 }

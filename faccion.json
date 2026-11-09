@@ -2910,8 +2910,28 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 637,
+  "msgs": 675,
   "mios": 0
  },
- "t": 0
+ "t": 1794188821.417823,
+ "zona": {
+  "Hajangai": {
+   "pos": [
+    -28.125,
+    4.90625,
+    -68.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.273992,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794188817
+  }
+ }
 }

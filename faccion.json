@@ -2838,7 +2838,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794240311,
+   "t": 1794242812,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2911,20 +2911,20 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 24
+    "2026-11-09": 30
    },
    "pn": {
     "J9W-B6T": {
      "n": "NOSTRAMO - II",
-     "t": 1794240678
+     "t": 1794242846
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794240678
+     "t": 1794242846
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
-     "t": 1794240514
+     "t": 1794242846
     }
    },
    "prev": 92.31,
@@ -4343,11 +4343,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794240409.6872563,
-  "msgs": 582810,
-  "mios": 21
+  "ultimo": 1794242813.3609698,
+  "msgs": 598216,
+  "mios": 22
  },
- "t": 1794242000.4638257,
+ "t": 1794242930.9257488,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5105,7 +5105,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794206682
+   "t": 1794177032
   },
   "Ceti Sector EW-V b2-5": {
    "pos": [
@@ -6507,7 +6507,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794241688
+   "t": 1794242471
   },
   "Tjapan": {
    "pos": [
@@ -6523,6 +6523,38 @@
     "Jerome Archer"
    ],
    "t": 1794241987
+  },
+  "Tascheter Sector AV-Y b7": {
+   "pos": [
+    -22.4375,
+    -21.53125,
+    -87.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794242290
+  },
+  "Oisi": {
+   "pos": [
+    -44.8125,
+    19.34375,
+    -102.375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.153712,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794242896
   }
  }
 }

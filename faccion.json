@@ -3088,15 +3088,111 @@
      "Zemina Torval"
     ]
    }
+  },
+  "Hyades Sector TK-M b8-3": {
+   "sys": "Hyades Sector TK-M b8-3",
+   "t": 1794195547,
+   "src": "EDDN",
+   "inf": 22.01,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flotta Stellare",
+   "segunda_inf": 50.75,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flotta Stellare",
+     "inf": 50.75,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 22.01,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Furuhjelm II-432 Alliance",
+     "inf": 10.65,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Flat Galaxy Society",
+     "inf": 8.74,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Tastis Company",
+     "inf": 7.84,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Flotta Stellare",
+   "pos": [
+    -0.09375,
+    36.21875,
+    -95.5625
+   ],
+   "sis": {
+    "pob": 1995621,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.16914,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-09": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794195174.7313278,
-  "msgs": 85446,
-  "mios": 2
+  "ultimo": 1794195548.6779752,
+  "msgs": 95863,
+  "mios": 3
  },
- "t": 1794194941.9427302,
+ "t": 1794196032.0935316,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3167,7 +3263,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794190386
+   "t": 1794195959
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -3334,6 +3430,56 @@
     "Pranav Antal"
    ],
    "t": 1794194931
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.253963,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794195175
+  },
+  "Hyades Sector TK-M b8-3": {
+   "pos": [
+    -0.09375,
+    36.21875,
+    -95.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.16914,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794195547
+  },
+  "Furuhjelm III-674": {
+   "pos": [
+    -39,
+    -8.125,
+    -87.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.144082,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794196023
   }
  }
 }

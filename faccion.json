@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 13
+    "2026-11-09": 15
    },
    "pn": {
     "J9W-B6T": {
@@ -3956,15 +3956,208 @@
      "Jerome Archer"
     ]
    }
+  },
+  "LHS 5116": {
+   "sys": "LHS 5116",
+   "t": 1794237767,
+   "src": "EDDN",
+   "inf": 8.57,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 62.75,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "THE AZGHARIE",
+     "inf": 62.75,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "BD+34 1378 Universal & Co",
+     "inf": 15.04,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 8.57,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "LHS 5116 Nationalists",
+     "inf": 6.97,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "LHS 5116 Industry",
+     "inf": 2.99,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Drug Empire of LHS 5116",
+     "inf": 2.29,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Regulatory State of LHS 5116",
+     "inf": 1.39,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "THE AZGHARIE",
+   "pos": [
+    11.15625,
+    13.59375,
+    -95.3125
+   ],
+   "sis": {
+    "pob": 7093603,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Aisling Duval",
+    "est": "Exploited",
+    "prog": 0.243998,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Felicia Winters",
+     "Li Yong-Rui"
+    ]
+   },
+   "trafico": {
+    "2026-11-09": 1
+   },
+   "pn": {
+    "BZB-26Z": {
+     "n": "OZZY OSBOURNE",
+     "t": 1794237778
+    }
+   }
+  },
+  "Ceti Sector CL-X b1-1": {
+   "sys": "Ceti Sector CL-X b1-1",
+   "t": 1794238060,
+   "src": "EDDN",
+   "inf": 14.31,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Ukrainian Pilots Federation",
+   "segunda_inf": 60.56,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Ukrainian Pilots Federation",
+     "inf": 60.56,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Movement for Nauacan Coalition",
+     "inf": 25.13,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 14.31,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Ukrainian Pilots Federation",
+   "pos": [
+    8.25,
+    -103.875,
+    -54.3125
+   ],
+   "sis": {
+    "pob": 1996034,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Denton Patreus",
+     "Li Yong-Rui"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794236165.198875,
-  "msgs": 512827,
-  "mios": 16
+  "ultimo": 1794238061.5594485,
+  "msgs": 525184,
+  "mios": 18
  },
- "t": 1794237478.5942404,
+ "t": 1794238198.910501,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4460,7 +4653,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794236881
+   "t": 1794238190
   },
   "Apam Napat": {
    "pos": [
@@ -5118,7 +5311,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794218603
+   "t": 1794237604
   },
   "BD-22 286": {
    "pos": [
@@ -5878,6 +6071,23 @@
     "Jerome Archer"
    ],
    "t": 1794237462
+  },
+  "LHS 5116": {
+   "pos": [
+    11.15625,
+    13.59375,
+    -95.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.243998,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794237767
   }
  }
 }

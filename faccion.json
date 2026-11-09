@@ -176,9 +176,9 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794153986,
+   "t": 1794186525,
    "src": "EDDN",
-   "inf": 57.98,
+   "inf": 57.88,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -189,19 +189,17 @@
    "segunda": "Sirius Special Forces",
    "segunda_inf": 25.95,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 57.98,
+     "inf": 57.88,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Sirius Special Forces",
@@ -210,16 +208,16 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "LTT 11648 Partners",
-     "inf": 16.07,
+     "inf": 16.17,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -230,12 +228,27 @@
    ],
    "sis": {
     "pob": 566402579,
-    "eco": "Industrial",
-    "eco2": "Extraction",
-    "seg": "High",
-    "gov": "Democracy",
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "prev": 57.98,
+   "prev_t": 1794153986
   },
   "Hyades Sector VA-M b8-3": {
    "sys": "Hyades Sector VA-M b8-3",
@@ -763,7 +776,7 @@
   },
   "Tascheter Sector ZZ-Y b1": {
    "sys": "Tascheter Sector ZZ-Y b1",
-   "t": 1794142886,
+   "t": 1794186574,
    "src": "EDDN",
    "inf": 21.88,
    "ctrl": false,
@@ -786,7 +799,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -797,7 +810,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Edenses Comms Incorporated",
@@ -806,18 +819,16 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Flotta Stellare",
      "inf": 8.59,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Wolf 258 Silver Organisation",
@@ -826,7 +837,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "THE AZGHARIE",
@@ -837,12 +848,27 @@
    ],
    "sis": {
     "pob": 1130816,
-    "eco": "Military",
-    "eco2": "None",
-    "seg": "Low",
-    "gov": "Democracy",
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval"
+    ]
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Jitabed": {
    "sys": "Jitabed",
@@ -2883,9 +2909,9 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794185055.3251338,
-  "msgs": 38489,
-  "mios": 1
+  "ultimo": 1794186576.2640245,
+  "msgs": 51244,
+  "mios": 3
  },
- "t": 1794185060.83609
+ "t": 1794186580.8939152
 }

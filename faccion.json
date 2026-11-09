@@ -2888,7 +2888,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794259852,
+   "t": 1794265353,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2961,7 +2961,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 145
+    "2026-11-09": 147
    },
    "pn": {
     "J9W-B6T": {
@@ -2970,7 +2970,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794259852
+     "t": 1794265353
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2978,7 +2978,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794259852
+     "t": 1794265353
     }
    },
    "prev": 92.31,
@@ -4711,11 +4711,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794263649.0645773,
-  "msgs": 1030750,
-  "mios": 45
+  "ultimo": 1794265353.865363,
+  "msgs": 1061498,
+  "mios": 46
  },
- "t": 1794263653.14447,
+ "t": 1794265363.6763692,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4733,7 +4733,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794262399
+   "t": 1794264684
   },
   "Ethli": {
    "pos": [
@@ -5018,7 +5018,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794196126
+   "t": 1794265112
   },
   "Jurua": {
    "pos": [
@@ -5149,7 +5149,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794197625
+   "t": 1794264610
   },
   "Alpha Doradus": {
    "pos": [
@@ -5533,12 +5533,12 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.228987,
+   "prog": 0.228993,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794208660
+   "t": 1794264078
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -7707,7 +7707,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794258995
+   "t": 1794264929
   },
   "Tote": {
    "pos": [
@@ -7808,6 +7808,55 @@
     "Pranav Antal"
    ],
    "t": 1794263640
+  },
+  "Feng Tanga": {
+   "pos": [
+    5.75,
+    -113.125,
+    -67.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.135,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794264614
+  },
+  "Tau-6 Eridani": {
+   "pos": [
+    22.46875,
+    -43.9375,
+    -29.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794264314
+  },
+  "Col 285 Sector RY-W b16-1": {
+   "pos": [
+    128.46875,
+    -3.21875,
+    3.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794253119
   }
  }
 }

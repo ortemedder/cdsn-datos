@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 53
+    "2026-11-09": 60
    },
    "pn": {
     "J9W-B6T": {
@@ -4344,10 +4344,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794242813.3609698,
-  "msgs": 642350,
+  "msgs": 657974,
   "mios": 22
  },
- "t": 1794245572.2210643,
+ "t": 1794246452.5674574,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4828,7 +4828,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794244928
+   "t": 1794245653
   },
   "Moram": {
    "pos": [
@@ -4853,14 +4853,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.327447,
+   "prog": 0.329451,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794198651
+   "t": 1794246069
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -6636,6 +6636,23 @@
     "Jerome Archer"
    ],
    "t": 1794245459
+  },
+  "Iku-Turso": {
+   "pos": [
+    6.46875,
+    -77.90625,
+    -14.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794246143
   }
  }
 }

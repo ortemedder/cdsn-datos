@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794227877,
+   "t": 1794229398,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 3
+    "2026-11-09": 4
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -3718,11 +3718,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794227878.5555234,
-  "msgs": 410727,
-  "mios": 8
+  "ultimo": 1794229403.2070084,
+  "msgs": 420726,
+  "mios": 9
  },
- "t": 1794229356.414637,
+ "t": 1794230276.7274697,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3819,7 +3819,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.252472,
+   "prog": 0.252485,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -3827,7 +3827,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794191876
+   "t": 1794230112
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -4277,13 +4277,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.299311,
+   "prog": 0.299318,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794228012
+   "t": 1794230246
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -4626,7 +4626,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794212333
+   "t": 1794230186
   },
   "Hyades Sector SZ-N b7-2": {
    "pos": [
@@ -5215,7 +5215,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794227877
+   "t": 1794229398
   },
   "LP 941-16": {
    "pos": [
@@ -5249,6 +5249,67 @@
     "Zemina Torval"
    ],
    "t": 1794227941
+  },
+  "Hyades Sector OT-P b6-0": {
+   "pos": [
+    31.1875,
+    31.1875,
+    -132.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794229584
+  },
+  "Guambia": {
+   "pos": [
+    19,
+    19.59375,
+    -133.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.254238,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794229661
+  },
+  "HR 2711": {
+   "pos": [
+    24.46875,
+    40.5,
+    -130.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.093137,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1794230240
+  },
+  "BD-00 632": {
+   "pos": [
+    9.46875,
+    -36.34375,
+    -48.625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.260086,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794230273
   }
  }
 }

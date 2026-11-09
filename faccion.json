@@ -104,59 +104,61 @@
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
-   "t": 1793827795,
-   "src": "EDSM",
-   "inf": 55.08,
+   "t": 1794227083,
+   "src": "EDDN",
+   "inf": 46.51,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Ngauna Incorporated",
-   "segunda_inf": 18.82,
+   "segunda_inf": 18.53,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 55.08,
+     "inf": 46.51,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
-     "jug": true
+     "pend": [],
+     "jug": null
     },
     {
      "n": "Ngauna Incorporated",
-     "inf": 18.82,
+     "inf": 18.53,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Election"
+     ],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Wathiparian Power Corp.",
-     "inf": 16.63,
+     "inf": 18.53,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Election"
+     ],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 9.46,
+     "inf": 16.43,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -166,13 +168,32 @@
     -84.28125
    ],
    "sis": {
-    "pob": 335010582,
-    "eco": "High Tech",
-    "eco2": "Industrial",
-    "seg": "Medium",
-    "gov": "Democracy",
+    "pob": 335750839,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.256869,
+    "ref": 296,
+    "soc": 191,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-09": 2
+   },
+   "prev": 55.08,
+   "prev_t": 1793827795
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
@@ -1634,7 +1655,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 2
+    "2026-11-09": 3
    },
    "pn": {
     "T9K-12H": {
@@ -3694,11 +3715,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794226580.922942,
-  "msgs": 378843,
-  "mios": 6
+  "ultimo": 1794227084.6852026,
+  "msgs": 388640,
+  "mios": 7
  },
- "t": 1794226585.7670622,
+ "t": 1794227476.0401452,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4194,7 +4215,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794225110
+   "t": 1794227453
   },
   "Apam Napat": {
    "pos": [
@@ -5056,6 +5077,75 @@
     "Jerome Archer"
    ],
    "t": 1794226579
+  },
+  "Tascheter Sector CG-X b1-2": {
+   "pos": [
+    -21.875,
+    8.6875,
+    -84.28125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256869,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794227083
+  },
+  "Tascheter Sector ZZ-P a5-0": {
+   "pos": [
+    19.4375,
+    -35.59375,
+    -45.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.00914,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794227225
+  },
+  "GCRV 5084": {
+   "pos": [
+    8.78125,
+    42.90625,
+    -93.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.104615,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794227377
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.250109,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794227474
   }
  }
 }

@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794254333,
+   "t": 1794255661,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 17
+    "2026-11-09": 19
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 119
+    "2026-11-09": 123
    },
    "pn": {
     "J9W-B6T": {
@@ -4292,7 +4292,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794254892,
+   "t": 1794256411,
    "src": "EDDN",
    "inf": 59.55,
    "ctrl": true,
@@ -4375,25 +4375,208 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 12
+    "2026-11-09": 13
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794254985
+     "t": 1794256411
     }
    },
    "prev": null,
    "prev_t": null
+  },
+  "Hyades Sector AC-K b9-6": {
+   "sys": "Hyades Sector AC-K b9-6",
+   "t": 1794255951,
+   "src": "EDDN",
+   "inf": 10.36,
+   "ctrl": false,
+   "estado": "Election",
+   "activos": [
+    "Expansion",
+    "Election"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "160 S.O.A.R.",
+   "segunda_inf": 55.42,
+   "conflictos": [
+    {
+     "tipo": "election",
+     "estado": "active",
+     "contra": "Beasts of Bestia",
+     "ganados": 0,
+     "perdidos": 1
+    }
+   ],
+   "todas": [
+    {
+     "n": "160 S.O.A.R.",
+     "inf": 55.42,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Quebecois Patriots",
+     "inf": 16.27,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.36,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion",
+      "Election"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 10.36,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Election"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Astrobiology Research Cooperative",
+     "inf": 7.59,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "160 S.O.A.R.",
+   "pos": [
+    -47.8125,
+    -9.125,
+    -81.4375
+   ],
+   "sis": {
+    "pob": 2004893,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Alliance"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.035997,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   }
+  },
+  "Parrot's Head Sector DQ-Y c9": {
+   "sys": "Parrot's Head Sector DQ-Y c9",
+   "t": 1794256000,
+   "src": "EDDN",
+   "inf": 48.4,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "The Fatherhood",
+   "segunda_inf": 40.4,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 48.4,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "The Fatherhood",
+     "inf": 40.4,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "The Dukes of Mikunn",
+     "inf": 11.2,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    48.65625,
+    -117.9375,
+    960.875
+   ],
+   "sis": {
+    "pob": 4333346,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "trafico": {
+    "2026-11-09": 2
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794254893.295689,
-  "msgs": 853518,
-  "mios": 33
+  "ultimo": 1794256412.926731,
+  "msgs": 875362,
+  "mios": 37
  },
- "t": 1794255458.4741423,
+ "t": 1794256419.0958416,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4498,7 +4681,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794255225
+   "t": 1794256355
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5835,7 +6018,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794254333
+   "t": 1794255661
   },
   "LP 941-16": {
    "pos": [
@@ -6371,7 +6554,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794254892
+   "t": 1794256411
   },
   "BD+18 1160": {
    "pos": [
@@ -6486,7 +6669,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794255313
+   "t": 1794255629
   },
   "Tjapan": {
    "pos": [
@@ -6496,12 +6679,12 @@
    ],
    "pot": "Pranav Antal",
    "est": "Exploited",
-   "prog": 0.006566,
+   "prog": 0.006626,
    "pots": [
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794241987
+   "t": 1794256351
   },
   "Tascheter Sector AV-Y b7": {
    "pos": [
@@ -7207,6 +7390,22 @@
     "Jerome Archer"
    ],
    "t": 1794254945
+  },
+  "Hyades Sector AC-K b9-6": {
+   "pos": [
+    -47.8125,
+    -9.125,
+    -81.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.035997,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794255951
   }
  }
 }

@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794232634,
+   "t": 1794253185,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 12
+    "2026-11-09": 14
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2869,7 +2869,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794247931,
+   "t": 1794253195,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 103
+    "2026-11-09": 111
    },
    "pn": {
     "J9W-B6T": {
@@ -2951,7 +2951,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794248128
+     "t": 1794253329
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2959,7 +2959,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794248011
+     "t": 1794253329
     }
    },
    "prev": 92.31,
@@ -4292,7 +4292,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794251474,
+   "t": 1794253714,
    "src": "EDDN",
    "inf": 59.55,
    "ctrl": true,
@@ -4375,12 +4375,12 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 5
+    "2026-11-09": 8
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794251603
+     "t": 1794253714
     }
    },
    "prev": null,
@@ -4389,11 +4389,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794251475.3375697,
-  "msgs": 791106,
-  "mios": 27
+  "ultimo": 1794253716.76247,
+  "msgs": 811782,
+  "mios": 31
  },
- "t": 1794252726.4642994,
+ "t": 1794253717.2315848,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4498,7 +4498,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794251185
+   "t": 1794253648
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5835,7 +5835,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794232634
+   "t": 1794253185
   },
   "LP 941-16": {
    "pos": [
@@ -6074,7 +6074,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794233895
+   "t": 1794253195
   },
   "Vardh": {
    "pos": [
@@ -6371,7 +6371,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794251474
+   "t": 1794253714
   },
   "BD+18 1160": {
    "pos": [
@@ -6486,7 +6486,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794251283
+   "t": 1794252940
   },
   "Tjapan": {
    "pos": [
@@ -7098,6 +7098,37 @@
     "Jerome Archer"
    ],
    "t": 1794252686
+  },
+  "Tascheter Sector OX-U b2-3": {
+   "pos": [
+    15.75,
+    -46.5,
+    -56.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794253029
+  },
+  "Col 285 Sector UT-W b16-3": {
+   "pos": [
+    136.875,
+    -7.78125,
+    5.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794253676
   }
  }
 }

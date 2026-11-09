@@ -955,7 +955,88 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 12.87,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 67.33,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 12.87,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Escuadron Centinelas",
+     "inf": 5.35,
+     "gov": "Feudal",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Catun Resistance",
+     "inf": 4.75,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Catun PLC",
+     "inf": 3.86,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "New Catun First",
+     "inf": 2.97,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Catun Mafia",
+     "inf": 2.87,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "sis": {
+    "pob": 11588392,
+    "eco": "High Tech",
+    "eco2": "Refinery",
+    "seg": "Medium",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
@@ -971,7 +1052,63 @@
    "recuperando": [],
    "segunda": "Guardians of Tranquillity",
    "segunda_inf": 45.35,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Guardians of Tranquillity",
+     "inf": 45.35,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [
+      "Boom"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "East India Company",
+     "inf": 30.63,
+     "gov": "Corporate",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "UICLI",
+     "inf": 13.41,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.61,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    }
+   ],
+   "ctrl_n": "Guardians of Tranquillity",
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "sis": {
+    "pob": 2197927,
+    "eco": "Military",
+    "eco2": "None",
+    "seg": "Low",
+    "gov": "Dictatorship",
+    "alg": "Independent"
+   }
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -997,7 +1134,76 @@
      "ganados": 0,
      "perdidos": 0
     }
-   ]
+   ],
+   "todas": [
+    {
+     "n": "THE AZGHARIE",
+     "inf": 25.98,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "New Adjukru Coalition",
+     "inf": 22.26,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Election"
+     ],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 22.26,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [
+      "Election"
+     ],
+     "jug": true
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 19.54,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Revolutionary Party of Rong",
+     "inf": 9.97,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "THE AZGHARIE",
+   "pos": [
+    -18.65625,
+    5.8125,
+    -93.40625
+   ],
+   "sis": {
+    "pob": 75378274,
+    "eco": "Industrial",
+    "eco2": "Refinery",
+    "seg": "Low",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
@@ -1013,7 +1219,72 @@
    "recuperando": [],
    "segunda": "The Fatherhood",
    "segunda_inf": 51.21,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "The Fatherhood",
+     "inf": 51.21,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "160 S.O.A.R.",
+     "inf": 15.59,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 15.19,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Workers of Yax Balam Alliance",
+     "inf": 9.76,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 8.25,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    }
+   ],
+   "ctrl_n": "The Fatherhood",
+   "pos": [
+    -30.875,
+    -8.0625,
+    -98.875
+   ],
+   "sis": {
+    "pob": 46669019,
+    "eco": "Extraction",
+    "eco2": "High Tech",
+    "seg": "Low",
+    "gov": "Democracy",
+    "alg": "Federation"
+   }
   },
   "LP 158-2": {
    "sys": "LP 158-2",
@@ -1031,7 +1302,88 @@
    "segunda_inf": 29.6,
    "conflictos": [],
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "todas": [
+    {
+     "n": "Social LP 158-2 Resistance",
+     "inf": 29.6,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Gliese 3299 Future",
+     "inf": 20.3,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "League of LP 158-2 Order",
+     "inf": 12.9,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 11.4,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.1,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "LP 158-2 Exchange",
+     "inf": 9.2,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "New LP 158-2 Constitution Party",
+     "inf": 6.5,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Social LP 158-2 Resistance",
+   "pos": [
+    -39,
+    8.375,
+    -101.25
+   ],
+   "sis": {
+    "pob": 9120561,
+    "eco": "Industrial",
+    "eco2": "Refinery",
+    "seg": "High",
+    "gov": "Democracy",
+    "alg": "Federation"
+   }
   },
   "LP 254-40": {
    "sys": "LP 254-40",
@@ -1047,7 +1399,88 @@
    "recuperando": [],
    "segunda": "LP 254-40 Co",
    "segunda_inf": 63.13,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "LP 254-40 Co",
+     "inf": 63.13,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 11.3,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Independent LP 254-40 Unionists",
+     "inf": 7.63,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "LP 254-40 Incorporated",
+     "inf": 6.64,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "LP 254-40 Autocracy",
+     "inf": 4.86,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Gang of LP 254-40",
+     "inf": 3.27,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Tastis Company",
+     "inf": 3.17,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "LP 254-40 Co",
+   "pos": [
+    1.5625,
+    23.9375,
+    -86.5625
+   ],
+   "sis": {
+    "pob": 2199090,
+    "eco": "Industrial",
+    "eco2": "None",
+    "seg": "Low",
+    "gov": "Corporate",
+    "alg": "Federation"
+   }
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
@@ -1063,7 +1496,72 @@
    "recuperando": [],
    "segunda": "LP 254-40 Co",
    "segunda_inf": 48.65,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "LP 254-40 Co",
+     "inf": 48.65,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "LP 254-27 Free",
+     "inf": 19.26,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 14.84,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 10.83,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Haraka Incorporated",
+     "inf": 6.42,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "LP 254-40 Co",
+   "pos": [
+    -0.3125,
+    20.65625,
+    -89.03125
+   ],
+   "sis": {
+    "pob": 1998604,
+    "eco": "Extraction",
+    "eco2": "High Tech",
+    "seg": "High",
+    "gov": "Corporate",
+    "alg": "Federation"
+   }
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
@@ -1079,7 +1577,92 @@
    "recuperando": [],
    "segunda": "Revolutionary BD+34 1378 Future",
    "segunda_inf": 13.28,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 53.91,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Revolutionary BD+34 1378 Future",
+     "inf": 13.28,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "BD+34 1378 Universal & Co",
+     "inf": 10.31,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "BD+34 1378 Natural Interstellar",
+     "inf": 7.93,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [
+      "War"
+     ],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Order of Enblackenment",
+     "inf": 7.93,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [
+      "War"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "New BD+34 1378 Conservatives",
+     "inf": 5.65,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "BD+34 1378 Gold Pirates",
+     "inf": 0.99,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    0.1875,
+    19.8125,
+    -93.90625
+   ],
+   "sis": {
+    "pob": 625487972,
+    "eco": "Agriculture",
+    "eco2": "Tourism",
+    "seg": "Medium",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Hyades Sector LI-S c4-15": {
    "sys": "Hyades Sector LI-S c4-15",
@@ -1095,7 +1678,61 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 64.7,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 64.7,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "GCRV 4259 Limited",
+     "inf": 16.62,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Social Guei Free",
+     "inf": 11.9,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 6.78,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    12.46875,
+    23.25,
+    -101.28125
+   ],
+   "sis": {
+    "pob": 2252912,
+    "eco": "Military",
+    "eco2": "High Tech",
+    "seg": "Low",
+    "gov": "Corporate",
+    "alg": "Federation"
+   }
   },
   "Hyades Sector SZ-N b7-0": {
    "sys": "Hyades Sector SZ-N b7-0",
@@ -1111,7 +1748,67 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 71.33,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 71.33,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Outbreak"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Enigma Dyson Syndicate",
+     "inf": 14.39,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Anti Xeno Initiative",
+     "inf": 9.29,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.0,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    15.9375,
+    16.65625,
+    -109.3125
+   ],
+   "sis": {
+    "pob": 1578334,
+    "eco": "Military",
+    "eco2": "High Tech",
+    "seg": "Low",
+    "gov": "Corporate",
+    "alg": "Federation"
+   }
   },
   "Jangore": {
    "sys": "Jangore",
@@ -1127,7 +1824,79 @@
    "recuperando": [],
    "segunda": "Beasts of Bestia",
    "segunda_inf": 59.02,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Beasts of Bestia",
+     "inf": 59.02,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Jangore Partnership",
+     "inf": 16.73,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Jangore Monarchy",
+     "inf": 10.92,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 6.81,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Jangore Power Systems",
+     "inf": 5.51,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Jangore Blue Council",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Beasts of Bestia",
+   "pos": [
+    -39.1875,
+    -3.1875,
+    -86
+   ],
+   "sis": {
+    "pob": 65393,
+    "eco": "Extraction",
+    "eco2": "High Tech",
+    "seg": "Low",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Diaguthivar": {
    "sys": "Diaguthivar",
@@ -1143,7 +1912,88 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 66.8,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 66.8,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Diaguthivar Industry",
+     "inf": 10.54,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 8.08,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.32,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Diaguthivar Dynasty",
+     "inf": 4.83,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Apadecavi Blue General Solutions",
+     "inf": 3.45,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Diaguthivar Gold Crew",
+     "inf": 0.99,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -8.6875,
+    2.0625,
+    -108.375
+   ],
+   "sis": {
+    "pob": 104764,
+    "eco": "Refinery",
+    "eco2": "Extraction",
+    "seg": "Low",
+    "gov": "Corporate",
+    "alg": "Federation"
+   }
   },
   "Adjukru": {
    "sys": "Adjukru",
@@ -1159,7 +2009,72 @@
    "recuperando": [],
    "segunda": "160 S.O.A.R.",
    "segunda_inf": 13.84,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 64.75,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "160 S.O.A.R.",
+     "inf": 13.84,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 11.41,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "New Adjukru Coalition",
+     "inf": 8.99,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Adjukru Silver Brotherhood",
+     "inf": 1.01,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -20.09375,
+    7.875,
+    -96.34375
+   ],
+   "sis": {
+    "pob": 13870,
+    "eco": "Extraction",
+    "eco2": null,
+    "seg": "Low",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Burr": {
    "sys": "Burr",
@@ -1175,7 +2090,81 @@
    "recuperando": [],
    "segunda": "160 S.O.A.R.",
    "segunda_inf": 19.7,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 39.8,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "160 S.O.A.R.",
+     "inf": 19.7,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "United Burr Partnership",
+     "inf": 14.43,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Burr Jet Fortune Industries",
+     "inf": 13.33,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 11.74,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Burr Boys",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "sis": {
+    "pob": 46130,
+    "eco": "Extraction",
+    "eco2": "Industrial",
+    "seg": "Medium",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Elivagar": {
    "sys": "Elivagar",
@@ -1191,7 +2180,94 @@
    "recuperando": [],
    "segunda": "Elivagar for Equality",
    "segunda_inf": 18.82,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 39.11,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Elivagar for Equality",
+     "inf": 18.82,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 11.63,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Elivagar Silver Advanced Ind",
+     "inf": 8.57,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [
+      "Civil war"
+     ],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Traditional Elivagar Autocracy",
+     "inf": 8.57,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [
+      "Civil war"
+     ],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Elivagar Law Party",
+     "inf": 6.8,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Elivagar Company",
+     "inf": 6.5,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -34.4375,
+    21.5625,
+    -93.15625
+   ],
+   "sis": {
+    "pob": 6839405007,
+    "eco": "Agriculture",
+    "eco2": "Industrial",
+    "seg": "High",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Makum": {
    "sys": "Makum",
@@ -1207,7 +2283,90 @@
    "recuperando": [],
    "segunda": "Flat Galaxy Society",
    "segunda_inf": 71.86,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flat Galaxy Society",
+     "inf": 71.86,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
+    },
+    {
+     "n": "Makum Group",
+     "inf": 7.98,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Makum Solutions",
+     "inf": 7.09,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Makum for Equality",
+     "inf": 4.49,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Makum Defence Force",
+     "inf": 3.89,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 3.69,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Makum Silver Gang",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Flat Galaxy Society",
+   "pos": [
+    18.4375,
+    33,
+    -121.9375
+   ],
+   "sis": {
+    "pob": 928709742,
+    "eco": "Agriculture",
+    "eco2": "Tourism",
+    "seg": "Medium",
+    "gov": "Democracy",
+    "alg": "Alliance"
+   }
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
@@ -1227,7 +2386,56 @@
    "segunda_inf": 4.9,
    "conflictos": [],
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 92.31,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Civil liberty",
+      "Boom",
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Natural Atese Front",
+     "inf": 4.9,
+     "gov": "Dictatorship",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Wolves of Jonai",
+     "inf": 2.8,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    63.0625,
+    -226.125,
+    280.59375
+   ],
+   "sis": {
+    "pob": 34597633,
+    "eco": "Refinery",
+    "eco2": "Industrial",
+    "seg": "Low",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Hyades Sector JX-T c3-19": {
    "sys": "Hyades Sector JX-T c3-19",
@@ -1243,11 +2451,65 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 56.35,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 56.35,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Hidatsa Liberals",
+     "inf": 19.9,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Gurabru Galactic Corporation",
+     "inf": 13.91,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 9.85,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -2.9375,
+    10.4375,
+    -114.46875
+   ],
+   "sis": {
+    "pob": 2197263,
+    "eco": "Military",
+    "eco2": "None",
+    "seg": "Low",
+    "gov": "Corporate",
+    "alg": "Federation"
+   }
   },
   "Ryujingit": {
    "sys": "Ryujingit",
-   "t": 1794174785,
+   "t": 1794182531,
    "src": "EDDN",
    "inf": 8.66,
    "ctrl": false,
@@ -1259,7 +2521,102 @@
    "recuperando": [],
    "segunda": "Flotta Stellare",
    "segunda_inf": 57.81,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flotta Stellare",
+     "inf": 57.81,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ryujingit Confederation",
+     "inf": 13.73,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 8.66,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lords of Ryujingit",
+     "inf": 6.67,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Bero Confederation",
+     "inf": 6.17,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Blue Allied Partners",
+     "inf": 4.68,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ryujingit Silver Hand Gang",
+     "inf": 2.29,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Flotta Stellare",
+   "pos": [
+    18.75,
+    -2.21875,
+    -86.53125
+   ],
+   "sis": {
+    "pob": 34255,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
@@ -1275,7 +2632,61 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 19.54,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 63.73,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 19.54,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Movement for Ariminimi Labour Union",
+     "inf": 11.42,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Jitabed Raiders",
+     "inf": 5.31,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -23.84375,
+    6.0625,
+    -114.125
+   ],
+   "sis": {
+    "pob": 220837,
+    "eco": "Military",
+    "eco2": "Service",
+    "seg": "Low",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   },
   "Ndabangluya": {
    "sys": "Ndabangluya",
@@ -1292,14 +2703,96 @@
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 17.64,
-   "conflictos": []
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 63.13,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Boom",
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 17.64,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": true
+    },
+    {
+     "n": "Ndabangluya Corp.",
+     "inf": 6.74,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Natural Ndabangluya League",
+     "inf": 4.56,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "League of Ndabangluya Law Party",
+     "inf": 3.57,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Ndabangluya Independents",
+     "inf": 3.37,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Ndabangluya Blue Organisation",
+     "inf": 0.99,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    2.84375,
+    17.40625,
+    -103.21875
+   ],
+   "sis": {
+    "pob": 3552746,
+    "eco": "Industrial",
+    "eco2": "Refinery",
+    "seg": "Medium",
+    "gov": "Democracy",
+    "alg": "Independent"
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 740,
-  "mios": 0
+  "ultimo": 1794182532.5613868,
+  "msgs": 12991,
+  "mios": 1
  },
- "t": 1794181711.71763
+ "t": 1794182541.8750985
 }

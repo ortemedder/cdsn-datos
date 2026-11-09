@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 73
+    "2026-11-09": 79
    },
    "pn": {
     "J9W-B6T": {
@@ -4348,10 +4348,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794247931.4782016,
-  "msgs": 695935,
+  "msgs": 714269,
   "mios": 24
  },
- "t": 1794248213.3420439,
+ "t": 1794249073.9489841,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4438,7 +4438,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794190532
+   "t": 1794248872
   },
   "Kolaga": {
    "pos": [
@@ -4456,7 +4456,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794244798
+   "t": 1794248730
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5505,7 +5505,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794237604
+   "t": 1794248454
   },
   "BD-22 286": {
    "pos": [
@@ -6246,7 +6246,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794237184
+   "t": 1794248125
   },
   "Aonga": {
    "pos": [
@@ -6511,7 +6511,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794242471
+   "t": 1794248703
   },
   "Tjapan": {
    "pos": [
@@ -6755,7 +6755,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794247985
+   "t": 1794248377
   },
   "LP 157-32": {
    "pos": [
@@ -6774,6 +6774,67 @@
     "Jerome Archer"
    ],
    "t": 1794248113
+  },
+  "Hou Warwa": {
+   "pos": [
+    9.5,
+    -0.46875,
+    -103.875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.168569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794248486
+  },
+  "BD+43 866": {
+   "pos": [
+    -45.25,
+    -12.78125,
+    -101.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.253826,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794248565
+  },
+  "Wiknani": {
+   "pos": [
+    14.4375,
+    -120.28125,
+    -58.03125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.107997,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794248655
+  },
+  "Patal": {
+   "pos": [
+    -1.3125,
+    -117.71875,
+    -52.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794248782
   }
  }
 }

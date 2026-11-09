@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 6
+    "2026-11-09": 7
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -3828,10 +3828,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794231002.861778,
-  "msgs": 431615,
+  "msgs": 442456,
   "mios": 12
  },
- "t": 1794231006.9136543,
+ "t": 1794231987.2451108,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3936,7 +3936,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794230603
+   "t": 1794231886
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -4194,11 +4194,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.261978,
+   "prog": 0.261992,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794196773
+   "t": 1794231776
   },
   "Brians": {
    "pos": [
@@ -4392,7 +4392,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794230246
+   "t": 1794231310
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -5435,6 +5435,85 @@
     "Li Yong-Rui"
    ],
    "t": 1794227186
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256546,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794231465
+  },
+  "Chicoana": {
+   "pos": [
+    -35,
+    -23.21875,
+    -110.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794231649
+  },
+  "Ceti Sector KX-T b3-3": {
+   "pos": [
+    6.71875,
+    -99,
+    -23.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794231673
+  },
+  "Yin Sector UT-A b1": {
+   "pos": [
+    4.21875,
+    43.0625,
+    -89.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794231661
+  },
+  "Tofana": {
+   "pos": [
+    -42.96875,
+    27,
+    -97.5
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.180988,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794231717
   }
  }
 }

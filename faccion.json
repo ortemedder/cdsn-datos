@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794229398,
+   "t": 1794230997,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 4
+    "2026-11-09": 6
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -3714,15 +3714,124 @@
      "Jerome Archer"
     ]
    }
+  },
+  "BD+27 881": {
+   "sys": "BD+27 881",
+   "t": 1794227186,
+   "src": "EDDN",
+   "inf": 5.69,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 53.05,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 53.05,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "GCRV 4259 Limited",
+     "inf": 11.69,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "BD+27 881 Independents",
+     "inf": 10.59,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ross 411 Network",
+     "inf": 8.29,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "BD+27 881 Allied Industry",
+     "inf": 5.89,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.69,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "BD+27 881 Dynasty",
+     "inf": 4.8,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    4.875,
+    0.90625,
+    -118.25
+   ],
+   "sis": {
+    "pob": 71754,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.14114,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794229403.2070084,
-  "msgs": 420726,
-  "mios": 9
+  "ultimo": 1794231002.861778,
+  "msgs": 431615,
+  "mios": 12
  },
- "t": 1794230276.7274697,
+ "t": 1794231006.9136543,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3827,7 +3936,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794230112
+   "t": 1794230603
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -4323,13 +4432,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.314643,
+   "prog": 0.315103,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794219783
+   "t": 1794230856
   },
   "Decima": {
    "pos": [
@@ -5215,7 +5324,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794229398
+   "t": 1794230997
   },
   "LP 941-16": {
    "pos": [
@@ -5310,6 +5419,22 @@
     "Jerome Archer"
    ],
    "t": 1794230273
+  },
+  "BD+27 881": {
+   "pos": [
+    4.875,
+    0.90625,
+    -118.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.14114,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794227186
   }
  }
 }

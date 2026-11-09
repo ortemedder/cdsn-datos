@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794257225,
+   "t": 1794266263,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 20
+    "2026-11-09": 22
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2961,7 +2961,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 147
+    "2026-11-09": 151
    },
    "pn": {
     "J9W-B6T": {
@@ -2970,7 +2970,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794265353
+     "t": 1794265493
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2978,7 +2978,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794265353
+     "t": 1794265493
     }
    },
    "prev": 92.31,
@@ -4707,15 +4707,148 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Ngargambo": {
+   "sys": "Ngargambo",
+   "t": 1794266381,
+   "src": "EDDN",
+   "inf": 4.9,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 71.73,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 71.73,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Co-op of Ngargambo",
+     "inf": 13.59,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ngargambo Power Systems",
+     "inf": 5.19,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 4.9,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ngargambo Pro-Independent League",
+     "inf": 3.6,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Raiders of Ngargambo",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    15.25,
+    13.78125,
+    -119.84375
+   ],
+   "sis": {
+    "pob": 36317,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.245184,
+    "ref": 15,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "trafico": {
+    "2026-11-09": 4
+   },
+   "pn": {
+    "G7Y-G4L": {
+     "n": "FLEET CARRIER",
+     "t": 1794265671
+    },
+    "X8B-9QJ": {
+     "n": "ASKEPOTS HIDEOUT",
+     "t": 1794265671
+    },
+    "QHQ-LQF": {
+     "n": "MINESTAR SERVICES",
+     "t": 1794265671
+    },
+    "X3Q-LXN": {
+     "n": "NICE",
+     "t": 1794265671
+    },
+    "K6W-38V": {
+     "n": "MS GERMANY",
+     "t": 1794265671
+    },
+    "J1G-G5N": {
+     "n": "SCOTTISH TSUNAMI",
+     "t": 1794265671
+    }
+   },
+   "prev": null,
+   "prev_t": null
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794265353.865363,
-  "msgs": 1061498,
-  "mios": 46
+  "ultimo": 1794266383.4361057,
+  "msgs": 1076749,
+  "mios": 49
  },
- "t": 1794265363.6763692,
+ "t": 1794266384.49881,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5018,7 +5151,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794265112
+   "t": 1794266214
   },
   "Jurua": {
    "pos": [
@@ -5149,7 +5282,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794264610
+   "t": 1794265703
   },
   "Alpha Doradus": {
    "pos": [
@@ -5180,7 +5313,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794261103
+   "t": 1794265789
   },
   "Moram": {
    "pos": [
@@ -5260,7 +5393,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794263367
+   "t": 1794265518
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -6157,7 +6290,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794257225
+   "t": 1794266263
   },
   "LP 941-16": {
    "pos": [
@@ -7857,6 +7990,71 @@
     "Zemina Torval"
    ],
    "t": 1794253119
+  },
+  "Ngargambo": {
+   "pos": [
+    15.25,
+    13.78125,
+    -119.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.245184,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794266381
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253252,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794265847
+  },
+  "Wawal": {
+   "pos": [
+    35.5625,
+    -1.3125,
+    -93.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.05352,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794265896
+  },
+  "Trianguli Sector VF-N a7-3": {
+   "pos": [
+    39.40625,
+    -28.125,
+    -51.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.178283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794266035
   }
  }
 }

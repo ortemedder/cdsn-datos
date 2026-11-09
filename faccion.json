@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794253185,
+   "t": 1794254333,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 14
+    "2026-11-09": 15
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 111
+    "2026-11-09": 115
    },
    "pn": {
     "J9W-B6T": {
@@ -4375,12 +4375,12 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 8
+    "2026-11-09": 10
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794253714
+     "t": 1794253917
     }
    },
    "prev": null,
@@ -4389,11 +4389,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794253716.76247,
-  "msgs": 811782,
-  "mios": 31
+  "ultimo": 1794254334.4909282,
+  "msgs": 832396,
+  "mios": 32
  },
- "t": 1794253717.2315848,
+ "t": 1794254627.7007596,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4498,7 +4498,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794253648
+   "t": 1794254618
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5835,7 +5835,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794253185
+   "t": 1794254333
   },
   "LP 941-16": {
    "pos": [
@@ -7129,6 +7129,35 @@
     "Zemina Torval"
    ],
    "t": 1794253676
+  },
+  "ICZ XY-A b3": {
+   "pos": [
+    114.5625,
+    -119.25,
+    -27.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794253925
+  },
+  "HIP 44811": {
+   "pos": [
+    132.84375,
+    -4.40625,
+    3.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.135998,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794254586
   }
  }
 }

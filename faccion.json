@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 60
+    "2026-11-09": 64
    },
    "pn": {
     "J9W-B6T": {
@@ -2925,6 +2925,10 @@
     "HLB-N6T": {
      "n": "LA CARRIER",
      "t": 1794242846
+    },
+    "W8Q-BQM": {
+     "n": "",
+     "t": 1794247303
     }
    },
    "prev": 92.31,
@@ -4344,10 +4348,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794242813.3609698,
-  "msgs": 657974,
+  "msgs": 677194,
   "mios": 22
  },
- "t": 1794246452.5674574,
+ "t": 1794247312.7964904,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5031,13 +5035,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.150052,
+   "prog": 0.16061,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794221245
+   "t": 1794247061
   },
   "LFT 179": {
    "pos": [
@@ -6653,6 +6657,39 @@
     "Zemina Torval"
    ],
    "t": 1794246143
+  },
+  "Didarengu": {
+   "pos": [
+    27.375,
+    18.1875,
+    -89.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.264569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794247056
+  },
+  "Kwangwutii": {
+   "pos": [
+    -8.90625,
+    -2.375,
+    -122.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.153594,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794247215
   }
  }
 }

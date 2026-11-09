@@ -2463,7 +2463,7 @@
     "alg": "Independent"
    },
    "trafico": {
-    "2026-11-09": 4
+    "2026-11-09": 8
    }
   },
   "Hyades Sector JX-T c3-19": {
@@ -3277,10 +3277,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794196870.1162963,
-  "msgs": 127877,
+  "msgs": 138108,
   "mios": 4
  },
- "t": 1794198662.5592966,
+ "t": 1794198972.637184,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3794,6 +3794,23 @@
     "Zemina Torval"
    ],
    "t": 1794198651
+  },
+  "Tascheter Sector BQ-Y c19": {
+   "pos": [
+    -4.875,
+    -9.53125,
+    -98.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794198478
   }
  }
 }

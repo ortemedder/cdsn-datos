@@ -2838,7 +2838,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794242812,
+   "t": 1794247931,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 64
+    "2026-11-09": 73
    },
    "pn": {
     "J9W-B6T": {
@@ -2920,15 +2920,15 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794242846
+     "t": 1794248128
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
      "t": 1794242846
     },
     "W8Q-BQM": {
-     "n": "",
-     "t": 1794247303
+     "n": "EXQUISITE-EXCURSION",
+     "t": 1794248011
     }
    },
    "prev": 92.31,
@@ -4347,11 +4347,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794242813.3609698,
-  "msgs": 677194,
-  "mios": 22
+  "ultimo": 1794247931.4782016,
+  "msgs": 695935,
+  "mios": 24
  },
- "t": 1794247312.7964904,
+ "t": 1794248213.3420439,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4832,7 +4832,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794245653
+   "t": 1794245998
   },
   "Moram": {
    "pos": [
@@ -6690,6 +6690,90 @@
     "Li Yong-Rui"
    ],
    "t": 1794247215
+  },
+  "Tascheter Sector AA-Z b4": {
+   "pos": [
+    29.9375,
+    -3.8125,
+    -92.34375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.05986,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794247687
+  },
+  "HIP 33497": {
+   "pos": [
+    31.78125,
+    29.65625,
+    -134.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.253025,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794247812
+  },
+  "LHS 1848": {
+   "pos": [
+    -24.96875,
+    23.5,
+    -64.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.325689,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794247961
+  },
+  "Bondranses": {
+   "pos": [
+    -37.6875,
+    -12.6875,
+    -101.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.179774,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794247985
+  },
+  "LP 157-32": {
+   "pos": [
+    -27.46875,
+    1.25,
+    -74.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794248113
   }
  }
 }

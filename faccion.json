@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 43
+    "2026-11-09": 53
    },
    "pn": {
     "J9W-B6T": {
@@ -4344,10 +4344,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794242813.3609698,
-  "msgs": 626587,
+  "msgs": 642350,
   "mios": 22
  },
- "t": 1794244731.6723492,
+ "t": 1794245572.2210643,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4452,7 +4452,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794243391
+   "t": 1794244798
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -4828,7 +4828,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794236350
+   "t": 1794244928
   },
   "Moram": {
    "pos": [
@@ -6587,6 +6587,55 @@
     "Zemina Torval"
    ],
    "t": 1794244226
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.100686,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794244793
+  },
+  "NLTT 8234": {
+   "pos": [
+    17,
+    -103.71875,
+    -44.1875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.202855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794244994
+  },
+  "BD-04 782": {
+   "pos": [
+    16.46875,
+    -39.75,
+    -52.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794245459
   }
  }
 }

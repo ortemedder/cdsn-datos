@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 22
+    "2026-11-09": 26
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -4810,7 +4810,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 4
+    "2026-11-09": 5
    },
    "pn": {
     "G7Y-G4L": {
@@ -4845,10 +4845,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794266383.4361057,
-  "msgs": 1076749,
+  "msgs": 1098445,
   "mios": 49
  },
- "t": 1794266384.49881,
+ "t": 1794267205.1728315,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4858,7 +4858,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.273992,
+   "prog": 0.274072,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
@@ -4866,7 +4866,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794264684
+   "t": 1794266620
   },
   "Ethli": {
    "pos": [
@@ -5022,7 +5022,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794177616
+   "t": 1794266931
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -5151,7 +5151,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794266214
+   "t": 1794267048
   },
   "Jurua": {
    "pos": [
@@ -6257,7 +6257,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794263249
+   "t": 1794266508
   },
   "Ceti Sector KX-T b3-0": {
    "pos": [
@@ -8005,7 +8005,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794266381
+   "t": 1794265665
   },
   "Ghimr": {
    "pos": [
@@ -8055,6 +8055,39 @@
     "Jerome Archer"
    ],
    "t": 1794266035
+  },
+  "LHS 1828": {
+   "pos": [
+    8.78125,
+    5.46875,
+    -93.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794266447
+  },
+  "Vivata": {
+   "pos": [
+    17.96875,
+    -77.375,
+    -17.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794266862
   }
  }
 }

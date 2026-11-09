@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 30
+    "2026-11-09": 36
    },
    "pn": {
     "J9W-B6T": {
@@ -4344,10 +4344,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794242813.3609698,
-  "msgs": 598216,
+  "msgs": 613012,
   "mios": 22
  },
- "t": 1794242930.9257488,
+ "t": 1794243401.24852,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4452,7 +4452,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794241634
+   "t": 1794243391
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5318,7 +5318,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794213393
+   "t": 1794243164
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -5773,7 +5773,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794241582
+   "t": 1794243346
   },
   "Labe": {
    "pos": [
@@ -5855,7 +5855,7 @@
     "Denton Patreus",
     "Pranav Antal"
    ],
-   "t": 1794227923
+   "t": 1794242747
   },
   "EGM 823": {
    "pos": [

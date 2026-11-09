@@ -2838,7 +2838,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794236156,
+   "t": 1794240311,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2911,16 +2911,20 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 18
+    "2026-11-09": 22
    },
    "pn": {
     "J9W-B6T": {
      "n": "NOSTRAMO - II",
-     "t": 1794236156
+     "t": 1794240678
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794236156
+     "t": 1794240678
+    },
+    "HLB-N6T": {
+     "n": "LA CARRIER",
+     "t": 1794240514
     }
    },
    "prev": 92.31,
@@ -4243,16 +4247,107 @@
      "Zemina Torval",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-09": 1
+   }
+  },
+  "Hyades Sector SU-N b7-0": {
+   "sys": "Hyades Sector SU-N b7-0",
+   "t": 1794240404,
+   "src": "EDDN",
+   "inf": 59.55,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 16.02,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 59.55,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 16.02,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 13.75,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Aristocrats of Lhou Wangs",
+     "inf": 10.68,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -19.59375,
+    -0.40625,
+    -120
+   ],
+   "sis": {
+    "pob": 98220187,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-09": 2
    }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794240205.0033617,
-  "msgs": 553129,
-  "mios": 19
+  "ultimo": 1794240409.6872563,
+  "msgs": 567856,
+  "mios": 21
  },
- "t": 1794240209.4724154,
+ "t": 1794240950.0291715,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4357,7 +4452,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794233678
+   "t": 1794240492
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5678,7 +5773,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794233629
+   "t": 1794240442
   },
   "Labe": {
    "pos": [
@@ -6281,6 +6376,70 @@
     "Jerome Archer"
    ],
    "t": 1794240196
+  },
+  "Hyades Sector SU-N b7-0": {
+   "pos": [
+    -19.59375,
+    -0.40625,
+    -120
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794240404
+  },
+  "BD+18 1160": {
+   "pos": [
+    25.125,
+    2.8125,
+    -105.09375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.269578,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794240703
+  },
+  "Col 285 Sector TD-T a33-1": {
+   "pos": [
+    147.125,
+    -30.75,
+    12.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794240901
+  },
+  "Oscabi": {
+   "pos": [
+    125.1875,
+    -16,
+    18.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794240944
   }
  }
 }

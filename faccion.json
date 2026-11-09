@@ -3184,15 +3184,100 @@
    "trafico": {
     "2026-11-09": 1
    }
+  },
+  "Eurus": {
+   "sys": "Eurus",
+   "t": 1794196869,
+   "src": "EDDN",
+   "inf": 51.1,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Ditia United Interstellar",
+   "segunda_inf": 25.0,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 51.1,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ditia United Interstellar",
+     "inf": 25.0,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Boom"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "East India Company",
+     "inf": 13.2,
+     "gov": "Corporate",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Movement for LHS 20 Liberals",
+     "inf": 10.7,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    26.09375,
+    -39.09375,
+    -45.75
+   ],
+   "sis": {
+    "pob": 2403321,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.085523,
+    "ref": 1182,
+    "soc": 48,
+    "pots": [
+     "Denton Patreus",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794195548.6779752,
-  "msgs": 95863,
-  "mios": 3
+  "ultimo": 1794196870.1162963,
+  "msgs": 106483,
+  "mios": 4
  },
- "t": 1794196032.0935316,
+ "t": 1794196872.2822313,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3228,7 +3313,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794188895
+   "t": 1794196631
   },
   "LTT 11485": {
    "pos": [
@@ -3480,6 +3565,100 @@
     "Jerome Archer"
    ],
    "t": 1794196023
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.257657,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794196077
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794196126
+  },
+  "Jurua": {
+   "pos": [
+    -38.6875,
+    -14.09375,
+    -71.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.310802,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794196131
+  },
+  "LHS 6103": {
+   "pos": [
+    8.84375,
+    6.03125,
+    -72
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.030854,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794196586
+  },
+  "Gyvatices": {
+   "pos": [
+    101.78125,
+    -126.40625,
+    -12.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.261978,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794196773
+  },
+  "Brians": {
+   "pos": [
+    107.75,
+    -135.15625,
+    -8.40625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.19948,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794196852
   }
  }
 }

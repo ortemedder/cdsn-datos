@@ -1780,7 +1780,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 2
+    "2026-11-09": 3
    },
    "prev": null,
    "prev_t": null
@@ -4693,10 +4693,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794259852.7496233,
-  "msgs": 957293,
+  "msgs": 996086,
   "mios": 44
  },
- "t": 1794260011.7351263,
+ "t": 1794261802.4234462,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4714,7 +4714,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794259096
+   "t": 1794261533
   },
   "Ethli": {
    "pos": [
@@ -4783,7 +4783,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794257932
+   "t": 1794248872
   },
   "Kolaga": {
    "pos": [
@@ -4801,7 +4801,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794258216
+   "t": 1794253503
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5161,7 +5161,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794259925
+   "t": 1794261103
   },
   "Moram": {
    "pos": [
@@ -5241,7 +5241,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794254946
+   "t": 1794261326
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -5685,7 +5685,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794257003
+   "t": 1794260791
   },
   "Dongkum": {
    "pos": [
@@ -6478,7 +6478,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794236722
+   "t": 1794261801
   },
   "Hyades Sector AC-K b9-7": {
    "pos": [
@@ -6821,7 +6821,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794186275
+   "t": 1794244727
   },
   "Oisi": {
    "pos": [
@@ -7033,7 +7033,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794257424
+   "t": 1794248377
   },
   "LP 157-32": {
    "pos": [
@@ -7689,6 +7689,74 @@
     "Jerome Archer"
    ],
    "t": 1794258995
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.244914,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794260288
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794261295
+  },
+  "Rindjibal": {
+   "pos": [
+    133,
+    -3.375,
+    23.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.253729,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794261355
+  },
+  "Padhyas": {
+   "pos": [
+    -1.625,
+    -12.6875,
+    -85.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.132718,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794261423
   }
  }
 }

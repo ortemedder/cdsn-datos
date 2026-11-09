@@ -2461,6 +2461,9 @@
     "seg": "Low",
     "gov": "Democracy",
     "alg": "Independent"
+   },
+   "trafico": {
+    "2026-11-09": 4
    }
   },
   "Hyades Sector JX-T c3-19": {
@@ -3274,10 +3277,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794196870.1162963,
-  "msgs": 106483,
+  "msgs": 127877,
   "mios": 4
  },
- "t": 1794196872.2822313,
+ "t": 1794198662.5592966,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -3659,6 +3662,138 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794196852
+  },
+  "EGM 762": {
+   "pos": [
+    12.375,
+    -79.1875,
+    -3.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259906,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794197035
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794197184
+  },
+  "Tascheter Sector CL-O a6-2": {
+   "pos": [
+    30.71875,
+    -32.59375,
+    -37
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075997,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794197324
+  },
+  "HJ 3456B": {
+   "pos": [
+    4.65625,
+    -102.625,
+    -24.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794197625
+  },
+  "Alpha Doradus": {
+   "pos": [
+    125.9375,
+    -111.28125,
+    -14
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794197855
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177592,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794198599
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.196329,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794198650
+  },
+  "Apam Napat": {
+   "pos": [
+    10.09375,
+    -90.46875,
+    -0.71875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Stronghold",
+   "prog": 0.327447,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794198651
   }
  }
 }

@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 15
+    "2026-11-09": 17
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 115
+    "2026-11-09": 119
    },
    "pn": {
     "J9W-B6T": {
@@ -4292,7 +4292,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794253714,
+   "t": 1794254892,
    "src": "EDDN",
    "inf": 59.55,
    "ctrl": true,
@@ -4375,12 +4375,12 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 10
+    "2026-11-09": 12
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794253917
+     "t": 1794254985
     }
    },
    "prev": null,
@@ -4389,11 +4389,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794254334.4909282,
-  "msgs": 832396,
-  "mios": 32
+  "ultimo": 1794254893.295689,
+  "msgs": 853518,
+  "mios": 33
  },
- "t": 1794254627.7007596,
+ "t": 1794255458.4741423,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4498,7 +4498,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794254618
+   "t": 1794255225
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -4938,7 +4938,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794232628
+   "t": 1794254946
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -5563,7 +5563,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794234119
+   "t": 1794255437
   },
   "Opila": {
    "pos": [
@@ -5850,7 +5850,7 @@
     "Denton Patreus",
     "Pranav Antal"
    ],
-   "t": 1794250594
+   "t": 1794255446
   },
   "EGM 823": {
    "pos": [
@@ -5868,7 +5868,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794227941
+   "t": 1794254922
   },
   "Hyades Sector OT-P b6-0": {
    "pos": [
@@ -6371,7 +6371,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794253714
+   "t": 1794254892
   },
   "BD+18 1160": {
    "pos": [
@@ -6486,7 +6486,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794252940
+   "t": 1794255313
   },
   "Tjapan": {
    "pos": [
@@ -6695,7 +6695,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794247812
+   "t": 1794255379
   },
   "LHS 1848": {
    "pos": [
@@ -7158,6 +7158,55 @@
     "Zemina Torval"
    ],
    "t": 1794254586
+  },
+  "Ceti Sector DL-X b1-0": {
+   "pos": [
+    17.6875,
+    -101.25,
+    -60.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01714,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794254755
+  },
+  "Jeticans": {
+   "pos": [
+    28.90625,
+    11.0625,
+    -110.125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.168569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794254841
+  },
+  "Tascheter Sector GR-M a7-0": {
+   "pos": [
+    25.4375,
+    -34,
+    -34.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.150883,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794254945
   }
  }
 }

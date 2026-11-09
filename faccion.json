@@ -808,7 +808,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 9
+    "2026-11-09": 10
    },
    "zc": [
     {
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 91
+    "2026-11-09": 97
    },
    "pn": {
     "J9W-B6T": {
@@ -4292,7 +4292,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794240404,
+   "t": 1794251474,
    "src": "EDDN",
    "inf": 59.55,
    "ctrl": true,
@@ -4323,7 +4323,9 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -4331,9 +4333,7 @@
      "inf": 13.75,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -4375,17 +4375,25 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 2
-   }
+    "2026-11-09": 5
+   },
+   "pn": {
+    "V8X-11L": {
+     "n": "ALATREON",
+     "t": 1794251603
+    }
+   },
+   "prev": null,
+   "prev_t": null
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794249435.6013443,
-  "msgs": 753367,
-  "mios": 26
+  "ultimo": 1794251475.3375697,
+  "msgs": 772747,
+  "mios": 27
  },
- "t": 1794251045.3320267,
+ "t": 1794251936.0956376,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4490,7 +4498,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794249835
+   "t": 1794251185
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -4673,22 +4681,6 @@
     "Jerome Archer"
    ],
    "t": 1794196023
-  },
-  "Piriti": {
-   "pos": [
-    -47.9375,
-    -1.1875,
-    -106.6875
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Fortified",
-   "prog": 0.257657,
-   "pots": [
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1794196077
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -5607,24 +5599,6 @@
    ],
    "t": 1794232921
   },
-  "Ross 584": {
-   "pos": [
-    10.9375,
-    -33.65625,
-    -36.4375
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Stronghold",
-   "prog": 0.435994,
-   "pots": [
-    "Aisling Duval",
-    "Li Yong-Rui",
-    "Yuri Grom",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794249781
-  },
   "Gautama": {
    "pos": [
     -6.78125,
@@ -6397,7 +6371,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794240404
+   "t": 1794251474
   },
   "BD+18 1160": {
    "pos": [
@@ -6505,14 +6479,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.241935,
+   "prog": 0.241898,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794250323
+   "t": 1794251283
   },
   "Tjapan": {
    "pos": [
@@ -6690,7 +6664,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794247215
+   "t": 1794251424
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -6938,24 +6912,6 @@
    ],
    "t": 1794250100
   },
-  "Tascheter Sector FR-M a7-3": {
-   "pos": [
-    22.96875,
-    -28.3125,
-    -31.59375
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.156569,
-   "pots": [
-    "Aisling Duval",
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794250403
-  },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
     17.0625,
@@ -6988,39 +6944,56 @@
    ],
    "t": 1794250745
   },
-  "Tascheter Sector IM-M a7-1": {
+  "Tascheter Sector CL-Y d135": {
    "pos": [
-    27.6875,
-    -38.875,
-    -28.5625
+    -28.03125,
+    -11.15625,
+    -92.03125
    ],
    "pot": null,
    "est": "Unoccupied",
    "prog": null,
    "pots": [
     "Aisling Duval",
+    "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1793232538
+   "t": 1794251119
   },
-  "LP 834-42": {
+  "Yax Balam": {
    "pos": [
-    30.53125,
-    -39.40625,
-    -32.15625
+    -23.53125,
+    -22.5625,
+    -95.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.251841,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794251375
+  },
+  "HAT 94-00572": {
+   "pos": [
+    -27.90625,
+    15,
+    -77.03125
    ],
    "pot": "Jerome Archer",
-   "est": "Fortified",
-   "prog": 0.264391,
+   "est": "Exploited",
+   "prog": 0.254975,
    "pots": [
-    "Denton Patreus",
+    "Edmund Mahon",
     "Li Yong-Rui",
-    "Zemina Torval",
+    "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1793232589
+   "t": 1794251803
   }
  }
 }

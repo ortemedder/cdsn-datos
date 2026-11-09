@@ -2869,7 +2869,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794256642,
+   "t": 1794257568,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 129
+    "2026-11-09": 137
    },
    "pn": {
     "J9W-B6T": {
@@ -2951,7 +2951,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794256793
+     "t": 1794257568
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2959,7 +2959,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794256793
+     "t": 1794257568
     }
    },
    "prev": 92.31,
@@ -4687,11 +4687,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794257275.7464154,
-  "msgs": 897203,
-  "mios": 40
+  "ultimo": 1794257569.431196,
+  "msgs": 918845,
+  "mios": 41
  },
- "t": 1794257369.8270292,
+ "t": 1794258260.6699739,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4709,7 +4709,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794213853
+   "t": 1794257671
   },
   "Ethli": {
    "pos": [
@@ -4778,7 +4778,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794248872
+   "t": 1794257932
   },
   "Kolaga": {
    "pos": [
@@ -4796,7 +4796,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794256730
+   "t": 1794258216
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -5563,7 +5563,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794211616
+   "t": 1794258081
   },
   "Hyades Sector SZ-N b7-1": {
    "pos": [
@@ -6767,7 +6767,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794241146
+   "t": 1794257522
   },
   "Zephyrus": {
    "pos": [
@@ -6993,7 +6993,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794255379
+   "t": 1794257475
   },
   "LHS 1848": {
    "pos": [
@@ -7028,7 +7028,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794248377
+   "t": 1794257424
   },
   "LP 157-32": {
    "pos": [
@@ -7599,6 +7599,40 @@
     "Jerome Archer"
    ],
    "t": 1794257274
+  },
+  "Exigus": {
+   "pos": [
+    -2.625,
+    38.3125,
+    -84.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794257483
+  },
+  "Mentor": {
+   "pos": [
+    -27.65625,
+    -3.5,
+    -85.53125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.090462,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794258226
   }
  }
 }

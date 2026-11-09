@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 36
+    "2026-11-09": 43
    },
    "pn": {
     "J9W-B6T": {
@@ -4344,10 +4344,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794242813.3609698,
-  "msgs": 613012,
+  "msgs": 626587,
   "mios": 22
  },
- "t": 1794243401.24852,
+ "t": 1794244731.6723492,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -6539,7 +6539,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794242290
+   "t": 1794244727
   },
   "Oisi": {
    "pos": [
@@ -6555,6 +6555,38 @@
     "Jerome Archer"
    ],
    "t": 1794242896
+  },
+  "GCRV 4654": {
+   "pos": [
+    12.78125,
+    21.125,
+    -74.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794244210
+  },
+  "Col 285 Sector WJ-R a34-4": {
+   "pos": [
+    140.875,
+    -27.5,
+    22.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794244226
   }
  }
 }

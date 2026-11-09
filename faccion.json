@@ -2911,7 +2911,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 10
+    "2026-11-09": 13
    },
    "pn": {
     "J9W-B6T": {
@@ -3961,10 +3961,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794236165.198875,
-  "msgs": 500955,
+  "msgs": 512827,
   "mios": 16
  },
- "t": 1794236598.2549577,
+ "t": 1794237478.5942404,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4460,7 +4460,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794227453
+   "t": 1794236881
   },
   "Apam Napat": {
    "pos": [
@@ -5797,6 +5797,87 @@
     "Zemina Torval"
    ],
    "t": 1794236585
+  },
+  "GCRV 2311": {
+   "pos": [
+    -37.375,
+    -16.75,
+    -97.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.273564,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794236722
+  },
+  "Hyades Sector AC-K b9-7": {
+   "pos": [
+    -49.8125,
+    -15,
+    -77.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.231998,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794236880
+  },
+  "Awonai": {
+   "pos": [
+    -2.46875,
+    41.3125,
+    -96.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.037274,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794236896
+  },
+  "Wuluang": {
+   "pos": [
+    126.46875,
+    -133.625,
+    -20.3125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.171363,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794237184
+  },
+  "Aonga": {
+   "pos": [
+    -34.46875,
+    9.53125,
+    -90.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794237462
   }
  }
 }

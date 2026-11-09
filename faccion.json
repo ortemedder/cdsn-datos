@@ -4149,15 +4149,110 @@
      "Li Yong-Rui"
     ]
    }
+  },
+  "Tascheter Sector YZ-Y b4": {
+   "sys": "Tascheter Sector YZ-Y b4",
+   "t": 1794240196,
+   "src": "EDDN",
+   "inf": 15.35,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 43.47,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 43.47,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 17.35,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 15.35,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Diaguthivar Industry",
+     "inf": 12.46,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "HIP 28774 Inc",
+     "inf": 11.37,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -11.8125,
+    1.5625,
+    -100.75
+   ],
+   "sis": {
+    "pob": 2208528,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794238061.5594485,
-  "msgs": 538562,
-  "mios": 18
+  "ultimo": 1794240205.0033617,
+  "msgs": 553129,
+  "mios": 19
  },
- "t": 1794239169.2843394,
+ "t": 1794240209.4724154,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -6122,6 +6217,70 @@
     "Pranav Antal"
    ],
    "t": 1794239166
+  },
+  "Guitaiku": {
+   "pos": [
+    -49.84375,
+    -13.5625,
+    -95.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.185141,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794239863
+  },
+  "Shedi": {
+   "pos": [
+    -33.53125,
+    -19.90625,
+    -77.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.253602,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794239969
+  },
+  "Breksta": {
+   "pos": [
+    29.4375,
+    -6.71875,
+    -70.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.280641,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794240088
+  },
+  "Tascheter Sector YZ-Y b4": {
+   "pos": [
+    -11.8125,
+    1.5625,
+    -100.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794240196
   }
  }
 }

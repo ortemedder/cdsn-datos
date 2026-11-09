@@ -2869,7 +2869,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794257568,
+   "t": 1794259088,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2942,7 +2942,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 137
+    "2026-11-09": 143
    },
    "pn": {
     "J9W-B6T": {
@@ -2951,7 +2951,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794257568
+     "t": 1794259088
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2959,7 +2959,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794257568
+     "t": 1794259088
     }
    },
    "prev": 92.31,
@@ -4122,7 +4122,7 @@
   },
   "Ceti Sector CL-X b1-1": {
    "sys": "Ceti Sector CL-X b1-1",
-   "t": 1794238060,
+   "t": 1794258925,
    "src": "EDDN",
    "inf": 14.31,
    "ctrl": false,
@@ -4190,7 +4190,12 @@
      "Denton Patreus",
      "Li Yong-Rui"
     ]
-   }
+   },
+   "trafico": {
+    "2026-11-09": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Tascheter Sector YZ-Y b4": {
    "sys": "Tascheter Sector YZ-Y b4",
@@ -4687,11 +4692,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794257569.431196,
-  "msgs": 918845,
-  "mios": 41
+  "ultimo": 1794259089.177908,
+  "msgs": 937616,
+  "mios": 43
  },
- "t": 1794258260.6699739,
+ "t": 1794259101.2590184,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4709,7 +4714,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794257671
+   "t": 1794259096
   },
   "Ethli": {
    "pos": [
@@ -4945,7 +4950,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794257213
+   "t": 1794258827
   },
   "Hyades Sector TK-M b8-3": {
    "pos": [
@@ -5092,7 +5097,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794222138
+   "t": 1794258468
   },
   "Tascheter Sector CL-O a6-2": {
    "pos": [
@@ -5156,7 +5161,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794245998
+   "t": 1794258326
   },
   "Moram": {
    "pos": [
@@ -6110,13 +6115,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.541253,
+   "prog": 0.541173,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794227741
+   "t": 1794258701
   },
   "Hyades Sector SU-N b7-5": {
    "pos": [
@@ -7633,6 +7638,57 @@
     "Jerome Archer"
    ],
    "t": 1794258226
+  },
+  "Ceti Sector CL-X b1-1": {
+   "pos": [
+    8.25,
+    -103.875,
+    -54.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794258925
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.206147,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794258922
+  },
+  "Wolf 289": {
+   "pos": [
+    24.75,
+    7.0625,
+    -77.375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.164569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794258995
   }
  }
 }

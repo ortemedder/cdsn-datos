@@ -2905,15 +2905,117 @@
      "A. Lavigny-Duval"
     ]
    }
+  },
+  "Wathiparian": {
+   "sys": "Wathiparian",
+   "t": 1794174644,
+   "src": "EDDN",
+   "inf": 41.87,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Wathiparian Power Corp.",
+   "segunda_inf": 18.82,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 41.87,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Power Corp.",
+     "inf": 18.82,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Crimson Major Group",
+     "inf": 14.98,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Defence Party",
+     "inf": 9.75,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Dominion",
+     "inf": 9.46,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "New Wathiparian Progressive Party",
+     "inf": 5.12,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -22.46875,
+    13.78125,
+    -93.34375
+   ],
+   "sis": {
+    "pob": 3223935864,
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Fortified",
+    "prog": 0.122769,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 675,
-  "mios": 0
+  "ultimo": 1794191569.3732488,
+  "msgs": 37618,
+  "mios": 1
  },
- "t": 1794188821.417823,
+ "t": 1794191571.7101974,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -2931,7 +3033,145 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794188817
+   "t": 1794190948
+  },
+  "Ethli": {
+   "pos": [
+    3.1875,
+    -4.65625,
+    -83.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.272786,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794188895
+  },
+  "LTT 11485": {
+   "pos": [
+    -26.78125,
+    -8.53125,
+    -100.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255818,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794189050
+  },
+  "Hoder": {
+   "pos": [
+    -21.1875,
+    -5.25,
+    -75.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.040569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794190386
+  },
+  "Hyades Sector QU-N b7-1": {
+   "pos": [
+    -45.5625,
+    -1.875,
+    -105.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794190532
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.252472,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794190772
+  },
+  "Tascheter Sector YZ-Y a3": {
+   "pos": [
+    -29.875,
+    -27.34375,
+    -100.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794191300
+  },
+  "Agrippa": {
+   "pos": [
+    -31.84375,
+    18.9375,
+    -83.3125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.080526,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794191491
+  },
+  "Wathiparian": {
+   "pos": [
+    -22.46875,
+    13.78125,
+    -93.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.122769,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794174644
   }
  }
 }

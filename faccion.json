@@ -3,7 +3,7 @@
  "sistemas": {
   "Pirawoth": {
    "sys": "Pirawoth",
-   "t": 1794314293,
+   "t": 1794338772,
    "src": "EDDN",
    "inf": 69.43,
    "ctrl": true,
@@ -111,16 +111,16 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 2
+    "2026-11-10": 4
    },
-   "prev": 69.9,
-   "prev_t": 1794135035,
    "pn": {
     "JZF-T7W": {
      "n": "(LSC)odysseum-prospect",
-     "t": 1794314464
+     "t": 1794338923
     }
-   }
+   },
+   "prev": 69.9,
+   "prev_t": 1794135035
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 45
+    "2026-11-10": 51
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 154
+    "2026-11-10": 157
    },
    "pn": {
     "J9W-B6T": {
@@ -5463,7 +5463,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794329645,
+   "t": 1794338966,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 24
+    "2026-11-10": 27
    },
    "prev": null,
    "prev_t": null
@@ -6475,11 +6475,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794335731.9083045,
-  "msgs": 412054,
-  "mios": 42
+  "ultimo": 1794338968.1733844,
+  "msgs": 430041,
+  "mios": 45
  },
- "t": 1794338089.3563313,
+ "t": 1794338970.120463,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6630,7 +6630,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.252574,
+   "prog": 0.25256,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -6638,7 +6638,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794337371
+   "t": 1794338824
   },
   "Dewikum": {
    "pos": [
@@ -6806,7 +6806,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794314293
+   "t": 1794338772
   },
   "Ceti Sector CL-X b1-5": {
    "pos": [
@@ -8773,7 +8773,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794335867
+   "t": 1794338219
   },
   "HIP 18802": {
    "pos": [
@@ -8913,6 +8913,39 @@
     "Zemina Torval"
    ],
    "t": 1794337746
+  },
+  "Daga tri": {
+   "pos": [
+    -23.1875,
+    -2.625,
+    -100.9375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794338371
+  },
+  "Tascheter Sector BL-O a6-2": {
+   "pos": [
+    23.125,
+    -32.71875,
+    -39.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794338383
   }
  }
 }

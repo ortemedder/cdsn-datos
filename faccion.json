@@ -5470,17 +5470,101 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 1
+    "2026-11-10": 3
+   }
+  },
+  "Hyades Sector QZ-N b7-3": {
+   "sys": "Hyades Sector QZ-N b7-3",
+   "t": 1794299350,
+   "src": "EDDN",
+   "inf": 46.31,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 22.85,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 46.31,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 22.85,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Hima Comms Network",
+     "inf": 21.26,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Posse of Kunuvii",
+     "inf": 9.58,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -17.09375,
+    16.5,
+    -117.21875
+   ],
+   "sis": {
+    "pob": 1626147,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.153183,
+    "ref": 15,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
    }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794298640.286792,
-  "msgs": 1451833,
-  "mios": 72
+  "ultimo": 1794299351.5944657,
+  "msgs": 1459238,
+  "mios": 73
  },
- "t": 1794298848.616777,
+ "t": 1794299749.134393,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -9017,7 +9101,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794275040
+   "t": 1794298949
   },
   "LP 883-185": {
    "pos": [
@@ -9546,7 +9630,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794294020
+   "t": 1794299741
   },
   "Hyades Sector PE-O b7-2": {
    "pos": [
@@ -9596,6 +9680,70 @@
     "Jerome Archer"
    ],
    "t": 1794298404
+  },
+  "Shouvul": {
+   "pos": [
+    28.53125,
+    17.875,
+    -88.90625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.2351,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794299263
+  },
+  "Hyades Sector QZ-N b7-3": {
+   "pos": [
+    -17.09375,
+    16.5,
+    -117.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.153183,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794299350
+  },
+  "Col 285 Sector YZ-U b17-4": {
+   "pos": [
+    142.1875,
+    -21.09375,
+    16.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794299541
+  },
+  "Ceti Sector GR-V b2-5": {
+   "pos": [
+    11.59375,
+    -88,
+    -25.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155998,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794299730
   }
  }
 }

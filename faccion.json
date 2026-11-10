@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794266263,
+   "t": 1794268417,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,7 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 28
+    "2026-11-09": 29
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2888,7 +2888,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794267543,
+   "t": 1794268516,
    "src": "EDDN",
    "inf": 90.71,
    "ctrl": true,
@@ -2961,7 +2961,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 157
+    "2026-11-09": 161
    },
    "pn": {
     "J9W-B6T": {
@@ -2970,7 +2970,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794267670
+     "t": 1794268651
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2978,7 +2978,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794267670
+     "t": 1794268651
     }
    },
    "prev": 92.31,
@@ -4840,15 +4840,116 @@
    },
    "prev": null,
    "prev_t": null
+  },
+  "Lyncis Sector XJ-R b4-0": {
+   "sys": "Lyncis Sector XJ-R b4-0",
+   "t": 1794268391,
+   "src": "EDDN",
+   "inf": 8.79,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Leaders of Apinayimas",
+   "segunda_inf": 49.75,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Leaders of Apinayimas",
+     "inf": 49.75,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Nanamatha Partners",
+     "inf": 15.38,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 11.39,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Suchi Jet Vision Holdings",
+     "inf": 9.69,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 8.79,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mob of Nanamatha",
+     "inf": 5.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Leaders of Apinayimas",
+   "pos": [
+    -27.125,
+    20.28125,
+    -116.65625
+   ],
+   "sis": {
+    "pob": 148674,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Feudal;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794267543.6791391,
-  "msgs": 1115106,
-  "mios": 50
+  "ultimo": 1794268516.2816408,
+  "msgs": 1128609,
+  "mios": 53
  },
- "t": 1794267965.727125,
+ "t": 1794268896.114197,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5151,7 +5252,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794267048
+   "t": 1794268374
   },
   "Jurua": {
    "pos": [
@@ -5282,7 +5383,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794267547
+   "t": 1794268883
   },
   "Alpha Doradus": {
    "pos": [
@@ -6290,7 +6391,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794266263
+   "t": 1794268417
   },
   "LP 941-16": {
    "pos": [
@@ -8088,6 +8189,23 @@
     "Zemina Torval"
    ],
    "t": 1794266862
+  },
+  "Lyncis Sector XJ-R b4-0": {
+   "pos": [
+    -27.125,
+    20.28125,
+    -116.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794268391
   }
  }
 }

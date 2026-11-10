@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 25
+    "2026-11-10": 27
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 133
+    "2026-11-10": 136
    },
    "pn": {
     "J9W-B6T": {
@@ -6476,10 +6476,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794331518.7270575,
-  "msgs": 324111,
+  "msgs": 340022,
   "mios": 41
  },
- "t": 1794333555.8447118,
+ "t": 1794334396.3495862,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6630,7 +6630,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.252538,
+   "prog": 0.252574,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -6638,7 +6638,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794332938
+   "t": 1794334164
   },
   "Dewikum": {
    "pos": [
@@ -8161,7 +8161,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794328641
+   "t": 1794334390
   },
   "BD+44 1040": {
    "pos": [
@@ -8585,6 +8585,56 @@
     "Zemina Torval"
    ],
    "t": 1794332243
+  },
+  "LHS 1848": {
+   "pos": [
+    -24.96875,
+    23.5,
+    -64.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.325689,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794334004
+  },
+  "Hyades Sector YG-K b9-5": {
+   "pos": [
+    -57.84375,
+    3.34375,
+    -83.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794334298
+  },
+  "Hyades Sector QO-P b6-6": {
+   "pos": [
+    21.9375,
+    7.3125,
+    -130.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794334368
   }
  }
 }

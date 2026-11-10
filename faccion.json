@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 60
+    "2026-11-10": 66
    },
    "pn": {
     "J9W-B6T": {
@@ -5380,10 +5380,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794275605.616792,
-  "msgs": 1253833,
+  "msgs": 1264098,
   "mios": 64
  },
- "t": 1794277080.9209614,
+ "t": 1794278121.6266727,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5401,7 +5401,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794276475
+   "t": 1794278119
   },
   "Ethli": {
    "pos": [
@@ -5637,7 +5637,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794272542
+   "t": 1794277238
   },
   "Hyades Sector TK-M b8-3": {
    "pos": [
@@ -5686,7 +5686,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794276041
+   "t": 1794277514
   },
   "Jurua": {
    "pos": [
@@ -6206,7 +6206,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794277077
+   "t": 1794278000
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -6605,7 +6605,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794224238
+   "t": 1794278086
   },
   "LP 302-22": {
    "pos": [
@@ -6664,14 +6664,14 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.265805,
+   "prog": 0.266109,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794228326
+   "t": 1794277741
   },
   "Tascheter Sector YZ-Y b6": {
    "pos": [
@@ -8970,7 +8970,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794276556
+   "t": 1794278053
   },
   "Skeller": {
    "pos": [
@@ -8987,6 +8987,56 @@
     "Pranav Antal"
    ],
    "t": 1794276620
+  },
+  "NLTT 14879": {
+   "pos": [
+    -31.71875,
+    14,
+    -67.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.122672,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794277262
+  },
+  "Zach": {
+   "pos": [
+    -10.09375,
+    19.0625,
+    -69.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.231341,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794277335
+  },
+  "Hyades Sector HC-U c3-10": {
+   "pos": [
+    12.65625,
+    28.84375,
+    -137
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.277498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794277919
   }
  }
 }

@@ -1397,7 +1397,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794272249,
+   "t": 1794281894,
    "src": "EDDN",
    "inf": 67.33,
    "ctrl": true,
@@ -1496,8 +1496,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.248483,
-    "ref": 914,
+    "prog": 0.248529,
+    "ref": 944,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -1507,24 +1507,24 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 3
+    "2026-11-10": 5
    },
-   "prev": null,
-   "prev_t": null,
    "pn": {
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794272398
+     "t": 1794282002
     },
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794272398
+     "t": 1794282002
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794272398
+     "t": 1794282002
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 85
+    "2026-11-10": 91
    },
    "pn": {
     "J9W-B6T": {
@@ -5379,11 +5379,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794275605.616792,
-  "msgs": 1302739,
-  "mios": 64
+  "ultimo": 1794281895.7185123,
+  "msgs": 1312677,
+  "mios": 65
  },
- "t": 1794281723.428503,
+ "t": 1794282513.9137642,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -8817,14 +8817,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.248483,
+   "prog": 0.248529,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794272249
+   "t": 1794281894
   },
   "Kunuvii": {
    "pos": [
@@ -9013,7 +9013,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.231341,
+   "prog": 0.231055,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -9021,7 +9021,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794277335
+   "t": 1794282267
   },
   "Hyades Sector HC-U c3-10": {
    "pos": [
@@ -9120,6 +9120,22 @@
     "Zemina Torval"
    ],
    "t": 1794281715
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251508,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794281845
   }
  }
 }

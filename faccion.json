@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 190
+    "2026-11-10": 194
    },
    "pn": {
     "J9W-B6T": {
@@ -6647,10 +6647,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794350016.9404726,
-  "msgs": 689323,
+  "msgs": 704298,
   "mios": 53
  },
- "t": 1794350650.3198633,
+ "t": 1794351681.1066186,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6809,7 +6809,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794348532
+   "t": 1794351292
   },
   "Dewikum": {
    "pos": [
@@ -7638,7 +7638,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794339781
+   "t": 1794351516
   },
   "Epsilon Sculptoris": {
    "pos": [
@@ -7742,7 +7742,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794350091
+   "t": 1794351385
   },
   "Utero": {
    "pos": [
@@ -8832,7 +8832,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.276458,
+   "prog": 0.27648,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -8840,7 +8840,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794341209
+   "t": 1794351073
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -9651,7 +9651,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794346878
+   "t": 1794350818
   },
   "Ausan": {
    "pos": [
@@ -9716,7 +9716,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794349581
+   "t": 1794351043
   },
   "Ross 332": {
    "pos": [
@@ -9944,6 +9944,34 @@
     "Li Yong-Rui"
    ],
    "t": 1794350076
+  },
+  "Wuluang": {
+   "pos": [
+    126.46875,
+    -133.625,
+    -20.3125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.171363,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794350796
+  },
+  "Lambayeque": {
+   "pos": [
+    120.53125,
+    -104.75,
+    -9.34375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.264232,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794351677
   }
  }
 }

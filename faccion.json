@@ -1507,7 +1507,7 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 5
+    "2026-11-10": 7
    },
    "pn": {
     "WNH-W5W": {
@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 91
+    "2026-11-10": 97
    },
    "pn": {
     "J9W-B6T": {
@@ -5380,10 +5380,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794281895.7185123,
-  "msgs": 1312677,
+  "msgs": 1324857,
   "mios": 65
  },
- "t": 1794282513.9137642,
+ "t": 1794283264.4518952,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -6723,7 +6723,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794227225
+   "t": 1794282666
   },
   "GCRV 5084": {
    "pos": [
@@ -9084,7 +9084,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794279557
+   "t": 1794283127
   },
   "Tascheter Sector DG-O a6-1": {
    "pos": [
@@ -9136,6 +9136,40 @@
     "Pranav Antal"
    ],
    "t": 1794281845
+  },
+  "Crucis Sector HB-X b1-5": {
+   "pos": [
+    123.21875,
+    -3.625,
+    25.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794282872
+  },
+  "Kamuti": {
+   "pos": [
+    -38.5625,
+    27.65625,
+    -104.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794283250
   }
  }
 }

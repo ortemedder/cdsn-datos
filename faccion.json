@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 81
+    "2026-11-10": 85
    },
    "pn": {
     "J9W-B6T": {
@@ -5380,10 +5380,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794275605.616792,
-  "msgs": 1293072,
+  "msgs": 1302739,
   "mios": 64
  },
- "t": 1794280763.1616364,
+ "t": 1794281723.428503,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -8739,7 +8739,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794271833
+   "t": 1794281186
   },
   "Sairre": {
    "pos": [
@@ -9103,6 +9103,23 @@
     "Jerome Archer"
    ],
    "t": 1794280151
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.171426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794281715
   }
  }
 }

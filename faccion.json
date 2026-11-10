@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 27
+    "2026-11-10": 31
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 136
+    "2026-11-10": 140
    },
    "pn": {
     "J9W-B6T": {
@@ -6476,10 +6476,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794331518.7270575,
-  "msgs": 340022,
+  "msgs": 357001,
   "mios": 41
  },
- "t": 1794334396.3495862,
+ "t": 1794335157.0527,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6638,7 +6638,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794334164
+   "t": 1794334815
   },
   "Dewikum": {
    "pos": [
@@ -8635,6 +8635,102 @@
     "Li Yong-Rui"
    ],
    "t": 1794334368
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.069645,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794334562
+  },
+  "Dongkum": {
+   "pos": [
+    -17.875,
+    -11.75,
+    -90.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.276443,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794334604
+  },
+  "Col 285 Sector UJ-R a34-0": {
+   "pos": [
+    122.34375,
+    -28.78125,
+    18.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794335059
+  },
+  "Kalangputys": {
+   "pos": [
+    143.90625,
+    -15.53125,
+    5.25
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.143398,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794335091
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794335103
+  },
+  "HIP 41777": {
+   "pos": [
+    138.84375,
+    -20.84375,
+    1.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794335141
   }
  }
 }

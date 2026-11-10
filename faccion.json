@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 178
+    "2026-11-10": 180
    },
    "pn": {
     "J9W-B6T": {
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 37
+    "2026-11-10": 38
    },
    "prev": null,
    "prev_t": null
@@ -6478,10 +6478,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794340573.7000847,
-  "msgs": 535724,
+  "msgs": 557669,
   "mios": 47
  },
- "t": 1794343534.7035613,
+ "t": 1794344175.1947956,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6640,7 +6640,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794342954
+   "t": 1794343738
   },
   "Dewikum": {
    "pos": [
@@ -7088,7 +7088,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794321733
+   "t": 1794343686
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -9272,7 +9272,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794343266
+   "t": 1794343614
   },
   "Ghimr": {
    "pos": [
@@ -9290,6 +9290,55 @@
     "Zemina Torval"
    ],
    "t": 1794340873
+  },
+  "Bondranses": {
+   "pos": [
+    -37.6875,
+    -12.6875,
+    -101.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.179806,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794343583
+  },
+  "Ceti Sector KX-T b3-3": {
+   "pos": [
+    6.71875,
+    -99,
+    -23.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794343953
+  },
+  "Ceti Sector HR-V b2-0": {
+   "pos": [
+    18.625,
+    -101.0625,
+    -40.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794344465
   }
  }
 }

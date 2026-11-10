@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 6
+    "2026-11-10": 8
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -4401,7 +4401,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794314675,
+   "t": 1794316217,
    "src": "EDDN",
    "inf": 59.94,
    "ctrl": true,
@@ -4485,12 +4485,12 @@
    },
    "trafico": {
     "2026-11-09": 15,
-    "2026-11-10": 3
+    "2026-11-10": 5
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794314806
+     "t": 1794316353
     }
    },
    "prev": 59.55,
@@ -5691,11 +5691,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794315435.1391032,
-  "msgs": 48254,
-  "mios": 6
+  "ultimo": 1794316218.1294262,
+  "msgs": 58364,
+  "mios": 7
  },
- "t": 1794315534.7974646,
+ "t": 1794316355.111733,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5921,7 +5921,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794315363
+   "t": 1794316305
   },
   "Guitaiku": {
    "pos": [
@@ -6087,7 +6087,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794314675
+   "t": 1794316217
   },
   "Col 285 Sector TT-W b16-8": {
    "pos": [
@@ -6121,6 +6121,72 @@
     "Jerome Archer"
    ],
    "t": 1794315530
+  },
+  "Vukur": {
+   "pos": [
+    -15.96875,
+    -14.46875,
+    -105.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794315687
+  },
+  "Yaro": {
+   "pos": [
+    131.6875,
+    -11.46875,
+    26.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794315962
+  },
+  "Chicoana": {
+   "pos": [
+    -35,
+    -23.21875,
+    -110.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794316218
+  },
+  "Ceti Sector CL-X b1-0": {
+   "pos": [
+    11.5,
+    -89.28125,
+    -46.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.14914,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794316315
   }
  }
 }

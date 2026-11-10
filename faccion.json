@@ -5388,7 +5388,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794298637,
+   "t": 1794300958,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5470,8 +5470,10 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 4
-   }
+    "2026-11-10": 5
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Hyades Sector QZ-N b7-3": {
    "sys": "Hyades Sector QZ-N b7-3",
@@ -5560,11 +5562,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794299351.5944657,
-  "msgs": 1465939,
-  "mios": 73
+  "ultimo": 1794300961.254808,
+  "msgs": 1474389,
+  "mios": 74
  },
- "t": 1794300659.2846313,
+ "t": 1794300969.4181569,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -6109,7 +6111,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794300657
+   "t": 1794300698
   },
   "ICZ GL-X b1-4": {
    "pos": [

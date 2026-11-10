@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 35
+    "2026-11-10": 39
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 145
+    "2026-11-10": 149
    },
    "pn": {
     "J9W-B6T": {
@@ -6476,10 +6476,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794335731.9083045,
-  "msgs": 374435,
+  "msgs": 391952,
   "mios": 42
  },
- "t": 1794336327.7491267,
+ "t": 1794337158.5545533,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6638,7 +6638,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794334815
+   "t": 1794337014
   },
   "Dewikum": {
    "pos": [
@@ -8244,7 +8244,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794329519
+   "t": 1794336793
   },
   "BD+33 801": {
    "pos": [
@@ -8730,7 +8730,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794335141
+   "t": 1794336413
   },
   "HIP 18427": {
    "pos": [
@@ -8818,6 +8818,67 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794336153
+  },
+  "Col 285 Sector XZ-U b17-6": {
+   "pos": [
+    127.71875,
+    -22.3125,
+    29.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.08514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794336727
+  },
+  "Arnemil": {
+   "pos": [
+    -38.5,
+    -2.875,
+    -67.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.176764,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794336881
+  },
+  "ICZ BF-Z b4": {
+   "pos": [
+    100.0625,
+    -114.25,
+    -8.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794337091
+  },
+  "Nergal": {
+   "pos": [
+    -53.3125,
+    -22.59375,
+    -89.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794337149
   }
  }
 }

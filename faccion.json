@@ -5563,15 +5563,116 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Koamul": {
+   "sys": "Koamul",
+   "t": 1794310731,
+   "src": "EDDN",
+   "inf": 53.9,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "CHIMERA",
+   "segunda_inf": 16.5,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 53.9,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 16.5,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Koamul Silver Brothers",
+     "inf": 9.3,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Koamul Prison Colony",
+     "inf": 8.1,
+     "gov": "PrisonColony",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Leaders of Apinayimas",
+     "inf": 6.3,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Confederation of Koamul",
+     "inf": 5.9,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -26.46875,
+    24.90625,
+    -119.90625
+   ],
+   "sis": {
+    "pob": 20204,
+    "eco": "$economy_Colony;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794311077.5214167,
-  "msgs": 10364,
-  "mios": 1
+  "ultimo": 1794312523.5293186,
+  "msgs": 20124,
+  "mios": 2
  },
- "t": 1794311893.6296396,
+ "t": 1794312693.9309864,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5633,7 +5734,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794311880
+   "t": 1794312270
   },
   "Gollobo": {
    "pos": [
@@ -5650,6 +5751,121 @@
     "Li Yong-Rui"
    ],
    "t": 1794311973
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256512,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794312404
+  },
+  "NLTT 8234": {
+   "pos": [
+    17,
+    -103.71875,
+    -44.1875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.202855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794244994
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251508,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794312519
+  },
+  "Koamul": {
+   "pos": [
+    -26.46875,
+    24.90625,
+    -119.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794310731
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.252552,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794312550
+  },
+  "Dewikum": {
+   "pos": [
+    19.375,
+    -0.28125,
+    -68.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794312471
+  },
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.270246,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794312517
   }
  }
 }

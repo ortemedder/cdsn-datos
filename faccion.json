@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 184
+    "2026-11-10": 190
    },
    "pn": {
     "J9W-B6T": {
@@ -6475,15 +6475,182 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Lyncis Sector KM-W c1-10": {
+   "sys": "Lyncis Sector KM-W c1-10",
+   "t": 1794349955,
+   "src": "EDDN",
+   "inf": 21.07,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "CHIMERA",
+   "segunda_inf": 53.61,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "CHIMERA",
+     "inf": 53.61,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 21.07,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Aristocrats of Lhou Wangs",
+     "inf": 17.41,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Worker's Party of Alexis Centauri",
+     "inf": 7.91,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "CHIMERA",
+   "pos": [
+    -32.84375,
+    14.0625,
+    -115.96875
+   ],
+   "sis": {
+    "pob": 61149991,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Patronage;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   }
+  },
+  "Hyades Sector HC-U c3-21": {
+   "sys": "Hyades Sector HC-U c3-21",
+   "t": 1794350009,
+   "src": "EDDN",
+   "inf": 44.39,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "CHIMERA",
+   "segunda_inf": 20.74,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 44.39,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 20.74,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Hima Comms Network",
+     "inf": 17.84,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 17.03,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -13.53125,
+    18.34375,
+    -116.84375
+   ],
+   "sis": {
+    "pob": 2598472,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.073712,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794347573.7565715,
-  "msgs": 673576,
-  "mios": 51
+  "ultimo": 1794350016.9404726,
+  "msgs": 689323,
+  "mios": 53
  },
- "t": 1794349769.4286802,
+ "t": 1794350650.3198633,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6545,7 +6712,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794345803
+   "t": 1794347888
   },
   "Gollobo": {
    "pos": [
@@ -7090,7 +7257,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794343686
+   "t": 1794350160
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -7575,7 +7742,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794324909
+   "t": 1794350091
   },
   "Utero": {
    "pos": [
@@ -8331,7 +8498,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794330297
+   "t": 1794350059
   },
   "Hyades Sector UF-M b8-2": {
    "pos": [
@@ -9715,6 +9882,68 @@
     "Li Yong-Rui"
    ],
    "t": 1794349764
+  },
+  "Phracani": {
+   "pos": [
+    112.53125,
+    -116.03125,
+    -19.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.253825,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794349921
+  },
+  "Lyncis Sector KM-W c1-10": {
+   "pos": [
+    -32.84375,
+    14.0625,
+    -115.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794349955
+  },
+  "Hyades Sector HC-U c3-21": {
+   "pos": [
+    -13.53125,
+    18.34375,
+    -116.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.073712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794350009
+  },
+  "Eudora": {
+   "pos": [
+    10.96875,
+    -7.3125,
+    -121.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794350076
   }
  }
 }

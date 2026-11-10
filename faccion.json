@@ -2961,7 +2961,8 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 161
+    "2026-11-09": 161,
+    "2026-11-10": 6
    },
    "pn": {
     "J9W-B6T": {
@@ -4946,10 +4947,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794268516.2816408,
-  "msgs": 1128609,
+  "msgs": 1144894,
   "mios": 53
  },
- "t": 1794268896.114197,
+ "t": 1794269996.5108092,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5252,7 +5253,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794268374
+   "t": 1794269253
   },
   "Jurua": {
    "pos": [
@@ -5383,7 +5384,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794268883
+   "t": 1794269731
   },
   "Alpha Doradus": {
    "pos": [
@@ -8206,6 +8207,39 @@
     "Jerome Archer"
    ],
    "t": 1794268391
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794269768
+  },
+  "Mandu": {
+   "pos": [
+    117.9375,
+    -22.1875,
+    17.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794269818
   }
  }
 }

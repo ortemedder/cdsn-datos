@@ -5445,7 +5445,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794318274,
+   "t": 1794320287,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5527,7 +5527,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 9
+    "2026-11-10": 10
    },
    "prev": null,
    "prev_t": null
@@ -5795,11 +5795,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794318464.4560306,
-  "msgs": 88142,
-  "mios": 12
+  "ultimo": 1794320289.2327664,
+  "msgs": 112328,
+  "mios": 13
  },
- "t": 1794319046.06606,
+ "t": 1794320946.5557754,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5958,7 +5958,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794312550
+   "t": 1794319833
   },
   "Dewikum": {
    "pos": [
@@ -6305,7 +6305,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794316741
+   "t": 1794319243
   },
   "Didayac": {
    "pos": [
@@ -6455,6 +6455,123 @@
     "Jerome Archer"
    ],
    "t": 1794319039
+  },
+  "Pularungu": {
+   "pos": [
+    7.53125,
+    5.875,
+    -83.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.080308,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794319774
+  },
+  "Tascheter Sector CL-Y d132": {
+   "pos": [
+    -25.53125,
+    -24.78125,
+    -99.8125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.3152,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794319824
+  },
+  "Tascheter Sector ZZ-P a5-3": {
+   "pos": [
+    16,
+    -39.71875,
+    -49.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.054283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794320150
+  },
+  "9 Aurigae": {
+   "pos": [
+    -32.75,
+    10.5,
+    -78.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794320451
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.117117,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794319106
+  },
+  "Hyades Sector UA-M b8-4": {
+   "pos": [
+    -47,
+    1.65625,
+    -94.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.025712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794320585
+  },
+  "Trianguli Sector SU-O a6-3": {
+   "pos": [
+    29.875,
+    -44.84375,
+    -55.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.012569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794320940
   }
  }
 }

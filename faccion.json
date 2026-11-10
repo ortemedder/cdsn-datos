@@ -217,7 +217,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794331518,
+   "t": 1794335731,
    "src": "EDDN",
    "inf": 58.28,
    "ctrl": true,
@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 31
+    "2026-11-10": 35
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 140
+    "2026-11-10": 145
    },
    "pn": {
     "J9W-B6T": {
@@ -6475,11 +6475,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794331518.7270575,
-  "msgs": 357001,
-  "mios": 41
+  "ultimo": 1794335731.9083045,
+  "msgs": 374435,
+  "mios": 42
  },
- "t": 1794335157.0527,
+ "t": 1794336327.7491267,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6789,7 +6789,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794331518
+   "t": 1794335731
   },
   "Pirawoth": {
    "pos": [
@@ -8731,6 +8731,93 @@
     "Zemina Torval"
    ],
    "t": 1794335141
+  },
+  "HIP 18427": {
+   "pos": [
+    125.21875,
+    -136.125,
+    -16.03125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794335652
+  },
+  "HIP 18944": {
+   "pos": [
+    109.625,
+    -116.5625,
+    -17.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794335705
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794335867
+  },
+  "HIP 18802": {
+   "pos": [
+    118.5625,
+    -118.78125,
+    -3.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.048406,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794334690
+  },
+  "Skeller": {
+   "pos": [
+    3.9375,
+    -90.71875,
+    -35.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.262463,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794336118
+  },
+  "Tialocan": {
+   "pos": [
+    99.65625,
+    -124.5,
+    -7.71875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.301929,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794336153
   }
  }
 }

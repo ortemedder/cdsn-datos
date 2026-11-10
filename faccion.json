@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 59
+    "2026-11-10": 61
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 165
+    "2026-11-10": 169
    },
    "pn": {
     "J9W-B6T": {
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 30
+    "2026-11-10": 32
    },
    "prev": null,
    "prev_t": null
@@ -6478,10 +6478,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794340573.7000847,
-  "msgs": 471580,
+  "msgs": 492510,
   "mios": 47
  },
- "t": 1794340811.741389,
+ "t": 1794341672.6961968,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7054,7 +7054,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794330567
+   "t": 1794341537
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -8296,7 +8296,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794328451
+   "t": 1794341156
   },
   "BD+28 737": {
    "pos": [
@@ -8663,7 +8663,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.276443,
+   "prog": 0.276458,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -8671,7 +8671,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794334604
+   "t": 1794341209
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -8835,7 +8835,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794340281
+   "t": 1794341512
   },
   "Arnemil": {
    "pos": [
@@ -9060,6 +9060,72 @@
     "Li Yong-Rui"
    ],
    "t": 1794340766
+  },
+  "PLX 695": {
+   "pos": [
+    -43.34375,
+    -4.71875,
+    -62.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.252081,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794340972
+  },
+  "HIP 14137": {
+   "pos": [
+    -41.71875,
+    -20.65625,
+    -67.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794341046
+  },
+  "Ross 874": {
+   "pos": [
+    16,
+    19.53125,
+    -77.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794341432
+  },
+  "Lyncis Sector JR-W c1-19": {
+   "pos": [
+    -14.125,
+    53.6875,
+    -109.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794341320
   }
  }
 }

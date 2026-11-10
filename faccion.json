@@ -2311,7 +2311,7 @@
   },
   "Hyades Sector SZ-N b7-0": {
    "sys": "Hyades Sector SZ-N b7-0",
-   "t": 1794157378,
+   "t": 1794318269,
    "src": "EDDN",
    "inf": 5.0,
    "ctrl": false,
@@ -2333,8 +2333,10 @@
      "act": [
       "Outbreak"
      ],
-     "pend": [],
-     "jug": true
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
     },
     {
      "n": "Enigma Dyson Syndicate",
@@ -2345,7 +2347,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Anti Xeno Initiative",
@@ -2356,7 +2358,7 @@
      "pend": [
       "Expansion"
      ],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -2367,7 +2369,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     }
    ],
    "ctrl_n": "Sirius Special Forces",
@@ -2377,13 +2379,30 @@
     -109.3125
    ],
    "sis": {
-    "pob": 1578334,
-    "eco": "Military",
-    "eco2": "High Tech",
-    "seg": "Low",
-    "gov": "Corporate",
+    "pob": 1579934,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
     "alg": "Federation"
-   }
+   },
+   "pp": {
+    "pot": "Aisling Duval",
+    "est": "Exploited",
+    "prog": 0.216569,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 2
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Jangore": {
    "sys": "Jangore",
@@ -4485,7 +4504,7 @@
    },
    "trafico": {
     "2026-11-09": 15,
-    "2026-11-10": 6
+    "2026-11-10": 7
    },
    "pn": {
     "V8X-11L": {
@@ -5416,7 +5435,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794317295,
+   "t": 1794318274,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5498,7 +5517,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 6
+    "2026-11-10": 7
    },
    "prev": null,
    "prev_t": null
@@ -5691,11 +5710,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794317300.4409482,
-  "msgs": 68391,
-  "mios": 8
+  "ultimo": 1794318276.2555265,
+  "msgs": 77859,
+  "mios": 10
  },
- "t": 1794317305.3350344,
+ "t": 1794318285.5574777,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6219,6 +6238,72 @@
     "Jerome Archer"
    ],
    "t": 1794317102
+  },
+  "Crucis Sector HB-X b1-5": {
+   "pos": [
+    123.21875,
+    -3.625,
+    25.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794317777
+  },
+  "Hyades Sector UU-N b7-4": {
+   "pos": [
+    26.46875,
+    13.59375,
+    -108.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.109192,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794317885
+  },
+  "HIP 33497": {
+   "pos": [
+    31.78125,
+    29.65625,
+    -134.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.253025,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794317998
+  },
+  "Hyades Sector SZ-N b7-0": {
+   "pos": [
+    15.9375,
+    16.65625,
+    -109.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.216569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794318269
   }
  }
 }

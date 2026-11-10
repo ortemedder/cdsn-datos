@@ -1397,7 +1397,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794286949,
+   "t": 1794290838,
    "src": "EDDN",
    "inf": 67.33,
    "ctrl": true,
@@ -1507,20 +1507,20 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 11
+    "2026-11-10": 14
    },
    "pn": {
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794286956
+     "t": 1794291045
     },
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794286956
+     "t": 1794291045
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794286956
+     "t": 1794291045
     }
    },
    "prev": null,
@@ -5389,11 +5389,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794287167.212447,
-  "msgs": 1369775,
-  "mios": 70
+  "ultimo": 1794290839.1850874,
+  "msgs": 1398177,
+  "mios": 71
  },
- "t": 1794287926.128901,
+ "t": 1794291457.0684524,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5922,7 +5922,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794267690
+   "t": 1794291455
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -5938,7 +5938,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794265518
+   "t": 1794289783
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -7843,7 +7843,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794249333
+   "t": 1794289653
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -8834,7 +8834,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794286949
+   "t": 1794290838
   },
   "Kunuvii": {
    "pos": [
@@ -9193,7 +9193,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794284315
+   "t": 1794285704
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -9331,6 +9331,71 @@
     "Li Yong-Rui"
    ],
    "t": 1794287146
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.370741,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794288763
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198409,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794291138
+  },
+  "LTT 10918": {
+   "pos": [
+    -60.53125,
+    -9.0625,
+    -73.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.045956,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794289269
+  },
+  "Hyades Sector TU-N b7-0": {
+   "pos": [
+    5.34375,
+    4.75,
+    -116.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794290785
   }
  }
 }

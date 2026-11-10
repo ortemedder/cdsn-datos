@@ -217,7 +217,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794314074,
+   "t": 1794315433,
    "src": "EDDN",
    "inf": 58.28,
    "ctrl": true,
@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 5
+    "2026-11-10": 6
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -4485,12 +4485,12 @@
    },
    "trafico": {
     "2026-11-09": 15,
-    "2026-11-10": 1
+    "2026-11-10": 3
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794314675
+     "t": 1794314806
     }
    },
    "prev": 59.55,
@@ -5691,11 +5691,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794314676.7606552,
-  "msgs": 38375,
-  "mios": 5
+  "ultimo": 1794315435.1391032,
+  "msgs": 48254,
+  "mios": 6
  },
- "t": 1794314674.4818704,
+ "t": 1794315534.7974646,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5921,7 +5921,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794313476
+   "t": 1794315363
   },
   "Guitaiku": {
    "pos": [
@@ -6005,7 +6005,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794314074
+   "t": 1794315433
   },
   "Pirawoth": {
    "pos": [
@@ -6088,6 +6088,39 @@
     "Jerome Archer"
    ],
    "t": 1794314675
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794315193
+  },
+  "Tascheter Sector DG-O a6-3": {
+   "pos": [
+    20.15625,
+    -44.0625,
+    -40.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.084569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794315530
   }
  }
 }

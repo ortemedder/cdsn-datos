@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 180
+    "2026-11-10": 184
    },
    "pn": {
     "J9W-B6T": {
@@ -6480,10 +6480,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794347573.7565715,
-  "msgs": 657399,
+  "msgs": 673576,
   "mios": 51
  },
- "t": 1794348948.7769265,
+ "t": 1794349769.4286802,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6709,7 +6709,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794347535
+   "t": 1794349312
   },
   "Guitaiku": {
    "pos": [
@@ -7338,7 +7338,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794342208
+   "t": 1794349499
   },
   "Girya Gu": {
    "pos": [
@@ -7540,7 +7540,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794323107
+   "t": 1794349415
   },
   "Cemplatui": {
    "pos": [
@@ -9549,7 +9549,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794347901
+   "t": 1794349581
   },
   "Ross 332": {
    "pos": [
@@ -9668,6 +9668,53 @@
     "Zemina Torval"
    ],
    "t": 1794348937
+  },
+  "Lodere": {
+   "pos": [
+    3,
+    -0.5,
+    -135.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794349268
+  },
+  "Sotuki": {
+   "pos": [
+    10.6875,
+    43.0625,
+    -81.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.252644,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794349266
+  },
+  "Tascheter Sector AA-Z b4": {
+   "pos": [
+    29.9375,
+    -3.8125,
+    -92.34375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.05986,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794349764
   }
  }
 }

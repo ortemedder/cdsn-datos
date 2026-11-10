@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 40
+    "2026-11-10": 48
    },
    "pn": {
     "J9W-B6T": {
@@ -5081,7 +5081,7 @@
   },
   "Kunuvii": {
    "sys": "Kunuvii",
-   "t": 1794272876,
+   "t": 1794274942,
    "src": "EDDN",
    "inf": 51.91,
    "ctrl": true,
@@ -5183,7 +5183,12 @@
      "Pranav Antal",
      "Jerome Archer"
     ]
-   }
+   },
+   "trafico": {
+    "2026-11-10": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Hidatsa": {
    "sys": "Hidatsa",
@@ -5294,15 +5299,91 @@
      "Li Yong-Rui"
     ]
    }
+  },
+  "BD+47 1285": {
+   "sys": "BD+47 1285",
+   "t": 1794274992,
+   "src": "EDDN",
+   "inf": 15.38,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 61.44,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "THE AZGHARIE",
+     "inf": 61.44,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 23.18,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 15.38,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "THE AZGHARIE",
+   "pos": [
+    -22.6875,
+    27.28125,
+    -98.59375
+   ],
+   "sis": {
+    "pob": 309157,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794272923.3271034,
-  "msgs": 1217355,
-  "mios": 61
+  "ultimo": 1794274992.8257937,
+  "msgs": 1230863,
+  "mios": 63
  },
- "t": 1794274469.0175617,
+ "t": 1794275159.6248775,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5320,7 +5401,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794270150
+   "t": 1794275109
   },
   "Ethli": {
    "pos": [
@@ -5338,7 +5419,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794196631
+   "t": 1794275128
   },
   "LTT 11485": {
    "pos": [
@@ -5736,7 +5817,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794269731
+   "t": 1794275094
   },
   "Alpha Doradus": {
    "pos": [
@@ -6077,7 +6158,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794208257
+   "t": 1794274625
   },
   "Tascheter Sector BV-Y b7": {
    "pos": [
@@ -7507,7 +7588,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794244994
+   "t": 1794275149
   },
   "BD-04 782": {
    "pos": [
@@ -8761,7 +8842,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794272876
+   "t": 1794274942
   },
   "Hidatsa": {
    "pos": [
@@ -8808,6 +8889,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794273851
+  },
+  "BD+47 1285": {
+   "pos": [
+    -22.6875,
+    27.28125,
+    -98.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794274992
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794275040
   }
  }
 }

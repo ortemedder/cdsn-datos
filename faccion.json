@@ -197,7 +197,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794268417,
+   "t": 1794270444,
    "src": "EDDN",
    "inf": 57.88,
    "ctrl": true,
@@ -269,7 +269,8 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 29
+    "2026-11-09": 29,
+    "2026-11-10": 3
    },
    "prev": 57.98,
    "prev_t": 1794153986
@@ -2596,7 +2597,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794163337,
+   "t": 1794270346,
    "src": "EDDN",
    "inf": 39.8,
    "ctrl": true,
@@ -2619,18 +2620,16 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "160 S.O.A.R.",
      "inf": 19.7,
      "gov": "Democracy",
      "alg": "Alliance",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "United Burr Partnership",
@@ -2639,7 +2638,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Burr Jet Fortune Industries",
@@ -2648,7 +2647,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
@@ -2657,7 +2656,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Burr Boys",
@@ -2666,7 +2665,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -2677,12 +2676,31 @@
    ],
    "sis": {
     "pob": 46130,
-    "eco": "Extraction",
-    "eco2": "Industrial",
-    "seg": "Medium",
-    "gov": "Democracy",
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Stronghold",
+    "prog": 0.1122,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Elivagar": {
    "sys": "Elivagar",
@@ -2962,7 +2980,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 6
+    "2026-11-10": 14
    },
    "pn": {
     "J9W-B6T": {
@@ -4946,11 +4964,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794268516.2816408,
-  "msgs": 1144894,
-  "mios": 53
+  "ultimo": 1794270445.4292805,
+  "msgs": 1160797,
+  "mios": 56
  },
- "t": 1794269996.5108092,
+ "t": 1794270707.1109715,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -4968,7 +4986,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794266620
+   "t": 1794270150
   },
   "Ethli": {
    "pos": [
@@ -6392,7 +6410,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794268417
+   "t": 1794270444
   },
   "LP 941-16": {
    "pos": [
@@ -6847,7 +6865,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794239166
+   "t": 1794270045
   },
   "Guitaiku": {
    "pos": [
@@ -8240,6 +8258,41 @@
     "Zemina Torval"
    ],
    "t": 1794269818
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.1122,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794270346
+  },
+  "Ceti Sector EW-V b2-4": {
+   "pos": [
+    8.09375,
+    -84.125,
+    -33.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794270353
   }
  }
 }

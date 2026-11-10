@@ -3,9 +3,9 @@
  "sistemas": {
   "Pirawoth": {
    "sys": "Pirawoth",
-   "t": 1794135035,
-   "src": "EDSM",
-   "inf": 69.9,
+   "t": 1794314293,
+   "src": "EDDN",
+   "inf": 69.43,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -14,77 +14,73 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 12.35,
+   "segunda_inf": 12.29,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 69.9,
+     "inf": 69.43,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 12.35,
+     "inf": 12.29,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 8.33,
+     "inf": 8.29,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Pirawoth Republic Party",
-     "inf": 4.41,
+     "inf": 4.4,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Pirawoth Nobles",
-     "inf": 2.06,
+     "inf": 2.6,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Pirawoth Purple Advanced Group",
-     "inf": 1.96,
+     "inf": 2.0,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Pirawoth Purple Boys",
-     "inf": 0.98,
+     "inf": 1.0,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -95,11 +91,35 @@
    ],
    "sis": {
     "pob": 572331,
-    "eco": "Refinery",
-    "eco2": "Extraction",
-    "seg": "Medium",
-    "gov": "Democracy",
+    "eco": "$economy_Refinery;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Edmund Mahon",
+    "est": "Exploited",
+    "prog": 0.031997,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 2
+   },
+   "prev": 69.9,
+   "prev_t": 1794135035,
+   "pn": {
+    "JZF-T7W": {
+     "n": "(LSC)odysseum-prospect",
+     "t": 1794314464
+    }
    }
   },
   "Tascheter Sector CG-X b1-2": {
@@ -197,9 +217,9 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794270444,
+   "t": 1794314074,
    "src": "EDDN",
-   "inf": 57.88,
+   "inf": 58.28,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -208,12 +228,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 25.95,
+   "segunda_inf": 26.65,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 57.88,
+     "inf": 58.28,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -224,16 +244,18 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 25.95,
+     "inf": 26.65,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "LTT 11648 Partners",
-     "inf": 16.17,
+     "inf": 15.07,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -248,7 +270,7 @@
     -107.59375
    ],
    "sis": {
-    "pob": 566981748,
+    "pob": 567560155,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -270,10 +292,10 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 3
+    "2026-11-10": 5
    },
-   "prev": 57.98,
-   "prev_t": 1794153986
+   "prev": 57.88,
+   "prev_t": 1794270444
   },
   "Hyades Sector VA-M b8-3": {
    "sys": "Hyades Sector VA-M b8-3",
@@ -4379,9 +4401,9 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794256411,
+   "t": 1794314675,
    "src": "EDDN",
-   "inf": 59.55,
+   "inf": 59.94,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -4390,12 +4412,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 16.02,
+   "segunda_inf": 15.83,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 59.55,
+     "inf": 59.94,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4406,7 +4428,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 16.02,
+     "inf": 15.83,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -4417,7 +4439,7 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 13.75,
+     "inf": 13.65,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -4426,7 +4448,7 @@
     },
     {
      "n": "Aristocrats of Lhou Wangs",
-     "inf": 10.68,
+     "inf": 10.58,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -4441,7 +4463,7 @@
     -120
    ],
    "sis": {
-    "pob": 98220187,
+    "pob": 98649482,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -4462,16 +4484,17 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 15
+    "2026-11-09": 15,
+    "2026-11-10": 1
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794256613
+     "t": 1794314675
     }
    },
-   "prev": null,
-   "prev_t": null
+   "prev": 59.55,
+   "prev_t": 1794256411
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
@@ -5668,11 +5691,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794312523.5293186,
-  "msgs": 20124,
-  "mios": 2
+  "ultimo": 1794314676.7606552,
+  "msgs": 38375,
+  "mios": 5
  },
- "t": 1794312693.9309864,
+ "t": 1794314674.4818704,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5866,6 +5889,205 @@
     "Jerome Archer"
    ],
    "t": 1794312517
+  },
+  "Hyades Sector XV-L b8-6": {
+   "pos": [
+    -42.125,
+    -10.1875,
+    -94.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.079463,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794313114
+  },
+  "Zephyrus": {
+   "pos": [
+    -21.84375,
+    12.59375,
+    -60.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.241151,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794313476
+  },
+  "Guitaiku": {
+   "pos": [
+    -49.84375,
+    -13.5625,
+    -95.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.185141,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794313495
+  },
+  "BD+54 886": {
+   "pos": [
+    -43.8125,
+    20.84375,
+    -98.96875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.003426,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794313536
+  },
+  "Umaspi": {
+   "pos": [
+    18.6875,
+    -72.71875,
+    -14.1875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251309,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794313638
+  },
+  "Bestia": {
+   "pos": [
+    -36.09375,
+    -1.46875,
+    -84.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.129712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794313929
+  },
+  "Hyades Sector SU-N b7-5": {
+   "pos": [
+    -17.6875,
+    -1,
+    -107.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794314074
+  },
+  "Pirawoth": {
+   "pos": [
+    -19.375,
+    -0.03125,
+    -95.1875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.031997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794314293
+  },
+  "Ceti Sector CL-X b1-5": {
+   "pos": [
+    13.875,
+    -92.75,
+    -62.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.012569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794314330
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256546,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794314418
+  },
+  "Nyal": {
+   "pos": [
+    -18.28125,
+    -11.65625,
+    -104.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794314665
+  },
+  "Hyades Sector SU-N b7-0": {
+   "pos": [
+    -19.59375,
+    -0.40625,
+    -120
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794314675
   }
  }
 }

@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 40
+    "2026-11-10": 43
    },
    "prev": null,
    "prev_t": null
@@ -5814,7 +5814,7 @@
   },
   "Parrot's Head Sector PS-T b3-3": {
    "sys": "Parrot's Head Sector PS-T b3-3",
-   "t": 1794344702,
+   "t": 1794346810,
    "src": "EDDN",
    "inf": 47.59,
    "ctrl": true,
@@ -5896,7 +5896,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 7
+    "2026-11-10": 9
    },
    "prev": null,
    "prev_t": null
@@ -6479,11 +6479,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794345527.5159662,
-  "msgs": 601529,
-  "mios": 49
+  "ultimo": 1794346813.0633886,
+  "msgs": 621662,
+  "mios": 50
  },
- "t": 1794346256.332622,
+ "t": 1794347107.2468739,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6545,7 +6545,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794318368
+   "t": 1794345803
   },
   "Gollobo": {
    "pos": [
@@ -7419,7 +7419,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794322123
+   "t": 1794346512
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -8444,7 +8444,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794345864
+   "t": 1794346832
   },
   "LHS 1765": {
    "pos": [
@@ -8734,7 +8734,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794337769
+   "t": 1794345536
   },
   "HIP 18427": {
    "pos": [
@@ -8777,7 +8777,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794338219
+   "t": 1794345850
   },
   "HIP 18802": {
    "pos": [
@@ -9324,7 +9324,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794343953
+   "t": 1794346399
   },
   "Ceti Sector HR-V b2-0": {
    "pos": [
@@ -9439,6 +9439,84 @@
     "Zemina Torval"
    ],
    "t": 1794346271
+  },
+  "Col 285 Sector LH-L c8-15": {
+   "pos": [
+    138.46875,
+    -29.15625,
+    13.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794346458
+  },
+  "Koirada": {
+   "pos": [
+    134.34375,
+    -19.90625,
+    -1
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.295832,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794345480
+  },
+  "Harrigus": {
+   "pos": [
+    129.6875,
+    -15,
+    3.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794346878
+  },
+  "Ausan": {
+   "pos": [
+    -49.5,
+    -12.09375,
+    -69.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.191906,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794347025
+  },
+  "Hyades Sector MD-S c4-21": {
+   "pos": [
+    -57.375,
+    3.875,
+    -104.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794347097
   }
  }
 }

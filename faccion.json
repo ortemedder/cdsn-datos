@@ -5459,7 +5459,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794326994,
+   "t": 1794329645,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5541,7 +5541,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 22
+    "2026-11-10": 23
    },
    "prev": null,
    "prev_t": null
@@ -6471,11 +6471,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794329016.292475,
-  "msgs": 241223,
-  "mios": 30
+  "ultimo": 1794329646.8541727,
+  "msgs": 257866,
+  "mios": 31
  },
- "t": 1794329092.2656207,
+ "t": 1794329652.4432182,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6634,7 +6634,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794328964
+   "t": 1794329466
   },
   "Dewikum": {
    "pos": [
@@ -8226,6 +8226,21 @@
     "Jerome Archer"
    ],
    "t": 1794329073
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794329519
   }
  }
 }

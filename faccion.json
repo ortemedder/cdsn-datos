@@ -1642,7 +1642,7 @@
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
-   "t": 1794226579,
+   "t": 1794328002,
    "src": "EDDN",
    "inf": 22.26,
    "ctrl": false,
@@ -1654,25 +1654,23 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 28.4,
+   "segunda_inf": 30.71,
    "conflictos": [
     {
      "tipo": "election",
      "estado": "active",
      "contra": "New Adjukru Coalition",
      "ganados": 0,
-     "perdidos": 0
+     "perdidos": 1
     }
    ],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 28.4,
+     "inf": 30.71,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -1701,7 +1699,7 @@
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 17.93,
+     "inf": 16.41,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -1710,7 +1708,7 @@
     },
     {
      "n": "Revolutionary Party of Rong",
-     "inf": 9.16,
+     "inf": 8.36,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -1725,7 +1723,7 @@
     -93.40625
    ],
    "sis": {
-    "pob": 75379931,
+    "pob": 75381565,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Refinery;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1735,9 +1733,9 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.072868,
+    "prog": 0.072638,
     "ref": 197,
-    "soc": 1033,
+    "soc": 1182,
     "pots": [
      "Edmund Mahon",
      "Li Yong-Rui",
@@ -1747,16 +1745,17 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 3
+    "2026-11-09": 3,
+    "2026-11-10": 2
    },
    "pn": {
     "T9K-12H": {
      "n": "L*******************T",
-     "t": 1794226579
+     "t": 1794328183
     },
     "N6J-80Z": {
      "n": "FRESH PRINCE OF ALTAIR",
-     "t": 1794226579
+     "t": 1794328183
     }
    },
    "prev": null,
@@ -3077,7 +3076,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 117
+    "2026-11-10": 121
    },
    "pn": {
     "J9W-B6T": {
@@ -5542,7 +5541,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 19
+    "2026-11-10": 21
    },
    "prev": null,
    "prev_t": null
@@ -6303,11 +6302,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794326995.492887,
-  "msgs": 212072,
-  "mios": 26
+  "ultimo": 1794328004.2978508,
+  "msgs": 226349,
+  "mios": 27
  },
- "t": 1794327190.309821,
+ "t": 1794328191.244149,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6385,7 +6384,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794322860
+   "t": 1794327585
   },
   "Meeneratii": {
    "pos": [
@@ -6466,7 +6465,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794326907
+   "t": 1794328047
   },
   "Dewikum": {
    "pos": [
@@ -7122,7 +7121,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.440251,
+   "prog": 0.440572,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -7130,7 +7129,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794321325
+   "t": 1794327875
   },
   "Tascheter Sector OX-U b2-3": {
    "pos": [
@@ -7736,7 +7735,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794326719
+   "t": 1794327368
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -7803,6 +7802,90 @@
     "Jerome Archer"
    ],
    "t": 1794327133
+  },
+  "Mentor": {
+   "pos": [
+    -27.65625,
+    -3.5,
+    -85.53125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.090462,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794327426
+  },
+  "Tascheter Sector EG-X b1-5": {
+   "pos": [
+    29.375,
+    10.53125,
+    -75.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794327570
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.287452,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794327733
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.365186,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794327785
+  },
+  "Tascheter Sector YZ-Y b6": {
+   "pos": [
+    -18.65625,
+    5.8125,
+    -93.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.072638,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794328002
   }
  }
 }

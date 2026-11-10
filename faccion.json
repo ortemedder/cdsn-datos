@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 54
+    "2026-11-10": 60
    },
    "pn": {
     "J9W-B6T": {
@@ -5380,10 +5380,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794275605.616792,
-  "msgs": 1242911,
+  "msgs": 1253833,
   "mios": 64
  },
- "t": 1794276290.3298411,
+ "t": 1794277080.9209614,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5401,7 +5401,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794275109
+   "t": 1794276475
   },
   "Ethli": {
    "pos": [
@@ -5817,7 +5817,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794275094
+   "t": 1794276553
   },
   "Alpha Doradus": {
    "pos": [
@@ -6057,7 +6057,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794272629
+   "t": 1794276572
   },
   "LFT 179": {
    "pos": [
@@ -6206,7 +6206,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794276026
+   "t": 1794277077
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -7685,7 +7685,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794257475
+   "t": 1794276879
   },
   "LHS 1848": {
    "pos": [
@@ -8409,7 +8409,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794275907
+   "t": 1794276883
   },
   "Rindjibal": {
    "pos": [
@@ -8955,6 +8955,38 @@
     "Jerome Archer"
    ],
    "t": 1794276046
+  },
+  "Tirfing": {
+   "pos": [
+    -65.59375,
+    -1.125,
+    -81.375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.060012,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794276556
+  },
+  "Skeller": {
+   "pos": [
+    3.9375,
+    -90.71875,
+    -35.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.261137,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794276620
   }
  }
 }

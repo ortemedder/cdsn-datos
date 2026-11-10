@@ -4718,7 +4718,7 @@
    },
    "trafico": {
     "2026-11-09": 2,
-    "2026-11-10": 2
+    "2026-11-10": 3
    },
    "prev": null,
    "prev_t": null
@@ -5460,7 +5460,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794320287,
+   "t": 1794323209,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5542,7 +5542,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 12
+    "2026-11-10": 13
    },
    "prev": null,
    "prev_t": null
@@ -5897,11 +5897,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794322583.7524364,
-  "msgs": 140255,
-  "mios": 17
+  "ultimo": 1794323211.4126203,
+  "msgs": 153048,
+  "mios": 18
  },
- "t": 1794322767.7413712,
+ "t": 1794323678.1508505,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5979,7 +5979,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794321498
+   "t": 1794322860
   },
   "Meeneratii": {
    "pos": [
@@ -6060,7 +6060,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794322189
+   "t": 1794323660
   },
   "Dewikum": {
    "pos": [
@@ -6094,7 +6094,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794312517
+   "t": 1794323527
   },
   "Hyades Sector XV-L b8-6": {
    "pos": [
@@ -6127,7 +6127,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794316965
+   "t": 1794323274
   },
   "Guitaiku": {
    "pos": [
@@ -6906,6 +6906,41 @@
     "Pranav Antal"
    ],
    "t": 1794322109
+  },
+  "LFT 179": {
+   "pos": [
+    13.65625,
+    -70.34375,
+    -16.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.210855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794322988
+  },
+  "HAT 94-00572": {
+   "pos": [
+    -27.90625,
+    15,
+    -77.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794322986
   }
  }
 }

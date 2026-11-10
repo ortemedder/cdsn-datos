@@ -111,7 +111,7 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 4
+    "2026-11-10": 5
    },
    "pn": {
     "JZF-T7W": {
@@ -5463,7 +5463,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794340571,
+   "t": 1794345525,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 38
+    "2026-11-10": 40
    },
    "prev": null,
    "prev_t": null
@@ -6479,11 +6479,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794344704.02369,
-  "msgs": 580468,
-  "mios": 48
+  "ultimo": 1794345527.5159662,
+  "msgs": 601529,
+  "mios": 49
  },
- "t": 1794345355.8326323,
+ "t": 1794346256.332622,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6607,7 +6607,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794312519
+   "t": 1794345481
   },
   "Koamul": {
    "pos": [
@@ -6642,7 +6642,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794343738
+   "t": 1794342337
   },
   "Dewikum": {
    "pos": [
@@ -7040,7 +7040,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794317885
+   "t": 1794346170
   },
   "HIP 33497": {
    "pos": [
@@ -7895,7 +7895,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794342818
+   "t": 1794339728
   },
   "Wolf 218": {
    "pos": [
@@ -8444,7 +8444,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794345016
+   "t": 1794345864
   },
   "LHS 1765": {
    "pos": [
@@ -9387,6 +9387,58 @@
     "Li Yong-Rui"
    ],
    "t": 1794344942
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794345452
+  },
+  "Hyades Sector WF-M b8-2": {
+   "pos": [
+    31.65625,
+    27.15625,
+    -103.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.066283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794345692
+  },
+  "Ceti Sector EW-V b2-5": {
+   "pos": [
+    14.03125,
+    -83.625,
+    -25.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794346271
   }
  }
 }

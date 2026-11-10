@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 173
+    "2026-11-10": 178
    },
    "pn": {
     "J9W-B6T": {
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 35
+    "2026-11-10": 37
    },
    "prev": null,
    "prev_t": null
@@ -6478,10 +6478,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794340573.7000847,
-  "msgs": 513340,
+  "msgs": 535724,
   "mios": 47
  },
- "t": 1794342573.7701776,
+ "t": 1794343534.7035613,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6640,7 +6640,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794342531
+   "t": 1794342954
   },
   "Dewikum": {
    "pos": [
@@ -7435,7 +7435,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794321969
+   "t": 1794343452
   },
   "Tascheter Sector HR-M a7-0": {
    "pos": [
@@ -7684,7 +7684,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.173015,
+   "prog": 0.172943,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -7692,7 +7692,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794331422
+   "t": 1794343226
   },
   "Kwaraseti": {
    "pos": [
@@ -7893,7 +7893,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794339728
+   "t": 1794342818
   },
   "Wolf 218": {
    "pos": [
@@ -8835,7 +8835,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794341512
+   "t": 1794342918
   },
   "Arnemil": {
    "pos": [
@@ -9189,6 +9189,107 @@
     "Pranav Antal"
    ],
    "t": 1794342527
+  },
+  "Col 285 Sector RD-T a33-3": {
+   "pos": [
+    131.15625,
+    -31.46875,
+    11.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794337052
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.254368,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794342758
+  },
+  "Tascheter Sector FR-M a7-3": {
+   "pos": [
+    22.96875,
+    -28.3125,
+    -31.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.156569,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794343047
+  },
+  "Oto": {
+   "pos": [
+    27.25,
+    -20.71875,
+    -47.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.260984,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794343105
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177592,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794343266
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253252,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794340873
   }
  }
 }

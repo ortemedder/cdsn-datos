@@ -2789,7 +2789,7 @@
   },
   "Elivagar": {
    "sys": "Elivagar",
-   "t": 1794163427,
+   "t": 1794321834,
    "src": "EDDN",
    "inf": 39.11,
    "ctrl": true,
@@ -2812,7 +2812,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Elivagar for Equality",
@@ -2821,40 +2821,25 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "CHIMERA",
      "inf": 11.63,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Elivagar Silver Advanced Ind",
-     "inf": 8.57,
+     "inf": 10.54,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [
-      "Civil war"
-     ],
+     "act": [],
      "pend": [],
-     "jug": false
-    },
-    {
-     "n": "Traditional Elivagar Autocracy",
-     "inf": 8.57,
-     "gov": "Dictatorship",
-     "alg": "Independent",
-     "act": [
-      "Civil war"
-     ],
-     "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Elivagar Law Party",
@@ -2863,7 +2848,16 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
+    },
+    {
+     "n": "Traditional Elivagar Autocracy",
+     "inf": 6.6,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
     },
     {
      "n": "Elivagar Company",
@@ -2872,7 +2866,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -2883,12 +2877,29 @@
    ],
    "sis": {
     "pob": 6839405007,
-    "eco": "Agriculture",
-    "eco2": "Industrial",
-    "seg": "High",
-    "gov": "Democracy",
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Fortified",
+    "prog": 0.123077,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Makum": {
    "sys": "Makum",
@@ -5527,7 +5538,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 10
+    "2026-11-10": 12
    },
    "prev": null,
    "prev_t": null
@@ -5791,15 +5802,102 @@
    "trafico": {
     "2026-11-10": 1
    }
+  },
+  "Parrot's Head Sector PS-T b3-3": {
+   "sys": "Parrot's Head Sector PS-T b3-3",
+   "t": 1794321542,
+   "src": "EDDN",
+   "inf": 47.59,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "The Fatherhood",
+   "segunda_inf": 28.21,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 47.59,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "The Fatherhood",
+     "inf": 28.21,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "The Guild of Sefry",
+     "inf": 19.88,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "The Dukes of Mikunn",
+     "inf": 4.32,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    61.1875,
+    -122.5,
+    975.40625
+   ],
+   "sis": {
+    "pob": 351450523,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "trafico": {
+    "2026-11-10": 2
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794320289.2327664,
-  "msgs": 112328,
-  "mios": 13
+  "ultimo": 1794321835.3047385,
+  "msgs": 126082,
+  "mios": 15
  },
- "t": 1794320946.5557754,
+ "t": 1794321897.3168497,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5871,13 +5969,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.289641,
+   "prog": 0.312849,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794311973
+   "t": 1794321498
   },
   "Meeneratii": {
    "pos": [
@@ -6056,7 +6154,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794313536
+   "t": 1794321889
   },
   "Umaspi": {
    "pos": [
@@ -6141,7 +6239,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794314330
+   "t": 1794321754
   },
   "Chonsu": {
    "pos": [
@@ -6406,7 +6504,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794318578
+   "t": 1794321733
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -6572,6 +6670,152 @@
     "Jerome Archer"
    ],
    "t": 1794320940
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.25768,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794321069
+  },
+  "Ross 27": {
+   "pos": [
+    -34.75,
+    -1.90625,
+    -67.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.175438,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794321078
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.440251,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794321325
+  },
+  "Tascheter Sector OX-U b2-3": {
+   "pos": [
+    15.75,
+    -46.5,
+    -56.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794253029
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.299326,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794321573
+  },
+  "Girya Gu": {
+   "pos": [
+    -13.625,
+    -10.625,
+    -75.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.119997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794321610
+  },
+  "Ceti Sector FG-X b1-3": {
+   "pos": [
+    21.09375,
+    -107.5,
+    -46.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794321756
+  },
+  "Ceti Sector DL-X b1-0": {
+   "pos": [
+    17.6875,
+    -101.25,
+    -60.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01714,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794321778
+  },
+  "Elivagar": {
+   "pos": [
+    -34.4375,
+    21.5625,
+    -93.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.123077,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794321834
   }
  }
 }

@@ -5460,7 +5460,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794323209,
+   "t": 1794324539,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5542,7 +5542,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 13
+    "2026-11-10": 16
    },
    "prev": null,
    "prev_t": null
@@ -5897,11 +5897,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794323211.4126203,
-  "msgs": 153048,
-  "mios": 18
+  "ultimo": 1794324541.7158234,
+  "msgs": 165689,
+  "mios": 19
  },
- "t": 1794323678.1508505,
+ "t": 1794324548.6375382,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6060,7 +6060,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794323660
+   "t": 1794324473
   },
   "Dewikum": {
    "pos": [
@@ -6941,6 +6941,108 @@
     "Jerome Archer"
    ],
    "t": 1794322986
+  },
+  "EGM 762": {
+   "pos": [
+    12.375,
+    -79.1875,
+    -3.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259906,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794323107
+  },
+  "Cemplatui": {
+   "pos": [
+    -20.4375,
+    -18.1875,
+    -99.28125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794323944
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.267828,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794324041
+  },
+  "Utero": {
+   "pos": [
+    -37.125,
+    33.71875,
+    -123.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794324398
+  },
+  "Apinayimas": {
+   "pos": [
+    -19.03125,
+    41.34375,
+    -102.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.123426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794324448
+  },
+  "Yin Sector UT-A b1": {
+   "pos": [
+    4.21875,
+    43.0625,
+    -89.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794324501
   }
  }
 }

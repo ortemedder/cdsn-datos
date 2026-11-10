@@ -1397,7 +1397,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794134953,
+   "t": 1794272249,
    "src": "EDDN",
    "inf": 67.33,
    "ctrl": true,
@@ -1420,7 +1420,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Sirius Special Forces",
@@ -1428,8 +1428,10 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
-     "jug": true
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
     },
     {
      "n": "Escuadron Centinelas",
@@ -1438,7 +1440,7 @@
      "alg": "Empire",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Catun Resistance",
@@ -1447,7 +1449,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Catun PLC",
@@ -1456,7 +1458,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "New Catun First",
@@ -1465,7 +1467,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Catun Mafia",
@@ -1474,7 +1476,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -1485,11 +1487,43 @@
    ],
    "sis": {
     "pob": 11588392,
-    "eco": "High Tech",
-    "eco2": "Refinery",
-    "seg": "Medium",
-    "gov": "Democracy",
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Fortified",
+    "prog": 0.248483,
+    "ref": 914,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 3
+   },
+   "prev": null,
+   "prev_t": null,
+   "pn": {
+    "WNH-W5W": {
+     "n": "VODOLEY",
+     "t": 1794272398
+    },
+    "T9K-6QK": {
+     "n": "ROMANO FAFARD",
+     "t": 1794272398
+    },
+    "H2T-68G": {
+     "n": "LADY OLGA",
+     "t": 1794272398
+    }
    }
   },
   "Epsilon Sculptoris": {
@@ -2906,9 +2940,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794268516,
+   "t": 1794272013,
    "src": "EDDN",
-   "inf": 90.71,
+   "inf": 90.02,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -2919,12 +2953,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 6.89,
+   "segunda_inf": 7.98,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 90.71,
+     "inf": 90.02,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2937,7 +2971,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 6.89,
+     "inf": 7.98,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -2946,7 +2980,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 2.4,
+     "inf": 2.0,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -2980,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 22
+    "2026-11-10": 28
    },
    "pn": {
     "J9W-B6T": {
@@ -2989,7 +3023,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794268651
+     "t": 1794272013
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -2997,11 +3031,11 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794268651
+     "t": 1794272013
     }
    },
-   "prev": 92.31,
-   "prev_t": 1794176350
+   "prev": 90.71,
+   "prev_t": 1794268516
   },
   "Hyades Sector JX-T c3-19": {
    "sys": "Hyades Sector JX-T c3-19",
@@ -4960,15 +4994,99 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Hyades Sector UF-M b8-2": {
+   "sys": "Hyades Sector UF-M b8-2",
+   "t": 1794272192,
+   "src": "EDDN",
+   "inf": 18.39,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Nanamatha Progressive Party",
+   "segunda_inf": 37.49,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Nanamatha Progressive Party",
+     "inf": 37.49,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Catun PLC",
+     "inf": 24.02,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Leaders of Apinayimas",
+     "inf": 20.1,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 18.39,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Nanamatha Progressive Party",
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "sis": {
+    "pob": 48814261,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.199426,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794270445.4292805,
-  "msgs": 1174331,
-  "mios": 56
+  "ultimo": 1794272250.3777425,
+  "msgs": 1192901,
+  "mios": 59
  },
- "t": 1794271767.4170542,
+ "t": 1794272638.2589173,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5222,7 +5340,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794258827
+   "t": 1794272542
   },
   "Hyades Sector TK-M b8-3": {
    "pos": [
@@ -5636,13 +5754,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.16061,
+   "prog": 0.158289,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794247061
+   "t": 1794272629
   },
   "LFT 179": {
    "pos": [
@@ -7071,12 +7189,12 @@
    ],
    "pot": "Pranav Antal",
    "est": "Exploited",
-   "prog": 0.006626,
+   "prog": 0.042614,
    "pots": [
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794256351
+   "t": 1794271999
   },
   "Tascheter Sector AV-Y b7": {
    "pos": [
@@ -8075,7 +8193,7 @@
     "A. Lavigny-Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794264614
+   "t": 1794271826
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -8292,7 +8410,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794270353
+   "t": 1794271945
   },
   "Pai Ho": {
    "pos": [
@@ -8308,6 +8426,108 @@
     "Li Yong-Rui"
    ],
    "t": 1794271760
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.272622,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794271833
+  },
+  "Sairre": {
+   "pos": [
+    -21.21875,
+    37.375,
+    -82.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794272048
+  },
+  "Ba Jonandja": {
+   "pos": [
+    -18.53125,
+    36.09375,
+    -91.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.126815,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794272099
+  },
+  "Nanamatha": {
+   "pos": [
+    -17.125,
+    34.1875,
+    -103.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.114154,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794272145
+  },
+  "Hyades Sector UF-M b8-2": {
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.199426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794272192
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.248483,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794272249
   }
  }
 }

@@ -3003,7 +3003,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794285310,
+   "t": 1794325693,
    "src": "EDDN",
    "inf": 90.02,
    "ctrl": true,
@@ -3060,9 +3060,9 @@
     280.59375
    ],
    "sis": {
-    "pob": 36099963,
+    "pob": 37964995,
     "eco": "$economy_Refinery;",
-    "eco2": "$economy_Industrial;",
+    "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 111
+    "2026-11-10": 115
    },
    "pn": {
     "J9W-B6T": {
@@ -3086,7 +3086,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794283994
+     "t": 1794325779
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3094,7 +3094,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794283994
+     "t": 1794325779
     }
    },
    "prev": 90.71,
@@ -5542,7 +5542,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 17
+    "2026-11-10": 18
    },
    "prev": null,
    "prev_t": null
@@ -5893,15 +5893,335 @@
    "trafico": {
     "2026-11-10": 4
    }
+  },
+  "Heili": {
+   "sys": "Heili",
+   "t": 1794325768,
+   "src": "EDDN",
+   "inf": 12.14,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "160 S.O.A.R.",
+   "segunda_inf": 49.45,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "160 S.O.A.R.",
+     "inf": 49.45,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 13.44,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "The Fatherhood",
+     "inf": 12.54,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Astrobiology Research Cooperative",
+     "inf": 12.44,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 12.14,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "160 S.O.A.R.",
+   "pos": [
+    -33,
+    2.65625,
+    -92.75
+   ],
+   "sis": {
+    "pob": 494932,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Alliance"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.01514,
+    "ref": 0,
+    "soc": 100,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 2
+   }
+  },
+  "Lan Caihe": {
+   "sys": "Lan Caihe",
+   "t": 1794326026,
+   "src": "EDDN",
+   "inf": 15.82,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 49.45,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 49.45,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 15.82,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lan Caihe Crimson Creative & Co",
+     "inf": 12.04,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lan Caihe Liberals",
+     "inf": 7.86,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lan Caihe First",
+     "inf": 6.47,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lan Caihe Purple Transport Co",
+     "inf": 5.67,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lan Caihe Ring",
+     "inf": 2.69,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -7.15625,
+    16,
+    -119.34375
+   ],
+   "sis": {
+    "pob": 5586097,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.260738,
+    "ref": 0,
+    "soc": 341,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   }
+  },
+  "Kher": {
+   "sys": "Kher",
+   "t": 1794326239,
+   "src": "EDDN",
+   "inf": 4.69,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Leaders of Apinayimas",
+   "segunda_inf": 58.58,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Leaders of Apinayimas",
+     "inf": 58.58,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Kher Ltd",
+     "inf": 12.08,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Liberals of Kher",
+     "inf": 10.18,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Eluskapu Partnership",
+     "inf": 8.38,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Official Kher Focus",
+     "inf": 5.09,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 4.69,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Kher Silver Clan",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Leaders of Apinayimas",
+   "pos": [
+    -11.5,
+    42.4375,
+    -104.40625
+   ],
+   "sis": {
+    "pob": 11017569,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Feudal;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Fortified",
+    "prog": 0.250894,
+    "ref": 0,
+    "soc": 119,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794325200.6660485,
-  "msgs": 179105,
-  "mios": 20
+  "ultimo": 1794326242.7027562,
+  "msgs": 196193,
+  "mios": 24
  },
- "t": 1794325429.0910213,
+ "t": 1794326349.7795384,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6060,7 +6380,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794325178
+   "t": 1794326069
   },
   "Dewikum": {
    "pos": [
@@ -7130,6 +7450,139 @@
     "Jerome Archer"
    ],
    "t": 1794325427
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.100686,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794325721
+  },
+  "Heili": {
+   "pos": [
+    -33,
+    2.65625,
+    -92.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01514,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794325768
+  },
+  "Olkondi": {
+   "pos": [
+    145.21875,
+    -26.59375,
+    30.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794325914
+  },
+  "Lan Caihe": {
+   "pos": [
+    -7.15625,
+    16,
+    -119.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.260738,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794326026
+  },
+  "Hyades Sector VA-M b8-1": {
+   "pos": [
+    -40.25,
+    -3.59375,
+    -103.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794326050
+  },
+  "Tascheter Sector ZZ-P a5-1": {
+   "pos": [
+    18.65625,
+    -37.09375,
+    -48.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.071426,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794326219
+  },
+  "Kher": {
+   "pos": [
+    -11.5,
+    42.4375,
+    -104.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.250894,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794326239
+  },
+  "BD+43 866": {
+   "pos": [
+    -45.25,
+    -12.78125,
+    -101.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.253826,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794326341
   }
  }
 }

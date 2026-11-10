@@ -2940,7 +2940,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794272013,
+   "t": 1794275605,
    "src": "EDDN",
    "inf": 90.02,
    "ctrl": true,
@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 48
+    "2026-11-10": 54
    },
    "pn": {
     "J9W-B6T": {
@@ -3023,7 +3023,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794272013
+     "t": 1794275710
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3031,7 +3031,7 @@
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
-     "t": 1794272013
+     "t": 1794275710
     }
    },
    "prev": 90.71,
@@ -5379,11 +5379,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794274992.8257937,
-  "msgs": 1230863,
-  "mios": 63
+  "ultimo": 1794275605.616792,
+  "msgs": 1242911,
+  "mios": 64
  },
- "t": 1794275159.6248775,
+ "t": 1794276290.3298411,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5686,7 +5686,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794269253
+   "t": 1794276041
   },
   "Jurua": {
    "pos": [
@@ -6158,7 +6158,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794274625
+   "t": 1794276119
   },
   "Tascheter Sector BV-Y b7": {
    "pos": [
@@ -6201,12 +6201,12 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.228993,
+   "prog": 0.22908,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794264078
+   "t": 1794276026
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -8409,7 +8409,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794263498
+   "t": 1794275907
   },
   "Rindjibal": {
    "pos": [
@@ -8921,6 +8921,40 @@
     "Jerome Archer"
    ],
    "t": 1794275040
+  },
+  "LP 883-185": {
+   "pos": [
+    5.4375,
+    -81.0625,
+    -7.125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.122283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794275686
+  },
+  "Trianguli Sector AH-L a8-1": {
+   "pos": [
+    31.90625,
+    -35.375,
+    -43.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794276046
   }
  }
 }

@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 76
+    "2026-11-10": 81
    },
    "pn": {
     "J9W-B6T": {
@@ -5380,10 +5380,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794275605.616792,
-  "msgs": 1283509,
+  "msgs": 1293072,
   "mios": 64
  },
- "t": 1794279742.6760628,
+ "t": 1794280763.1616364,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5401,7 +5401,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794278119
+   "t": 1794280748
   },
   "Ethli": {
    "pos": [
@@ -6967,7 +6967,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794279023
+   "t": 1794280131
   },
   "Yin Sector UT-A b1": {
    "pos": [
@@ -9052,7 +9052,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794279619
+   "t": 1794280680
   },
   "Lougen": {
    "pos": [
@@ -9085,6 +9085,24 @@
     "Jerome Archer"
    ],
    "t": 1794279557
+  },
+  "Tascheter Sector DG-O a6-1": {
+   "pos": [
+    22.28125,
+    -43.40625,
+    -36.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.123663,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794280151
   }
  }
 }

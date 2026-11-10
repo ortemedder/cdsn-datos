@@ -5460,7 +5460,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794324539,
+   "t": 1794325198,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5542,7 +5542,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 16
+    "2026-11-10": 17
    },
    "prev": null,
    "prev_t": null
@@ -5897,11 +5897,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794324541.7158234,
-  "msgs": 165689,
-  "mios": 19
+  "ultimo": 1794325200.6660485,
+  "msgs": 179105,
+  "mios": 20
  },
- "t": 1794324548.6375382,
+ "t": 1794325429.0910213,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6060,7 +6060,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794324473
+   "t": 1794325178
   },
   "Dewikum": {
    "pos": [
@@ -6474,7 +6474,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794317998
+   "t": 1794325154
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -6889,7 +6889,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794322353
+   "t": 1794325365
   },
   "Epsilon Sculptoris": {
    "pos": [
@@ -6993,7 +6993,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794324041
+   "t": 1794324909
   },
   "Utero": {
    "pos": [
@@ -7043,6 +7043,93 @@
     "Jerome Archer"
    ],
    "t": 1794324501
+  },
+  "Jardovici": {
+   "pos": [
+    -7.78125,
+    -86.53125,
+    -9.3125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.252169,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794324933
+  },
+  "LTT 11485": {
+   "pos": [
+    -26.78125,
+    -8.53125,
+    -100.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255726,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794325102
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.175533,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794323495
+  },
+  "Zach": {
+   "pos": [
+    -10.09375,
+    19.0625,
+    -69.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.195669,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794325388
+  },
+  "Kwaraseti": {
+   "pos": [
+    -22.9375,
+    -3.5,
+    -91.15625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.251584,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794325427
   }
  }
 }

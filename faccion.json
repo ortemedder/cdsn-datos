@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 194
+    "2026-11-10": 199
    },
    "pn": {
     "J9W-B6T": {
@@ -6647,10 +6647,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794350016.9404726,
-  "msgs": 704298,
+  "msgs": 718088,
   "mios": 53
  },
- "t": 1794351681.1066186,
+ "t": 1794352571.8034496,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6843,7 +6843,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794348719
+   "t": 1794351802
   },
   "Hyades Sector XV-L b8-6": {
    "pos": [
@@ -7742,7 +7742,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794351385
+   "t": 1794352308
   },
   "Utero": {
    "pos": [
@@ -9953,11 +9953,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.171363,
+   "prog": 0.171555,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794350796
+   "t": 1794352429
   },
   "Lambayeque": {
    "pos": [
@@ -9972,6 +9972,55 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794351677
+  },
+  "Scottii": {
+   "pos": [
+    124,
+    -116.40625,
+    -31.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.264404,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794351816
+  },
+  "Tascheter Sector CL-Y d135": {
+   "pos": [
+    -28.03125,
+    -11.15625,
+    -92.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794351950
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.272622,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794352367
   }
  }
 }

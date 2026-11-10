@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 39
+    "2026-11-10": 45
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 149
+    "2026-11-10": 154
    },
    "pn": {
     "J9W-B6T": {
@@ -6476,10 +6476,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794335731.9083045,
-  "msgs": 391952,
+  "msgs": 412054,
   "mios": 42
  },
- "t": 1794337158.5545533,
+ "t": 1794338089.3563313,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6638,7 +6638,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794337014
+   "t": 1794337371
   },
   "Dewikum": {
    "pos": [
@@ -7553,7 +7553,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794323944
+   "t": 1794338049
   },
   "Ninmah": {
    "pos": [
@@ -8700,7 +8700,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794335091
+   "t": 1794337712
   },
   "Col 285 Sector UT-W b16-5": {
    "pos": [
@@ -8730,7 +8730,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794336413
+   "t": 1794337769
   },
   "HIP 18427": {
    "pos": [
@@ -8833,7 +8833,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794336727
+   "t": 1794337747
   },
   "Arnemil": {
    "pos": [
@@ -8879,6 +8879,40 @@
     "Jerome Archer"
    ],
    "t": 1794337149
+  },
+  "Tascheter Sector GR-M a7-0": {
+   "pos": [
+    25.4375,
+    -34,
+    -34.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.150883,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794337386
+  },
+  "Arietis Sector QT-Q b5-4": {
+   "pos": [
+    -35.78125,
+    -23.6875,
+    -104.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794337746
   }
  }
 }

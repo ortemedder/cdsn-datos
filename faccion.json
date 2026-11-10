@@ -5463,7 +5463,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794345525,
+   "t": 1794347572,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 43
+    "2026-11-10": 44
    },
    "prev": null,
    "prev_t": null
@@ -6479,11 +6479,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794346813.0633886,
-  "msgs": 621662,
-  "mios": 50
+  "ultimo": 1794347573.7565715,
+  "msgs": 638919,
+  "mios": 51
  },
- "t": 1794347107.2468739,
+ "t": 1794347907.8387988,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6607,7 +6607,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794345481
+   "t": 1794347591
   },
   "Koamul": {
    "pos": [
@@ -6709,7 +6709,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794345030
+   "t": 1794347535
   },
   "Guitaiku": {
    "pos": [
@@ -7056,7 +7056,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794341537
+   "t": 1794347760
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -8130,7 +8130,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794331849
+   "t": 1794347808
   },
   "StKM 1-626": {
    "pos": [
@@ -8396,7 +8396,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794330772
+   "t": 1794347595
   },
   "Findbhair": {
    "pos": [
@@ -9284,14 +9284,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.253252,
+   "prog": 0.252578,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794340873
+   "t": 1794347670
   },
   "Bondranses": {
    "pos": [
@@ -9404,7 +9404,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794345452
+   "t": 1794347688
   },
   "Hyades Sector WF-M b8-2": {
    "pos": [
@@ -9517,6 +9517,55 @@
     "Jerome Archer"
    ],
    "t": 1794347097
+  },
+  "Phra Saman": {
+   "pos": [
+    8.59375,
+    -78.3125,
+    -24.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198154,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794347502
+  },
+  "Ceti Sector KX-T b3-0": {
+   "pos": [
+    -2.25,
+    -104.3125,
+    -19.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.541187,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794347901
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.370741,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794347905
   }
  }
 }

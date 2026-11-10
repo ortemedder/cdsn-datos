@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 115
+    "2026-11-10": 117
    },
    "pn": {
     "J9W-B6T": {
@@ -5460,7 +5460,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794325198,
+   "t": 1794326994,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5542,7 +5542,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 18
+    "2026-11-10": 19
    },
    "prev": null,
    "prev_t": null
@@ -6213,15 +6213,101 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Hyades Sector UP-N b7-6": {
+   "sys": "Hyades Sector UP-N b7-6",
+   "t": 1794326904,
+   "src": "EDDN",
+   "inf": 44.97,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 25.72,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 44.97,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 25.72,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Kolaga Republic Party",
+     "inf": 21.64,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Fimbulwinter Camorra",
+     "inf": 7.68,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -14.875,
+    -9.59375,
+    -110.9375
+   ],
+   "sis": {
+    "pob": 1344537,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794326242.7027562,
-  "msgs": 196193,
-  "mios": 24
+  "ultimo": 1794326995.492887,
+  "msgs": 212072,
+  "mios": 26
  },
- "t": 1794326349.7795384,
+ "t": 1794327190.309821,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6372,7 +6458,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.252552,
+   "prog": 0.252538,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -6380,7 +6466,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794326069
+   "t": 1794326907
   },
   "Dewikum": {
    "pos": [
@@ -7362,7 +7448,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794324501
+   "t": 1794327182
   },
   "Jardovici": {
    "pos": [
@@ -7583,6 +7669,140 @@
     "Zemina Torval"
    ],
    "t": 1794326341
+  },
+  "Cama Zotz": {
+   "pos": [
+    42.71875,
+    -47.125,
+    -45.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.253934,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794326524
+  },
+  "Arietis Sector CQ-Y d58": {
+   "pos": [
+    -36,
+    -10.8125,
+    -112.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.094283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794326609
+  },
+  "Furuhjelm III-674": {
+   "pos": [
+    -39,
+    -8.125,
+    -87.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.144085,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794326625
+  },
+  "Wolf 218": {
+   "pos": [
+    -39.40625,
+    -9.5,
+    -74.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794326719
+  },
+  "Hyades Sector UP-N b7-6": {
+   "pos": [
+    -14.875,
+    -9.59375,
+    -110.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794326904
+  },
+  "Unktock": {
+   "pos": [
+    -41.34375,
+    -14.59375,
+    -68.625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.32179,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794326950
+  },
+  "Kalveti": {
+   "pos": [
+    -7.96875,
+    -15.65625,
+    -121.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256032,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794326970
+  },
+  "Shokwa": {
+   "pos": [
+    15.15625,
+    -33.125,
+    -41.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.253742,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794327133
   }
  }
 }

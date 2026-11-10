@@ -3014,7 +3014,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 66
+    "2026-11-10": 70
    },
    "pn": {
     "J9W-B6T": {
@@ -5380,10 +5380,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794275605.616792,
-  "msgs": 1264098,
+  "msgs": 1273178,
   "mios": 64
  },
- "t": 1794278121.6266727,
+ "t": 1794279022.1562843,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5817,7 +5817,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794276553
+   "t": 1794278395
   },
   "Alpha Doradus": {
    "pos": [
@@ -6206,7 +6206,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794278000
+   "t": 1794278859
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -6408,7 +6408,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794216406
+   "t": 1794278089
   },
   "Ceti Sector KX-T b3-4": {
    "pos": [
@@ -6967,7 +6967,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794231673
+   "t": 1794279023
   },
   "Yin Sector UT-A b1": {
    "pos": [
@@ -9037,6 +9037,37 @@
     "Li Yong-Rui"
    ],
    "t": 1794277919
+  },
+  "Ceti Sector HR-V b2-0": {
+   "pos": [
+    18.625,
+    -101.0625,
+    -40.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794278547
+  },
+  "Lougen": {
+   "pos": [
+    137.53125,
+    -20.875,
+    5.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.189241,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794278644
   }
  }
 }

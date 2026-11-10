@@ -5814,7 +5814,7 @@
   },
   "Parrot's Head Sector PS-T b3-3": {
    "sys": "Parrot's Head Sector PS-T b3-3",
-   "t": 1794321542,
+   "t": 1794344702,
    "src": "EDDN",
    "inf": 47.59,
    "ctrl": true,
@@ -5896,8 +5896,10 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 4
-   }
+    "2026-11-10": 7
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Heili": {
    "sys": "Heili",
@@ -6477,11 +6479,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794340573.7000847,
-  "msgs": 557669,
-  "mios": 47
+  "ultimo": 1794344704.02369,
+  "msgs": 580468,
+  "mios": 48
  },
- "t": 1794344175.1947956,
+ "t": 1794345355.8326323,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6707,7 +6709,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794342569
+   "t": 1794345030
   },
   "Guitaiku": {
    "pos": [
@@ -8442,7 +8444,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794331173
+   "t": 1794345016
   },
   "LHS 1765": {
    "pos": [
@@ -8570,7 +8572,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794332327
+   "t": 1794345347
   },
   "Tascheter Sector XO-A b6": {
    "pos": [
@@ -9339,6 +9341,52 @@
     "Pranav Antal"
    ],
    "t": 1794344465
+  },
+  "Ceti Sector CL-X b1-3": {
+   "pos": [
+    10.0625,
+    -97.8125,
+    -55.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.193823,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794344516
+  },
+  "HIP 20606": {
+   "pos": [
+    126.75,
+    -122.53125,
+    -26.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.223998,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794344592
+  },
+  "Tascheter Sector AA-Z b0": {
+   "pos": [
+    26.3125,
+    3.71875,
+    -93.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.15314,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794344942
   }
  }
 }

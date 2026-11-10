@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 53
+    "2026-11-10": 59
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -3077,7 +3077,7 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 161
+    "2026-11-10": 165
    },
    "pn": {
     "J9W-B6T": {
@@ -5463,7 +5463,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794338966,
+   "t": 1794340571,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5545,7 +5545,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 29
+    "2026-11-10": 30
    },
    "prev": null,
    "prev_t": null
@@ -5737,7 +5737,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1794318350,
+   "t": 1794340321,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -5807,8 +5807,10 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 1
-   }
+    "2026-11-10": 2
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Parrot's Head Sector PS-T b3-3": {
    "sys": "Parrot's Head Sector PS-T b3-3",
@@ -6475,11 +6477,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794338968.1733844,
-  "msgs": 449918,
-  "mios": 45
+  "ultimo": 1794340573.7000847,
+  "msgs": 471580,
+  "mios": 47
  },
- "t": 1794339910.8487937,
+ "t": 1794340811.741389,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -8833,7 +8835,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794337747
+   "t": 1794340281
   },
   "Arnemil": {
    "pos": [
@@ -8878,7 +8880,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794337149
+   "t": 1794340000
   },
   "Tascheter Sector GR-M a7-0": {
    "pos": [
@@ -8981,6 +8983,83 @@
     "Jerome Archer"
    ],
    "t": 1794339903
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198409,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794339966
+  },
+  "Hyades Sector YG-K b9-3": {
+   "pos": [
+    -46.71875,
+    1.59375,
+    -78.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794340142
+  },
+  "Wolf 1324": {
+   "pos": [
+    -45.46875,
+    -28.09375,
+    -87
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.238855,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794340169
+  },
+  "HIP 31451": {
+   "pos": [
+    -23.46875,
+    43.875,
+    -145.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794340321
+  },
+  "Cariangan": {
+   "pos": [
+    1.1875,
+    -93.21875,
+    -40.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.259809,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794340766
   }
  }
 }

@@ -1550,7 +1550,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794263640,
+   "t": 1794322109,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -1614,7 +1614,7 @@
     -18.46875
    ],
    "sis": {
-    "pob": 2197964,
+    "pob": 2198001,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1634,7 +1634,8 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 1
+    "2026-11-09": 1,
+    "2026-11-10": 1
    },
    "prev": null,
    "prev_t": null
@@ -4645,7 +4646,7 @@
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794256000,
+   "t": 1794322561,
    "src": "EDDN",
    "inf": 48.4,
    "ctrl": true,
@@ -4700,7 +4701,7 @@
     960.875
    ],
    "sis": {
-    "pob": 4333346,
+    "pob": 4338995,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -4716,8 +4717,11 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 2
-   }
+    "2026-11-09": 2,
+    "2026-11-10": 2
+   },
+   "prev": null,
+   "prev_t": null
   },
   "NN 3365": {
    "sys": "NN 3365",
@@ -5887,17 +5891,17 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 2
+    "2026-11-10": 4
    }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794321835.3047385,
-  "msgs": 126082,
-  "mios": 15
+  "ultimo": 1794322583.7524364,
+  "msgs": 140255,
+  "mios": 17
  },
- "t": 1794321897.3168497,
+ "t": 1794322767.7413712,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6056,7 +6060,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794319833
+   "t": 1794322189
   },
   "Dewikum": {
    "pos": [
@@ -6816,6 +6820,92 @@
     "Jerome Archer"
    ],
    "t": 1794321834
+  },
+  "Renetes": {
+   "pos": [
+    -14.09375,
+    -8.875,
+    -88.5625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.226855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794322123
+  },
+  "Tascheter Sector FR-M a7-1": {
+   "pos": [
+    19.3125,
+    -27.34375,
+    -34.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794321969
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.206584,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794322085
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794322353
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794322109
   }
  }
 }

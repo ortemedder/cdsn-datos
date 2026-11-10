@@ -3389,7 +3389,7 @@
   },
   "HIP 19292": {
    "sys": "HIP 19292",
-   "t": 1794185054,
+   "t": 1794285416,
    "src": "EDDN",
    "inf": 13.29,
    "ctrl": false,
@@ -3462,7 +3462,7 @@
     -14.1875
    ],
    "sis": {
-    "pob": 204368,
+    "pob": 204538,
     "eco": "$economy_Military;",
     "eco2": "$economy_Tourism;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -3478,7 +3478,12 @@
     "pots": [
      "A. Lavigny-Duval"
     ]
-   }
+   },
+   "trafico": {
+    "2026-11-10": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Wathiparian": {
    "sys": "Wathiparian",
@@ -5379,11 +5384,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794285311.2893758,
-  "msgs": 1344100,
-  "mios": 67
+  "ultimo": 1794285417.8969767,
+  "msgs": 1353569,
+  "mios": 68
  },
- "t": 1794285315.3371348,
+ "t": 1794285975.5371923,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -9228,6 +9233,50 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794285162
+  },
+  "HIP 19292": {
+   "pos": [
+    117.96875,
+    -119.8125,
+    -14.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794285416
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.175533,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794285749
+  },
+  "Mandra": {
+   "pos": [
+    104.96875,
+    -117.40625,
+    -7.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.284967,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794285968
   }
  }
 }

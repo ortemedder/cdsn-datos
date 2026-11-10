@@ -4485,7 +4485,7 @@
    },
    "trafico": {
     "2026-11-09": 15,
-    "2026-11-10": 5
+    "2026-11-10": 6
    },
    "pn": {
     "V8X-11L": {
@@ -5416,7 +5416,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794300958,
+   "t": 1794317295,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5498,7 +5498,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 5
+    "2026-11-10": 6
    },
    "prev": null,
    "prev_t": null
@@ -5691,11 +5691,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794316218.1294262,
-  "msgs": 58364,
-  "mios": 7
+  "ultimo": 1794317300.4409482,
+  "msgs": 68391,
+  "mios": 8
  },
- "t": 1794316355.111733,
+ "t": 1794317305.3350344,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5921,7 +5921,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794316305
+   "t": 1794316965
   },
   "Guitaiku": {
    "pos": [
@@ -6120,7 +6120,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794315530
+   "t": 1794316457
   },
   "Vukur": {
    "pos": [
@@ -6187,6 +6187,38 @@
     "Zemina Torval"
    ],
    "t": 1794316315
+  },
+  "Trianguli Sector TF-N a7-1": {
+   "pos": [
+    24.25,
+    -31.0625,
+    -51.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.090154,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794316741
+  },
+  "Didayac": {
+   "pos": [
+    27.3125,
+    -42.875,
+    -44.84375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.101438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794317102
   }
  }
 }

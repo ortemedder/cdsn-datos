@@ -217,7 +217,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794315433,
+   "t": 1794318463,
    "src": "EDDN",
    "inf": 58.28,
    "ctrl": true,
@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 8
+    "2026-11-10": 10
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -2402,7 +2402,17 @@
     "2026-11-10": 2
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "pn": {
+    "XHF-N1M": {
+     "n": "HMAS KATOOMBA",
+     "t": 1794318344
+    },
+    "XZV-67H": {
+     "n": "[EDS] BIGMAMA [GOOFY]",
+     "t": 1794318344
+    }
+   }
   },
   "Jangore": {
    "sys": "Jangore",
@@ -5517,7 +5527,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 7
+    "2026-11-10": 9
    },
    "prev": null,
    "prev_t": null
@@ -5706,15 +5716,90 @@
      "Jerome Archer"
     ]
    }
+  },
+  "HIP 31451": {
+   "sys": "HIP 31451",
+   "t": 1794318350,
+   "src": "EDDN",
+   "inf": 66.33,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Nagii Union",
+   "segunda_inf": 23.52,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 66.33,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Nagii Union",
+     "inf": 23.52,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Independence Separatist Fleet",
+     "inf": 10.15,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -23.46875,
+    43.875,
+    -145.28125
+   ],
+   "sis": {
+    "pob": 268285965,
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-10": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794318276.2555265,
-  "msgs": 77859,
-  "mios": 10
+  "ultimo": 1794318464.4560306,
+  "msgs": 88142,
+  "mios": 12
  },
- "t": 1794318285.5574777,
+ "t": 1794319046.06606,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -5776,7 +5861,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794312270
+   "t": 1794318368
   },
   "Gollobo": {
    "pos": [
@@ -6024,7 +6109,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794315433
+   "t": 1794318463
   },
   "Pirawoth": {
    "pos": [
@@ -6304,6 +6389,72 @@
     "Li Yong-Rui"
    ],
    "t": 1794318269
+  },
+  "Ethli": {
+   "pos": [
+    3.1875,
+    -4.65625,
+    -83.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.272786,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794318578
+  },
+  "Ceti Sector LX-T b3-2": {
+   "pos": [
+    19.375,
+    -102.71875,
+    -11.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794318638
+  },
+  "HIP 34730": {
+   "pos": [
+    -26.75,
+    62.84375,
+    -140.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794318878
+  },
+  "Suyarang": {
+   "pos": [
+    21.15625,
+    -12.0625,
+    -75.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.161855,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794319039
   }
  }
 }

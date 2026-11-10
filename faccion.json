@@ -217,7 +217,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794318463,
+   "t": 1794330608,
    "src": "EDDN",
    "inf": 58.28,
    "ctrl": true,
@@ -292,7 +292,7 @@
    },
    "trafico": {
     "2026-11-09": 29,
-    "2026-11-10": 10
+    "2026-11-10": 13
    },
    "prev": 57.88,
    "prev_t": 1794270444
@@ -4441,7 +4441,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794316217,
+   "t": 1794330141,
    "src": "EDDN",
    "inf": 59.94,
    "ctrl": true,
@@ -4525,12 +4525,12 @@
    },
    "trafico": {
     "2026-11-09": 15,
-    "2026-11-10": 7
+    "2026-11-10": 10
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794316353
+     "t": 1794330276
     }
    },
    "prev": 59.55,
@@ -5073,7 +5073,7 @@
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
-   "t": 1794286891,
+   "t": 1794330619,
    "src": "EDDN",
    "inf": 18.39,
    "ctrl": false,
@@ -5133,7 +5133,7 @@
     -103.90625
    ],
    "sis": {
-    "pob": 48814261,
+    "pob": 48815075,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -5155,7 +5155,7 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 1
+    "2026-11-10": 2
    },
    "prev": null,
    "prev_t": null
@@ -5541,7 +5541,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 23
+    "2026-11-10": 24
    },
    "prev": null,
    "prev_t": null
@@ -6471,11 +6471,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794329646.8541727,
-  "msgs": 257866,
-  "mios": 31
+  "ultimo": 1794330622.9230537,
+  "msgs": 277143,
+  "mios": 37
  },
- "t": 1794329652.4432182,
+ "t": 1794330903.4048665,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6634,7 +6634,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794329466
+   "t": 1794330818
   },
   "Dewikum": {
    "pos": [
@@ -6785,7 +6785,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794318463
+   "t": 1794330608
   },
   "Pirawoth": {
    "pos": [
@@ -6867,7 +6867,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794316217
+   "t": 1794330141
   },
   "Col 285 Sector TT-W b16-8": {
    "pos": [
@@ -7048,7 +7048,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794325154
+   "t": 1794330567
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -7668,7 +7668,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794328444
+   "t": 1794330528
   },
   "Zach": {
    "pos": [
@@ -8241,6 +8241,170 @@
     "Jerome Archer"
    ],
    "t": 1794329519
+  },
+  "BD+33 801": {
+   "pos": [
+    -31.3125,
+    -25.03125,
+    -107.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794328299
+  },
+  "Yax Balam": {
+   "pos": [
+    -23.53125,
+    -22.5625,
+    -95.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.251841,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794328364
+  },
+  "LP 302-22": {
+   "pos": [
+    -18.875,
+    -17.0625,
+    -79.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.248569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794328451
+  },
+  "BD+28 737": {
+   "pos": [
+    -9.53125,
+    -14.25,
+    -115.65625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.059997,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794329712
+  },
+  "Gurabru": {
+   "pos": [
+    3.59375,
+    15.34375,
+    -126.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.251745,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794330297
+  },
+  "Hyades Sector UF-M b8-2": {
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.199426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794330619
+  },
+  "Col 285 Sector JM-L c8-12": {
+   "pos": [
+    138.46875,
+    -21.9375,
+    3.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794330645
+  },
+  "Hyades Sector JX-T c3-21": {
+   "pos": [
+    -3.90625,
+    2.375,
+    -117.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794330677
+  },
+  "Shedi": {
+   "pos": [
+    -33.53125,
+    -19.90625,
+    -77.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.253602,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794330772
+  },
+  "Findbhair": {
+   "pos": [
+    15.59375,
+    -2.90625,
+    -120.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794330893
   }
  }
 }

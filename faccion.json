@@ -1397,7 +1397,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794281894,
+   "t": 1794286949,
    "src": "EDDN",
    "inf": 67.33,
    "ctrl": true,
@@ -1507,20 +1507,20 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 9
+    "2026-11-10": 11
    },
    "pn": {
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794282002
+     "t": 1794286956
     },
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794282002
+     "t": 1794286956
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794282002
+     "t": 1794286956
     }
    },
    "prev": null,
@@ -5002,7 +5002,7 @@
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
-   "t": 1794272192,
+   "t": 1794286891,
    "src": "EDDN",
    "inf": 18.39,
    "ctrl": false,
@@ -5082,7 +5082,12 @@
      "Pranav Antal",
      "Jerome Archer"
     ]
-   }
+   },
+   "trafico": {
+    "2026-11-10": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Kunuvii": {
    "sys": "Kunuvii",
@@ -5384,11 +5389,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794285417.8969767,
-  "msgs": 1353569,
-  "mios": 68
+  "ultimo": 1794287167.212447,
+  "msgs": 1369775,
+  "mios": 70
  },
- "t": 1794285975.5371923,
+ "t": 1794287926.128901,
  "zona": {
   "Hajangai": {
    "pos": [
@@ -5806,7 +5811,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794197324
+   "t": 1794287921
   },
   "HJ 3456B": {
    "pos": [
@@ -6243,7 +6248,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794209286
+   "t": 1794286872
   },
   "BD+19 1405": {
    "pos": [
@@ -7643,7 +7648,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794247056
+   "t": 1794286630
   },
   "Kwangwutii": {
    "pos": [
@@ -8812,7 +8817,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794272192
+   "t": 1794286891
   },
   "Catun": {
    "pos": [
@@ -8829,7 +8834,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794281894
+   "t": 1794286949
   },
   "Kunuvii": {
    "pos": [
@@ -9277,6 +9282,55 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794285968
+  },
+  "Trianguli Sector WA-N a7-1": {
+   "pos": [
+    28.46875,
+    -41.09375,
+    -50.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.142855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794284385
+  },
+  "HIP 14137": {
+   "pos": [
+    -41.71875,
+    -20.65625,
+    -67.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794286908
+  },
+  "Strigenses": {
+   "pos": [
+    0.03125,
+    17.5,
+    -122.65625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257595,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794287146
   }
  }
 }

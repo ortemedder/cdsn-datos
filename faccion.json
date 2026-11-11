@@ -5546,7 +5546,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794405438,
+   "t": 1794406406,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5629,7 +5629,7 @@
    },
    "trafico": {
     "2026-11-10": 46,
-    "2026-11-11": 1
+    "2026-11-11": 2
    },
    "prev": null,
    "prev_t": null
@@ -6993,11 +6993,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794405776.6505938,
-  "msgs": 1277136,
-  "mios": 78
+  "ultimo": 1794406410.1958575,
+  "msgs": 1289477,
+  "mios": 79
  },
- "t": 1794405780.9961128,
+ "t": 1794406571.2718806,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -8942,7 +8942,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794331084
+   "t": 1794406517
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -9479,7 +9479,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794339886
+   "t": 1794406692
   },
   "Kareneri": {
    "pos": [
@@ -11701,6 +11701,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794405283
+  },
+  "Tegidana": {
+   "pos": [
+    -55.03125,
+    -5,
+    -85.75
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.142283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794406565
   }
  }
 }

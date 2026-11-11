@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 125
+    "2026-11-11": 129
    },
    "pn": {
     "J9W-B6T": {
@@ -7373,10 +7373,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794421990.470753,
-  "msgs": 240485,
+  "msgs": 259801,
   "mios": 11
  },
- "t": 1794425920.1751804,
+ "t": 1794426751.2480347,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7780,7 +7780,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794425636
+   "t": 1794426720
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8180,7 +8180,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794425041
+   "t": 1794426341
   },
   "Hyades Sector SU-N b7-5": {
    "pos": [
@@ -8376,7 +8376,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794423710
+   "t": 1794426600
   },
   "Lei Jen Zu": {
    "pos": [
@@ -8491,7 +8491,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794423765
+   "t": 1794426352
   },
   "Col 285 Sector XZ-U b17-3": {
    "pos": [
@@ -8555,7 +8555,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794423878
+   "t": 1794426370
   },
   "Tascheter Sector AA-Z b0": {
    "pos": [
@@ -8768,6 +8768,88 @@
     "Jerome Archer"
    ],
    "t": 1794425750
+  },
+  "Hyades Sector WF-M b8-2": {
+   "pos": [
+    31.65625,
+    27.15625,
+    -103.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.066283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794425936
+  },
+  "Nyal": {
+   "pos": [
+    -18.28125,
+    -11.65625,
+    -104.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794426557
+  },
+  "Tascheter Sector BL-O a6-1": {
+   "pos": [
+    22.65625,
+    -33.96875,
+    -38.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794426585
+  },
+  "Arietis Sector MN-S b4-5": {
+   "pos": [
+    -26.46875,
+    -21.9375,
+    -121.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794181726
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794426747
   }
  }
 }

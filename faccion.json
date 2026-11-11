@@ -3099,7 +3099,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 22
+    "2026-11-11": 28
    },
    "pn": {
     "J9W-B6T": {
@@ -6669,10 +6669,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794358742.593794,
-  "msgs": 785039,
+  "msgs": 796790,
   "mios": 58
  },
- "t": 1794358750.4753728,
+ "t": 1794359750.9348557,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7813,7 +7813,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794327182
+   "t": 1794358618
   },
   "Jardovici": {
    "pos": [
@@ -10042,7 +10042,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794352367
+   "t": 1794359360
   },
   "HIP 33287": {
    "pos": [
@@ -10303,6 +10303,39 @@
     "Jerome Archer"
    ],
    "t": 1794357764
+  },
+  "Lyncis Sector MH-V b2-4": {
+   "pos": [
+    -20.15625,
+    62.09375,
+    -149.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794358565
+  },
+  "Tascheter Sector CL-O a6-1": {
+   "pos": [
+    33.09375,
+    -34.0625,
+    -37.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794359444
   }
  }
 }

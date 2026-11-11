@@ -6883,15 +6883,117 @@
    "trafico": {
     "2026-11-11": 3
    }
+  },
+  "Wolf 280": {
+   "sys": "Wolf 280",
+   "t": 1794396647,
+   "src": "EDDN",
+   "inf": 32.71,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Nagii Union",
+   "segunda_inf": 28.59,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 32.71,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Nagii Union",
+     "inf": 28.59,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wolf 280 Partners",
+     "inf": 19.74,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 13.75,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Union of Wolf 280 Coalition",
+     "inf": 4.22,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Drug Empire of Wolf 280",
+     "inf": 0.98,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -24.5625,
+    32.28125,
+    -131.03125
+   ],
+   "sis": {
+    "pob": 28676,
+    "eco": "$economy_Colony;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794389030.829564,
-  "msgs": 1101532,
-  "mios": 73
+  "ultimo": 1794396649.0410626,
+  "msgs": 1169615,
+  "mios": 74
  },
- "t": 1794389343.657468,
+ "t": 1794396756.2126746,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7084,7 +7186,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794351802
+   "t": 1794395215
   },
   "Hyades Sector XV-L b8-6": {
    "pos": [
@@ -7740,13 +7842,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.299374,
+   "prog": 0.300914,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794385699
+   "t": 1794395574
   },
   "Girya Gu": {
    "pos": [
@@ -7948,7 +8050,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794354621
+   "t": 1794391065
   },
   "Cemplatui": {
    "pos": [
@@ -7983,7 +8085,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794357387
+   "t": 1794396666
   },
   "Utero": {
    "pos": [
@@ -9081,7 +9183,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794355761
+   "t": 1794396163
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -9307,7 +9409,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794337386
+   "t": 1794396750
   },
   "Arietis Sector QT-Q b5-4": {
    "pos": [
@@ -9732,7 +9834,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794346399
+   "t": 1794391402
   },
   "Ceti Sector HR-V b2-0": {
    "pos": [
@@ -9951,13 +10053,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.541187,
+   "prog": 0.54499,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794351043
+   "t": 1794389713
   },
   "Ross 332": {
    "pos": [
@@ -10504,7 +10606,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794357670
+   "t": 1794392877
   },
   "BD+47 1236": {
    "pos": [
@@ -11029,7 +11131,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794381058
+   "t": 1794395091
   },
   "Pai Ho": {
    "pos": [
@@ -11175,6 +11277,116 @@
     "Pranav Antal"
    ],
    "t": 1794388724
+  },
+  "LTT 606": {
+   "pos": [
+    0.5625,
+    -78.125,
+    -5.28125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.109592,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794390971
+  },
+  "BD+39 876": {
+   "pos": [
+    -42.40625,
+    -20.0625,
+    -100.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198611,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794386010
+  },
+  "Tascheter Sector ZZ-P a5-0": {
+   "pos": [
+    19.4375,
+    -35.59375,
+    -45.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.00914,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794394232
+  },
+  "LTT 17686": {
+   "pos": [
+    14.75,
+    -27.1875,
+    -53.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.254749,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794395433
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1794395910
+  },
+  "Wolf 280": {
+   "pos": [
+    -24.5625,
+    32.28125,
+    -131.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794396647
+  },
+  "Nganji": {
+   "pos": [
+    -24.59375,
+    36.84375,
+    -132.09375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.115007,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794396667
   }
  }
 }

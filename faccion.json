@@ -5635,7 +5635,7 @@
   },
   "Hyades Sector QZ-N b7-3": {
    "sys": "Hyades Sector QZ-N b7-3",
-   "t": 1794299350,
+   "t": 1794388554,
    "src": "EDDN",
    "inf": 46.31,
    "ctrl": true,
@@ -5697,7 +5697,7 @@
     -117.21875
    ],
    "sis": {
-    "pob": 1626147,
+    "pob": 1626618,
     "eco": "$economy_Military;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -5715,7 +5715,12 @@
      "Li Yong-Rui",
      "Jerome Archer"
     ]
-   }
+   },
+   "trafico": {
+    "2026-11-11": 2
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Koamul": {
    "sys": "Koamul",
@@ -6882,11 +6887,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794387106.0972805,
-  "msgs": 1085561,
-  "mios": 71
+  "ultimo": 1794388555.567671,
+  "msgs": 1093215,
+  "mios": 72
  },
- "t": 1794387413.012792,
+ "t": 1794388673.3057086,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -8063,7 +8068,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794325102
+   "t": 1794387792
   },
   "Lei Jen Zu": {
    "pos": [
@@ -11138,6 +11143,22 @@
     "Jerome Archer"
    ],
    "t": 1794386502
+  },
+  "Hyades Sector QZ-N b7-3": {
+   "pos": [
+    -17.09375,
+    16.5,
+    -117.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.153183,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794388554
   }
  }
 }

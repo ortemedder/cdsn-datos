@@ -7253,15 +7253,103 @@
    "trafico": {
     "2026-11-11": 2
    }
+  },
+  "Tascheter Sector CG-X b1-3": {
+   "sys": "Tascheter Sector CG-X b1-3",
+   "t": 1794419372,
+   "src": "EDDN",
+   "inf": 56.03,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Wathiparian Power Corp.",
+   "segunda_inf": 17.15,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 56.03,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Power Corp.",
+     "inf": 17.15,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Benelux Commanders",
+     "inf": 17.15,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Order of Enblackenment",
+     "inf": 9.67,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -24.125,
+    12.40625,
+    -79.6875
+   ],
+   "sis": {
+    "pob": 317821,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "tk": {
+    "firma": "8b3e4dae",
+    "igual": 1794419372
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794418556.7257001,
-  "msgs": 101160,
-  "mios": 4
+  "ultimo": 1794419375.249385,
+  "msgs": 117270,
+  "mios": 5
  },
- "t": 1794418625.74072,
+ "t": 1794419376.117611,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7665,7 +7753,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794418080
+   "t": 1794419220
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -7930,6 +8018,75 @@
     "Jerome Archer"
    ],
    "t": 1794418701
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.152698,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794418828
+  },
+  "Clarus": {
+   "pos": [
+    -22.03125,
+    2.9375,
+    -89.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.265524,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794419115
+  },
+  "Tascheter Sector CL-Y d115": {
+   "pos": [
+    -3.5625,
+    -15.5,
+    -88.90625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.02114,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794419273
+  },
+  "Tascheter Sector CG-X b1-3": {
+   "pos": [
+    -24.125,
+    12.40625,
+    -79.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794419372
   }
  }
 }

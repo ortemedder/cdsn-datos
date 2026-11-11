@@ -2100,7 +2100,7 @@
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
-   "t": 1794157120,
+   "t": 1794381591,
    "src": "EDDN",
    "inf": 14.84,
    "ctrl": false,
@@ -2121,7 +2121,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "LP 254-27 Free",
@@ -2130,7 +2130,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -2141,18 +2141,16 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "THE AZGHARIE",
      "inf": 10.83,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Haraka Incorporated",
@@ -2161,7 +2159,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "LP 254-40 Co",
@@ -2171,13 +2169,32 @@
     -89.03125
    ],
    "sis": {
-    "pob": 1998604,
-    "eco": "Extraction",
-    "eco2": "High Tech",
-    "seg": "High",
-    "gov": "Corporate",
+    "pob": 1998756,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Corporate;",
     "alg": "Federation"
-   }
+   },
+   "pp": {
+    "pot": "Edmund Mahon",
+    "est": "Exploited",
+    "prog": 0.070283,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 2
+   },
+   "prev": null,
+   "prev_t": null
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
@@ -6864,11 +6881,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794379207.5946596,
-  "msgs": 1028402,
-  "mios": 65
+  "ultimo": 1794381593.469465,
+  "msgs": 1043425,
+  "mios": 66
  },
- "t": 1794380480.590397,
+ "t": 1794382181.174389,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -10667,7 +10684,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794289269
+   "t": 1794382172
   },
   "Pukkeitsi": {
    "pos": [
@@ -10842,7 +10859,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794380477
+   "t": 1794381124
   },
   "Onileut": {
    "pos": [
@@ -10858,7 +10875,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794380174
+   "t": 1794380851
   },
   "Col 285 Sector VJ-R a34-3": {
    "pos": [
@@ -11006,7 +11023,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794380177
+   "t": 1794381058
   },
   "Pai Ho": {
    "pos": [
@@ -11052,6 +11069,57 @@
     "Pranav Antal"
    ],
    "t": 1794379943
+  },
+  "Hoder": {
+   "pos": [
+    -21.1875,
+    -5.25,
+    -75.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.040569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794381381
+  },
+  "Mukun": {
+   "pos": [
+    -40.9375,
+    31.15625,
+    -100.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794381536
+  },
+  "Yin Sector WO-A b1": {
+   "pos": [
+    -0.3125,
+    20.65625,
+    -89.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.070283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794381591
   }
  }
 }

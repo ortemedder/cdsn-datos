@@ -3024,9 +3024,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794353391,
+   "t": 1794358742,
    "src": "EDDN",
-   "inf": 90.02,
+   "inf": 85.41,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -3037,12 +3037,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 7.98,
+   "segunda_inf": 12.99,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 90.02,
+     "inf": 85.41,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -3055,7 +3055,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 7.98,
+     "inf": 12.99,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -3064,13 +3064,13 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 2.0,
+     "inf": 1.6,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     }
    ],
@@ -3099,7 +3099,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 13
+    "2026-11-11": 22
    },
    "pn": {
     "J9W-B6T": {
@@ -3108,7 +3108,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794353391
+     "t": 1794358742
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3119,8 +3119,8 @@
      "t": 1794328250
     }
    },
-   "prev": 90.71,
-   "prev_t": 1794268516
+   "prev": 90.02,
+   "prev_t": 1794353391
   },
   "Hyades Sector JX-T c3-19": {
    "sys": "Hyades Sector JX-T c3-19",
@@ -6668,11 +6668,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794357767.3394747,
-  "msgs": 775204,
-  "mios": 56
+  "ultimo": 1794358742.593794,
+  "msgs": 785039,
+  "mios": 58
  },
- "t": 1794357890.0120976,
+ "t": 1794358750.4753728,
  "zona": {
   "BD+27 881": {
    "pos": [

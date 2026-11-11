@@ -3158,7 +3158,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794438491,
+   "t": 1794439566,
    "src": "EDDN",
    "inf": 85.41,
    "ctrl": true,
@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 157
+    "2026-11-11": 160
    },
    "pn": {
     "J9W-B6T": {
@@ -3242,7 +3242,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794438491
+     "t": 1794439728
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3255,7 +3255,7 @@
    },
    "tk": {
     "firma": "608a54eb",
-    "igual": 1794438491
+    "igual": 1794439566
    },
    "prev": 90.02,
    "prev_t": 1794353391
@@ -7585,11 +7585,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794438491.8657913,
-  "msgs": 513098,
-  "mios": 16
+  "ultimo": 1794439566.4081967,
+  "msgs": 531151,
+  "mios": 17
  },
- "t": 1794439390.4136288,
+ "t": 1794440301.208644,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7668,7 +7668,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.276568,
+   "prog": 0.276614,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -7676,7 +7676,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794425847
+   "t": 1794439773
   },
   "Tascheter Sector CL-Y d135": {
    "pos": [
@@ -7826,7 +7826,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794425798
+   "t": 1794439722
   },
   "Jurua": {
    "pos": [
@@ -7877,7 +7877,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794439366
+   "t": 1794440062
   },
   "HR 2439": {
    "pos": [
@@ -8122,7 +8122,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794417247
+   "t": 1794440288
   },
   "Tascheter Sector XE-Q a5-2": {
    "pos": [
@@ -8866,7 +8866,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794424501
+   "t": 1794440112
   },
   "Tascheter Sector BQ-Y c21": {
    "pos": [
@@ -9343,13 +9343,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.300914,
+   "prog": 0.305122,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794434057
+   "t": 1794439748
   },
   "Wolf 258": {
    "pos": [
@@ -9650,14 +9650,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.336738,
+   "prog": 0.336889,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794438935
+   "t": 1794440095
   },
   "Scottii": {
    "pos": [
@@ -10225,6 +10225,38 @@
     "Pranav Antal"
    ],
    "t": 1794439386
+  },
+  "Guambia": {
+   "pos": [
+    19,
+    19.59375,
+    -133.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.254035,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794439791
+  },
+  "Tascheter Sector FR-M a7-2": {
+   "pos": [
+    17.0625,
+    -34.09375,
+    -33.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.056709,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794440064
   }
  }
 }

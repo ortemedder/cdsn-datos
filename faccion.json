@@ -2589,7 +2589,7 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 5
+    "2026-11-11": 6
    },
    "pn": {
     "K4J-GTX": {
@@ -7098,10 +7098,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794411090.6673813,
-  "msgs": 1354245,
+  "msgs": 1368010,
   "mios": 83
  },
- "t": 1794411194.2358918,
+ "t": 1794412034.769269,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7163,7 +7163,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794411180
+   "t": 1794412023
   },
   "Gollobo": {
    "pos": [
@@ -7179,7 +7179,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794401413
+   "t": 1794411331
   },
   "Meeneratii": {
    "pos": [
@@ -8415,7 +8415,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794326050
+   "t": 1794411485
   },
   "Tascheter Sector ZZ-P a5-1": {
    "pos": [
@@ -11604,7 +11604,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794400582
+   "t": 1794411268
   },
   "Nauacan": {
    "pos": [
@@ -11984,6 +11984,24 @@
     "Jerome Archer"
    ],
    "t": 1794410806
+  },
+  "Hyades Sector TP-N b7-1": {
+   "pos": [
+    -35.71875,
+    -6.1875,
+    -112.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794411843
   }
  }
 }

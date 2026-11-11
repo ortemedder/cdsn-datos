@@ -6784,15 +6784,91 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Col 285 Sector RZ-O c6-12": {
+   "sys": "Col 285 Sector RZ-O c6-12",
+   "t": 1794379205,
+   "src": "EDDN",
+   "inf": 6.87,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "The Fatherhood",
+   "segunda_inf": 50.6,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "The Fatherhood",
+     "inf": 50.6,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Canonn",
+     "inf": 42.53,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 6.87,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "The Fatherhood",
+   "pos": [
+    -245,
+    12.21875,
+    -79.5
+   ],
+   "sis": {
+    "pob": 448204336,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "trafico": {
+    "2026-11-11": 3
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794373511.0124338,
-  "msgs": 971753,
-  "mios": 64
+  "ultimo": 1794379207.5946596,
+  "msgs": 1020814,
+  "mios": 65
  },
- "t": 1794373828.64065,
+ "t": 1794379440.2170408,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7647,7 +7723,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794356132
+   "t": 1794377085
   },
   "Girya Gu": {
    "pos": [
@@ -8388,7 +8464,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794328220
+   "t": 1794374977
   },
   "Tascheter Sector CG-X b1-1": {
    "pos": [
@@ -9583,7 +9659,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794356560
+   "t": 1794378815
   },
   "Ghimr": {
    "pos": [
@@ -10766,7 +10842,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794373171
+   "t": 1794378992
   },
   "Onileut": {
    "pos": [
@@ -10782,7 +10858,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794372882
+   "t": 1794379435
   },
   "Col 285 Sector VJ-R a34-3": {
    "pos": [
@@ -10833,6 +10909,133 @@
     "Jerome Archer"
    ],
    "t": 1794373687
+  },
+  "Yin Sector ZU-Y b4": {
+   "pos": [
+    -12.65625,
+    26.65625,
+    -84.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794375033
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.162227,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794375660
+  },
+  "Piscium Sector SD-T b3-7": {
+   "pos": [
+    -9.1875,
+    -88.3125,
+    -13.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.251832,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794375719
+  },
+  "Bakara": {
+   "pos": [
+    109.5,
+    -111.4375,
+    -4.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200638,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794373813
+  },
+  "HIP 47625": {
+   "pos": [
+    138.46875,
+    -5.34375,
+    21.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794376914
+  },
+  "Pulaha": {
+   "pos": [
+    152.8125,
+    -18.4375,
+    21.25
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256038,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794377007
+  },
+  "Pai Ho": {
+   "pos": [
+    9.9375,
+    -94.8125,
+    -52.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794377093
+  },
+  "Lyncis Sector PX-U b2-3": {
+   "pos": [
+    -26,
+    24.25,
+    -146.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794379009
   }
  }
 }

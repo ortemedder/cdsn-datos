@@ -3066,7 +3066,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794358742,
+   "t": 1794368927,
    "src": "EDDN",
    "inf": 85.41,
    "ctrl": true,
@@ -3141,7 +3141,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 102
+    "2026-11-11": 110
    },
    "pn": {
     "J9W-B6T": {
@@ -3150,7 +3150,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794358742
+     "t": 1794368927
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -6706,15 +6706,92 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Tascheter Sector UT-A b1": {
+   "sys": "Tascheter Sector UT-A b1",
+   "t": 1794369094,
+   "src": "EDDN",
+   "inf": 57.86,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 30.95,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 57.86,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 30.95,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Diaguthivar Industry",
+     "inf": 11.19,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -8.125,
+    -0.6875,
+    -105.03125
+   ],
+   "sis": {
+    "pob": 330806,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794365592.3296118,
-  "msgs": 916474,
-  "mios": 60
+  "ultimo": 1794369101.2281039,
+  "msgs": 925633,
+  "mios": 62
  },
- "t": 1794368776.415553,
+ "t": 1794369696.840333,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -10147,7 +10224,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794355026
+   "t": 1794369007
   },
   "LFT 324": {
    "pos": [
@@ -10623,6 +10700,24 @@
     "Jerome Archer"
    ],
    "t": 1794365662
+  },
+  "Tascheter Sector UT-A b1": {
+   "pos": [
+    -8.125,
+    -0.6875,
+    -105.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794369094
   }
  }
 }

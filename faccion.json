@@ -217,7 +217,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794387105,
+   "t": 1794389029,
    "src": "EDDN",
    "inf": 57.98,
    "ctrl": true,
@@ -293,7 +293,7 @@
    "trafico": {
     "2026-11-09": 29,
     "2026-11-10": 63,
-    "2026-11-11": 12
+    "2026-11-11": 14
    },
    "prev": 58.28,
    "prev_t": 1794335731
@@ -6887,11 +6887,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794388555.567671,
-  "msgs": 1093215,
-  "mios": 72
+  "ultimo": 1794389030.829564,
+  "msgs": 1101532,
+  "mios": 73
  },
- "t": 1794388673.3057086,
+ "t": 1794389343.657468,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7201,7 +7201,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794387105
+   "t": 1794389029
   },
   "Pirawoth": {
    "pos": [
@@ -7579,7 +7579,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794386995
+   "t": 1794389331
   },
   "Tascheter Sector ZZ-P a5-3": {
    "pos": [
@@ -8608,7 +8608,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794328968
+   "t": 1794389091
   },
   "BD+44 1353": {
    "pos": [
@@ -11159,6 +11159,22 @@
     "Jerome Archer"
    ],
    "t": 1794388554
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.261492,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794388724
   }
  }
 }

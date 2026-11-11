@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 121
+    "2026-11-11": 123
    },
    "pn": {
     "J9W-B6T": {
@@ -7373,10 +7373,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794421990.470753,
-  "msgs": 202331,
+  "msgs": 220818,
   "mios": 11
  },
- "t": 1794424088.928323,
+ "t": 1794424909.4659064,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8360,7 +8360,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794422380
+   "t": 1794424529
   },
   "HIP 33497": {
    "pos": [
@@ -8573,6 +8573,121 @@
     "Li Yong-Rui"
    ],
    "t": 1794411509
+  },
+  "Mirdhing": {
+   "pos": [
+    8.15625,
+    35.71875,
+    -111.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.097712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794424142
+  },
+  "Woronii": {
+   "pos": [
+    -32.5625,
+    -2.78125,
+    -130.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.258246,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794424210
+  },
+  "HAT 94-00572": {
+   "pos": [
+    -27.90625,
+    15,
+    -77.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794424346
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794424502
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.272637,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794424501
+  },
+  "Tascheter Sector BQ-Y c21": {
+   "pos": [
+    -19.3125,
+    -9.9375,
+    -71.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794424755
+  },
+  "Tascheter Sector OX-U b2-7": {
+   "pos": [
+    19.25,
+    -54.75,
+    -45.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794424806
   }
  }
 }

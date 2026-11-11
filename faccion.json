@@ -3123,7 +3123,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 50
+    "2026-11-11": 58
    },
    "pn": {
     "J9W-B6T": {
@@ -6693,10 +6693,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794361404.9114738,
-  "msgs": 831010,
+  "msgs": 843613,
   "mios": 59
  },
- "t": 1794362492.7888627,
+ "t": 1794363393.456924,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6855,7 +6855,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794362124
+   "t": 1794362478
   },
   "Dewikum": {
    "pos": [
@@ -8091,7 +8091,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794326609
+   "t": 1794362166
   },
   "Furuhjelm III-674": {
    "pos": [
@@ -9214,7 +9214,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794339966
+   "t": 1794363127
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -9778,7 +9778,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794347905
+   "t": 1794288763
   },
   "Col 285 Sector RY-W b16-4": {
    "pos": [
@@ -10146,7 +10146,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794354326
+   "t": 1794362562
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -10277,7 +10277,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794356423
+   "t": 1794363293
   },
   "Col 285 Sector XJ-R a34-2": {
    "pos": [
@@ -10480,6 +10480,22 @@
     "Jerome Archer"
    ],
    "t": 1794283250
+  },
+  "LTT 10918": {
+   "pos": [
+    -60.53125,
+    -9.0625,
+    -73.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.045956,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794289269
   }
  }
 }

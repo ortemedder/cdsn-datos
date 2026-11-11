@@ -578,28 +578,30 @@
   },
   "BD+47 1236": {
    "sys": "BD+47 1236",
-   "t": 1793726518,
-   "src": "EDSM",
+   "t": 1794357764,
+   "src": "EDDN",
    "inf": 10.9,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
    "pendientes": [],
    "recuperando": [],
    "segunda": "Quebecois Patriots",
    "segunda_inf": 46.8,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Quebecois Patriots",
      "inf": 46.8,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "United BD+47 1236 Independents",
@@ -608,7 +610,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Revolutionary Eluskapu Partnership",
@@ -617,27 +619,27 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "CHIMERA",
      "inf": 11.6,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
      "inf": 10.9,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Dragons of BD+47 1236",
@@ -646,7 +648,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "BD+47 1236 Co",
@@ -655,7 +657,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Quebecois Patriots",
@@ -666,12 +668,30 @@
    ],
    "sis": {
     "pob": 63311,
-    "eco": "Extraction",
-    "eco2": "Tourism",
-    "seg": "Medium",
-    "gov": "Patronage",
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Patronage;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.252881,
+    "ref": 0,
+    "soc": 91,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 2
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Hyades Sector UF-M b8-0": {
    "sys": "Hyades Sector UF-M b8-0",
@@ -3079,7 +3099,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 9
+    "2026-11-11": 13
    },
    "pn": {
     "J9W-B6T": {
@@ -6648,11 +6668,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794355812.1793983,
-  "msgs": 764190,
-  "mios": 55
+  "ultimo": 1794357767.3394747,
+  "msgs": 775204,
+  "mios": 56
  },
- "t": 1794357079.081999,
+ "t": 1794357890.0120976,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7744,7 +7764,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794357098
+   "t": 1794357387
   },
   "Utero": {
    "pos": [
@@ -10249,6 +10269,40 @@
     "Zemina Torval"
    ],
    "t": 1794356740
+  },
+  "LFT 330": {
+   "pos": [
+    31.40625,
+    -53.09375,
+    -43.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.145712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794357670
+  },
+  "BD+47 1236": {
+   "pos": [
+    -22.90625,
+    20.65625,
+    -88.09375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.252881,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794357764
   }
  }
 }

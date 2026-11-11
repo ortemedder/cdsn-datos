@@ -5645,7 +5645,7 @@
    },
    "trafico": {
     "2026-11-10": 46,
-    "2026-11-11": 4
+    "2026-11-11": 6
    },
    "prev": null,
    "prev_t": null
@@ -7010,10 +7010,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794409205.3115573,
-  "msgs": 1326475,
+  "msgs": 1340008,
   "mios": 81
  },
- "t": 1794409402.656581,
+ "t": 1794410123.3868477,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7075,7 +7075,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794404843
+   "t": 1794410120
   },
   "Gollobo": {
    "pos": [
@@ -7164,7 +7164,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.253019,
+   "prog": 0.253564,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -7172,7 +7172,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794370364
+   "t": 1794409931
   },
   "Dewikum": {
    "pos": [
@@ -8492,7 +8492,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794326970
+   "t": 1794410015
   },
   "Shokwa": {
    "pos": [
@@ -8828,7 +8828,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794404130
+   "t": 1794409426
   },
   "BD+28 737": {
    "pos": [
@@ -9195,7 +9195,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.276519,
+   "prog": 0.276548,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -9203,7 +9203,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794404185
+   "t": 1794409478
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -11180,7 +11180,7 @@
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1794403061
+   "t": 1794409698
   },
   "LTT 882": {
    "pos": [

@@ -3099,7 +3099,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 28
+    "2026-11-11": 36
    },
    "pn": {
     "J9W-B6T": {
@@ -6669,10 +6669,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794358742.593794,
-  "msgs": 796790,
+  "msgs": 808099,
   "mios": 58
  },
- "t": 1794359750.9348557,
+ "t": 1794360531.3952906,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6831,7 +6831,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794351292
+   "t": 1794359644
   },
   "Dewikum": {
    "pos": [
@@ -10336,6 +10336,39 @@
     "Jerome Archer"
    ],
    "t": 1794359444
+  },
+  "Kenna": {
+   "pos": [
+    -5.5,
+    -100.53125,
+    -10.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.26661,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794349006
+  },
+  "Damna": {
+   "pos": [
+    -40.53125,
+    4.375,
+    -124.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.16174,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794360053
   }
  }
 }

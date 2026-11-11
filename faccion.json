@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 143
+    "2026-11-11": 147
    },
    "pn": {
     "J9W-B6T": {
@@ -7372,15 +7372,121 @@
     "firma": "8b3e4dae",
     "igual": 1794419372
    }
+  },
+  "Wolf 258": {
+   "sys": "Wolf 258",
+   "t": 1794413402,
+   "src": "EDDN",
+   "inf": 11.49,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 69.96,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 69.96,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 11.49,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wolf 258 Dynasty",
+     "inf": 8.77,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wolf 258 Dynamic Corporation",
+     "inf": 4.13,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Co-op of Wolf 258",
+     "inf": 3.12,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wolf 258 Silver Organisation",
+     "inf": 2.52,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    15.40625,
+    -0.78125,
+    -98.28125
+   ],
+   "sis": {
+    "pob": 78791,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Aisling Duval",
+    "est": "Exploited",
+    "prog": 0.259689,
+    "ref": 0,
+    "soc": 308,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "tk": {
+    "firma": "418f6c21",
+    "igual": 1794413402
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794429249.6583693,
-  "msgs": 320202,
-  "mios": 12
+  "ultimo": 1794429747.4766095,
+  "msgs": 340888,
+  "mios": 13
  },
- "t": 1794429513.66494,
+ "t": 1794430404.4743464,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7784,7 +7890,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794429133
+   "t": 1794430253
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -7961,7 +8067,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794417622
+   "t": 1794377305
   },
   "Bestia": {
    "pos": [
@@ -9125,6 +9231,165 @@
     "Jerome Archer"
    ],
    "t": 1794429505
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.300914,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794429582
+  },
+  "Wolf 258": {
+   "pos": [
+    15.40625,
+    -0.78125,
+    -98.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.259689,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794413402
+  },
+  "Ethli": {
+   "pos": [
+    3.1875,
+    -4.65625,
+    -83.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.272786,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794413448
+  },
+  "Cailla": {
+   "pos": [
+    25.875,
+    1.875,
+    -107.625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Stronghold",
+   "prog": 0.266549,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794414021
+  },
+  "Ross 409": {
+   "pos": [
+    -3.1875,
+    -3.15625,
+    -121.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.180089,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794429800
+  },
+  "Tofana": {
+   "pos": [
+    -42.96875,
+    27,
+    -97.5
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.181015,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794429872
+  },
+  "Ceti Sector FG-X b1-3": {
+   "pos": [
+    21.09375,
+    -107.5,
+    -46.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794430021
+  },
+  "Caill Reddi": {
+   "pos": [
+    -61.375,
+    -21.90625,
+    -78.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.250134,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794379592
+  },
+  "Chimechilo": {
+   "pos": [
+    20.8125,
+    -84.875,
+    -12.90625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.261286,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794430360
+  },
+  "Tascheter Sector UT-R a4-1": {
+   "pos": [
+    10.125,
+    -41.46875,
+    -56.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.04458,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794430395
   }
  }
 }

@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 123
+    "2026-11-11": 125
    },
    "pn": {
     "J9W-B6T": {
@@ -7373,10 +7373,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794421990.470753,
-  "msgs": 220818,
+  "msgs": 240485,
   "mios": 11
  },
- "t": 1794424909.4659064,
+ "t": 1794425920.1751804,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7463,7 +7463,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794424069
+   "t": 1794425847
   },
   "Tascheter Sector CL-Y d135": {
    "pos": [
@@ -7613,7 +7613,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794424017
+   "t": 1794425798
   },
   "Jurua": {
    "pos": [
@@ -7780,7 +7780,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794420423
+   "t": 1794425636
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8180,7 +8180,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794423767
+   "t": 1794425041
   },
   "Hyades Sector SU-N b7-5": {
    "pos": [
@@ -8636,7 +8636,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794424502
+   "t": 1794425915
   },
   "LP 834-42": {
    "pos": [
@@ -8688,6 +8688,86 @@
     "Jerome Archer"
    ],
    "t": 1794424806
+  },
+  "Tau-6 Eridani": {
+   "pos": [
+    22.46875,
+    -43.9375,
+    -29.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794425153
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.126283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794425334
+  },
+  "Tascheter Sector ZZ-P a5-0": {
+   "pos": [
+    19.4375,
+    -35.59375,
+    -45.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.00914,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794425418
+  },
+  "Tascheter Sector WE-Q a5-2": {
+   "pos": [
+    11.9375,
+    -31.1875,
+    -50.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794425706
+  },
+  "Breksta": {
+   "pos": [
+    29.4375,
+    -6.71875,
+    -70.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.280641,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794425750
   }
  }
 }

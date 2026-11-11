@@ -3158,7 +3158,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794419854,
+   "t": 1794438491,
    "src": "EDDN",
    "inf": 85.41,
    "ctrl": true,
@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 152
+    "2026-11-11": 155
    },
    "pn": {
     "J9W-B6T": {
@@ -3242,7 +3242,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794420178
+     "t": 1794438491
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3255,7 +3255,7 @@
    },
    "tk": {
     "firma": "608a54eb",
-    "igual": 1794419854
+    "igual": 1794438491
    },
    "prev": 90.02,
    "prev_t": 1794353391
@@ -7585,11 +7585,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794437597.3363354,
-  "msgs": 483284,
-  "mios": 15
+  "ultimo": 1794438491.8657913,
+  "msgs": 498680,
+  "mios": 16
  },
- "t": 1794437629.022486,
+ "t": 1794438499.5502014,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -9650,14 +9650,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.336678,
+   "prog": 0.336738,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794432446
+   "t": 1794437819
   },
   "Scottii": {
    "pos": [
@@ -10091,6 +10091,57 @@
     "Jerome Archer"
    ],
    "t": 1794436147
+  },
+  "LFT 361": {
+   "pos": [
+    -45.875,
+    9.90625,
+    -84.53125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794438135
+  },
+  "Tascheter Sector HM-M a7-1": {
+   "pos": [
+    16.875,
+    -43.75,
+    -31.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.014894,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794438186
+  },
+  "Col 285 Sector VE-V b17-2": {
+   "pos": [
+    132.8125,
+    -4.9375,
+    28.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794438192
   }
  }
 }

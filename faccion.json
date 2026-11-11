@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 133
+    "2026-11-11": 138
    },
    "pn": {
     "J9W-B6T": {
@@ -7373,10 +7373,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794421990.470753,
-  "msgs": 279288,
+  "msgs": 300461,
   "mios": 11
  },
- "t": 1794427722.2015522,
+ "t": 1794428533.0131714,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7780,7 +7780,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794427357
+   "t": 1794428403
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -7892,7 +7892,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794417217
+   "t": 1794428514
   },
   "LHS 1734": {
    "pos": [
@@ -8344,7 +8344,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794421213
+   "t": 1794420523
   },
   "Tascheter Sector ZZ-P a5-1": {
    "pos": [
@@ -8426,7 +8426,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794427356
+   "t": 1794427282
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -8598,12 +8598,12 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.258246,
+   "prog": 0.258289,
    "pots": [
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794424210
+   "t": 1794428227
   },
   "HAT 94-00572": {
    "pos": [
@@ -8987,6 +8987,55 @@
     "Jerome Archer"
    ],
    "t": 1794427717
+  },
+  "Masses": {
+   "pos": [
+    -35.09375,
+    1.96875,
+    -126.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794428145
+  },
+  "Bondranses": {
+   "pos": [
+    -37.6875,
+    -12.6875,
+    -101.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.179806,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794428151
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.261492,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794428460
   }
  }
 }

@@ -5562,7 +5562,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794406406,
+   "t": 1794409201,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5645,7 +5645,7 @@
    },
    "trafico": {
     "2026-11-10": 46,
-    "2026-11-11": 3
+    "2026-11-11": 4
    },
    "prev": null,
    "prev_t": null
@@ -7009,11 +7009,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794407728.1604705,
-  "msgs": 1313483,
-  "mios": 80
+  "ultimo": 1794409205.3115573,
+  "msgs": 1326475,
+  "mios": 81
  },
- "t": 1794408092.0835614,
+ "t": 1794409402.656581,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -8001,7 +8001,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794351516
+   "t": 1794409366
   },
   "Epsilon Sculptoris": {
    "pos": [
@@ -11080,13 +11080,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.162227,
+   "prog": 0.158378,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794382779
+   "t": 1794409013
   },
   "Piscium Sector SD-T b3-7": {
    "pos": [
@@ -11834,6 +11834,52 @@
     "Li Yong-Rui"
    ],
    "t": 1794407899
+  },
+  "HIP 25166": {
+   "pos": [
+    -41.3125,
+    16.03125,
+    -132.75
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.100569,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794408499
+  },
+  "Zosia": {
+   "pos": [
+    -16.75,
+    19.59375,
+    -60.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257229,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794408543
+  },
+  "LTT 1391": {
+   "pos": [
+    7.0625,
+    -96.03125,
+    -68.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794409399
   }
  }
 }

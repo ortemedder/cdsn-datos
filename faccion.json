@@ -2438,9 +2438,9 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794159039,
+   "t": 1794361133,
    "src": "EDDN",
-   "inf": 6.81,
+   "inf": 7.41,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -2449,46 +2449,46 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 59.02,
+   "segunda_inf": 58.62,
    "conflictos": [],
    "todas": [
     {
      "n": "Beasts of Bestia",
-     "inf": 59.02,
+     "inf": 58.62,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Jangore Partnership",
-     "inf": 16.73,
+     "inf": 16.63,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Jangore Monarchy",
-     "inf": 10.92,
+     "inf": 10.82,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 6.81,
+     "inf": 7.41,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Jangore Power Systems",
@@ -2497,7 +2497,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Jangore Blue Council",
@@ -2506,7 +2506,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Beasts of Bestia",
@@ -2517,11 +2517,35 @@
    ],
    "sis": {
     "pob": 65393,
-    "eco": "Extraction",
-    "eco2": "High Tech",
-    "seg": "Low",
-    "gov": "Democracy",
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.058854,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 1
+   },
+   "prev": 6.81,
+   "prev_t": 1794159039,
+   "pn": {
+    "K4J-GTX": {
+     "n": "RIPACARRIER 2",
+     "t": 1794361319
+    }
    }
   },
   "Diaguthivar": {
@@ -3099,7 +3123,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 36
+    "2026-11-11": 42
    },
    "pn": {
     "J9W-B6T": {
@@ -6668,11 +6692,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794358742.593794,
-  "msgs": 808099,
-  "mios": 58
+  "ultimo": 1794361404.9114738,
+  "msgs": 819122,
+  "mios": 59
  },
- "t": 1794360531.3952906,
+ "t": 1794361591.990123,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6719,7 +6743,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794311432
+   "t": 1794361130
   },
   "Moram": {
    "pos": [
@@ -7875,7 +7899,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.172872,
+   "prog": 0.171872,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -7883,7 +7907,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794355630
+   "t": 1794360787
   },
   "Kwaraseti": {
    "pos": [
@@ -10345,14 +10369,14 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.26661,
+   "prog": 0.267754,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794349006
+   "t": 1794360973
   },
   "Damna": {
    "pos": [
@@ -10369,6 +10393,58 @@
     "Jerome Archer"
    ],
    "t": 1794360053
+  },
+  "GR 316": {
+   "pos": [
+    5.34375,
+    -70.84375,
+    -14.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.11314,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794360890
+  },
+  "Sussche": {
+   "pos": [
+    -45.78125,
+    -17,
+    -90.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794360920
+  },
+  "Jangore": {
+   "pos": [
+    -39.1875,
+    -3.1875,
+    -86
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794361133
   }
  }
 }

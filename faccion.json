@@ -394,9 +394,9 @@
   },
   "Menkalinan": {
    "sys": "Menkalinan",
-   "t": 1794157712,
+   "t": 1794413495,
    "src": "EDDN",
-   "inf": 12.84,
+   "inf": 11.32,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -405,59 +405,55 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 57.97,
+   "segunda_inf": 63.03,
    "conflictos": [],
-   "prev": 12.63,
-   "prev_t": 1793838233,
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 57.97,
+     "inf": 63.03,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Democrats of Condharwal",
-     "inf": 14.74,
+     "inf": 12.93,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 12.84,
+     "inf": 11.32,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "League of Lalande 10797 Front",
-     "inf": 11.03,
+     "inf": 9.72,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Condharwal Purple Partnership",
-     "inf": 3.41,
+     "inf": 3.01,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "THE AZGHARIE",
@@ -467,12 +463,36 @@
     -77.84375
    ],
    "sis": {
-    "pob": 65924765,
-    "eco": "Military",
-    "eco2": "Colony",
-    "seg": "Low",
-    "gov": "Democracy",
+    "pob": 65927883,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Felicia Winters",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 1
+   },
+   "prev": 12.84,
+   "prev_t": 1794157712,
+   "tk": {
+    "firma": "ef3ee512",
+    "igual": 1794413495
    }
   },
   "SPOCS 253": {
@@ -594,7 +614,7 @@
   },
   "BD+47 1236": {
    "sys": "BD+47 1236",
-   "t": 1794400857,
+   "t": 1794413418,
    "src": "EDDN",
    "inf": 10.9,
    "ctrl": false,
@@ -704,10 +724,14 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 4
+    "2026-11-11": 5
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "tk": {
+    "firma": "3078e477",
+    "igual": 1794413418
+   }
   },
   "Hyades Sector UF-M b8-0": {
    "sys": "Hyades Sector UF-M b8-0",
@@ -7222,9 +7246,198 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 947,
-  "mios": 0
+  "ultimo": 1794413496.2938154,
+  "msgs": 16213,
+  "mios": 2
  },
- "t": 0
+ "t": 1794414164.0033655,
+ "zona": {
+  "BD+47 1236": {
+   "pos": [
+    -22.90625,
+    20.65625,
+    -88.09375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.252881,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794413418
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.198903,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794414120
+  },
+  "Menkalinan": {
+   "pos": [
+    -16.875,
+    15.4375,
+    -77.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794413495
+  },
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.270246,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794413564
+  },
+  "Dongkum": {
+   "pos": [
+    -17.875,
+    -11.75,
+    -90.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.276568,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794413579
+  },
+  "Tascheter Sector CL-Y d135": {
+   "pos": [
+    -28.03125,
+    -11.15625,
+    -92.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794413700
+  },
+  "LTT 11655": {
+   "pos": [
+    19.6875,
+    -18.59375,
+    -90.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.051452,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794413758
+  },
+  "Trianguli Sector BG-X b1-5": {
+   "pos": [
+    32.46875,
+    -13.09375,
+    -92.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.172595,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794414160
+  },
+  "HIP 28774": {
+   "pos": [
+    1.84375,
+    6.96875,
+    -82.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.28821,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794414032
+  },
+  "GR 316": {
+   "pos": [
+    5.34375,
+    -70.84375,
+    -14.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.11314,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794360890
+  },
+  "LHS 1828": {
+   "pos": [
+    8.78125,
+    5.46875,
+    -93.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794414125
+  }
+ }
 }

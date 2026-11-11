@@ -3141,7 +3141,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 110
+    "2026-11-11": 113
    },
    "pn": {
     "J9W-B6T": {
@@ -6788,10 +6788,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794369101.2281039,
-  "msgs": 925633,
+  "msgs": 934385,
   "mios": 62
  },
- "t": 1794369696.840333,
+ "t": 1794370527.3327038,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6942,7 +6942,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.252518,
+   "prog": 0.253019,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -6950,7 +6950,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794362478
+   "t": 1794370364
   },
   "Dewikum": {
    "pos": [
@@ -6966,7 +6966,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794312471
+   "t": 1794370075
   },
   "Lalande 10797": {
    "pos": [
@@ -7364,7 +7364,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794366006
+   "t": 1794370194
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -7479,7 +7479,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794319824
+   "t": 1794370460
   },
   "Tascheter Sector ZZ-P a5-3": {
    "pos": [
@@ -10718,6 +10718,22 @@
     "Jerome Archer"
    ],
    "t": 1794369094
+  },
+  "Hyades Sector TU-N b7-0": {
+   "pos": [
+    5.34375,
+    4.75,
+    -116.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794370353
   }
  }
 }

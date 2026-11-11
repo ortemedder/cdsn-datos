@@ -217,7 +217,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794384932,
+   "t": 1794387105,
    "src": "EDDN",
    "inf": 57.98,
    "ctrl": true,
@@ -293,7 +293,7 @@
    "trafico": {
     "2026-11-09": 29,
     "2026-11-10": 63,
-    "2026-11-11": 9
+    "2026-11-11": 12
    },
    "prev": 58.28,
    "prev_t": 1794335731
@@ -6882,11 +6882,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794384933.4852984,
-  "msgs": 1071592,
-  "mios": 70
+  "ultimo": 1794387106.0972805,
+  "msgs": 1085561,
+  "mios": 71
  },
- "t": 1794385922.5699658,
+ "t": 1794387413.012792,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7196,7 +7196,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794384932
+   "t": 1794387105
   },
   "Pirawoth": {
    "pos": [
@@ -7568,13 +7568,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.3152,
+   "prog": 0.315534,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794370460
+   "t": 1794386995
   },
   "Tascheter Sector ZZ-P a5-3": {
    "pos": [
@@ -11121,6 +11121,23 @@
     "Jerome Archer"
    ],
    "t": 1794381591
+  },
+  "Hyades Sector DB-X d1-61": {
+   "pos": [
+    -32.9375,
+    -1.84375,
+    -118.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.173952,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794386502
   }
  }
 }

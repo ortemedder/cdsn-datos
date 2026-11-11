@@ -1572,7 +1572,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794328529,
+   "t": 1794373503,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -1657,7 +1657,8 @@
    },
    "trafico": {
     "2026-11-09": 1,
-    "2026-11-10": 2
+    "2026-11-10": 2,
+    "2026-11-11": 1
    },
    "prev": null,
    "prev_t": null
@@ -6787,11 +6788,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794371244.3094857,
-  "msgs": 944502,
-  "mios": 63
+  "ultimo": 1794373511.0124338,
+  "msgs": 971753,
+  "mios": 64
  },
- "t": 1794371397.6566503,
+ "t": 1794373828.64065,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6915,7 +6916,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794347591
+   "t": 1794373810
   },
   "Koamul": {
    "pos": [
@@ -7358,13 +7359,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Fortified",
-   "prog": 0.253025,
+   "prog": 0.253026,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794370194
+   "t": 1794372218
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -7795,7 +7796,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794328529
+   "t": 1794373503
   },
   "LFT 179": {
    "pos": [
@@ -9524,14 +9525,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.254368,
+   "prog": 0.254452,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794342758
+   "t": 1794373115
   },
   "Tascheter Sector FR-M a7-3": {
    "pos": [
@@ -10036,7 +10037,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794349921
+   "t": 1794372848
   },
   "Lyncis Sector KM-W c1-10": {
    "pos": [
@@ -10750,6 +10751,88 @@
     "Jerome Archer"
    ],
    "t": 1794371383
+  },
+  "Col 285 Sector YZ-U b17-1": {
+   "pos": [
+    136.59375,
+    -17.65625,
+    26.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794373171
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.125175,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794372882
+  },
+  "Col 285 Sector VJ-R a34-3": {
+   "pos": [
+    126.125,
+    -28.09375,
+    16.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794372228
+  },
+  "Trianguli Sector BH-L a8-0": {
+   "pos": [
+    37.15625,
+    -44.96875,
+    -42.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794373526
+  },
+  "Tascheter Sector CL-O a6-2": {
+   "pos": [
+    30.71875,
+    -32.59375,
+    -37
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075997,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794373687
   }
  }
 }

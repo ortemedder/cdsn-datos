@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 115
+    "2026-11-11": 119
    },
    "pn": {
     "J9W-B6T": {
@@ -7373,10 +7373,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794421990.470753,
-  "msgs": 167293,
+  "msgs": 185028,
   "mios": 11
  },
- "t": 1794422047.6766233,
+ "t": 1794423198.1901655,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8360,7 +8360,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794421236
+   "t": 1794422380
   },
   "HIP 33497": {
    "pos": [
@@ -8376,7 +8376,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794421370
+   "t": 1794422693
   },
   "Lei Jen Zu": {
    "pos": [
@@ -8444,6 +8444,54 @@
     "Jerome Archer"
    ],
    "t": 1794421989
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.171426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794422525
+  },
+  "HIP 21850": {
+   "pos": [
+    132.5,
+    -109.9375,
+    -6.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794282159
+  },
+  "Ceti Sector EW-V b2-4": {
+   "pos": [
+    8.09375,
+    -84.125,
+    -33.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794422648
   }
  }
 }

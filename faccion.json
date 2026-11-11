@@ -2556,7 +2556,7 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 2
+    "2026-11-11": 3
    },
    "pn": {
     "K4J-GTX": {
@@ -6865,10 +6865,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794379207.5946596,
-  "msgs": 1020814,
+  "msgs": 1028402,
   "mios": 65
  },
- "t": 1794379440.2170408,
+ "t": 1794380480.590397,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -10842,7 +10842,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794378992
+   "t": 1794380477
   },
   "Onileut": {
    "pos": [
@@ -10858,7 +10858,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794379435
+   "t": 1794380174
   },
   "Col 285 Sector VJ-R a34-3": {
    "pos": [
@@ -11006,7 +11006,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794377007
+   "t": 1794380177
   },
   "Pai Ho": {
    "pos": [
@@ -11036,6 +11036,22 @@
     "Jerome Archer"
    ],
    "t": 1794379009
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.126283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794379943
   }
  }
 }

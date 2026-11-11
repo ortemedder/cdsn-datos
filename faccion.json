@@ -5629,7 +5629,7 @@
    },
    "trafico": {
     "2026-11-10": 46,
-    "2026-11-11": 2
+    "2026-11-11": 3
    },
    "prev": null,
    "prev_t": null
@@ -6994,10 +6994,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794406410.1958575,
-  "msgs": 1289477,
+  "msgs": 1301492,
   "mios": 79
  },
- "t": 1794406571.2718806,
+ "t": 1794407221.6446178,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -9479,7 +9479,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794406692
+   "t": 1794406719
   },
   "Kareneri": {
    "pos": [
@@ -10213,7 +10213,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794349266
+   "t": 1794407213
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -11717,6 +11717,23 @@
     "Jerome Archer"
    ],
    "t": 1794406565
+  },
+  "Rindjibal": {
+   "pos": [
+    133,
+    -3.375,
+    23.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.253729,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794407036
   }
  }
 }

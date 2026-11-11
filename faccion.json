@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 138
+    "2026-11-11": 143
    },
    "pn": {
     "J9W-B6T": {
@@ -6085,7 +6085,7 @@
   },
   "Heili": {
    "sys": "Heili",
-   "t": 1794405775,
+   "t": 1794429248,
    "src": "EDDN",
    "inf": 11.53,
    "ctrl": false,
@@ -6168,8 +6168,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.01514,
-    "ref": 0,
+    "prog": 0.015149,
+    "ref": 3,
     "soc": 100,
     "pots": [
      "Edmund Mahon",
@@ -6181,10 +6181,14 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-11": 1
+    "2026-11-11": 3
    },
    "prev": 12.14,
-   "prev_t": 1794325768
+   "prev_t": 1794325768,
+   "tk": {
+    "firma": "fb61b771",
+    "igual": 1794429248
+   }
   },
   "Lan Caihe": {
    "sys": "Lan Caihe",
@@ -7372,11 +7376,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794421990.470753,
-  "msgs": 300461,
-  "mios": 11
+  "ultimo": 1794429249.6583693,
+  "msgs": 320202,
+  "mios": 12
  },
- "t": 1794428533.0131714,
+ "t": 1794429513.66494,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7780,7 +7784,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794428403
+   "t": 1794429133
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -9036,6 +9040,91 @@
     "Pranav Antal"
    ],
    "t": 1794428460
+  },
+  "Zac Chehoga": {
+   "pos": [
+    128.34375,
+    -20.625,
+    8.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794428745
+  },
+  "Bestakas": {
+   "pos": [
+    -34.71875,
+    -10.125,
+    -100.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.254521,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794429183
+  },
+  "Heili": {
+   "pos": [
+    -33,
+    2.65625,
+    -92.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.015149,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794429248
+  },
+  "Acokwa": {
+   "pos": [
+    -52.59375,
+    -2.90625,
+    -92.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.261784,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794429417
+  },
+  "BD+44 1040": {
+   "pos": [
+    -31.5625,
+    1.84375,
+    -92.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794429505
   }
  }
 }

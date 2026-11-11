@@ -5745,7 +5745,7 @@
   },
   "Koamul": {
    "sys": "Koamul",
-   "t": 1794310731,
+   "t": 1794412622,
    "src": "EDDN",
    "inf": 53.9,
    "ctrl": true,
@@ -5842,6 +5842,17 @@
      "Pranav Antal",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-11": 2
+   },
+   "prev": null,
+   "prev_t": null,
+   "pn": {
+    "J8V-7XL": {
+     "n": "POLARIS",
+     "t": 1794412787
+    }
    }
   },
   "HIP 31451": {
@@ -7093,15 +7104,129 @@
      "Jerome Archer"
     ]
    }
+  },
+  "Ariminimi": {
+   "sys": "Ariminimi",
+   "t": 1794412153,
+   "src": "EDDN",
+   "inf": 20.49,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 40.0,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 40.0,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 20.49,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Beasts of Bestia",
+     "inf": 16.55,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Workers of Jitabed Liberals",
+     "inf": 10.74,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ariminimi Organisation",
+     "inf": 6.01,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Movement for Ariminimi Labour Union",
+     "inf": 3.84,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ariminimi Domain",
+     "inf": 2.36,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -23,
+    6.78125,
+    -116
+   ],
+   "sis": {
+    "pob": 109934,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 2
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794411090.6673813,
-  "msgs": 1368010,
-  "mios": 83
+  "ultimo": 1794412623.345894,
+  "msgs": 1381732,
+  "mios": 85
  },
- "t": 1794412034.769269,
+ "t": 1794412965.4238608,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7163,7 +7288,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794412023
+   "t": 1794412421
   },
   "Gollobo": {
    "pos": [
@@ -7242,7 +7367,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794310731
+   "t": 1794412622
   },
   "Kolaga": {
    "pos": [
@@ -11541,7 +11666,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794398762
+   "t": 1794412454
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -11556,7 +11681,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794404375
+   "t": 1794412516
   },
   "LHS 1803": {
    "pos": [
@@ -12002,6 +12127,38 @@
     "Jerome Archer"
    ],
    "t": 1794411843
+  },
+  "Ariminimi": {
+   "pos": [
+    -23,
+    6.78125,
+    -116
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794412153
+  },
+  "Lyncis Sector ZU-P b5-4": {
+   "pos": [
+    -29.59375,
+    37.28125,
+    -104.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794412955
   }
  }
 }

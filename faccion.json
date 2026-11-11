@@ -2498,16 +2498,16 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-11": 1
+    "2026-11-11": 3
    },
    "pn": {
     "XHF-N1M": {
      "n": "HMAS KATOOMBA",
-     "t": 1794318344
+     "t": 1794416039
     },
     "XZV-67H": {
      "n": "[EDS] BIGMAMA [GOOFY]",
-     "t": 1794318344
+     "t": 1794416039
     }
    },
    "prev": null,
@@ -7252,10 +7252,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794415936.5359268,
-  "msgs": 47790,
+  "msgs": 65708,
   "mios": 3
  },
- "t": 1794415944.828379,
+ "t": 1794416835.0720344,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7709,6 +7709,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794415913
+  },
+  "BD+39 876": {
+   "pos": [
+    -42.40625,
+    -20.0625,
+    -100.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198611,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794416780
+  },
+  "BD+18 1160": {
+   "pos": [
+    25.125,
+    2.8125,
+    -105.09375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.269578,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794416828
   }
  }
 }

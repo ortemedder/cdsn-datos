@@ -497,7 +497,7 @@
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
-   "t": 1794407725,
+   "t": 1794418553,
    "src": "EDDN",
    "inf": 12.46,
    "ctrl": false,
@@ -517,7 +517,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -607,10 +609,14 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 1
+    "2026-11-11": 2
    },
    "prev": 11.79,
-   "prev_t": 1793811957
+   "prev_t": 1793811957,
+   "tk": {
+    "firma": "13491f51",
+    "igual": 1794418553
+   }
   },
   "BD+47 1236": {
    "sys": "BD+47 1236",
@@ -7251,11 +7257,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794415936.5359268,
-  "msgs": 65708,
-  "mios": 3
+  "ultimo": 1794418556.7257001,
+  "msgs": 101160,
+  "mios": 4
  },
- "t": 1794416835.0720344,
+ "t": 1794418625.74072,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7634,14 +7640,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.173952,
+   "prog": 0.179481,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794415658
+   "t": 1794418616
   },
   "Kolaga": {
    "pos": [
@@ -7659,7 +7665,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794415672
+   "t": 1794418080
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -7741,6 +7747,189 @@
     "Li Yong-Rui"
    ],
    "t": 1794416828
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.25768,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794417215
+  },
+  "BD+43 866": {
+   "pos": [
+    -45.25,
+    -12.78125,
+    -101.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.254335,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794417217
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177592,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794417247
+  },
+  "Tascheter Sector XE-Q a5-2": {
+   "pos": [
+    15.28125,
+    -25.90625,
+    -52.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.275078,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794417314
+  },
+  "Tascheter Sector XO-A b5": {
+   "pos": [
+    -3.59375,
+    -12.90625,
+    -106.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794417482
+  },
+  "Hyades Sector AC-K b9-5": {
+   "pos": [
+    -47.0625,
+    -14.09375,
+    -84.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794417622
+  },
+  "Bestia": {
+   "pos": [
+    -36.09375,
+    -1.46875,
+    -84.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.129712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794417923
+  },
+  "Daga tri": {
+   "pos": [
+    -23.1875,
+    -2.625,
+    -100.9375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794418365
+  },
+  "Hyades Sector QO-P b6-5": {
+   "pos": [
+    28.25,
+    7.40625,
+    -130.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.104569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794418415
+  },
+  "SPOCS 253": {
+   "pos": [
+    -15.375,
+    -0.625,
+    -83.8125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.154769,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794418553
+  },
+  "Fimbulwinter": {
+   "pos": [
+    -21.125,
+    -8.6875,
+    -100.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.259166,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794418701
   }
  }
 }

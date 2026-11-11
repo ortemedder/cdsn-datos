@@ -3123,7 +3123,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 42
+    "2026-11-11": 50
    },
    "pn": {
     "J9W-B6T": {
@@ -6693,10 +6693,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794361404.9114738,
-  "msgs": 819122,
+  "msgs": 831010,
   "mios": 59
  },
- "t": 1794361591.990123,
+ "t": 1794362492.7888627,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -6855,7 +6855,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794359644
+   "t": 1794362124
   },
   "Dewikum": {
    "pos": [
@@ -7053,7 +7053,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794314418
+   "t": 1794362186
   },
   "Nyal": {
    "pos": [
@@ -7269,7 +7269,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794347760
+   "t": 1794361677
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -8478,7 +8478,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794328299
+   "t": 1794361827
   },
   "Yax Balam": {
    "pos": [
@@ -8917,7 +8917,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794337712
+   "t": 1794361967
   },
   "Col 285 Sector UT-W b16-5": {
    "pos": [
@@ -9553,7 +9553,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794344465
+   "t": 1794327673
   },
   "Ceti Sector CL-X b1-3": {
    "pos": [
@@ -10445,6 +10445,41 @@
     "Jerome Archer"
    ],
    "t": 1794361133
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.244914,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794361510
+  },
+  "Kamuti": {
+   "pos": [
+    -38.5625,
+    27.65625,
+    -104.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.12396,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794283250
   }
  }
 }

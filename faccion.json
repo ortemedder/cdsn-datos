@@ -5546,7 +5546,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794347572,
+   "t": 1794405438,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -5612,7 +5612,7 @@
     960.6875
    ],
    "sis": {
-    "pob": 10091,
+    "pob": 38826,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -5628,7 +5628,8 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 46
+    "2026-11-10": 46,
+    "2026-11-11": 1
    },
    "prev": null,
    "prev_t": null
@@ -5991,9 +5992,9 @@
   },
   "Heili": {
    "sys": "Heili",
-   "t": 1794325768,
+   "t": 1794405775,
    "src": "EDDN",
-   "inf": 12.14,
+   "inf": 11.53,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -6002,12 +6003,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "160 S.O.A.R.",
-   "segunda_inf": 49.45,
+   "segunda_inf": 46.84,
    "conflictos": [],
    "todas": [
     {
      "n": "160 S.O.A.R.",
-     "inf": 49.45,
+     "inf": 46.84,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
@@ -6015,17 +6016,8 @@
      "jug": null
     },
     {
-     "n": "Beasts of Bestia",
-     "inf": 13.44,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
      "n": "The Fatherhood",
-     "inf": 12.54,
+     "inf": 15.45,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -6035,8 +6027,17 @@
      "jug": null
     },
     {
+     "n": "Beasts of Bestia",
+     "inf": 14.44,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "Astrobiology Research Cooperative",
-     "inf": 12.44,
+     "inf": 11.74,
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
@@ -6047,7 +6048,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 12.14,
+     "inf": 11.53,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -6064,7 +6065,7 @@
     -92.75
    ],
    "sis": {
-    "pob": 494932,
+    "pob": 494947,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -6086,8 +6087,11 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 2
-   }
+    "2026-11-10": 2,
+    "2026-11-11": 1
+   },
+   "prev": 12.14,
+   "prev_t": 1794325768
   },
   "Lan Caihe": {
    "sys": "Lan Caihe",
@@ -6989,11 +6993,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794404848.075158,
-  "msgs": 1264179,
-  "mios": 76
+  "ultimo": 1794405776.6505938,
+  "msgs": 1277136,
+  "mios": 78
  },
- "t": 1794404850.4728422,
+ "t": 1794405780.9961128,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7244,13 +7248,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.003426,
+   "prog": 0.007034,
    "pots": [
     "Edmund Mahon",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794321889
+   "t": 1794405169
   },
   "Umaspi": {
    "pos": [
@@ -8032,7 +8036,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794322986
+   "t": 1794405518
   },
   "EGM 762": {
    "pos": [
@@ -8257,7 +8261,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794325768
+   "t": 1794405775
   },
   "Olkondi": {
    "pos": [
@@ -9850,7 +9854,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794327673
+   "t": 1794405145
   },
   "Ceti Sector CL-X b1-3": {
    "pos": [
@@ -11666,6 +11670,37 @@
     "Jerome Archer"
    ],
    "t": 1794404764
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.0926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794238841
+  },
+  "Hyades Sector OO-P b6-4": {
+   "pos": [
+    -5.5625,
+    7.59375,
+    -130.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794405283
   }
  }
 }

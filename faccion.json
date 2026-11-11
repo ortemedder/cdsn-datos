@@ -3077,7 +3077,8 @@
    },
    "trafico": {
     "2026-11-09": 161,
-    "2026-11-10": 205
+    "2026-11-10": 207,
+    "2026-11-11": 1
    },
    "pn": {
     "J9W-B6T": {
@@ -6647,10 +6648,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794353392.345626,
-  "msgs": 732080,
+  "msgs": 742708,
   "mios": 54
  },
- "t": 1794354372.8857925,
+ "t": 1794355274.4459786,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7473,7 +7474,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794348624
+   "t": 1794354412
   },
   "Tascheter Sector OX-U b2-3": {
    "pos": [
@@ -7707,7 +7708,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794349415
+   "t": 1794354621
   },
   "Cemplatui": {
    "pos": [
@@ -7742,7 +7743,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794354371
+   "t": 1794355299
   },
   "Utero": {
    "pos": [
@@ -7853,7 +7854,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.172943,
+   "prog": 0.172872,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -7861,7 +7862,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794343226
+   "t": 1794354692
   },
   "Kwaraseti": {
    "pos": [
@@ -10036,6 +10037,71 @@
     "Li Yong-Rui"
    ],
    "t": 1794353237
+  },
+  "Tascheter Sector BV-Y b2": {
+   "pos": [
+    2.15625,
+    -9.3125,
+    -90.625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.175441,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794354749
+  },
+  "HIP 17820": {
+   "pos": [
+    104.75,
+    -117.75,
+    -11.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.005383,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794354814
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.265506,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794355026
+  },
+  "LFT 324": {
+   "pos": [
+    -41.5625,
+    -1.65625,
+    -72.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794354326
   }
  }
 }

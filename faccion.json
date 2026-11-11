@@ -477,88 +477,86 @@
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
-   "t": 1793811957,
-   "src": "EDSM",
-   "inf": 11.79,
+   "t": 1794407725,
+   "src": "EDDN",
+   "inf": 12.46,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 51.45,
+   "segunda_inf": 50.55,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 51.45,
+     "inf": 50.55,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "SPOCS 253 Free",
+     "inf": 14.26,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 12.46,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
-    },
-    {
-     "n": "SPOCS 253 Free",
-     "inf": 14.29,
-     "gov": "Democracy",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": false
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 11.79,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion"
-     ],
-     "jug": true
+     "jug": null
     },
     {
      "n": "SPOCS 253 Constitution Party",
-     "inf": 8.59,
+     "inf": 8.37,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "SPOCS 253 Central Company",
-     "inf": 8.39,
+     "inf": 8.18,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "SPOCS 253 Federal Industry",
-     "inf": 4.2,
+     "inf": 4.79,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Boom"
+     ],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "SPOCS 253 Crew",
-     "inf": 1.3,
+     "inf": 1.4,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Flotta Stellare",
@@ -569,12 +567,30 @@
    ],
    "sis": {
     "pob": 1155984689,
-    "eco": "Agriculture",
-    "eco2": "Industrial",
-    "seg": "High",
-    "gov": "Democracy",
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
-   }
+   },
+   "pp": {
+    "pot": "Zemina Torval",
+    "est": "Fortified",
+    "prog": 0.154769,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 1
+   },
+   "prev": 11.79,
+   "prev_t": 1793811957
   },
   "BD+47 1236": {
    "sys": "BD+47 1236",
@@ -6993,11 +7009,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794406410.1958575,
-  "msgs": 1301492,
-  "mios": 79
+  "ultimo": 1794407728.1604705,
+  "msgs": 1313483,
+  "mios": 80
  },
- "t": 1794407221.6446178,
+ "t": 1794408092.0835614,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7223,7 +7239,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794404171
+   "t": 1794408085
   },
   "Guitaiku": {
    "pos": [
@@ -11734,6 +11750,90 @@
     "Zemina Torval"
    ],
    "t": 1794407036
+  },
+  "Hyades Sector IC-U c3-8": {
+   "pos": [
+    18.40625,
+    20.28125,
+    -128.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794407678
+  },
+  "SPOCS 253": {
+   "pos": [
+    -15.375,
+    -0.625,
+    -83.8125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.154769,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794407725
+  },
+  "Tascheter Sector CQ-Y c21": {
+   "pos": [
+    23.125,
+    -11.40625,
+    -77.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794407794
+  },
+  "Mwamen": {
+   "pos": [
+    -6.125,
+    -88.65625,
+    -15.59375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.249538,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794407843
+  },
+  "Hyades Sector QO-P b6-5": {
+   "pos": [
+    28.25,
+    7.40625,
+    -130.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.104569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794407899
   }
  }
 }

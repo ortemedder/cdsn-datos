@@ -2490,7 +2490,7 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794371243,
+   "t": 1794411089,
    "src": "EDDN",
    "inf": 7.41,
    "ctrl": false,
@@ -2589,12 +2589,16 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 3
+    "2026-11-11": 5
    },
    "pn": {
     "K4J-GTX": {
      "n": "RIPACARRIER 2",
-     "t": 1794361319
+     "t": 1794411191
+    },
+    "JHT-19T": {
+     "n": "Muj Milazek",
+     "t": 1794411191
     }
    },
    "prev": 6.81,
@@ -7005,15 +7009,99 @@
    "trafico": {
     "2026-11-11": 1
    }
+  },
+  "Hyades Sector SU-N b7-4": {
+   "sys": "Hyades Sector SU-N b7-4",
+   "t": 1794410806,
+   "src": "EDDN",
+   "inf": 28.56,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 46.05,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 46.05,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 28.56,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "League of Apadecavi Order",
+     "inf": 16.4,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Apadecavi Crew",
+     "inf": 8.99,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -19.15625,
+    4.21875,
+    -122.0625
+   ],
+   "sis": {
+    "pob": 1626174,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794409205.3115573,
-  "msgs": 1340008,
-  "mios": 81
+  "ultimo": 1794411090.6673813,
+  "msgs": 1354245,
+  "mios": 83
  },
- "t": 1794410123.3868477,
+ "t": 1794411194.2358918,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7075,7 +7163,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794410120
+   "t": 1794411180
   },
   "Gollobo": {
    "pos": [
@@ -7985,7 +8073,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794322085
+   "t": 1794410471
   },
   "Wo 9203": {
    "pos": [
@@ -8644,7 +8732,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794367026
+   "t": 1794410855
   },
   "HJ 3456B": {
    "pos": [
@@ -8811,7 +8899,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794328364
+   "t": 1794410670
   },
   "LP 302-22": {
    "pos": [
@@ -9591,7 +9679,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1794342221
+   "t": 1794410681
   },
   "PLX 695": {
    "pos": [
@@ -10366,7 +10454,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794351950
+   "t": 1794411013
   },
   "LP 834-42": {
    "pos": [
@@ -10761,7 +10849,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794371243
+   "t": 1794411089
   },
   "Tote": {
    "pos": [
@@ -11484,7 +11572,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794399232
+   "t": 1794338563
   },
   "BD+19 1405": {
    "pos": [
@@ -11880,6 +11968,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794409399
+  },
+  "Hyades Sector SU-N b7-4": {
+   "pos": [
+    -19.15625,
+    4.21875,
+    -122.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794410806
   }
  }
 }

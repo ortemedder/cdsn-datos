@@ -1984,7 +1984,7 @@
   },
   "LP 254-40": {
    "sys": "LP 254-40",
-   "t": 1794157074,
+   "t": 1794365590,
    "src": "EDDN",
    "inf": 11.3,
    "ctrl": false,
@@ -2005,7 +2005,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -2016,7 +2016,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Independent LP 254-40 Unionists",
@@ -2025,7 +2025,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "LP 254-40 Incorporated",
@@ -2034,7 +2034,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "LP 254-40 Autocracy",
@@ -2043,7 +2043,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Gang of LP 254-40",
@@ -2052,7 +2052,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Tastis Company",
@@ -2061,7 +2061,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "LP 254-40 Co",
@@ -2072,12 +2072,30 @@
    ],
    "sis": {
     "pob": 2199090,
-    "eco": "Industrial",
-    "eco2": "None",
-    "seg": "Low",
-    "gov": "Corporate",
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
     "alg": "Federation"
-   }
+   },
+   "pp": {
+    "pot": "Edmund Mahon",
+    "est": "Exploited",
+    "prog": 0.275404,
+    "ref": 0,
+    "soc": 808,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Felicia Winters",
+     "Li Yong-Rui"
+    ]
+   },
+   "trafico": {
+    "2026-11-11": 1
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
@@ -3123,7 +3141,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 70
+    "2026-11-11": 78
    },
    "pn": {
     "J9W-B6T": {
@@ -6692,11 +6710,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794361404.9114738,
-  "msgs": 868939,
-  "mios": 59
+  "ultimo": 1794365592.3296118,
+  "msgs": 881722,
+  "mios": 60
  },
- "t": 1794364964.3401825,
+ "t": 1794366075.1980288,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7236,7 +7254,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794317777
+   "t": 1794365894
   },
   "Hyades Sector UU-N b7-4": {
    "pos": [
@@ -7269,7 +7287,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794364526
+   "t": 1794366006
   },
   "Hyades Sector SZ-N b7-0": {
    "pos": [
@@ -8819,7 +8837,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794334004
+   "t": 1794365382
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -10277,7 +10295,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794363293
+   "t": 1794365534
   },
   "Col 285 Sector XJ-R a34-2": {
    "pos": [
@@ -10526,6 +10544,85 @@
     "Jerome Archer"
    ],
    "t": 1794364792
+  },
+  "Polecteri": {
+   "pos": [
+    -20.53125,
+    39.65625,
+    -142.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794365239
+  },
+  "LHS 1697": {
+   "pos": [
+    -47.75,
+    13.59375,
+    -83.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794365306
+  },
+  "LP 254-40": {
+   "pos": [
+    1.5625,
+    23.9375,
+    -86.5625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.275404,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794365590
+  },
+  "Orgeleu": {
+   "pos": [
+    120.15625,
+    -123.15625,
+    -20.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794365643
+  },
+  "Trianguli Sector SU-O a6-2": {
+   "pos": [
+    32.09375,
+    -40.46875,
+    -55.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794365662
   }
  }
 }

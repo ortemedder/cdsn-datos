@@ -293,7 +293,7 @@
    "trafico": {
     "2026-11-09": 29,
     "2026-11-10": 63,
-    "2026-11-11": 1
+    "2026-11-11": 3
    },
    "prev": 58.28,
    "prev_t": 1794335731
@@ -4527,9 +4527,9 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794331119,
+   "t": 1794383166,
    "src": "EDDN",
-   "inf": 59.94,
+   "inf": 60.34,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -4538,12 +4538,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 15.83,
+   "segunda_inf": 15.63,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 59.94,
+     "inf": 60.34,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4554,7 +4554,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 15.83,
+     "inf": 15.63,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -4565,7 +4565,7 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 13.65,
+     "inf": 13.55,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -4574,7 +4574,7 @@
     },
     {
      "n": "Aristocrats of Lhou Wangs",
-     "inf": 10.58,
+     "inf": 10.48,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -4589,7 +4589,7 @@
     -120
    ],
    "sis": {
-    "pob": 98649482,
+    "pob": 99076386,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -4611,16 +4611,17 @@
    },
    "trafico": {
     "2026-11-09": 15,
-    "2026-11-10": 12
+    "2026-11-10": 12,
+    "2026-11-11": 1
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794331262
+     "t": 1794383166
     }
    },
-   "prev": 59.55,
-   "prev_t": 1794256411
+   "prev": 59.94,
+   "prev_t": 1794331119
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
@@ -6881,11 +6882,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794381593.469465,
-  "msgs": 1043425,
-  "mios": 66
+  "ultimo": 1794383168.3464882,
+  "msgs": 1050347,
+  "mios": 67
  },
- "t": 1794382181.174389,
+ "t": 1794383171.544395,
  "zona": {
   "BD+27 881": {
    "pos": [
@@ -7277,7 +7278,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794331119
+   "t": 1794383166
   },
   "Col 285 Sector TT-W b16-8": {
    "pos": [
@@ -10958,7 +10959,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794375660
+   "t": 1794382779
   },
   "Piscium Sector SD-T b3-7": {
    "pos": [

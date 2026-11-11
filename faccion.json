@@ -313,7 +313,7 @@
    "trafico": {
     "2026-11-09": 29,
     "2026-11-10": 63,
-    "2026-11-11": 16
+    "2026-11-11": 17
    },
    "prev": 58.28,
    "prev_t": 1794335731,
@@ -3158,7 +3158,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794368927,
+   "t": 1794419854,
    "src": "EDDN",
    "inf": 85.41,
    "ctrl": true,
@@ -3215,9 +3215,9 @@
     280.59375
    ],
    "sis": {
-    "pob": 37964995,
+    "pob": 40193477,
     "eco": "$economy_Refinery;",
-    "eco2": "$economy_HighTech;",
+    "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
@@ -3233,7 +3233,7 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 113
+    "2026-11-11": 115
    },
    "pn": {
     "J9W-B6T": {
@@ -3242,7 +3242,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794368927
+     "t": 1794420178
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3252,6 +3252,10 @@
      "n": "EXQUISITE-EXCURSION",
      "t": 1794328250
     }
+   },
+   "tk": {
+    "firma": "608a54eb",
+    "igual": 1794419854
    },
    "prev": 90.02,
    "prev_t": 1794353391
@@ -4601,7 +4605,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794384433,
+   "t": 1794421989,
    "src": "EDDN",
    "inf": 60.34,
    "ctrl": true,
@@ -4686,7 +4690,7 @@
    "trafico": {
     "2026-11-09": 15,
     "2026-11-10": 12,
-    "2026-11-11": 7
+    "2026-11-11": 8
    },
    "pn": {
     "V8X-11L": {
@@ -4695,7 +4699,11 @@
     }
    },
    "prev": 59.94,
-   "prev_t": 1794331119
+   "prev_t": 1794331119,
+   "tk": {
+    "firma": "234f55e3",
+    "igual": 1794421989
+   }
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
@@ -7364,11 +7372,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794420138.0939128,
-  "msgs": 133461,
-  "mios": 8
+  "ultimo": 1794421990.470753,
+  "msgs": 167293,
+  "mios": 11
  },
- "t": 1794420426.826401,
+ "t": 1794422047.6766233,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7754,7 +7762,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794418616
+   "t": 1794422036
   },
   "Kolaga": {
    "pos": [
@@ -7911,12 +7919,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.275078,
+   "prog": 0.274344,
    "pots": [
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794417314
+   "t": 1794421481
   },
   "Tascheter Sector XO-A b5": {
    "pos": [
@@ -8254,6 +8262,188 @@
     "Li Yong-Rui"
    ],
    "t": 1794420380
+  },
+  "Hyades Sector YG-K b9-7": {
+   "pos": [
+    -61.40625,
+    2.71875,
+    -82.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794420512
+  },
+  "Ceti Sector GR-V b2-3": {
+   "pos": [
+    5.65625,
+    -90.125,
+    -31.78125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.122283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794420827
+  },
+  "Hyades Sector WV-L b8-2": {
+   "pos": [
+    -63.28125,
+    -6.875,
+    -93.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.034374,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794420939
+  },
+  "Tascheter Sector GR-M a7-0": {
+   "pos": [
+    25.4375,
+    -34,
+    -34.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.154063,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794421155
+  },
+  "Tascheter Sector HR-M a7-1": {
+   "pos": [
+    37.84375,
+    -33.3125,
+    -34.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.083012,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794421213
+  },
+  "Tascheter Sector ZZ-P a5-1": {
+   "pos": [
+    18.65625,
+    -37.09375,
+    -48.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.071426,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794421236
+  },
+  "HIP 33497": {
+   "pos": [
+    31.78125,
+    29.65625,
+    -134.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.253026,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794421370
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.186533,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794421439
+  },
+  "LTT 12089": {
+   "pos": [
+    10.8125,
+    52.40625,
+    -98.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794421509
+  },
+  "Zach": {
+   "pos": [
+    -10.09375,
+    19.0625,
+    -69.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.129998,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794421525
+  },
+  "Hyades Sector SU-N b7-0": {
+   "pos": [
+    -19.59375,
+    -0.40625,
+    -120
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794421989
   }
  }
 }

@@ -3978,7 +3978,7 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1794521146,
+   "t": 1794522400,
    "src": "EDDN",
    "inf": 12.93,
    "ctrl": false,
@@ -4059,7 +4059,11 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 1
+    "2026-11-12": 2
+   },
+   "tk": {
+    "firma": "cf749aa5",
+    "igual": 1794522400
    },
    "prev": null,
    "prev_t": null,
@@ -4068,15 +4072,11 @@
      1794195170,
      12.93
     ]
-   ],
-   "tk": {
-    "firma": "cf749aa5",
-    "igual": 1794521146
-   }
+   ]
   },
   "Hyades Sector TK-M b8-3": {
    "sys": "Hyades Sector TK-M b8-3",
-   "t": 1794195547,
+   "t": 1794523024,
    "src": "EDDN",
    "inf": 22.01,
    "ctrl": false,
@@ -4096,7 +4096,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -4124,10 +4126,10 @@
      "inf": 8.74,
      "gov": "Democracy",
      "alg": "Alliance",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -4147,7 +4149,7 @@
     -95.5625
    ],
    "sis": {
-    "pob": 1995621,
+    "pob": 1995847,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -4167,7 +4169,20 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 1
+    "2026-11-09": 1,
+    "2026-11-12": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794195547,
+     22.01
+    ]
+   ],
+   "tk": {
+    "firma": "3b2fabab",
+    "igual": 1794523024
    }
   },
   "Eurus": {
@@ -9279,11 +9294,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794521648.49222,
-  "msgs": 536376,
-  "mios": 21
+  "ultimo": 1794523024.8551273,
+  "msgs": 554509,
+  "mios": 23
  },
- "t": 1794522084.2447221,
+ "t": 1794523034.6808236,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -11319,7 +11334,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794519865
+   "t": 1794522252
   },
   "Mankul": {
    "pos": [
@@ -11683,7 +11698,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794521146
+   "t": 1794522400
   },
   "Apam Napat": {
    "pos": [
@@ -11735,6 +11750,55 @@
     "Pranav Antal"
    ],
    "t": 1794522072
+  },
+  "Caill Reddi": {
+   "pos": [
+    -61.375,
+    -21.90625,
+    -78.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.250126,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794522279
+  },
+  "LHS 1914": {
+   "pos": [
+    9.84375,
+    26.15625,
+    -72.46875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.252881,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794522953
+  },
+  "Hyades Sector TK-M b8-3": {
+   "pos": [
+    -0.09375,
+    36.21875,
+    -95.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.16914,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523024
   }
  }
 }

@@ -5690,7 +5690,7 @@
   },
   "Hidatsa": {
    "sys": "Hidatsa",
-   "t": 1794272922,
+   "t": 1794522708,
    "src": "EDDN",
    "inf": 7.31,
    "ctrl": false,
@@ -5699,20 +5699,10 @@
     "Expansion"
    ],
    "pendientes": [],
-   "recuperando": [
-    "Election"
-   ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 71.07,
-   "conflictos": [
-    {
-     "tipo": "election",
-     "estado": "",
-     "contra": "Hidatsa Liberals",
-     "ganados": 0,
-     "perdidos": 1
-    }
-   ],
+   "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
@@ -5720,7 +5710,9 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -5788,9 +5780,9 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.256546,
+    "prog": 0.256024,
     "ref": 0,
-    "soc": 208,
+    "soc": 191,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -5798,7 +5790,19 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 1
+    "2026-11-12": 2
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794272922,
+     7.31
+    ]
+   ],
+   "tk": {
+    "firma": "67337163",
+    "igual": 1794522708
    }
   },
   "BD+47 1285": {
@@ -9290,15 +9294,134 @@
     "firma": "aba74737",
     "igual": 1794515601
    }
+  },
+  "Ibishia": {
+   "sys": "Ibishia",
+   "t": 1794523080,
+   "src": "EDDN",
+   "inf": 53.72,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Escuadron Centinelas",
+   "segunda_inf": 22.79,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 53.72,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Escuadron Centinelas",
+     "inf": 22.79,
+     "gov": "Feudal",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ibishia Bridge Network",
+     "inf": 9.81,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ibishia Republic Party",
+     "inf": 6.05,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ibishia Inc",
+     "inf": 4.96,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Dukes of Ibishia",
+     "inf": 1.68,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ibishia Blue Posse",
+     "inf": 0.99,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -6.6875,
+    33.875,
+    -116.1875
+   ],
+   "sis": {
+    "pob": 175917,
+    "eco": "$economy_Colony;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Stronghold",
+    "prog": 0.25,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794523080,
+     53.72
+    ]
+   ],
+   "tk": {
+    "firma": "d26c1430",
+    "igual": 1794523080
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794523024.8551273,
-  "msgs": 554509,
-  "mios": 23
+  "ultimo": 1794523649.8819861,
+  "msgs": 574349,
+  "mios": 25
  },
- "t": 1794523034.6808236,
+ "t": 1794523745.340228,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9922,7 +10045,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794495183
+   "t": 1794523347
   },
   "HIP 18427": {
    "pos": [
@@ -10459,7 +10582,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794502001
+   "t": 1794523116
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -11799,6 +11922,154 @@
     "Jerome Archer"
    ],
    "t": 1794523024
+  },
+  "Ibishia": {
+   "pos": [
+    -6.6875,
+    33.875,
+    -116.1875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.25,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523080
+  },
+  "Pukkeitsi": {
+   "pos": [
+    -12.25,
+    40.75,
+    -146.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523205
+  },
+  "Tascheter Sector EG-X b1-5": {
+   "pos": [
+    29.375,
+    10.53125,
+    -75.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523239
+  },
+  "Ross 874": {
+   "pos": [
+    16,
+    19.53125,
+    -77.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523359
+  },
+  "Siren": {
+   "pos": [
+    16.125,
+    22.28125,
+    -77.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.239998,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523498
+  },
+  "HIP 32916": {
+   "pos": [
+    -10.4375,
+    44.46875,
+    -136.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794522592
+  },
+  "Oscabi": {
+   "pos": [
+    125.1875,
+    -16,
+    18.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794523014
+  },
+  "Hidatsa": {
+   "pos": [
+    -5.625,
+    13.96875,
+    -111.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794522708
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794523188
   }
  }
 }

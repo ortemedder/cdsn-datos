@@ -314,7 +314,7 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 11
+    "2026-11-12": 12
    },
    "tk": {
     "firma": "2fc52895",
@@ -4794,7 +4794,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794513155,
+   "t": 1794514539,
    "src": "EDDN",
    "inf": 58.36,
    "ctrl": true,
@@ -4882,17 +4882,17 @@
     "2026-11-09": 15,
     "2026-11-10": 12,
     "2026-11-11": 8,
-    "2026-11-12": 3
+    "2026-11-12": 6
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794513356
+     "t": 1794514719
     }
    },
    "tk": {
     "firma": "cdb3f7dd",
-    "igual": 1794513155,
+    "igual": 1794514539,
     "ult": 1794513155,
     "desde": 1794421989,
     "est": null
@@ -9054,15 +9054,136 @@
     "firma": "34960048",
     "igual": 1794418698
    }
+  },
+  "Hima": {
+   "sys": "Hima",
+   "t": 1794514529,
+   "src": "EDDN",
+   "inf": 75.42,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Hima Comms Network",
+   "segunda_inf": 8.26,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 75.42,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Hima Comms Network",
+     "inf": 8.26,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 6.97,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 3.08,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Hima Incorporated",
+     "inf": 2.69,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Hima Co-operative",
+     "inf": 2.59,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Cartel of Hima",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -15.1875,
+    20.625,
+    -114.46875
+   ],
+   "sis": {
+    "pob": 149269,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794514529,
+     75.42
+    ]
+   ],
+   "tk": {
+    "firma": "73a84f09",
+    "igual": 1794514529
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794513859.2370794,
-  "msgs": 374850,
-  "mios": 15
+  "ultimo": 1794514540.8149214,
+  "msgs": 393728,
+  "mios": 17
  },
- "t": 1794513927.4644866,
+ "t": 1794514908.659391,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9073,14 +9194,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.249171,
+   "prog": 0.249435,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794513280
+   "t": 1794514867
   },
   "Gliese 3299": {
    "pos": [
@@ -9280,7 +9401,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794508243
+   "t": 1794514898
   },
   "Ross 592": {
    "pos": [
@@ -10289,7 +10410,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794513501
+   "t": 1794514208
   },
   "Ethli": {
    "pos": [
@@ -10681,7 +10802,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794513115
+   "t": 1794514098
   },
   "ICZ GL-X b1-1": {
    "pos": [
@@ -10806,7 +10927,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794513155
+   "t": 1794514539
   },
   "Trianguli Sector SU-O a6-0": {
    "pos": [
@@ -10943,6 +11064,82 @@
     "Jerome Archer"
    ],
    "t": 1794418763
+  },
+  "Tascheter Sector WE-Q a5-1": {
+   "pos": [
+    12.5625,
+    -33.1875,
+    -52.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.018186,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794514251
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794514289
+  },
+  "Scottii": {
+   "pos": [
+    124,
+    -116.40625,
+    -31.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.263355,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794514383
+  },
+  "Wuluang": {
+   "pos": [
+    126.46875,
+    -133.625,
+    -20.3125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.171426,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794514429
+  },
+  "Hima": {
+   "pos": [
+    -15.1875,
+    20.625,
+    -114.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794514529
   }
  }
 }

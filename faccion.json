@@ -3234,7 +3234,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 3
+    "2026-11-12": 6
    },
    "pn": {
     "J9W-B6T": {
@@ -5009,7 +5009,7 @@
   },
   "Ngargambo": {
    "sys": "Ngargambo",
-   "t": 1794266381,
+   "t": 1794442870,
    "src": "EDDN",
    "inf": 4.9,
    "ctrl": false,
@@ -5109,36 +5109,41 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 5
+    "2026-11-09": 5,
+    "2026-11-12": 2
    },
    "pn": {
     "G7Y-G4L": {
      "n": "FLEET CARRIER",
-     "t": 1794265671
+     "t": 1794442881
     },
     "X8B-9QJ": {
      "n": "ASKEPOTS HIDEOUT",
-     "t": 1794265671
+     "t": 1794442881
     },
     "QHQ-LQF": {
      "n": "MINESTAR SERVICES",
-     "t": 1794265671
+     "t": 1794442881
     },
     "X3Q-LXN": {
      "n": "NICE",
-     "t": 1794265671
+     "t": 1794442881
     },
     "K6W-38V": {
      "n": "MS GERMANY",
-     "t": 1794265671
+     "t": 1794442881
     },
     "J1G-G5N": {
      "n": "SCOTTISH TSUNAMI",
-     "t": 1794265671
+     "t": 1794442881
     }
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "tk": {
+    "firma": "f51e9934",
+    "igual": 1794442870
+   }
   },
   "Lyncis Sector XJ-R b4-0": {
    "sys": "Lyncis Sector XJ-R b4-0",
@@ -7586,11 +7591,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794439566.4081967,
-  "msgs": 558485,
-  "mios": 17
+  "ultimo": 1794442874.065105,
+  "msgs": 571117,
+  "mios": 18
  },
- "t": 1794442092.148521,
+ "t": 1794443052.818176,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8919,7 +8924,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794425153
+   "t": 1794443051
   },
   "LTT 882": {
    "pos": [
@@ -9584,7 +9589,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.442267,
+   "prog": 0.44227,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -9592,7 +9597,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794438921
+   "t": 1794442794
   },
   "Col 285 Sector XZ-U b17-5": {
    "pos": [
@@ -9981,7 +9986,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794436143
+   "t": 1794442590
   },
   "NLTT 14879": {
    "pos": [
@@ -10225,7 +10230,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794439386
+   "t": 1794442847
   },
   "Guambia": {
    "pos": [
@@ -10289,6 +10294,73 @@
     "Li Yong-Rui"
    ],
    "t": 1794442033
+  },
+  "Tascheter Sector HM-M a7-2": {
+   "pos": [
+    18.15625,
+    -44.4375,
+    -32.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.106932,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794442872
+  },
+  "Ngargambo": {
+   "pos": [
+    15.25,
+    13.78125,
+    -119.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.245184,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794442870
+  },
+  "LHS 1651": {
+   "pos": [
+    31.25,
+    -44.09375,
+    -32.5625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.104466,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794442923
+  },
+  "Tascheter Sector CL-Y d132": {
+   "pos": [
+    -25.53125,
+    -24.78125,
+    -99.8125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.315534,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794443025
   }
  }
 }

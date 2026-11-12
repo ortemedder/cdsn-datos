@@ -4079,7 +4079,7 @@
   },
   "Eurus": {
    "sys": "Eurus",
-   "t": 1794496679,
+   "t": 1794509364,
    "src": "EDDN",
    "inf": 50.9,
    "ctrl": true,
@@ -4164,7 +4164,11 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 2
+    "2026-11-12": 4
+   },
+   "tk": {
+    "firma": "88c5fc4c",
+    "igual": 1794509364
    },
    "prev": 51.1,
    "prev_t": 1794196869,
@@ -4177,11 +4181,7 @@
      1794496679,
      50.9
     ]
-   ],
-   "tk": {
-    "firma": "88c5fc4c",
-    "igual": 1794496679
-   }
+   ]
   },
   "BD+27 881": {
    "sys": "BD+27 881",
@@ -8719,11 +8719,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794506847.8731537,
-  "msgs": 272241,
-  "mios": 9
+  "ultimo": 1794509365.4646583,
+  "msgs": 287749,
+  "mios": 10
  },
- "t": 1794508542.4888306,
+ "t": 1794509372.892194,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -8741,7 +8741,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794507973
+   "t": 1794509342
   },
   "Gliese 3299": {
    "pos": [
@@ -9505,7 +9505,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794496679
+   "t": 1794509364
   },
   "Mandra": {
    "pos": [
@@ -10192,6 +10192,42 @@
     "Li Yong-Rui"
    ],
    "t": 1794508282
+  },
+  "Hyades Sector WA-M b8-5": {
+   "pos": [
+    -16.78125,
+    9.25,
+    -97.28125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.148,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794508681
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155426,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794504004
   }
  }
 }

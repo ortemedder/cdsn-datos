@@ -237,7 +237,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794513677,
+   "t": 1794515309,
    "src": "EDDN",
    "inf": 58.24,
    "ctrl": true,
@@ -314,11 +314,11 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 12
+    "2026-11-12": 13
    },
    "tk": {
     "firma": "2fc52895",
-    "igual": 1794513677,
+    "igual": 1794515309,
     "ult": 1794513677,
     "desde": 1794420137,
     "est": null
@@ -9179,11 +9179,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794514540.8149214,
-  "msgs": 393728,
-  "mios": 17
+  "ultimo": 1794515311.4287965,
+  "msgs": 411743,
+  "mios": 18
  },
- "t": 1794514908.659391,
+ "t": 1794515759.1128535,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9201,7 +9201,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794514867
+   "t": 1794515350
   },
   "Gliese 3299": {
    "pos": [
@@ -9301,7 +9301,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794495097
+   "t": 1794515049
   },
   "Jangore": {
    "pos": [
@@ -9993,7 +9993,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794497023
+   "t": 1794515382
   },
   "Lalande 9828": {
    "pos": [
@@ -10038,7 +10038,7 @@
     "Denton Patreus",
     "Pranav Antal"
    ],
-   "t": 1794505774
+   "t": 1794515584
   },
   "Ross 27": {
    "pos": [
@@ -11012,7 +11012,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794513677
+   "t": 1794515309
   },
   "Ndabangluya": {
    "pos": [
@@ -11140,6 +11140,22 @@
     "Jerome Archer"
    ],
    "t": 1794514529
+  },
+  "Turmati": {
+   "pos": [
+    22.9375,
+    -31.8125,
+    -40.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.282212,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794515747
   }
  }
 }

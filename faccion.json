@@ -2574,9 +2574,9 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794411089,
+   "t": 1794491228,
    "src": "EDDN",
-   "inf": 7.41,
+   "inf": 7.21,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -2585,12 +2585,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 58.62,
+   "segunda_inf": 56.96,
    "conflictos": [],
    "todas": [
     {
      "n": "Beasts of Bestia",
-     "inf": 58.62,
+     "inf": 56.96,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2599,7 +2599,7 @@
     },
     {
      "n": "Jangore Partnership",
-     "inf": 16.63,
+     "inf": 17.42,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -2608,7 +2608,7 @@
     },
     {
      "n": "Jangore Monarchy",
-     "inf": 10.82,
+     "inf": 10.51,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -2617,7 +2617,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 7.41,
+     "inf": 7.21,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2628,7 +2628,7 @@
     },
     {
      "n": "Jangore Power Systems",
-     "inf": 5.51,
+     "inf": 6.91,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -2673,20 +2673,39 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 6
+    "2026-11-11": 6,
+    "2026-11-12": 2
    },
    "pn": {
     "K4J-GTX": {
      "n": "RIPACARRIER 2",
-     "t": 1794411191
+     "t": 1794491413
     },
     "JHT-19T": {
      "n": "Muj Milazek",
-     "t": 1794411191
+     "t": 1794491413
     }
    },
-   "prev": 6.81,
-   "prev_t": 1794159039
+   "prev": 7.41,
+   "prev_t": 1794411089,
+   "hinf": [
+    [
+     1794159039,
+     6.81
+    ],
+    [
+     1794411089,
+     7.41
+    ],
+    [
+     1794491228,
+     7.21
+    ]
+   ],
+   "tk": {
+    "firma": "0b4f4ca0",
+    "igual": 1794491228
+   }
   },
   "Diaguthivar": {
    "sys": "Diaguthivar",
@@ -8177,11 +8196,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 567,
-  "mios": 0
+  "ultimo": 1794491228.9333043,
+  "msgs": 11707,
+  "mios": 1
  },
- "t": 1794490573.07616,
+ "t": 1794491483.7973983,
  "tick_global": 1794413384,
  "zona": {
   "Kolaga": {
@@ -8199,7 +8218,190 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794490557
+   "t": 1794491017
+  },
+  "Gliese 3299": {
+   "pos": [
+    -34.46875,
+    -10.9375,
+    -116.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.085712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794490758
+  },
+  "EGM 823": {
+   "pos": [
+    10.59375,
+    -75.875,
+    -9.03125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794490839
+  },
+  "Hyades Sector QO-P b6-6": {
+   "pos": [
+    21.9375,
+    7.3125,
+    -130.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794490936
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.404692,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794491059
+  },
+  "Hyades Sector XV-L b8-6": {
+   "pos": [
+    -42.125,
+    -10.1875,
+    -94.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.079426,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794491157
+  },
+  "Hyades Sector RZ-N b7-1": {
+   "pos": [
+    3.84375,
+    20.4375,
+    -122.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794491186
+  },
+  "Jangore": {
+   "pos": [
+    -39.1875,
+    -3.1875,
+    -86
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794491228
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.264926,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794491356
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.295542,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794491137
+  },
+  "Ceti Sector FG-X b1-5": {
+   "pos": [
+    24.0625,
+    -106.75,
+    -63.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794491396
+  },
+  "BD-00 632": {
+   "pos": [
+    9.46875,
+    -36.34375,
+    -48.625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.258037,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794491477
   }
  }
 }

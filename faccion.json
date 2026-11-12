@@ -3259,7 +3259,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 85
+    "2026-11-12": 86
    },
    "pn": {
     "J9W-B6T": {
@@ -7741,10 +7741,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794453508.008523,
-  "msgs": 773582,
+  "msgs": 781896,
   "mios": 21
  },
- "t": 1794460155.2909956,
+ "t": 1794460935.5853024,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8744,7 +8744,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794460153
+   "t": 1794460926
   },
   "Lei Jen Zu": {
    "pos": [
@@ -11086,6 +11086,39 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794458048
+  },
+  "Tascheter Sector FR-M a7-1": {
+   "pos": [
+    19.3125,
+    -27.34375,
+    -34.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794460485
+  },
+  "Tascheter Sector YE-Q a5-1": {
+   "pos": [
+    25.875,
+    -28.65625,
+    -46.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.071426,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794460233
   }
  }
 }

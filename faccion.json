@@ -8086,7 +8086,7 @@
   },
   "Prajau": {
    "sys": "Prajau",
-   "t": 1794484347,
+   "t": 1794494777,
    "src": "EDDN",
    "inf": 49.61,
    "ctrl": true,
@@ -8176,8 +8176,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.185712,
-    "ref": 0,
+    "prog": 0.185763,
+    "ref": 18,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -8185,13 +8185,31 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-12": 2
+   },
+   "pn": {
+    "K2J-4XV": {
+     "n": "045",
+     "t": 1794494783
+    },
+    "HBN-58J": {
+     "n": "=CDSN= LA INDOMABLE",
+     "t": 1794494783
+    }
+   },
    "tk": {
     "firma": "b2121cb5",
-    "igual": 1794484347
+    "igual": 1794494777
    },
-   "trafico": {
-    "2026-11-12": 1
-   }
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794484347,
+     49.61
+    ]
+   ]
   },
   "Lu Pardan": {
    "sys": "Lu Pardan",
@@ -8311,15 +8329,136 @@
     "firma": "06873d7a",
     "igual": 1794494152
    }
+  },
+  "Mau": {
+   "sys": "Mau",
+   "t": 1794494897,
+   "src": "EDDN",
+   "inf": 59.38,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "CHIMERA",
+   "segunda_inf": 10.43,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 59.38,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 10.43,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mau Labour",
+     "inf": 8.54,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [
+      "Outbreak"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mau Jet Dynamic Co",
+     "inf": 6.26,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mau Council",
+     "inf": 5.76,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mau Life Corporation",
+     "inf": 5.76,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Justice Party of Mau",
+     "inf": 3.87,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -19.875,
+    24.875,
+    -119.9375
+   ],
+   "sis": {
+    "pob": 386889398,
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.133712,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794494897,
+     59.38
+    ]
+   ],
+   "tk": {
+    "firma": "ad9e72b7",
+    "igual": 1794494897
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794494153.3395326,
-  "msgs": 47784,
-  "mios": 2
+  "ultimo": 1794494901.544272,
+  "msgs": 61468,
+  "mios": 4
  },
- "t": 1794494155.3434653,
+ "t": 1794494905.6425219,
  "tick_global": 1794413384,
  "zona": {
   "Kolaga": {
@@ -8337,7 +8476,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794493738
+   "t": 1794494579
   },
   "Gliese 3299": {
    "pos": [
@@ -8437,7 +8576,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794493764
+   "t": 1794495097
   },
   "Jangore": {
    "pos": [
@@ -8826,6 +8965,106 @@
     "Jerome Archer"
    ],
    "t": 1794494152
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.253445,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794494276
+  },
+  "Ross 71": {
+   "pos": [
+    -3.375,
+    16.15625,
+    -119.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794494675
+  },
+  "Prajau": {
+   "pos": [
+    -20.28125,
+    15.125,
+    -121.03125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.185763,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794494777
+  },
+  "Mau": {
+   "pos": [
+    -19.875,
+    24.875,
+    -119.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.133712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794494897
+  },
+  "HIP 28774": {
+   "pos": [
+    1.84375,
+    6.96875,
+    -82.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.2804,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794493515
+  },
+  "Hajangai": {
+   "pos": [
+    -28.125,
+    4.90625,
+    -68.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.271558,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794493578
   }
  }
 }

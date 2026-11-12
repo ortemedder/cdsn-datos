@@ -1950,7 +1950,7 @@
    },
    "trafico": {
     "2026-11-09": 3,
-    "2026-11-12": 2
+    "2026-11-12": 3
    },
    "prev": 8.25,
    "prev_t": 1794249277
@@ -8172,144 +8172,9 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794489216.3510385,
-  "msgs": 9373,
-  "mios": 1
+  "ultimo": 0,
+  "msgs": 678,
+  "mios": 0
  },
- "t": 1794489399.7132144,
- "zona": {
-  "GCRV 2311": {
-   "pos": [
-    -37.375,
-    -16.75,
-    -97.3125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.272801,
-   "pots": [
-    "Aisling Duval",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794488601
-  },
-  "Ceti Sector KX-T b3-2": {
-   "pos": [
-    4.15625,
-    -94.6875,
-    -11.875
-   ],
-   "pot": "Denton Patreus",
-   "est": "Fortified",
-   "prog": 0.295542,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Pranav Antal"
-   ],
-   "t": 1794488609
-  },
-  "Kolaga": {
-   "pos": [
-    -32.9375,
-    -14.21875,
-    -97.46875
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Stronghold",
-   "prog": 0.249196,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval"
-   ],
-   "t": 1794489312
-  },
-  "BD+43 866": {
-   "pos": [
-    -45.25,
-    -12.78125,
-    -101.15625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Stronghold",
-   "prog": 0.253517,
-   "pots": [
-    "Li Yong-Rui",
-    "Zemina Torval"
-   ],
-   "t": 1794488914
-  },
-  "Wo 9203": {
-   "pos": [
-    11,
-    7.8125,
-    -135.25
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.000477,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1794488926
-  },
-  "Kenna": {
-   "pos": [
-    -5.5,
-    -100.53125,
-    -10.15625
-   ],
-   "pot": "Pranav Antal",
-   "est": "Stronghold",
-   "prog": 0.264567,
-   "pots": [
-    "Archon Delaine",
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Pranav Antal"
-   ],
-   "t": 1794488989
-  },
-  "Trianguli Sector BH-L a8-1": {
-   "pos": [
-    35.46875,
-    -44.875,
-    -40.5625
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794483809
-  },
-  "Hyades Sector XV-L b8-3": {
-   "pos": [
-    -30.875,
-    -8.0625,
-    -98.875
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794489215
-  }
- }
+ "t": 0
 }

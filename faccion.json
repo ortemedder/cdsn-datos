@@ -3259,7 +3259,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 64
+    "2026-11-12": 68
    },
    "pn": {
     "J9W-B6T": {
@@ -7737,10 +7737,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794453508.008523,
-  "msgs": 719136,
+  "msgs": 728980,
   "mios": 21
  },
- "t": 1794454791.8408895,
+ "t": 1794455522.5363514,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8144,7 +8144,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794451579
+   "t": 1794455397
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8855,7 +8855,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794426352
+   "t": 1794455224
   },
   "Col 285 Sector XZ-U b17-3": {
    "pos": [
@@ -9985,7 +9985,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794436405
+   "t": 1794455140
   },
   "HIP 14137": {
    "pos": [
@@ -10671,7 +10671,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794446082
+   "t": 1794454902
   },
   "LTT 1652": {
    "pos": [
@@ -10969,6 +10969,39 @@
     "Jerome Archer"
    ],
    "t": 1794454789
+  },
+  "Crucis Sector HB-X b1-6": {
+   "pos": [
+    127.40625,
+    -0.53125,
+    25.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794455039
+  },
+  "Col 285 Sector YZ-U b17-2": {
+   "pos": [
+    135.75,
+    -14.1875,
+    23.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794455396
   }
  }
 }

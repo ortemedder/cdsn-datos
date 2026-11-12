@@ -4067,9 +4067,9 @@
   },
   "Eurus": {
    "sys": "Eurus",
-   "t": 1794196869,
+   "t": 1794496679,
    "src": "EDDN",
-   "inf": 51.1,
+   "inf": 50.9,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -4078,12 +4078,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Ditia United Interstellar",
-   "segunda_inf": 25.0,
+   "segunda_inf": 25.3,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 51.1,
+     "inf": 50.9,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4094,7 +4094,7 @@
     },
     {
      "n": "Ditia United Interstellar",
-     "inf": 25.0,
+     "inf": 25.3,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -4105,11 +4105,13 @@
     },
     {
      "n": "East India Company",
-     "inf": 13.2,
+     "inf": 13.1,
      "gov": "Corporate",
      "alg": "Empire",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -4129,7 +4131,7 @@
     -45.75
    ],
    "sis": {
-    "pob": 2403321,
+    "pob": 2403562,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -4139,15 +4141,34 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.085523,
-    "ref": 1182,
-    "soc": 48,
+    "prog": 0.08514,
+    "ref": 0,
+    "soc": 0,
     "pots": [
      "Denton Patreus",
      "Li Yong-Rui",
      "Zemina Torval",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-12": 2
+   },
+   "prev": 51.1,
+   "prev_t": 1794196869,
+   "hinf": [
+    [
+     1794196869,
+     51.1
+    ],
+    [
+     1794496679,
+     50.9
+    ]
+   ],
+   "tk": {
+    "firma": "88c5fc4c",
+    "igual": 1794496679
    }
   },
   "BD+27 881": {
@@ -8450,15 +8471,137 @@
     "firma": "ad9e72b7",
     "igual": 1794494897
    }
+  },
+  "Skang": {
+   "sys": "Skang",
+   "t": 1794496026,
+   "src": "EDDN",
+   "inf": 3.6,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flotta Stellare",
+   "segunda_inf": 54.1,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flotta Stellare",
+     "inf": 54.1,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Skang Group",
+     "inf": 13.2,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Furuhjelm II-432 Alliance",
+     "inf": 11.5,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "New Skang Progressive Party",
+     "inf": 10.3,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Order of Enblackenment",
+     "inf": 6.3,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 3.6,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Skang Posse",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Flotta Stellare",
+   "pos": [
+    -4.09375,
+    36.46875,
+    -89.4375
+   ],
+   "sis": {
+    "pob": 119753,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794496026,
+     3.6
+    ]
+   ],
+   "tk": {
+    "firma": "4524f567",
+    "igual": 1794496026
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794494901.544272,
-  "msgs": 61468,
-  "mios": 4
+  "ultimo": 1794496680.038173,
+  "msgs": 88165,
+  "mios": 6
  },
- "t": 1794494905.6425219,
+ "t": 1794496856.881548,
  "tick_global": 1794413384,
  "zona": {
   "Kolaga": {
@@ -8476,7 +8619,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794494579
+   "t": 1794496755
   },
   "Gliese 3299": {
    "pos": [
@@ -8653,13 +8796,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.258037,
+   "prog": 0.258383,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794491477
+   "t": 1794495755
   },
   "LHS 1734": {
    "pos": [
@@ -9065,6 +9208,182 @@
     "Jerome Archer"
    ],
    "t": 1794493578
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.100569,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794495183
+  },
+  "HIP 18427": {
+   "pos": [
+    125.21875,
+    -136.125,
+    -16.03125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794495350
+  },
+  "Tialocan": {
+   "pos": [
+    99.65625,
+    -124.5,
+    -7.71875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.302161,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794495593
+  },
+  "LTT 740": {
+   "pos": [
+    -3.75,
+    -104.15625,
+    -18.6875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.029106,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794495795
+  },
+  "Skang": {
+   "pos": [
+    -4.09375,
+    36.46875,
+    -89.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794496026
+  },
+  "Piscium Sector SD-T b3-0": {
+   "pos": [
+    -8.78125,
+    -93.71875,
+    -18.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794496071
+  },
+  "Xuanebuth": {
+   "pos": [
+    114.59375,
+    -112.0625,
+    -21.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.308927,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794496136
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.268752,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794496183
+  },
+  "Ceti Sector KX-T b3-0": {
+   "pos": [
+    -2.25,
+    -104.3125,
+    -19.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.579739,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794496476
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794496503
+  },
+  "Eurus": {
+   "pos": [
+    26.09375,
+    -39.09375,
+    -45.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.08514,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794496679
   }
  }
 }

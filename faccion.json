@@ -3234,7 +3234,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 13
+    "2026-11-12": 18
    },
    "pn": {
     "J9W-B6T": {
@@ -7712,10 +7712,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794444251.4689744,
-  "msgs": 595649,
+  "msgs": 605631,
   "mios": 19
  },
- "t": 1794444684.6229975,
+ "t": 1794445715.2134745,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -10564,7 +10564,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794433593
+   "t": 1794444960
   },
   "Hyades Sector QO-P b6-6": {
    "pos": [
@@ -10632,6 +10632,54 @@
     "Jerome Archer"
    ],
    "t": 1794444187
+  },
+  "Hyades Sector OT-P b6-1": {
+   "pos": [
+    16.4375,
+    32.9375,
+    -139.6875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.229101,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794444893
+  },
+  "LTT 1652": {
+   "pos": [
+    14.75,
+    -54.65625,
+    -44.59375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.125,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794445129
+  },
+  "Hyades Sector QU-N b7-1": {
+   "pos": [
+    -45.5625,
+    -1.875,
+    -105.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794445428
   }
  }
 }

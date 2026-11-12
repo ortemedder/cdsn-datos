@@ -3259,7 +3259,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 59
+    "2026-11-12": 64
    },
    "pn": {
     "J9W-B6T": {
@@ -7737,10 +7737,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794453508.008523,
-  "msgs": 708033,
+  "msgs": 719136,
   "mios": 21
  },
- "t": 1794453820.8394995,
+ "t": 1794454791.8408895,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8740,7 +8740,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794452464
+   "t": 1794454039
   },
   "Lei Jen Zu": {
    "pos": [
@@ -8782,7 +8782,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.046774,
+   "prog": 0.046346,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -8790,7 +8790,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794449083
+   "t": 1794454245
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -9069,7 +9069,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794443051
+   "t": 1794453463
   },
   "LTT 882": {
    "pos": [
@@ -10756,7 +10756,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794446650
+   "t": 1794454445
   },
   "Onileut": {
    "pos": [
@@ -10821,7 +10821,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794453206
+   "t": 1794453895
   },
   "Yukpenon": {
    "pos": [
@@ -10938,6 +10938,37 @@
     "Jerome Archer"
    ],
    "t": 1794453812
+  },
+  "Trianguli Sector UF-N a7-2": {
+   "pos": [
+    29.46875,
+    -29.71875,
+    -49.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.095426,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794453996
+  },
+  "Baraluhet": {
+   "pos": [
+    -29.40625,
+    -19.71875,
+    -119.125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.094043,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794454789
   }
  }
 }

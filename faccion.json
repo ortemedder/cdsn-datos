@@ -3259,7 +3259,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 75
+    "2026-11-12": 78
    },
    "pn": {
     "J9W-B6T": {
@@ -7741,10 +7741,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794453508.008523,
-  "msgs": 748330,
+  "msgs": 757261,
   "mios": 21
  },
- "t": 1794457473.697255,
+ "t": 1794458204.3416505,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8260,7 +8260,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794450519
+   "t": 1794458000
   },
   "LHS 1734": {
    "pos": [
@@ -8277,7 +8277,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794453882
+   "t": 1794458200
   },
   "Tascheter Sector XE-Q a5-2": {
    "pos": [
@@ -8360,7 +8360,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794418365
+   "t": 1794457563
   },
   "Hyades Sector QO-P b6-5": {
    "pos": [
@@ -8744,7 +8744,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794454039
+   "t": 1794458151
   },
   "Lei Jen Zu": {
    "pos": [
@@ -9370,7 +9370,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794428145
+   "t": 1794457620
   },
   "Bondranses": {
    "pos": [
@@ -11072,6 +11072,20 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794457464
+  },
+  "ICZ CF-Z b2": {
+   "pos": [
+    128.125,
+    -110.59375,
+    -10.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794458048
   }
  }
 }

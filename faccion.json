@@ -3233,7 +3233,8 @@
    "trafico": {
     "2026-11-09": 161,
     "2026-11-10": 207,
-    "2026-11-11": 164
+    "2026-11-11": 165,
+    "2026-11-12": 3
    },
    "pn": {
     "J9W-B6T": {
@@ -7586,10 +7587,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794439566.4081967,
-  "msgs": 544491,
+  "msgs": 558485,
   "mios": 17
  },
- "t": 1794440971.5887613,
+ "t": 1794442092.148521,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -9460,7 +9461,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794379592
+   "t": 1794441653
   },
   "Chimechilo": {
    "pos": [
@@ -10257,6 +10258,37 @@
     "Jerome Archer"
    ],
    "t": 1794440064
+  },
+  "Hyades Sector OO-P b6-5": {
+   "pos": [
+    -5.46875,
+    11.40625,
+    -136.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.287378,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794441308
+  },
+  "Selniang": {
+   "pos": [
+    14.9375,
+    -8.03125,
+    -90.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794442033
   }
  }
 }

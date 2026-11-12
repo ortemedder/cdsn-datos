@@ -3259,9 +3259,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794439566,
+   "t": 1794523635,
    "src": "EDDN",
-   "inf": 85.41,
+   "inf": 86.81,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -3272,12 +3272,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 12.99,
+   "segunda_inf": 11.79,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 85.41,
+     "inf": 86.81,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -3290,7 +3290,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 12.99,
+     "inf": 11.79,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -3299,7 +3299,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 1.6,
+     "inf": 1.4,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [
@@ -3316,9 +3316,9 @@
     280.59375
    ],
    "sis": {
-    "pob": 40193477,
+    "pob": 43086127,
     "eco": "$economy_Refinery;",
-    "eco2": "$economy_Industrial;",
+    "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
@@ -3335,7 +3335,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 86
+    "2026-11-12": 87
    },
    "pn": {
     "J9W-B6T": {
@@ -3344,7 +3344,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794439728
+     "t": 1794523688
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3360,11 +3360,30 @@
     }
    },
    "tk": {
-    "firma": "608a54eb",
-    "igual": 1794439566
+    "firma": "f6105394",
+    "igual": 1794523635,
+    "ult": 1794523635,
+    "desde": 1794439566,
+    "est": null
    },
-   "prev": 90.02,
-   "prev_t": 1794353391
+   "prev": 85.41,
+   "prev_t": 1794439566,
+   "hinf": [
+    [
+     1794353391,
+     90.02
+    ],
+    [
+     1794439566,
+     85.41
+    ],
+    [
+     1794523635,
+     86.81
+    ]
+   ],
+   "tick_ult": 1794523635,
+   "tick_marg": 700
   },
   "Hyades Sector JX-T c3-19": {
    "sys": "Hyades Sector JX-T c3-19",
@@ -3978,7 +3997,7 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1794522400,
+   "t": 1794523963,
    "src": "EDDN",
    "inf": 12.93,
    "ctrl": false,
@@ -4059,11 +4078,11 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 2
+    "2026-11-12": 3
    },
    "tk": {
     "firma": "cf749aa5",
-    "igual": 1794522400
+    "igual": 1794523963
    },
    "prev": null,
    "prev_t": null,
@@ -9417,11 +9436,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794523649.8819861,
-  "msgs": 574349,
-  "mios": 25
+  "ultimo": 1794524638.8938296,
+  "msgs": 588235,
+  "mios": 27
  },
- "t": 1794523745.340228,
+ "t": 1794524836.349629,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9499,7 +9518,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.404692,
+   "prog": 0.404749,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -9507,7 +9526,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794513863
+   "t": 1794524134
   },
   "Hyades Sector XV-L b8-6": {
    "pos": [
@@ -9622,7 +9641,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794495755
+   "t": 1794524586
   },
   "LHS 1734": {
    "pos": [
@@ -9639,7 +9658,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794514898
+   "t": 1794523973
   },
   "Ross 592": {
    "pos": [
@@ -11001,7 +11020,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.271615,
+   "prog": 0.271647,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -11009,7 +11028,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794517079
+   "t": 1794524252
   },
   "Moram": {
    "pos": [
@@ -11317,7 +11336,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794514251
+   "t": 1794524211
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -11821,7 +11840,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794522400
+   "t": 1794523963
   },
   "Apam Napat": {
    "pos": [
@@ -11988,7 +12007,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794523359
+   "t": 1794524425
   },
   "Siren": {
    "pos": [
@@ -12038,7 +12057,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794523014
+   "t": 1794524379
   },
   "Hidatsa": {
    "pos": [
@@ -12070,6 +12089,73 @@
     "Li Yong-Rui"
    ],
    "t": 1794523188
+  },
+  "Clionenses": {
+   "pos": [
+    -31.1875,
+    35.125,
+    -149.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794523999
+  },
+  "Loki Tan": {
+   "pos": [
+    32.375,
+    28.34375,
+    -109.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.170283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794524195
+  },
+  "Tascheter Sector CL-Y d104": {
+   "pos": [
+    -21.65625,
+    12.5625,
+    -68.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794524614
+  },
+  "Tascheter Sector ZZ-Y b3": {
+   "pos": [
+    7.03125,
+    0.1875,
+    -100.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794524560
   }
  }
 }

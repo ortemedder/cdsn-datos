@@ -5038,7 +5038,7 @@
   },
   "Ngargambo": {
    "sys": "Ngargambo",
-   "t": 1794442870,
+   "t": 1794465983,
    "src": "EDDN",
    "inf": 4.9,
    "ctrl": false,
@@ -5139,40 +5139,40 @@
    },
    "trafico": {
     "2026-11-09": 5,
-    "2026-11-12": 2
+    "2026-11-12": 3
    },
    "pn": {
     "G7Y-G4L": {
      "n": "FLEET CARRIER",
-     "t": 1794442881
+     "t": 1794466055
     },
     "X8B-9QJ": {
      "n": "ASKEPOTS HIDEOUT",
-     "t": 1794442881
+     "t": 1794466055
     },
     "QHQ-LQF": {
      "n": "MINESTAR SERVICES",
-     "t": 1794442881
+     "t": 1794466055
     },
     "X3Q-LXN": {
      "n": "NICE",
-     "t": 1794442881
+     "t": 1794466055
     },
     "K6W-38V": {
      "n": "MS GERMANY",
-     "t": 1794442881
+     "t": 1794466055
     },
     "J1G-G5N": {
      "n": "SCOTTISH TSUNAMI",
-     "t": 1794442881
+     "t": 1794466055
     }
    },
-   "prev": null,
-   "prev_t": null,
    "tk": {
     "firma": "f51e9934",
-    "igual": 1794442870
-   }
+    "igual": 1794465983
+   },
+   "prev": null,
+   "prev_t": null
   },
   "Lyncis Sector XJ-R b4-0": {
    "sys": "Lyncis Sector XJ-R b4-0",
@@ -7736,15 +7736,117 @@
    "trafico": {
     "2026-11-12": 2
    }
+  },
+  "Tastis": {
+   "sys": "Tastis",
+   "t": 1794465933,
+   "src": "EDDN",
+   "inf": 5.81,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flotta Stellare",
+   "segunda_inf": 70.57,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flotta Stellare",
+     "inf": 70.57,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Tastis Company",
+     "inf": 13.31,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Tastis Shared",
+     "inf": 9.31,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.81,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mafia of Tastis",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Flotta Stellare",
+   "pos": [
+    -4.6875,
+    30.375,
+    -95.96875
+   ],
+   "sis": {
+    "pob": 44656,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Aisling Duval",
+    "est": "Exploited",
+    "prog": 0.303052,
+    "ref": 877,
+    "soc": 1608,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "tk": {
+    "firma": "30ad79e9",
+    "igual": 1794465933
+   },
+   "trafico": {
+    "2026-11-12": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794453508.008523,
-  "msgs": 781896,
-  "mios": 21
+  "ultimo": 1794465984.743634,
+  "msgs": 828290,
+  "mios": 23
  },
- "t": 1794460935.5853024,
+ "t": 1794466387.5771022,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8148,7 +8250,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794455397
+   "t": 1794466377
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -9418,7 +9520,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794428745
+   "t": 1794461358
   },
   "Bestakas": {
    "pos": [
@@ -9875,7 +9977,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794435151
+   "t": 1794461302
   },
   "Girya Gu": {
    "pos": [
@@ -10476,7 +10578,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794442870
+   "t": 1794465983
   },
   "LHS 1651": {
    "pos": [
@@ -10675,7 +10777,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794454902
+   "t": 1794465258
   },
   "LTT 1652": {
    "pos": [
@@ -11119,6 +11221,167 @@
     "Jerome Archer"
    ],
    "t": 1794460233
+  },
+  "Ditia": {
+   "pos": [
+    32.46875,
+    -39.59375,
+    -36.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.257006,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794462226
+  },
+  "Cama Zotz": {
+   "pos": [
+    42.71875,
+    -47.125,
+    -45.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.25392,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794462791
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.120269,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794464312
+  },
+  "Tascheter Sector ZZ-P a5-3": {
+   "pos": [
+    16,
+    -39.71875,
+    -49.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.054283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794464377
+  },
+  "Lyncis Sector PX-U b2-3": {
+   "pos": [
+    -26,
+    24.25,
+    -146.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794464477
+  },
+  "Dzacara": {
+   "pos": [
+    116.3125,
+    -137.21875,
+    -21.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794465577
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794465828
+  },
+  "Tascheter Sector BL-O a6-3": {
+   "pos": [
+    22.75,
+    -31.5,
+    -38.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.124569,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794465856
+  },
+  "Tastis": {
+   "pos": [
+    -4.6875,
+    30.375,
+    -95.96875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.303052,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794465933
+  },
+  "Bingongina": {
+   "pos": [
+    19.90625,
+    5.4375,
+    -134.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.087057,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794466187
   }
  }
 }

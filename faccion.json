@@ -3239,7 +3239,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 36
+    "2026-11-12": 40
    },
    "pn": {
     "J9W-B6T": {
@@ -7717,10 +7717,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794449222.1917949,
-  "msgs": 652677,
+  "msgs": 662945,
   "mios": 20
  },
- "t": 1794449327.5337172,
+ "t": 1794450167.8921313,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8124,7 +8124,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794444446
+   "t": 1794449376
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -10784,6 +10784,24 @@
     "Zemina Torval"
    ],
    "t": 1794449242
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.267828,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794449577
   }
  }
 }

@@ -314,7 +314,7 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 2
+    "2026-11-12": 3
    },
    "prev": 58.28,
    "prev_t": 1794335731,
@@ -8720,11 +8720,11 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794506847.8731537,
-  "msgs": 256697,
+  "msgs": 272241,
   "mios": 9
  },
- "t": 1794507701.9559417,
- "tick_global": 1794413384,
+ "t": 1794508542.4888306,
+ "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
    "pos": [
@@ -8741,7 +8741,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794507465
+   "t": 1794507973
   },
   "Gliese 3299": {
    "pos": [
@@ -8941,7 +8941,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794491511
+   "t": 1794508243
   },
   "Ross 592": {
    "pos": [
@@ -10129,7 +10129,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794507001
+   "t": 1794508507
   },
   "Lyncis Sector WO-R b4-3": {
    "pos": [
@@ -10163,6 +10163,35 @@
     "Zemina Torval"
    ],
    "t": 1794507554
+  },
+  "Lougen": {
+   "pos": [
+    137.53125,
+    -20.875,
+    5.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.189141,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794507805
+  },
+  "Ceti Sector EG-X b1-2": {
+   "pos": [
+    -3.5625,
+    -105.3125,
+    -56.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794508282
   }
  }
 }

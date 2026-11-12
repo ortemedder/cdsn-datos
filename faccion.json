@@ -3234,7 +3234,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 18
+    "2026-11-12": 22
    },
    "pn": {
     "J9W-B6T": {
@@ -7712,10 +7712,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794444251.4689744,
-  "msgs": 605631,
+  "msgs": 616424,
   "mios": 19
  },
- "t": 1794445715.2134745,
+ "t": 1794446655.8961668,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7802,7 +7802,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794443948
+   "t": 1794445788
   },
   "Tascheter Sector CL-Y d135": {
    "pos": [
@@ -9776,14 +9776,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.336889,
+   "prog": 0.337548,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794440095
+   "t": 1794446006
   },
   "Scottii": {
    "pos": [
@@ -10613,7 +10613,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794444320
+   "t": 1794446092
   },
   "Khaima": {
    "pos": [
@@ -10646,7 +10646,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794444893
+   "t": 1794446082
   },
   "LTT 1652": {
    "pos": [
@@ -10680,6 +10680,58 @@
     "Jerome Archer"
    ],
    "t": 1794445428
+  },
+  "Hyades Sector SZ-N b7-4": {
+   "pos": [
+    28.75,
+    26.21875,
+    -124.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.04114,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794445976
+  },
+  "Trianguli Sector ZL-L a8-0": {
+   "pos": [
+    36.09375,
+    -32.1875,
+    -43.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794446591
+  },
+  "Trianguli Sector QZ-O a6-0": {
+   "pos": [
+    27.8125,
+    -32.84375,
+    -62.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.031426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794446650
   }
  }
 }

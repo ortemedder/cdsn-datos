@@ -1637,7 +1637,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794404846,
+   "t": 1794449221,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -1723,10 +1723,15 @@
    "trafico": {
     "2026-11-09": 1,
     "2026-11-10": 2,
-    "2026-11-11": 2
+    "2026-11-11": 2,
+    "2026-11-12": 1
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "tk": {
+    "firma": "099a7a1a",
+    "igual": 1794449221
+   }
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -3234,7 +3239,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 31
+    "2026-11-12": 36
    },
    "pn": {
     "J9W-B6T": {
@@ -7711,11 +7716,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794444251.4689744,
-  "msgs": 640211,
-  "mios": 19
+  "ultimo": 1794449222.1917949,
+  "msgs": 652677,
+  "mios": 20
  },
- "t": 1794448436.8637598,
+ "t": 1794449327.5337172,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7784,7 +7789,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794413564
+   "t": 1794448965
   },
   "Dongkum": {
    "pos": [
@@ -8757,7 +8762,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.08344,
+   "prog": 0.046774,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -8765,7 +8770,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794448201
+   "t": 1794449083
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -9596,13 +9601,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.261286,
+   "prog": 0.261344,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794438598
+   "t": 1794448718
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -10748,6 +10753,37 @@
     "Zemina Torval"
    ],
    "t": 1794447842
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794449221
+  },
+  "Col 285 Sector XJ-R a34-4": {
+   "pos": [
+    150.3125,
+    -26.3125,
+    16.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794449242
   }
  }
 }

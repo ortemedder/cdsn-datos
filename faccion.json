@@ -314,7 +314,7 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 3
+    "2026-11-12": 5
    },
    "prev": 58.28,
    "prev_t": 1794335731,
@@ -8720,10 +8720,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794509365.4646583,
-  "msgs": 287749,
+  "msgs": 319352,
   "mios": 10
  },
- "t": 1794509372.892194,
+ "t": 1794511184.6179612,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -8734,14 +8734,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.249168,
+   "prog": 0.249171,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794509342
+   "t": 1794511083
   },
   "Gliese 3299": {
    "pos": [
@@ -9329,7 +9329,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794493578
+   "t": 1794510492
   },
   "Leuctra": {
    "pos": [
@@ -9621,13 +9621,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.1438,
+   "prog": 0.143839,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794498790
+   "t": 1794509739
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -9778,13 +9778,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.757502,
+   "prog": 0.752071,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794500809
+   "t": 1794511108
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -10017,7 +10017,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794504439
+   "t": 1794510247
   },
   "Trianguli Sector ZL-L a8-2": {
    "pos": [
@@ -10129,7 +10129,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794508507
+   "t": 1794509657
   },
   "Lyncis Sector WO-R b4-3": {
    "pos": [
@@ -10201,7 +10201,7 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.148,
+   "prog": 0.148738,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -10209,7 +10209,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794508681
+   "t": 1794510964
   },
   "Labe": {
    "pos": [
@@ -10228,6 +10228,149 @@
     "Jerome Archer"
    ],
    "t": 1794504004
+  },
+  "Nergal": {
+   "pos": [
+    -53.3125,
+    -22.59375,
+    -89.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794509867
+  },
+  "Tascheter Sector FR-M a7-0": {
+   "pos": [
+    17.625,
+    -34.84375,
+    -33.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794510011
+  },
+  "Tascheter Sector AV-Y b7": {
+   "pos": [
+    -22.4375,
+    -21.53125,
+    -87.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794510388
+  },
+  "LP 302-22": {
+   "pos": [
+    -18.875,
+    -17.0625,
+    -79.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.248569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794510754
+  },
+  "Dongkum": {
+   "pos": [
+    -17.875,
+    -11.75,
+    -90.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.271583,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794510805
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.198855,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794511020
+  },
+  "Ceti Sector KX-T b3-3": {
+   "pos": [
+    6.71875,
+    -99,
+    -23.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794511055
+  },
+  "ICZ GL-X b1-1": {
+   "pos": [
+    121.25,
+    -122.5,
+    -0.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794511080
+  },
+  "ICZ EL-Y d89": {
+   "pos": [
+    109.03125,
+    -131,
+    -24.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794511181
   }
  }
 }

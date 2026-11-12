@@ -3335,7 +3335,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 87
+    "2026-11-12": 88
    },
    "pn": {
     "J9W-B6T": {
@@ -3997,7 +3997,7 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1794523963,
+   "t": 1794525005,
    "src": "EDDN",
    "inf": 12.93,
    "ctrl": false,
@@ -4078,11 +4078,11 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 3
+    "2026-11-12": 4
    },
    "tk": {
     "firma": "cf749aa5",
-    "igual": 1794523963
+    "igual": 1794525005
    },
    "prev": null,
    "prev_t": null,
@@ -9436,11 +9436,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794524638.8938296,
-  "msgs": 588235,
-  "mios": 27
+  "ultimo": 1794525371.9775152,
+  "msgs": 593639,
+  "mios": 28
  },
- "t": 1794524836.349629,
+ "t": 1794525656.7606778,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -10944,7 +10944,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794521733
+   "t": 1794525648
   },
   "Nergal": {
    "pos": [
@@ -11840,7 +11840,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794523963
+   "t": 1794525005
   },
   "Apam Napat": {
    "pos": [
@@ -12156,6 +12156,39 @@
     "Zemina Torval"
    ],
    "t": 1794524560
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251148,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794524872
+  },
+  "Tascheter Sector DG-O a6-2": {
+   "pos": [
+    23.8125,
+    -41.03125,
+    -39.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.139998,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794524877
   }
  }
 }

@@ -1956,7 +1956,7 @@
   },
   "LP 158-2": {
    "sys": "LP 158-2",
-   "t": 1794177357,
+   "t": 1794453506,
    "src": "EDDN",
    "inf": 10.1,
    "ctrl": false,
@@ -1969,8 +1969,6 @@
    "segunda": "Social LP 158-2 Resistance",
    "segunda_inf": 29.6,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Social LP 158-2 Resistance",
@@ -1979,7 +1977,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Gliese 3299 Future",
@@ -1988,7 +1986,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "League of LP 158-2 Order",
@@ -1997,7 +1995,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "CHIMERA",
@@ -2006,7 +2004,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -2017,7 +2015,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "LP 158-2 Exchange",
@@ -2026,7 +2024,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "New LP 158-2 Constitution Party",
@@ -2035,7 +2033,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Social LP 158-2 Resistance",
@@ -2046,11 +2044,33 @@
    ],
    "sis": {
     "pob": 9120561,
-    "eco": "Industrial",
-    "eco2": "Refinery",
-    "seg": "High",
-    "gov": "Democracy",
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
     "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-12": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "tk": {
+    "firma": "fe629787",
+    "igual": 1794453506
    }
   },
   "LP 254-40": {
@@ -3239,7 +3259,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 55
+    "2026-11-12": 59
    },
    "pn": {
     "J9W-B6T": {
@@ -7716,11 +7736,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794449222.1917949,
-  "msgs": 697695,
-  "mios": 20
+  "ultimo": 1794453508.008523,
+  "msgs": 708033,
+  "mios": 21
  },
- "t": 1794452980.0356348,
+ "t": 1794453820.8394995,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7789,7 +7809,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794448965
+   "t": 1794453558
   },
   "Dongkum": {
    "pos": [
@@ -8253,7 +8273,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794440288
+   "t": 1794453882
   },
   "Tascheter Sector XE-Q a5-2": {
    "pos": [
@@ -8736,7 +8756,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794447395
+   "t": 1794453631
   },
   "LTT 12089": {
    "pos": [
@@ -10801,7 +10821,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794452458
+   "t": 1794453206
   },
   "Yukpenon": {
    "pos": [
@@ -10868,6 +10888,56 @@
     "Jerome Archer"
    ],
    "t": 1794452405
+  },
+  "Hyades Sector UP-N b7-1": {
+   "pos": [
+    -5.25,
+    -9.8125,
+    -122.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794453393
+  },
+  "LP 158-2": {
+   "pos": [
+    -39,
+    8.375,
+    -101.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794453506
+  },
+  "Madngeri": {
+   "pos": [
+    -36.71875,
+    10.9375,
+    -93.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.262118,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794453812
   }
  }
 }

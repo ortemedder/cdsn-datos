@@ -314,7 +314,7 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 13
+    "2026-11-12": 14
    },
    "tk": {
     "firma": "2fc52895",
@@ -4155,7 +4155,7 @@
   },
   "Eurus": {
    "sys": "Eurus",
-   "t": 1794509364,
+   "t": 1794516169,
    "src": "EDDN",
    "inf": 50.9,
    "ctrl": true,
@@ -4240,11 +4240,11 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 4
+    "2026-11-12": 7
    },
    "tk": {
     "firma": "88c5fc4c",
-    "igual": 1794509364
+    "igual": 1794516169
    },
    "prev": 51.1,
    "prev_t": 1794196869,
@@ -9175,15 +9175,98 @@
     "firma": "73a84f09",
     "igual": 1794514529
    }
+  },
+  "Col 285 Sector KE-E b13-0": {
+   "sys": "Col 285 Sector KE-E b13-0",
+   "t": 1794515601,
+   "src": "EDDN",
+   "inf": 10.2,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Canonn",
+   "segunda_inf": 73.94,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Canonn",
+     "inf": 73.94,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Sanctified Chapter of Backlumba",
+     "inf": 15.86,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.2,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Canonn",
+   "pos": [
+    -183.21875,
+    17.375,
+    -81.15625
+   ],
+   "sis": {
+    "pob": 415951,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Cooperative;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Pranav Antal"
+    ]
+   },
+   "hinf": [
+    [
+     1794515601,
+     10.2
+    ]
+   ],
+   "tk": {
+    "firma": "aba74737",
+    "igual": 1794515601
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794515311.4287965,
-  "msgs": 411743,
-  "mios": 18
+  "ultimo": 1794516174.5552213,
+  "msgs": 430570,
+  "mios": 20
  },
- "t": 1794515759.1128535,
+ "t": 1794516700.016219,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9201,7 +9284,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794515350
+   "t": 1794516384
   },
   "Gliese 3299": {
    "pos": [
@@ -9965,7 +10048,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794509364
+   "t": 1794516169
   },
   "Mandra": {
    "pos": [
@@ -10238,13 +10321,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.752071,
+   "prog": 0.747711,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794513066
+   "t": 1794515987
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -10410,7 +10493,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794514208
+   "t": 1794516623
   },
   "Ethli": {
    "pos": [
@@ -11156,6 +11239,70 @@
     "Jerome Archer"
    ],
    "t": 1794515747
+  },
+  "Evenks": {
+   "pos": [
+    -37.5,
+    19.65625,
+    -79.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.241712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794516110
+  },
+  "Hyades Sector IX-T c3-27": {
+   "pos": [
+    -45.78125,
+    0.59375,
+    -112.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794516195
+  },
+  "HIP 47625": {
+   "pos": [
+    138.46875,
+    -5.34375,
+    21.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794516290
+  },
+  "Bakara": {
+   "pos": [
+    109.5,
+    -111.4375,
+    -4.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200623,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794516691
   }
  }
 }

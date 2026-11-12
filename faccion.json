@@ -3239,7 +3239,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 40
+    "2026-11-12": 46
    },
    "pn": {
     "J9W-B6T": {
@@ -7717,10 +7717,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794449222.1917949,
-  "msgs": 662945,
+  "msgs": 675077,
   "mios": 20
  },
- "t": 1794450167.8921313,
+ "t": 1794451178.7898777,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8236,7 +8236,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794428514
+   "t": 1794450519
   },
   "LHS 1734": {
    "pos": [
@@ -8398,13 +8398,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.148853,
+   "prog": 0.147167,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794432266
+   "t": 1794450767
   },
   "Clarus": {
    "pos": [
@@ -8720,7 +8720,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794426930
+   "t": 1794451156
   },
   "Lei Jen Zu": {
    "pos": [
@@ -9363,7 +9363,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794428151
+   "t": 1794450242
   },
   "LEHPM 1902": {
    "pos": [
@@ -10801,7 +10801,40 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794449577
+   "t": 1794451070
+  },
+  "Yukpenon": {
+   "pos": [
+    10.40625,
+    4.0625,
+    -132.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794450694
+  },
+  "Arietis Sector CQ-Y d58": {
+   "pos": [
+    -36,
+    -10.8125,
+    -112.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.094283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794451009
   }
  }
 }

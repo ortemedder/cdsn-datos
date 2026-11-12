@@ -4133,7 +4133,7 @@
   },
   "BD+27 881": {
    "sys": "BD+27 881",
-   "t": 1794311069,
+   "t": 1794490279,
    "src": "EDDN",
    "inf": 5.69,
    "ctrl": false,
@@ -4243,10 +4243,15 @@
    },
    "trafico": {
     "2026-10-30": 1,
-    "2026-11-10": 3
+    "2026-11-10": 3,
+    "2026-11-12": 2
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "tk": {
+    "firma": "303ea129",
+    "igual": 1794490279
+   }
   },
   "Condharwal": {
    "sys": "Condharwal",
@@ -8173,9 +8178,28 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 571,
+  "msgs": 567,
   "mios": 0
  },
- "t": 1794490030.9659657,
- "tick_global": 1794413384
+ "t": 1794490573.07616,
+ "tick_global": 1794413384,
+ "zona": {
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.249196,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794490557
+  }
+ }
 }

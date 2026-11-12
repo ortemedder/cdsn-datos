@@ -3234,7 +3234,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 6
+    "2026-11-12": 9
    },
    "pn": {
     "J9W-B6T": {
@@ -5554,6 +5554,9 @@
      "Edmund Mahon",
      "Li Yong-Rui"
     ]
+   },
+   "trafico": {
+    "2026-11-12": 1
    }
   },
   "BD+47 1285": {
@@ -7592,10 +7595,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794442874.065105,
-  "msgs": 571117,
+  "msgs": 583548,
   "mios": 18
  },
- "t": 1794443052.818176,
+ "t": 1794443883.625088,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7883,7 +7886,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794440062
+   "t": 1794443129
   },
   "HR 2439": {
    "pos": [
@@ -7999,7 +8002,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794432680
+   "t": 1794443273
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -10196,7 +10199,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794439123
+   "t": 1794443876
   },
   "Tascheter Sector HR-M a7-0": {
    "pos": [
@@ -10361,6 +10364,57 @@
     "Zemina Torval"
    ],
    "t": 1794443025
+  },
+  "Furuhjelm II-431": {
+   "pos": [
+    -4.28125,
+    25.53125,
+    -75.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794438675
+  },
+  "Ross 71": {
+   "pos": [
+    -3.375,
+    16.15625,
+    -119.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794443312
+  },
+  "LP 157-32": {
+   "pos": [
+    -27.46875,
+    1.25,
+    -74.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794443784
   }
  }
 }

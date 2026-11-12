@@ -314,7 +314,7 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 5
+    "2026-11-12": 9
    },
    "prev": 58.28,
    "prev_t": 1794335731,
@@ -8720,10 +8720,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794509365.4646583,
-  "msgs": 319352,
+  "msgs": 336984,
   "mios": 10
  },
- "t": 1794511184.6179612,
+ "t": 1794512205.5314968,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -8741,7 +8741,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794511083
+   "t": 1794512198
   },
   "Gliese 3299": {
    "pos": [
@@ -9311,7 +9311,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794493515
+   "t": 1794511440
   },
   "Hajangai": {
    "pos": [
@@ -10017,7 +10017,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794510247
+   "t": 1794511620
   },
   "Trianguli Sector ZL-L a8-2": {
    "pos": [
@@ -10035,7 +10035,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794506580
+   "t": 1794511758
   },
   "LEHPM 1902": {
    "pos": [
@@ -10209,7 +10209,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794510964
+   "t": 1794511552
   },
   "Labe": {
    "pos": [
@@ -10259,7 +10259,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794510011
+   "t": 1794511536
   },
   "Tascheter Sector AV-Y b7": {
    "pos": [
@@ -10342,7 +10342,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794511055
+   "t": 1794512104
   },
   "ICZ GL-X b1-1": {
    "pos": [
@@ -10371,6 +10371,22 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794511181
+  },
+  "Edenses": {
+   "pos": [
+    14.46875,
+    -3.4375,
+    -104.375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.281689,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794511717
   }
  }
 }

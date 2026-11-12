@@ -3239,7 +3239,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 46
+    "2026-11-12": 50
    },
    "pn": {
     "J9W-B6T": {
@@ -7717,10 +7717,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794449222.1917949,
-  "msgs": 675077,
+  "msgs": 686690,
   "mios": 20
  },
- "t": 1794451178.7898777,
+ "t": 1794451969.4492567,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8124,7 +8124,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794449376
+   "t": 1794451579
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8720,7 +8720,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794451156
+   "t": 1794451967
   },
   "Lei Jen Zu": {
    "pos": [
@@ -9379,7 +9379,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794428460
+   "t": 1794388724
   },
   "Zac Chehoga": {
    "pos": [
@@ -10801,7 +10801,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794451070
+   "t": 1794451788
   },
   "Yukpenon": {
    "pos": [
@@ -10835,6 +10835,23 @@
     "Jerome Archer"
    ],
    "t": 1794451009
+  },
+  "Tascheter Sector CL-Y d133": {
+   "pos": [
+    -20.0625,
+    -18.15625,
+    -98.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794451336
   }
  }
 }

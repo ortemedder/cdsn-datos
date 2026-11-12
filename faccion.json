@@ -3088,7 +3088,7 @@
   },
   "Makum": {
    "sys": "Makum",
-   "t": 1794166032,
+   "t": 1794487559,
    "src": "EDDN",
    "inf": 3.69,
    "ctrl": false,
@@ -3111,7 +3111,7 @@
      "pend": [
       "Expansion"
      ],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Makum Group",
@@ -3120,7 +3120,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Makum Solutions",
@@ -3129,7 +3129,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Makum for Equality",
@@ -3138,7 +3138,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Makum Defence Force",
@@ -3147,7 +3147,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -3158,7 +3158,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Makum Silver Gang",
@@ -3167,7 +3167,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Flat Galaxy Society",
@@ -3178,11 +3178,32 @@
    ],
    "sis": {
     "pob": 928709742,
-    "eco": "Agriculture",
-    "eco2": "Tourism",
-    "seg": "Medium",
-    "gov": "Democracy",
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
     "alg": "Alliance"
+   },
+   "pp": {
+    "pot": "Edmund Mahon",
+    "est": "Exploited",
+    "prog": 0.245712,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Felicia Winters",
+     "Li Yong-Rui"
+    ]
+   },
+   "trafico": {
+    "2026-11-12": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "tk": {
+    "firma": "7cb7ffbf",
+    "igual": 1794487559
    }
   },
   "Swoilz HE-D c1-13": {
@@ -8150,11 +8171,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794484348.5441573,
-  "msgs": 888608,
-  "mios": 27
+  "ultimo": 1794487561.7063525,
+  "msgs": 922085,
+  "mios": 28
  },
- "t": 1794484484.597765,
+ "t": 1794488026.620311,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8223,7 +8244,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794478908
+   "t": 1794485100
   },
   "Dongkum": {
    "pos": [
@@ -8233,7 +8254,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.276629,
+   "prog": 0.271217,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -8241,7 +8262,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794445788
+   "t": 1794487097
   },
   "Tascheter Sector CL-Y d135": {
    "pos": [
@@ -8550,14 +8571,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.249167,
+   "prog": 0.249185,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794484005
+   "t": 1794488020
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8664,12 +8685,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.254335,
+   "prog": 0.253511,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794458000
+   "t": 1794485359
   },
   "LHS 1734": {
    "pos": [
@@ -8679,14 +8700,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.177592,
+   "prog": 0.177712,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794458200
+   "t": 1794485356
   },
   "Tascheter Sector XE-Q a5-2": {
    "pos": [
@@ -9002,12 +9023,12 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.256546,
+   "prog": 0.256024,
    "pots": [
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794420258
+   "t": 1794487607
   },
   "Wolf 1324": {
    "pos": [
@@ -9332,7 +9353,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794427346
+   "t": 1794484798
   },
   "Tascheter Sector AA-Z b0": {
    "pos": [
@@ -9539,12 +9560,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.280641,
+   "prog": 0.278547,
    "pots": [
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794425750
+   "t": 1794487730
   },
   "Hyades Sector WF-M b8-2": {
    "pos": [
@@ -9805,13 +9826,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.260738,
+   "prog": 0.260752,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794479631
+   "t": 1794485080
   },
   "Zac Chehoga": {
    "pos": [
@@ -10196,14 +10217,14 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.268244,
+   "prog": 0.264567,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794431809
+   "t": 1794485268
   },
   "Apam Napat": {
    "pos": [
@@ -10911,13 +10932,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.315534,
+   "prog": 0.304471,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794443025
+   "t": 1794485894
   },
   "Furuhjelm II-431": {
    "pos": [
@@ -11083,7 +11104,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794480465
+   "t": 1794487626
   },
   "LTT 1652": {
    "pos": [
@@ -11233,7 +11254,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794484515
+   "t": 1794485241
   },
   "Yukpenon": {
    "pos": [
@@ -11856,6 +11877,121 @@
     "Jerome Archer"
    ],
    "t": 1794484347
+  },
+  "Col 285 Sector YZ-U b17-8": {
+   "pos": [
+    152.375,
+    -14.84375,
+    25.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794484962
+  },
+  "Col 285 Sector VJ-R a34-1": {
+   "pos": [
+    128.9375,
+    -29.96875,
+    19.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794484985
+  },
+  "Tascheter Sector FR-M a7-0": {
+   "pos": [
+    17.625,
+    -34.84375,
+    -33.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794487938
+  },
+  "GCRV 2311": {
+   "pos": [
+    -37.375,
+    -16.75,
+    -97.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.272786,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794485834
+  },
+  "Ross 592": {
+   "pos": [
+    -20.5,
+    -11.53125,
+    -68.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794486354
+  },
+  "Makum": {
+   "pos": [
+    18.4375,
+    33,
+    -121.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.245712,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794487559
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.236569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794487573
   }
  }
 }

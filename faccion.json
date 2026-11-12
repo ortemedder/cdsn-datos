@@ -3997,7 +3997,7 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1794526350,
+   "t": 1794527295,
    "src": "EDDN",
    "inf": 12.93,
    "ctrl": false,
@@ -4078,11 +4078,11 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 5
+    "2026-11-12": 6
    },
    "tk": {
     "firma": "cf749aa5",
-    "igual": 1794526350
+    "igual": 1794527295
    },
    "prev": null,
    "prev_t": null,
@@ -9432,15 +9432,108 @@
     "firma": "d26c1430",
     "igual": 1794523080
    }
+  },
+  "Ac Yanyamam": {
+   "sys": "Ac Yanyamam",
+   "t": 1794526690,
+   "src": "EDDN",
+   "inf": 11.12,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "CHIMERA",
+   "segunda_inf": 47.09,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "CHIMERA",
+     "inf": 47.09,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Nagii Union",
+     "inf": 27.76,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Ac Yanyamam Dynasty",
+     "inf": 14.03,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 11.12,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "CHIMERA",
+   "pos": [
+    -21.4375,
+    27.84375,
+    -127.875
+   ],
+   "sis": {
+    "pob": 34326,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Patronage;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794526690,
+     11.12
+    ]
+   ],
+   "tk": {
+    "firma": "2a8c3dbe",
+    "igual": 1794526690
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794526546.114465,
-  "msgs": 601292,
-  "mios": 29
+  "ultimo": 1794527532.8255575,
+  "msgs": 611254,
+  "mios": 31
  },
- "t": 1794526547.545088,
+ "t": 1794527538.4297454,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9558,7 +9651,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794515049
+   "t": 1794526755
   },
   "Jangore": {
    "pos": [
@@ -10046,7 +10139,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794521358
+   "t": 1794527303
   },
   "Leuctra": {
    "pos": [
@@ -10718,7 +10811,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794503471
+   "t": 1794527195
   },
   "Nogatas": {
    "pos": [
@@ -11552,7 +11645,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794526043
+   "t": 1794527306
   },
   "LHS 6103": {
    "pos": [
@@ -11840,7 +11933,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794526350
+   "t": 1794527295
   },
   "Apam Napat": {
    "pos": [
@@ -12057,7 +12150,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794525577
+   "t": 1794526650
   },
   "Hidatsa": {
    "pos": [
@@ -12221,7 +12314,88 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794526327
+   "t": 1794527269
+  },
+  "Ac Yanyamam": {
+   "pos": [
+    -21.4375,
+    27.84375,
+    -127.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794526690
+  },
+  "Tofana": {
+   "pos": [
+    -42.96875,
+    27,
+    -97.5
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.181,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794526863
+  },
+  "Sotuki": {
+   "pos": [
+    10.6875,
+    43.0625,
+    -81.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.252355,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794527096
+  },
+  "Wolf 225": {
+   "pos": [
+    -33,
+    -13.625,
+    -71.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.269641,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794527328
+  },
+  "Walpi": {
+   "pos": [
+    38.21875,
+    -26.90625,
+    -47.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.11314,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794527333
   }
  }
 }

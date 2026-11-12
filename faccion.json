@@ -3234,7 +3234,7 @@
     "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
-    "2026-11-12": 9
+    "2026-11-12": 13
    },
    "pn": {
     "J9W-B6T": {
@@ -7590,15 +7590,132 @@
     "firma": "bd3edb01",
     "igual": 1794264834
    }
+  },
+  "Satvaneka": {
+   "sys": "Satvaneka",
+   "t": 1794444248,
+   "src": "EDDN",
+   "inf": 7.2,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flat Galaxy Society",
+   "segunda_inf": 61.1,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flat Galaxy Society",
+     "inf": 61.1,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Satvaneka Vision Interstellar",
+     "inf": 11.2,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 7.2,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Satvaneka Liberals",
+     "inf": 7.0,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Satvaneka Incorporated",
+     "inf": 6.7,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Satvaneka Nationalists",
+     "inf": 4.9,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Satvaneka Gold Ring",
+     "inf": 1.9,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Flat Galaxy Society",
+   "pos": [
+    7.65625,
+    35.5,
+    -115.125
+   ],
+   "sis": {
+    "pob": 1422216057,
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Alliance"
+   },
+   "pp": {
+    "pot": "Edmund Mahon",
+    "est": "Exploited",
+    "prog": 0.255498,
+    "ref": 0,
+    "soc": 175,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "tk": {
+    "firma": "f7eb2d1a",
+    "igual": 1794444248
+   },
+   "trafico": {
+    "2026-11-12": 2
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794442874.065105,
-  "msgs": 583548,
-  "mios": 18
+  "ultimo": 1794444251.4689744,
+  "msgs": 595649,
+  "mios": 19
  },
- "t": 1794443883.625088,
+ "t": 1794444684.6229975,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -7677,7 +7794,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.276614,
+   "prog": 0.276629,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -7685,7 +7802,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794439773
+   "t": 1794443948
   },
   "Tascheter Sector CL-Y d135": {
    "pos": [
@@ -8002,7 +8119,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794443273
+   "t": 1794444446
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8548,7 +8665,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794421155
+   "t": 1794444082
   },
   "Tascheter Sector HR-M a7-1": {
    "pos": [
@@ -9924,7 +10041,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794434974
+   "t": 1794444594
   },
   "Yin Sector ZU-Y b4": {
    "pos": [
@@ -10415,6 +10532,106 @@
     "Jerome Archer"
    ],
    "t": 1794443784
+  },
+  "Taleo": {
+   "pos": [
+    -0.40625,
+    58.34375,
+    -100.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.127426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794444053
+  },
+  "LTT 751": {
+   "pos": [
+    6.375,
+    -95.625,
+    -10.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794433593
+  },
+  "Hyades Sector QO-P b6-6": {
+   "pos": [
+    21.9375,
+    7.3125,
+    -130.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794444097
+  },
+  "Satvaneka": {
+   "pos": [
+    7.65625,
+    35.5,
+    -115.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794444248
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155443,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794444320
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794444187
   }
  }
 }

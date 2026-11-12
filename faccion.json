@@ -2459,9 +2459,9 @@
   },
   "Hyades Sector SZ-N b7-0": {
    "sys": "Hyades Sector SZ-N b7-0",
-   "t": 1794415913,
+   "t": 1794483850,
    "src": "EDDN",
-   "inf": 5.0,
+   "inf": 4.7,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -2470,17 +2470,15 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 71.33,
+   "segunda_inf": 72.93,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 71.33,
+     "inf": 72.93,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Outbreak"
-     ],
+     "act": [],
      "pend": [
       "Expansion"
      ],
@@ -2488,7 +2486,7 @@
     },
     {
      "n": "Enigma Dyson Syndicate",
-     "inf": 14.39,
+     "inf": 13.59,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2499,7 +2497,7 @@
     },
     {
      "n": "Anti Xeno Initiative",
-     "inf": 9.29,
+     "inf": 8.79,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [
@@ -2510,7 +2508,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 5.0,
+     "inf": 4.7,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2527,7 +2525,7 @@
     -109.3125
    ],
    "sis": {
-    "pob": 1580717,
+    "pob": 1581492,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2537,7 +2535,7 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.216569,
+    "prog": 0.217141,
     "ref": 0,
     "soc": 0,
     "pots": [
@@ -2548,24 +2546,30 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-11": 3
+    "2026-11-11": 3,
+    "2026-11-12": 2
    },
    "pn": {
     "XHF-N1M": {
      "n": "HMAS KATOOMBA",
-     "t": 1794416039
+     "t": 1794483857
     },
     "XZV-67H": {
      "n": "[EDS] BIGMAMA [GOOFY]",
-     "t": 1794416039
+     "t": 1794483857
     }
    },
-   "prev": null,
-   "prev_t": null,
    "tk": {
-    "firma": "6fa7be13",
-    "igual": 1794415913
-   }
+    "firma": "31f3d6f1",
+    "igual": 1794483850,
+    "ult": 1794483850,
+    "desde": 1794415913,
+    "est": null
+   },
+   "prev": 5.0,
+   "prev_t": 1794415913,
+   "tick_ult": 1794483850,
+   "tick_marg": 566
   },
   "Jangore": {
    "sys": "Jangore",
@@ -7913,15 +7917,244 @@
     "firma": "35f67ffb",
     "igual": 1794481343
    }
+  },
+  "Windumu": {
+   "sys": "Windumu",
+   "t": 1794484205,
+   "src": "EDDN",
+   "inf": 3.65,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 46.0,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 46.0,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Nagii Union",
+     "inf": 12.56,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Ao Kuang Independent Bond",
+     "inf": 12.06,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Galileo Space Agency",
+     "inf": 11.96,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Social HIP 36037 Labour",
+     "inf": 8.61,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Windumu Gold Central Holdings",
+     "inf": 5.17,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 3.65,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -13.46875,
+    35,
+    -116.90625
+   ],
+   "sis": {
+    "pob": 40705,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "tk": {
+    "firma": "ae83ce8b",
+    "igual": 1794484205
+   },
+   "trafico": {
+    "2026-11-12": 1
+   }
+  },
+  "Prajau": {
+   "sys": "Prajau",
+   "t": 1794484347,
+   "src": "EDDN",
+   "inf": 49.61,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 21.18,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 49.61,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 21.18,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Prajau Galactic Incorporated",
+     "inf": 11.76,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Brotherhood of Prajau",
+     "inf": 8.92,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Traditional Prajau Nationalists",
+     "inf": 4.51,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Prajau Democrats",
+     "inf": 4.02,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -20.28125,
+    15.125,
+    -121.03125
+   ],
+   "sis": {
+    "pob": 8492475,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_high;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.185712,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "tk": {
+    "firma": "b2121cb5",
+    "igual": 1794484347
+   },
+   "trafico": {
+    "2026-11-12": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794481345.9159849,
-  "msgs": 860550,
-  "mios": 24
+  "ultimo": 1794484348.5441573,
+  "msgs": 888608,
+  "mios": 27
  },
- "t": 1794481801.2729232,
+ "t": 1794484484.597765,
  "zona": {
   "BD+47 1236": {
    "pos": [
@@ -8185,13 +8418,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.191952,
+   "prog": 0.191998,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794415288
+   "t": 1794482369
   },
   "Hajangai": {
    "pos": [
@@ -8219,14 +8452,14 @@
    ],
    "pot": "Aisling Duval",
    "est": "Exploited",
-   "prog": 0.255295,
+   "prog": 0.254975,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794415303
+   "t": 1794483755
   },
   "HIP 41777": {
    "pos": [
@@ -8317,15 +8550,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.249,
+   "prog": 0.249167,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
+    "Zemina Torval"
    ],
-   "t": 1794481200
+   "t": 1794484005
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -8368,13 +8600,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Exploited",
-   "prog": 0.216569,
+   "prog": 0.217141,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794415913
+   "t": 1794483850
   },
   "BD+39 876": {
    "pos": [
@@ -9133,7 +9365,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794481207
+   "t": 1794482669
   },
   "Woronii": {
    "pos": [
@@ -9428,7 +9660,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794427300
+   "t": 1794484237
   },
   "Hyades Sector VA-M b8-1": {
    "pos": [
@@ -9477,10 +9709,9 @@
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
+    "Pranav Antal"
    ],
-   "t": 1794427589
+   "t": 1794484352
   },
   "BD+33 801": {
    "pos": [
@@ -9595,7 +9826,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794461358
+   "t": 1794481878
   },
   "Bestakas": {
    "pos": [
@@ -11002,7 +11233,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794481798
+   "t": 1794484515
   },
   "Yukpenon": {
    "pos": [
@@ -11510,6 +11741,121 @@
     "Zemina Torval"
    ],
    "t": 1794481437
+  },
+  "Tegidana": {
+   "pos": [
+    -55.03125,
+    -5,
+    -85.75
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.142283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794482438
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.264404,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794482775
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.0926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794460534
+  },
+  "Ceti Sector EW-V b2-5": {
+   "pos": [
+    14.03125,
+    -83.625,
+    -25.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794483914
+  },
+  "Hyades Sector UA-M b8-4": {
+   "pos": [
+    -47,
+    1.65625,
+    -94.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.025712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794484145
+  },
+  "Windumu": {
+   "pos": [
+    -13.46875,
+    35,
+    -116.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794484205
+  },
+  "Prajau": {
+   "pos": [
+    -20.28125,
+    15.125,
+    -121.03125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.185712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794484347
   }
  }
 }

@@ -2992,7 +2992,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794601468,
+   "t": 1794601776,
    "src": "EDDN",
    "inf": 40.5,
    "ctrl": true,
@@ -3093,7 +3093,21 @@
    },
    "trafico": {
     "2026-11-10": 1,
-    "2026-11-13": 1
+    "2026-11-13": 2
+   },
+   "pn": {
+    "F3L-30Z": {
+     "n": "Atlas",
+     "t": 1794601776
+    },
+    "JZH-G9M": {
+     "n": "CDSN ADVANCED FC ORTEM",
+     "t": 1794601776
+    }
+   },
+   "tk": {
+    "firma": "1184b7c6",
+    "igual": 1794601776
    },
    "prev": 39.8,
    "prev_t": 1794270346,
@@ -3106,11 +3120,7 @@
      1794601468,
      40.5
     ]
-   ],
-   "tk": {
-    "firma": "1184b7c6",
-    "igual": 1794601468
-   }
+   ]
   },
   "Elivagar": {
    "sys": "Elivagar",
@@ -3425,7 +3435,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 5
+    "2026-11-13": 8
    },
    "pn": {
     "J9W-B6T": {
@@ -10192,11 +10202,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794601512.0685246,
-  "msgs": 135802,
-  "mios": 5
+  "ultimo": 1794601777.8329782,
+  "msgs": 152471,
+  "mios": 6
  },
- "t": 1794601515.352615,
+ "t": 1794602446.3164582,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10229,7 +10239,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794601460
+   "t": 1794602394
   },
   "HIP 46236": {
    "pos": [
@@ -10302,13 +10312,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.306409,
+   "prog": 0.309735,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794595323
+   "t": 1794602165
   },
   "Nergal": {
    "pos": [
@@ -10617,7 +10627,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794599135
+   "t": 1794602422
   },
   "Yaringu": {
    "pos": [
@@ -10893,7 +10903,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794601468
+   "t": 1794601776
   },
   "Tote": {
    "pos": [
@@ -10943,6 +10953,71 @@
     "Jerome Archer"
    ],
    "t": 1794601514
+  },
+  "Selniang": {
+   "pos": [
+    14.9375,
+    -8.03125,
+    -90.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794601563
+  },
+  "LFT 446": {
+   "pos": [
+    -18.125,
+    15.46875,
+    -68.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.099997,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794601636
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794336793
+  },
+  "Binar": {
+   "pos": [
+    124.15625,
+    -14.65625,
+    22.5
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.138995,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794602299
   }
  }
 }

@@ -9134,7 +9134,7 @@
   },
   "Hima": {
    "sys": "Hima",
-   "t": 1794514529,
+   "t": 1794536529,
    "src": "EDDN",
    "inf": 75.42,
    "ctrl": true,
@@ -9242,16 +9242,21 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-13": 1
+   },
+   "tk": {
+    "firma": "73a84f09",
+    "igual": 1794536529
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794514529,
      75.42
     ]
-   ],
-   "tk": {
-    "firma": "73a84f09",
-    "igual": 1794514529
-   }
+   ]
   },
   "Col 285 Sector KE-E b13-0": {
    "sys": "Col 285 Sector KE-E b13-0",
@@ -9643,11 +9648,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794532836.7519383,
-  "msgs": 677081,
-  "mios": 37
+  "ultimo": 1794536530.512022,
+  "msgs": 724334,
+  "mios": 38
  },
- "t": 1794532902.8769383,
+ "t": 1794536534.2476585,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9665,7 +9670,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794530742
+   "t": 1794535240
   },
   "Gliese 3299": {
    "pos": [
@@ -9765,7 +9770,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794526755
+   "t": 1794533528
   },
   "Jangore": {
    "pos": [
@@ -9810,13 +9815,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.299882,
+   "prog": 0.306129,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794528388
+   "t": 1794536082
   },
   "Ceti Sector FG-X b1-5": {
    "pos": [
@@ -10487,7 +10492,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794519645
+   "t": 1794535033
   },
   "LP 941-16": {
    "pos": [
@@ -10908,7 +10913,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794528838
+   "t": 1794535872
   },
   "NLTT 16389": {
    "pos": [
@@ -11603,7 +11608,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794514529
+   "t": 1794536529
   },
   "Turmati": {
    "pos": [
@@ -11613,13 +11618,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.282212,
+   "prog": 0.282475,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794515747
+   "t": 1794534842
   },
   "Evenks": {
    "pos": [
@@ -12458,7 +12463,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794531116
+   "t": 1794534233
   },
   "Sotuki": {
    "pos": [
@@ -12492,7 +12497,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794527328
+   "t": 1794535189
   },
   "Walpi": {
    "pos": [
@@ -12758,6 +12763,67 @@
     "Jerome Archer"
    ],
    "t": 1794532854
+  },
+  "Dewikum": {
+   "pos": [
+    19.375,
+    -0.28125,
+    -68.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794533224
+  },
+  "Feng Tanga": {
+   "pos": [
+    5.75,
+    -113.125,
+    -67.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.1354,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794535119
+  },
+  "Ceti Sector CL-X b1-4": {
+   "pos": [
+    11.90625,
+    -103.875,
+    -53.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794536164
+  },
+  "Harrigus": {
+   "pos": [
+    129.6875,
+    -15,
+    3.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794536212
   }
  }
 }

@@ -2673,7 +2673,7 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794608225,
+   "t": 1794609027,
    "src": "EDDN",
    "inf": 8.51,
    "ctrl": false,
@@ -2774,7 +2774,7 @@
    "trafico": {
     "2026-11-11": 6,
     "2026-11-12": 2,
-    "2026-11-13": 6
+    "2026-11-13": 7
    },
    "pn": {
     "K4J-GTX": {
@@ -2788,7 +2788,7 @@
    },
    "tk": {
     "firma": "1d78848f",
-    "igual": 1794608225,
+    "igual": 1794609027,
     "ult": 1794594608,
     "desde": 1794491228,
     "est": null
@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 27
+    "2026-11-13": 29
    },
    "pn": {
     "J9W-B6T": {
@@ -10408,11 +10408,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794608225.835019,
-  "msgs": 272333,
-  "mios": 13
+  "ultimo": 1794609028.6312606,
+  "msgs": 288092,
+  "mios": 16
  },
- "t": 1794608775.4857194,
+ "t": 1794609576.475368,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10445,7 +10445,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794608705
+   "t": 1794609232
   },
   "HIP 46236": {
    "pos": [
@@ -10492,7 +10492,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794608225
+   "t": 1794609027
   },
   "Ausan": {
    "pos": [
@@ -10865,7 +10865,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794608546
+   "t": 1794608853
   },
   "PLX 695": {
    "pos": [
@@ -11223,7 +11223,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794608246
+   "t": 1794609227
   },
   "Wakawal": {
    "pos": [
@@ -11404,7 +11404,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794603680
+   "t": 1794608917
   },
   "HIP 45096": {
    "pos": [
@@ -11437,7 +11437,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794608565
+   "t": 1794609179
   },
   "LTT 751": {
    "pos": [
@@ -11838,7 +11838,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794608202
+   "t": 1794609182
   },
   "BD+33 801": {
    "pos": [
@@ -12109,6 +12109,55 @@
     "Jerome Archer"
    ],
    "t": 1794608588
+  },
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.266387,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794609035
+  },
+  "HIP 17719": {
+   "pos": [
+    -46.46875,
+    -23.9375,
+    -108.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.154283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794609451
+  },
+  "Ceti Sector GR-V b2-4": {
+   "pos": [
+    10.53125,
+    -89.59375,
+    -26.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.260738,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794609562
   }
  }
 }

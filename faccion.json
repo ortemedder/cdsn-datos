@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 31
+    "2026-11-13": 33
    },
    "pn": {
     "J9W-B6T": {
@@ -10404,15 +10404,130 @@
    "trafico": {
     "2026-11-13": 2
    }
+  },
+  "Kalenile": {
+   "sys": "Kalenile",
+   "t": 1794610663,
+   "src": "EDDN",
+   "inf": 14.36,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 53.54,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 53.54,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Kalenile Alliance",
+     "inf": 18.25,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 14.36,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ross 411 Network",
+     "inf": 8.37,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Earls of Kalenile",
+     "inf": 4.49,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Kalenile Blue Organisation",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    4.0625,
+    11.40625,
+    -115.9375
+   ],
+   "sis": {
+    "pob": 31914,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.113712,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "hinf": [
+    [
+     1794610663,
+     14.36
+    ]
+   ],
+   "tk": {
+    "firma": "a3d9efce",
+    "igual": 1794610663
+   },
+   "trafico": {
+    "2026-11-13": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794609028.6312606,
-  "msgs": 302711,
-  "mios": 16
+  "ultimo": 1794610664.397922,
+  "msgs": 323106,
+  "mios": 17
  },
- "t": 1794610517.5327291,
+ "t": 1794611478.7293553,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10438,14 +10553,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.256192,
+   "prog": 0.265002,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794609232
+   "t": 1794611157
   },
   "HIP 46236": {
    "pos": [
@@ -10455,13 +10570,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.096253,
+   "prog": 0.098595,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794610316
+   "t": 1794611181
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10865,7 +10980,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794610511
+   "t": 1794610986
   },
   "PLX 695": {
    "pos": [
@@ -11126,7 +11241,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794601494
+   "t": 1794610644
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -11691,7 +11806,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794605516
+   "t": 1794611218
   },
   "Cemplatui": {
    "pos": [
@@ -11806,7 +11921,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794579655
+   "t": 1794611036
   },
   "Moram": {
    "pos": [
@@ -11941,7 +12056,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794579398
+   "t": 1794611408
   },
   "Mentor": {
    "pos": [
@@ -12126,7 +12241,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794604326
+   "t": 1794611313
   },
   "HIP 17719": {
    "pos": [
@@ -12191,6 +12306,85 @@
     "Zemina Torval"
    ],
    "t": 1794609915
+  },
+  "Kalenile": {
+   "pos": [
+    4.0625,
+    11.40625,
+    -115.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794610663
+  },
+  "BD-09 956": {
+   "pos": [
+    23.84375,
+    -34.65625,
+    -48.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794611048
+  },
+  "HIP 20606": {
+   "pos": [
+    126.75,
+    -122.53125,
+    -26.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.223998,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794611061
+  },
+  "Tascheter Sector ZZ-Y b4": {
+   "pos": [
+    12.28125,
+    4.40625,
+    -102.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794611162
+  },
+  "Piscium Sector SD-T b3-7": {
+   "pos": [
+    -9.1875,
+    -88.3125,
+    -13.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.251878,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794611471
   }
  }
 }

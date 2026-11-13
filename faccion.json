@@ -3280,43 +3280,43 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794523635,
-   "src": "EDDN",
-   "inf": 86.81,
+   "t": 1794583391,
+   "src": "EDSM",
+   "inf": 87.13,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
-    "CivilLiberty",
+    "Civil liberty",
     "Boom",
     "Expansion"
    ],
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 11.79,
+   "segunda_inf": 11.48,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 86.81,
+     "inf": 87.13,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
-      "CivilLiberty",
+      "Civil liberty",
       "Boom",
       "Expansion"
      ],
      "pend": [],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Natural Atese Front",
-     "inf": 11.79,
+     "inf": 11.48,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "Wolves of Jonai",
@@ -3327,7 +3327,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": null
+     "jug": true
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -3387,8 +3387,8 @@
     "desde": 1794439566,
     "est": null
    },
-   "prev": 85.41,
-   "prev_t": 1794439566,
+   "prev": 86.81,
+   "prev_t": 1794523635,
    "hinf": [
     [
      1794353391,
@@ -3401,6 +3401,10 @@
     [
      1794523635,
      86.81
+    ],
+    [
+     1794583391,
+     87.13
     ]
    ],
    "tick_ult": 1794523635,
@@ -4883,9 +4887,9 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794514539,
-   "src": "EDDN",
-   "inf": 58.36,
+   "t": 1794586083,
+   "src": "EDSM",
+   "inf": 58.56,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -4894,41 +4898,41 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 17.71,
+   "segunda_inf": 17.61,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 58.36,
+     "inf": 58.56,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 17.71,
+     "inf": 17.61,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
      "pend": [
       "Expansion"
      ],
-     "jug": null
+     "jug": true
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 13.06,
+     "inf": 12.96,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
      ],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Aristocrats of Lhou Wangs",
@@ -4937,7 +4941,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -4986,8 +4990,8 @@
     "desde": 1794421989,
     "est": null
    },
-   "prev": 60.34,
-   "prev_t": 1794421989,
+   "prev": 58.36,
+   "prev_t": 1794514539,
    "hinf": [
     [
      1794331119,
@@ -5000,6 +5004,10 @@
     [
      1794513155,
      58.36
+    ],
+    [
+     1794586083,
+     58.56
     ]
    ],
    "tick_ult": 1794513155,
@@ -10012,10 +10020,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 1121,
+  "msgs": 16536,
   "mios": 0
  },
- "t": 1794590979.305407,
+ "t": 1794591930.072681,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -10033,7 +10041,123 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794590951
+   "t": 1794591926
+  },
+  "BD+11 1163": {
+   "pos": [
+    36.28125,
+    -0.03125,
+    -98.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794591063
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251148,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794591098
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794591111
+  },
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.071884,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794591864
+  },
+  "Tascheter Sector CL-Y d135": {
+   "pos": [
+    -28.03125,
+    -11.15625,
+    -92.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794590896
+  },
+  "Tascheter Sector AV-Y b7": {
+   "pos": [
+    -22.4375,
+    -21.53125,
+    -87.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794591417
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794591475
   }
  }
 }

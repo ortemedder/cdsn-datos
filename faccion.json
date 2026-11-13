@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 35
+    "2026-11-13": 37
    },
    "pn": {
     "J9W-B6T": {
@@ -10646,10 +10646,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794611893.041404,
-  "msgs": 340513,
+  "msgs": 354175,
   "mios": 18
  },
- "t": 1794612269.6466532,
+ "t": 1794613270.623763,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10692,13 +10692,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.098595,
+   "prog": 0.103187,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794612036
+   "t": 1794612865
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10755,13 +10755,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.310137,
+   "prog": 0.310192,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794610268
+   "t": 1794612472
   },
   "Nergal": {
    "pos": [
@@ -11243,7 +11243,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.406344,
+   "prog": 0.406569,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -11251,7 +11251,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794610478
+   "t": 1794612682
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -12322,14 +12322,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.326268,
+   "prog": 0.326333,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794608251
+   "t": 1794612913
   },
   "Yun Dun": {
    "pos": [
@@ -12539,6 +12539,101 @@
     "Jerome Archer"
    ],
    "t": 1794611891
+  },
+  "Ceti Sector LX-T b3-2": {
+   "pos": [
+    19.375,
+    -102.71875,
+    -11.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.059046,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794612483
+  },
+  "Trianguli Sector QZ-O a6-4": {
+   "pos": [
+    25.84375,
+    -29.375,
+    -57.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794612191
+  },
+  "ICZ BF-Z b4": {
+   "pos": [
+    100.0625,
+    -114.25,
+    -8.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794612532
+  },
+  "BD+24 1451": {
+   "pos": [
+    19.4375,
+    20.40625,
+    -93.40625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.260106,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794612775
+  },
+  "Mukun": {
+   "pos": [
+    -40.9375,
+    31.15625,
+    -100.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794613194
+  },
+  "Imango": {
+   "pos": [
+    -50.59375,
+    -2.03125,
+    -93.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251914,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794613262
   }
  }
 }

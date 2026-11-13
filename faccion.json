@@ -9842,16 +9842,19 @@
    "tk": {
     "firma": "5c2d612f",
     "igual": 1794541010
+   },
+   "trafico": {
+    "2026-11-13": 1
    }
   }
  },
  "eddn": {
   "ok": true,
   "ultimo": 1794541012.3573225,
-  "msgs": 786038,
+  "msgs": 794892,
   "mios": 40
  },
- "t": 1794541017.7891438,
+ "t": 1794541808.1541913,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -12261,14 +12264,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.320864,
+   "prog": 0.321111,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794539116
+   "t": 1794541798
   },
   "Decima": {
    "pos": [
@@ -13087,7 +13090,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794537857
+   "t": 1794541748
   },
   "Ross 332": {
    "pos": [
@@ -13351,6 +13354,39 @@
     "Jerome Archer"
    ],
    "t": 1794541010
+  },
+  "Hyades Sector VA-M b8-1": {
+   "pos": [
+    -40.25,
+    -3.59375,
+    -103.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794541334
+  },
+  "Hyades Sector OT-P b6-1": {
+   "pos": [
+    16.4375,
+    32.9375,
+    -139.6875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.229006,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794541754
   }
  }
 }

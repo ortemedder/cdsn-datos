@@ -3362,7 +3362,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794600670,
+   "t": 1794604836,
    "src": "EDDN",
    "inf": 87.13,
    "ctrl": true,
@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 12
+    "2026-11-13": 15
    },
    "pn": {
     "J9W-B6T": {
@@ -3448,7 +3448,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794600880
+     "t": 1794604905
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3465,7 +3465,7 @@
    },
    "tk": {
     "firma": "ef2248b5",
-    "igual": 1794600670,
+    "igual": 1794604836,
     "ult": 1794600670,
     "desde": 1794523635,
     "est": null
@@ -10299,15 +10299,101 @@
    "trafico": {
     "2026-11-13": 1
    }
+  },
+  "HIP 37216": {
+   "sys": "HIP 37216",
+   "t": 1794604575,
+   "src": "EDDN",
+   "inf": 20.71,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Privateer's Alliance",
+   "segunda_inf": 50.81,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Privateer's Alliance",
+     "inf": 50.81,
+     "gov": "Confederacy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "CROSS Corp",
+     "inf": 28.48,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 20.71,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Privateer's Alliance",
+   "pos": [
+    -41.1875,
+    80.5625,
+    -139.1875
+   ],
+   "sis": {
+    "pob": 3997839,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Confederacy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Edmund Mahon",
+    "est": "Exploited",
+    "prog": 0.209141,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Felicia Winters",
+     "Li Yong-Rui"
+    ]
+   },
+   "hinf": [
+    [
+     1794604575,
+     20.71
+    ]
+   ],
+   "tk": {
+    "firma": "bb8be5e7",
+    "igual": 1794604575
+   },
+   "trafico": {
+    "2026-11-13": 2
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794603077.7142944,
-  "msgs": 186169,
-  "mios": 7
+  "ultimo": 1794604837.1867537,
+  "msgs": 204228,
+  "mios": 9
  },
- "t": 1794604239.1387994,
+ "t": 1794605140.5555878,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10340,7 +10426,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794604204
+   "t": 1794604969
   },
   "HIP 46236": {
    "pos": [
@@ -10356,7 +10442,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794604096
+   "t": 1794604286
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10786,13 +10872,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.252935,
+   "prog": 0.252709,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794599412
+   "t": 1794604717
   },
   "Col 285 Sector VJ-R a34-1": {
    "pos": [
@@ -11145,12 +11231,12 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.195412,
+   "prog": 0.195741,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794603589
+   "t": 1794604853
   },
   "Tascheter Sector BQ-Y c27": {
    "pos": [
@@ -11332,7 +11418,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794603994
+   "t": 1794604797
   },
   "LTT 751": {
    "pos": [
@@ -11349,7 +11435,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794603999
+   "t": 1794604399
   },
   "LP 302-22": {
    "pos": [
@@ -11416,6 +11502,69 @@
     "Li Yong-Rui"
    ],
    "t": 1794604229
+  },
+  "Xuanebuth": {
+   "pos": [
+    114.59375,
+    -112.0625,
+    -21.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.309249,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794604357
+  },
+  "Decima": {
+   "pos": [
+    35.9375,
+    -34.4375,
+    -30.4375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.2328,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794604748
+  },
+  "Col 285 Sector NS-J c9-17": {
+   "pos": [
+    138.125,
+    -2.4375,
+    31.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794604827
+  },
+  "Lyncis Sector IM-V b2-3": {
+   "pos": [
+    -47.09375,
+    88.15625,
+    -146.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794605134
   }
  }
 }

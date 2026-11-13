@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 29
+    "2026-11-13": 31
    },
    "pn": {
     "J9W-B6T": {
@@ -10409,10 +10409,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794609028.6312606,
-  "msgs": 288092,
+  "msgs": 302711,
   "mios": 16
  },
- "t": 1794609576.475368,
+ "t": 1794610517.5327291,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10461,7 +10461,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794608770
+   "t": 1794610316
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10518,13 +10518,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.309735,
+   "prog": 0.310137,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794602165
+   "t": 1794610268
   },
   "Nergal": {
    "pos": [
@@ -10604,7 +10604,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794597137
+   "t": 1794610265
   },
   "Hajangai": {
    "pos": [
@@ -10865,7 +10865,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794608853
+   "t": 1794610511
   },
   "PLX 695": {
    "pos": [
@@ -11014,7 +11014,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794600347
+   "t": 1794610478
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -11192,7 +11192,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794601636
+   "t": 1794609799
   },
   "Toxanda": {
    "pos": [
@@ -12126,7 +12126,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794609035
+   "t": 1794604326
   },
   "HIP 17719": {
    "pos": [
@@ -12158,6 +12158,39 @@
     "Pranav Antal"
    ],
    "t": 1794609562
+  },
+  "LHS 1914": {
+   "pos": [
+    9.84375,
+    26.15625,
+    -72.46875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.252881,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794605796
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794609915
   }
  }
 }

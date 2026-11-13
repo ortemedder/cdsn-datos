@@ -237,7 +237,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794515309,
+   "t": 1794531894,
    "src": "EDDN",
    "inf": 58.24,
    "ctrl": true,
@@ -314,11 +314,12 @@
     "2026-11-09": 29,
     "2026-11-10": 63,
     "2026-11-11": 17,
-    "2026-11-12": 14
+    "2026-11-12": 14,
+    "2026-11-13": 2
    },
    "tk": {
     "firma": "2fc52895",
-    "igual": 1794515309,
+    "igual": 1794531894,
     "ult": 1794513677,
     "desde": 1794420137,
     "est": null
@@ -1668,7 +1669,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794449221,
+   "t": 1794531890,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -1687,9 +1688,7 @@
      "inf": 45.45,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [
-      "Boom"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -1732,7 +1731,7 @@
     -18.46875
    ],
    "sis": {
-    "pob": 2198038,
+    "pob": 2198074,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1742,9 +1741,9 @@
    "pp": {
     "pot": "Pranav Antal",
     "est": "Exploited",
-    "prog": 0.264926,
-    "ref": 0,
-    "soc": 475,
+    "prog": 0.264629,
+    "ref": 262,
+    "soc": 441,
     "pots": [
      "Denton Patreus",
      "Li Yong-Rui",
@@ -1755,14 +1754,21 @@
     "2026-11-09": 1,
     "2026-11-10": 2,
     "2026-11-11": 2,
-    "2026-11-12": 1
+    "2026-11-12": 1,
+    "2026-11-13": 1
+   },
+   "tk": {
+    "firma": "099a7a1a",
+    "igual": 1794531890
    },
    "prev": null,
    "prev_t": null,
-   "tk": {
-    "firma": "099a7a1a",
-    "igual": 1794449221
-   }
+   "hinf": [
+    [
+     1794449221,
+     10.61
+    ]
+   ]
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -9529,7 +9535,7 @@
   },
   "HIP 41850": {
    "sys": "HIP 41850",
-   "t": 1794530369,
+   "t": 1794531451,
    "src": "EDDN",
    "inf": 13.55,
    "ctrl": false,
@@ -9597,28 +9603,36 @@
     "soc": null,
     "pots": []
    },
+   "trafico": {
+    "2026-11-13": 6
+   },
+   "tk": {
+    "firma": "b0f0bb40",
+    "igual": 1794531451
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794530369,
      13.55
     ]
    ],
-   "tk": {
-    "firma": "b0f0bb40",
-    "igual": 1794530369
-   },
-   "trafico": {
-    "2026-11-13": 3
+   "pn": {
+    "G5H-35L": {
+     "n": "BU2026",
+     "t": 1794531481
+    }
    }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794530370.833383,
-  "msgs": 656097,
-  "mios": 33
+  "ultimo": 1794531895.8428462,
+  "msgs": 666742,
+  "mios": 36
  },
- "t": 1794531121.030833,
+ "t": 1794532021.8823888,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -10779,7 +10793,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794523116
+   "t": 1794512695
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -11188,7 +11202,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794526115
+   "t": 1794532015
   },
   "Dongkum": {
    "pos": [
@@ -11447,7 +11461,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794515309
+   "t": 1794531894
   },
   "Ndabangluya": {
    "pos": [
@@ -11730,7 +11744,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794530194
+   "t": 1794531275
   },
   "LHS 6103": {
    "pos": [
@@ -11848,7 +11862,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794520279
+   "t": 1794531622
   },
   "Onileut": {
    "pos": [
@@ -12599,6 +12613,71 @@
     "Zemina Torval"
    ],
    "t": 1794530401
+  },
+  "Gollobo": {
+   "pos": [
+    6.6875,
+    0.5625,
+    -123.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.307355,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794531305
+  },
+  "Rindjibal": {
+   "pos": [
+    133,
+    -3.375,
+    23.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794531677
+  },
+  "Hyades Sector UP-N b7-3": {
+   "pos": [
+    -11.21875,
+    -17.03125,
+    -121.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.284826,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794531831
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.264629,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794531890
   }
  }
 }

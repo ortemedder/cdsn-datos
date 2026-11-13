@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 33
+    "2026-11-13": 35
    },
    "pn": {
     "J9W-B6T": {
@@ -10519,15 +10519,137 @@
    "trafico": {
     "2026-11-13": 1
    }
+  },
+  "Chan Mina": {
+   "sys": "Chan Mina",
+   "t": 1794611891,
+   "src": "EDDN",
+   "inf": 57.73,
+   "ctrl": true,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 10.37,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 57.73,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 10.37,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "HIP 28774 Inc",
+     "inf": 8.28,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Chan Mina Jet General Holdings",
+     "inf": 8.18,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "LP 254-40 Co",
+     "inf": 7.48,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Chan Mina Shared",
+     "inf": 6.28,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Chan Mina Purple Organisation",
+     "inf": 1.69,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -3.65625,
+    19.6875,
+    -101.5
+   ],
+   "sis": {
+    "pob": 22160,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Aisling Duval",
+    "est": "Exploited",
+    "prog": 0.287452,
+    "ref": 0,
+    "soc": 1191,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794611891,
+     57.73
+    ]
+   ],
+   "tk": {
+    "firma": "5e4540f6",
+    "igual": 1794611891
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794610664.397922,
-  "msgs": 323106,
-  "mios": 17
+  "ultimo": 1794611893.041404,
+  "msgs": 340513,
+  "mios": 18
  },
- "t": 1794611478.7293553,
+ "t": 1794612269.6466532,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10576,7 +10698,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794611181
+   "t": 1794612036
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10843,12 +10965,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.255694,
+   "prog": 0.255697,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794583605
+   "t": 1794612052
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -10980,7 +11102,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794610986
+   "t": 1794611764
   },
   "PLX 695": {
    "pos": [
@@ -11044,7 +11166,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794582770
+   "t": 1794611999
   },
   "HIP 47625": {
    "pos": [
@@ -11187,12 +11309,12 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.229114,
+   "prog": 0.229126,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794603403
+   "t": 1794611554
   },
   "Wuluang": {
    "pos": [
@@ -11355,7 +11477,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794602812
+   "t": 1794612265
   },
   "Ceti Sector CL-X b1-3": {
    "pos": [
@@ -11866,12 +11988,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.18,
+   "prog": 0.179828,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794608557
+   "t": 1794612178
   },
   "Alexis Centauri": {
    "pos": [
@@ -11921,7 +12043,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794611036
+   "t": 1794611566
   },
   "Moram": {
    "pos": [
@@ -12385,6 +12507,38 @@
     "Zemina Torval"
    ],
    "t": 1794611471
+  },
+  "Trianguli Sector TF-N a7-1": {
+   "pos": [
+    24.25,
+    -31.0625,
+    -51.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.09314,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794611873
+  },
+  "Chan Mina": {
+   "pos": [
+    -3.65625,
+    19.6875,
+    -101.5
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.287452,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794611891
   }
  }
 }

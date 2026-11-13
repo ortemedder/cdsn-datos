@@ -9644,15 +9644,100 @@
      "t": 1794531481
     }
    }
+  },
+  "Hyades Sector RU-N b7-3": {
+   "sys": "Hyades Sector RU-N b7-3",
+   "t": 1794537508,
+   "src": "EDDN",
+   "inf": 22.73,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 50.55,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 50.55,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Benapus Netcoms Inc",
+     "inf": 26.72,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 22.73,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -29.28125,
+    10.03125,
+    -119.875
+   ],
+   "sis": {
+    "pob": 2192056,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794537508,
+     22.73
+    ]
+   ],
+   "tk": {
+    "firma": "b28ae09b",
+    "igual": 1794537508
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794536530.512022,
-  "msgs": 737137,
-  "mios": 38
+  "ultimo": 1794537513.5151296,
+  "msgs": 749930,
+  "mios": 39
  },
- "t": 1794537094.792508,
+ "t": 1794538345.8034472,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9770,7 +9855,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794536818
+   "t": 1794538081
   },
   "Jangore": {
    "pos": [
@@ -10813,7 +10898,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794512695
+   "t": 1794538190
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -11413,7 +11498,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794537091
+   "t": 1794537997
   },
   "Vivata": {
    "pos": [
@@ -11865,7 +11950,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794529807
+   "t": 1794519719
   },
   "Trante": {
    "pos": [
@@ -11882,7 +11967,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794531622
+   "t": 1794538053
   },
   "Onileut": {
    "pos": [
@@ -12840,7 +12925,104 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794536953
+   "t": 1794537934
+  },
+  "Hyades Sector RU-N b7-3": {
+   "pos": [
+    -29.28125,
+    10.03125,
+    -119.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794537508
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794487607
+  },
+  "Bestakas": {
+   "pos": [
+    -34.71875,
+    -10.125,
+    -100.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.254166,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794537857
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.36135,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794538036
+  },
+  "Crucis Sector HB-X b1-6": {
+   "pos": [
+    127.40625,
+    -0.53125,
+    25.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794538099
+  },
+  "Bondranses": {
+   "pos": [
+    -37.6875,
+    -12.6875,
+    -101.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.179692,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794538340
   }
  }
 }

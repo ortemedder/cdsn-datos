@@ -3435,7 +3435,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 8
+    "2026-11-13": 10
    },
    "pn": {
     "J9W-B6T": {
@@ -10198,15 +10198,112 @@
    "trafico": {
     "2026-11-13": 1
    }
+  },
+  "Tascheter Sector BQ-Y c27": {
+   "sys": "Tascheter Sector BQ-Y c27",
+   "t": 1794603077,
+   "src": "EDDN",
+   "inf": 10.2,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 66.4,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 66.4,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Wolf 258 Dynasty",
+     "inf": 18.3,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.2,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Wolf 258 Silver Organisation",
+     "inf": 5.1,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    13.3125,
+    8.1875,
+    -99.5
+   ],
+   "sis": {
+    "pob": 203810,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Military;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "hinf": [
+    [
+     1794603077,
+     10.2
+    ]
+   ],
+   "tk": {
+    "firma": "55aaeee2",
+    "igual": 1794603077
+   },
+   "trafico": {
+    "2026-11-13": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794601777.8329782,
-  "msgs": 152471,
-  "mios": 6
+  "ultimo": 1794603077.7142944,
+  "msgs": 169026,
+  "mios": 7
  },
- "t": 1794602446.3164582,
+ "t": 1794603317.3100152,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10239,7 +10336,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794602394
+   "t": 1794603229
   },
   "HIP 46236": {
    "pos": [
@@ -10255,7 +10352,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794601456
+   "t": 1794602506
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10659,7 +10756,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794601227
+   "t": 1794603010
   },
   "PLX 695": {
    "pos": [
@@ -10758,7 +10855,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794600755
+   "t": 1794603273
   },
   "Gurabru": {
    "pos": [
@@ -10871,7 +10968,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794600590
+   "t": 1794603214
   },
   "Wuluang": {
    "pos": [
@@ -11018,6 +11115,106 @@
     "Zemina Torval"
    ],
    "t": 1794602299
+  },
+  "Wakawal": {
+   "pos": [
+    0.96875,
+    -2.5625,
+    -77.375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.246768,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794602812
+  },
+  "Ceti Sector CL-X b1-3": {
+   "pos": [
+    10.0625,
+    -97.8125,
+    -55.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.195412,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794602992
+  },
+  "Tascheter Sector BQ-Y c27": {
+   "pos": [
+    13.3125,
+    8.1875,
+    -99.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794603077
+  },
+  "Tascheter Sector BV-Y b2": {
+   "pos": [
+    2.15625,
+    -9.3125,
+    -90.625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.192969,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794603131
+  },
+  "Ethli": {
+   "pos": [
+    3.1875,
+    -4.65625,
+    -83.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.271212,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794603159
+  },
+  "GCRV 2311": {
+   "pos": [
+    -37.375,
+    -16.75,
+    -97.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.273306,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794603306
   }
  }
 }

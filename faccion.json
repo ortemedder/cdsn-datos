@@ -315,7 +315,7 @@
     "2026-11-10": 63,
     "2026-11-11": 17,
     "2026-11-12": 14,
-    "2026-11-13": 2
+    "2026-11-13": 3
    },
    "tk": {
     "firma": "2fc52895",
@@ -6584,7 +6584,7 @@
   },
   "Kher": {
    "sys": "Kher",
-   "t": 1794326239,
+   "t": 1794532836,
    "src": "EDDN",
    "inf": 4.69,
    "ctrl": false,
@@ -6689,6 +6689,21 @@
      "Li Yong-Rui",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-13": 2
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794326239,
+     4.69
+    ]
+   ],
+   "tk": {
+    "firma": "331bcbd5",
+    "igual": 1794532836
    }
   },
   "Hyades Sector UP-N b7-6": {
@@ -9628,11 +9643,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794531895.8428462,
-  "msgs": 666742,
-  "mios": 36
+  "ultimo": 1794532836.7519383,
+  "msgs": 677081,
+  "mios": 37
  },
- "t": 1794532021.8823888,
+ "t": 1794532902.8769383,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -11212,7 +11227,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.271647,
+   "prog": 0.271671,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -11220,7 +11235,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794524252
+   "t": 1794532064
   },
   "Moram": {
    "pos": [
@@ -11668,7 +11683,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794522252
+   "t": 1794532848
   },
   "Mankul": {
    "pos": [
@@ -12413,7 +12428,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794527269
+   "t": 1794531948
   },
   "Ac Yanyamam": {
    "pos": [
@@ -12595,7 +12610,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794529850
+   "t": 1794532792
   },
   "Crucis Sector HB-X b1-5": {
    "pos": [
@@ -12678,6 +12693,71 @@
     "Pranav Antal"
    ],
    "t": 1794531890
+  },
+  "Tascheter Sector CL-O a6-2": {
+   "pos": [
+    30.71875,
+    -32.59375,
+    -37
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075997,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794532523
+  },
+  "Trianguli Sector TF-N a7-1": {
+   "pos": [
+    24.25,
+    -31.0625,
+    -51.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.090154,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794532690
+  },
+  "Kher": {
+   "pos": [
+    -11.5,
+    42.4375,
+    -104.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.250894,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794532836
+  },
+  "NLTT 14879": {
+   "pos": [
+    -31.71875,
+    14,
+    -67.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.122855,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794532854
   }
  }
 }

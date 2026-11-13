@@ -9526,15 +9526,99 @@
     "firma": "2a8c3dbe",
     "igual": 1794526690
    }
+  },
+  "HIP 41850": {
+   "sys": "HIP 41850",
+   "t": 1794530369,
+   "src": "EDDN",
+   "inf": 13.55,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Lunar Rising Corporation",
+   "segunda_inf": 63.05,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Lunar Rising Corporation",
+     "inf": 63.05,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Beyond Infinity Corporation",
+     "inf": 23.39,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 13.55,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Lunar Rising Corporation",
+   "pos": [
+    219.53125,
+    56.375,
+    -117.75
+   ],
+   "sis": {
+    "pob": 358803561,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "hinf": [
+    [
+     1794530369,
+     13.55
+    ]
+   ],
+   "tk": {
+    "firma": "b0f0bb40",
+    "igual": 1794530369
+   },
+   "trafico": {
+    "2026-11-13": 3
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794528491.3693767,
-  "msgs": 633107,
-  "mios": 32
+  "ultimo": 1794530370.833383,
+  "msgs": 656097,
+  "mios": 33
  },
- "t": 1794529359.4674017,
+ "t": 1794531121.030833,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9545,14 +9629,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.249808,
+   "prog": 0.255974,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794520720
+   "t": 1794530742
   },
   "Gliese 3299": {
    "pos": [
@@ -10611,7 +10695,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794500833
+   "t": 1794530792
   },
   "Pularungu": {
    "pos": [
@@ -10846,7 +10930,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794511758
+   "t": 1794530612
   },
   "LEHPM 1902": {
    "pos": [
@@ -10895,7 +10979,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794505533
+   "t": 1794529916
   },
   "HIP 20606": {
    "pos": [
@@ -11601,7 +11685,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794527965
+   "t": 1794530685
   },
   "HIP 41777": {
    "pos": [
@@ -11646,7 +11730,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794528441
+   "t": 1794530194
   },
   "LHS 6103": {
    "pos": [
@@ -11747,7 +11831,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794519719
+   "t": 1794529807
   },
   "Trante": {
    "pos": [
@@ -12282,7 +12366,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794526327
+   "t": 1794529639
   },
   "Tougeirs": {
    "pos": [
@@ -12345,7 +12429,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794526863
+   "t": 1794531116
   },
   "Sotuki": {
    "pos": [
@@ -12451,6 +12535,70 @@
     "Jerome Archer"
    ],
    "t": 1794529058
+  },
+  "BD+55 1142": {
+   "pos": [
+    -26.09375,
+    34.1875,
+    -75.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794529620
+  },
+  "Wolf 152": {
+   "pos": [
+    -41.125,
+    -15.125,
+    -71.78125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.243998,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794529843
+  },
+  "Col 285 Sector UT-W b16-3": {
+   "pos": [
+    136.875,
+    -7.78125,
+    5.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794529850
+  },
+  "Crucis Sector HB-X b1-5": {
+   "pos": [
+    123.21875,
+    -3.625,
+    25.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794530401
   }
  }
 }

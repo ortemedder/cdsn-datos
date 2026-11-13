@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 37
+    "2026-11-13": 42
    },
    "pn": {
     "J9W-B6T": {
@@ -10646,10 +10646,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794611893.041404,
-  "msgs": 354175,
+  "msgs": 371412,
   "mios": 18
  },
- "t": 1794613270.623763,
+ "t": 1794614191.5735707,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10698,7 +10698,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794612865
+   "t": 1794613747
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10859,7 +10859,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794603934
+   "t": 1794613347
   },
   "HIP 11324": {
    "pos": [
@@ -10970,7 +10970,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794612052
+   "t": 1794613685
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -11102,7 +11102,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794611764
+   "t": 1794614103
   },
   "PLX 695": {
    "pos": [
@@ -11251,7 +11251,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794612682
+   "t": 1794613857
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -12554,7 +12554,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794612483
+   "t": 1794613736
   },
   "Trianguli Sector QZ-O a6-4": {
    "pos": [
@@ -12634,6 +12634,38 @@
     "Jerome Archer"
    ],
    "t": 1794613262
+  },
+  "Apadecavi": {
+   "pos": [
+    -5.25,
+    5.59375,
+    -117.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.259331,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794613803
+  },
+  "Arietis Sector PT-Q b5-4": {
+   "pos": [
+    -50.34375,
+    -12.0625,
+    -95.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794614179
   }
  }
 }

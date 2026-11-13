@@ -2774,7 +2774,7 @@
    "trafico": {
     "2026-11-11": 6,
     "2026-11-12": 2,
-    "2026-11-13": 3
+    "2026-11-13": 5
    },
    "pn": {
     "K4J-GTX": {
@@ -3439,7 +3439,7 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 21
+    "2026-11-13": 24
    },
    "pn": {
     "J9W-B6T": {
@@ -10405,10 +10405,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794606842.123241,
-  "msgs": 237789,
+  "msgs": 255435,
   "mios": 12
  },
- "t": 1794606933.0958922,
+ "t": 1794607774.010784,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10441,7 +10441,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794606929
+   "t": 1794607349
   },
   "HIP 46236": {
    "pos": [
@@ -10861,7 +10861,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794606907
+   "t": 1794607763
   },
   "PLX 695": {
    "pos": [
@@ -11219,7 +11219,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794602299
+   "t": 1794607552
   },
   "Wakawal": {
    "pos": [
@@ -11251,7 +11251,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794606519
+   "t": 1794607061
   },
   "Tascheter Sector BQ-Y c27": {
    "pos": [
@@ -11785,6 +11785,56 @@
     "Jerome Archer"
    ],
    "t": 1794606464
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.236569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794607108
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.198969,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794607327
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.0926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794607503
   }
  }
 }

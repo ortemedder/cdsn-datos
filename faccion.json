@@ -2659,9 +2659,9 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794491228,
+   "t": 1794594608,
    "src": "EDDN",
-   "inf": 7.21,
+   "inf": 8.51,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -2670,12 +2670,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 56.96,
+   "segunda_inf": 57.46,
    "conflictos": [],
    "todas": [
     {
      "n": "Beasts of Bestia",
-     "inf": 56.96,
+     "inf": 57.46,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2684,7 +2684,7 @@
     },
     {
      "n": "Jangore Partnership",
-     "inf": 17.42,
+     "inf": 17.52,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -2693,7 +2693,7 @@
     },
     {
      "n": "Jangore Monarchy",
-     "inf": 10.51,
+     "inf": 10.61,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -2702,7 +2702,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 7.21,
+     "inf": 8.51,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2713,7 +2713,7 @@
     },
     {
      "n": "Jangore Power Systems",
-     "inf": 6.91,
+     "inf": 4.9,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -2759,7 +2759,8 @@
    },
    "trafico": {
     "2026-11-11": 6,
-    "2026-11-12": 2
+    "2026-11-12": 2,
+    "2026-11-13": 1
    },
    "pn": {
     "K4J-GTX": {
@@ -2771,8 +2772,15 @@
      "t": 1794491413
     }
    },
-   "prev": 7.41,
-   "prev_t": 1794411089,
+   "tk": {
+    "firma": "1d78848f",
+    "igual": 1794594608,
+    "ult": 1794594608,
+    "desde": 1794491228,
+    "est": null
+   },
+   "prev": 7.21,
+   "prev_t": 1794491228,
    "hinf": [
     [
      1794159039,
@@ -2785,12 +2793,14 @@
     [
      1794491228,
      7.21
+    ],
+    [
+     1794594608,
+     8.51
     ]
    ],
-   "tk": {
-    "firma": "0b4f4ca0",
-    "igual": 1794491228
-   }
+   "tick_ult": 1794594608,
+   "tick_marg": 861
   },
   "Diaguthivar": {
    "sys": "Diaguthivar",
@@ -10052,11 +10062,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 819,
-  "mios": 0
+  "ultimo": 1794594608.9639084,
+  "msgs": 16646,
+  "mios": 1
  },
- "t": 1794594319.4059978,
+ "t": 1794595219.9934063,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10089,7 +10099,70 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794594301
+   "t": 1794594768
+  },
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.078535,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794595212
+  },
+  "ICZ GL-X b1-4": {
+   "pos": [
+    124.03125,
+    -114.90625,
+    3.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794594479
+  },
+  "Jangore": {
+   "pos": [
+    -39.1875,
+    -3.1875,
+    -86
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794594608
+  },
+  "Ausan": {
+   "pos": [
+    -49.5,
+    -12.09375,
+    -69.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.191998,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794595013
   }
  }
 }

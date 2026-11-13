@@ -10053,9 +10053,43 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 798,
+  "msgs": 819,
   "mios": 0
  },
- "t": 1794593700.7317274,
- "tick_global": 1794504768
+ "t": 1794594319.4059978,
+ "tick_global": 1794590418,
+ "zona": {
+  "Caerus": {
+   "pos": [
+    13.125,
+    -27.4375,
+    -50.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.259605,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794594286
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.256192,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794594301
+  }
+ }
 }

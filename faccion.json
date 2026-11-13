@@ -9243,7 +9243,7 @@
     ]
    },
    "trafico": {
-    "2026-11-13": 1
+    "2026-11-13": 2
    },
    "tk": {
     "firma": "73a84f09",
@@ -9649,10 +9649,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794536530.512022,
-  "msgs": 724334,
+  "msgs": 737137,
   "mios": 38
  },
- "t": 1794536534.2476585,
+ "t": 1794537094.792508,
  "tick_global": 1794504768,
  "zona": {
   "Kolaga": {
@@ -9663,14 +9663,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.255974,
+   "prog": 0.255977,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794535240
+   "t": 1794536829
   },
   "Gliese 3299": {
    "pos": [
@@ -9770,7 +9770,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794533528
+   "t": 1794536818
   },
   "Jangore": {
    "pos": [
@@ -11413,7 +11413,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794513168
+   "t": 1794537091
   },
   "Vivata": {
    "pos": [
@@ -12824,6 +12824,23 @@
     "Zemina Torval"
    ],
    "t": 1794536212
+  },
+  "LHS 1747": {
+   "pos": [
+    32.0625,
+    -30,
+    -58.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794536953
   }
  }
 }

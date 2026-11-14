@@ -1829,23 +1829,23 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794531890,
+   "t": 1794698937,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Guardians of Tranquillity",
-   "segunda_inf": 45.45,
+   "segunda_inf": 45.65,
    "conflictos": [],
    "todas": [
     {
      "n": "Guardians of Tranquillity",
-     "inf": 45.45,
+     "inf": 45.65,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -1854,18 +1854,18 @@
     },
     {
      "n": "East India Company",
-     "inf": 30.53,
+     "inf": 30.43,
      "gov": "Corporate",
      "alg": "Empire",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "UICLI",
-     "inf": 13.41,
+     "inf": 13.31,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -1877,9 +1877,7 @@
      "inf": 10.61,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -1891,7 +1889,7 @@
     -18.46875
    ],
    "sis": {
-    "pob": 2198074,
+    "pob": 2198143,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1915,11 +1913,15 @@
     "2026-11-10": 2,
     "2026-11-11": 2,
     "2026-11-12": 1,
-    "2026-11-13": 1
+    "2026-11-13": 1,
+    "2026-11-14": 1
    },
    "tk": {
-    "firma": "099a7a1a",
-    "igual": 1794531890
+    "firma": "94c05588",
+    "igual": 1794698937,
+    "ult": 1794698937,
+    "desde": 1794531890,
+    "est": null
    },
    "prev": null,
    "prev_t": null,
@@ -1928,7 +1930,9 @@
      1794449221,
      10.61
     ]
-   ]
+   ],
+   "tick_ult": 1794698937,
+   "tick_marg": 1392
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -3570,7 +3574,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794697264,
+   "t": 1794698933,
    "src": "EDDN",
    "inf": 73.95,
    "ctrl": true,
@@ -3648,7 +3652,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 35
+    "2026-11-14": 37
    },
    "pn": {
     "J9W-B6T": {
@@ -3657,7 +3661,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794697445
+     "t": 1794699210
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3673,12 +3677,12 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794697445
+     "t": 1794699210
     }
    },
    "tk": {
     "firma": "ec70bce9",
-    "igual": 1794697264,
+    "igual": 1794698933,
     "ult": 1794681830,
     "desde": 1794604836,
     "est": null
@@ -6433,7 +6437,7 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 21
+    "2026-11-14": 23
    },
    "tk": {
     "firma": "9ac237db",
@@ -11339,11 +11343,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794698069.818386,
-  "msgs": 246904,
-  "mios": 30
+  "ultimo": 1794698938.4722912,
+  "msgs": 263951,
+  "mios": 32
  },
- "t": 1794698502.9430072,
+ "t": 1794699343.8568964,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12275,7 +12279,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794695144
+   "t": 1794698818
   },
   "Trianguli Sector WA-N a7-0": {
    "pos": [
@@ -12433,7 +12437,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794693254
+   "t": 1794698791
   },
   "Renetes": {
    "pos": [
@@ -12631,7 +12635,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794697211
+   "t": 1794699300
   },
   "LP 302-22": {
    "pos": [
@@ -12732,7 +12736,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794696052
+   "t": 1794699338
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -12979,6 +12983,69 @@
     "Li Yong-Rui"
    ],
    "t": 1794698471
+  },
+  "Khamoori": {
+   "pos": [
+    -50,
+    86.84375,
+    -131.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794698530
+  },
+  "Kwangwutii": {
+   "pos": [
+    -8.90625,
+    -2.375,
+    -122.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.153163,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794698786
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.264629,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794698937
+  },
+  "HR 3277": {
+   "pos": [
+    -33.71875,
+    95.75,
+    -129.40625
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.250874,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794699199
   }
  }
 }

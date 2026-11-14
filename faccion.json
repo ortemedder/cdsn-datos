@@ -990,7 +990,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 13,
+    "2026-11-14": 14,
     "2026-03-30": 1
    },
    "zc": [
@@ -10957,10 +10957,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794653365.7609262,
-  "msgs": 849359,
+  "msgs": 860297,
   "mios": 43
  },
- "t": 1794653820.8423247,
+ "t": 1794654771.5336874,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10993,7 +10993,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794653626
+   "t": 1794654288
   },
   "HIP 46236": {
    "pos": [
@@ -11986,7 +11986,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794652522
+   "t": 1794653987
   },
   "LP 302-22": {
    "pos": [
@@ -13303,7 +13303,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794652723
+   "t": 1794654515
   },
   "Menkalinan": {
    "pos": [
@@ -14419,7 +14419,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794646444
+   "t": 1794654363
   },
   "Tascheter Sector UT-A b1": {
    "pos": [
@@ -14765,6 +14765,54 @@
     "Pranav Antal"
    ],
    "t": 1794653454
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.35075,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794654162
+  },
+  "BD+24 1451": {
+   "pos": [
+    19.4375,
+    20.40625,
+    -93.40625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.260106,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794654410
+  },
+  "HR 2439": {
+   "pos": [
+    18.1875,
+    16.90625,
+    -104
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794654459
   }
  }
 }

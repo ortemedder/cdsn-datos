@@ -3632,7 +3632,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 21
+    "2026-11-14": 23
    },
    "pn": {
     "J9W-B6T": {
@@ -6337,7 +6337,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794687680,
+   "t": 1794689316,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6419,11 +6419,11 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 10
+    "2026-11-14": 11
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794687680
+    "igual": 1794689316
    },
    "prev": null,
    "prev_t": null,
@@ -11221,11 +11221,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794687681.5756462,
-  "msgs": 19785,
-  "mios": 1
+  "ultimo": 1794689318.5151105,
+  "msgs": 38671,
+  "mios": 2
  },
- "t": 1794688539.3807201,
+ "t": 1794689460.5945277,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11311,7 +11311,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794687910
+   "t": 1794689106
   },
   "LHS 1719": {
    "pos": [
@@ -11379,7 +11379,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794688281
+   "t": 1794689455
   },
   "Nyal": {
    "pos": [
@@ -11444,6 +11444,187 @@
     "Zemina Torval"
    ],
    "t": 1794688492
+  },
+  "Arietis Sector QT-Q b5-4": {
+   "pos": [
+    -35.78125,
+    -23.6875,
+    -104.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794688575
+  },
+  "Hyades Sector VA-M b8-1": {
+   "pos": [
+    -40.25,
+    -3.59375,
+    -103.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794688774
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794688823
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.17144,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794688859
+  },
+  "Col 285 Sector MZ-D b13-2": {
+   "pos": [
+    -175,
+    13.21875,
+    -67.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1794688861
+  },
+  "Wakawal": {
+   "pos": [
+    0.96875,
+    -2.5625,
+    -77.375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.246768,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794688888
+  },
+  "Phracani": {
+   "pos": [
+    112.53125,
+    -116.03125,
+    -19.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.253549,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794689094
+  },
+  "Tascheter Sector CL-Y d133": {
+   "pos": [
+    -20.0625,
+    -18.15625,
+    -98.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794689170
+  },
+  "Ethli": {
+   "pos": [
+    3.1875,
+    -4.65625,
+    -83.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.271212,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794689345
+  },
+  "Hyades Sector OT-P b6-1": {
+   "pos": [
+    16.4375,
+    32.9375,
+    -139.6875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.235872,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794689182
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.244615,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794689432
   }
  }
 }

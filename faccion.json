@@ -6417,7 +6417,7 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 17
+    "2026-11-14": 19
    },
    "tk": {
     "firma": "9ac237db",
@@ -11220,10 +11220,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794692611.387892,
-  "msgs": 120636,
+  "msgs": 143524,
   "mios": 6
  },
- "t": 1794693025.2230358,
+ "t": 1794693856.2088358,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11241,7 +11241,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794691890
+   "t": 1794693854
   },
   "Khaima": {
    "pos": [
@@ -11377,7 +11377,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794692966
+   "t": 1794693646
   },
   "Nyal": {
    "pos": [
@@ -11830,13 +11830,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.310462,
+   "prog": 0.310469,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794691490
+   "t": 1794693747
   },
   "Zach": {
    "pos": [
@@ -12155,7 +12155,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794692739
+   "t": 1794693476
   },
   "Trianguli Sector WA-N a7-0": {
    "pos": [
@@ -12187,7 +12187,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794692772
+   "t": 1794693567
   },
   "Trianguli Sector BH-L a8-2": {
    "pos": [
@@ -12268,6 +12268,70 @@
     "Zemina Torval"
    ],
    "t": 1794693016
+  },
+  "Trianguli Sector BG-X b1-5": {
+   "pos": [
+    32.46875,
+    -13.09375,
+    -92.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.172569,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794693134
+  },
+  "Gliese 3299": {
+   "pos": [
+    -34.46875,
+    -10.9375,
+    -116.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.085712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794693222
+  },
+  "BD+11 1163": {
+   "pos": [
+    36.28125,
+    -0.03125,
+    -98.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794693254
+  },
+  "Renetes": {
+   "pos": [
+    -14.09375,
+    -8.875,
+    -88.5625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.226855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794693476
   }
  }
 }

@@ -3937,7 +3937,7 @@
   },
   "Ndabangluya": {
    "sys": "Ndabangluya",
-   "t": 1794623942,
+   "t": 1794675617,
    "src": "EDDN",
    "inf": 64.82,
    "ctrl": true,
@@ -4047,41 +4047,41 @@
    },
    "trafico": {
     "2026-11-11": 1,
-    "2026-11-14": 1
+    "2026-11-14": 2
    },
    "pn": {
     "QBT-LQY": {
      "n": "NEOLUXX",
-     "t": 1794623960
+     "t": 1794675617
     },
     "X2Z-0HL": {
      "n": "SAPPHIRE",
-     "t": 1794623960
+     "t": 1794675617
     },
     "KBF-NTY": {
      "n": "[FIN] Vigilum Noctis",
-     "t": 1794623960
+     "t": 1794675617
     },
     "V7Q-8VJ": {
      "n": "SMS BLUE DANUBE",
-     "t": 1794623960
+     "t": 1794675617
     },
     "JHB-T6J": {
      "n": "SHINANO",
-     "t": 1794623960
+     "t": 1794675617
     },
     "Q0K-GQF": {
      "n": "PRYDAIN",
-     "t": 1794623960
+     "t": 1794675617
     },
     "GZM-0TW": {
      "n": "saphire allegiance",
-     "t": 1794623960
+     "t": 1794675617
     }
    },
    "tk": {
     "firma": "04aa79f3",
-    "igual": 1794623942,
+    "igual": 1794675617,
     "ult": 1794623942,
     "desde": 1794418629,
     "est": null
@@ -6604,7 +6604,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1794675157,
+   "t": 1794676142,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -6677,13 +6677,17 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-14": 2
+    "2026-11-14": 5
    },
    "pn": {
     "T9Q-5HX": {
      "n": "[CDSN] Alfonso I",
-     "t": 1794675157
+     "t": 1794676204
     }
+   },
+   "tk": {
+    "firma": "7c1e5e67",
+    "igual": 1794676142
    },
    "prev": null,
    "prev_t": null,
@@ -6692,11 +6696,7 @@
      1794340321,
      66.33
     ]
-   ],
-   "tk": {
-    "firma": "7c1e5e67",
-    "igual": 1794675157
-   }
+   ]
   },
   "Parrot's Head Sector PS-T b3-3": {
    "sys": "Parrot's Head Sector PS-T b3-3",
@@ -11052,11 +11052,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794675462.8770344,
-  "msgs": 1184704,
-  "mios": 59
+  "ultimo": 1794676148.4991052,
+  "msgs": 1201270,
+  "mios": 61
  },
- "t": 1794675483.8812397,
+ "t": 1794676405.3619149,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -13502,7 +13502,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794623942
+   "t": 1794675617
   },
   "HR 3277": {
    "pos": [
@@ -13518,7 +13518,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794672558
+   "t": 1794676169
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -16091,7 +16091,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794672916
+   "t": 1794676393
   },
   "Chonost": {
    "pos": [
@@ -16138,7 +16138,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794675157
+   "t": 1794676142
   },
   "Col 285 Sector IM-L c8-19": {
    "pos": [
@@ -16183,7 +16183,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794675347
+   "t": 1794676368
   },
   "BD-04 782": {
    "pos": [
@@ -16234,6 +16234,72 @@
     "Li Yong-Rui"
    ],
    "t": 1794675475
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.2064,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794675598
+  },
+  "LTT 1652": {
+   "pos": [
+    14.75,
+    -54.65625,
+    -44.59375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794675666
+  },
+  "Nganji": {
+   "pos": [
+    -24.59375,
+    36.84375,
+    -132.09375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.1152,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794675716
+  },
+  "Nogatas": {
+   "pos": [
+    15.90625,
+    -99.625,
+    -39.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.205712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794675901
   }
  }
 }

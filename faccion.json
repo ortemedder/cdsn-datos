@@ -3427,7 +3427,7 @@
   },
   "Makum": {
    "sys": "Makum",
-   "t": 1794487559,
+   "t": 1794679786,
    "src": "EDDN",
    "inf": 3.69,
    "ctrl": false,
@@ -3446,10 +3446,10 @@
      "inf": 71.86,
      "gov": "Democracy",
      "alg": "Alliance",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -3536,14 +3536,21 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 1
+    "2026-11-12": 1,
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "7cb7ffbf",
+    "igual": 1794679786
    },
    "prev": null,
    "prev_t": null,
-   "tk": {
-    "firma": "7cb7ffbf",
-    "igual": 1794487559
-   }
+   "hinf": [
+    [
+     1794487559,
+     3.69
+    ]
+   ]
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
@@ -6326,7 +6333,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794409201,
+   "t": 1794679745,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6345,10 +6352,10 @@
      "inf": 60.0,
      "gov": "Democracy",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -6367,10 +6374,10 @@
      "inf": 13.0,
      "gov": "Feudal",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -6378,9 +6385,7 @@
      "inf": 7.0,
      "gov": "Anarchy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -6392,7 +6397,7 @@
     960.6875
    ],
    "sis": {
-    "pob": 38826,
+    "pob": 123476,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -6409,10 +6414,21 @@
    },
    "trafico": {
     "2026-11-10": 46,
-    "2026-11-11": 6
+    "2026-11-11": 6,
+    "2026-11-14": 1
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "hinf": [
+    [
+     1794409201,
+     20.0
+    ]
+   ],
+   "tk": {
+    "firma": "9ac237db",
+    "igual": 1794679745
+   }
   },
   "Hyades Sector QZ-N b7-3": {
    "sys": "Hyades Sector QZ-N b7-3",
@@ -11068,11 +11084,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794678445.6023698,
-  "msgs": 1253551,
-  "mios": 65
+  "ultimo": 1794679786.6235023,
+  "msgs": 1271195,
+  "mios": 67
  },
- "t": 1794679038.7822692,
+ "t": 1794679979.726892,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11105,7 +11121,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794678923
+   "t": 1794679973
   },
   "HIP 46236": {
    "pos": [
@@ -12017,7 +12033,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794618422
+   "t": 1794679810
   },
   "Nauacan": {
    "pos": [
@@ -12108,14 +12124,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.248629,
+   "prog": 0.248664,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794670589
+   "t": 1794679596
   },
   "Dongkum": {
    "pos": [
@@ -12125,7 +12141,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272239,
+   "prog": 0.272263,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -12133,7 +12149,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794670640
+   "t": 1794679648
   },
   "Holo": {
    "pos": [
@@ -14790,12 +14806,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.278024,
+   "prog": 0.278032,
    "pots": [
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794651727
+   "t": 1794679826
   },
   "Tascheter Sector GR-M a7-0": {
    "pos": [
@@ -16516,6 +16532,37 @@
     "Jerome Archer"
    ],
    "t": 1794679028
+  },
+  "Breksta": {
+   "pos": [
+    29.4375,
+    -6.71875,
+    -70.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.278547,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794679193
+  },
+  "Makum": {
+   "pos": [
+    18.4375,
+    33,
+    -121.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.245712,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794679786
   }
  }
 }

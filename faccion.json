@@ -989,7 +989,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 2
+    "2026-11-14": 4
    },
    "zc": [
     {
@@ -10697,10 +10697,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794624019.0457082,
-  "msgs": 517325,
+  "msgs": 528259,
   "mios": 24
  },
- "t": 1794624098.6245215,
+ "t": 1794624979.3937807,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10749,7 +10749,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794623320
+   "t": 1794624968
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11262,13 +11262,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.256025,
+   "prog": 0.256049,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794585455
+   "t": 1794624869
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -11661,7 +11661,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794603495
+   "t": 1794618422
   },
   "Nauacan": {
    "pos": [
@@ -13248,6 +13248,56 @@
     "Li Yong-Rui"
    ],
    "t": 1794623942
+  },
+  "HR 3277": {
+   "pos": [
+    -33.71875,
+    95.75,
+    -129.40625
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.251109,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794624372
+  },
+  "Hyades Sector RZ-N b7-0": {
+   "pos": [
+    4.84375,
+    18.96875,
+    -114.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.222855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794624564
+  },
+  "Tascheter Sector FR-M a7-3": {
+   "pos": [
+    22.96875,
+    -28.3125,
+    -31.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.156569,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794624562
   }
  }
 }

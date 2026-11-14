@@ -3262,16 +3262,16 @@
    "trafico": {
     "2026-11-10": 1,
     "2026-11-13": 2,
-    "2026-11-14": 5
+    "2026-11-14": 6
    },
    "pn": {
     "F3L-30Z": {
      "n": "Atlas",
-     "t": 1794629046
+     "t": 1794677422
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794629046
+     "t": 1794677422
     }
    },
    "tk": {
@@ -6688,7 +6688,7 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-14": 5
+    "2026-11-14": 7
    },
    "pn": {
     "T9Q-5HX": {
@@ -11064,10 +11064,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794677242.9605944,
-  "msgs": 1218022,
+  "msgs": 1235679,
   "mios": 63
  },
- "t": 1794677316.1506069,
+ "t": 1794678177.1920052,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11163,7 +11163,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794595013
+   "t": 1794678035
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -11611,7 +11611,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.006994,
+   "prog": 0.007206,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -11619,7 +11619,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794670753
+   "t": 1794677872
   },
   "Gurabru": {
    "pos": [
@@ -13983,7 +13983,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794634736
+   "t": 1794678159
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -13999,7 +13999,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794669556
+   "t": 1794677342
   },
   "Hyades Sector OO-P b6-5": {
    "pos": [
@@ -15070,7 +15070,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794658424
+   "t": 1794678132
   },
   "Haraka": {
    "pos": [
@@ -16362,6 +16362,54 @@
     "Jerome Archer"
    ],
    "t": 1794676902
+  },
+  "Arietis Sector PT-Q b5-7": {
+   "pos": [
+    -52.3125,
+    -8.625,
+    -100.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794677565
+  },
+  "LHS 1651": {
+   "pos": [
+    31.25,
+    -44.09375,
+    -32.5625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.104477,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794677635
+  },
+  "Ceti Sector GR-V b2-3": {
+   "pos": [
+    5.65625,
+    -90.125,
+    -31.78125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.122283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794678173
   }
  }
 }

@@ -1758,7 +1758,7 @@
    },
    "trafico": {
     "2026-11-10": 14,
-    "2026-11-14": 24,
+    "2026-11-14": 28,
     "2026-04-11": 1,
     "2026-05-03": 1
    },
@@ -10574,7 +10574,7 @@
   },
   "Kalenile": {
    "sys": "Kalenile",
-   "t": 1794610663,
+   "t": 1794652105,
    "src": "EDDN",
    "inf": 14.36,
    "ctrl": false,
@@ -10673,19 +10673,22 @@
      "Li Yong-Rui"
     ]
    },
+   "trafico": {
+    "2026-11-13": 1,
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "a3d9efce",
+    "igual": 1794652105
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794610663,
      14.36
     ]
-   ],
-   "tk": {
-    "firma": "a3d9efce",
-    "igual": 1794610663
-   },
-   "trafico": {
-    "2026-11-13": 1
-   }
+   ]
   },
   "Chan Mina": {
    "sys": "Chan Mina",
@@ -10933,11 +10936,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794650119.4089506,
-  "msgs": 825645,
-  "mios": 41
+  "ultimo": 1794652106.05062,
+  "msgs": 836973,
+  "mios": 42
  },
- "t": 1794651919.1992745,
+ "t": 1794652880.0221605,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10970,7 +10973,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794651519
+   "t": 1794652826
   },
   "HIP 46236": {
    "pos": [
@@ -10980,13 +10983,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.135966,
+   "prog": 0.141291,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794642451
+   "t": 1794652229
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11963,7 +11966,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794603999
+   "t": 1794652522
   },
   "LP 302-22": {
    "pos": [
@@ -12680,7 +12683,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794610663
+   "t": 1794652105
   },
   "BD-09 956": {
    "pos": [
@@ -13280,7 +13283,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794622470
+   "t": 1794652723
   },
   "Menkalinan": {
    "pos": [

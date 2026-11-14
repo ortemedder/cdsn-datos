@@ -7387,7 +7387,7 @@
   },
   "Tascheter Sector UT-A b1": {
    "sys": "Tascheter Sector UT-A b1",
-   "t": 1794499019,
+   "t": 1794646830,
    "src": "EDDN",
    "inf": 57.86,
    "ctrl": true,
@@ -7417,10 +7417,10 @@
      "inf": 30.95,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -7440,7 +7440,7 @@
     -105.03125
    ],
    "sis": {
-    "pob": 331338,
+    "pob": 331862,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -7462,7 +7462,12 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 2
+    "2026-11-12": 2,
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "75000d02",
+    "igual": 1794646830
    },
    "prev": null,
    "prev_t": null,
@@ -7471,11 +7476,7 @@
      1794369094,
      57.86
     ]
-   ],
-   "tk": {
-    "firma": "75000d02",
-    "igual": 1794499019
-   }
+   ]
   },
   "Col 285 Sector RZ-O c6-12": {
    "sys": "Col 285 Sector RZ-O c6-12",
@@ -10838,11 +10839,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794644443.784855,
-  "msgs": 744171,
-  "mios": 34
+  "ultimo": 1794646832.1768842,
+  "msgs": 771240,
+  "mios": 35
  },
- "t": 1794644452.2575796,
+ "t": 1794647234.3238177,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11083,7 +11084,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794640930
+   "t": 1794647040
   },
   "LHS 1734": {
    "pos": [
@@ -11100,7 +11101,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794643086
+   "t": 1794645071
   },
   "Lyncis Sector RI-T b3-1": {
    "pos": [
@@ -11295,7 +11296,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794614388
+   "t": 1794647222
   },
   "PLX 695": {
    "pos": [
@@ -11588,7 +11589,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794601563
+   "t": 1794646878
   },
   "LFT 446": {
    "pos": [
@@ -11885,7 +11886,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794614853
+   "t": 1794646963
   },
   "Dongkum": {
    "pos": [
@@ -11903,7 +11904,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794643708
+   "t": 1794647016
   },
   "Holo": {
    "pos": [
@@ -12455,7 +12456,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794585576
+   "t": 1794646324
   },
   "Nyal": {
    "pos": [
@@ -12696,7 +12697,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794613736
+   "t": 1794647049
   },
   "Trianguli Sector QZ-O a6-4": {
    "pos": [
@@ -13408,13 +13409,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.259744,
+   "prog": 0.259844,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794635188
+   "t": 1794646566
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -14255,6 +14256,87 @@
     "Zemina Torval"
    ],
    "t": 1794644442
+  },
+  "Lodheima": {
+   "pos": [
+    -11.34375,
+    -24.46875,
+    -122.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794645813
+  },
+  "Trianguli Sector BG-X b1-5": {
+   "pos": [
+    32.46875,
+    -13.09375,
+    -92.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.172569,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794646034
+  },
+  "Branglal": {
+   "pos": [
+    18.90625,
+    34.28125,
+    -77.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.104615,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794646444
+  },
+  "Tascheter Sector UT-A b1": {
+   "pos": [
+    -8.125,
+    -0.6875,
+    -105.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794646830
+  },
+  "Pehuti": {
+   "pos": [
+    -23.625,
+    79.53125,
+    -140.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794646939
   }
  }
 }

@@ -3440,7 +3440,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 6
+    "2026-11-14": 10
    },
    "pn": {
     "J9W-B6T": {
@@ -10652,10 +10652,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794614957.8711164,
-  "msgs": 399085,
+  "msgs": 413657,
   "mios": 19
  },
- "t": 1794615983.5676763,
+ "t": 1794616864.5487087,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10704,7 +10704,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794615439
+   "t": 1794616661
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10913,7 +10913,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794597425
+   "t": 1794616725
   },
   "Lyncis Sector RI-T b3-1": {
    "pos": [
@@ -10976,7 +10976,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794613685
+   "t": 1794616300
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -12818,6 +12818,58 @@
     "Li Yong-Rui"
    ],
    "t": 1794615977
+  },
+  "LTT 10918": {
+   "pos": [
+    -60.53125,
+    -9.0625,
+    -73.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.0458,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794616117
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155426,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794616169
+  },
+  "Trianguli Sector ZL-L a8-2": {
+   "pos": [
+    38.15625,
+    -34.59375,
+    -43.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.022283,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794616674
   }
  }
 }

@@ -271,9 +271,9 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794531894,
-   "src": "EDDN",
-   "inf": 58.24,
+   "t": 1794586558,
+   "src": "EDSM",
+   "inf": 58.7,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -282,39 +282,39 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 27.07,
+   "segunda_inf": 26.8,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 58.24,
+     "inf": 58.7,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 27.07,
+     "inf": 26.8,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
      "pend": [
       "Expansion"
      ],
-     "jug": null
+     "jug": true
     },
     {
      "n": "LTT 11648 Partners",
-     "inf": 14.69,
+     "inf": 14.5,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -358,8 +358,8 @@
     "desde": 1794420137,
     "est": null
    },
-   "prev": 57.98,
-   "prev_t": 1794420137,
+   "prev": 58.24,
+   "prev_t": 1794531894,
    "hinf": [
     [
      1794335731,
@@ -372,6 +372,10 @@
     [
      1794513677,
      58.24
+    ],
+    [
+     1794586558,
+     58.7
     ]
    ],
    "tick_ult": 1794513677,
@@ -10957,10 +10961,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794656737.399839,
-  "msgs": 908962,
+  "msgs": 937103,
   "mios": 44
  },
- "t": 1794658353.2542102,
+ "t": 1794660184.5239317,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10986,14 +10990,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.270894,
+   "prog": 0.27088,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794657491
+   "t": 1794660174
   },
   "HIP 46236": {
    "pos": [
@@ -11009,7 +11013,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794658091
+   "t": 1794659164
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11218,7 +11222,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794653814
+   "t": 1794658783
   },
   "Lyncis Sector RI-T b3-1": {
    "pos": [
@@ -12013,7 +12017,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272151,
+   "prog": 0.272224,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -12021,7 +12025,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794647016
+   "t": 1794659155
   },
   "Holo": {
    "pos": [
@@ -12031,12 +12035,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.247435,
+   "prog": 0.247444,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794605249
+   "t": 1794658836
   },
   "Saktas": {
    "pos": [
@@ -12956,7 +12960,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794614886
+   "t": 1794659770
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -13416,13 +13420,13 @@
    ],
    "pot": "Felicia Winters",
    "est": "Stronghold",
-   "prog": 0.251124,
+   "prog": 0.250874,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794650972
+   "t": 1794658612
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -14403,7 +14407,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794646034
+   "t": 1794658468
   },
   "Branglal": {
    "pos": [
@@ -14879,6 +14883,39 @@
     "Li Yong-Rui"
    ],
    "t": 1794657588
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251148,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794658565
+  },
+  "Iku-Turso": {
+   "pos": [
+    6.46875,
+    -77.90625,
+    -14.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794659921
   }
  }
 }

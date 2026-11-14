@@ -990,7 +990,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 12,
+    "2026-11-14": 13,
     "2026-03-30": 1
    },
    "zc": [
@@ -1018,7 +1018,7 @@
    "pn": {
     "V5L-09Z": {
      "n": "BACON BOMB",
-     "t": 1794624041
+     "t": 1794651233
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
@@ -1758,7 +1758,7 @@
    },
    "trafico": {
     "2026-11-10": 14,
-    "2026-11-14": 19,
+    "2026-11-14": 24,
     "2026-04-11": 1,
     "2026-05-03": 1
    },
@@ -10934,10 +10934,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794650119.4089506,
-  "msgs": 814632,
+  "msgs": 825645,
   "mios": 41
  },
- "t": 1794651048.1406145,
+ "t": 1794651919.1992745,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10970,7 +10970,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794650322
+   "t": 1794651519
   },
   "HIP 46236": {
    "pos": [
@@ -11913,7 +11913,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794608917
+   "t": 1794651214
   },
   "HIP 45096": {
    "pos": [
@@ -12807,7 +12807,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794612191
+   "t": 1794651451
   },
   "ICZ BF-Z b4": {
    "pos": [
@@ -13869,7 +13869,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794633407
+   "t": 1794651807
   },
   "Hyades Sector OO-P b6-5": {
    "pos": [
@@ -14611,6 +14611,56 @@
     "Jerome Archer"
    ],
    "t": 1794650881
+  },
+  "Uoluskas": {
+   "pos": [
+    27.375,
+    15.53125,
+    -94.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.281167,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794651278
+  },
+  "Fimbulwinter": {
+   "pos": [
+    -21.125,
+    -8.6875,
+    -100.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794651666
+  },
+  "Cosi": {
+   "pos": [
+    24.75,
+    -14.6875,
+    -70.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.278024,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794651727
   }
  }
 }

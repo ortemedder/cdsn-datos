@@ -1002,7 +1002,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 17,
+    "2026-11-14": 18,
     "2026-03-30": 1
    },
    "zc": [
@@ -10978,10 +10978,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794662456.84064,
-  "msgs": 974171,
+  "msgs": 988161,
   "mios": 46
  },
- "t": 1794662807.4259493,
+ "t": 1794663798.0936148,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11014,7 +11014,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794661739
+   "t": 1794662812
   },
   "HIP 46236": {
    "pos": [
@@ -11583,7 +11583,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794662185
+   "t": 1794663118
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -15144,6 +15144,54 @@
     "Li Yong-Rui"
    ],
    "t": 1794662456
+  },
+  "Tascheter Sector FR-M a7-0": {
+   "pos": [
+    17.625,
+    -34.84375,
+    -33.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794663682
+  },
+  "Hyades Sector TU-N b7-4": {
+   "pos": [
+    7.1875,
+    -0.3125,
+    -120.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.252355,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794663780
+  },
+  "BD+11 1163": {
+   "pos": [
+    36.28125,
+    -0.03125,
+    -98.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794663780
   }
  }
 }

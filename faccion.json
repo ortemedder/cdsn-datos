@@ -3574,7 +3574,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794698933,
+   "t": 1794699910,
    "src": "EDDN",
    "inf": 73.95,
    "ctrl": true,
@@ -3652,7 +3652,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 37
+    "2026-11-14": 39
    },
    "pn": {
     "J9W-B6T": {
@@ -3661,7 +3661,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794699210
+     "t": 1794700206
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3677,12 +3677,12 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794699210
+     "t": 1794700206
     }
    },
    "tk": {
     "firma": "ec70bce9",
-    "igual": 1794698933,
+    "igual": 1794699910,
     "ult": 1794681830,
     "desde": 1794604836,
     "est": null
@@ -6437,7 +6437,7 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 23
+    "2026-11-14": 25
    },
    "tk": {
     "firma": "9ac237db",
@@ -11343,11 +11343,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794698938.4722912,
-  "msgs": 263951,
-  "mios": 32
+  "ultimo": 1794699911.1254663,
+  "msgs": 281390,
+  "mios": 33
  },
- "t": 1794699343.8568964,
+ "t": 1794700294.5575745,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11954,13 +11954,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.310469,
+   "prog": 0.310531,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794694786
+   "t": 1794700014
   },
   "Zach": {
    "pos": [
@@ -12344,7 +12344,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794695924
+   "t": 1794700195
   },
   "Baraluhet": {
    "pos": [
@@ -13046,6 +13046,55 @@
     "Li Yong-Rui"
    ],
    "t": 1794699199
+  },
+  "Tascheter Sector BQ-Y c19": {
+   "pos": [
+    -4.875,
+    -9.53125,
+    -98.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794699835
+  },
+  "Bero": {
+   "pos": [
+    26.5625,
+    13.25,
+    -99.9375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Stronghold",
+   "prog": 0.34019,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794700251
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794700289
   }
  }
 }

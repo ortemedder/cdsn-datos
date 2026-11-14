@@ -5311,7 +5311,7 @@
     "2026-11-10": 12,
     "2026-11-11": 8,
     "2026-11-12": 6,
-    "2026-11-14": 5
+    "2026-11-14": 6
    },
    "pn": {
     "V8X-11L": {
@@ -6419,7 +6419,7 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 5
+    "2026-11-14": 7
    },
    "tk": {
     "firma": "9ac237db",
@@ -11095,15 +11095,137 @@
     "firma": "111179b0",
     "igual": 1794638637
    }
+  },
+  "Runab": {
+   "sys": "Runab",
+   "t": 1794683336,
+   "src": "EDDN",
+   "inf": 6.09,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Barons of Runab",
+   "segunda_inf": 44.36,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Barons of Runab",
+     "inf": 44.36,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Eluskapu Partnership",
+     "inf": 18.08,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Social Runab Progressive Party",
+     "inf": 13.49,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Celticassag Jet Bridge & Co",
+     "inf": 10.29,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 6.09,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Runab Company",
+     "inf": 5.79,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Runab Purple Crew",
+     "inf": 1.9,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Barons of Runab",
+   "pos": [
+    -18.9375,
+    39.5,
+    -114.78125
+   ],
+   "sis": {
+    "pob": 58848,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Feudal;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.253404,
+    "ref": 0,
+    "soc": 108,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794683336,
+     6.09
+    ]
+   ],
+   "tk": {
+    "firma": "7081194c",
+    "igual": 1794683336
+   },
+   "trafico": {
+    "2026-11-14": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794682681.2303042,
-  "msgs": 1324507,
-  "mios": 74
+  "ultimo": 1794683343.334686,
+  "msgs": 1341949,
+  "mios": 75
  },
- "t": 1794682724.653416,
+ "t": 1794683616.671181,
  "tick_global": 1794676615,
  "zona": {
   "Caerus": {
@@ -11129,14 +11251,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.271007,
+   "prog": 0.271099,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794682406
+   "t": 1794683567
   },
   "HIP 46236": {
    "pos": [
@@ -11230,7 +11352,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794600348
+   "t": 1794682768
   },
   "Bommatsuri": {
    "pos": [
@@ -11245,7 +11367,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794596368
+   "t": 1794683227
   },
   "Khaima": {
    "pos": [
@@ -11263,7 +11385,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794674893
+   "t": 1794682837
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -11424,7 +11546,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794682702
+   "t": 1794683613
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -11687,7 +11809,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794669060
+   "t": 1794683370
   },
   "Ross 584": {
    "pos": [
@@ -12063,7 +12185,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794604220
+   "t": 1794683365
   },
   "Bondranses": {
    "pos": [
@@ -13871,7 +13993,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794629858
+   "t": 1794683582
   },
   "LTT 11455": {
    "pos": [
@@ -14276,7 +14398,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794638882
+   "t": 1794682933
   },
   "NLTT 17993": {
    "pos": [
@@ -14439,7 +14561,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794641324
+   "t": 1794682816
   },
   "Chipibogi": {
    "pos": [
@@ -14659,7 +14781,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794649887
+   "t": 1794683020
   },
   "Col 285 Sector YZ-U b17-9": {
    "pos": [
@@ -15857,7 +15979,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794669477
+   "t": 1794682880
   },
   "Tascheter Sector AA-Z b3": {
    "pos": [
@@ -15890,7 +16012,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794676604
+   "t": 1794682829
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -15906,7 +16028,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794670714
+   "t": 1794682775
   },
   "HIP 35755": {
    "pos": [
@@ -16230,7 +16352,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794676368
+   "t": 1794683430
   },
   "BD-04 782": {
    "pos": [
@@ -16718,6 +16840,69 @@
     "Jerome Archer"
    ],
    "t": 1794682689
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.126283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794682863
+  },
+  "Patal": {
+   "pos": [
+    -1.3125,
+    -117.71875,
+    -52.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794683153
+  },
+  "Naren": {
+   "pos": [
+    -47.46875,
+    -18.78125,
+    -114.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.255229,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794683197
+  },
+  "Runab": {
+   "pos": [
+    -18.9375,
+    39.5,
+    -114.78125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794683336
   }
  }
 }

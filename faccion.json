@@ -4644,7 +4644,7 @@
   },
   "LHS 5116": {
    "sys": "LHS 5116",
-   "t": 1794237767,
+   "t": 1794638681,
    "src": "EDDN",
    "inf": 8.57,
    "ctrl": false,
@@ -4663,10 +4663,10 @@
      "inf": 62.75,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -4755,13 +4755,26 @@
    },
    "trafico": {
     "2026-11-09": 1,
-    "2026-04-11": 1
+    "2026-04-11": 1,
+    "2026-11-14": 1
    },
    "pn": {
     "T0N-T1Z": {
      "n": "[AGCT] Freedom",
      "t": 1775880522
     }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794237767,
+     8.57
+    ]
+   ],
+   "tk": {
+    "firma": "aca29418",
+    "igual": 1794638681
    }
   },
   "Ceti Sector CL-X b1-1": {
@@ -10629,15 +10642,136 @@
     "firma": "5e4540f6",
     "igual": 1794611891
    }
+  },
+  "Chothe": {
+   "sys": "Chothe",
+   "t": 1794638637,
+   "src": "EDDN",
+   "inf": 24.4,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Order of Enblackenment",
+   "segunda_inf": 50.79,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Order of Enblackenment",
+     "inf": 50.79,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 24.4,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Chothe Confederation",
+     "inf": 8.73,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ba Jonandja Republic Party",
+     "inf": 6.15,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "United BD+47 1236 Independents",
+     "inf": 5.85,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Chothe Corporation",
+     "inf": 3.08,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mafia of Chothe",
+     "inf": 0.99,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Order of Enblackenment",
+   "pos": [
+    -15.75,
+    18.53125,
+    -87.9375
+   ],
+   "sis": {
+    "pob": 37187,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Refinery;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Theocracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.118355,
+    "ref": 25,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794638637,
+     24.4
+    ]
+   ],
+   "tk": {
+    "firma": "111179b0",
+    "igual": 1794638637
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794637265.768102,
-  "msgs": 678986,
-  "mios": 28
+  "ultimo": 1794638683.0940654,
+  "msgs": 687505,
+  "mios": 30
  },
- "t": 1794638387.378183,
+ "t": 1794639398.4682148,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -13457,7 +13591,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794630546
+   "t": 1794638921
   },
   "Tascheter Sector ZZ-Y b3": {
    "pos": [
@@ -13715,6 +13849,216 @@
     "Li Yong-Rui"
    ],
    "t": 1794637432
+  },
+  "LHS 1697": {
+   "pos": [
+    -47.75,
+    13.59375,
+    -83.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794638549
+  },
+  "Tascheter Sector AL-O a6-0": {
+   "pos": [
+    7.625,
+    -32.9375,
+    -41.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.077712,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794638621
+  },
+  "Chothe": {
+   "pos": [
+    -15.75,
+    18.53125,
+    -87.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.118355,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794638637
+  },
+  "LHS 5116": {
+   "pos": [
+    11.15625,
+    13.59375,
+    -95.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.243998,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794638681
+  },
+  "LTT 11503": {
+   "pos": [
+    -10.5,
+    -13,
+    -70.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794638804
+  },
+  "Yin Sector YZ-Y b3": {
+   "pos": [
+    -2.46875,
+    46.65625,
+    -73.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794638814
+  },
+  "Yin Sector YZ-Y b5": {
+   "pos": [
+    -0.15625,
+    41.9375,
+    -74.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794638865
+  },
+  "Tascheter Sector WE-Q a5-2": {
+   "pos": [
+    11.9375,
+    -31.1875,
+    -50.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794638882
+  },
+  "NLTT 17993": {
+   "pos": [
+    -0.4375,
+    31.0625,
+    -69.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794638910
+  },
+  "UBV 6193": {
+   "pos": [
+    -0.25,
+    26.4375,
+    -74.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794638961
+  },
+  "LP 254-27": {
+   "pos": [
+    -1.5625,
+    19.65625,
+    -70.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.254452,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794639057
+  },
+  "HIP 16460": {
+   "pos": [
+    106.40625,
+    -131.0625,
+    -11.125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.251403,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794639328
+  },
+  "ICZ AK-Z b3": {
+   "pos": [
+    116.65625,
+    -101.25,
+    -15.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794639397
   }
  }
 }

@@ -8558,7 +8558,7 @@
   },
   "Prajau": {
    "sys": "Prajau",
-   "t": 1794620637,
+   "t": 1794648350,
    "src": "EDDN",
    "inf": 49.61,
    "ctrl": true,
@@ -8659,21 +8659,21 @@
    },
    "trafico": {
     "2026-11-12": 2,
-    "2026-11-14": 1
+    "2026-11-14": 2
    },
    "pn": {
     "K2J-4XV": {
      "n": "045",
-     "t": 1794620637
+     "t": 1794648350
     },
     "HBN-58J": {
      "n": "=CDSN= LA INDOMABLE",
-     "t": 1794620637
+     "t": 1794648350
     }
    },
    "tk": {
     "firma": "b2121cb5",
-    "igual": 1794620637
+    "igual": 1794648350
    },
    "prev": null,
    "prev_t": null,
@@ -10839,11 +10839,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794646832.1768842,
-  "msgs": 771240,
-  "mios": 35
+  "ultimo": 1794648351.0832002,
+  "msgs": 781184,
+  "mios": 36
  },
- "t": 1794647234.3238177,
+ "t": 1794648354.8499684,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11257,14 +11257,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233795,
+   "prog": 0.233308,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794603926
+   "t": 1794647878
   },
   "Yaringu": {
    "pos": [
@@ -12987,7 +12987,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794617074
+   "t": 1794647967
   },
   "Ditia": {
    "pos": [
@@ -13137,7 +13137,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794620637
+   "t": 1794648350
   },
   "Deriv-Dar": {
    "pos": [
@@ -13409,13 +13409,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.259844,
+   "prog": 0.259915,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794646566
+   "t": 1794648017
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -14337,6 +14337,23 @@
     "Li Yong-Rui"
    ],
    "t": 1794646939
+  },
+  "Galene": {
+   "pos": [
+    37.25,
+    -44.09375,
+    -56.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.120569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794648339
   }
  }
 }

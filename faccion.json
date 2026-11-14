@@ -3440,7 +3440,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 3
+    "2026-11-14": 6
    },
    "pn": {
     "J9W-B6T": {
@@ -5064,7 +5064,7 @@
     "2026-11-10": 12,
     "2026-11-11": 8,
     "2026-11-12": 6,
-    "2026-11-14": 1
+    "2026-11-14": 2
    },
    "pn": {
     "V8X-11L": {
@@ -10652,10 +10652,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794614957.8711164,
-  "msgs": 387161,
+  "msgs": 399085,
   "mios": 19
  },
- "t": 1794615062.8073125,
+ "t": 1794615983.5676763,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10698,13 +10698,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.107871,
+   "prog": 0.110213,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794614573
+   "t": 1794615439
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11044,7 +11044,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794598645
+   "t": 1794615173
   },
   "LP 941-16": {
    "pos": [
@@ -12737,6 +12737,87 @@
     "Jerome Archer"
    ],
    "t": 1794614864
+  },
+  "StKM 1-442": {
+   "pos": [
+    31.96875,
+    -55.6875,
+    -40.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.125712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794615137
+  },
+  "Unktock": {
+   "pos": [
+    -41.34375,
+    -14.59375,
+    -68.625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.308487,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794615195
+  },
+  "Sairre": {
+   "pos": [
+    -21.21875,
+    37.375,
+    -82.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794615374
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.260589,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794615436
+  },
+  "Crowfor": {
+   "pos": [
+    4.625,
+    20.375,
+    -83
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.2448,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794615977
   }
  }
 }

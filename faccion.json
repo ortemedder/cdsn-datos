@@ -2019,7 +2019,8 @@
    "trafico": {
     "2026-11-09": 3,
     "2026-11-10": 3,
-    "2026-04-26": 2
+    "2026-04-26": 2,
+    "2026-04-24": 1
    },
    "pn": {
     "T3Z-46L": {
@@ -11025,10 +11026,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794672402.2376826,
-  "msgs": 1147770,
+  "msgs": 1165617,
   "mios": 57
  },
- "t": 1794672810.8735452,
+ "t": 1794673641.7691104,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11054,14 +11055,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.270938,
+   "prog": 0.270975,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794671566
+   "t": 1794673624
   },
   "HIP 46236": {
    "pos": [
@@ -12130,11 +12131,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.309249,
+   "prog": 0.309347,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794604357
+   "t": 1794673329
   },
   "Decima": {
    "pos": [
@@ -13618,7 +13619,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794626539
+   "t": 1794673228
   },
   "LHS 1803": {
    "pos": [
@@ -15207,7 +15208,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794665719
+   "t": 1794672998
   },
   "Hyades Sector TU-N b7-4": {
    "pos": [
@@ -16047,6 +16048,23 @@
     "Jerome Archer"
    ],
    "t": 1794672727
+  },
+  "Tascheter Sector IM-M a7-1": {
+   "pos": [
+    27.6875,
+    -38.875,
+    -28.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794672916
   }
  }
 }

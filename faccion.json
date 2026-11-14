@@ -2778,7 +2778,7 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794649444,
+   "t": 1794663943,
    "src": "EDDN",
    "inf": 8.61,
    "ctrl": false,
@@ -2880,12 +2880,12 @@
     "2026-11-11": 6,
     "2026-11-12": 2,
     "2026-11-13": 7,
-    "2026-11-14": 1
+    "2026-11-14": 3
    },
    "pn": {
     "K4J-GTX": {
      "n": "RIPACARRIER 2",
-     "t": 1794649568
+     "t": 1794664038
     },
     "JHT-19T": {
      "n": "Muj Milazek",
@@ -2894,7 +2894,7 @@
    },
    "tk": {
     "firma": "242186c2",
-    "igual": 1794649444,
+    "igual": 1794663943,
     "ult": 1794649444,
     "desde": 1794609027,
     "est": null,
@@ -10977,11 +10977,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794662456.84064,
-  "msgs": 988161,
-  "mios": 46
+  "ultimo": 1794664075.625711,
+  "msgs": 1001499,
+  "mios": 47
  },
- "t": 1794663798.0936148,
+ "t": 1794664679.5360181,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11014,7 +11014,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794662812
+   "t": 1794664622
   },
   "HIP 46236": {
    "pos": [
@@ -11061,7 +11061,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794649444
+   "t": 1794663943
   },
   "Ausan": {
    "pos": [
@@ -11297,12 +11297,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.255721,
+   "prog": 0.255757,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794631175
+   "t": 1794664403
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -11859,7 +11859,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794603159
+   "t": 1794664313
   },
   "GCRV 2311": {
    "pos": [
@@ -13324,7 +13324,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794655655
+   "t": 1794664239
   },
   "Menkalinan": {
    "pos": [
@@ -13443,7 +13443,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794658612
+   "t": 1794664676
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -14604,7 +14604,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794650687
+   "t": 1794664189
   },
   "BD+55 1142": {
    "pos": [
@@ -15048,7 +15048,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794661501
+   "t": 1794664566
   },
   "Shenetserii": {
    "pos": [
@@ -15192,6 +15192,131 @@
     "Li Yong-Rui"
    ],
    "t": 1794663780
+  },
+  "Col 285 Sector RD-T a33-6": {
+   "pos": [
+    125.65625,
+    -28.21875,
+    13.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794664036
+  },
+  "Zac Chehoga": {
+   "pos": [
+    128.34375,
+    -20.625,
+    8.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794664082
+  },
+  "Harrigus": {
+   "pos": [
+    129.6875,
+    -15,
+    3.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794664137
+  },
+  "BD+47 977": {
+   "pos": [
+    -42.75,
+    -1.03125,
+    -92.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.060569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794664186
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794664405
+  },
+  "Kalangputys": {
+   "pos": [
+    143.90625,
+    -15.53125,
+    5.25
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.142283,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794664466
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794664519
+  },
+  "Lenginang": {
+   "pos": [
+    -43,
+    95.78125,
+    -130.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794664651
   }
  }
 }

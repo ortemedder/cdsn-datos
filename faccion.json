@@ -7189,16 +7189,16 @@
   },
   "Hyades Sector UP-N b7-6": {
    "sys": "Hyades Sector UP-N b7-6",
-   "t": 1794434560,
+   "t": 1794696085,
    "src": "EDDN",
    "inf": 44.97,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 25.72,
    "conflictos": [],
@@ -7208,9 +7208,7 @@
      "inf": 44.97,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -7219,10 +7217,10 @@
      "inf": 25.72,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -7251,7 +7249,7 @@
     -110.9375
    ],
    "sis": {
-    "pob": 1347670,
+    "pob": 1356919,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -7273,14 +7271,21 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 1
+    "2026-11-11": 1,
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "6aeb24fc",
+    "igual": 1794696085
    },
    "prev": null,
    "prev_t": null,
-   "tk": {
-    "firma": "6aeb24fc",
-    "igual": 1794434560
-   }
+   "hinf": [
+    [
+     1794434560,
+     44.97
+    ]
+   ]
   },
   "Tascheter Sector CG-X b1-1": {
    "sys": "Tascheter Sector CG-X b1-1",
@@ -11236,7 +11241,7 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794695660,
+   "t": 1794696693,
    "src": "EDDN",
    "inf": 9.16,
    "ctrl": false,
@@ -11312,17 +11317,17 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-14": 3
+    "2026-11-14": 9
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794695660
+     "t": 1794696693
     }
    },
    "tk": {
     "firma": "f93774e7",
-    "igual": 1794695660
+    "igual": 1794696693
    },
    "prev": null,
    "prev_t": null,
@@ -11336,11 +11341,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794695660.8887303,
-  "msgs": 182844,
-  "mios": 11
+  "ultimo": 1794696693.769587,
+  "msgs": 205797,
+  "mios": 25
  },
- "t": 1794695759.0294707,
+ "t": 1794696620.5335834,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11494,7 +11499,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794694830
+   "t": 1794695937
   },
   "Nyal": {
    "pos": [
@@ -12337,7 +12342,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794695279
+   "t": 1794695924
   },
   "Baraluhet": {
    "pos": [
@@ -12399,7 +12404,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794693134
+   "t": 1794696606
   },
   "Gliese 3299": {
    "pos": [
@@ -12681,6 +12686,135 @@
     "Jerome Archer"
    ],
    "t": 1794694064
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.406238,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794695813
+  },
+  "Snotricopa": {
+   "pos": [
+    31.5,
+    -12.6875,
+    -90.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.195077,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794696025
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794696052
+  },
+  "Hyades Sector UP-N b7-6": {
+   "pos": [
+    -14.875,
+    -9.59375,
+    -110.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794696085
+  },
+  "Col 285 Sector IM-L c8-19": {
+   "pos": [
+    131.5625,
+    -20.15625,
+    -0.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794696199
+  },
+  "Iku-Turso": {
+   "pos": [
+    6.46875,
+    -77.90625,
+    -14.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794696276
+  },
+  "Col 285 Sector WJ-R a34-1": {
+   "pos": [
+    136.5,
+    -34.21875,
+    18.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794696297
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": null,
+   "est": "Exploited",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1683465905
   }
  }
 }

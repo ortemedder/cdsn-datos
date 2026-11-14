@@ -912,7 +912,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1794633195,
+   "t": 1794649124,
    "src": "EDDN",
    "inf": 15.48,
    "ctrl": false,
@@ -965,7 +965,7 @@
     -114.78125
    ],
    "sis": {
-    "pob": 61765998,
+    "pob": 61767755,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -990,7 +990,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 7,
+    "2026-11-14": 8,
     "2026-03-30": 1
    },
    "zc": [
@@ -1307,7 +1307,7 @@
    },
    "tk": {
     "firma": "79140105",
-    "igual": 1794633195,
+    "igual": 1794649124,
     "ult": 1794601511,
     "desde": 1794498884,
     "est": null
@@ -1567,7 +1567,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794641208,
+   "t": 1794649225,
    "src": "EDDN",
    "inf": 68.35,
    "ctrl": true,
@@ -1666,8 +1666,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.248366,
-    "ref": 39,
+    "prog": 0.248431,
+    "ref": 81,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -1678,27 +1678,27 @@
    },
    "trafico": {
     "2026-11-10": 14,
-    "2026-11-14": 8,
+    "2026-11-14": 14,
     "2026-04-11": 1,
     "2026-05-03": 1
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794641303
+     "t": 1794649225
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794641303
+     "t": 1794649225
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794641303
+     "t": 1794649225
     }
    },
    "tk": {
     "firma": "a81f8dd4",
-    "igual": 1794641208
+    "igual": 1794649225
    },
    "prev": 67.33,
    "prev_t": 1794290838,
@@ -10839,11 +10839,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794648351.0832002,
-  "msgs": 781184,
-  "mios": 36
+  "ultimo": 1794649226.5655124,
+  "msgs": 791393,
+  "mios": 39
  },
- "t": 1794648354.8499684,
+ "t": 1794649345.8951383,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10869,14 +10869,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.266141,
+   "prog": 0.270894,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794632849
+   "t": 1794649334
   },
   "HIP 46236": {
    "pos": [
@@ -13415,7 +13415,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794648017
+   "t": 1794649076
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -13742,7 +13742,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794633195
+   "t": 1794649124
   },
   "LFT 330": {
    "pos": [
@@ -14156,14 +14156,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.248366,
+   "prog": 0.248431,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794641208
+   "t": 1794649225
   },
   "Chimechilo": {
    "pos": [
@@ -14354,6 +14354,37 @@
     "Jerome Archer"
    ],
    "t": 1794648339
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.25346,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794648477
+  },
+  "Alpha Doradus": {
+   "pos": [
+    125.9375,
+    -111.28125,
+    -14
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794649128
   }
  }
 }

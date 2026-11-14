@@ -472,7 +472,7 @@
   },
   "Menkalinan": {
    "sys": "Menkalinan",
-   "t": 1794413495,
+   "t": 1794621945,
    "src": "EDDN",
    "inf": 11.32,
    "ctrl": false,
@@ -483,21 +483,23 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 63.03,
+   "segunda_inf": 62.73,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 63.03,
+     "inf": 62.73,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Democrats of Condharwal",
-     "inf": 12.93,
+     "inf": 13.23,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -541,7 +543,7 @@
     -77.84375
    ],
    "sis": {
-    "pob": 65927883,
+    "pob": 65929892,
     "eco": "$economy_Military;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -564,14 +566,30 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 1
+    "2026-11-11": 1,
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "47a66d38",
+    "igual": 1794621945,
+    "ult": 1794621945,
+    "desde": 1794413495,
+    "est": null
    },
    "prev": 12.84,
    "prev_t": 1794157712,
-   "tk": {
-    "firma": "ef3ee512",
-    "igual": 1794413495
-   }
+   "hinf": [
+    [
+     1794157712,
+     12.84
+    ],
+    [
+     1794413495,
+     11.32
+    ]
+   ],
+   "tick_ult": 1794621945,
+   "tick_marg": 1737
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
@@ -10667,11 +10685,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794620656.8817832,
-  "msgs": 480744,
-  "mios": 21
+  "ultimo": 1794621946.2902474,
+  "msgs": 493323,
+  "mios": 22
  },
- "t": 1794620946.9607546,
+ "t": 1794622177.4147975,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10720,7 +10738,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794620758
+   "t": 1794621676
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -13101,6 +13119,75 @@
     "Jerome Archer"
    ],
    "t": 1794620945
+  },
+  "HIP 44811": {
+   "pos": [
+    132.84375,
+    -4.40625,
+    3.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.136158,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794621496
+  },
+  "Menkalinan": {
+   "pos": [
+    -16.875,
+    15.4375,
+    -77.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794621945
+  },
+  "Kamuti": {
+   "pos": [
+    -38.5625,
+    27.65625,
+    -104.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.123426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794622036
+  },
+  "HIP 48376": {
+   "pos": [
+    149.0625,
+    -1.21875,
+    24.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval",
+    "Nakato Kaine"
+   ],
+   "t": 1794622166
   }
  }
 }

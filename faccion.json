@@ -3554,38 +3554,38 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794604836,
+   "t": 1794681830,
    "src": "EDDN",
-   "inf": 87.13,
+   "inf": 73.95,
    "ctrl": true,
-   "estado": "Expansion",
+   "estado": "Boom",
    "activos": [
     "CivilLiberty",
-    "Boom",
-    "Expansion"
+    "Boom"
    ],
    "pendientes": [],
-   "recuperando": [],
+   "recuperando": [
+    "Expansion"
+   ],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 11.48,
+   "segunda_inf": 17.37,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 87.13,
+     "inf": 73.95,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "CivilLiberty",
-      "Boom",
-      "Expansion"
+      "Boom"
      ],
      "pend": [],
      "jug": null
     },
     {
      "n": "Natural Atese Front",
-     "inf": 11.48,
+     "inf": 17.37,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -3594,7 +3594,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 1.4,
+     "inf": 8.68,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [
@@ -3611,7 +3611,7 @@
     280.59375
    ],
    "sis": {
-    "pob": 46619600,
+    "pob": 49924120,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -3632,7 +3632,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 13
+    "2026-11-14": 14
    },
    "pn": {
     "J9W-B6T": {
@@ -3661,14 +3661,14 @@
     }
    },
    "tk": {
-    "firma": "ef2248b5",
-    "igual": 1794604836,
-    "ult": 1794600670,
-    "desde": 1794523635,
+    "firma": "ec70bce9",
+    "igual": 1794681830,
+    "ult": 1794681830,
+    "desde": 1794604836,
     "est": null
    },
-   "prev": 86.81,
-   "prev_t": 1794523635,
+   "prev": 87.13,
+   "prev_t": 1794604836,
    "hinf": [
     [
      1794353391,
@@ -3685,9 +3685,13 @@
     [
      1794583391,
      87.13
+    ],
+    [
+     1794681830,
+     73.95
     ]
    ],
-   "tick_ult": 1794600670,
+   "tick_ult": 1794681830,
    "tick_marg": 641
   },
   "Hyades Sector JX-T c3-19": {
@@ -6415,7 +6419,7 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 2
+    "2026-11-14": 4
    },
    "tk": {
     "firma": "9ac237db",
@@ -6706,7 +6710,7 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-14": 14
+    "2026-11-14": 16
    },
    "pn": {
     "T9Q-5HX": {
@@ -11095,11 +11099,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794680807.726026,
-  "msgs": 1288787,
-  "mios": 70
+  "ultimo": 1794681835.8765228,
+  "msgs": 1306151,
+  "mios": 71
  },
- "t": 1794680940.8161283,
+ "t": 1794681842.1319294,
  "tick_global": 1794676615,
  "zona": {
   "Caerus": {
@@ -11132,7 +11136,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794680579
+   "t": 1794681770
   },
   "HIP 46236": {
    "pos": [
@@ -11420,7 +11424,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794680941
+   "t": 1794681514
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -11643,7 +11647,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.007206,
+   "prog": 0.007223,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -11651,7 +11655,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794678898
+   "t": 1794681732
   },
   "Gurabru": {
    "pos": [
@@ -13689,7 +13693,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794673228
+   "t": 1794681190
   },
   "LHS 1803": {
    "pos": [
@@ -15278,7 +15282,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794672998
+   "t": 1794681220
   },
   "Hyades Sector TU-N b7-4": {
    "pos": [
@@ -16134,7 +16138,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794676393
+   "t": 1794681470
   },
   "Chonost": {
    "pos": [
@@ -16342,7 +16346,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794676854
+   "t": 1794680182
   },
   "Lalande 10797": {
    "pos": [
@@ -16441,7 +16445,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794678173
+   "t": 1794681325
   },
   "Yin Sector ZU-Y b4": {
    "pos": [
@@ -16606,6 +16610,20 @@
     "Pranav Antal"
    ],
    "t": 1794680531
+  },
+  "Maiden": {
+   "pos": [
+    -8,
+    -98.28125,
+    -51.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.264306,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794680052
   }
  }
 }

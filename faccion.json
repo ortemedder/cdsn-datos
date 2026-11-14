@@ -924,7 +924,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1794665221,
+   "t": 1794672400,
    "src": "EDDN",
    "inf": 15.48,
    "ctrl": false,
@@ -1002,7 +1002,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 29,
+    "2026-11-14": 31,
     "2026-03-30": 1
    },
    "zc": [
@@ -1403,7 +1403,7 @@
    },
    "tk": {
     "firma": "79140105",
-    "igual": 1794665221,
+    "igual": 1794672400,
     "ult": 1794601511,
     "desde": 1794498884,
     "est": null
@@ -11024,11 +11024,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794669224.2205544,
-  "msgs": 1110514,
-  "mios": 56
+  "ultimo": 1794672402.2376826,
+  "msgs": 1147770,
+  "mios": 57
  },
- "t": 1794670998.32867,
+ "t": 1794672810.8735452,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11061,7 +11061,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794670331
+   "t": 1794671566
   },
   "HIP 46236": {
    "pos": [
@@ -11077,7 +11077,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794668138
+   "t": 1794671620
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11204,7 +11204,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794637171
+   "t": 1794672540
   },
   "Yax Balam": {
    "pos": [
@@ -11328,13 +11328,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.258402,
+   "prog": 0.258877,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794597751
+   "t": 1794672419
   },
   "BD+43 866": {
    "pos": [
@@ -11580,7 +11580,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794616949
+   "t": 1794670753
   },
   "Gurabru": {
    "pos": [
@@ -12019,7 +12019,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794636828
+   "t": 1794672292
   },
   "Bestia": {
    "pos": [
@@ -13189,7 +13189,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794617431
+   "t": 1794672726
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -13257,7 +13257,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794618850
+   "t": 1794672791
   },
   "Col 285 Sector RY-W b16-4": {
    "pos": [
@@ -13490,7 +13490,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794666671
+   "t": 1794672558
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -13584,7 +13584,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794670397
+   "t": 1794672801
   },
   "LEHPM 1902": {
    "pos": [
@@ -13710,13 +13710,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.143257,
+   "prog": 0.140177,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794629000
+   "t": 1794671060
   },
   "Trianguli Sector BH-L a8-2": {
    "pos": [
@@ -13927,7 +13927,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794665221
+   "t": 1794672400
   },
   "LFT 330": {
    "pos": [
@@ -14070,7 +14070,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794637432
+   "t": 1794671022
   },
   "LHS 1697": {
    "pos": [
@@ -14768,7 +14768,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794653192
+   "t": 1794671440
   },
   "Jeticans": {
    "pos": [
@@ -14800,7 +14800,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794656569
+   "t": 1794671192
   },
   "BD+27 881": {
    "pos": [
@@ -14842,11 +14842,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.35075,
+   "prog": 0.35121,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794654162
+   "t": 1794672783
   },
   "BD+24 1451": {
    "pos": [
@@ -15513,7 +15513,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794665629
+   "t": 1794671744
   },
   "Nebthet": {
    "pos": [
@@ -15913,6 +15913,140 @@
     "Jerome Archer"
    ],
    "t": 1794670994
+  },
+  "Daga tri": {
+   "pos": [
+    -23.1875,
+    -2.625,
+    -100.9375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794671098
+  },
+  "BD+49 1658": {
+   "pos": [
+    -14.09375,
+    42.25,
+    -75.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794671277
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.186978,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794671664
+  },
+  "Didarengu": {
+   "pos": [
+    27.375,
+    18.1875,
+    -89.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.26212,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794671891
+  },
+  "Tascheter Sector CL-O a6-2": {
+   "pos": [
+    30.71875,
+    -32.59375,
+    -37
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.0761,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794672564
+  },
+  "Tascheter Sector CL-O a6-1": {
+   "pos": [
+    33.09375,
+    -34.0625,
+    -37.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794672675
+  },
+  "Col 285 Sector RD-T a33-5": {
+   "pos": [
+    131.09375,
+    -29.875,
+    11.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794672487
+  },
+  "Suyarang": {
+   "pos": [
+    21.15625,
+    -12.0625,
+    -75.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.161712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794672727
   }
  }
 }

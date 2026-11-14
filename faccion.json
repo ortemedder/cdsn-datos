@@ -994,7 +994,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 15,
+    "2026-11-14": 17,
     "2026-03-30": 1
    },
    "zc": [
@@ -1387,6 +1387,10 @@
     "Q2T-24L": {
      "n": "SPEAR OF THE MOON",
      "t": 1794650117
+    },
+    "X5W-19Y": {
+     "n": "STELLAR NOMAD",
+     "t": 1794660634
     }
    },
    "tk": {
@@ -9382,7 +9386,7 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1794418698,
+   "t": 1794658582,
    "src": "EDDN",
    "inf": 15.02,
    "ctrl": false,
@@ -9489,16 +9493,21 @@
      "Li Yong-Rui"
     ]
    },
+   "trafico": {
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "34960048",
+    "igual": 1794658582
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794418698,
      15.02
     ]
-   ],
-   "tk": {
-    "firma": "34960048",
-    "igual": 1794418698
-   }
+   ]
   },
   "Hima": {
    "sys": "Hima",
@@ -10960,11 +10969,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794656737.399839,
-  "msgs": 937103,
-  "mios": 44
+  "ultimo": 1794660794.1134973,
+  "msgs": 949133,
+  "mios": 45
  },
- "t": 1794660184.5239317,
+ "t": 1794660895.5366287,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10997,7 +11006,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794660174
+   "t": 1794660884
   },
   "HIP 46236": {
    "pos": [
@@ -11013,7 +11022,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794659164
+   "t": 1794660476
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11743,7 +11752,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794336793
+   "t": 1794661080
   },
   "Binar": {
    "pos": [
@@ -14407,7 +14416,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794658468
+   "t": 1794660832
   },
   "Branglal": {
    "pos": [
@@ -14799,7 +14808,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794654410
+   "t": 1794659813
   },
   "HR 2439": {
    "pos": [
@@ -14809,14 +14818,14 @@
    ],
    "pot": "Aisling Duval",
    "est": "Exploited",
-   "prog": 0.254975,
+   "prog": 0.254701,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794654459
+   "t": 1794660378
   },
   "Amijara": {
    "pos": [
@@ -14916,6 +14925,92 @@
     "Zemina Torval"
    ],
    "t": 1794659921
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.264404,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794655092
+  },
+  "Shouvul": {
+   "pos": [
+    28.53125,
+    17.875,
+    -88.90625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.234694,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794657197
+  },
+  "Cerno": {
+   "pos": [
+    30.0625,
+    26.875,
+    -82.9375
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.1366,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794658424
+  },
+  "Haraka": {
+   "pos": [
+    5.875,
+    16.4375,
+    -90.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.250784,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794658582
+  },
+  "BD+27 1356": {
+   "pos": [
+    20.03125,
+    34.09375,
+    -101.9375
+   ],
+   "pot": "Felicia Winters",
+   "est": "Exploited",
+   "prog": 0.161712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794659375
   }
  }
 }

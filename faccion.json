@@ -4562,9 +4562,9 @@
   },
   "BD+27 881": {
    "sys": "BD+27 881",
-   "t": 1794490279,
+   "t": 1794653365,
    "src": "EDDN",
-   "inf": 5.69,
+   "inf": 5.68,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -4573,41 +4573,45 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 53.05,
+   "segunda_inf": 52.64,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 53.05,
+     "inf": 52.64,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
-     "jug": null
-    },
-    {
-     "n": "GCRV 4259 Limited",
-     "inf": 11.69,
-     "gov": "Corporate",
-     "alg": "Federation",
-     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "BD+27 881 Independents",
-     "inf": 10.59,
+     "inf": 11.37,
      "gov": "Democracy",
      "alg": "Federation",
-     "act": [],
+     "act": [
+      "War"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "GCRV 4259 Limited",
+     "inf": 11.37,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "War"
+     ],
      "pend": [],
      "jug": null
     },
     {
      "n": "Ross 411 Network",
-     "inf": 8.29,
+     "inf": 8.28,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -4616,7 +4620,7 @@
     },
     {
      "n": "BD+27 881 Allied Industry",
-     "inf": 5.89,
+     "inf": 5.88,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -4625,7 +4629,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 5.69,
+     "inf": 5.68,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4636,7 +4640,7 @@
     },
     {
      "n": "BD+27 881 Dynasty",
-     "inf": 4.8,
+     "inf": 4.79,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -4673,14 +4677,30 @@
    "trafico": {
     "2026-10-30": 1,
     "2026-11-10": 3,
-    "2026-11-12": 2
+    "2026-11-12": 1,
+    "2026-11-14": 1
    },
-   "prev": null,
-   "prev_t": null,
    "tk": {
-    "firma": "303ea129",
-    "igual": 1794490279
-   }
+    "firma": "a2b96451",
+    "igual": 1794653365,
+    "ult": 1794653365,
+    "desde": 1794490279,
+    "est": null
+   },
+   "prev": 5.69,
+   "prev_t": 1794490279,
+   "hinf": [
+    [
+     1794490279,
+     5.69
+    ],
+    [
+     1794653365,
+     5.68
+    ]
+   ],
+   "tick_ult": 1794653365,
+   "tick_marg": 1359
   },
   "Condharwal": {
    "sys": "Condharwal",
@@ -10936,11 +10956,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794652106.05062,
-  "msgs": 836973,
-  "mios": 42
+  "ultimo": 1794653365.7609262,
+  "msgs": 849359,
+  "mios": 43
  },
- "t": 1794652880.0221605,
+ "t": 1794653820.8423247,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10973,7 +10993,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794652826
+   "t": 1794653626
   },
   "HIP 46236": {
    "pos": [
@@ -11198,7 +11218,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794645071
+   "t": 1794653814
   },
   "Lyncis Sector RI-T b3-1": {
    "pos": [
@@ -13872,7 +13892,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794651807
+   "t": 1794653413
   },
   "Hyades Sector OO-P b6-5": {
    "pos": [
@@ -14664,6 +14684,87 @@
     "Jerome Archer"
    ],
    "t": 1794651727
+  },
+  "Tascheter Sector GR-M a7-0": {
+   "pos": [
+    25.4375,
+    -34,
+    -34.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.15518,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794653192
+  },
+  "Jeticans": {
+   "pos": [
+    28.90625,
+    11.0625,
+    -110.125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.168569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794653273
+  },
+  "Nipibo": {
+   "pos": [
+    136.59375,
+    -5.5625,
+    4.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794653321
+  },
+  "BD+27 881": {
+   "pos": [
+    4.875,
+    0.90625,
+    -118.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.14114,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794653365
+  },
+  "HIP 23302": {
+   "pos": [
+    -15.09375,
+    -14.25,
+    -127.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794653454
   }
  }
 }

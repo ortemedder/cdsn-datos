@@ -1647,7 +1647,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794649225,
+   "t": 1794656736,
    "src": "EDDN",
    "inf": 68.35,
    "ctrl": true,
@@ -1746,8 +1746,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.248431,
-    "ref": 81,
+    "prog": 0.248435,
+    "ref": 84,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -1758,27 +1758,27 @@
    },
    "trafico": {
     "2026-11-10": 14,
-    "2026-11-14": 28,
+    "2026-11-14": 30,
     "2026-04-11": 1,
     "2026-05-03": 1
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794649225
+     "t": 1794656736
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794649225
+     "t": 1794656736
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794649225
+     "t": 1794656736
     }
    },
    "tk": {
     "firma": "a81f8dd4",
-    "igual": 1794649225
+    "igual": 1794656736
    },
    "prev": 67.33,
    "prev_t": 1794290838,
@@ -10956,11 +10956,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794653365.7609262,
-  "msgs": 872894,
-  "mios": 43
+  "ultimo": 1794656737.399839,
+  "msgs": 896450,
+  "mios": 44
  },
- "t": 1794655681.9559915,
+ "t": 1794657032.728078,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10993,7 +10993,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794654288
+   "t": 1794657019
   },
   "HIP 46236": {
    "pos": [
@@ -13713,7 +13713,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794629033
+   "t": 1794656273
   },
   "Kongaguan": {
    "pos": [
@@ -14273,14 +14273,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.248431,
+   "prog": 0.248435,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794649225
+   "t": 1794656736
   },
   "Chimechilo": {
    "pos": [
@@ -14732,7 +14732,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794653321
+   "t": 1794656569
   },
   "BD+27 881": {
    "pos": [
@@ -14829,6 +14829,39 @@
     "Jerome Archer"
    ],
    "t": 1794655280
+  },
+  "Huveang De": {
+   "pos": [
+    -40.71875,
+    -22.84375,
+    -114.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794655734
+  },
+  "Ceti Sector AV-Y c17": {
+   "pos": [
+    14.09375,
+    -74.625,
+    -25.96875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.144075,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794656344
   }
  }
 }

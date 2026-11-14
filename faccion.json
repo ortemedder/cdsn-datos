@@ -3946,7 +3946,7 @@
   },
   "Ndabangluya": {
    "sys": "Ndabangluya",
-   "t": 1794675617,
+   "t": 1794679656,
    "src": "EDDN",
    "inf": 64.82,
    "ctrl": true,
@@ -4056,41 +4056,41 @@
    },
    "trafico": {
     "2026-11-11": 1,
-    "2026-11-14": 2
+    "2026-11-14": 3
    },
    "pn": {
     "QBT-LQY": {
      "n": "NEOLUXX",
-     "t": 1794675617
+     "t": 1794679666
     },
     "X2Z-0HL": {
      "n": "SAPPHIRE",
-     "t": 1794675617
+     "t": 1794679666
     },
     "KBF-NTY": {
      "n": "[FIN] Vigilum Noctis",
-     "t": 1794675617
+     "t": 1794679666
     },
     "V7Q-8VJ": {
      "n": "SMS BLUE DANUBE",
-     "t": 1794675617
+     "t": 1794679666
     },
     "JHB-T6J": {
      "n": "SHINANO",
-     "t": 1794675617
+     "t": 1794679666
     },
     "Q0K-GQF": {
      "n": "PRYDAIN",
-     "t": 1794675617
+     "t": 1794679666
     },
     "GZM-0TW": {
      "n": "saphire allegiance",
-     "t": 1794675617
+     "t": 1794679666
     }
    },
    "tk": {
     "firma": "04aa79f3",
-    "igual": 1794675617,
+    "igual": 1794679656,
     "ult": 1794623942,
     "desde": 1794418629,
     "est": null
@@ -6333,7 +6333,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794679745,
+   "t": 1794680805,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6415,7 +6415,11 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 1
+    "2026-11-14": 2
+   },
+   "tk": {
+    "firma": "9ac237db",
+    "igual": 1794680805
    },
    "prev": null,
    "prev_t": null,
@@ -6424,11 +6428,7 @@
      1794409201,
      20.0
     ]
-   ],
-   "tk": {
-    "firma": "9ac237db",
-    "igual": 1794679745
-   }
+   ]
   },
   "Hyades Sector QZ-N b7-3": {
    "sys": "Hyades Sector QZ-N b7-3",
@@ -6706,7 +6706,7 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-14": 11
+    "2026-11-14": 14
    },
    "pn": {
     "T9Q-5HX": {
@@ -8279,16 +8279,16 @@
   },
   "Lyncis Sector JR-W c1-15": {
    "sys": "Lyncis Sector JR-W c1-15",
-   "t": 1794264834,
+   "t": 1794679601,
    "src": "EDDN",
    "inf": 10.04,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 51.31,
    "conflictos": [],
@@ -8298,7 +8298,9 @@
      "inf": 51.31,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -8325,9 +8327,7 @@
      "inf": 10.04,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -8348,7 +8348,7 @@
     -135.03125
    ],
    "sis": {
-    "pob": 202508,
+    "pob": 202550,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -8358,18 +8358,29 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Exploited",
-    "prog": 0.021711,
-    "ref": 0,
+    "prog": 0.021811,
+    "ref": 35,
     "soc": 0,
     "pots": [
      "Li Yong-Rui",
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-14": 1
+   },
    "tk": {
     "firma": "bd3edb01",
-    "igual": 1794264834
-   }
+    "igual": 1794679601
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794264834,
+     10.04
+    ]
+   ]
   },
   "Satvaneka": {
    "sys": "Satvaneka",
@@ -11084,12 +11095,12 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794679786.6235023,
-  "msgs": 1271195,
-  "mios": 67
+  "ultimo": 1794680807.726026,
+  "msgs": 1288787,
+  "mios": 70
  },
- "t": 1794679979.726892,
- "tick_global": 1794590418,
+ "t": 1794680940.8161283,
+ "tick_global": 1794676615,
  "zona": {
   "Caerus": {
    "pos": [
@@ -11121,7 +11132,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794679973
+   "t": 1794680579
   },
   "HIP 46236": {
    "pos": [
@@ -11409,7 +11420,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794670084
+   "t": 1794680941
   },
   "Trianguli Sector TU-O a6-1": {
    "pos": [
@@ -11690,7 +11701,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794679024
+   "t": 1794680574
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -13267,7 +13278,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794617768
+   "t": 1794680204
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -13534,7 +13545,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794675617
+   "t": 1794679656
   },
   "HR 3277": {
    "pos": [
@@ -13584,7 +13595,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794673731
+   "t": 1794680169
   },
   "Yenici": {
    "pos": [
@@ -16563,6 +16574,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794679786
+  },
+  "Lyncis Sector JR-W c1-15": {
+   "pos": [
+    -16.9375,
+    25.34375,
+    -135.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.021811,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794679601
+  },
+  "Kenna": {
+   "pos": [
+    -5.5,
+    -100.53125,
+    -10.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.268548,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794680531
   }
  }
 }

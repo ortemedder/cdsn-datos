@@ -3,9 +3,9 @@
  "sistemas": {
   "Pirawoth": {
    "sys": "Pirawoth",
-   "t": 1794588039,
-   "src": "EDSM",
-   "inf": 68.2,
+   "t": 1794662223,
+   "src": "EDDN",
+   "inf": 70.2,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -14,39 +14,39 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 12.1,
+   "segunda_inf": 10.0,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 68.2,
+     "inf": 70.2,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 12.1,
+     "inf": 10.0,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 8.1,
+     "inf": 8.2,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
      ],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Pirawoth Republic Party",
@@ -55,7 +55,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Pirawoth Nobles",
@@ -64,7 +64,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Pirawoth Purple Advanced Group",
@@ -73,7 +73,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Pirawoth Purple Boys",
@@ -82,7 +82,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -113,16 +113,17 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 5
+    "2026-11-10": 5,
+    "2026-11-14": 1
    },
    "pn": {
     "JZF-T7W": {
      "n": "(LSC)odysseum-prospect",
-     "t": 1794338923
+     "t": 1794662392
     }
    },
-   "prev": 69.43,
-   "prev_t": 1794338772,
+   "prev": 68.2,
+   "prev_t": 1794588039,
    "hinf": [
     [
      1794135035,
@@ -135,9 +136,16 @@
     [
      1794588039,
      68.2
+    ],
+    [
+     1794662223,
+     70.2
     ]
    ],
-   "tk": {}
+   "tk": {
+    "firma": "32e20d9a",
+    "igual": 1794662223
+   }
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
@@ -10969,11 +10977,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794660794.1134973,
-  "msgs": 949133,
-  "mios": 45
+  "ultimo": 1794662456.84064,
+  "msgs": 974171,
+  "mios": 46
  },
- "t": 1794660895.5366287,
+ "t": 1794662807.4259493,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11006,7 +11014,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794660884
+   "t": 1794661739
   },
   "HIP 46236": {
    "pos": [
@@ -11022,7 +11030,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794660476
+   "t": 1794662803
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11567,7 +11575,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.406569,
+   "prog": 0.406229,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -11575,7 +11583,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794613857
+   "t": 1794662185
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -12700,7 +12708,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794609915
+   "t": 1794661565
   },
   "Kalenile": {
    "pos": [
@@ -13498,7 +13506,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794625408
+   "t": 1794661680
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -13807,7 +13815,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794631881
+   "t": 1794662563
   },
   "Hyades Sector QO-P b6-6": {
    "pos": [
@@ -14224,7 +14232,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794640294
+   "t": 1794662759
   },
   "Jitabed": {
    "pos": [
@@ -14681,7 +14689,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794651666
+   "t": 1794661788
   },
   "Cosi": {
    "pos": [
@@ -15011,6 +15019,131 @@
     "Li Yong-Rui"
    ],
    "t": 1794659375
+  },
+  "Oisi": {
+   "pos": [
+    -44.8125,
+    19.34375,
+    -102.375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.153712,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794661130
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794661501
+  },
+  "Shenetserii": {
+   "pos": [
+    15.21875,
+    -44.3125,
+    -33.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.285384,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794661633
+  },
+  "Tegidana": {
+   "pos": [
+    -55.03125,
+    -5,
+    -85.75
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.142283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794661749
+  },
+  "Tialocan": {
+   "pos": [
+    99.65625,
+    -124.5,
+    -7.71875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.311395,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794662147
+  },
+  "HIP 33287": {
+   "pos": [
+    13.28125,
+    31.75,
+    -120.75
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.136615,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794662398
+  },
+  "Pirawoth": {
+   "pos": [
+    -19.375,
+    -0.03125,
+    -95.1875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.031997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794662223
+  },
+  "Hyades Sector PE-O b7-4": {
+   "pos": [
+    11.0625,
+    47.375,
+    -121.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794662456
   }
  }
 }

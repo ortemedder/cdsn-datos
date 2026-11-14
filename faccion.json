@@ -3570,7 +3570,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794681830,
+   "t": 1794697264,
    "src": "EDDN",
    "inf": 73.95,
    "ctrl": true,
@@ -3648,7 +3648,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 31
+    "2026-11-14": 33
    },
    "pn": {
     "J9W-B6T": {
@@ -3657,7 +3657,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794682054
+     "t": 1794697445
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3672,13 +3672,13 @@
      "t": 1794456932
     },
     "KBL-37L": {
-     "n": "",
-     "t": 1794608102
+     "n": "EPICUS FUROR *CDSN*",
+     "t": 1794697445
     }
    },
    "tk": {
     "firma": "ec70bce9",
-    "igual": 1794681830,
+    "igual": 1794697264,
     "ult": 1794681830,
     "desde": 1794604836,
     "est": null
@@ -11241,7 +11241,7 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794696693,
+   "t": 1794697050,
    "src": "EDDN",
    "inf": 9.16,
    "ctrl": false,
@@ -11317,17 +11317,17 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-14": 9
+    "2026-11-14": 11
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794696693
+     "t": 1794697050
     }
    },
    "tk": {
     "firma": "f93774e7",
-    "igual": 1794696693
+    "igual": 1794697050
    },
    "prev": null,
    "prev_t": null,
@@ -11341,11 +11341,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794696693.769587,
-  "msgs": 205797,
-  "mios": 25
+  "ultimo": 1794697264.9877596,
+  "msgs": 226791,
+  "mios": 29
  },
- "t": 1794696620.5335834,
+ "t": 1794697581.6937976,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11363,7 +11363,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794693854
+   "t": 1794697219
   },
   "Khaima": {
    "pos": [
@@ -11499,7 +11499,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794695937
+   "t": 1794697549
   },
   "Nyal": {
    "pos": [
@@ -12633,7 +12633,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794695241
+   "t": 1794697211
   },
   "LP 302-22": {
    "pos": [
@@ -12802,19 +12802,38 @@
    ],
    "t": 1794696297
   },
-  "Moram": {
+  "Trianguli Sector SU-O a6-3": {
    "pos": [
-    143.1875,
-    -13.65625,
-    0.375
+    29.875,
+    -44.84375,
+    -55.53125
    ],
-   "pot": null,
+   "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": null,
+   "prog": 0.012569,
    "pots": [
-    "A. Lavigny-Duval"
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
    ],
-   "t": 1683465905
+   "t": 1794697518
+  },
+  "Tascheter Sector AL-O a6-0": {
+   "pos": [
+    7.625,
+    -32.9375,
+    -41.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.077712,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794697545
   }
  }
 }

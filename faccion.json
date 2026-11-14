@@ -990,7 +990,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 14,
+    "2026-11-14": 15,
     "2026-03-30": 1
    },
    "zc": [
@@ -10957,10 +10957,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794653365.7609262,
-  "msgs": 860297,
+  "msgs": 872894,
   "mios": 43
  },
- "t": 1794654771.5336874,
+ "t": 1794655681.9559915,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -12076,14 +12076,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.2328,
+   "prog": 0.233035,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794604748
+   "t": 1794655664
   },
   "Col 285 Sector NS-J c9-17": {
    "pos": [
@@ -13303,7 +13303,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794654515
+   "t": 1794655655
   },
   "Menkalinan": {
    "pos": [
@@ -14813,6 +14813,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794654459
+  },
+  "Amijara": {
+   "pos": [
+    -38.28125,
+    -21.5,
+    -124.09375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.098283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794655280
   }
  }
 }

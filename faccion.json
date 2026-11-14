@@ -1758,7 +1758,7 @@
    },
    "trafico": {
     "2026-11-10": 14,
-    "2026-11-14": 30,
+    "2026-11-14": 32,
     "2026-04-11": 1,
     "2026-05-03": 1
    },
@@ -10957,10 +10957,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794656737.399839,
-  "msgs": 896450,
+  "msgs": 908962,
   "mios": 44
  },
- "t": 1794657032.728078,
+ "t": 1794658353.2542102,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10993,7 +10993,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794657019
+   "t": 1794657491
   },
   "HIP 46236": {
    "pos": [
@@ -11009,7 +11009,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794652229
+   "t": 1794658091
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -11381,7 +11381,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794647878
+   "t": 1794658343
   },
   "Yaringu": {
    "pos": [
@@ -14862,6 +14862,23 @@
     "Zemina Torval"
    ],
    "t": 1794656344
+  },
+  "Hyades Sector WF-M b8-2": {
+   "pos": [
+    31.65625,
+    27.15625,
+    -103.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.066283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794657588
   }
  }
 }

@@ -3030,9 +3030,9 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794601776,
+   "t": 1794627380,
    "src": "EDDN",
-   "inf": 40.5,
+   "inf": 38.31,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -3041,12 +3041,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "160 S.O.A.R.",
-   "segunda_inf": 19.5,
+   "segunda_inf": 21.09,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 40.5,
+     "inf": 38.31,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -3057,16 +3057,18 @@
     },
     {
      "n": "160 S.O.A.R.",
-     "inf": 19.5,
+     "inf": 21.09,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "United Burr Partnership",
-     "inf": 14.23,
+     "inf": 18.01,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -3075,7 +3077,7 @@
     },
     {
      "n": "Burr Jet Fortune Industries",
-     "inf": 13.13,
+     "inf": 11.44,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -3084,7 +3086,7 @@
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 11.64,
+     "inf": 10.15,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -3118,8 +3120,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.876265,
-    "ref": 11974,
+    "prog": 0.884642,
+    "ref": 17419,
     "soc": 81402,
     "pots": [
      "Edmund Mahon",
@@ -3131,24 +3133,34 @@
    },
    "trafico": {
     "2026-11-10": 1,
-    "2026-11-13": 2
+    "2026-11-13": 2,
+    "2026-11-14": 1
    },
    "pn": {
     "F3L-30Z": {
      "n": "Atlas",
-     "t": 1794601776
+     "t": 1794627394
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794601776
+     "t": 1794627394
     }
    },
    "tk": {
-    "firma": "1184b7c6",
-    "igual": 1794601776
+    "firma": "48f02819",
+    "igual": 1794627380,
+    "ult": 1794627380,
+    "desde": 1794601776,
+    "vent": [
+     [
+      1794601776,
+      1794627380
+     ]
+    ],
+    "est": null
    },
-   "prev": 39.8,
-   "prev_t": 1794270346,
+   "prev": 40.5,
+   "prev_t": 1794601776,
    "hinf": [
     [
      1794270346,
@@ -3157,8 +3169,17 @@
     [
      1794601468,
      40.5
+    ],
+    [
+     1794627380,
+     38.31
     ]
-   ]
+   ],
+   "tick_ult": 1794627380,
+   "tick_marg": 213,
+   "tick_prox": 1794700920,
+   "tick_disp": 213,
+   "tick_n": 0
   },
   "Elivagar": {
    "sys": "Elivagar",
@@ -10696,11 +10717,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794624019.0457082,
-  "msgs": 538316,
-  "mios": 24
+  "ultimo": 1794627382.3812387,
+  "msgs": 559434,
+  "mios": 25
  },
- "t": 1794625790.2640812,
+ "t": 1794627401.5483937,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -10733,7 +10754,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794614700
+   "t": 1794625962
   },
   "HIP 46236": {
    "pos": [
@@ -10743,13 +10764,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.124255,
+   "prog": 0.133623,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794624968
+   "t": 1794626099
   },
   "ICZ GL-X b1-4": {
    "pos": [
@@ -10812,7 +10833,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794617551
+   "t": 1794626211
   },
   "Nergal": {
    "pos": [
@@ -11185,7 +11206,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794604717
+   "t": 1794627073
   },
   "Col 285 Sector VJ-R a34-1": {
    "pos": [
@@ -11389,7 +11410,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.876265,
+   "prog": 0.884642,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -11397,7 +11418,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794601776
+   "t": 1794627380
   },
   "Tote": {
    "pos": [
@@ -13343,6 +13364,153 @@
     "Zemina Torval"
    ],
    "t": 1794625784
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256021,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794625977
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259715,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794627114
+  },
+  "Tascheter Sector GR-M a7-1": {
+   "pos": [
+    25.90625,
+    -28.46875,
+    -30.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794626539
+  },
+  "LHS 1803": {
+   "pos": [
+    21.65625,
+    -7.53125,
+    -83.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.062283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794626586
+  },
+  "Edenses": {
+   "pos": [
+    14.46875,
+    -3.4375,
+    -104.375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.281689,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794626630
+  },
+  "Gollobo": {
+   "pos": [
+    6.6875,
+    0.5625,
+    -123.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.307355,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794626674
+  },
+  "Ross 23": {
+   "pos": [
+    -45.71875,
+    0.875,
+    -75.21875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.167385,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794627263
+  },
+  "9 Aurigae": {
+   "pos": [
+    -32.75,
+    10.5,
+    -78.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253955,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794627330
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.143297,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794627395
   }
  }
 }

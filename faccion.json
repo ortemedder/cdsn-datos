@@ -1002,7 +1002,7 @@
     "2026-11-11": 3,
     "2026-11-12": 1,
     "2026-11-13": 3,
-    "2026-11-14": 18,
+    "2026-11-14": 19,
     "2026-03-30": 1
    },
    "zc": [
@@ -1774,7 +1774,7 @@
    },
    "trafico": {
     "2026-11-10": 14,
-    "2026-11-14": 32,
+    "2026-11-14": 38,
     "2026-04-11": 1,
     "2026-05-03": 1
    },
@@ -2032,7 +2032,7 @@
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
-   "t": 1794576812,
+   "t": 1794665205,
    "src": "EDDN",
    "inf": 8.55,
    "ctrl": false,
@@ -2063,7 +2063,9 @@
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -2103,7 +2105,7 @@
     -98.875
    ],
    "sis": {
-    "pob": 46763570,
+    "pob": 46781896,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2127,7 +2129,12 @@
    "trafico": {
     "2026-11-09": 3,
     "2026-11-12": 3,
-    "2026-11-13": 2
+    "2026-11-13": 2,
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "7c3a8c04",
+    "igual": 1794665205
    },
    "prev": 8.25,
    "prev_t": 1794249277,
@@ -2140,11 +2147,7 @@
      1794489215,
      8.55
     ]
-   ],
-   "tk": {
-    "firma": "7c3a8c04",
-    "igual": 1794576812
-   }
+   ]
   },
   "LP 158-2": {
    "sys": "LP 158-2",
@@ -2664,7 +2667,7 @@
   },
   "Hyades Sector SZ-N b7-0": {
    "sys": "Hyades Sector SZ-N b7-0",
-   "t": 1794483850,
+   "t": 1794665370,
    "src": "EDDN",
    "inf": 4.7,
    "ctrl": false,
@@ -2683,10 +2686,10 @@
      "inf": 72.93,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -2694,9 +2697,7 @@
      "inf": 13.59,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -2730,7 +2731,7 @@
     -109.3125
    ],
    "sis": {
-    "pob": 1581492,
+    "pob": 1583008,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2740,8 +2741,8 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.217141,
-    "ref": 0,
+    "prog": 0.217209,
+    "ref": 24,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -2752,7 +2753,8 @@
    "trafico": {
     "2026-11-10": 2,
     "2026-11-11": 3,
-    "2026-11-12": 2
+    "2026-11-12": 2,
+    "2026-11-14": 1
    },
    "pn": {
     "XHF-N1M": {
@@ -2766,13 +2768,23 @@
    },
    "tk": {
     "firma": "31f3d6f1",
-    "igual": 1794483850,
+    "igual": 1794665370,
     "ult": 1794483850,
     "desde": 1794415913,
     "est": null
    },
    "prev": 5.0,
    "prev_t": 1794415913,
+   "hinf": [
+    [
+     1794415913,
+     5.0
+    ],
+    [
+     1794483850,
+     4.7
+    ]
+   ],
    "tick_ult": 1794483850,
    "tick_marg": 566
   },
@@ -4835,7 +4847,7 @@
   },
   "LHS 5116": {
    "sys": "LHS 5116",
-   "t": 1794638681,
+   "t": 1794663733,
    "src": "EDDN",
    "inf": 8.57,
    "ctrl": false,
@@ -4947,13 +4959,17 @@
    "trafico": {
     "2026-11-09": 1,
     "2026-04-11": 1,
-    "2026-11-14": 1
+    "2026-11-14": 2
    },
    "pn": {
-    "T0N-T1Z": {
-     "n": "[AGCT] Freedom",
-     "t": 1775880522
+    "BZB-26Z": {
+     "n": "OZZY OSBOURNE",
+     "t": 1794663743
     }
+   },
+   "tk": {
+    "firma": "aca29418",
+    "igual": 1794663733
    },
    "prev": null,
    "prev_t": null,
@@ -4962,11 +4978,7 @@
      1794237767,
      8.57
     ]
-   ],
-   "tk": {
-    "firma": "aca29418",
-    "igual": 1794638681
-   }
+   ]
   },
   "Ceti Sector CL-X b1-1": {
    "sys": "Ceti Sector CL-X b1-1",
@@ -10977,11 +10989,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794664075.625711,
-  "msgs": 1001499,
-  "mios": 47
+  "ultimo": 1794665474.9207263,
+  "msgs": 1017126,
+  "mios": 50
  },
- "t": 1794664679.5360181,
+ "t": 1794665590.9635878,
  "tick_global": 1794590418,
  "zona": {
   "Caerus": {
@@ -11859,7 +11871,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794664313
+   "t": 1794665465
   },
   "GCRV 2311": {
    "pos": [
@@ -12409,7 +12421,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794583197
+   "t": 1794664654
   },
   "Hyades Sector XV-L b8-3": {
    "pos": [
@@ -12427,7 +12439,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794576812
+   "t": 1794665205
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -13603,7 +13615,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794626630
+   "t": 1794665499
   },
   "Gollobo": {
    "pos": [
@@ -14090,7 +14102,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794638681
+   "t": 1794663733
   },
   "LTT 11503": {
    "pos": [
@@ -14671,7 +14683,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794651278
+   "t": 1794662759
   },
   "Fimbulwinter": {
    "pos": [
@@ -14966,7 +14978,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794657197
+   "t": 1794663482
   },
   "Cerno": {
    "pos": [
@@ -15317,6 +15329,106 @@
     "Li Yong-Rui"
    ],
    "t": 1794664651
+  },
+  "Yin Sector ZZ-Y b0": {
+   "pos": [
+    19.46875,
+    35.84375,
+    -83.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794665272
+  },
+  "BD+24 1529": {
+   "pos": [
+    23,
+    26.03125,
+    -98.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794665319
+  },
+  "Hyades Sector SZ-N b7-0": {
+   "pos": [
+    15.9375,
+    16.65625,
+    -109.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.217209,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794665370
+  },
+  "Hyades Sector TU-N b7-0": {
+   "pos": [
+    5.34375,
+    4.75,
+    -116.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794665414
+  },
+  "LHS 1828": {
+   "pos": [
+    8.78125,
+    5.46875,
+    -93.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794662379
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251532,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794665585
   }
  }
 }

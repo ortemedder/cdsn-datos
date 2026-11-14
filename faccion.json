@@ -3632,7 +3632,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 17
+    "2026-11-14": 21
    },
    "pn": {
     "J9W-B6T": {
@@ -6337,7 +6337,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794682359,
+   "t": 1794687680,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6419,11 +6419,11 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 7
+    "2026-11-14": 10
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794682359
+    "igual": 1794687680
    },
    "prev": null,
    "prev_t": null,
@@ -11221,11 +11221,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 993,
-  "mios": 0
+  "ultimo": 1794687681.5756462,
+  "msgs": 19785,
+  "mios": 1
  },
- "t": 1794687628.2988813,
+ "t": 1794688539.3807201,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11243,7 +11243,207 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794687626
+   "t": 1794688258
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794687697
+  },
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.145776,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794687851
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.119908,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794687879
+  },
+  "Kwaraseti": {
+   "pos": [
+    -22.9375,
+    -3.5,
+    -91.15625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.251832,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794687910
+  },
+  "LHS 1719": {
+   "pos": [
+    -18.8125,
+    -9.15625,
+    -108.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794688156
+  },
+  "Lakheo": {
+   "pos": [
+    15.71875,
+    3.03125,
+    -116.96875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.254903,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794688201
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.25346,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794688242
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.266964,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794688281
+  },
+  "Nyal": {
+   "pos": [
+    -18.28125,
+    -11.65625,
+    -104.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794688345
+  },
+  "Bondranses": {
+   "pos": [
+    -37.6875,
+    -12.6875,
+    -101.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.179634,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794688421
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.352081,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794688494
+  },
+  "Mandu": {
+   "pos": [
+    117.9375,
+    -22.1875,
+    17.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794688492
   }
  }
 }

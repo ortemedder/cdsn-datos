@@ -3632,7 +3632,7 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 42,
-    "2026-11-14": 23
+    "2026-11-14": 27
    },
    "pn": {
     "J9W-B6T": {
@@ -6419,7 +6419,7 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 11
+    "2026-11-14": 13
    },
    "tk": {
     "firma": "9ac237db",
@@ -11222,10 +11222,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794689318.5151105,
-  "msgs": 38671,
+  "msgs": 57252,
   "mios": 2
  },
- "t": 1794689460.5945277,
+ "t": 1794690271.5810442,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11379,7 +11379,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794689455
+   "t": 1794690261
   },
   "Nyal": {
    "pos": [
@@ -11625,6 +11625,104 @@
     "Zemina Torval"
    ],
    "t": 1794689432
+  },
+  "LFT 324": {
+   "pos": [
+    -41.5625,
+    -1.65625,
+    -72.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794689485
+  },
+  "Mandra": {
+   "pos": [
+    104.96875,
+    -117.40625,
+    -7.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.285895,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794689699
+  },
+  "Girya Gu": {
+   "pos": [
+    -13.625,
+    -10.625,
+    -75.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.119997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794689777
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198454,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794689792
+  },
+  "GR 316": {
+   "pos": [
+    5.34375,
+    -70.84375,
+    -14.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.11314,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794689860
+  },
+  "Isitani": {
+   "pos": [
+    -9.25,
+    35.9375,
+    -155.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794690092
   }
  }
 }

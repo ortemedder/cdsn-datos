@@ -3574,7 +3574,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794699910,
+   "t": 1794700721,
    "src": "EDDN",
    "inf": 73.95,
    "ctrl": true,
@@ -3651,8 +3651,8 @@
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
-    "2026-11-13": 42,
-    "2026-11-14": 39
+    "2026-11-13": 43,
+    "2026-11-14": 42
    },
    "pn": {
     "J9W-B6T": {
@@ -3661,7 +3661,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794700206
+     "t": 1794613199
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3677,12 +3677,12 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794700206
+     "t": 1794613199
     }
    },
    "tk": {
     "firma": "ec70bce9",
-    "igual": 1794699910,
+    "igual": 1794700721,
     "ult": 1794681830,
     "desde": 1794604836,
     "est": null
@@ -6437,7 +6437,8 @@
    "trafico": {
     "2026-11-10": 46,
     "2026-11-11": 6,
-    "2026-11-14": 25
+    "2026-11-14": 25,
+    "2026-11-15": 1
    },
    "tk": {
     "firma": "9ac237db",
@@ -11343,11 +11344,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794699911.1254663,
-  "msgs": 281390,
-  "mios": 33
+  "ultimo": 1794700721.8967762,
+  "msgs": 299398,
+  "mios": 34
  },
- "t": 1794700294.5575745,
+ "t": 1794701125.5735803,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11358,14 +11359,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233308,
+   "prog": 0.233271,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794697219
+   "t": 1794701120
   },
   "Khaima": {
    "pos": [
@@ -11960,7 +11961,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794700014
+   "t": 1794700877
   },
   "Zach": {
    "pos": [
@@ -13095,6 +13096,90 @@
     "Zemina Torval"
    ],
    "t": 1794700289
+  },
+  "Tascheter Sector CL-Y d104": {
+   "pos": [
+    -21.65625,
+    12.5625,
+    -68.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794700424
+  },
+  "Shui Wei Sector HG-X b1-1": {
+   "pos": [
+    124.34375,
+    -120.78125,
+    -25
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.154855,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794700566
+  },
+  "HIP 48376": {
+   "pos": [
+    149.0625,
+    -1.21875,
+    24.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval",
+    "Nakato Kaine"
+   ],
+   "t": 1794700612
+  },
+  "Gurabru": {
+   "pos": [
+    3.59375,
+    15.34375,
+    -126.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.256428,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794700697
+  },
+  "Shenetserii": {
+   "pos": [
+    15.21875,
+    -44.3125,
+    -33.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.285384,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794700953
   }
  }
 }

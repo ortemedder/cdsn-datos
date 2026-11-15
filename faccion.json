@@ -1057,7 +1057,7 @@
     "2026-11-13": 3,
     "2026-11-14": 34,
     "2026-03-30": 1,
-    "2026-11-15": 7
+    "2026-11-15": 9
    },
    "zc": [
     {
@@ -2366,16 +2366,16 @@
   },
   "LP 254-40": {
    "sys": "LP 254-40",
-   "t": 1794365590,
+   "t": 1794778976,
    "src": "EDDN",
    "inf": 11.3,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "LP 254-40 Co",
    "segunda_inf": 63.13,
    "conflictos": [],
@@ -2394,9 +2394,7 @@
      "inf": 11.3,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -2463,9 +2461,9 @@
    "pp": {
     "pot": "Edmund Mahon",
     "est": "Exploited",
-    "prog": 0.275404,
+    "prog": 0.273309,
     "ref": 0,
-    "soc": 808,
+    "soc": 741,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -2474,23 +2472,34 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 1
+    "2026-11-11": 1,
+    "2026-11-15": 2
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "hinf": [
+    [
+     1794365590,
+     11.3
+    ]
+   ],
+   "tk": {
+    "firma": "372304bb",
+    "igual": 1794778976
+   }
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
-   "t": 1794641162,
+   "t": 1794779274,
    "src": "EDDN",
    "inf": 14.84,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "LP 254-40 Co",
    "segunda_inf": 48.65,
    "conflictos": [],
@@ -2518,9 +2527,7 @@
      "inf": 14.84,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -2552,7 +2559,7 @@
     -89.03125
    ],
    "sis": {
-    "pob": 1999042,
+    "pob": 1999111,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -2575,7 +2582,12 @@
    "trafico": {
     "2026-11-11": 2,
     "2026-05-03": 1,
-    "2026-11-14": 2
+    "2026-11-14": 2,
+    "2026-11-15": 1
+   },
+   "tk": {
+    "firma": "b61f7c67",
+    "igual": 1794779274
    },
    "prev": null,
    "prev_t": null,
@@ -2584,11 +2596,7 @@
      1794381591,
      14.84
     ]
-   ],
-   "tk": {
-    "firma": "b61f7c67",
-    "igual": 1794641162
-   }
+   ]
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
@@ -6161,16 +6169,16 @@
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
-   "t": 1794330619,
+   "t": 1794779426,
    "src": "EDDN",
    "inf": 18.39,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Nanamatha Progressive Party",
    "segunda_inf": 37.49,
    "conflictos": [],
@@ -6207,9 +6215,7 @@
      "inf": 18.39,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -6221,7 +6227,7 @@
     -103.90625
    ],
    "sis": {
-    "pob": 48815075,
+    "pob": 48818997,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -6243,10 +6249,21 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 2
+    "2026-11-10": 2,
+    "2026-11-15": 1
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "hinf": [
+    [
+     1794330619,
+     18.39
+    ]
+   ],
+   "tk": {
+    "firma": "44ffbe4e",
+    "igual": 1794779426
+   }
   },
   "Kunuvii": {
    "sys": "Kunuvii",
@@ -6636,7 +6653,7 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 50
+    "2026-11-15": 53
    },
    "tk": {
     "firma": "9ac237db",
@@ -9278,16 +9295,16 @@
   },
   "Mau": {
    "sys": "Mau",
-   "t": 1794684697,
+   "t": 1794779516,
    "src": "EDDN",
    "inf": 59.38,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "CHIMERA",
    "segunda_inf": 10.43,
    "conflictos": [],
@@ -9297,9 +9314,7 @@
      "inf": 59.38,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -9385,11 +9400,12 @@
     ]
    },
    "trafico": {
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 1
    },
    "tk": {
     "firma": "ad9e72b7",
-    "igual": 1794684697
+    "igual": 1794779516
    },
    "prev": null,
    "prev_t": null,
@@ -12240,11 +12256,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794778676.9414234,
-  "msgs": 397604,
-  "mios": 40
+  "ultimo": 1794779517.2218978,
+  "msgs": 419000,
+  "mios": 44
  },
- "t": 1794778678.1779118,
+ "t": 1794779619.3453717,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12663,7 +12679,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794778533
+   "t": 1794778807
   },
   "BD+43 866": {
    "pos": [
@@ -12759,7 +12775,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794778599
+   "t": 1794779505
   },
   "Tascheter Sector OX-U b2-2": {
    "pos": [
@@ -14179,7 +14195,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794776883
+   "t": 1794779328
   },
   "Nauacan": {
    "pos": [
@@ -14373,6 +14389,175 @@
     "Li Yong-Rui"
    ],
    "t": 1794778242
+  },
+  "Col 285 Sector NS-J c9-17": {
+   "pos": [
+    138.125,
+    -2.4375,
+    31.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794779616
+  },
+  "Col 285 Sector YZ-U b17-2": {
+   "pos": [
+    135.75,
+    -14.1875,
+    23.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794778897
+  },
+  "LP 254-40": {
+   "pos": [
+    1.5625,
+    23.9375,
+    -86.5625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.273309,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794778976
+  },
+  "NLTT 14879": {
+   "pos": [
+    -31.71875,
+    14,
+    -67.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.122855,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794778987
+  },
+  "Mentor": {
+   "pos": [
+    -27.65625,
+    -3.5,
+    -85.53125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.090462,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794778994
+  },
+  "Yin Sector WO-A b1": {
+   "pos": [
+    -0.3125,
+    20.65625,
+    -89.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.070283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794779274
+  },
+  "Tascheter Sector CG-O a6-1": {
+   "pos": [
+    7.96875,
+    -43.84375,
+    -44.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794779335
+  },
+  "Hyades Sector UF-M b8-2": {
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.199426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794779426
+  },
+  "Col 285 Sector RY-W b16-4": {
+   "pos": [
+    133.125,
+    -4.875,
+    14.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794779473
+  },
+  "Mau": {
+   "pos": [
+    -19.875,
+    24.875,
+    -119.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.133263,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794779516
   }
  }
 }

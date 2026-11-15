@@ -616,7 +616,7 @@
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
-   "t": 1794749499,
+   "t": 1794783398,
    "src": "EDDN",
    "inf": 12.15,
    "ctrl": false,
@@ -635,10 +635,10 @@
      "inf": 49.4,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -682,9 +682,7 @@
      "inf": 5.88,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [
-      "Boom"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -728,11 +726,11 @@
    "trafico": {
     "2026-11-11": 2,
     "2026-11-14": 1,
-    "2026-11-15": 2
+    "2026-11-15": 3
    },
    "tk": {
     "firma": "732e6b21",
-    "igual": 1794749499,
+    "igual": 1794783398,
     "ult": 1794694787,
     "desde": 1794418553,
     "est": null
@@ -5579,80 +5577,82 @@
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
-   "t": 1794255951,
+   "t": 1794784172,
    "src": "EDDN",
-   "inf": 10.36,
+   "inf": 8.08,
    "ctrl": false,
-   "estado": "Election",
-   "activos": [
-    "Expansion",
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Election"
    ],
-   "pendientes": [],
-   "recuperando": [],
+   "recuperando": [
+    "Expansion"
+   ],
    "segunda": "160 S.O.A.R.",
-   "segunda_inf": 55.42,
+   "segunda_inf": 55.76,
    "conflictos": [
     {
      "tipo": "election",
-     "estado": "active",
-     "contra": "Beasts of Bestia",
+     "estado": "pending",
+     "contra": "Astrobiology Research Cooperative",
      "ganados": 0,
-     "perdidos": 1
+     "perdidos": 0
     }
    ],
    "todas": [
     {
      "n": "160 S.O.A.R.",
-     "inf": 55.42,
+     "inf": 55.76,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Quebecois Patriots",
-     "inf": 16.27,
+     "inf": 15.96,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 10.36,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [
-      "Expansion",
-      "Election"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 10.36,
+     "inf": 12.12,
      "gov": "Democracy",
-     "alg": "Independent",
-     "act": [
-      "Election"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Astrobiology Research Cooperative",
-     "inf": 7.59,
-     "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 8.08,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Election"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Astrobiology Research Cooperative",
+     "inf": 8.08,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [
+      "Election"
      ],
      "jug": null
     }
@@ -5664,7 +5664,7 @@
     -81.4375
    ],
    "sis": {
-    "pob": 2004893,
+    "pob": 2004997,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -5682,11 +5682,30 @@
      "Pranav Antal",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-15": 2
+   },
+   "prev": 10.36,
+   "prev_t": 1794255951,
+   "hinf": [
+    [
+     1794255951,
+     10.36
+    ],
+    [
+     1794784172,
+     8.08
+    ]
+   ],
+   "tk": {
+    "firma": "399c946d",
+    "igual": 1794784172
    }
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794782189,
+   "t": 1794783642,
    "src": "EDDN",
    "inf": 48.4,
    "ctrl": true,
@@ -5757,7 +5776,17 @@
    "trafico": {
     "2026-11-09": 2,
     "2026-11-10": 3,
-    "2026-11-15": 3
+    "2026-11-15": 6
+   },
+   "pn": {
+    "H2J-72G": {
+     "n": "(CDSN)- * NAUTILUS * -",
+     "t": 1794783715
+    }
+   },
+   "tk": {
+    "firma": "9b50ec57",
+    "igual": 1794783642
    },
    "prev": null,
    "prev_t": null,
@@ -5766,17 +5795,7 @@
      1794322561,
      48.4
     ]
-   ],
-   "tk": {
-    "firma": "9b50ec57",
-    "igual": 1794782189
-   },
-   "pn": {
-    "H2J-72G": {
-     "n": "(CDSN)- * NAUTILUS * -",
-     "t": 1794782345
-    }
-   }
+   ]
   },
   "NN 3365": {
    "sys": "NN 3365",
@@ -12288,11 +12307,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794783061.8949199,
-  "msgs": 500638,
-  "mios": 48
+  "ultimo": 1794784172.9352033,
+  "msgs": 518556,
+  "mios": 51
  },
- "t": 1794783253.2390585,
+ "t": 1794784174.520959,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13516,7 +13535,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794783222
+   "t": 1794783766
   },
   "Sussche": {
    "pos": [
@@ -14453,7 +14472,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794781538
+   "t": 1794783318
   },
   "LP 254-40": {
    "pos": [
@@ -14998,6 +15017,152 @@
     "Zemina Torval"
    ],
    "t": 1794783154
+  },
+  "SPOCS 253": {
+   "pos": [
+    -15.375,
+    -0.625,
+    -83.8125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.154769,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794783398
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.01392,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794783409
+  },
+  "Yukpenon": {
+   "pos": [
+    10.40625,
+    4.0625,
+    -132.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794783525
+  },
+  "Wuluang": {
+   "pos": [
+    126.46875,
+    -133.625,
+    -20.3125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.171426,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794782407
+  },
+  "Hyades Sector PO-P b6-1": {
+   "pos": [
+    6.1875,
+    10.21875,
+    -127.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794783963
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.407629,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794784017
+  },
+  "Ausan": {
+   "pos": [
+    -49.5,
+    -12.09375,
+    -69.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.191998,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794784114
+  },
+  "Crucis Sector HB-X b1-5": {
+   "pos": [
+    123.21875,
+    -3.625,
+    25.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794784142
+  },
+  "Hyades Sector AC-K b9-6": {
+   "pos": [
+    -47.8125,
+    -9.125,
+    -81.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.035997,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794784172
   }
  }
 }

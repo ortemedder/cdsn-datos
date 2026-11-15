@@ -3360,7 +3360,7 @@
     "2026-11-10": 1,
     "2026-11-13": 2,
     "2026-11-14": 7,
-    "2026-11-15": 6
+    "2026-11-15": 8
    },
    "pn": {
     "F3L-30Z": {
@@ -3689,7 +3689,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794764493,
+   "t": 1794766064,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3768,7 +3768,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 33
+    "2026-11-15": 37
    },
    "pn": {
     "J9W-B6T": {
@@ -3777,7 +3777,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794764619
+     "t": 1794766064
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3797,12 +3797,12 @@
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794764619
+     "t": 1794766064
     }
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794764493,
+    "igual": 1794766064,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -11781,11 +11781,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794765136.4381585,
-  "msgs": 45788,
-  "mios": 4
+  "ultimo": 1794766064.8611927,
+  "msgs": 65848,
+  "mios": 6
  },
- "t": 1794765170.4298613,
+ "t": 1794766111.4466789,
  "tick_global": 1794676615,
  "zona": {
   "Yenici": {
@@ -12010,7 +12010,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794764470
+   "t": 1794765852
   },
   "Agrippa": {
    "pos": [
@@ -12062,6 +12062,99 @@
     "Pranav Antal"
    ],
    "t": 1794765081
+  },
+  "Girya Gu": {
+   "pos": [
+    -13.625,
+    -10.625,
+    -75.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.119997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794765282
+  },
+  "Snotricopa": {
+   "pos": [
+    31.5,
+    -12.6875,
+    -90.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.195077,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794765354
+  },
+  "ICZ AK-Z b3": {
+   "pos": [
+    116.65625,
+    -101.25,
+    -15.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794765575
+  },
+  "Renetes": {
+   "pos": [
+    -14.09375,
+    -8.875,
+    -88.5625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.226855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794765804
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.357717,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794766080
+  },
+  "Kalangputys": {
+   "pos": [
+    143.90625,
+    -15.53125,
+    5.25
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.143246,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794766103
   }
  }
 }

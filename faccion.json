@@ -3644,7 +3644,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794752469,
+   "t": 1794755164,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3723,7 +3723,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 14
+    "2026-11-15": 15
    },
    "pn": {
     "J9W-B6T": {
@@ -3732,7 +3732,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794752469
+     "t": 1794755286
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3748,16 +3748,16 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794752469
+     "t": 1794755286
     },
     "KBY-8QF": {
-     "n": "",
-     "t": 1794752469
+     "n": "SILVERTHORN",
+     "t": 1794755286
     }
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794752469,
+    "igual": 1794755164,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -6494,7 +6494,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794753483,
+   "t": 1794754797,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6575,11 +6575,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 22
+    "2026-11-15": 24
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794753483
+    "igual": 1794754797
    },
    "prev": null,
    "prev_t": null,
@@ -11702,11 +11702,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794753778.2521386,
-  "msgs": 1043822,
-  "mios": 77
+  "ultimo": 1794755169.8310773,
+  "msgs": 1064465,
+  "mios": 79
  },
- "t": 1794754322.633654,
+ "t": 1794755293.8320174,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11860,7 +11860,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794750881
+   "t": 1794754863
   },
   "Nyal": {
    "pos": [
@@ -12421,7 +12421,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794711748
+   "t": 1794755076
   },
   "Lokaantii": {
    "pos": [
@@ -12994,7 +12994,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794753073
+   "t": 1794754898
   },
   "LP 302-22": {
    "pos": [
@@ -13839,7 +13839,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794750779
+   "t": 1794754753
   },
   "BD+20 1018": {
    "pos": [
@@ -15320,7 +15320,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794754018
+   "t": 1794755207
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -15605,13 +15605,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.246195,
+   "prog": 0.246718,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794746723
+   "t": 1794754870
   },
   "Kwiamo": {
    "pos": [
@@ -16027,6 +16027,71 @@
     "Zemina Torval"
    ],
    "t": 1794752562
+  },
+  "Geawenki": {
+   "pos": [
+    11.59375,
+    15.625,
+    -71.625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794754688
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.193309,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794754805
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.268752,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794755079
+  },
+  "Col 285 Sector WJ-R a34-0": {
+   "pos": [
+    136.40625,
+    -34.5625,
+    17.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794755089
   }
  }
 }

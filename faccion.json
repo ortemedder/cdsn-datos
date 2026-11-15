@@ -2120,7 +2120,7 @@
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
-   "t": 1794757491,
+   "t": 1794784179,
    "src": "EDDN",
    "inf": 8.55,
    "ctrl": false,
@@ -2219,11 +2219,11 @@
     "2026-11-12": 3,
     "2026-11-13": 2,
     "2026-11-14": 1,
-    "2026-11-15": 3
+    "2026-11-15": 6
    },
    "tk": {
     "firma": "928a0b12",
-    "igual": 1794757491,
+    "igual": 1794784179,
     "ult": 1794757491,
     "desde": 1794665205,
     "est": null
@@ -5684,7 +5684,7 @@
     ]
    },
    "trafico": {
-    "2026-11-15": 2
+    "2026-11-15": 6
    },
    "prev": 10.36,
    "prev_t": 1794255951,
@@ -5776,7 +5776,7 @@
    "trafico": {
     "2026-11-09": 2,
     "2026-11-10": 3,
-    "2026-11-15": 6
+    "2026-11-15": 9
    },
    "pn": {
     "H2J-72G": {
@@ -12307,11 +12307,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794784172.9352033,
-  "msgs": 518556,
-  "mios": 51
+  "ultimo": 1794784184.3812985,
+  "msgs": 533127,
+  "mios": 52
  },
- "t": 1794784174.520959,
+ "t": 1794784945.792577,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12501,7 +12501,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794782741
+   "t": 1794784939
   },
   "Kolaga": {
    "pos": [
@@ -13655,7 +13655,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794757491
+   "t": 1794784179
   },
   "Khaima": {
    "pos": [
@@ -13759,7 +13759,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794761073
+   "t": 1794784483
   },
   "HIP 17719": {
    "pos": [
@@ -14641,7 +14641,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794782679
+   "t": 1794784892
   },
   "Ba Jonandja": {
    "pos": [
@@ -14841,7 +14841,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794781116
+   "t": 1794784838
   },
   "Unktock": {
    "pos": [
@@ -15163,6 +15163,86 @@
     "Jerome Archer"
    ],
    "t": 1794784172
+  },
+  "Arietis Sector CQ-Y d63": {
+   "pos": [
+    -36.90625,
+    -14.53125,
+    -118.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794784222
+  },
+  "Arietis Sector PT-Q b5-4": {
+   "pos": [
+    -50.34375,
+    -12.0625,
+    -95.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794784589
+  },
+  "ICZ CF-Z b3": {
+   "pos": [
+    122.875,
+    -115.28125,
+    -7.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794784299
+  },
+  "Daga tri": {
+   "pos": [
+    -23.1875,
+    -2.625,
+    -100.9375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794784815
+  },
+  "Sui Xing": {
+   "pos": [
+    -16.34375,
+    -12.59375,
+    -69.59375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.143426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794784848
   }
  }
 }

@@ -871,41 +871,39 @@
   },
   "Hyades Sector UF-M b8-0": {
    "sys": "Hyades Sector UF-M b8-0",
-   "t": 1794160640,
+   "t": 1794719250,
    "src": "EDDN",
    "inf": 54.55,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 23.28,
    "conflictos": [],
-   "prev": null,
-   "prev_t": null,
    "todas": [
     {
      "n": "Caballeros de Sion",
      "inf": 54.55,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Sirius Special Forces",
      "inf": 23.28,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Eluskapu Gold General Company",
@@ -914,18 +912,18 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "THE AZGHARIE",
      "inf": 9.19,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
-     "jug": true
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -935,12 +933,40 @@
     -103
    ],
    "sis": {
-    "pob": 153187,
-    "eco": "Military",
-    "eco2": "None",
-    "seg": "Low",
-    "gov": "Democracy",
+    "pob": 153603,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-15": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794160640,
+     54.55
+    ]
+   ],
+   "tk": {
+    "firma": "96fc83d2",
+    "igual": 1794719250
    }
   },
   "Hyades Sector DB-X d1-112": {
@@ -11505,11 +11531,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794718204.0083396,
-  "msgs": 530613,
-  "mios": 49
+  "ultimo": 1794719255.485432,
+  "msgs": 549359,
+  "mios": 50
  },
- "t": 1794718257.1392643,
+ "t": 1794719417.5734813,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11973,7 +11999,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794715504
+   "t": 1794718449
   },
   "GR 316": {
    "pos": [
@@ -14370,6 +14396,54 @@
     "Pranav Antal"
    ],
    "t": 1794718252
+  },
+  "Tascheter Sector YE-Q a5-0": {
+   "pos": [
+    26.28125,
+    -26.0625,
+    -48.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.039194,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794719100
+  },
+  "Hyades Sector UF-M b8-0": {
+   "pos": [
+    -23.65625,
+    17.40625,
+    -103
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794719250
+  },
+  "Piscium Sector TT-Z a5": {
+   "pos": [
+    -48.1875,
+    -27.71875,
+    -81.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.300955,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794719410
   }
  }
 }

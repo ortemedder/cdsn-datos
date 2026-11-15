@@ -584,7 +584,7 @@
    "trafico": {
     "2026-11-11": 1,
     "2026-11-14": 1,
-    "2026-11-15": 4
+    "2026-11-15": 5
    },
    "tk": {
     "firma": "47a66d38",
@@ -3684,7 +3684,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794759511,
+   "t": 1794759921,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3763,7 +3763,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 29
+    "2026-11-15": 30
    },
    "pn": {
     "J9W-B6T": {
@@ -3797,7 +3797,7 @@
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794759511,
+    "igual": 1794759921,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -11760,11 +11760,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794759512.0479887,
-  "msgs": 1166198,
-  "mios": 94
+  "ultimo": 1794759921.8793893,
+  "msgs": 1188138,
+  "mios": 96
  },
- "t": 1794759781.2654328,
+ "t": 1794760702.6748748,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12082,7 +12082,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794759092
+   "t": 1794760537
   },
   "Phracani": {
    "pos": [
@@ -12479,7 +12479,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794755076
+   "t": 1794760691
   },
   "Lokaantii": {
    "pos": [
@@ -14176,7 +14176,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794700906
+   "t": 1794759961
   },
   "Cama Zotz": {
    "pos": [
@@ -14193,7 +14193,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794730386
+   "t": 1794760470
   },
   "Tascheter Sector ZZ-P a5-2": {
    "pos": [
@@ -15033,14 +15033,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.076174,
+   "prog": 0.084974,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794753206
+   "t": 1794759857
   },
   "Sarugh": {
    "pos": [
@@ -15362,7 +15362,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794759770
+   "t": 1794760391
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -16309,11 +16309,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.304472,
+   "prog": 0.304487,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794757525
+   "t": 1794760503
   },
   "Tascheter Sector HR-M a7-1": {
    "pos": [
@@ -16483,6 +16483,69 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794759733
+  },
+  "HIP 16460": {
+   "pos": [
+    106.40625,
+    -131.0625,
+    -11.125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.251403,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794760259
+  },
+  "Tascheter Sector HM-M a7-1": {
+   "pos": [
+    16.875,
+    -43.75,
+    -31.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.014854,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794760519
+  },
+  "Col 285 Sector XZ-U b17-2": {
+   "pos": [
+    132.15625,
+    -22.5625,
+    28.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794760636
+  },
+  "Col 285 Sector TD-T a33-2": {
+   "pos": [
+    145.34375,
+    -30.875,
+    12.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794760680
   }
  }
 }

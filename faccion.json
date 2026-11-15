@@ -5799,18 +5799,18 @@
   },
   "NN 3365": {
    "sys": "NN 3365",
-   "t": 1794567838,
+   "t": 1794786709,
    "src": "EDDN",
    "inf": 50.4,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "NN 3365 Corp.",
-   "segunda_inf": 13.76,
+   "segunda_inf": 13.65,
    "conflictos": [],
    "todas": [
     {
@@ -5818,41 +5818,30 @@
      "inf": 50.4,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "NN 3365 Corp.",
-     "inf": 13.76,
-     "gov": "Corporate",
-     "alg": "Federation",
      "act": [],
      "pend": [],
      "jug": null
     },
     {
-     "n": "Independent NN 3365 Green Party",
-     "inf": 9.94,
-     "gov": "Democracy",
+     "n": "NN 3365 Corp.",
+     "inf": 13.65,
+     "gov": "Corporate",
      "alg": "Federation",
-     "act": [
+     "act": [],
+     "pend": [
       "CivilWar"
      ],
-     "pend": [],
      "jug": null
     },
     {
      "n": "NN 3365 Focus",
-     "inf": 9.94,
+     "inf": 13.65,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "CivilWar"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -5860,6 +5849,15 @@
      "inf": 6.43,
      "gov": "Democracy",
      "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Independent NN 3365 Green Party",
+     "inf": 6.33,
+     "gov": "Democracy",
+     "alg": "Federation",
      "act": [],
      "pend": [],
      "jug": null
@@ -5900,8 +5898,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Exploited",
-    "prog": 0.253404,
-    "ref": 0,
+    "prog": 0.253418,
+    "ref": 5,
     "soc": 108,
     "pots": [
      "Edmund Mahon",
@@ -5912,23 +5910,8 @@
     ]
    },
    "trafico": {
-    "2026-11-13": 1
-   },
-   "prev": 49.2,
-   "prev_t": 1794257274,
-   "hinf": [
-    [
-     1794257274,
-     49.2
-    ],
-    [
-     1794567838,
-     50.4
-    ]
-   ],
-   "tk": {
-    "firma": "0ce6f7fe",
-    "igual": 1794567838
+    "2026-11-13": 1,
+    "2026-11-15": 1
    },
    "zc": [
     {
@@ -5946,7 +5929,28 @@
      "i": "Med",
      "t": 1794567882
     }
-   ]
+   ],
+   "tk": {
+    "firma": "a7224626",
+    "igual": 1794786709,
+    "ult": 1794786709,
+    "desde": 1794567838,
+    "est": null
+   },
+   "prev": 49.2,
+   "prev_t": 1794257274,
+   "hinf": [
+    [
+     1794257274,
+     49.2
+    ],
+    [
+     1794567838,
+     50.4
+    ]
+   ],
+   "tick_ult": 1794786709,
+   "tick_marg": 1823
   },
   "Ngargambo": {
    "sys": "Ngargambo",
@@ -12291,11 +12295,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794784184.3812985,
-  "msgs": 548798,
-  "mios": 52
+  "ultimo": 1794786710.9835987,
+  "msgs": 565664,
+  "mios": 53
  },
- "t": 1794785956.4583368,
+ "t": 1794786787.066328,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12432,13 +12436,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.183407,
+   "prog": 0.187124,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794775837
+   "t": 1794786260
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -12776,7 +12780,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794768170
+   "t": 1794786784
   },
   "Ross 332": {
    "pos": [
@@ -14792,7 +14796,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794781015
+   "t": 1794786608
   },
   "Pai Ho": {
    "pos": [
@@ -15261,6 +15265,39 @@
     "Li Yong-Rui"
    ],
    "t": 1794785363
+  },
+  "Kanean": {
+   "pos": [
+    22.28125,
+    -22.75,
+    -86.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794786436
+  },
+  "NN 3365": {
+   "pos": [
+    -18.46875,
+    11.5625,
+    -80.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253418,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794786709
   }
  }
 }

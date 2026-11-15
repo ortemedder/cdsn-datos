@@ -6551,7 +6551,7 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 11
+    "2026-11-15": 12
    },
    "tk": {
     "firma": "9ac237db",
@@ -11679,10 +11679,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794746258.9463592,
-  "msgs": 882294,
+  "msgs": 898787,
   "mios": 65
  },
- "t": 1794746263.8257594,
+ "t": 1794747174.7689278,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11734,7 +11734,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794742383
+   "t": 1794746644
   },
   "UGP 92": {
    "pos": [
@@ -12980,14 +12980,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.248672,
+   "prog": 0.248689,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794738161
+   "t": 1794747099
   },
   "Dongkum": {
    "pos": [
@@ -12997,7 +12997,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272445,
+   "prog": 0.272501,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -13005,7 +13005,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794738213
+   "t": 1794747150
   },
   "Trianguli Sector BH-L a8-1": {
    "pos": [
@@ -13753,7 +13753,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794713326
+   "t": 1794746647
   },
   "Nipibo": {
    "pos": [
@@ -13845,7 +13845,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794704769
+   "t": 1794746407
   },
   "Oscabi": {
    "pos": [
@@ -15587,7 +15587,24 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794745532
+   "t": 1794746723
+  },
+  "Kwiamo": {
+   "pos": [
+    24.90625,
+    22.71875,
+    -122.96875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.0638,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794746934
   }
  }
 }

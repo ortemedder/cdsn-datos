@@ -1722,7 +1722,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794731742,
+   "t": 1794736283,
    "src": "EDDN",
    "inf": 66.17,
    "ctrl": true,
@@ -1819,8 +1819,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.250426,
-    "ref": 1378,
+    "prog": 0.251005,
+    "ref": 1754,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -1834,25 +1834,25 @@
     "2026-11-14": 41,
     "2026-04-11": 1,
     "2026-05-03": 1,
-    "2026-11-15": 4
+    "2026-11-15": 5
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794731749
+     "t": 1794736283
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794731749
+     "t": 1794736283
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794731749
+     "t": 1794736283
     }
    },
    "tk": {
     "firma": "b4ffde22",
-    "igual": 1794731742,
+    "igual": 1794736283,
     "ult": 1794702233,
     "desde": 1794668657,
     "vent": [
@@ -11541,15 +11541,129 @@
    "trafico": {
     "2026-11-15": 2
    }
+  },
+  "Eluskapu": {
+   "sys": "Eluskapu",
+   "t": 1794736047,
+   "src": "EDDN",
+   "inf": 5.05,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
+    "Expansion"
+   ],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 52.57,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "THE AZGHARIE",
+     "inf": 52.57,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 17.36,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Eluskapu Partnership",
+     "inf": 12.31,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Eluskapu Gold General Company",
+     "inf": 11.71,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.05,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Hand Gang of Eluskapu",
+     "inf": 1.01,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "THE AZGHARIE",
+   "pos": [
+    -22.8125,
+    29.1875,
+    -100.875
+   ],
+   "sis": {
+    "pob": 38597,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794736047,
+     5.05
+    ]
+   ],
+   "tk": {
+    "firma": "a57e0166",
+    "igual": 1794736047
+   },
+   "trafico": {
+    "2026-11-15": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794734948.600472,
-  "msgs": 712202,
-  "mios": 54
+  "ultimo": 1794736285.689599,
+  "msgs": 723823,
+  "mios": 56
  },
- "t": 1794735325.1075017,
+ "t": 1794736286.1530836,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11703,7 +11817,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794735177
+   "t": 1794736192
   },
   "Nyal": {
    "pos": [
@@ -12172,7 +12286,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.024117,
+   "prog": 0.024143,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -12180,7 +12294,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794730490
+   "t": 1794736075
   },
   "Hyades Sector AC-K b9-7": {
    "pos": [
@@ -13515,14 +13629,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.250426,
+   "prog": 0.251005,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794731742
+   "t": 1794736283
   },
   "Kher": {
    "pos": [
@@ -14909,6 +15023,72 @@
     "Li Yong-Rui"
    ],
    "t": 1794734378
+  },
+  "Yin Sector XJ-A c18": {
+   "pos": [
+    -10.46875,
+    35.53125,
+    -70.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794735899
+  },
+  "Sairre": {
+   "pos": [
+    -21.21875,
+    37.375,
+    -82.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794735987
+  },
+  "Eluskapu": {
+   "pos": [
+    -22.8125,
+    29.1875,
+    -100.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794736047
+  },
+  "Alexis Centauri": {
+   "pos": [
+    -41.15625,
+    23.4375,
+    -108.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794736170
   }
  }
 }

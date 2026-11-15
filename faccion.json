@@ -11782,11 +11782,11 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794768035.3727639,
-  "msgs": 131250,
+  "msgs": 178445,
   "mios": 21
  },
- "t": 1794768825.306411,
- "tick_global": 1794676615,
+ "t": 1794770597.4575362,
+ "tick_global": 1794764339,
  "zona": {
   "Yenici": {
    "pos": [
@@ -11898,24 +11898,6 @@
    ],
    "t": 1794763447
   },
-  "Ross 584": {
-   "pos": [
-    10.9375,
-    -33.65625,
-    -36.4375
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Stronghold",
-   "prog": 0.407499,
-   "pots": [
-    "Aisling Duval",
-    "Li Yong-Rui",
-    "Yuri Grom",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794764988
-  },
   "Cailla": {
    "pos": [
     25.875,
@@ -11930,7 +11912,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794766343
+   "t": 1794769034
   },
   "HIP 46236": {
    "pos": [
@@ -11978,7 +11960,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794764350
+   "t": 1794769854
   },
   "Meeneratii": {
    "pos": [
@@ -12285,22 +12267,6 @@
     "Li Yong-Rui"
    ],
    "t": 1794768170
-  },
-  "Ceti Sector KX-T b3-3": {
-   "pos": [
-    6.71875,
-    -99,
-    -23.25
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Pranav Antal"
-   ],
-   "t": 1794766859
   },
   "Ross 332": {
    "pos": [
@@ -12682,6 +12648,251 @@
     "Jerome Archer"
    ],
    "t": 1794768317
+  },
+  "Arietis Sector PT-Q b5-7": {
+   "pos": [
+    -52.3125,
+    -8.625,
+    -100.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794768913
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198895,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794769056
+  },
+  "Nergal": {
+   "pos": [
+    -53.3125,
+    -22.59375,
+    -89.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794769097
+  },
+  "Col 285 Sector RD-T a33-4": {
+   "pos": [
+    132.71875,
+    -31.96875,
+    13.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794769905
+  },
+  "LHS 1848": {
+   "pos": [
+    -24.96875,
+    23.5,
+    -64.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.324118,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794770105
+  },
+  "Oto": {
+   "pos": [
+    27.25,
+    -20.71875,
+    -47.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.261392,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794770163
+  },
+  "Vivata": {
+   "pos": [
+    17.96875,
+    -77.375,
+    -17.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794770333
+  },
+  "Ceti Sector KX-T b3-4": {
+   "pos": [
+    6.0625,
+    -101.96875,
+    -19.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794770476
+  },
+  "LTT 751": {
+   "pos": [
+    6.375,
+    -95.625,
+    -10.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794768828
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794767733
+  },
+  "Skeller": {
+   "pos": [
+    3.9375,
+    -90.71875,
+    -35.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.260332,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794767925
+  },
+  "Tascheter Sector HM-M a7-2": {
+   "pos": [
+    18.15625,
+    -44.4375,
+    -32.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.108389,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794770538
+  },
+  "Ceti Sector KX-T b3-3": {
+   "pos": [
+    6.71875,
+    -99,
+    -23.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1758902351
+  },
+  "Ceti Sector HR-V b2-0": {
+   "pos": [
+    18.625,
+    -101.0625,
+    -40.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1758903785
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.077231,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1758972744
   }
  }
 }

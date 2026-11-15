@@ -6555,7 +6555,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794777584,
+   "t": 1794778674,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6636,11 +6636,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 48
+    "2026-11-15": 50
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794777584
+    "igual": 1794778674
    },
    "prev": null,
    "prev_t": null,
@@ -12240,11 +12240,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794777587.2771215,
-  "msgs": 374958,
-  "mios": 39
+  "ultimo": 1794778676.9414234,
+  "msgs": 397604,
+  "mios": 40
  },
- "t": 1794777846.8128428,
+ "t": 1794778678.1779118,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12371,7 +12371,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794776264
+   "t": 1794778542
   },
   "HIP 46236": {
    "pos": [
@@ -12663,7 +12663,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794775364
+   "t": 1794778533
   },
   "BD+43 866": {
    "pos": [
@@ -12751,7 +12751,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.266418,
+   "prog": 0.266424,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -12759,7 +12759,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794767026
+   "t": 1794778599
   },
   "Tascheter Sector OX-U b2-2": {
    "pos": [
@@ -13253,7 +13253,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794768828
+   "t": 1794778304
   },
   "CD-25 636": {
    "pos": [
@@ -13335,7 +13335,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794777574
+   "t": 1794778572
   },
   "HJ 3456B": {
    "pos": [
@@ -13978,7 +13978,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794775903
+   "t": 1794778185
   },
   "LTT 882": {
    "pos": [
@@ -14312,6 +14312,67 @@
     "Li Yong-Rui"
    ],
    "t": 1794777838
+  },
+  "GCRV 3034": {
+   "pos": [
+    -4.34375,
+    -16.09375,
+    -117.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.246284,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794778064
+  },
+  "Exigus": {
+   "pos": [
+    -2.625,
+    38.3125,
+    -84.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794778179
+  },
+  "Ceti Sector FG-X b1-3": {
+   "pos": [
+    21.09375,
+    -107.5,
+    -46.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794772206
+  },
+  "Ceti Sector BL-X b1-0": {
+   "pos": [
+    -10,
+    -102.375,
+    -59.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794778242
   }
  }
 }

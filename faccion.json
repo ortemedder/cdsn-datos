@@ -3644,7 +3644,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794702907,
+   "t": 1794752469,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3701,9 +3701,9 @@
     280.59375
    ],
    "sis": {
-    "pob": 49924120,
+    "pob": 53342656,
     "eco": "$economy_Refinery;",
-    "eco2": "$economy_HighTech;",
+    "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
@@ -3723,7 +3723,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 13
+    "2026-11-15": 14
    },
    "pn": {
     "J9W-B6T": {
@@ -3732,7 +3732,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794703103
+     "t": 1794752469
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3748,12 +3748,16 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794703103
+     "t": 1794752469
+    },
+    "KBY-8QF": {
+     "n": "",
+     "t": 1794752469
     }
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794702907,
+    "igual": 1794752469,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -6490,7 +6494,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794748617,
+   "t": 1794752197,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6571,11 +6575,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 17
+    "2026-11-15": 19
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794748617
+    "igual": 1794752197
    },
    "prev": null,
    "prev_t": null,
@@ -11699,11 +11703,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794750720.3178523,
-  "msgs": 966484,
-  "mios": 71
+  "ultimo": 1794752579.8689284,
+  "msgs": 1004091,
+  "mios": 73
  },
- "t": 1794750799.028863,
+ "t": 1794752580.9419847,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11749,13 +11753,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.174817,
+   "prog": 0.178629,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794749401
+   "t": 1794752495
   },
   "UGP 92": {
    "pos": [
@@ -11807,7 +11811,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794688156
+   "t": 1794752302
   },
   "Lakheo": {
    "pos": [
@@ -11857,7 +11861,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794750793
+   "t": 1794750881
   },
   "Nyal": {
    "pos": [
@@ -12095,14 +12099,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.244615,
+   "prog": 0.244252,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794689432
+   "t": 1794752258
   },
   "LFT 324": {
    "pos": [
@@ -12316,7 +12320,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794749492
+   "t": 1794752553
   },
   "Zach": {
    "pos": [
@@ -12811,7 +12815,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794744587
+   "t": 1794752595
   },
   "Tascheter Sector CG-X b1-4": {
    "pos": [
@@ -12846,7 +12850,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794749359
+   "t": 1794752259
   },
   "Awonai": {
    "pos": [
@@ -14080,7 +14084,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794700086
+   "t": 1794751321
   },
   "BD+47 977": {
    "pos": [
@@ -14988,14 +14992,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.073194,
+   "prog": 0.076174,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794750025
+   "t": 1794752335
   },
   "Sarugh": {
    "pos": [
@@ -15835,6 +15839,129 @@
     "Li Yong-Rui"
    ],
    "t": 1794750786
+  },
+  "Lenchis": {
+   "pos": [
+    27.8125,
+    -19.09375,
+    -99.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.061712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794750851
+  },
+  "Trianguli Sector TF-N a7-1": {
+   "pos": [
+    24.25,
+    -31.0625,
+    -51.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.09314,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794750859
+  },
+  "Brians": {
+   "pos": [
+    107.75,
+    -135.15625,
+    -8.40625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200323,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794751028
+  },
+  "Hu Jini": {
+   "pos": [
+    139.125,
+    -22.09375,
+    2.96875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.261438,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794751743
+  },
+  "Col 285 Sector UJ-R a34-0": {
+   "pos": [
+    122.34375,
+    -28.78125,
+    18.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794751571
+  },
+  "Zac Chehoga": {
+   "pos": [
+    128.34375,
+    -20.625,
+    8.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794752156
+  },
+  "LTT 11503": {
+   "pos": [
+    -10.5,
+    -13,
+    -70.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794752215
+  },
+  "Arietis Sector PT-Q b5-4": {
+   "pos": [
+    -50.34375,
+    -12.0625,
+    -95.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794752490
   }
  }
 }

@@ -6622,7 +6622,7 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 39
+    "2026-11-15": 41
    },
    "tk": {
     "firma": "9ac237db",
@@ -12139,10 +12139,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794774155.2905312,
-  "msgs": 278086,
+  "msgs": 301691,
   "mios": 32
  },
- "t": 1794774161.9243615,
+ "t": 1794775113.0592613,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12509,7 +12509,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794766311
+   "t": 1794774404
   },
   "LP 883-185": {
    "pos": [
@@ -12823,7 +12823,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794767962
+   "t": 1794774454
   },
   "Tascheter Sector XE-Q a5-0": {
    "pos": [
@@ -13004,7 +13004,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794768317
+   "t": 1794774416
   },
   "Arietis Sector PT-Q b5-7": {
    "pos": [
@@ -13233,7 +13233,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794768588
+   "t": 1794775100
   },
   "HJ 3456B": {
    "pos": [
@@ -13417,7 +13417,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794772352
+   "t": 1794774962
   },
   "GCRV 2311": {
    "pos": [
@@ -13708,6 +13708,108 @@
     "Zemina Torval"
    ],
    "t": 1794774052
+  },
+  "Ceti Sector KX-T b3-3": {
+   "pos": [
+    6.71875,
+    -99,
+    -23.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794774806
+  },
+  "Tascheter Sector CL-O a6-2": {
+   "pos": [
+    30.71875,
+    -32.59375,
+    -37
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.0761,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794774647
+  },
+  "Tascheter Sector CL-O a6-1": {
+   "pos": [
+    33.09375,
+    -34.0625,
+    -37.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794774705
+  },
+  "Ditia": {
+   "pos": [
+    32.46875,
+    -39.59375,
+    -36.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256546,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794774753
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.268725,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794774803
+  },
+  "Tascheter Sector FR-M a7-2": {
+   "pos": [
+    17.0625,
+    -34.09375,
+    -33.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.05708,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794774753
   }
  }
 }

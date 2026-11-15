@@ -1722,11 +1722,11 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794702233,
+   "t": 1794731742,
    "src": "EDDN",
    "inf": 66.17,
    "ctrl": true,
-   "estado": "Expansion",
+   "estado": "None",
    "activos": [],
    "pendientes": [],
    "recuperando": [
@@ -1819,8 +1819,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.250417,
-    "ref": 1372,
+    "prog": 0.250426,
+    "ref": 1378,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -1834,25 +1834,25 @@
     "2026-11-14": 41,
     "2026-04-11": 1,
     "2026-05-03": 1,
-    "2026-11-15": 2
+    "2026-11-15": 3
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794702238
+     "t": 1794731749
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794702238
+     "t": 1794731749
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794702238
+     "t": 1794731749
     }
    },
    "tk": {
     "firma": "b4ffde22",
-    "igual": 1794702233,
+    "igual": 1794731742,
     "ult": 1794702233,
     "desde": 1794668657,
     "vent": [
@@ -11545,11 +11545,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794728825.8705585,
-  "msgs": 666174,
-  "mios": 51
+  "ultimo": 1794732078.6169143,
+  "msgs": 676972,
+  "mios": 52
  },
- "t": 1794731822.1383886,
+ "t": 1794732632.663314,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -13515,14 +13515,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.250417,
+   "prog": 0.250426,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794702233
+   "t": 1794731742
   },
   "Kher": {
    "pos": [
@@ -14709,6 +14709,57 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794731281
+  },
+  "Col 285 Sector VJ-R a34-3": {
+   "pos": [
+    126.125,
+    -28.09375,
+    16.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794732018
+  },
+  "LTT 606": {
+   "pos": [
+    0.5625,
+    -78.125,
+    -5.28125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.109691,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794732158
+  },
+  "Ross 411": {
+   "pos": [
+    -0.34375,
+    -3.53125,
+    -110.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794732622
   }
  }
 }

@@ -6494,7 +6494,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794752197,
+   "t": 1794753483,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6575,11 +6575,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 19
+    "2026-11-15": 20
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794752197
+    "igual": 1794753483
    },
    "prev": null,
    "prev_t": null,
@@ -11703,11 +11703,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794752579.8689284,
-  "msgs": 1004091,
-  "mios": 73
+  "ultimo": 1794753485.4032655,
+  "msgs": 1024332,
+  "mios": 74
  },
- "t": 1794752580.9419847,
+ "t": 1794753501.7591512,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12995,7 +12995,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794699300
+   "t": 1794753073
   },
   "LP 302-22": {
    "pos": [
@@ -13012,7 +13012,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794747099
+   "t": 1794753034
   },
   "Dongkum": {
    "pos": [
@@ -13022,7 +13022,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272501,
+   "prog": 0.272527,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -13030,7 +13030,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794747150
+   "t": 1794753088
   },
   "Trianguli Sector BH-L a8-1": {
    "pos": [
@@ -14999,7 +14999,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794752335
+   "t": 1794753206
   },
   "Sarugh": {
    "pos": [
@@ -15962,6 +15962,22 @@
     "Jerome Archer"
    ],
    "t": 1794752490
+  },
+  "Tascheter Sector BL-O a6-2": {
+   "pos": [
+    23.125,
+    -32.71875,
+    -39.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794753492
   }
  }
 }

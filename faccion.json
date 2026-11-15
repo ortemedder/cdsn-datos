@@ -6470,7 +6470,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794744068,
+   "t": 1794746256,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6551,11 +6551,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 10
+    "2026-11-15": 11
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794744068
+    "igual": 1794746256
    },
    "prev": null,
    "prev_t": null,
@@ -11678,11 +11678,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794745022.1900733,
-  "msgs": 867569,
-  "mios": 64
+  "ultimo": 1794746258.9463592,
+  "msgs": 882294,
+  "mios": 65
  },
- "t": 1794745223.2468429,
+ "t": 1794746263.8257594,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12825,7 +12825,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794728919
+   "t": 1794746201
   },
   "Awonai": {
    "pos": [
@@ -14638,7 +14638,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794740364
+   "t": 1794746082
   },
   "HIP 18427": {
    "pos": [
@@ -14682,7 +14682,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794723107
+   "t": 1794745422
   },
   "Ninmah": {
    "pos": [
@@ -15557,6 +15557,37 @@
     "Jerome Archer"
    ],
    "t": 1794745021
+  },
+  "Arietis Sector PT-Q b5-7": {
+   "pos": [
+    -52.3125,
+    -8.625,
+    -100.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794745393
+  },
+  "LFT 415": {
+   "pos": [
+    25.8125,
+    -20.71875,
+    -51.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.246195,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794745532
   }
  }
 }

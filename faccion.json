@@ -11874,9 +11874,9 @@
   },
   "Yin Sector XJ-A c21": {
    "sys": "Yin Sector XJ-A c21",
-   "t": 1759845602,
-   "src": "EDDN",
-   "inf": 16.97,
+   "t": 1793911330,
+   "src": "EDSM",
+   "inf": 13.84,
    "ctrl": false,
    "estado": "None",
    "activos": [],
@@ -11885,48 +11885,41 @@
    ],
    "recuperando": [],
    "segunda": "LP 254-40 Co",
-   "segunda_inf": 49.3,
+   "segunda_inf": 67.2,
    "conflictos": [],
    "todas": [
     {
      "n": "LP 254-40 Co",
-     "inf": 49.3,
-     "gov": "Corporate",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Earth Defense Fleet",
-     "inf": 29.84,
+     "inf": 67.2,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
-      "Expansion"
+      "Civil unrest"
      ],
      "pend": [],
-     "jug": null
+     "jug": false
+    },
+    {
+     "n": "Earth Defense Fleet",
+     "inf": 18.96,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 16.97,
+     "inf": 13.84,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
      ],
-     "jug": null
-    },
-    {
-     "n": "Gang of LP 254-40",
-     "inf": 3.89,
-     "gov": "Anarchy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
+     "jug": true
     }
    ],
    "ctrl_n": "LP 254-40 Co",
@@ -11957,74 +11950,67 @@
      "Jerome Archer"
     ]
    },
+   "tk": {
+    "firma": "9173b6ab",
+    "igual": 1759845602
+   },
+   "prev": 16.97,
+   "prev_t": 1759845602,
    "hinf": [
     [
      1759845602,
      16.97
+    ],
+    [
+     1793911330,
+     13.84
     ]
-   ],
-   "tk": {
-    "firma": "9173b6ab",
-    "igual": 1759845602
-   }
+   ]
   },
   "Hyades Sector RZ-N b7-0": {
    "sys": "Hyades Sector RZ-N b7-0",
-   "t": 1760098387,
-   "src": "EDDN",
-   "inf": 5.27,
+   "t": 1794624564,
+   "src": "EDSM",
+   "inf": 0,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [
-    "Expansion"
-   ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 80.6,
+   "segunda_inf": 76.01,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 80.6,
+     "inf": 76.01,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
-      "Boom"
+      "Expansion"
      ],
      "pend": [],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Bundhar Group",
-     "inf": 8.46,
+     "inf": 17.44,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "Astrobiology Research Cooperative",
-     "inf": 5.67,
+     "inf": 6.55,
      "gov": "Cooperative",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 5.27,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion"
-     ],
-     "jug": null
+     "pend": [],
+     "jug": true
     }
    ],
    "ctrl_n": "Sirius Special Forces",
@@ -12071,8 +12057,8 @@
      ]
     ]
    },
-   "prev": 4.78,
-   "prev_t": 1760037126,
+   "prev": 5.27,
+   "prev_t": 1760098387,
    "hinf": [
     [
      1759860300,
@@ -12085,6 +12071,10 @@
     [
      1760098387,
      5.27
+    ],
+    [
+     1794624564,
+     0
     ]
    ],
    "tick_ult": 1760098387,
@@ -12095,89 +12085,77 @@
   },
   "Torenai": {
    "sys": "Torenai",
-   "t": 1768648501,
-   "src": "EDDN",
-   "inf": 14.03,
+   "t": 1793410430,
+   "src": "EDSM",
+   "inf": 3.5,
    "ctrl": false,
-   "estado": "Election",
+   "estado": "Expansion",
    "activos": [
-    "Election"
-   ],
-   "pendientes": [],
-   "recuperando": [
     "Expansion"
    ],
+   "pendientes": [],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 45.59,
-   "conflictos": [
-    {
-     "tipo": "election",
-     "estado": "active",
-     "contra": "Independents of Torenai",
-     "ganados": 0,
-     "perdidos": 0
-    }
-   ],
+   "segunda_inf": 49.85,
+   "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 45.59,
+     "inf": 49.85,
      "gov": "Corporate",
      "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
+    },
+    {
+     "n": "New Torenai Dominion",
+     "inf": 16.68,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Independents of Torenai",
+     "inf": 13.89,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Torenai Public Exchange",
+     "inf": 9.19,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Torenai Party",
+     "inf": 6.89,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": false
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 3.5,
+     "gov": "Democracy",
+     "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Independents of Torenai",
-     "inf": 14.03,
-     "gov": "Democracy",
-     "alg": "Federation",
-     "act": [
-      "Election"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 14.03,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [
-      "Election"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Torenai Party",
-     "inf": 11.82,
-     "gov": "Dictatorship",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Torenai Public Exchange",
-     "inf": 8.72,
-     "gov": "Corporate",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "New Torenai Dominion",
-     "inf": 5.81,
-     "gov": "Dictatorship",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
+     "jug": true
     }
    ],
    "ctrl_n": "Sirius Special Forces",
@@ -12205,16 +12183,22 @@
      "Jerome Archer"
     ]
    },
+   "tk": {
+    "firma": "abfe6c71",
+    "igual": 1768648501
+   },
+   "prev": 14.03,
+   "prev_t": 1768648501,
    "hinf": [
     [
      1768648501,
      14.03
+    ],
+    [
+     1793410430,
+     3.5
     ]
-   ],
-   "tk": {
-    "firma": "abfe6c71",
-    "igual": 1768648501
-   }
+   ]
   },
   "Hyades Sector VA-M b8-2": {
    "sys": "Hyades Sector VA-M b8-2",
@@ -12308,10 +12292,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794784184.3812985,
-  "msgs": 533127,
+  "msgs": 548798,
   "mios": 52
  },
- "t": 1794784945.792577,
+ "t": 1794785956.4583368,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12944,7 +12928,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794781694
+   "t": 1794785951
   },
   "Tascheter Sector WE-Q a5-2": {
    "pos": [
@@ -13527,7 +13511,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272618,
+   "prog": 0.272657,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -13535,7 +13519,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794783766
+   "t": 1794785459
   },
   "Sussche": {
    "pos": [
@@ -14114,7 +14098,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794775998
+   "t": 1794782548
   },
   "Tascheter Sector DG-O a6-3": {
    "pos": [
@@ -15243,6 +15227,40 @@
     "Jerome Archer"
    ],
    "t": 1794784848
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.264311,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794785183
+  },
+  "Ebanji": {
+   "pos": [
+    -25.46875,
+    87.75,
+    -129.65625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.251914,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794785363
   }
  }
 }

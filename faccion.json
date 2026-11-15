@@ -4373,7 +4373,7 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1794711459,
+   "t": 1794715933,
    "src": "EDDN",
    "inf": 12.73,
    "ctrl": false,
@@ -4455,11 +4455,11 @@
     "2026-11-12": 6,
     "2026-11-13": 1,
     "2026-11-14": 1,
-    "2026-11-15": 1
+    "2026-11-15": 2
    },
    "tk": {
     "firma": "bca96df7",
-    "igual": 1794711459,
+    "igual": 1794715933,
     "ult": 1794711459,
     "desde": 1794644442,
     "vent": [
@@ -11505,11 +11505,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794711520.1308303,
-  "msgs": 454107,
-  "mios": 47
+  "ultimo": 1794715935.3713503,
+  "msgs": 509039,
+  "mios": 48
  },
- "t": 1794711903.8671358,
+ "t": 1794715986.1631398,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11663,7 +11663,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794711445
+   "t": 1794714687
   },
   "Nyal": {
    "pos": [
@@ -11973,7 +11973,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794698213
+   "t": 1794715504
   },
   "GR 316": {
    "pos": [
@@ -12458,7 +12458,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794692754
+   "t": 1794715376
   },
   "HIP 17719": {
    "pos": [
@@ -12500,13 +12500,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Fortified",
-   "prog": 0.252762,
+   "prog": 0.252998,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794704262
+   "t": 1794715298
   },
   "Baraluhet": {
    "pos": [
@@ -12536,7 +12536,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1794692234
+   "t": 1794712119
   },
   "Ahti": {
    "pos": [
@@ -13128,7 +13128,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794710267
+   "t": 1794715334
   },
   "Wo 9203": {
    "pos": [
@@ -13207,7 +13207,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794708534
+   "t": 1794715942
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -13580,7 +13580,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794711838
+   "t": 1794713326
   },
   "Nipibo": {
    "pos": [
@@ -13820,7 +13820,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794706500
+   "t": 1794714545
   },
   "Unktock": {
    "pos": [
@@ -13836,7 +13836,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794706580
+   "t": 1794714203
   },
   "Lhou Wangs": {
    "pos": [
@@ -14065,7 +14065,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794711459
+   "t": 1794715933
   },
   "Wolf 289": {
    "pos": [
@@ -14084,6 +14084,211 @@
     "Jerome Archer"
    ],
    "t": 1794711877
+  },
+  "HIP 47625": {
+   "pos": [
+    138.46875,
+    -5.34375,
+    21.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794712498
+  },
+  "Binar": {
+   "pos": [
+    124.15625,
+    -14.65625,
+    22.5
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.145604,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794712568
+  },
+  "HIP 47490": {
+   "pos": [
+    132.34375,
+    -18.40625,
+    31.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794712778
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.138761,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794713356
+  },
+  "ICZ XY-A b3": {
+   "pos": [
+    114.5625,
+    -119.25,
+    -27.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794713607
+  },
+  "Tascheter Sector EG-X b1-5": {
+   "pos": [
+    29.375,
+    10.53125,
+    -75.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794714650
+  },
+  "NLTT 14879": {
+   "pos": [
+    -31.71875,
+    14,
+    -67.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.122855,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794714711
+  },
+  "ICZ EL-Y d89": {
+   "pos": [
+    109.03125,
+    -131,
+    -24.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794714808
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260241,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794715289
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794715631
+  },
+  "Hyades Sector EB-X d1-117": {
+   "pos": [
+    19.96875,
+    27.75,
+    -131.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.047426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794715896
+  },
+  "HIP 23302": {
+   "pos": [
+    -15.09375,
+    -14.25,
+    -127.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794715929
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256021,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794715978
   }
  }
 }

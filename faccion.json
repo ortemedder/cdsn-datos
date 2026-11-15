@@ -4236,7 +4236,8 @@
    "trafico": {
     "2026-11-11": 1,
     "2026-11-14": 3,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2025-10-04": 1
    },
    "pn": {
     "QBT-LQY": {
@@ -8810,7 +8811,13 @@
     "igual": 1794465933
    },
    "trafico": {
-    "2026-11-12": 1
+    "2026-11-12": 1,
+    "2025-10-03": 1,
+    "2025-10-04": 1,
+    "2025-10-07": 1,
+    "2025-10-08": 1,
+    "2025-10-09": 1,
+    "2025-10-10": 1
    }
   },
   "Col 285 Sector FT-F b12-6": {
@@ -11318,6 +11325,12 @@
    "tk": {
     "firma": "111179b0",
     "igual": 1794638637
+   },
+   "trafico": {
+    "2025-10-07": 1,
+    "2025-10-08": 1,
+    "2025-10-09": 1,
+    "2025-10-10": 1
    }
   },
   "Runab": {
@@ -11777,15 +11790,236 @@
    "trafico": {
     "2026-11-15": 1
    }
+  },
+  "Yin Sector XJ-A c21": {
+   "sys": "Yin Sector XJ-A c21",
+   "t": 1759845602,
+   "src": "EDDN",
+   "inf": 16.97,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "LP 254-40 Co",
+   "segunda_inf": 49.3,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "LP 254-40 Co",
+     "inf": 49.3,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Earth Defense Fleet",
+     "inf": 29.84,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 16.97,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Gang of LP 254-40",
+     "inf": 3.89,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "LP 254-40 Co",
+   "pos": [
+    -10.9375,
+    25.75,
+    -92.75
+   ],
+   "sis": {
+    "pob": 8225210,
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1759845602,
+     16.97
+    ]
+   ],
+   "tk": {
+    "firma": "9173b6ab",
+    "igual": 1759845602
+   }
+  },
+  "Hyades Sector RZ-N b7-0": {
+   "sys": "Hyades Sector RZ-N b7-0",
+   "t": 1760098387,
+   "src": "EDDN",
+   "inf": 5.27,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 80.6,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 80.6,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Boom"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Bundhar Group",
+     "inf": 8.46,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Astrobiology Research Cooperative",
+     "inf": 5.67,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.27,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    4.84375,
+    18.96875,
+    -114.125
+   ],
+   "sis": {
+    "pob": 1308886,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "trafico": {
+    "2025-10-08": 1,
+    "2025-10-09": 1,
+    "2025-10-10": 1
+   },
+   "tk": {
+    "firma": "1d01350c",
+    "igual": 1760098387,
+    "ult": 1760098387,
+    "desde": 1760037126,
+    "est": null,
+    "vent": [
+     [
+      1760037126,
+      1760098387
+     ]
+    ]
+   },
+   "prev": 4.78,
+   "prev_t": 1760037126,
+   "hinf": [
+    [
+     1759860300,
+     4.98
+    ],
+    [
+     1759937212,
+     4.78
+    ],
+    [
+     1760098387,
+     5.27
+    ]
+   ],
+   "tick_ult": 1760098387,
+   "tick_marg": 510,
+   "tick_prox": 1760154150,
+   "tick_disp": 510,
+   "tick_n": 0
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794768035.3727639,
-  "msgs": 178445,
-  "mios": 21
+  "ultimo": 1794770972.0737317,
+  "msgs": 204422,
+  "mios": 28
  },
- "t": 1794770597.4575362,
+ "t": 1794771508.6667788,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12846,11 +13080,43 @@
    ],
    "t": 1794770538
   },
-  "Ceti Sector KX-T b3-3": {
+  "LFT 415": {
    "pos": [
-    6.71875,
-    -99,
-    -23.25
+    25.8125,
+    -20.71875,
+    -51.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256998,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794770666
+  },
+  "Naren": {
+   "pos": [
+    -47.46875,
+    -18.78125,
+    -114.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.255254,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794768588
+  },
+  "HJ 3456B": {
+   "pos": [
+    4.65625,
+    -102.625,
+    -24.4375
    ],
    "pot": null,
    "est": "Unoccupied",
@@ -12860,39 +13126,74 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1758902351
+   "t": 1794770959
   },
-  "Ceti Sector HR-V b2-0": {
+  "Hyades Sector UU-N b7-4": {
    "pos": [
-    18.625,
-    -101.0625,
-    -40.0625
+    26.46875,
+    13.59375,
+    -108.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.108923,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794771498
+  },
+  "Hyades Sector PE-O b7-4": {
+   "pos": [
+    11.0625,
+    47.375,
+    -121.4375
    ],
    "pot": null,
    "est": "Unoccupied",
    "prog": null,
    "pots": [
-    "Denton Patreus",
+    "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1758903785
+   "t": 1794771264
   },
-  "LP 834-42": {
+  "LFT 330": {
    "pos": [
-    30.53125,
-    -39.40625,
-    -32.15625
+    31.40625,
+    -53.09375,
+    -43.40625
    ],
-   "pot": "Jerome Archer",
-   "est": "Fortified",
-   "prog": 0.077231,
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.145712,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1758972744
+   "t": 1794771351
+  },
+  "Tascheter Sector FR-M a7-3": {
+   "pos": [
+    22.96875,
+    -28.3125,
+    -31.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.156723,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794771367
   }
  }
 }

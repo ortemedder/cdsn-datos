@@ -3670,7 +3670,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 6
+    "2026-11-15": 11
    },
    "pn": {
     "J9W-B6T": {
@@ -3679,7 +3679,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794702907
+     "t": 1794703103
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3695,7 +3695,7 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794702907
+     "t": 1794703103
     }
    },
    "tk": {
@@ -11487,10 +11487,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794702908.5109856,
-  "msgs": 326842,
+  "msgs": 339820,
   "mios": 43
  },
- "t": 1794702987.7986112,
+ "t": 1794703918.6142588,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12760,7 +12760,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794695129
+   "t": 1794703725
   },
   "Labe": {
    "pos": [
@@ -12805,7 +12805,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272381,
+   "prog": 0.272419,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -12813,7 +12813,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794695320
+   "t": 1794703001
   },
   "Trianguli Sector BH-L a8-1": {
    "pos": [
@@ -13496,6 +13496,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794702403
+  },
+  "Ceti Sector GR-V b2-4": {
+   "pos": [
+    10.53125,
+    -89.59375,
+    -26.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.260738,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794703840
   }
  }
 }

@@ -487,7 +487,7 @@
   },
   "Menkalinan": {
    "sys": "Menkalinan",
-   "t": 1794621945,
+   "t": 1794705566,
    "src": "EDDN",
    "inf": 11.32,
    "ctrl": false,
@@ -558,7 +558,7 @@
     -77.84375
    ],
    "sis": {
-    "pob": 65929892,
+    "pob": 65930873,
     "eco": "$economy_Military;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -582,11 +582,12 @@
    },
    "trafico": {
     "2026-11-11": 1,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 1
    },
    "tk": {
     "firma": "47a66d38",
-    "igual": 1794621945,
+    "igual": 1794705566,
     "ult": 1794621945,
     "desde": 1794413495,
     "est": null
@@ -3671,7 +3672,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 12
+    "2026-11-15": 13
    },
    "pn": {
     "J9W-B6T": {
@@ -11487,11 +11488,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794704644.307164,
-  "msgs": 352876,
-  "mios": 44
+  "ultimo": 1794705566.8931959,
+  "msgs": 367066,
+  "mios": 45
  },
- "t": 1794704709.5466363,
+ "t": 1794705620.433002,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11509,7 +11510,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794703923
+   "t": 1794705176
   },
   "Khaima": {
    "pos": [
@@ -12055,7 +12056,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794690602
+   "t": 1794705109
   },
   "BD+30 1423": {
    "pos": [
@@ -12273,7 +12274,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794701744
+   "t": 1794705533
   },
   "Hyades Sector QU-N b7-3": {
    "pos": [
@@ -13337,7 +13338,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794701374
+   "t": 1794705473
   },
   "Col 285 Sector AQ-P a35-5": {
    "pos": [
@@ -13578,6 +13579,150 @@
     "Zemina Torval"
    ],
    "t": 1794704577
+  },
+  "Ceti Sector LX-T b3-2": {
+   "pos": [
+    19.375,
+    -102.71875,
+    -11.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.058086,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794704983
+  },
+  "Bommatsuri": {
+   "pos": [
+    10.03125,
+    -104.3125,
+    -55.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.104212,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794705083
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.268512,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794705385
+  },
+  "BD+20 1018": {
+   "pos": [
+    12,
+    -10.28125,
+    -108.6875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Stronghold",
+   "prog": 0.211,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794705415
+  },
+  "Col 285 Sector TD-T a33-1": {
+   "pos": [
+    147.125,
+    -30.75,
+    12.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794704769
+  },
+  "Oscabi": {
+   "pos": [
+    125.1875,
+    -16,
+    18.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794704901
+  },
+  "Lyncis Sector PX-U b2-3": {
+   "pos": [
+    -26,
+    24.25,
+    -146.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794705490
+  },
+  "Menkalinan": {
+   "pos": [
+    -16.875,
+    15.4375,
+    -77.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794705566
+  },
+  "Tascheter Sector DG-O a6-1": {
+   "pos": [
+    22.28125,
+    -43.40625,
+    -36.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.123426,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794705614
   }
  }
 }

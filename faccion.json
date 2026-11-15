@@ -3872,32 +3872,34 @@
   },
   "Ryujingit": {
    "sys": "Ryujingit",
-   "t": 1794331233,
+   "t": 1794747490,
    "src": "EDDN",
-   "inf": 8.76,
+   "inf": 8.67,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 57.57,
+   "segunda_inf": 58.17,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 57.57,
+     "inf": 58.17,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Ryujingit Confederation",
-     "inf": 13.84,
+     "inf": 13.65,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -3906,18 +3908,16 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 8.76,
+     "inf": 8.67,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Lords of Ryujingit",
-     "inf": 6.67,
+     "inf": 6.57,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -3926,7 +3926,7 @@
     },
     {
      "n": "Bero Confederation",
-     "inf": 6.18,
+     "inf": 6.08,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -3935,7 +3935,7 @@
     },
     {
      "n": "Blue Allied Partners",
-     "inf": 4.68,
+     "inf": 4.58,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -3979,10 +3979,29 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 1
+    "2026-11-10": 1,
+    "2026-11-15": 1
    },
-   "prev": 8.66,
-   "prev_t": 1794182531
+   "prev": 8.76,
+   "prev_t": 1794331233,
+   "hinf": [
+    [
+     1794182531,
+     8.66
+    ],
+    [
+     1794331233,
+     8.76
+    ],
+    [
+     1794747490,
+     8.67
+    ]
+   ],
+   "tk": {
+    "firma": "5026b8eb",
+    "igual": 1794747490
+   }
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
@@ -6470,7 +6489,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794746256,
+   "t": 1794747568,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6551,11 +6570,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 12
+    "2026-11-15": 15
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794746256
+    "igual": 1794747568
    },
    "prev": null,
    "prev_t": null,
@@ -11678,11 +11697,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794746258.9463592,
-  "msgs": 898787,
-  "mios": 65
+  "ultimo": 1794747571.4574132,
+  "msgs": 914329,
+  "mios": 67
  },
- "t": 1794747174.7689278,
+ "t": 1794748075.770633,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11734,7 +11753,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794746644
+   "t": 1794747633
   },
   "UGP 92": {
    "pos": [
@@ -12305,7 +12324,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.024349,
+   "prog": 0.024366,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -12313,7 +12332,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794739666
+   "t": 1794747478
   },
   "Hyades Sector AC-K b9-7": {
    "pos": [
@@ -12772,7 +12791,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794698791
+   "t": 1794747534
   },
   "Renetes": {
    "pos": [
@@ -13380,7 +13399,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794717292
+   "t": 1794747665
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -15605,6 +15624,54 @@
     "Li Yong-Rui"
    ],
    "t": 1794746934
+  },
+  "Ryujingit": {
+   "pos": [
+    18.75,
+    -2.21875,
+    -86.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794747490
+  },
+  "Yaringu": {
+   "pos": [
+    -57.21875,
+    -23.46875,
+    -82.71875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.07714,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794747859
+  },
+  "Tascheter Sector XO-A b6": {
+   "pos": [
+    -1.75,
+    -16.34375,
+    -108.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794748074
   }
  }
 }

@@ -1841,7 +1841,8 @@
     "2026-11-14": 41,
     "2026-04-11": 1,
     "2026-05-03": 1,
-    "2026-11-15": 7
+    "2026-11-15": 7,
+    "2025-01-11": 1
    },
    "pn": {
     "T9K-6QK": {
@@ -6441,7 +6442,8 @@
     ]
    },
    "trafico": {
-    "2026-11-12": 2
+    "2026-11-12": 2,
+    "2025-01-12": 1
    },
    "prev": null,
    "prev_t": null,
@@ -6534,7 +6536,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794758757,
+   "t": 1794761911,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6615,11 +6617,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 32
+    "2026-11-15": 35
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794758757
+    "igual": 1794761911
    },
    "prev": null,
    "prev_t": null,
@@ -9251,7 +9253,7 @@
   },
   "Mau": {
    "sys": "Mau",
-   "t": 1794494897,
+   "t": 1794684697,
    "src": "EDDN",
    "inf": 59.38,
    "ctrl": true,
@@ -9290,9 +9292,7 @@
      "inf": 8.54,
      "gov": "Democracy",
      "alg": "Federation",
-     "act": [
-      "Outbreak"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -9350,25 +9350,30 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.133712,
+    "prog": 0.133263,
     "ref": 0,
-    "soc": 0,
+    "soc": 157,
     "pots": [
      "Edmund Mahon",
      "Li Yong-Rui",
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-14": 1
+   },
+   "tk": {
+    "firma": "ad9e72b7",
+    "igual": 1794684697
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794494897,
      59.38
     ]
-   ],
-   "tk": {
-    "firma": "ad9e72b7",
-    "igual": 1794494897
-   }
+   ]
   },
   "Skang": {
    "sys": "Skang",
@@ -10940,16 +10945,16 @@
   },
   "Kalenile": {
    "sys": "Kalenile",
-   "t": 1794652105,
+   "t": 1794682568,
    "src": "EDDN",
    "inf": 14.36,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 53.54,
    "conflictos": [],
@@ -10979,9 +10984,7 @@
      "inf": 14.36,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -11041,11 +11044,11 @@
    },
    "trafico": {
     "2026-11-13": 1,
-    "2026-11-14": 1
+    "2026-11-14": 2
    },
    "tk": {
     "firma": "a3d9efce",
-    "igual": 1794652105
+    "igual": 1794682568
    },
    "prev": null,
    "prev_t": null,
@@ -11054,7 +11057,21 @@
      1794610663,
      14.36
     ]
-   ]
+   ],
+   "pn": {
+    "KLZ-70X": {
+     "n": "SOLEX",
+     "t": 1794682589
+    },
+    "QFW-43J": {
+     "n": "ORION STARPORT",
+     "t": 1794682589
+    },
+    "PZN-L1Q": {
+     "n": "NEBUCHADNEZZAR",
+     "t": 1794682842
+    }
+   }
   },
   "Chan Mina": {
    "sys": "Chan Mina",
@@ -11760,11 +11777,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794760735.6185336,
-  "msgs": 1210767,
-  "mios": 97
+  "ultimo": 1794761914.7378798,
+  "msgs": 1232400,
+  "mios": 102
  },
- "t": 1794761623.9778135,
+ "t": 1794762415.1333723,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12361,7 +12378,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794705795
+   "t": 1794682486
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -12761,7 +12778,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794761603
+   "t": 1794762012
   },
   "Baraluhet": {
    "pos": [
@@ -12839,7 +12856,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794693222
+   "t": 1794761954
   },
   "BD+11 1163": {
    "pos": [
@@ -13046,14 +13063,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.248689,
+   "prog": 0.248706,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794753034
+   "t": 1794761899
   },
   "Dongkum": {
    "pos": [
@@ -13071,7 +13088,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794759028
+   "t": 1794761948
   },
   "Trianguli Sector BH-L a8-1": {
    "pos": [
@@ -14436,7 +14453,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794714711
+   "t": 1794761901
   },
   "ICZ EL-Y d89": {
    "pos": [
@@ -16580,7 +16597,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794761139
+   "t": 1794762275
   },
   "Tascheter Sector ZZ-P a5-1": {
    "pos": [
@@ -16613,6 +16630,67 @@
     "Zemina Torval"
    ],
    "t": 1794761620
+  },
+  "Kalenile": {
+   "pos": [
+    4.0625,
+    11.40625,
+    -115.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794682568
+  },
+  "Mau": {
+   "pos": [
+    -19.875,
+    24.875,
+    -119.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.133263,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794684697
+  },
+  "Col 285 Sector VJ-R a34-2": {
+   "pos": [
+    133.5,
+    -33.28125,
+    21.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794762289
+  },
+  "Kwiamong": {
+   "pos": [
+    -41.5,
+    9.5,
+    -135.4375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.219621,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794761837
   }
  }
 }

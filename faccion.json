@@ -3412,34 +3412,32 @@
   },
   "Elivagar": {
    "sys": "Elivagar",
-   "t": 1794321834,
+   "t": 1794758359,
    "src": "EDDN",
-   "inf": 39.11,
+   "inf": 39.17,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Elivagar for Equality",
-   "segunda_inf": 18.82,
+   "segunda_inf": 18.8,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 39.11,
+     "inf": 39.17,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Elivagar for Equality",
-     "inf": 18.82,
+     "inf": 18.8,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -3448,7 +3446,7 @@
     },
     {
      "n": "CHIMERA",
-     "inf": 11.63,
+     "inf": 11.61,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
@@ -3457,7 +3455,7 @@
     },
     {
      "n": "Elivagar Silver Advanced Ind",
-     "inf": 10.54,
+     "inf": 10.53,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -3466,7 +3464,7 @@
     },
     {
      "n": "Elivagar Law Party",
-     "inf": 6.8,
+     "inf": 6.79,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -3475,7 +3473,7 @@
     },
     {
      "n": "Traditional Elivagar Autocracy",
-     "inf": 6.6,
+     "inf": 6.59,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -3509,8 +3507,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.123077,
-    "ref": 0,
+    "prog": 0.123115,
+    "ref": 25,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -3519,10 +3517,39 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 1
+    "2026-11-10": 1,
+    "2026-11-15": 1
    },
-   "prev": null,
-   "prev_t": null
+   "pn": {
+    "AZF-3VB": {
+     "n": "EMPRESS KYOKA [CDSN]",
+     "t": 1794758359
+    },
+    "HNF-65G": {
+     "n": "IRA DE VALINOR - CDSN",
+     "t": 1794758359
+    },
+    "BLZ-T6Y": {
+     "n": "RUKA'S REVENGE",
+     "t": 1794758359
+    }
+   },
+   "prev": 39.11,
+   "prev_t": 1794321834,
+   "hinf": [
+    [
+     1794321834,
+     39.11
+    ],
+    [
+     1794758359,
+     39.17
+    ]
+   ],
+   "tk": {
+    "firma": "00983917",
+    "igual": 1794758359
+   }
   },
   "Makum": {
    "sys": "Makum",
@@ -3653,7 +3680,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794757742,
+   "t": 1794758537,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3732,7 +3759,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 23
+    "2026-11-15": 26
    },
    "pn": {
     "J9W-B6T": {
@@ -3741,7 +3768,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794757865
+     "t": 1794758685
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3757,16 +3784,16 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794757865
+     "t": 1794758685
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794757865
+     "t": 1794758685
     }
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794757742,
+    "igual": 1794758537,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -5469,7 +5496,7 @@
     "2026-11-11": 8,
     "2026-11-12": 6,
     "2026-11-14": 8,
-    "2026-11-15": 2
+    "2026-11-15": 3
    },
    "pn": {
     "V8X-11L": {
@@ -6503,7 +6530,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794756349,
+   "t": 1794758757,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6584,11 +6611,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 29
+    "2026-11-15": 30
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794756349
+    "igual": 1794758757
    },
    "prev": null,
    "prev_t": null,
@@ -11729,11 +11756,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794757747.9369936,
-  "msgs": 1123759,
-  "mios": 89
+  "ultimo": 1794758760.0842,
+  "msgs": 1144785,
+  "mios": 92
  },
- "t": 1794757937.9835,
+ "t": 1794758879.6473022,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11769,7 +11796,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794741290
+   "t": 1794758331
   },
   "HIP 46236": {
    "pos": [
@@ -12003,7 +12030,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794756409
+   "t": 1794758305
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -12132,7 +12159,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794752258
+   "t": 1794758148
   },
   "LFT 324": {
    "pos": [
@@ -12364,7 +12391,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794747478
+   "t": 1794758403
   },
   "Hyades Sector AC-K b9-7": {
    "pos": [
@@ -12730,7 +12757,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794757751
+   "t": 1794758642
   },
   "Baraluhet": {
    "pos": [
@@ -12760,7 +12787,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1794757059
+   "t": 1794758050
   },
   "Ahti": {
    "pos": [
@@ -13306,7 +13333,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794698293
+   "t": 1794758411
   },
   "HIP 33287": {
    "pos": [
@@ -14356,7 +14383,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794755495
+   "t": 1794758501
   },
   "ICZ XY-A b3": {
    "pos": [
@@ -14450,7 +14477,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794715631
+   "t": 1794758699
   },
   "Hyades Sector EB-X d1-117": {
    "pos": [
@@ -15447,7 +15474,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794757351
+   "t": 1794758564
   },
   "HIP 43660": {
    "pos": [
@@ -16087,7 +16114,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794755079
+   "t": 1794758534
   },
   "Col 285 Sector WJ-R a34-0": {
    "pos": [
@@ -16318,6 +16345,74 @@
     "Jerome Archer"
    ],
    "t": 1794757931
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.205984,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794758061
+  },
+  "Trianguli Sector RU-O a6-2": {
+   "pos": [
+    17.71875,
+    -43.875,
+    -61.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.042283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794758119
+  },
+  "Elivagar": {
+   "pos": [
+    -34.4375,
+    21.5625,
+    -93.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.123115,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794758359
+  },
+  "Hakili": {
+   "pos": [
+    39.03125,
+    -31.46875,
+    -41.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256701,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794758634
   }
  }
 }

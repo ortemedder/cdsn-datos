@@ -1584,16 +1584,16 @@
   },
   "Jitabed": {
    "sys": "Jitabed",
-   "t": 1794641054,
+   "t": 1794741240,
    "src": "EDDN",
    "inf": 45.92,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 19.38,
    "conflictos": [],
@@ -1603,9 +1603,7 @@
      "inf": 45.92,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -1695,13 +1693,18 @@
     ]
    },
    "trafico": {
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 1
    },
    "pn": {
     "CZJ-02M": {
      "n": "THE DISTILLERY",
-     "t": 1794641054
+     "t": 1794741240
     }
+   },
+   "tk": {
+    "firma": "6e768b81",
+    "igual": 1794741240
    },
    "prev": 46.12,
    "prev_t": 1794143086,
@@ -1714,11 +1717,7 @@
      1794641054,
      45.92
     ]
-   ],
-   "tk": {
-    "firma": "6e768b81",
-    "igual": 1794641054
-   }
+   ]
   },
   "Catun": {
    "sys": "Catun",
@@ -11667,11 +11666,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794740635.8000512,
-  "msgs": 795850,
-  "mios": 59
+  "ultimo": 1794741241.4178548,
+  "msgs": 810569,
+  "mios": 60
  },
- "t": 1794740650.371004,
+ "t": 1794741751.2270808,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11707,7 +11706,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794687697
+   "t": 1794741290
   },
   "HIP 46236": {
    "pos": [
@@ -11825,7 +11824,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794740532
+   "t": 1794741693
   },
   "Nyal": {
    "pos": [
@@ -13484,7 +13483,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794738037
+   "t": 1794741340
   },
   "Shenetserii": {
    "pos": [
@@ -13757,7 +13756,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794737726
+   "t": 1794741496
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -14310,7 +14309,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794735242
+   "t": 1794741744
   },
   "ICZ XY-A b3": {
    "pos": [
@@ -15285,7 +15284,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794739271
+   "t": 1794741388
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -15367,6 +15366,56 @@
     "Li Yong-Rui"
    ],
    "t": 1794740634
+  },
+  "Jitabed": {
+   "pos": [
+    -19.75,
+    -0.78125,
+    -115.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.080569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794741240
+  },
+  "Decima": {
+   "pos": [
+    35.9375,
+    -34.4375,
+    -30.4375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.233316,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794741347
+  },
+  "HIP 43660": {
+   "pos": [
+    131.40625,
+    -10.09375,
+    2
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794741505
   }
  }
 }

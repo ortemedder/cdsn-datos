@@ -6575,7 +6575,7 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 20
+    "2026-11-15": 22
    },
    "tk": {
     "firma": "9ac237db",
@@ -6793,16 +6793,16 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1794676142,
+   "t": 1794753559,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Nagii Union",
    "segunda_inf": 23.52,
    "conflictos": [],
@@ -6812,9 +6812,7 @@
      "inf": 66.33,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -6846,7 +6844,7 @@
     -145.28125
    ],
    "sis": {
-    "pob": 268978108,
+    "pob": 269144883,
     "eco": "$economy_Agri;",
     "eco2": "$economy_Refinery;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -6866,17 +6864,18 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-14": 16
+    "2026-11-14": 17,
+    "2026-11-15": 1
    },
    "pn": {
     "T9Q-5HX": {
      "n": "[CDSN] Alfonso I",
-     "t": 1794676204
+     "t": 1794745484
     }
    },
    "tk": {
     "firma": "7c1e5e67",
-    "igual": 1794676142
+    "igual": 1794753559
    },
    "prev": null,
    "prev_t": null,
@@ -11703,11 +11702,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794753485.4032655,
-  "msgs": 1024332,
-  "mios": 74
+  "ultimo": 1794753778.2521386,
+  "msgs": 1043822,
+  "mios": 77
  },
- "t": 1794753501.7591512,
+ "t": 1794754322.633654,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -14692,7 +14691,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794722587
+   "t": 1794754312
   },
   "Trianguli Sector QZ-O a6-1": {
    "pos": [
@@ -15321,7 +15320,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794741388
+   "t": 1794754018
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -15978,6 +15977,56 @@
     "Jerome Archer"
    ],
    "t": 1794753492
+  },
+  "Tascheter Sector ZU-Y c23": {
+   "pos": [
+    -6.15625,
+    21.96875,
+    -73.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794753596
+  },
+  "HIP 31451": {
+   "pos": [
+    -23.46875,
+    43.875,
+    -145.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794753559
+  },
+  "LTT 751": {
+   "pos": [
+    6.375,
+    -95.625,
+    -10.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794752562
   }
  }
 }

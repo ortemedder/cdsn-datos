@@ -2117,23 +2117,23 @@
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
-   "t": 1794665205,
+   "t": 1794757491,
    "src": "EDDN",
    "inf": 8.55,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "The Fatherhood",
-   "segunda_inf": 50.8,
+   "segunda_inf": 50.6,
    "conflictos": [],
    "todas": [
     {
      "n": "The Fatherhood",
-     "inf": 50.8,
+     "inf": 50.6,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [
@@ -2143,10 +2143,10 @@
      "jug": null
     },
     {
-     "n": "160 S.O.A.R.",
-     "inf": 15.39,
+     "n": "Beasts of Bestia",
+     "inf": 15.49,
      "gov": "Democracy",
-     "alg": "Alliance",
+     "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
@@ -2154,12 +2154,14 @@
      "jug": null
     },
     {
-     "n": "Beasts of Bestia",
-     "inf": 15.19,
+     "n": "160 S.O.A.R.",
+     "inf": 15.29,
      "gov": "Democracy",
-     "alg": "Independent",
+     "alg": "Alliance",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -2176,9 +2178,7 @@
      "inf": 8.55,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -2190,7 +2190,7 @@
     -98.875
    ],
    "sis": {
-    "pob": 46781896,
+    "pob": 46800000,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2215,11 +2215,15 @@
     "2026-11-09": 3,
     "2026-11-12": 3,
     "2026-11-13": 2,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 2
    },
    "tk": {
-    "firma": "7c3a8c04",
-    "igual": 1794665205
+    "firma": "928a0b12",
+    "igual": 1794757491,
+    "ult": 1794757491,
+    "desde": 1794665205,
+    "est": null
    },
    "prev": 8.25,
    "prev_t": 1794249277,
@@ -2232,7 +2236,9 @@
      1794489215,
      8.55
     ]
-   ]
+   ],
+   "tick_ult": 1794757491,
+   "tick_marg": 769
   },
   "LP 158-2": {
    "sys": "LP 158-2",
@@ -3647,7 +3653,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794756772,
+   "t": 1794757742,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3726,7 +3732,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 21
+    "2026-11-15": 23
    },
    "pn": {
     "J9W-B6T": {
@@ -3735,7 +3741,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794756888
+     "t": 1794757865
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3751,16 +3757,16 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794756888
+     "t": 1794757865
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794756888
+     "t": 1794757865
     }
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794756772,
+    "igual": 1794757742,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -6578,7 +6584,7 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 28
+    "2026-11-15": 29
    },
    "tk": {
     "firma": "9ac237db",
@@ -11723,11 +11729,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794757106.6778243,
-  "msgs": 1103876,
-  "mios": 87
+  "ultimo": 1794757747.9369936,
+  "msgs": 1123759,
+  "mios": 89
  },
- "t": 1794757106.826126,
+ "t": 1794757937.9835,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12724,7 +12730,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794715298
+   "t": 1794757751
   },
   "Baraluhet": {
    "pos": [
@@ -13409,7 +13415,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794747665
+   "t": 1794757178
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -14490,7 +14496,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794743089
+   "t": 1794757488
   },
   "Ross 364": {
    "pos": [
@@ -15441,7 +15447,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794741347
+   "t": 1794757351
   },
   "HIP 43660": {
    "pos": [
@@ -16229,6 +16235,89 @@
     "Zemina Torval"
    ],
    "t": 1794756731
+  },
+  "LHS 1758": {
+   "pos": [
+    -38.125,
+    17.71875,
+    -72.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794757329
+  },
+  "Hyades Sector XV-L b8-3": {
+   "pos": [
+    -30.875,
+    -8.0625,
+    -98.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794757491
+  },
+  "Buriges": {
+   "pos": [
+    110.34375,
+    -118.375,
+    -26.03125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.304472,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794757525
+  },
+  "Tascheter Sector HR-M a7-1": {
+   "pos": [
+    37.84375,
+    -33.3125,
+    -34.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.082855,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794757850
+  },
+  "Esuvit": {
+   "pos": [
+    -13.1875,
+    -1.15625,
+    -92.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.258118,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794757931
   }
  }
 }

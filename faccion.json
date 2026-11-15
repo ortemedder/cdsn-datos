@@ -3237,34 +3237,32 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794677241,
+   "t": 1794745021,
    "src": "EDDN",
-   "inf": 38.31,
+   "inf": 41.29,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "160 S.O.A.R.",
-   "segunda_inf": 21.09,
+   "segunda_inf": 20.3,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 38.31,
+     "inf": 41.29,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "160 S.O.A.R.",
-     "inf": 21.09,
+     "inf": 20.3,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
@@ -3275,7 +3273,7 @@
     },
     {
      "n": "United Burr Partnership",
-     "inf": 18.01,
+     "inf": 14.53,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -3288,16 +3286,21 @@
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "War"
+     ],
      "jug": null
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 10.15,
+     "inf": 11.44,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion",
+      "War"
+     ],
      "jug": null
     },
     {
@@ -3327,8 +3330,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.897585,
-    "ref": 25832,
+    "prog": 0.928618,
+    "ref": 46004,
     "soc": 81402,
     "pots": [
      "Edmund Mahon",
@@ -3341,7 +3344,8 @@
    "trafico": {
     "2026-11-10": 1,
     "2026-11-13": 2,
-    "2026-11-14": 7
+    "2026-11-14": 7,
+    "2026-11-15": 4
    },
    "pn": {
     "F3L-30Z": {
@@ -3354,20 +3358,24 @@
     }
    },
    "tk": {
-    "firma": "48f02819",
-    "igual": 1794677241,
-    "ult": 1794627380,
-    "desde": 1794601776,
+    "firma": "940492a2",
+    "igual": 1794745021,
+    "ult": 1794744910,
+    "desde": 1794677241,
     "vent": [
      [
       1794601776,
       1794627380
+     ],
+     [
+      1794677241,
+      1794744910
      ]
     ],
     "est": null
    },
-   "prev": 40.5,
-   "prev_t": 1794601776,
+   "prev": 38.31,
+   "prev_t": 1794677241,
    "hinf": [
     [
      1794270346,
@@ -3380,11 +3388,15 @@
     [
      1794627380,
      38.31
+    ],
+    [
+     1794744910,
+     41.29
     ]
    ],
-   "tick_ult": 1794627380,
-   "tick_marg": 213,
-   "tick_prox": 1794700920,
+   "tick_ult": 1794744910,
+   "tick_marg": 563,
+   "tick_prox": 1794787320,
    "tick_disp": 213,
    "tick_n": 0
   },
@@ -11666,11 +11678,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794744071.4792252,
-  "msgs": 852753,
-  "mios": 61
+  "ultimo": 1794745022.1900733,
+  "msgs": 867569,
+  "mios": 64
  },
- "t": 1794744262.5730255,
+ "t": 1794745223.2468429,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11867,11 +11879,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.354366,
+   "prog": 0.355988,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794735017
+   "t": 1794744737
   },
   "Mandu": {
    "pos": [
@@ -12778,7 +12790,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794693476
+   "t": 1794744587
   },
   "Tascheter Sector CG-X b1-4": {
    "pos": [
@@ -15499,6 +15511,52 @@
     "Zemina Torval"
    ],
    "t": 1794743732
+  },
+  "Wuluang": {
+   "pos": [
+    126.46875,
+    -133.625,
+    -20.3125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.171426,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794744540
+  },
+  "ICZ CV-Y c17": {
+   "pos": [
+    116.78125,
+    -102.25,
+    -16.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794745217
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.928618,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794745021
   }
  }
 }

@@ -6489,7 +6489,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794747568,
+   "t": 1794748617,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6570,11 +6570,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 15
+    "2026-11-15": 17
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794747568
+    "igual": 1794748617
    },
    "prev": null,
    "prev_t": null,
@@ -11697,11 +11697,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794747571.4574132,
-  "msgs": 914329,
-  "mios": 67
+  "ultimo": 1794748619.9574313,
+  "msgs": 930691,
+  "mios": 68
  },
- "t": 1794748075.770633,
+ "t": 1794748976.8188539,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11747,13 +11747,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.172909,
+   "prog": 0.174817,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794747633
+   "t": 1794748634
   },
   "UGP 92": {
    "pos": [
@@ -11846,16 +11846,16 @@
     -14.21875,
     -97.46875
    ],
-   "pot": "Li Yong-Rui",
+   "pot": null,
    "est": "Stronghold",
-   "prog": 0.286905,
+   "prog": null,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794742008
+   "t": 1794748457
   },
   "Nyal": {
    "pos": [
@@ -13803,7 +13803,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794704983
+   "t": 1794747753
   },
   "Bommatsuri": {
    "pos": [
@@ -15672,6 +15672,71 @@
     "Zemina Torval"
    ],
    "t": 1794748074
+  },
+  "Col 285 Sector KS-T d3-72": {
+   "pos": [
+    -200.25,
+    14.0625,
+    -72.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1794748197
+  },
+  "BD+39 876": {
+   "pos": [
+    -42.40625,
+    -20.0625,
+    -100.0625
+   ],
+   "pot": null,
+   "est": "Fortified",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794748389
+  },
+  "Ngauna": {
+   "pos": [
+    -23.90625,
+    5.1875,
+    -80.65625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.254452,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794748579
+  },
+  "Col 285 Sector NS-J c9-17": {
+   "pos": [
+    138.125,
+    -2.4375,
+    31.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794748870
   }
  }
 }

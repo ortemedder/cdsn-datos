@@ -3574,9 +3574,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794700721,
+   "t": 1794702030,
    "src": "EDDN",
-   "inf": 73.95,
+   "inf": 78.24,
    "ctrl": true,
    "estado": "Boom",
    "activos": [
@@ -3588,12 +3588,12 @@
     "Expansion"
    ],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 17.37,
+   "segunda_inf": 14.47,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 73.95,
+     "inf": 78.24,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -3605,7 +3605,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 17.37,
+     "inf": 14.47,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -3614,7 +3614,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 8.68,
+     "inf": 7.29,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [
@@ -3652,7 +3652,8 @@
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 43,
-    "2026-11-14": 42
+    "2026-11-14": 42,
+    "2026-11-15": 3
    },
    "pn": {
     "J9W-B6T": {
@@ -3661,7 +3662,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794613199
+     "t": 1794702030
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3677,18 +3678,27 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794613199
+     "t": 1794702030
     }
    },
    "tk": {
-    "firma": "ec70bce9",
-    "igual": 1794700721,
-    "ult": 1794681830,
-    "desde": 1794604836,
-    "est": null
+    "firma": "0a733cf5",
+    "igual": 1794702030,
+    "ult": 1794702030,
+    "desde": 1794701228,
+    "est": 1794701629,
+    "vent": [
+     [
+      1794701228,
+      1794702030
+     ]
+    ],
+    "hist": [
+     1794701629
+    ]
    },
-   "prev": 87.13,
-   "prev_t": 1794604836,
+   "prev": 73.95,
+   "prev_t": 1794701228,
    "hinf": [
     [
      1794353391,
@@ -3709,10 +3719,17 @@
     [
      1794681830,
      73.95
+    ],
+    [
+     1794702030,
+     78.24
     ]
    ],
-   "tick_ult": 1794681830,
-   "tick_marg": 641
+   "tick_ult": 1794701629,
+   "tick_marg": 6,
+   "tick_prox": 1794788010,
+   "tick_disp": 6,
+   "tick_n": 1
   },
   "Hyades Sector JX-T c3-19": {
    "sys": "Hyades Sector JX-T c3-19",
@@ -6438,7 +6455,7 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 1
+    "2026-11-15": 3
    },
    "tk": {
     "firma": "9ac237db",
@@ -11244,7 +11261,7 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794697050,
+   "t": 1794701554,
    "src": "EDDN",
    "inf": 9.16,
    "ctrl": false,
@@ -11320,7 +11337,8 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-14": 11
+    "2026-11-14": 11,
+    "2026-11-15": 1
    },
    "pn": {
     "W1N-G3V": {
@@ -11330,7 +11348,7 @@
    },
    "tk": {
     "firma": "f93774e7",
-    "igual": 1794697050
+    "igual": 1794701554
    },
    "prev": null,
    "prev_t": null,
@@ -11344,11 +11362,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794700721.8967762,
-  "msgs": 299398,
-  "mios": 34
+  "ultimo": 1794702030.572037,
+  "msgs": 313249,
+  "mios": 37
  },
- "t": 1794701125.5735803,
+ "t": 1794702036.5537436,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12123,14 +12141,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.327263,
+   "prog": 0.327335,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794691645
+   "t": 1794701744
   },
   "Hyades Sector QU-N b7-3": {
    "pos": [
@@ -13180,6 +13198,99 @@
     "Jerome Archer"
    ],
    "t": 1794700953
+  },
+  "Holo": {
+   "pos": [
+    20.84375,
+    -9.6875,
+    -110.875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.248724,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794701374
+  },
+  "Col 285 Sector AQ-P a35-5": {
+   "pos": [
+    142,
+    -25.0625,
+    28.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794701599
+  },
+  "Piscium Sector SD-T b3-0": {
+   "pos": [
+    -8.78125,
+    -93.71875,
+    -18.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794701659
+  },
+  "Yenici": {
+   "pos": [
+    120,
+    -119.5,
+    -3.0625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.153952,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794701945
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1794701951
+  },
+  "Ulangin": {
+   "pos": [
+    -47.25,
+    -17.875,
+    -118.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794701967
   }
  }
 }

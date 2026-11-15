@@ -2779,16 +2779,16 @@
   },
   "Hyades Sector SZ-N b7-0": {
    "sys": "Hyades Sector SZ-N b7-0",
-   "t": 1794665370,
+   "t": 1794740634,
    "src": "EDDN",
    "inf": 4.7,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 72.93,
    "conflictos": [],
@@ -2829,9 +2829,7 @@
      "inf": 4.7,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -2843,7 +2841,7 @@
     -109.3125
    ],
    "sis": {
-    "pob": 1583008,
+    "pob": 1583754,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2866,7 +2864,8 @@
     "2026-11-10": 2,
     "2026-11-11": 3,
     "2026-11-12": 2,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-15": 2
    },
    "pn": {
     "XHF-N1M": {
@@ -2880,7 +2879,7 @@
    },
    "tk": {
     "firma": "31f3d6f1",
-    "igual": 1794665370,
+    "igual": 1794740634,
     "ult": 1794483850,
     "desde": 1794415913,
     "est": null
@@ -5338,9 +5337,9 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794690969,
+   "t": 1794740537,
    "src": "EDDN",
-   "inf": 58.95,
+   "inf": 60.57,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -5349,12 +5348,12 @@
     "Expansion"
    ],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 17.41,
+   "segunda_inf": 16.7,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 58.95,
+     "inf": 60.57,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -5363,7 +5362,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 17.41,
+     "inf": 16.7,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -5374,7 +5373,7 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 12.86,
+     "inf": 12.35,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -5385,7 +5384,7 @@
     },
     {
      "n": "Aristocrats of Lhou Wangs",
-     "inf": 10.78,
+     "inf": 10.38,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -5400,7 +5399,7 @@
     -120
    ],
    "sis": {
-    "pob": 100342551,
+    "pob": 100760375,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -5425,33 +5424,38 @@
     "2026-11-10": 12,
     "2026-11-11": 8,
     "2026-11-12": 6,
-    "2026-11-14": 8
+    "2026-11-14": 8,
+    "2026-11-15": 1
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794691132
+     "t": 1794740545
     },
     "V0Z-T1Q": {
      "n": "AVALON",
-     "t": 1794691132
+     "t": 1794740545
     }
    },
    "tk": {
-    "firma": "36ade755",
-    "igual": 1794690969,
-    "ult": 1794677051,
-    "desde": 1794614864,
+    "firma": "c0625463",
+    "igual": 1794740537,
+    "ult": 1794740537,
+    "desde": 1794690969,
     "est": null,
     "vent": [
      [
       1794614864,
       1794677051
+     ],
+     [
+      1794690969,
+      1794740537
      ]
     ]
    },
-   "prev": 58.56,
-   "prev_t": 1794614864,
+   "prev": 58.95,
+   "prev_t": 1794690969,
    "hinf": [
     [
      1794331119,
@@ -5472,12 +5476,16 @@
     [
      1794677051,
      58.95
+    ],
+    [
+     1794740537,
+     60.57
     ]
    ],
-   "tick_ult": 1794677051,
-   "tick_marg": 518,
-   "tick_prox": 1794732300,
-   "tick_disp": 518,
+   "tick_ult": 1794740537,
+   "tick_marg": 413,
+   "tick_prox": 1794807270,
+   "tick_disp": 327,
    "tick_n": 0
   },
   "Hyades Sector AC-K b9-6": {
@@ -11659,11 +11667,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794739250.6468337,
-  "msgs": 780836,
-  "mios": 57
+  "ultimo": 1794740635.8000512,
+  "msgs": 795850,
+  "mios": 59
  },
- "t": 1794739839.419949,
+ "t": 1794740650.371004,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11709,13 +11717,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.168448,
+   "prog": 0.172909,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794731690
+   "t": 1794740489
   },
   "UGP 92": {
    "pos": [
@@ -11817,7 +11825,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794738307
+   "t": 1794740532
   },
   "Nyal": {
    "pos": [
@@ -12361,7 +12369,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794690969
+   "t": 1794740537
   },
   "GCRV 2311": {
    "pos": [
@@ -13856,7 +13864,7 @@
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1794705490
+   "t": 1794740589
   },
   "Menkalinan": {
    "pos": [
@@ -14442,7 +14450,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794736480
+   "t": 1794740178
   },
   "Ross 364": {
    "pos": [
@@ -14619,7 +14627,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794725900
+   "t": 1794740364
   },
   "HIP 18427": {
    "pos": [
@@ -14793,7 +14801,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794738848
+   "t": 1794740259
   },
   "Col 285 Sector WJ-R a34-4": {
    "pos": [
@@ -15328,6 +15336,37 @@
     "Jerome Archer"
    ],
    "t": 1794739829
+  },
+  "Col 285 Sector UT-W b16-3": {
+   "pos": [
+    136.875,
+    -7.78125,
+    5.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794740287
+  },
+  "Hyades Sector SZ-N b7-0": {
+   "pos": [
+    15.9375,
+    16.65625,
+    -109.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.217209,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794740634
   }
  }
 }

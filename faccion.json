@@ -872,7 +872,7 @@
   },
   "Hyades Sector UF-M b8-0": {
    "sys": "Hyades Sector UF-M b8-0",
-   "t": 1794719250,
+   "t": 1794750714,
    "src": "EDDN",
    "inf": 54.55,
    "ctrl": true,
@@ -934,7 +934,7 @@
     -103
    ],
    "sis": {
-    "pob": 153603,
+    "pob": 153670,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -955,7 +955,11 @@
     ]
    },
    "trafico": {
-    "2026-11-15": 1
+    "2026-11-15": 2
+   },
+   "tk": {
+    "firma": "96fc83d2",
+    "igual": 1794750714
    },
    "prev": null,
    "prev_t": null,
@@ -964,11 +968,7 @@
      1794160640,
      54.55
     ]
-   ],
-   "tk": {
-    "firma": "96fc83d2",
-    "igual": 1794719250
-   }
+   ]
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
@@ -10512,7 +10512,7 @@
   },
   "Tascheter Sector AA-Z b5": {
    "sys": "Tascheter Sector AA-Z b5",
-   "t": 1794678445,
+   "t": 1794750155,
    "src": "EDDN",
    "inf": 16.12,
    "ctrl": false,
@@ -10572,7 +10572,7 @@
     -87.4375
    ],
    "sis": {
-    "pob": 199115,
+    "pob": 199125,
     "eco": "$economy_HighTech;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -10592,11 +10592,12 @@
     ]
    },
    "trafico": {
-    "2026-11-14": 2
+    "2026-11-14": 2,
+    "2026-11-15": 1
    },
    "tk": {
     "firma": "c12f671c",
-    "igual": 1794678445
+    "igual": 1794750155
    },
    "prev": null,
    "prev_t": null,
@@ -11698,11 +11699,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794749502.2687826,
-  "msgs": 948403,
-  "mios": 69
+  "ultimo": 1794750720.3178523,
+  "msgs": 966484,
+  "mios": 71
  },
- "t": 1794749587.8335516,
+ "t": 1794750799.028863,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -11856,7 +11857,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794749518
+   "t": 1794750793
   },
   "Nyal": {
    "pos": [
@@ -12586,7 +12587,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794692544
+   "t": 1794750324
   },
   "Ceti Sector KX-T b3-4": {
    "pos": [
@@ -13835,7 +13836,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794705385
+   "t": 1794750779
   },
   "BD+20 1018": {
    "pos": [
@@ -14594,7 +14595,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794719250
+   "t": 1794750714
   },
   "Piscium Sector TT-Z a5": {
    "pos": [
@@ -14887,7 +14888,7 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.109691,
+   "prog": 0.109694,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
@@ -14895,7 +14896,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794736909
+   "t": 1794749988
   },
   "Ross 411": {
    "pos": [
@@ -14994,7 +14995,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794749172
+   "t": 1794750025
   },
   "Sarugh": {
    "pos": [
@@ -15770,6 +15771,70 @@
     "Jerome Archer"
    ],
    "t": 1794749501
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.126283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794750074
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251148,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794750118
+  },
+  "Tascheter Sector AA-Z b5": {
+   "pos": [
+    23.875,
+    -4,
+    -87.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794750155
+  },
+  "Mankul": {
+   "pos": [
+    12,
+    -120.1875,
+    -61
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.250806,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794750786
   }
  }
 }

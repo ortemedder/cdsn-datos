@@ -1847,7 +1847,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794707248,
+   "t": 1794718201,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -1933,11 +1933,11 @@
     "2026-11-12": 1,
     "2026-11-13": 1,
     "2026-11-14": 1,
-    "2026-11-15": 2
+    "2026-11-15": 3
    },
    "tk": {
     "firma": "94c05588",
-    "igual": 1794707248,
+    "igual": 1794718201,
     "ult": 1794698937,
     "desde": 1794531890,
     "est": null
@@ -11505,11 +11505,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794715935.3713503,
-  "msgs": 509039,
-  "mios": 48
+  "ultimo": 1794718204.0083396,
+  "msgs": 530613,
+  "mios": 49
  },
- "t": 1794715986.1631398,
+ "t": 1794718257.1392643,
  "tick_global": 1794676615,
  "zona": {
   "Zephyrus": {
@@ -12156,7 +12156,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794690742
+   "t": 1794718000
   },
   "Hyades Sector WV-L b8-2": {
    "pos": [
@@ -13191,7 +13191,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794707248
+   "t": 1794718201
   },
   "HR 3277": {
    "pos": [
@@ -13207,7 +13207,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794715942
+   "t": 1794717292
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -13402,7 +13402,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794701945
+   "t": 1794716559
   },
   "LP 941-16": {
    "pos": [
@@ -14289,6 +14289,87 @@
     "Zemina Torval"
    ],
    "t": 1794715978
+  },
+  "Ross 364": {
+   "pos": [
+    -67.03125,
+    -5.15625,
+    -81.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.252692,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794716682
+  },
+  "HIP 45096": {
+   "pos": [
+    133.40625,
+    -10.9375,
+    11.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794716854
+  },
+  "Crucis Sector HB-X b1-6": {
+   "pos": [
+    127.40625,
+    -0.53125,
+    25.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794717750
+  },
+  "Vivata": {
+   "pos": [
+    17.96875,
+    -77.375,
+    -17.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794718147
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794718252
   }
  }
 }

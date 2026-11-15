@@ -979,7 +979,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1794725373,
+   "t": 1794776703,
    "src": "EDDN",
    "inf": 14.49,
    "ctrl": false,
@@ -1057,7 +1057,7 @@
     "2026-11-13": 3,
     "2026-11-14": 34,
     "2026-03-30": 1,
-    "2026-11-15": 1
+    "2026-11-15": 5
    },
    "zc": [
     {
@@ -1304,19 +1304,19 @@
     },
     "BLG-TTV": {
      "n": "Battle star: gALACTICA",
-     "t": 1794725647
+     "t": 1794776782
     },
     "Q3Y-16Z": {
      "n": "(bsec) AJS BACCHUS",
-     "t": 1794725647
+     "t": 1794776782
     },
     "T9L-NHT": {
      "n": "DRAEKUL",
-     "t": 1794725647
+     "t": 1794776782
     },
     "G3N-L3B": {
      "n": "ORE HAMMER",
-     "t": 1794725647
+     "t": 1794776782
     },
     "W7Q-83Z": {
      "n": "USS CYGNUS",
@@ -1324,7 +1324,7 @@
     },
     "J1H-2TY": {
      "n": "COAG PARTY BUS",
-     "t": 1794725647
+     "t": 1794776782
     },
     "X6T-GXJ": {
      "n": "THE AGORA",
@@ -1332,43 +1332,43 @@
     },
     "XZH-B7H": {
      "n": "GRAY HOME",
-     "t": 1794725647
+     "t": 1794776782
     },
     "T9V-20J": {
      "n": "CROW CRAG",
-     "t": 1794725647
+     "t": 1794776782
     },
     "UZG-24Q": {
      "n": "KBS 73-07",
-     "t": 1794725647
+     "t": 1794776782
     },
     "V1Q-59T": {
      "n": "INTERSTELLAIRE",
-     "t": 1794725647
+     "t": 1794776782
     },
     "V8N-T5Q": {
      "n": "**PLAT 150**PAIN 140*",
-     "t": 1794725647
+     "t": 1794776782
     },
     "QHX-9KF": {
      "n": "CYGNUS  X-1",
-     "t": 1794725647
+     "t": 1794776782
     },
     "KLW-2QM": {
      "n": "[TRFC] GÖKTÜRK",
-     "t": 1794725647
+     "t": 1794776782
     },
     "J6L-0HF": {
      "n": "SNF ALLMIGHTY",
-     "t": 1794725647
+     "t": 1794776782
     },
     "K7T-12N": {
      "n": "INFINITE PAWSABILITIES",
-     "t": 1794725647
+     "t": 1794776782
     },
     "V6Q-02Q": {
      "n": "THE ANZAC",
-     "t": 1794725647
+     "t": 1794776782
     },
     "QLN-GQZ": {
      "n": "THE DEVIL MAY CRY",
@@ -1457,7 +1457,7 @@
    },
    "tk": {
     "firma": "8707c513",
-    "igual": 1794725373,
+    "igual": 1794776703,
     "ult": 1794725373,
     "desde": 1794691605,
     "est": null,
@@ -5908,34 +5908,34 @@
   },
   "Ngargambo": {
    "sys": "Ngargambo",
-   "t": 1794465983,
+   "t": 1794776934,
    "src": "EDDN",
-   "inf": 4.9,
+   "inf": 4.6,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
     "Expansion"
    ],
-   "pendientes": [],
-   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 71.73,
+   "segunda_inf": 70.53,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 71.73,
+     "inf": 70.53,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "Co-op of Ngargambo",
-     "inf": 13.59,
+     "inf": 14.49,
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
@@ -5944,7 +5944,7 @@
     },
     {
      "n": "Ngargambo Power Systems",
-     "inf": 5.19,
+     "inf": 4.9,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -5953,18 +5953,16 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 4.9,
+     "inf": 4.6,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Ngargambo Pro-Independent League",
-     "inf": 3.6,
+     "inf": 3.4,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
@@ -5973,7 +5971,7 @@
     },
     {
      "n": "Raiders of Ngargambo",
-     "inf": 1.0,
+     "inf": 2.1,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -5998,8 +5996,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.245184,
-    "ref": 15,
+    "prog": 0.245141,
+    "ref": 0,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -6009,40 +6007,56 @@
    },
    "trafico": {
     "2026-11-09": 5,
-    "2026-11-12": 3
+    "2026-11-12": 3,
+    "2026-11-15": 1
    },
    "pn": {
     "G7Y-G4L": {
      "n": "FLEET CARRIER",
-     "t": 1794466055
+     "t": 1794776945
     },
     "X8B-9QJ": {
      "n": "ASKEPOTS HIDEOUT",
-     "t": 1794466055
+     "t": 1794776945
     },
     "QHQ-LQF": {
      "n": "MINESTAR SERVICES",
-     "t": 1794466055
+     "t": 1794776945
     },
     "X3Q-LXN": {
      "n": "NICE",
-     "t": 1794466055
+     "t": 1794776945
     },
     "K6W-38V": {
      "n": "MS GERMANY",
-     "t": 1794466055
+     "t": 1794776945
     },
     "J1G-G5N": {
      "n": "SCOTTISH TSUNAMI",
-     "t": 1794466055
+     "t": 1794776945
     }
    },
    "tk": {
-    "firma": "f51e9934",
-    "igual": 1794465983
+    "firma": "32305a84",
+    "igual": 1794776934,
+    "ult": 1794776934,
+    "desde": 1794465983,
+    "est": null
    },
-   "prev": null,
-   "prev_t": null
+   "prev": 4.9,
+   "prev_t": 1794465983,
+   "hinf": [
+    [
+     1794465983,
+     4.9
+    ],
+    [
+     1794776934,
+     4.6
+    ]
+   ],
+   "tick_ult": 1794776934,
+   "tick_marg": 2591
   },
   "Lyncis Sector XJ-R b4-0": {
    "sys": "Lyncis Sector XJ-R b4-0",
@@ -6541,7 +6555,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794775210,
+   "t": 1794776378,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6622,11 +6636,11 @@
     "2026-11-10": 46,
     "2026-11-11": 6,
     "2026-11-14": 25,
-    "2026-11-15": 43
+    "2026-11-15": 46
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794775210
+    "igual": 1794776378
    },
    "prev": null,
    "prev_t": null,
@@ -6840,7 +6854,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1794760733,
+   "t": 1794776690,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -6912,17 +6926,17 @@
    "trafico": {
     "2026-11-10": 2,
     "2026-11-14": 17,
-    "2026-11-15": 3
+    "2026-11-15": 5
    },
    "pn": {
     "T9Q-5HX": {
      "n": "[CDSN] Alfonso I",
-     "t": 1794760733
+     "t": 1794776690
     }
    },
    "tk": {
     "firma": "7c1e5e67",
-    "igual": 1794760733
+    "igual": 1794776690
    },
    "prev": null,
    "prev_t": null,
@@ -12220,17 +12234,17 @@
     "igual": 1794775961
    },
    "trafico": {
-    "2026-11-15": 1
+    "2026-11-15": 2
    }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794775964.8030539,
-  "msgs": 325032,
-  "mios": 34
+  "ultimo": 1794776936.5049098,
+  "msgs": 350631,
+  "mios": 38
  },
- "t": 1794776004.5079157,
+ "t": 1794776955.9022975,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12357,7 +12371,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794775305
+   "t": 1794776264
   },
   "HIP 46236": {
    "pos": [
@@ -14051,6 +14065,169 @@
     "Jerome Archer"
    ],
    "t": 1794775998
+  },
+  "Tascheter Sector DG-O a6-3": {
+   "pos": [
+    20.15625,
+    -44.0625,
+    -40.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.084569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794776408
+  },
+  "StKM 1-626": {
+   "pos": [
+    8.6875,
+    23.09375,
+    -75.65625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794776575
+  },
+  "Gurabru": {
+   "pos": [
+    3.59375,
+    15.34375,
+    -126.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.256428,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794776599
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.265132,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794776658
+  },
+  "HIP 31451": {
+   "pos": [
+    -23.46875,
+    43.875,
+    -145.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794776690
+  },
+  "Hyades Sector DB-X d1-112": {
+   "pos": [
+    9.28125,
+    15.40625,
+    -114.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.254359,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794776703
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.236569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794776757
+  },
+  "Awonai": {
+   "pos": [
+    -2.46875,
+    41.3125,
+    -96.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.649513,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794776883
+  },
+  "Nauacan": {
+   "pos": [
+    22.25,
+    -101.03125,
+    -56.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.115997,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794776934
+  },
+  "Ngargambo": {
+   "pos": [
+    15.25,
+    13.78125,
+    -119.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.245141,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794776934
   }
  }
 }

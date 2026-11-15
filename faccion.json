@@ -3252,7 +3252,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794745021,
+   "t": 1794765133,
    "src": "EDDN",
    "inf": 41.29,
    "ctrl": true,
@@ -3345,8 +3345,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.928618,
-    "ref": 46004,
+    "prog": 0.93494,
+    "ref": 50113,
     "soc": 81402,
     "pots": [
      "Edmund Mahon",
@@ -3360,7 +3360,7 @@
     "2026-11-10": 1,
     "2026-11-13": 2,
     "2026-11-14": 7,
-    "2026-11-15": 4
+    "2026-11-15": 6
    },
    "pn": {
     "F3L-30Z": {
@@ -3369,12 +3369,16 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794677422
+     "t": 1794765159
+    },
+    "BBF-G3Z": {
+     "n": "[FRC] TICONDEROGA",
+     "t": 1794765159
     }
    },
    "tk": {
     "firma": "940492a2",
-    "igual": 1794745021,
+    "igual": 1794765133,
     "ult": 1794744910,
     "desde": 1794677241,
     "vent": [
@@ -3685,7 +3689,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794759921,
+   "t": 1794764493,
    "src": "EDDN",
    "inf": 78.24,
    "ctrl": true,
@@ -3764,7 +3768,7 @@
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
-    "2026-11-15": 30
+    "2026-11-15": 33
    },
    "pn": {
     "J9W-B6T": {
@@ -3773,7 +3777,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794759620
+     "t": 1794764619
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3793,12 +3797,12 @@
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794759620
+     "t": 1794764619
     }
    },
    "tk": {
     "firma": "0a733cf5",
-    "igual": 1794759921,
+    "igual": 1794764493,
     "ult": 1794702030,
     "desde": 1794701228,
     "est": 1794701629,
@@ -11777,11 +11781,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794763998.7923968,
-  "msgs": 23723,
-  "mios": 1
+  "ultimo": 1794765136.4381585,
+  "msgs": 45788,
+  "mios": 4
  },
- "t": 1794763999.4838052,
+ "t": 1794765170.4298613,
  "tick_global": 1794676615,
  "zona": {
   "Yenici": {
@@ -11910,7 +11914,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794763746
+   "t": 1794764988
   },
   "Cailla": {
    "pos": [
@@ -11960,6 +11964,104 @@
     "Jerome Archer"
    ],
    "t": 1794763684
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794764350
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256181,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794764396
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.288479,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794764470
+  },
+  "Agrippa": {
+   "pos": [
+    -31.84375,
+    18.9375,
+    -83.3125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.079997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794764872
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.93494,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794765133
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.310711,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794765081
   }
  }
 }

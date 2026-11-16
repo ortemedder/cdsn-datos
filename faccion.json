@@ -1898,7 +1898,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794718201,
+   "t": 1794844175,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -1958,7 +1958,7 @@
     -18.46875
    ],
    "sis": {
-    "pob": 2198143,
+    "pob": 2198211,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1968,8 +1968,8 @@
    "pp": {
     "pot": "Pranav Antal",
     "est": "Exploited",
-    "prog": 0.264629,
-    "ref": 262,
+    "prog": 0.265149,
+    "ref": 444,
     "soc": 441,
     "pots": [
      "Denton Patreus",
@@ -1984,11 +1984,12 @@
     "2026-11-12": 1,
     "2026-11-13": 1,
     "2026-11-14": 1,
-    "2026-11-15": 3
+    "2026-11-15": 3,
+    "2026-11-16": 1
    },
    "tk": {
     "firma": "94c05588",
-    "igual": 1794718201,
+    "igual": 1794844175,
     "ult": 1794698937,
     "desde": 1794531890,
     "est": null
@@ -6729,7 +6730,7 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 5
+    "2026-11-16": 6
    },
    "tk": {
     "firma": "9ac237db",
@@ -12798,11 +12799,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794843366.8691878,
-  "msgs": 1162756,
-  "mios": 72
+  "ultimo": 1794844176.063265,
+  "msgs": 1175714,
+  "mios": 73
  },
- "t": 1794843553.6462812,
+ "t": 1794844564.4409099,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13221,7 +13222,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794839940
+   "t": 1794844403
   },
   "BD+43 866": {
    "pos": [
@@ -14332,7 +14333,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794773354
+   "t": 1794844557
   },
   "LTT 606": {
    "pos": [
@@ -15982,7 +15983,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.101337,
+   "prog": 0.102183,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -15990,7 +15991,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794791664
+   "t": 1794843868
   },
   "Satvaneka": {
    "pos": [
@@ -16162,7 +16163,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794795524
+   "t": 1794843961
   },
   "Hyades Sector UP-N b7-1": {
    "pos": [
@@ -16402,7 +16403,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794843496
+   "t": 1794843925
   },
   "Segon": {
    "pos": [
@@ -17436,6 +17437,39 @@
     "Zemina Torval"
    ],
    "t": 1794843504
+  },
+  "Tascheter Sector FR-M a7-0": {
+   "pos": [
+    17.625,
+    -34.84375,
+    -33.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794843925
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.265149,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794844175
   }
  }
 }

@@ -12705,7 +12705,7 @@
   },
   "Synuefe VG-C c29-7": {
    "sys": "Synuefe VG-C c29-7",
-   "t": 1794839876,
+   "t": 1794841822,
    "src": "EDDN",
    "inf": 18.36,
    "ctrl": false,
@@ -12779,11 +12779,11 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-16": 5
+    "2026-11-16": 6
    },
    "tk": {
     "firma": "543d374e",
-    "igual": 1794839876
+    "igual": 1794841822
    },
    "prev": null,
    "prev_t": null,
@@ -12797,11 +12797,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794839881.7119117,
-  "msgs": 1129542,
-  "mios": 69
+  "ultimo": 1794841828.2429657,
+  "msgs": 1139579,
+  "mios": 70
  },
- "t": 1794840871.4305205,
+ "t": 1794841831.9111786,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -16549,7 +16549,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794840546
+   "t": 1794841536
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -17341,6 +17341,36 @@
     "Jerome Archer"
    ],
    "t": 1794839677
+  },
+  "Alpha Doradus": {
+   "pos": [
+    125.9375,
+    -111.28125,
+    -14
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794841171
+  },
+  "BD+16 1001": {
+   "pos": [
+    26.9375,
+    -2.71875,
+    -112
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256009,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794841720
   }
  }
 }

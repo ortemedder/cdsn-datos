@@ -3860,12 +3860,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 50
+    "2026-11-16": 58
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794867036
+     "t": 1794867153
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3877,15 +3877,15 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794867036
+     "t": 1794867153
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794867036
+     "t": 1794867153
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794867036
+     "t": 1794867153
     }
    },
    "tk": {
@@ -5412,16 +5412,14 @@
   },
   "Tascheter Sector YZ-Y b4": {
    "sys": "Tascheter Sector YZ-Y b4",
-   "t": 1794825648,
+   "t": 1794868016,
    "src": "EDDN",
    "inf": 15.35,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 43.47,
    "conflictos": [],
@@ -5442,10 +5440,10 @@
      "inf": 17.35,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -5507,11 +5505,11 @@
    "trafico": {
     "2026-11-09": 1,
     "2026-11-13": 2,
-    "2026-11-16": 1
+    "2026-11-16": 2
    },
    "tk": {
     "firma": "e468e3bb",
-    "igual": 1794825648
+    "igual": 1794868016
    },
    "prev": null,
    "prev_t": null,
@@ -6812,7 +6810,7 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 51
+    "2026-11-16": 52
    },
    "tk": {
     "firma": "9ac237db",
@@ -13068,11 +13066,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794867036.9089527,
-  "msgs": 1588023,
-  "mios": 152
+  "ultimo": 1794868017.0986578,
+  "msgs": 1604081,
+  "mios": 153
  },
- "t": 1794867089.4586637,
+ "t": 1794868020.8937643,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13491,7 +13489,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794865830
+   "t": 1794867491
   },
   "BD+43 866": {
    "pos": [
@@ -14288,7 +14286,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274606,
+   "prog": 0.27469,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -14296,7 +14294,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794863529
+   "t": 1794867773
   },
   "Sussche": {
    "pos": [
@@ -15090,7 +15088,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794867080
+   "t": 1794867178
   },
   "Ceti Sector CL-X b1-4": {
    "pos": [
@@ -16624,7 +16622,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794847021
+   "t": 1794867297
   },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
@@ -16984,7 +16982,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794819844
+   "t": 1794867363
   },
   "Tascheter Sector OX-U b2-7": {
    "pos": [
@@ -17223,7 +17221,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794825648
+   "t": 1794868016
   },
   "Apadecavi": {
    "pos": [
@@ -19008,6 +19006,35 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794866406
+  },
+  "Mandra": {
+   "pos": [
+    104.96875,
+    -117.40625,
+    -7.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.285895,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794866872
+  },
+  "BD+11 1163": {
+   "pos": [
+    36.28125,
+    -0.03125,
+    -98.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794867553
   }
  }
 }

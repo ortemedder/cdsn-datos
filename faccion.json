@@ -3726,7 +3726,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794805393,
+   "t": 1794840483,
    "src": "EDDN",
    "inf": 79.14,
    "ctrl": true,
@@ -3806,7 +3806,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 4
+    "2026-11-16": 5
    },
    "pn": {
     "J9W-B6T": {
@@ -3815,7 +3815,7 @@
     },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794766257
+     "t": 1794840483
     },
     "HLB-N6T": {
      "n": "LA CARRIER",
@@ -3831,16 +3831,16 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794759620
+     "t": 1794843482
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794766257
+     "t": 1794840483
     }
    },
    "tk": {
     "firma": "8569ec69",
-    "igual": 1794805393,
+    "igual": 1794840483,
     "ult": 1794796745,
     "desde": 1794766064,
     "est": null,
@@ -3968,7 +3968,7 @@
   },
   "Ryujingit": {
    "sys": "Ryujingit",
-   "t": 1794747490,
+   "t": 1794848145,
    "src": "EDDN",
    "inf": 8.67,
    "ctrl": false,
@@ -3987,10 +3987,10 @@
      "inf": 58.17,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -4076,7 +4076,12 @@
    },
    "trafico": {
     "2026-11-10": 1,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-16": 2
+   },
+   "tk": {
+    "firma": "5026b8eb",
+    "igual": 1794848145
    },
    "prev": 8.76,
    "prev_t": 1794331233,
@@ -4093,11 +4098,7 @@
      1794747490,
      8.67
     ]
-   ],
-   "tk": {
-    "firma": "5026b8eb",
-    "igual": 1794747490
-   }
+   ]
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
@@ -6755,7 +6756,7 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 11
+    "2026-11-16": 14
    },
    "tk": {
     "firma": "9ac237db",
@@ -11624,9 +11625,9 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794768035,
+   "t": 1794845079,
    "src": "EDDN",
-   "inf": 9.71,
+   "inf": 10.42,
    "ctrl": false,
    "estado": "Boom",
    "activos": [],
@@ -11635,12 +11636,12 @@
     "Expansion"
    ],
    "segunda": "Wolves of Jonai",
-   "segunda_inf": 63.86,
+   "segunda_inf": 61.32,
    "conflictos": [],
    "todas": [
     {
      "n": "Wolves of Jonai",
-     "inf": 63.86,
+     "inf": 61.32,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [
@@ -11651,7 +11652,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 19.02,
+     "inf": 20.34,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -11660,7 +11661,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 9.71,
+     "inf": 10.42,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -11669,7 +11670,7 @@
     },
     {
      "n": "Atese Labour",
-     "inf": 7.41,
+     "inf": 7.92,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -11684,7 +11685,7 @@
     291.75
    ],
    "sis": {
-    "pob": 74694934,
+    "pob": 75408342,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -11701,19 +11702,20 @@
    },
    "trafico": {
     "2026-11-14": 11,
-    "2026-11-15": 12
+    "2026-11-15": 12,
+    "2026-11-16": 1
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794768035
+     "t": 1794845079
     }
    },
    "tk": {
-    "firma": "4823aeac",
-    "igual": 1794768035,
-    "ult": 1794757101,
-    "desde": 1794701554,
+    "firma": "de13a946",
+    "igual": 1794845079,
+    "ult": 1794843540,
+    "desde": 1794768035,
     "vent": [
      [
       1794701554,
@@ -11722,8 +11724,8 @@
     ],
     "est": null
    },
-   "prev": 9.16,
-   "prev_t": 1794701554,
+   "prev": 9.71,
+   "prev_t": 1794768035,
    "hinf": [
     [
      1794695209,
@@ -11732,11 +11734,15 @@
     [
      1794757101,
      9.71
+    ],
+    [
+     1794843540,
+     10.42
     ]
    ],
-   "tick_ult": 1794757101,
-   "tick_marg": 462,
-   "tick_prox": 1794815670,
+   "tick_ult": 1794843540,
+   "tick_marg": 629,
+   "tick_prox": 1794902070,
    "tick_disp": 462,
    "tick_n": 0
   },
@@ -12822,15 +12828,101 @@
      18.36
     ]
    ]
+  },
+  "HIP 101655": {
+   "sys": "HIP 101655",
+   "t": 1794845358,
+   "src": "EDDN",
+   "inf": 60.0,
+   "ctrl": true,
+   "estado": "Boom",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
+    "Expansion"
+   ],
+   "segunda": "Natural Atese Front",
+   "segunda_inf": 20.0,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 60.0,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Natural Atese Front",
+     "inf": 20.0,
+     "gov": "Dictatorship",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Atese Labour",
+     "inf": 13.0,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Atese Camorra",
+     "inf": 7.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    70.1875,
+    -230.28125,
+    291.34375
+   ],
+   "sis": {
+    "pob": 10238,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "hinf": [
+    [
+     1794845358,
+     60.0
+    ]
+   ],
+   "tk": {
+    "firma": "6930e4c4",
+    "igual": 1794845358
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794846891.8036854,
-  "msgs": 1213229,
-  "mios": 79
+  "ultimo": 1794848146.4678738,
+  "msgs": 1225319,
+  "mios": 97
  },
- "t": 1794847168.2016084,
+ "t": 1794848159.4529934,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12957,7 +13049,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794799731
+   "t": 1794847913
   },
   "HIP 46236": {
    "pos": [
@@ -13197,7 +13289,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794846757
+   "t": 1794847639
   },
   "LP 883-185": {
    "pos": [
@@ -14036,7 +14128,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794845527
+   "t": 1794847830
   },
   "Dongkum": {
    "pos": [
@@ -14497,7 +14589,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794846602
+   "t": 1794848055
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -15210,7 +15302,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794779975
+   "t": 1794847806
   },
   "Amisi": {
    "pos": [
@@ -15713,7 +15805,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794839733
+   "t": 1794847814
   },
   "ICZ CF-Z b3": {
    "pos": [
@@ -16578,7 +16670,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794846373
+   "t": 1794847351
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -17646,6 +17738,38 @@
     "Jerome Archer"
    ],
    "t": 1794728544
+  },
+  "Warnates": {
+   "pos": [
+    -46.1875,
+    -4.375,
+    -67.65625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.268255,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794847963
+  },
+  "Ryujingit": {
+   "pos": [
+    18.75,
+    -2.21875,
+    -86.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794848145
   }
  }
 }

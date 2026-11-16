@@ -3860,7 +3860,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 66
+    "2026-11-16": 68
    },
    "pn": {
     "H5L-70M": {
@@ -13067,8 +13067,109 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 851,
+  "msgs": 14101,
   "mios": 0
  },
- "t": 1794870160.3339674
+ "t": 1794871011.0426235,
+ "zona": {
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794870730
+  },
+  "Kareneri": {
+   "pos": [
+    -19.03125,
+    2.5,
+    -74.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01282,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794870361
+  },
+  "Col 285 Sector RD-T a33-3": {
+   "pos": [
+    131.15625,
+    -31.46875,
+    11.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794870567
+  },
+  "Ceti Sector GR-V b2-3": {
+   "pos": [
+    5.65625,
+    -90.125,
+    -31.78125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.122283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794870292
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.310818,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794870849
+  },
+  "Trianguli Sector RU-O a6-2": {
+   "pos": [
+    17.71875,
+    -43.875,
+    -61.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.042283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794871006
+  }
+ }
 }

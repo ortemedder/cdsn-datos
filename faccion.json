@@ -3837,7 +3837,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 30
+    "2026-11-16": 33
    },
    "pn": {
     "H5L-70M": {
@@ -5303,14 +5303,12 @@
   },
   "Ceti Sector CL-X b1-1": {
    "sys": "Ceti Sector CL-X b1-1",
-   "t": 1794258925,
+   "t": 1794860680,
    "src": "EDDN",
    "inf": 14.31,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
-    "Expansion"
-   ],
+   "estado": "None",
+   "activos": [],
    "pendientes": [],
    "recuperando": [],
    "segunda": "Ukrainian Pilots Federation",
@@ -5322,7 +5320,9 @@
      "inf": 60.56,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -5340,9 +5340,7 @@
      "inf": 14.31,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -5354,7 +5352,7 @@
     -54.3125
    ],
    "sis": {
-    "pob": 1996034,
+    "pob": 1996385,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -5373,10 +5371,21 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 1
+    "2026-11-09": 1,
+    "2026-11-16": 1
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "hinf": [
+    [
+     1794258925,
+     14.31
+    ]
+   ],
+   "tk": {
+    "firma": "744b8276",
+    "igual": 1794860680
+   }
   },
   "Tascheter Sector YZ-Y b4": {
    "sys": "Tascheter Sector YZ-Y b4",
@@ -6700,7 +6709,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794859401,
+   "t": 1794860493,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6782,11 +6791,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 37
+    "2026-11-16": 39
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794859401
+    "igual": 1794860493
    },
    "prev": null,
    "prev_t": null,
@@ -13038,11 +13047,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794859890.9882925,
-  "msgs": 1436400,
-  "mios": 120
+  "ultimo": 1794860682.5139787,
+  "msgs": 1456834,
+  "mios": 122
  },
- "t": 1794859916.960018,
+ "t": 1794860818.4320796,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13232,7 +13241,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794859741
+   "t": 1794859166
   },
   "Kolaga": {
    "pos": [
@@ -15422,7 +15431,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794847806
+   "t": 1794859117
   },
   "Amisi": {
    "pos": [
@@ -15826,7 +15835,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794783963
+   "t": 1794859966
   },
   "Ross 584": {
    "pos": [
@@ -15844,7 +15853,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794858683
+   "t": 1794860135
   },
   "Ausan": {
    "pos": [
@@ -16402,7 +16411,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794845454
+   "t": 1794860812
   },
   "Hyades Sector UP-N b7-1": {
    "pos": [
@@ -17033,7 +17042,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1794822468
+   "t": 1794860732
   },
   "Nima": {
    "pos": [
@@ -17529,14 +17538,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.017217,
+   "prog": 0.021543,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794856318
+   "t": 1794859981
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -18336,7 +18345,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794858894
+   "t": 1794860620
   },
   "BD-09 956": {
    "pos": [
@@ -18509,6 +18518,54 @@
     "Jerome Archer"
    ],
    "t": 1794859389
+  },
+  "Trianguli Sector ZL-L a8-0": {
+   "pos": [
+    36.09375,
+    -32.1875,
+    -43.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794860572
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794860627
+  },
+  "Ceti Sector CL-X b1-1": {
+   "pos": [
+    8.25,
+    -103.875,
+    -54.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794860680
   }
  }
 }

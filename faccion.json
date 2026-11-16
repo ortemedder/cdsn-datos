@@ -1924,7 +1924,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794846808,
+   "t": 1794859169,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -2011,11 +2011,11 @@
     "2026-11-13": 1,
     "2026-11-14": 1,
     "2026-11-15": 3,
-    "2026-11-16": 3
+    "2026-11-16": 4
    },
    "tk": {
     "firma": "94c05588",
-    "igual": 1794846808,
+    "igual": 1794859169,
     "ult": 1794698937,
     "desde": 1794531890,
     "est": null
@@ -3837,7 +3837,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 26
+    "2026-11-16": 30
    },
    "pn": {
     "H5L-70M": {
@@ -6700,7 +6700,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794858442,
+   "t": 1794859401,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6782,11 +6782,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 35
+    "2026-11-16": 37
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794858442
+    "igual": 1794859401
    },
    "prev": null,
    "prev_t": null,
@@ -12948,15 +12948,101 @@
     "firma": "6930e4c4",
     "igual": 1794845358
    }
+  },
+  "Col 285 Sector TK-J b24-1": {
+   "sys": "Col 285 Sector TK-J b24-1",
+   "t": 1794859889,
+   "src": "EDDN",
+   "inf": 10.6,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "HIP 67527 Inc",
+   "segunda_inf": 68.8,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "HIP 67527 Inc",
+     "inf": 68.8,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Tsakhmet Future",
+     "inf": 17.8,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.6,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Borme Silver Clan",
+     "inf": 2.8,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "HIP 67527 Inc",
+   "pos": [
+    157.625,
+    70.28125,
+    164.8125
+   ],
+   "sis": {
+    "pob": 3992435,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Nakato Kaine"
+    ]
+   },
+   "hinf": [
+    [
+     1794859889,
+     10.6
+    ]
+   ],
+   "tk": {
+    "firma": "a712d47e",
+    "igual": 1794859889
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794858445.2712293,
-  "msgs": 1416839,
-  "mios": 117
+  "ultimo": 1794859890.9882925,
+  "msgs": 1436400,
+  "mios": 120
  },
- "t": 1794858935.439947,
+ "t": 1794859916.960018,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13146,7 +13232,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794818847
+   "t": 1794859741
   },
   "Kolaga": {
    "pos": [
@@ -13208,13 +13294,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.310765,
+   "prog": 0.310795,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794842684
+   "t": 1794859217
   },
   "Girya Gu": {
    "pos": [
@@ -13865,7 +13951,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794858925
+   "t": 1794859913
   },
   "Col 285 Sector RD-T a33-4": {
    "pos": [
@@ -16144,7 +16230,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794844737
+   "t": 1794859476
   },
   "Satvaneka": {
    "pos": [
@@ -16267,7 +16353,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794793322
+   "t": 1794859294
   },
   "Rindjibal": {
    "pos": [
@@ -17622,7 +17708,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794846808
+   "t": 1794859169
   },
   "Ceti Sector CL-X b1-2": {
    "pos": [
@@ -17754,7 +17840,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794846258
+   "t": 1794859267
   },
   "UGP 92": {
    "pos": [
@@ -18376,6 +18462,53 @@
     "Jerome Archer"
    ],
    "t": 1794858748
+  },
+  "Col 285 Sector WJ-R a34-3": {
+   "pos": [
+    138.09375,
+    -25.8125,
+    22.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794858850
+  },
+  "Hyades Sector OO-P b6-4": {
+   "pos": [
+    -5.5625,
+    7.59375,
+    -130.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794859202
+  },
+  "LTT 12018": {
+   "pos": [
+    28.34375,
+    30.25,
+    -90.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794859389
   }
  }
 }

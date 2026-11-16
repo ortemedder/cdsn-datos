@@ -3784,7 +3784,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794867036,
+   "t": 1794868893,
    "src": "EDDN",
    "inf": 79.14,
    "ctrl": true,
@@ -3860,12 +3860,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 58
+    "2026-11-16": 60
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794867153
+     "t": 1794868893
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3877,20 +3877,20 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794867153
+     "t": 1794868893
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794867153
+     "t": 1794868893
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794867153
+     "t": 1794868893
     }
    },
    "tk": {
     "firma": "8569ec69",
-    "igual": 1794867036,
+    "igual": 1794868893,
     "ult": 1794796745,
     "desde": 1794766064,
     "est": null,
@@ -6730,7 +6730,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794866590,
+   "t": 1794868347,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6810,11 +6810,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 52
+    "2026-11-16": 54
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794866590
+    "igual": 1794868347
    },
    "prev": null,
    "prev_t": null,
@@ -13066,11 +13066,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794868017.0986578,
-  "msgs": 1604081,
-  "mios": 153
+  "ultimo": 1794868894.3913724,
+  "msgs": 1620085,
+  "mios": 155
  },
- "t": 1794868020.8937643,
+ "t": 1794868901.8420894,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13117,7 +13117,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794863957
+   "t": 1794868807
   },
   "LHS 1747": {
    "pos": [
@@ -13328,7 +13328,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794866578
+   "t": 1794868827
   },
   "Girya Gu": {
    "pos": [
@@ -13402,11 +13402,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.357717,
+   "prog": 0.360424,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794766080
+   "t": 1794868702
   },
   "Kalangputys": {
    "pos": [
@@ -19035,6 +19035,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794867553
+  },
+  "LHS 1803": {
+   "pos": [
+    21.65625,
+    -7.53125,
+    -83.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.062283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794868416
+  },
+  "HIP 23302": {
+   "pos": [
+    -15.09375,
+    -14.25,
+    -127.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794868790
   }
  }
 }

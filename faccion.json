@@ -5594,15 +5594,15 @@
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
-   "t": 1794784172,
+   "t": 1794829161,
    "src": "EDDN",
    "inf": 8.08,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Election",
+   "activos": [
     "Election"
    ],
+   "pendientes": [],
    "recuperando": [
     "Expansion"
    ],
@@ -5611,7 +5611,7 @@
    "conflictos": [
     {
      "tipo": "election",
-     "estado": "pending",
+     "estado": "active",
      "contra": "Astrobiology Research Cooperative",
      "ganados": 0,
      "perdidos": 0
@@ -5654,10 +5654,10 @@
      "inf": 8.08,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Election"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -5666,11 +5666,10 @@
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [
-      "Expansion"
-     ],
-     "pend": [
+      "Expansion",
       "Election"
      ],
+     "pend": [],
      "jug": null
     }
    ],
@@ -5701,7 +5700,12 @@
     ]
    },
    "trafico": {
-    "2026-11-15": 6
+    "2026-11-15": 6,
+    "2026-11-16": 1
+   },
+   "tk": {
+    "firma": "399c946d",
+    "igual": 1794829161
    },
    "prev": 10.36,
    "prev_t": 1794255951,
@@ -5714,11 +5718,7 @@
      1794784172,
      8.08
     ]
-   ],
-   "tk": {
-    "firma": "399c946d",
-    "igual": 1794784172
-   }
+   ]
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
@@ -12701,11 +12701,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794827490.739721,
-  "msgs": 998220,
-  "mios": 64
+  "ultimo": 1794829162.8901734,
+  "msgs": 1006632,
+  "mios": 65
  },
- "t": 1794828301.998132,
+ "t": 1794829172.557739,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13921,7 +13921,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272744,
+   "prog": 0.272753,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -13929,7 +13929,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794827440
+   "t": 1794828332
   },
   "Sussche": {
    "pos": [
@@ -14067,7 +14067,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794824964
+   "t": 1794829042
   },
   "Menkalinan": {
    "pos": [
@@ -15556,7 +15556,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794784172
+   "t": 1794829161
   },
   "Arietis Sector CQ-Y d63": {
    "pos": [
@@ -16807,7 +16807,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1794827735
+   "t": 1794828775
   },
   "Lyncis Sector PX-U b2-3": {
    "pos": [

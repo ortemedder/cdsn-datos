@@ -3860,12 +3860,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 60
+    "2026-11-16": 64
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794868893
+     "t": 1794869052
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3877,15 +3877,15 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794868893
+     "t": 1794869052
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794868893
+     "t": 1794869052
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794868893
+     "t": 1794869052
     }
    },
    "tk": {
@@ -13067,10 +13067,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794868894.3913724,
-  "msgs": 1620085,
+  "msgs": 1636279,
   "mios": 155
  },
- "t": 1794868901.8420894,
+ "t": 1794869732.3929307,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -17564,7 +17564,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794864581
+   "t": 1794869722
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -18905,7 +18905,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794864912
+   "t": 1794869261
   },
   "Diaguthivar": {
    "pos": [
@@ -19067,6 +19067,23 @@
     "Pranav Antal"
    ],
    "t": 1794868790
+  },
+  "Hyades Sector VA-M b8-0": {
+   "pos": [
+    -43.90625,
+    0.78125,
+    -104.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794869098
   }
  }
 }

@@ -6619,7 +6619,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794822129,
+   "t": 1794823626,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6701,11 +6701,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 1
+    "2026-11-16": 2
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794822129
+    "igual": 1794823626
    },
    "prev": null,
    "prev_t": null,
@@ -12558,11 +12558,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794822132.6574497,
-  "msgs": 946658,
-  "mios": 59
+  "ultimo": 1794823637.2766807,
+  "msgs": 956936,
+  "mios": 60
  },
- "t": 1794822638.0107586,
+ "t": 1794823688.7006056,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12699,13 +12699,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.207629,
+   "prog": 0.212076,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794819501
+   "t": 1794823683
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -14110,7 +14110,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794794052
+   "t": 1794823408
   },
   "Trante": {
    "pos": [
@@ -16554,6 +16554,72 @@
     "Li Yong-Rui"
    ],
    "t": 1794822468
+  },
+  "Nima": {
+   "pos": [
+    7.5625,
+    30.25,
+    -82.65625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.253318,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794822968
+  },
+  "HIP 25166": {
+   "pos": [
+    -41.3125,
+    16.03125,
+    -132.75
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.100569,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794823035
+  },
+  "Caill Reddi": {
+   "pos": [
+    -61.375,
+    -21.90625,
+    -78.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.250126,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794823426
+  },
+  "EGM 762": {
+   "pos": [
+    12.375,
+    -79.1875,
+    -3.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259166,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794823519
   }
  }
 }

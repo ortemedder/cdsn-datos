@@ -3833,7 +3833,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 37
+    "2026-11-16": 43
    },
    "pn": {
     "H5L-70M": {
@@ -6705,7 +6705,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794862065,
+   "t": 1794863324,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6787,11 +6787,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 41
+    "2026-11-16": 43
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794862065
+    "igual": 1794863324
    },
    "prev": null,
    "prev_t": null,
@@ -13043,11 +13043,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794862068.2864923,
-  "msgs": 1498013,
-  "mios": 124
+  "ultimo": 1794863326.5606253,
+  "msgs": 1516704,
+  "mios": 125
  },
- "t": 1794862600.3239698,
+ "t": 1794863522.1855145,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13094,7 +13094,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794842224
+   "t": 1794862795
   },
   "LHS 1747": {
    "pos": [
@@ -13174,7 +13174,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794861893
+   "t": 1794863507
   },
   "HIP 46236": {
    "pos": [
@@ -13305,7 +13305,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794859217
+   "t": 1794862628
   },
   "Girya Gu": {
    "pos": [
@@ -13466,7 +13466,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794862140
+   "t": 1794863178
   },
   "BD+43 866": {
    "pos": [
@@ -13606,13 +13606,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.687011,
+   "prog": 0.789622,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794825742
+   "t": 1794863277
   },
   "Kareneri": {
    "pos": [
@@ -14246,14 +14246,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.249669,
+   "prog": 0.249678,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794850879
+   "t": 1794863477
   },
   "Dongkum": {
    "pos": [
@@ -15801,7 +15801,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794838023
+   "t": 1794863018
   },
   "Wuluang": {
    "pos": [
@@ -16079,7 +16079,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794852928
+   "t": 1794862766
   },
   "Brigh": {
    "pos": [
@@ -18594,7 +18594,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794861089
+   "t": 1794862851
   },
   "Ceti Sector EG-X b1-3": {
    "pos": [
@@ -18707,6 +18707,68 @@
     "Jerome Archer"
    ],
    "t": 1794862592
+  },
+  "Hyades Sector QJ-P b6-2": {
+   "pos": [
+    -10.90625,
+    -21.28125,
+    -125.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794862649
+  },
+  "Utero": {
+   "pos": [
+    -37.125,
+    33.71875,
+    -123.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794862965
+  },
+  "Brians": {
+   "pos": [
+    107.75,
+    -135.15625,
+    -8.40625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200323,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794863098
+  },
+  "HIP 30486": {
+   "pos": [
+    -10.53125,
+    30.65625,
+    -140.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.026183,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794863360
   }
  }
 }

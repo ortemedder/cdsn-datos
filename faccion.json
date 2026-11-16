@@ -3124,14 +3124,12 @@
   },
   "Diaguthivar": {
    "sys": "Diaguthivar",
-   "t": 1794160512,
+   "t": 1794865307,
    "src": "EDDN",
    "inf": 5.32,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
-    "Expansion"
-   ],
+   "estado": "None",
+   "activos": [],
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
@@ -3143,9 +3141,11 @@
      "inf": 66.8,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Diaguthivar Industry",
@@ -3154,7 +3154,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
@@ -3162,19 +3162,19 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
-     "jug": true
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
      "inf": 5.32,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Diaguthivar Dynasty",
@@ -3183,7 +3183,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Apadecavi Blue General Solutions",
@@ -3192,7 +3192,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Diaguthivar Gold Crew",
@@ -3201,7 +3201,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Sirius Special Forces",
@@ -3212,11 +3212,40 @@
    ],
    "sis": {
     "pob": 104764,
-    "eco": "Refinery",
-    "eco2": "Extraction",
-    "seg": "Low",
-    "gov": "Corporate",
+    "eco": "$economy_Refinery;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
     "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.255521,
+    "ref": 0,
+    "soc": 367,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-16": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794160512,
+     5.32
+    ]
+   ],
+   "tk": {
+    "firma": "51abf15e",
+    "igual": 1794865307
    }
   },
   "Adjukru": {
@@ -3833,12 +3862,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 46
+    "2026-11-16": 48
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794864307
+     "t": 1794864447
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3850,15 +3879,15 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794864307
+     "t": 1794864447
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794864307
+     "t": 1794864447
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794864307
+     "t": 1794864447
     }
    },
    "tk": {
@@ -6787,7 +6816,7 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 46
+    "2026-11-16": 47
    },
    "tk": {
     "firma": "9ac237db",
@@ -11664,7 +11693,7 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794864182,
+   "t": 1794865237,
    "src": "EDDN",
    "inf": 10.42,
    "ctrl": false,
@@ -11742,17 +11771,17 @@
    "trafico": {
     "2026-11-14": 11,
     "2026-11-15": 12,
-    "2026-11-16": 5
+    "2026-11-16": 13
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794864182
+     "t": 1794865237
     }
    },
    "tk": {
     "firma": "de13a946",
-    "igual": 1794864182,
+    "igual": 1794865237,
     "ult": 1794843540,
     "desde": 1794768035,
     "vent": [
@@ -13043,11 +13072,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794864307.4415557,
-  "msgs": 1534999,
-  "mios": 128
+  "ultimo": 1794865308.9563186,
+  "msgs": 1553391,
+  "mios": 133
  },
- "t": 1794864344.2136824,
+ "t": 1794865315.641626,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13127,7 +13156,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794852877
+   "t": 1794864708
   },
   "Koirada": {
    "pos": [
@@ -13466,7 +13495,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794863178
+   "t": 1794864586
   },
   "BD+43 866": {
    "pos": [
@@ -15639,7 +15668,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794794594
+   "t": 1794865229
   },
   "Hu Jini": {
    "pos": [
@@ -17541,7 +17570,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794859981
+   "t": 1794864581
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -17658,13 +17687,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.260241,
+   "prog": 0.260326,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794843550
+   "t": 1794864726
   },
   "Col 285 Sector TT-W b16-8": {
    "pos": [
@@ -18850,6 +18879,57 @@
     "Jerome Archer"
    ],
    "t": 1794864337
+  },
+  "9 Aurigae": {
+   "pos": [
+    -32.75,
+    10.5,
+    -78.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253998,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794864503
+  },
+  "NLTT 8234": {
+   "pos": [
+    17,
+    -103.71875,
+    -44.1875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.205355,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794864912
+  },
+  "Diaguthivar": {
+   "pos": [
+    -8.6875,
+    2.0625,
+    -108.375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.255521,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794865307
   }
  }
 }

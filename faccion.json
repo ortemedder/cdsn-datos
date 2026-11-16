@@ -3757,7 +3757,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794850342,
+   "t": 1794861250,
    "src": "EDDN",
    "inf": 79.14,
    "ctrl": true,
@@ -3767,9 +3767,7 @@
     "Boom"
    ],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "Natural Atese Front",
    "segunda_inf": 14.77,
    "conflictos": [],
@@ -3800,9 +3798,7 @@
      "inf": 6.09,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -3837,12 +3833,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 33
+    "2026-11-16": 37
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794850621
+     "t": 1794861377
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3853,21 +3849,21 @@
      "t": 1794456932
     },
     "KBL-37L": {
-     "n": "",
-     "t": 1794852135
+     "n": "EPICUS FUROR *CDSN*",
+     "t": 1794861377
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794850621
+     "t": 1794861377
     },
     "HHQ-6HV": {
-     "n": "",
-     "t": 1794854550
+     "n": "RIDER OF THE STORM",
+     "t": 1794861377
     }
    },
    "tk": {
     "firma": "8569ec69",
-    "igual": 1794850342,
+    "igual": 1794861250,
     "ult": 1794796745,
     "desde": 1794766064,
     "est": null,
@@ -13047,11 +13043,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794860682.5139787,
-  "msgs": 1456834,
-  "mios": 122
+  "ultimo": 1794861250.7144215,
+  "msgs": 1478523,
+  "mios": 123
  },
- "t": 1794860818.4320796,
+ "t": 1794861379.2913837,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13251,14 +13247,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.306247,
+   "prog": 0.306256,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794857689
+   "t": 1794861178
   },
   "Agrippa": {
    "pos": [
@@ -14684,7 +14680,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794850879
+   "t": 1794861349
   },
   "LP 834-42": {
    "pos": [
@@ -18566,6 +18562,88 @@
     "Li Yong-Rui"
    ],
    "t": 1794860680
+  },
+  "Arietis Sector DG-X c1-14": {
+   "pos": [
+    -59.59375,
+    -4.03125,
+    -110.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794860924
+  },
+  "Evenks": {
+   "pos": [
+    -37.5,
+    19.65625,
+    -79.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.241712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794861089
+  },
+  "Ceti Sector EG-X b1-3": {
+   "pos": [
+    2.84375,
+    -119.03125,
+    -47.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794861113
+  },
+  "HIP 35755": {
+   "pos": [
+    5.5625,
+    46.03125,
+    -113.8125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.144217,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794861318
+  },
+  "Trianguli Sector XA-N a7-1": {
+   "pos": [
+    37.28125,
+    -38.3125,
+    -47.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.273041,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794861370
   }
  }
 }

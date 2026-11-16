@@ -3861,7 +3861,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 68
+    "2026-11-16": 70
    },
    "pn": {
     "H5L-70M": {
@@ -13068,10 +13068,108 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 804,
+  "msgs": 14127,
   "mios": 0
  },
- "t": 1794871340.989951,
+ "t": 1794872191.6074233,
  "thargoides": {},
- "tick_global": 1794849994
+ "tick_global": 1794849994,
+ "zona": {
+  "Kongaguan": {
+   "pos": [
+    15.96875,
+    -100.875,
+    -64.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.167426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794871438
+  },
+  "HIP 41777": {
+   "pos": [
+    138.84375,
+    -20.84375,
+    1.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794871462
+  },
+  "Trianguli Sector SU-O a6-3": {
+   "pos": [
+    29.875,
+    -44.84375,
+    -55.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.021543,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794871591
+  },
+  "Ceti Sector EW-V b2-5": {
+   "pos": [
+    14.03125,
+    -83.625,
+    -25.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794871245
+  },
+  "Trianguli Sector SU-O a6-2": {
+   "pos": [
+    32.09375,
+    -40.46875,
+    -55.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794871958
+  },
+  "Lougen": {
+   "pos": [
+    137.53125,
+    -20.875,
+    5.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.189141,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794872178
+  }
+ }
 }

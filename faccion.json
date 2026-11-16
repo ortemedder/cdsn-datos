@@ -12411,17 +12411,17 @@
     "igual": 1794788421
    },
    "trafico": {
-    "2026-11-16": 5
+    "2026-11-16": 8
    }
   }
  },
  "eddn": {
   "ok": true,
   "ultimo": 1794788422.3388903,
-  "msgs": 595368,
+  "msgs": 608956,
   "mios": 54
  },
- "t": 1794788628.6929276,
+ "t": 1794789569.9189434,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12548,7 +12548,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794782283
+   "t": 1794789238
   },
   "HIP 46236": {
    "pos": [
@@ -12564,7 +12564,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794788301
+   "t": 1794789436
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -12611,7 +12611,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794787095
+   "t": 1794789501
   },
   "Kolaga": {
    "pos": [
@@ -13283,7 +13283,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794774416
+   "t": 1794789557
   },
   "Arietis Sector PT-Q b5-7": {
    "pos": [
@@ -13696,7 +13696,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794781493
+   "t": 1794789219
   },
   "GCRV 2311": {
    "pos": [
@@ -14019,7 +14019,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794774647
+   "t": 1794789507
   },
   "Tascheter Sector CL-O a6-1": {
    "pos": [
@@ -14037,7 +14037,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794774705
+   "t": 1794789458
   },
   "Ditia": {
    "pos": [
@@ -14054,7 +14054,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794774753
+   "t": 1794789406
   },
   "LP 834-42": {
    "pos": [
@@ -14071,7 +14071,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794774803
+   "t": 1794789270
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -14274,7 +14274,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794788332
+   "t": 1794788961
   },
   "GCRV 4259": {
    "pos": [
@@ -15499,6 +15499,65 @@
     "Jerome Archer"
    ],
    "t": 1794788421
+  },
+  "Buriges": {
+   "pos": [
+    110.34375,
+    -118.375,
+    -26.03125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.304487,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794789113
+  },
+  "Hyades Sector YG-K b9-7": {
+   "pos": [
+    -61.40625,
+    2.71875,
+    -82.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794789131
+  },
+  "Oisi": {
+   "pos": [
+    -44.8125,
+    19.34375,
+    -102.375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.153712,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794789376
+  },
+  "Orgeleu": {
+   "pos": [
+    120.15625,
+    -123.15625,
+    -20.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256095,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794788939
   }
  }
 }

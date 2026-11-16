@@ -6700,7 +6700,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794856537,
+   "t": 1794857527,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6782,11 +6782,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 29
+    "2026-11-16": 32
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794856537
+    "igual": 1794857527
    },
    "prev": null,
    "prev_t": null,
@@ -12952,11 +12952,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794856537.8662999,
-  "msgs": 1381659,
-  "mios": 115
+  "ultimo": 1794857530.3804262,
+  "msgs": 1398594,
+  "mios": 116
  },
- "t": 1794857102.905592,
+ "t": 1794858104.0607135,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13156,14 +13156,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.299847,
+   "prog": 0.306247,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794801465
+   "t": 1794857689
   },
   "Agrippa": {
    "pos": [
@@ -13375,7 +13375,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794857093
+   "t": 1794857321
   },
   "BD+43 866": {
    "pos": [
@@ -15758,7 +15758,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794852740
+   "t": 1794857550
   },
   "Ausan": {
    "pos": [
@@ -18250,7 +18250,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794856116
+   "t": 1794857391
   },
   "BD-09 956": {
    "pos": [
@@ -18280,7 +18280,71 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794856848
+   "t": 1794858095
+  },
+  "LF 8 +16 41": {
+   "pos": [
+    23.90625,
+    1.59375,
+    -86.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794857214
+  },
+  "Wolf 225": {
+   "pos": [
+    -33,
+    -13.625,
+    -71.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.269641,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794857262
+  },
+  "Tirfing": {
+   "pos": [
+    -65.59375,
+    -1.125,
+    -81.375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.054854,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794857368
+  },
+  "HIP 16460": {
+   "pos": [
+    106.40625,
+    -131.0625,
+    -11.125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.251403,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794857774
   }
  }
 }

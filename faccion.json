@@ -6700,7 +6700,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794857527,
+   "t": 1794858442,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6782,11 +6782,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 32
+    "2026-11-16": 35
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794857527
+    "igual": 1794858442
    },
    "prev": null,
    "prev_t": null,
@@ -12952,11 +12952,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794857530.3804262,
-  "msgs": 1398594,
-  "mios": 116
+  "ultimo": 1794858445.2712293,
+  "msgs": 1416839,
+  "mios": 117
  },
- "t": 1794858104.0607135,
+ "t": 1794858935.439947,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13688,7 +13688,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794768011
+   "t": 1794858253
   },
   "Ross 27": {
    "pos": [
@@ -13865,7 +13865,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794855278
+   "t": 1794858925
   },
   "Col 285 Sector RD-T a33-4": {
    "pos": [
@@ -15758,7 +15758,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794857550
+   "t": 1794858683
   },
   "Ausan": {
    "pos": [
@@ -17764,14 +17764,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.119908,
+   "prog": 0.119923,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794728544
+   "t": 1794858511
   },
   "Warnates": {
    "pos": [
@@ -18250,7 +18250,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794857391
+   "t": 1794858894
   },
   "BD-09 956": {
    "pos": [
@@ -18345,6 +18345,37 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794857774
+  },
+  "Kwangwutii": {
+   "pos": [
+    -8.90625,
+    -2.375,
+    -122.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.153163,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794858240
+  },
+  "Lyncis Sector RI-T b3-1": {
+   "pos": [
+    -41.75,
+    40.3125,
+    -142.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794858748
   }
  }
 }

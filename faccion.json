@@ -6689,7 +6689,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794846889,
+   "t": 1794849693,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6771,11 +6771,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 14
+    "2026-11-16": 16
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794846889
+    "igual": 1794849693
    },
    "prev": null,
    "prev_t": null,
@@ -12941,11 +12941,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794848802.6736689,
-  "msgs": 1237374,
-  "mios": 102
+  "ultimo": 1794849695.6398234,
+  "msgs": 1251674,
+  "mios": 103
  },
- "t": 1794848901.1814284,
+ "t": 1794849932.4739652,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13364,7 +13364,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794844403
+   "t": 1794849487
   },
   "BD+43 866": {
    "pos": [
@@ -13839,7 +13839,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794842633
+   "t": 1794849105
   },
   "Nergal": {
    "pos": [
@@ -14161,7 +14161,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274278,
+   "prog": 0.274356,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -14169,7 +14169,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794845576
+   "t": 1794849336
   },
   "Sussche": {
    "pos": [
@@ -14595,7 +14595,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794844918
+   "t": 1794848995
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -14612,7 +14612,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794848055
+   "t": 1794762376
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -16686,14 +16686,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.125342,
+   "prog": 0.134065,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794848307
+   "t": 1794849608
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -16725,7 +16725,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794812202
+   "t": 1794761572
   },
   "Zach": {
    "pos": [
@@ -17776,7 +17776,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794847963
+   "t": 1794849811
   },
   "Ryujingit": {
    "pos": [
@@ -17862,6 +17862,71 @@
     "Zemina Torval"
    ],
    "t": 1794848800
+  },
+  "Tascheter Sector AV-Y b6": {
+   "pos": [
+    -22.34375,
+    -14.09375,
+    -88.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794849179
+  },
+  "Ross 568": {
+   "pos": [
+    -48.84375,
+    9.5,
+    -76.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794849812
+  },
+  "Turmati": {
+   "pos": [
+    22.9375,
+    -31.8125,
+    -40.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.282501,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794761642
+  },
+  "Lyncis Sector IM-V b2-2": {
+   "pos": [
+    -52.71875,
+    94.0625,
+    -145.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794849922
   }
  }
 }

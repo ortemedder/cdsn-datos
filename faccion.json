@@ -6647,7 +6647,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794823626,
+   "t": 1794843364,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6729,11 +6729,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 4
+    "2026-11-16": 5
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794823626
+    "igual": 1794843364
    },
    "prev": null,
    "prev_t": null,
@@ -12798,11 +12798,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794842325.5412593,
-  "msgs": 1151270,
-  "mios": 71
+  "ultimo": 1794843366.8691878,
+  "msgs": 1162756,
+  "mios": 72
  },
- "t": 1794842732.8632257,
+ "t": 1794843553.6462812,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -15699,7 +15699,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794784299
+   "t": 1794843169
   },
   "Daga tri": {
    "pos": [
@@ -16320,7 +16320,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794801818
+   "t": 1794842991
   },
   "BD+44 1040": {
    "pos": [
@@ -16396,13 +16396,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.137631,
+   "prog": 0.137813,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794804895
+   "t": 1794843496
   },
   "Segon": {
    "pos": [
@@ -16543,14 +16543,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.116597,
+   "prog": 0.119515,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794841536
+   "t": 1794842829
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -17404,6 +17404,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794842636
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260241,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794843550
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794843504
   }
  }
 }

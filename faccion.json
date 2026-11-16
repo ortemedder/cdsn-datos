@@ -3400,7 +3400,7 @@
     "2026-11-13": 2,
     "2026-11-14": 7,
     "2026-11-15": 9,
-    "2026-11-16": 6
+    "2026-11-16": 8
    },
    "zc": [
     {
@@ -3825,7 +3825,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 12
+    "2026-11-16": 16
    },
    "pn": {
     "H5L-70M": {
@@ -5766,7 +5766,7 @@
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794851694,
+   "t": 1794853300,
    "src": "EDDN",
    "inf": 48.4,
    "ctrl": true,
@@ -5836,7 +5836,7 @@
     "2026-11-09": 2,
     "2026-11-10": 3,
     "2026-11-15": 9,
-    "2026-11-16": 4
+    "2026-11-16": 5
    },
    "pn": {
     "H2J-72G": {
@@ -5846,7 +5846,7 @@
    },
    "tk": {
     "firma": "9b50ec57",
-    "igual": 1794851694
+    "igual": 1794853300
    },
    "prev": null,
    "prev_t": null,
@@ -6684,7 +6684,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794851067,
+   "t": 1794852749,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6766,11 +6766,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 19
+    "2026-11-16": 22
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794851067
+    "igual": 1794852749
    },
    "prev": null,
    "prev_t": null,
@@ -12936,12 +12936,12 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794851697.168106,
-  "msgs": 1296439,
-  "mios": 106
+  "ultimo": 1794853301.9388273,
+  "msgs": 1311747,
+  "mios": 108
  },
- "t": 1794852585.8496377,
- "tick_global": 1794764339,
+ "t": 1794853447.354884,
+ "tick_global": 1794849994,
  "zona": {
   "Yenici": {
    "pos": [
@@ -13020,7 +13020,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794840149
+   "t": 1794852877
   },
   "Koirada": {
    "pos": [
@@ -14869,13 +14869,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.630016,
+   "prog": 0.631428,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794851192
+   "t": 1794853140
   },
   "Nauacan": {
    "pos": [
@@ -15742,7 +15742,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794835158
+   "t": 1794852740
   },
   "Ausan": {
    "pos": [
@@ -15972,7 +15972,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794838728
+   "t": 1794852928
   },
   "Brigh": {
    "pos": [
@@ -16284,7 +16284,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794794852
+   "t": 1794852787
   },
   "Ketekhmet": {
    "pos": [
@@ -16681,14 +16681,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.134065,
+   "prog": 0.139877,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794849608
+   "t": 1794853005
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -17967,6 +17967,52 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794852156
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794852833
+  },
+  "Oscabi": {
+   "pos": [
+    125.1875,
+    -16,
+    18.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794852843
+  },
+  "LTT 11655": {
+   "pos": [
+    19.6875,
+    -18.59375,
+    -90.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.051426,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794853132
   }
  }
 }

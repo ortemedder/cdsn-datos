@@ -12567,15 +12567,136 @@
      "t": 1794792840
     }
    }
+  },
+  "Yin Sector ZU-Y b3": {
+   "sys": "Yin Sector ZU-Y b3",
+   "t": 1794827380,
+   "src": "EDDN",
+   "inf": 5.93,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
+    "Expansion"
+   ],
+   "segunda": "THE AZGHARIE",
+   "segunda_inf": 41.5,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "THE AZGHARIE",
+     "inf": 41.5,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Order of Enblackenment",
+     "inf": 18.18,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "New Pilots Initiative",
+     "inf": 10.87,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "LP 254-27 Free",
+     "inf": 8.1,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Furuhjelm II-432 Camorra",
+     "inf": 7.81,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "LP 254-40 Co",
+     "inf": 7.61,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 5.93,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "THE AZGHARIE",
+   "pos": [
+    -5.0625,
+    23.15625,
+    -82.375
+   ],
+   "sis": {
+    "pob": 248342,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Colony;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal"
+    ]
+   },
+   "hinf": [
+    [
+     1794827380,
+     5.93
+    ]
+   ],
+   "tk": {
+    "firma": "c0233440",
+    "igual": 1794827380
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794825649.4293547,
-  "msgs": 982898,
-  "mios": 62
+  "ultimo": 1794827384.7326505,
+  "msgs": 990632,
+  "mios": 63
  },
- "t": 1794826310.5764797,
+ "t": 1794827421.1876464,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12606,7 +12727,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794763419
+   "t": 1794827414
   },
   "HIP 33497": {
    "pos": [
@@ -14736,7 +14857,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794783318
+   "t": 1794826598
   },
   "LP 254-40": {
    "pos": [
@@ -15607,7 +15728,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794816058
+   "t": 1794827419
   },
   "Brigh": {
    "pos": [
@@ -16323,7 +16444,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794826090
+   "t": 1794827034
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -16761,6 +16882,38 @@
     "Jerome Archer"
    ],
    "t": 1794826304
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.268512,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794827064
+  },
+  "Yin Sector ZU-Y b3": {
+   "pos": [
+    -5.0625,
+    23.15625,
+    -82.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794827380
   }
  }
 }

@@ -5836,12 +5836,12 @@
     "2026-11-09": 2,
     "2026-11-10": 3,
     "2026-11-15": 9,
-    "2026-11-16": 5
+    "2026-11-16": 8
    },
    "pn": {
     "H2J-72G": {
      "n": "(CDSN)- * NAUTILUS * -",
-     "t": 1794783715
+     "t": 1794853609
     }
    },
    "tk": {
@@ -6684,7 +6684,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794852749,
+   "t": 1794853819,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6766,11 +6766,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 22
+    "2026-11-16": 24
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794852749
+    "igual": 1794853819
    },
    "prev": null,
    "prev_t": null,
@@ -12936,11 +12936,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794853301.9388273,
-  "msgs": 1311747,
-  "mios": 108
+  "ultimo": 1794853821.060367,
+  "msgs": 1327339,
+  "mios": 109
  },
- "t": 1794853447.354884,
+ "t": 1794854498.4267178,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -14488,7 +14488,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794823408
+   "t": 1794854048
   },
   "Trante": {
    "pos": [
@@ -14590,7 +14590,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794848995
+   "t": 1794854097
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -17573,7 +17573,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794846891
+   "t": 1794854140
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -18013,6 +18013,54 @@
     "Li Yong-Rui"
    ],
    "t": 1794853132
+  },
+  "LHS 1697": {
+   "pos": [
+    -47.75,
+    13.59375,
+    -83.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794853612
+  },
+  "Decima": {
+   "pos": [
+    35.9375,
+    -34.4375,
+    -30.4375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.233417,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794853919
+  },
+  "Ross 409": {
+   "pos": [
+    -3.1875,
+    -3.15625,
+    -121.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.179828,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794854496
   }
  }
 }

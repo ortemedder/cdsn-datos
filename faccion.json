@@ -3400,9 +3400,14 @@
     "2026-11-13": 2,
     "2026-11-14": 7,
     "2026-11-15": 9,
-    "2026-11-16": 4
+    "2026-11-16": 6
    },
    "zc": [
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1794852213
+    },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
@@ -3820,7 +3825,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 10
+    "2026-11-16": 12
    },
    "pn": {
     "H5L-70M": {
@@ -3836,8 +3841,8 @@
      "t": 1794456932
     },
     "KBL-37L": {
-     "n": "EPICUS FUROR *CDSN*",
-     "t": 1794843482
+     "n": "",
+     "t": 1794852135
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
@@ -6761,7 +6766,7 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 18
+    "2026-11-16": 19
    },
    "tk": {
     "firma": "9ac237db",
@@ -12932,10 +12937,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794851697.168106,
-  "msgs": 1280570,
+  "msgs": 1296439,
   "mios": 106
  },
- "t": 1794851704.8071847,
+ "t": 1794852585.8496377,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -14533,7 +14538,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794789507
+   "t": 1794851864
   },
   "Tascheter Sector CL-O a6-1": {
    "pos": [
@@ -16408,7 +16413,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794822543
+   "t": 1794852545
   },
   "Harrigus": {
    "pos": [
@@ -17422,14 +17427,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.012483,
+   "prog": 0.017217,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794838831
+   "t": 1794852574
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -17917,6 +17922,51 @@
     "Li Yong-Rui"
    ],
    "t": 1794849922
+  },
+  "Bakara": {
+   "pos": [
+    109.5,
+    -111.4375,
+    -4.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200715,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794852068
+  },
+  "Tascheter Sector ZZ-Y b3": {
+   "pos": [
+    7.03125,
+    0.1875,
+    -100.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794852097
+  },
+  "ICZ FL-X b1-4": {
+   "pos": [
+    113.1875,
+    -108.03125,
+    -1.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794852156
   }
  }
 }

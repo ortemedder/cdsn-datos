@@ -3820,7 +3820,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 7
+    "2026-11-16": 10
    },
    "pn": {
     "H5L-70M": {
@@ -5761,16 +5761,14 @@
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794848262,
+   "t": 1794851694,
    "src": "EDDN",
    "inf": 48.4,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "The Fatherhood",
    "segunda_inf": 40.4,
    "conflictos": [],
@@ -5833,7 +5831,7 @@
     "2026-11-09": 2,
     "2026-11-10": 3,
     "2026-11-15": 9,
-    "2026-11-16": 3
+    "2026-11-16": 4
    },
    "pn": {
     "H2J-72G": {
@@ -5843,7 +5841,7 @@
    },
    "tk": {
     "firma": "9b50ec57",
-    "igual": 1794848262
+    "igual": 1794851694
    },
    "prev": null,
    "prev_t": null,
@@ -6681,7 +6679,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794849693,
+   "t": 1794851067,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6763,11 +6761,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 16
+    "2026-11-16": 18
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794849693
+    "igual": 1794851067
    },
    "prev": null,
    "prev_t": null,
@@ -12933,11 +12931,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794850343.3774834,
-  "msgs": 1266538,
-  "mios": 104
+  "ultimo": 1794851697.168106,
+  "msgs": 1280570,
+  "mios": 106
  },
- "t": 1794850683.59317,
+ "t": 1794851704.8071847,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13444,7 +13442,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.266424,
+   "prog": 0.266667,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -13452,7 +13450,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794837596
+   "t": 1794851145
   },
   "Tascheter Sector OX-U b2-2": {
    "pos": [
@@ -14143,7 +14141,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794850074
+   "t": 1794850879
   },
   "Dongkum": {
    "pos": [
@@ -14161,7 +14159,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794850123
+   "t": 1794850929
   },
   "Sussche": {
    "pos": [
@@ -14866,13 +14864,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.630133,
+   "prog": 0.630016,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794845375
+   "t": 1794851192
   },
   "Nauacan": {
    "pos": [
@@ -16735,7 +16733,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794850669
+   "t": 1794851094
   },
   "HR 2439": {
    "pos": [
@@ -16946,7 +16944,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794822968
+   "t": 1794851134
   },
   "HIP 25166": {
    "pos": [

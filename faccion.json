@@ -6734,16 +6734,14 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794863324,
+   "t": 1794865541,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "The Fatherhood",
    "segunda_inf": 60.0,
    "conflictos": [],
@@ -6816,11 +6814,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 47
+    "2026-11-16": 49
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794863324
+    "igual": 1794865541
    },
    "prev": null,
    "prev_t": null,
@@ -11693,7 +11691,7 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794865237,
+   "t": 1794866154,
    "src": "EDDN",
    "inf": 10.42,
    "ctrl": false,
@@ -11771,17 +11769,17 @@
    "trafico": {
     "2026-11-14": 11,
     "2026-11-15": 12,
-    "2026-11-16": 13
+    "2026-11-16": 23
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794865237
+     "t": 1794866154
     }
    },
    "tk": {
     "firma": "de13a946",
-    "igual": 1794865237,
+    "igual": 1794866154,
     "ult": 1794843540,
     "desde": 1794768035,
     "vent": [
@@ -13072,11 +13070,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794865308.9563186,
-  "msgs": 1553391,
-  "mios": 133
+  "ultimo": 1794866155.266545,
+  "msgs": 1571174,
+  "mios": 142
  },
- "t": 1794865315.641626,
+ "t": 1794866157.601874,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13156,7 +13154,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794864708
+   "t": 1794865673
   },
   "Koirada": {
    "pos": [
@@ -13328,13 +13326,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.310795,
+   "prog": 0.310818,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794862628
+   "t": 1794865960
   },
   "Girya Gu": {
    "pos": [
@@ -13495,7 +13493,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794864586
+   "t": 1794865830
   },
   "BD+43 866": {
    "pos": [
@@ -13583,7 +13581,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.266667,
+   "prog": 0.265924,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -13591,7 +13589,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794851145
+   "t": 1794865435
   },
   "Tascheter Sector OX-U b2-2": {
    "pos": [
@@ -16866,7 +16864,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.078283,
+   "prog": 0.079229,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -16874,7 +16872,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794851094
+   "t": 1794865469
   },
   "HR 2439": {
    "pos": [
@@ -18067,11 +18065,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Fortified",
-   "prog": 0.200828,
+   "prog": 0.200871,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794856175
+   "t": 1794865482
   },
   "Tascheter Sector ZZ-Y b3": {
    "pos": [
@@ -18930,6 +18928,74 @@
     "Jerome Archer"
    ],
    "t": 1794865307
+  },
+  "Deriv-Dar": {
+   "pos": [
+    -4.46875,
+    11,
+    -82.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.262421,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794865375
+  },
+  "Phra Saman": {
+   "pos": [
+    8.59375,
+    -78.3125,
+    -24.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198154,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794865536
+  },
+  "LP 714-58": {
+   "pos": [
+    24.21875,
+    -44.21875,
+    -48.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.050854,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794865990
+  },
+  "HIP 47490": {
+   "pos": [
+    132.34375,
+    -18.40625,
+    31.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794865291
   }
  }
 }

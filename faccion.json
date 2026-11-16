@@ -12705,7 +12705,7 @@
   },
   "Synuefe VG-C c29-7": {
    "sys": "Synuefe VG-C c29-7",
-   "t": 1794838763,
+   "t": 1794839876,
    "src": "EDDN",
    "inf": 18.36,
    "ctrl": false,
@@ -12778,28 +12778,30 @@
     "soc": null,
     "pots": []
    },
+   "trafico": {
+    "2026-11-16": 3
+   },
+   "tk": {
+    "firma": "543d374e",
+    "igual": 1794839876
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794838763,
      18.36
     ]
-   ],
-   "tk": {
-    "firma": "543d374e",
-    "igual": 1794838763
-   },
-   "trafico": {
-    "2026-11-16": 1
-   }
+   ]
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794838769.0238256,
-  "msgs": 1109868,
-  "mios": 68
+  "ultimo": 1794839881.7119117,
+  "msgs": 1119422,
+  "mios": 69
  },
- "t": 1794839149.8749022,
+ "t": 1794839950.6043575,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13218,7 +13220,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794834345
+   "t": 1794839940
   },
   "BD+43 866": {
    "pos": [
@@ -14015,7 +14017,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272861,
+   "prog": 0.274261,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -14023,7 +14025,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794833204
+   "t": 1794839799
   },
   "Sussche": {
    "pos": [
@@ -15682,7 +15684,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794832661
+   "t": 1794839733
   },
   "ICZ CF-Z b3": {
    "pos": [
@@ -17208,7 +17210,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794838342
+   "t": 1794839162
   },
   "Zosia": {
    "pos": [
@@ -17323,6 +17325,22 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794763383
+  },
+  "Mirongkomi": {
+   "pos": [
+    -58.78125,
+    -1.46875,
+    -93.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.158855,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794839677
   }
  }
 }

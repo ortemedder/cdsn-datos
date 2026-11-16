@@ -1841,7 +1841,7 @@
     "2026-05-03": 1,
     "2026-11-15": 7,
     "2025-01-11": 1,
-    "2026-11-16": 7
+    "2026-11-16": 9
    },
    "pn": {
     "T9K-6QK": {
@@ -12707,10 +12707,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794834443.9214754,
-  "msgs": 1058344,
+  "msgs": 1067817,
   "mios": 67
  },
- "t": 1794834515.9366157,
+ "t": 1794835366.6897469,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13225,7 +13225,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794832883
+   "t": 1794835365
   },
   "Tascheter Sector OX-U b2-2": {
    "pos": [
@@ -14495,7 +14495,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794775971
+   "t": 1794834668
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -15504,7 +15504,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.40884,
+   "prog": 0.408843,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -15512,7 +15512,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794814987
+   "t": 1794835158
   },
   "Ausan": {
    "pos": [
@@ -17039,7 +17039,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794833900
+   "t": 1794835259
   },
   "Bubians": {
    "pos": [
@@ -17073,6 +17073,37 @@
     "Jerome Archer"
    ],
    "t": 1794834037
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794834700
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794834808
   }
  }
 }

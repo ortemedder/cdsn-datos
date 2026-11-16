@@ -2152,23 +2152,21 @@
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
-   "t": 1794784179,
+   "t": 1794855965,
    "src": "EDDN",
-   "inf": 8.55,
+   "inf": 9.87,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "The Fatherhood",
-   "segunda_inf": 50.6,
+   "segunda_inf": 50.05,
    "conflictos": [],
    "todas": [
     {
      "n": "The Fatherhood",
-     "inf": 50.6,
+     "inf": 50.05,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [
@@ -2179,7 +2177,7 @@
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 15.49,
+     "inf": 15.21,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2190,7 +2188,7 @@
     },
     {
      "n": "160 S.O.A.R.",
-     "inf": 15.29,
+     "inf": 15.0,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
@@ -2201,7 +2199,7 @@
     },
     {
      "n": "Workers of Yax Balam Alliance",
-     "inf": 10.06,
+     "inf": 9.87,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -2210,7 +2208,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 8.55,
+     "inf": 9.87,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2225,7 +2223,7 @@
     -98.875
    ],
    "sis": {
-    "pob": 46800000,
+    "pob": 46817883,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2251,17 +2249,24 @@
     "2026-11-12": 3,
     "2026-11-13": 2,
     "2026-11-14": 1,
-    "2026-11-15": 6
+    "2026-11-15": 6,
+    "2026-11-16": 1
    },
    "tk": {
-    "firma": "928a0b12",
-    "igual": 1794784179,
-    "ult": 1794757491,
-    "desde": 1794665205,
-    "est": null
+    "firma": "999d3cbe",
+    "igual": 1794855965,
+    "ult": 1794855965,
+    "desde": 1794784179,
+    "est": null,
+    "vent": [
+     [
+      1794784179,
+      1794855965
+     ]
+    ]
    },
-   "prev": 8.25,
-   "prev_t": 1794249277,
+   "prev": 8.55,
+   "prev_t": 1794784179,
    "hinf": [
     [
      1794249277,
@@ -2270,10 +2275,17 @@
     [
      1794489215,
      8.55
+    ],
+    [
+     1794855965,
+     9.87
     ]
    ],
-   "tick_ult": 1794757491,
-   "tick_marg": 769
+   "tick_ult": 1794855965,
+   "tick_marg": 598,
+   "tick_prox": 1794906420,
+   "tick_disp": 598,
+   "tick_n": 0
   },
   "LP 158-2": {
    "sys": "LP 158-2",
@@ -3290,16 +3302,14 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794848322,
+   "t": 1794856012,
    "src": "EDDN",
    "inf": 40.4,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "160 S.O.A.R.",
    "segunda_inf": 20.3,
    "conflictos": [],
@@ -3330,7 +3340,9 @@
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Outbreak"
+     ],
      "jug": null
     },
     {
@@ -3384,8 +3396,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.971972,
-    "ref": 74184,
+    "prog": 0.978912,
+    "ref": 78695,
     "soc": 81402,
     "pots": [
      "Edmund Mahon",
@@ -3400,13 +3412,13 @@
     "2026-11-13": 2,
     "2026-11-14": 7,
     "2026-11-15": 9,
-    "2026-11-16": 8
+    "2026-11-16": 9
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794852213
+     "t": 1794856025
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
@@ -3421,16 +3433,16 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794848457
+     "t": 1794856025
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794848457
+     "t": 1794856025
     }
    },
    "tk": {
     "firma": "de958dbf",
-    "igual": 1794848322,
+    "igual": 1794856012,
     "ult": 1794848322,
     "desde": 1794765133,
     "vent": [
@@ -5770,7 +5782,7 @@
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794854812,
+   "t": 1794855731,
    "src": "EDDN",
    "inf": 48.4,
    "ctrl": true,
@@ -5840,17 +5852,17 @@
     "2026-11-09": 2,
     "2026-11-10": 3,
     "2026-11-15": 9,
-    "2026-11-16": 12
+    "2026-11-16": 15
    },
    "pn": {
     "H2J-72G": {
      "n": "(CDSN)- * NAUTILUS * -",
-     "t": 1794854975
+     "t": 1794855989
     }
    },
    "tk": {
     "firma": "9b50ec57",
-    "igual": 1794854812
+    "igual": 1794855731
    },
    "prev": null,
    "prev_t": null,
@@ -12940,11 +12952,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794854932.2974646,
-  "msgs": 1346766,
-  "mios": 111
+  "ultimo": 1794856013.2830114,
+  "msgs": 1363688,
+  "mios": 114
  },
- "t": 1794855280.31885,
+ "t": 1794856201.9223099,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13178,7 +13190,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.971972,
+   "prog": 0.978912,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -13186,7 +13198,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794848322
+   "t": 1794856012
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -13363,7 +13375,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794854900
+   "t": 1794855433
   },
   "BD+43 866": {
    "pos": [
@@ -14160,7 +14172,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274356,
+   "prog": 0.274575,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -14168,7 +14180,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794850929
+   "t": 1794856020
   },
   "Sussche": {
    "pos": [
@@ -14288,7 +14300,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794784179
+   "t": 1794855965
   },
   "Khaima": {
    "pos": [
@@ -14747,7 +14759,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794782548
+   "t": 1794855959
   },
   "Tascheter Sector DG-O a6-3": {
    "pos": [
@@ -15893,7 +15905,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794850017
+   "t": 1794855430
   },
   "Ebanji": {
    "pos": [
@@ -17483,7 +17495,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794839677
+   "t": 1794856192
   },
   "Alpha Doradus": {
    "pos": [
@@ -17577,7 +17589,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794854140
+   "t": 1794855576
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -17935,11 +17947,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Fortified",
-   "prog": 0.200715,
+   "prog": 0.200828,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794852068
+   "t": 1794856175
   },
   "Tascheter Sector ZZ-Y b3": {
    "pos": [
@@ -18176,6 +18188,69 @@
     "Jerome Archer"
    ],
    "t": 1794855258
+  },
+  "Wolf 186": {
+   "pos": [
+    -55.1875,
+    -14.65625,
+    -96.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.133724,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794855501
+  },
+  "Thiini": {
+   "pos": [
+    -37.03125,
+    -17.03125,
+    -117.6875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.083997,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794855921
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.193309,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794856058
+  },
+  "BD+55 1142": {
+   "pos": [
+    -26.09375,
+    34.1875,
+    -75.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794856116
   }
  }
 }

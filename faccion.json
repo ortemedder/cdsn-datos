@@ -3740,7 +3740,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794840483,
+   "t": 1794850342,
    "src": "EDDN",
    "inf": 79.14,
    "ctrl": true,
@@ -3820,20 +3820,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 5
+    "2026-11-16": 7
    },
    "pn": {
-    "J9W-B6T": {
-     "n": "NOSTRAMO - II",
-     "t": 1794242846
-    },
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794840483
-    },
-    "HLB-N6T": {
-     "n": "LA CARRIER",
-     "t": 1794242846
+     "t": 1794850621
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3849,12 +3841,12 @@
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794840483
+     "t": 1794850621
     }
    },
    "tk": {
     "firma": "8569ec69",
-    "igual": 1794840483,
+    "igual": 1794850342,
     "ult": 1794796745,
     "desde": 1794766064,
     "est": null,
@@ -12941,11 +12933,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794849695.6398234,
-  "msgs": 1251674,
-  "mios": 103
+  "ultimo": 1794850343.3774834,
+  "msgs": 1266538,
+  "mios": 104
  },
- "t": 1794849932.4739652,
+ "t": 1794850683.59317,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13839,7 +13831,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794849105
+   "t": 1794850574
   },
   "Nergal": {
    "pos": [
@@ -14144,14 +14136,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.248706,
+   "prog": 0.249669,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794847830
+   "t": 1794850074
   },
   "Dongkum": {
    "pos": [
@@ -14169,7 +14161,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794849336
+   "t": 1794850123
   },
   "Sussche": {
    "pos": [
@@ -14220,7 +14212,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794845786
+   "t": 1794849824
   },
   "GCRV 2311": {
    "pos": [
@@ -14571,14 +14563,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.256546,
+   "prog": 0.256604,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794789406
+   "t": 1794850879
   },
   "LP 834-42": {
    "pos": [
@@ -14612,7 +14604,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794762376
+   "t": 1794850149
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -15886,7 +15878,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.264311,
+   "prog": 0.265855,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -15894,7 +15886,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794838046
+   "t": 1794850017
   },
   "Ebanji": {
    "pos": [
@@ -16735,7 +16727,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.071386,
+   "prog": 0.078283,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -16743,7 +16735,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794838180
+   "t": 1794850669
   },
   "HR 2439": {
    "pos": [
@@ -17861,7 +17853,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794848800
+   "t": 1794850047
   },
   "Tascheter Sector AV-Y b6": {
    "pos": [

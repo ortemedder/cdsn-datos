@@ -12431,15 +12431,128 @@
    "trafico": {
     "2026-11-16": 8
    }
+  },
+  "Bundhar": {
+   "sys": "Bundhar",
+   "t": 1794792734,
+   "src": "EDDN",
+   "inf": 10.55,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
+    "Expansion"
+   ],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 73.77,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 73.77,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Bundhar Group",
+     "inf": 12.96,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.55,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Bundhar Brothers",
+     "inf": 2.71,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    9.28125,
+    13.65625,
+    -115.46875
+   ],
+   "sis": {
+    "pob": 8185,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Industrial;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.035426,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "hinf": [
+    [
+     1794792734,
+     10.55
+    ]
+   ],
+   "tk": {
+    "firma": "f666d685",
+    "igual": 1794792734
+   },
+   "trafico": {
+    "2026-11-16": 1
+   },
+   "pn": {
+    "Q3K-L0G": {
+     "n": "F****************a",
+     "t": 1794792790
+    },
+    "V0H-BVV": {
+     "n": "P******************Y",
+     "t": 1794792790
+    },
+    "V3B-0KX": {
+     "n": "[1IF] GODS OF EGYPT",
+     "t": 1794792790
+    },
+    "K8K-04L": {
+     "n": "DUSTY NEBULA",
+     "t": 1794792840
+    }
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794791940.4985878,
-  "msgs": 643595,
-  "mios": 55
+  "ultimo": 1794792735.7682505,
+  "msgs": 655250,
+  "mios": 56
  },
- "t": 1794792292.2964587,
+ "t": 1794793103.0258641,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12519,7 +12632,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794792093
+   "t": 1794792908
   },
   "Koirada": {
    "pos": [
@@ -12920,7 +13033,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794791396
+   "t": 1794793094
   },
   "Ross 332": {
    "pos": [
@@ -15676,6 +15789,66 @@
     "Li Yong-Rui"
    ],
    "t": 1794792289
+  },
+  "Woronii": {
+   "pos": [
+    -32.5625,
+    -2.78125,
+    -130.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.257595,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794792430
+  },
+  "BD+09 1105": {
+   "pos": [
+    36.40625,
+    -8.3125,
+    -100.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.136569,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794792487
+  },
+  "HIP 112946": {
+   "pos": [
+    -179.03125,
+    26.5625,
+    -73.78125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1794792553
+  },
+  "Bundhar": {
+   "pos": [
+    9.28125,
+    13.65625,
+    -115.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.035426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794792734
   }
  }
 }

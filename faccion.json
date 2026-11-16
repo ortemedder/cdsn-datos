@@ -1924,16 +1924,14 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794859169,
+   "t": 1794866949,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "Guardians of Tranquillity",
    "segunda_inf": 45.65,
    "conflictos": [],
@@ -2011,11 +2009,11 @@
     "2026-11-13": 1,
     "2026-11-14": 1,
     "2026-11-15": 3,
-    "2026-11-16": 4
+    "2026-11-16": 5
    },
    "tk": {
     "firma": "94c05588",
-    "igual": 1794859169,
+    "igual": 1794866949,
     "ult": 1794698937,
     "desde": 1794531890,
     "est": null
@@ -3331,14 +3329,16 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794856012,
+   "t": 1794866661,
    "src": "EDDN",
    "inf": 40.4,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [],
+   "recuperando": [
+    "Expansion"
+   ],
    "segunda": "160 S.O.A.R.",
    "segunda_inf": 20.3,
    "conflictos": [],
@@ -3369,9 +3369,7 @@
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
-     "pend": [
-      "Outbreak"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -3425,8 +3423,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.978912,
-    "ref": 78695,
+    "prog": 0.992115,
+    "ref": 87277,
     "soc": 81402,
     "pots": [
      "Edmund Mahon",
@@ -3441,18 +3439,18 @@
     "2026-11-13": 2,
     "2026-11-14": 7,
     "2026-11-15": 9,
-    "2026-11-16": 9
+    "2026-11-16": 12
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794856025
+     "t": 1794866872
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794848457
+     "t": 1794866872
     }
    ],
    "pn": {
@@ -3462,16 +3460,16 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794856025
+     "t": 1794866872
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794856025
+     "t": 1794866872
     }
    },
    "tk": {
     "firma": "de958dbf",
-    "igual": 1794856012,
+    "igual": 1794866661,
     "ult": 1794848322,
     "desde": 1794765133,
     "vent": [
@@ -3786,7 +3784,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794864307,
+   "t": 1794867036,
    "src": "EDDN",
    "inf": 79.14,
    "ctrl": true,
@@ -3862,12 +3860,12 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 48
+    "2026-11-16": 50
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794864447
+     "t": 1794867036
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -3879,20 +3877,20 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794864447
+     "t": 1794867036
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794864447
+     "t": 1794867036
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794864447
+     "t": 1794867036
     }
    },
    "tk": {
     "firma": "8569ec69",
-    "igual": 1794864307,
+    "igual": 1794867036,
     "ult": 1794796745,
     "desde": 1794766064,
     "est": null,
@@ -6734,7 +6732,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794865541,
+   "t": 1794866590,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6814,11 +6812,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 49
+    "2026-11-16": 51
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794865541
+    "igual": 1794866590
    },
    "prev": null,
    "prev_t": null,
@@ -11691,7 +11689,7 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794866154,
+   "t": 1794866694,
    "src": "EDDN",
    "inf": 10.42,
    "ctrl": false,
@@ -11769,17 +11767,17 @@
    "trafico": {
     "2026-11-14": 11,
     "2026-11-15": 12,
-    "2026-11-16": 23
+    "2026-11-16": 29
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794866154
+     "t": 1794866694
     }
    },
    "tk": {
     "firma": "de13a946",
-    "igual": 1794866154,
+    "igual": 1794866694,
     "ult": 1794843540,
     "desde": 1794768035,
     "vent": [
@@ -13070,11 +13068,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794866155.266545,
-  "msgs": 1571174,
-  "mios": 142
+  "ultimo": 1794867036.9089527,
+  "msgs": 1588023,
+  "mios": 152
  },
- "t": 1794866157.601874,
+ "t": 1794867089.4586637,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13201,7 +13199,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794863507
+   "t": 1794866288
   },
   "HIP 46236": {
    "pos": [
@@ -13308,7 +13306,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.978912,
+   "prog": 0.992115,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -13316,7 +13314,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794856012
+   "t": 1794866661
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -13332,7 +13330,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794865960
+   "t": 1794866578
   },
   "Girya Gu": {
    "pos": [
@@ -15084,7 +15082,7 @@
    ],
    "pot": "Pranav Antal",
    "est": "Exploited",
-   "prog": 0.255169,
+   "prog": 0.255812,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
@@ -15092,7 +15090,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794777586
+   "t": 1794867080
   },
   "Ceti Sector CL-X b1-4": {
    "pos": [
@@ -17691,7 +17689,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794864726
+   "t": 1794866920
   },
   "Col 285 Sector TT-W b16-8": {
    "pos": [
@@ -17740,7 +17738,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794859169
+   "t": 1794866949
   },
   "Ceti Sector CL-X b1-2": {
    "pos": [
@@ -18996,6 +18994,20 @@
     "Zemina Torval"
    ],
    "t": 1794865291
+  },
+  "HIP 19327": {
+   "pos": [
+    115.90625,
+    -112.46875,
+    -4.1875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.255577,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794866406
   }
  }
 }

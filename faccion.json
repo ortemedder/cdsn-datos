@@ -1727,7 +1727,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794832834,
+   "t": 1794834443,
    "src": "EDDN",
    "inf": 69.6,
    "ctrl": true,
@@ -1824,8 +1824,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.251006,
-    "ref": 1755,
+    "prog": 0.252146,
+    "ref": 2496,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -1841,7 +1841,7 @@
     "2026-05-03": 1,
     "2026-11-15": 7,
     "2025-01-11": 1,
-    "2026-11-16": 3
+    "2026-11-16": 7
    },
    "pn": {
     "T9K-6QK": {
@@ -1859,7 +1859,7 @@
    },
    "tk": {
     "firma": "be8338a4",
-    "igual": 1794832834,
+    "igual": 1794834443,
     "ult": 1794832834,
     "desde": 1794736283,
     "vent": [
@@ -12706,11 +12706,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794833194.8051941,
-  "msgs": 1050282,
-  "mios": 66
+  "ultimo": 1794834443.9214754,
+  "msgs": 1058344,
+  "mios": 67
  },
- "t": 1794833365.069576,
+ "t": 1794834515.9366157,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -13129,7 +13129,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794822090
+   "t": 1794834345
   },
   "BD+43 866": {
    "pos": [
@@ -16687,7 +16687,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794821962
+   "t": 1794834511
   },
   "LTT 1391": {
    "pos": [
@@ -16826,7 +16826,7 @@
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1794824717
+   "t": 1794833987
   },
   "Onyaksas": {
    "pos": [
@@ -17016,14 +17016,63 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.251006,
+   "prog": 0.252146,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794832834
+   "t": 1794834443
+  },
+  "HR 3277": {
+   "pos": [
+    -33.71875,
+    95.75,
+    -129.40625
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.250874,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794833900
+  },
+  "Bubians": {
+   "pos": [
+    -6.5,
+    12.9375,
+    -137.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794833921
+  },
+  "Tau-6 Eridani": {
+   "pos": [
+    22.46875,
+    -43.9375,
+    -29.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794834037
   }
  }
 }

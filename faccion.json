@@ -6705,7 +6705,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794860493,
+   "t": 1794862065,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6787,11 +6787,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 39
+    "2026-11-16": 41
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794860493
+    "igual": 1794862065
    },
    "prev": null,
    "prev_t": null,
@@ -13043,11 +13043,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794861250.7144215,
-  "msgs": 1478523,
-  "mios": 123
+  "ultimo": 1794862068.2864923,
+  "msgs": 1498013,
+  "mios": 124
  },
- "t": 1794861379.2913837,
+ "t": 1794862600.3239698,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13174,7 +13174,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794847913
+   "t": 1794861893
   },
   "HIP 46236": {
    "pos": [
@@ -13466,7 +13466,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794857321
+   "t": 1794862140
   },
   "BD+43 866": {
    "pos": [
@@ -13544,7 +13544,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794780698
+   "t": 1794861880
   },
   "Lalande 10797": {
    "pos": [
@@ -16811,7 +16811,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794846681
+   "t": 1794861725
   },
   "Shokwa": {
    "pos": [
@@ -18644,6 +18644,69 @@
     "Jerome Archer"
    ],
    "t": 1794861370
+  },
+  "Col 285 Sector UT-R d4-81": {
+   "pos": [
+    143.25,
+    -32.59375,
+    21.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794862058
+  },
+  "Trianguli Sector RU-O a6-0": {
+   "pos": [
+    21.78125,
+    -40.75,
+    -59.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794862134
+  },
+  "Col 285 Sector JM-L c8-12": {
+   "pos": [
+    138.46875,
+    -21.9375,
+    3.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794862266
+  },
+  "Tascheter Sector OX-U b2-3": {
+   "pos": [
+    15.75,
+    -46.5,
+    -56.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794862592
   }
  }
 }

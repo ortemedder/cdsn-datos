@@ -1923,7 +1923,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794844175,
+   "t": 1794846808,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -2010,11 +2010,11 @@
     "2026-11-13": 1,
     "2026-11-14": 1,
     "2026-11-15": 3,
-    "2026-11-16": 1
+    "2026-11-16": 3
    },
    "tk": {
     "firma": "94c05588",
-    "igual": 1794844175,
+    "igual": 1794846808,
     "ult": 1794698937,
     "desde": 1794531890,
     "est": null
@@ -6673,7 +6673,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794845122,
+   "t": 1794846889,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6755,11 +6755,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 9
+    "2026-11-16": 11
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794845122
+    "igual": 1794846889
    },
    "prev": null,
    "prev_t": null,
@@ -12826,11 +12826,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794846246.2319126,
-  "msgs": 1199707,
-  "mios": 77
+  "ultimo": 1794846891.8036854,
+  "msgs": 1213229,
+  "mios": 79
  },
- "t": 1794846317.0263076,
+ "t": 1794847168.2016084,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12973,7 +12973,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794825971
+   "t": 1794847023
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -13197,7 +13197,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794846310
+   "t": 1794846757
   },
   "LP 883-185": {
    "pos": [
@@ -14105,7 +14105,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794802886
+   "t": 1794845786
   },
   "GCRV 2311": {
    "pos": [
@@ -14411,7 +14411,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794833014
+   "t": 1794846904
   },
   "Tascheter Sector CL-O a6-2": {
    "pos": [
@@ -14497,7 +14497,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794774753
+   "t": 1794846602
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -14615,7 +14615,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794834668
+   "t": 1794847025
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -16382,7 +16382,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794844799
+   "t": 1794847021
   },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
@@ -16594,7 +16594,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794811919
+   "t": 1794846681
   },
   "Shokwa": {
    "pos": [
@@ -17463,7 +17463,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794843504
+   "t": 1794846891
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -17480,7 +17480,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794843925
+   "t": 1794846818
   },
   "Epsilon Sculptoris": {
    "pos": [
@@ -17496,7 +17496,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794844175
+   "t": 1794846808
   },
   "Ceti Sector CL-X b1-2": {
    "pos": [
@@ -17629,6 +17629,23 @@
     "Jerome Archer"
    ],
    "t": 1794846258
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.119908,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794728544
   }
  }
 }

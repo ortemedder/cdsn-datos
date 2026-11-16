@@ -3837,7 +3837,7 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 22
+    "2026-11-16": 26
    },
    "pn": {
     "H5L-70M": {
@@ -6700,7 +6700,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794854930,
+   "t": 1794856537,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -6782,11 +6782,11 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 26
+    "2026-11-16": 29
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794854930
+    "igual": 1794856537
    },
    "prev": null,
    "prev_t": null,
@@ -12952,11 +12952,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794856013.2830114,
-  "msgs": 1363688,
-  "mios": 114
+  "ultimo": 1794856537.8662999,
+  "msgs": 1381659,
+  "mios": 115
  },
- "t": 1794856201.9223099,
+ "t": 1794857102.905592,
  "tick_global": 1794849994,
  "zona": {
   "Yenici": {
@@ -13099,7 +13099,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794854930
+   "t": 1794856757
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -13375,7 +13375,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794855433
+   "t": 1794857093
   },
   "BD+43 866": {
    "pos": [
@@ -16550,13 +16550,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.137781,
+   "prog": 0.137301,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794848349
+   "t": 1794856234
   },
   "Segon": {
    "pos": [
@@ -17450,7 +17450,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794852574
+   "t": 1794856318
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -18251,6 +18251,36 @@
     "Jerome Archer"
    ],
    "t": 1794856116
+  },
+  "BD-09 956": {
+   "pos": [
+    23.84375,
+    -34.65625,
+    -48.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794856732
+  },
+  "Nganji": {
+   "pos": [
+    -24.59375,
+    36.84375,
+    -132.09375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.115205,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794856848
   }
  }
 }

@@ -12291,15 +12291,137 @@
    "trafico": {
     "2026-11-15": 2
    }
+  },
+  "Celticassag": {
+   "sys": "Celticassag",
+   "t": 1794788421,
+   "src": "EDDN",
+   "inf": 3.6,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [
+    "Expansion"
+   ],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 54.5,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 54.5,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "United Nganji Labour",
+     "inf": 18.2,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Kamilagro Universal Group",
+     "inf": 10.0,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Celticassag Jet Bridge & Co",
+     "inf": 8.4,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Celticassag  Co-operative",
+     "inf": 4.3,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 3.6,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Celticassag Blue Pirates",
+     "inf": 1.0,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -20.4375,
+    42.75,
+    -124.0625
+   ],
+   "sis": {
+    "pob": 132219,
+    "eco": "$economy_Agri;",
+    "eco2": "$economy_Extraction;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.091426,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1794788421,
+     3.6
+    ]
+   ],
+   "tk": {
+    "firma": "2db981ee",
+    "igual": 1794788421
+   },
+   "trafico": {
+    "2026-11-16": 5
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794786710.9835987,
-  "msgs": 565664,
-  "mios": 53
+  "ultimo": 1794788422.3388903,
+  "msgs": 595368,
+  "mios": 54
  },
- "t": 1794786787.066328,
+ "t": 1794788628.6929276,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12442,7 +12564,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794786260
+   "t": 1794788301
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -12489,7 +12611,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794784939
+   "t": 1794787095
   },
   "Kolaga": {
    "pos": [
@@ -12499,14 +12621,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.291125,
+   "prog": 0.294198,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794777160
+   "t": 1794788551
   },
   "Agrippa": {
    "pos": [
@@ -12557,7 +12679,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794765081
+   "t": 1794787406
   },
   "Girya Gu": {
    "pos": [
@@ -13880,7 +14002,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794774806
+   "t": 1794786921
   },
   "Tascheter Sector CL-O a6-2": {
    "pos": [
@@ -14152,7 +14274,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794776599
+   "t": 1794788332
   },
   "GCRV 4259": {
    "pos": [
@@ -14829,7 +14951,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794784838
+   "t": 1794787140
   },
   "Unktock": {
    "pos": [
@@ -15093,7 +15215,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.407629,
+   "prog": 0.408456,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -15101,7 +15223,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794784017
+   "t": 1794788017
   },
   "Ausan": {
    "pos": [
@@ -15298,6 +15420,85 @@
     "Jerome Archer"
    ],
    "t": 1794786709
+  },
+  "Nanamatha": {
+   "pos": [
+    -17.125,
+    34.1875,
+    -103.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.114154,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794787325
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794787391
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794787532
+  },
+  "ICZ CF-Z b4": {
+   "pos": [
+    122.25,
+    -117.78125,
+    -16.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794788362
+  },
+  "Celticassag": {
+   "pos": [
+    -20.4375,
+    42.75,
+    -124.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.091426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794788421
   }
  }
 }

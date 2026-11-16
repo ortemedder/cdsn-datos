@@ -5963,9 +5963,9 @@
   },
   "Ngargambo": {
    "sys": "Ngargambo",
-   "t": 1794776934,
+   "t": 1794824325,
    "src": "EDDN",
-   "inf": 4.6,
+   "inf": 5.19,
    "ctrl": false,
    "estado": "None",
    "activos": [],
@@ -5974,12 +5974,12 @@
     "Expansion"
    ],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 70.53,
+   "segunda_inf": 70.06,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 70.53,
+     "inf": 70.06,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -5990,7 +5990,7 @@
     },
     {
      "n": "Co-op of Ngargambo",
-     "inf": 14.49,
+     "inf": 14.37,
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
@@ -5998,17 +5998,8 @@
      "jug": null
     },
     {
-     "n": "Ngargambo Power Systems",
-     "inf": 4.9,
-     "gov": "Corporate",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
      "n": "Caballeros de Sion",
-     "inf": 4.6,
+     "inf": 5.19,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -6016,8 +6007,17 @@
      "jug": null
     },
     {
+     "n": "Ngargambo Power Systems",
+     "inf": 4.89,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "Ngargambo Pro-Independent League",
-     "inf": 3.4,
+     "inf": 3.39,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
@@ -6063,7 +6063,8 @@
    "trafico": {
     "2026-11-09": 5,
     "2026-11-12": 3,
-    "2026-11-15": 2
+    "2026-11-15": 2,
+    "2026-11-16": 1
    },
    "pn": {
     "G7Y-G4L": {
@@ -6092,14 +6093,20 @@
     }
    },
    "tk": {
-    "firma": "32305a84",
-    "igual": 1794776934,
-    "ult": 1794776934,
-    "desde": 1794465983,
-    "est": null
+    "firma": "e8f4be3f",
+    "igual": 1794824325,
+    "ult": 1794824325,
+    "desde": 1794776934,
+    "est": null,
+    "vent": [
+     [
+      1794776934,
+      1794824325
+     ]
+    ]
    },
-   "prev": 4.9,
-   "prev_t": 1794465983,
+   "prev": 4.6,
+   "prev_t": 1794776934,
    "hinf": [
     [
      1794465983,
@@ -6108,10 +6115,17 @@
     [
      1794776934,
      4.6
+    ],
+    [
+     1794824325,
+     5.19
     ]
    ],
-   "tick_ult": 1794776934,
-   "tick_marg": 2591
+   "tick_ult": 1794824325,
+   "tick_marg": 394,
+   "tick_prox": 1794886950,
+   "tick_disp": 394,
+   "tick_n": 0
   },
   "Lyncis Sector XJ-R b4-0": {
    "sys": "Lyncis Sector XJ-R b4-0",
@@ -6701,7 +6715,7 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 2
+    "2026-11-16": 4
    },
    "tk": {
     "firma": "9ac237db",
@@ -12558,11 +12572,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794823637.2766807,
-  "msgs": 956936,
-  "mios": 60
+  "ultimo": 1794824327.3798206,
+  "msgs": 966214,
+  "mios": 61
  },
- "t": 1794823688.7006056,
+ "t": 1794824719.626557,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12705,7 +12719,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794823683
+   "t": 1794824537
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -14528,7 +14542,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794776934
+   "t": 1794824325
   },
   "Wolf 152": {
    "pos": [
@@ -15294,13 +15308,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.01392,
+   "prog": 0.014169,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794783409
+   "t": 1794824593
   },
   "Yukpenon": {
    "pos": [
@@ -16303,14 +16317,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.0965,
+   "prog": 0.09938,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794820936
+   "t": 1794824192
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -16491,7 +16505,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794820644
+   "t": 1794824015
   },
   "Crucis Sector JW-W b1-8": {
    "pos": [
@@ -16620,6 +16634,65 @@
     "Zemina Torval"
    ],
    "t": 1794823519
+  },
+  "Col 285 Sector VE-V b17-2": {
+   "pos": [
+    132.8125,
+    -4.9375,
+    28.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794823273
+  },
+  "HIP 112970": {
+   "pos": [
+    -176.25,
+    26.125,
+    -72.6875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.08914,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1794824290
+  },
+  "Col 285 Sector RE-P c6-6": {
+   "pos": [
+    -181.21875,
+    27.9375,
+    -73.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1794824581
+  },
+  "Lyncis Sector PX-U b2-3": {
+   "pos": [
+    -26,
+    24.25,
+    -146.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1794824717
   }
  }
 }

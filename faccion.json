@@ -5432,9 +5432,9 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794763684,
+   "t": 1794827488,
    "src": "EDDN",
-   "inf": 60.57,
+   "inf": 61.11,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -5443,12 +5443,12 @@
     "Expansion"
    ],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 16.7,
+   "segunda_inf": 16.49,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 60.57,
+     "inf": 61.11,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -5457,7 +5457,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 16.7,
+     "inf": 16.49,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -5468,7 +5468,7 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 12.35,
+     "inf": 12.14,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -5479,7 +5479,7 @@
     },
     {
      "n": "Aristocrats of Lhou Wangs",
-     "inf": 10.38,
+     "inf": 10.27,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -5494,7 +5494,7 @@
     -120
    ],
    "sis": {
-    "pob": 100760375,
+    "pob": 101175821,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -5520,12 +5520,13 @@
     "2026-11-11": 8,
     "2026-11-12": 6,
     "2026-11-14": 8,
-    "2026-11-15": 5
+    "2026-11-15": 5,
+    "2026-11-16": 1
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794763930
+     "t": 1794827500
     },
     "V0Z-T1Q": {
      "n": "AVALON",
@@ -5533,10 +5534,10 @@
     }
    },
    "tk": {
-    "firma": "c0625463",
-    "igual": 1794763684,
-    "ult": 1794740537,
-    "desde": 1794690969,
+    "firma": "dead0373",
+    "igual": 1794827488,
+    "ult": 1794827488,
+    "desde": 1794763684,
     "est": null,
     "vent": [
      [
@@ -5546,11 +5547,15 @@
      [
       1794690969,
       1794740537
+     ],
+     [
+      1794763684,
+      1794827488
      ]
     ]
    },
-   "prev": 58.95,
-   "prev_t": 1794690969,
+   "prev": 60.57,
+   "prev_t": 1794763684,
    "hinf": [
     [
      1794331119,
@@ -5575,11 +5580,15 @@
     [
      1794740537,
      60.57
+    ],
+    [
+     1794827488,
+     61.11
     ]
    ],
-   "tick_ult": 1794740537,
-   "tick_marg": 413,
-   "tick_prox": 1794807270,
+   "tick_ult": 1794827488,
+   "tick_marg": 531,
+   "tick_prox": 1794893670,
    "tick_disp": 327,
    "tick_n": 0
   },
@@ -12692,11 +12701,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794827384.7326505,
-  "msgs": 990632,
-  "mios": 63
+  "ultimo": 1794827490.739721,
+  "msgs": 998220,
+  "mios": 64
  },
- "t": 1794827421.1876464,
+ "t": 1794828301.998132,
  "tick_global": 1794764339,
  "zona": {
   "Yenici": {
@@ -12856,7 +12865,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794763684
+   "t": 1794827488
   },
   "Col 285 Sector UT-W b16-5": {
    "pos": [
@@ -13902,7 +13911,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794821978
+   "t": 1794828279
   },
   "Dongkum": {
    "pos": [
@@ -13912,7 +13921,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.272657,
+   "prog": 0.272744,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -13920,7 +13929,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794822031
+   "t": 1794827440
   },
   "Sussche": {
    "pos": [
@@ -15976,7 +15985,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1794792553
+   "t": 1794828017
   },
   "Bundhar": {
    "pos": [
@@ -16437,14 +16446,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.09938,
+   "prog": 0.11086,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794827034
+   "t": 1794827927
   },
   "Col 285 Sector UJ-R a34-0": {
    "pos": [
@@ -16798,7 +16807,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1794824581
+   "t": 1794827735
   },
   "Lyncis Sector PX-U b2-3": {
    "pos": [

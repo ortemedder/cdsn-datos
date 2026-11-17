@@ -3657,13 +3657,13 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 8
+    "2026-11-17": 9
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794889985
+     "t": 1794890343
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
@@ -3678,12 +3678,12 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794889985,
+     "t": 1794890343,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794889985,
+     "t": 1794890343,
      "d": 1794888452
     }
    },
@@ -3727,6 +3727,103 @@
       "Large": 1
      },
      "mid": 3903041024
+    },
+    "Gomes Manufacturing": {
+     "f": "Caballeros de Sion",
+     "tipo": "OnFootSettlement",
+     "t": 1794890374,
+     "estado": "",
+     "ls": 3407,
+     "pads": {
+      "Small": 0,
+      "Medium": 0,
+      "Large": 1
+     },
+     "mid": 3903041792,
+     "mer": {
+      "t": 1794890381,
+      "n": 77,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 189731,
+        "d": 773
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 101685,
+        "d": 32
+       },
+       {
+        "n": "helium",
+        "p": 83421,
+        "d": 13
+       },
+       {
+        "n": "helium3",
+        "p": 78034,
+        "d": 13
+       },
+       {
+        "n": "platinum",
+        "p": 55996,
+        "d": 150
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 722,
+        "m": 260
+       },
+       {
+        "n": "polymers",
+        "p": 740,
+        "m": 306
+       },
+       {
+        "n": "algae",
+        "p": 727,
+        "m": 308
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 775,
+        "m": 354
+       },
+       {
+        "n": "beer",
+        "p": 763,
+        "m": 350
+       }
+      ],
+      "barato": [
+       {
+        "n": "foodcartridges",
+        "p": 37,
+        "m": 252,
+        "s": 7504
+       },
+       {
+        "n": "scrap",
+        "p": 69,
+        "m": 276,
+        "s": 2919
+       },
+       {
+        "n": "liquor",
+        "p": 489,
+        "m": 774,
+        "s": 75
+       },
+       {
+        "n": "geologicalequipment",
+        "p": 1250,
+        "m": 1830,
+        "s": 4670
+       }
+      ]
+     }
     }
    },
    "prev": 40.4,
@@ -13850,10 +13947,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 175289,
+  "msgs": 182988,
   "mios": 11
  },
- "t": 1794890019.3250926,
+ "t": 1794890849.8782668,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14323,7 +14420,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794889124
+   "t": 1794891062
   },
   "Zephyrus": {
    "pos": [
@@ -14337,6 +14434,19 @@
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
    "t": 1794889932
+  },
+  "Tascheter Sector IM-M a7-1": {
+   "pos": [
+    27.6875,
+    -38.875,
+    -28.5625
+   ],
+   "ly": 17.3,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 216401,
+   "ctrl_n": "East India Company",
+   "t": 1794890839
   }
  },
  "zona": {
@@ -15387,7 +15497,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794889124
+   "t": 1794891062
   },
   "Guei": {
    "pos": [
@@ -15422,6 +15532,52 @@
     "Jerome Archer"
    ],
    "t": 1794889932
+  },
+  "Choujem": {
+   "pos": [
+    23.3125,
+    32.0625,
+    -137.3125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794890464
+  },
+  "Brians": {
+   "pos": [
+    107.75,
+    -135.15625,
+    -8.40625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200323,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794890718
+  },
+  "Tascheter Sector IM-M a7-1": {
+   "pos": [
+    27.6875,
+    -38.875,
+    -28.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794890839
   }
  },
  "codice": [

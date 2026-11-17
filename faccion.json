@@ -282,7 +282,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794941697,
+   "t": 1794945272,
    "src": "EDDN",
    "inf": 57.7,
    "ctrl": true,
@@ -358,21 +358,22 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 16
+    "2026-11-17": 18
    },
    "tk": {
     "firma": "d80c2167",
-    "igual": 1794941697,
+    "igual": 1794945272,
     "ult": 1794920431,
     "desde": 1794738516,
     "est": null
    },
    "saltos": {
     "1794920400": 1,
-    "1794938400": 2
+    "1794938400": 2,
+    "1794942000": 1
    },
    "rutas": {
-    "2026-11-17": 3
+    "2026-11-17": 4
    },
    "estaciones": {
     "Insula Barataria": {
@@ -500,7 +501,7 @@
     "Planetary Construction Site: Salinas Industrial Exchange": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794942178,
+     "t": 1794944439,
      "estado": "",
      "ls": 146954,
      "pads": {
@@ -511,7 +512,7 @@
      "mid": 4404257539,
      "atq": {
       "2026-11-17": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      }
@@ -2332,7 +2333,10 @@
      1794641054,
      45.92
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-17": 3
+   }
   },
   "Catun": {
    "sys": "Catun",
@@ -4638,7 +4642,7 @@
     "2026-11-14": 42,
     "2026-11-15": 39,
     "2026-11-16": 71,
-    "2026-11-17": 31
+    "2026-11-17": 32
    },
    "pn": {
     "H5L-70M": {
@@ -6565,7 +6569,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794941105,
+   "t": 1794944791,
    "src": "EDDN",
    "inf": 61.36,
    "ctrl": true,
@@ -6657,12 +6661,12 @@
     "2026-11-14": 8,
     "2026-11-15": 5,
     "2026-11-16": 1,
-    "2026-11-17": 9
+    "2026-11-17": 12
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794941249,
+     "t": 1794944925,
      "d": 1794919881
     },
     "V0Z-T1Q": {
@@ -6672,7 +6676,7 @@
    },
    "tk": {
     "firma": "f5005495",
-    "igual": 1794941105,
+    "igual": 1794944791,
     "ult": 1794919881,
     "desde": 1794827488,
     "est": null,
@@ -6693,16 +6697,17 @@
    },
    "saltos": {
     "1794916800": 1,
-    "1794938400": 2
+    "1794938400": 2,
+    "1794942000": 1
    },
    "rutas": {
-    "2026-11-17": 3
+    "2026-11-17": 4
    },
    "estaciones": {
     "Piel City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794941392,
+     "t": 1794945057,
      "estado": "",
      "ls": 401,
      "pads": {
@@ -6712,7 +6717,7 @@
      },
      "mid": 4212382211,
      "mer": {
-      "t": 1794941473,
+      "t": 1794945142,
       "n": 366,
       "vende": [
        {
@@ -6803,7 +6808,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -8194,7 +8199,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 52
+    "2026-11-17": 54
    },
    "tk": {
     "firma": "9ac237db",
@@ -8211,7 +8216,7 @@
     "1794942000": 2
    },
    "rutas": {
-    "2026-11-17": 16
+    "2026-11-17": 17
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -8442,7 +8447,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794943427,
+     "t": 1794944521,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8452,7 +8457,7 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794943435,
+      "t": 1794944528,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8460,7 +8465,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 10,
+       "ok": 11,
        "no": 0
       }
      }
@@ -15369,11 +15374,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794944226.0425763,
-  "msgs": 764640,
-  "mios": 50
+  "ultimo": 1794945273.6217723,
+  "msgs": 779378,
+  "mios": 52
  },
- "t": 1794944392.03631,
+ "t": 1794945274.3238208,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15856,7 +15861,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794943394
+   "t": 1794944858
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -16090,7 +16095,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794929588
+   "t": 1794945094
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16155,7 +16160,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794943595
+   "t": 1794944731
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16883,7 +16888,7 @@
    "nfac": 4,
    "pob": 1597851,
    "ctrl_n": "Aseveljet",
-   "t": 1794943433
+   "t": 1794945130
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -18020,7 +18025,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794943394
+   "t": 1794944858
   },
   "Choujem": {
    "pos": [
@@ -18422,13 +18427,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.348365,
+   "prog": 0.34838,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794929588
+   "t": 1794945094
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -19037,7 +19042,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794941105
+   "t": 1794944791
   },
   "Hu Jini": {
    "pos": [
@@ -19087,7 +19092,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794941697
+   "t": 1794945272
   },
   "Utero": {
    "pos": [
@@ -20026,7 +20031,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794943433
+   "t": 1794945130
   },
   "Wolf 186": {
    "pos": [
@@ -20128,6 +20133,16 @@
   }
  },
  "codice": [
+  {
+   "sys": "Col 285 Sector UX-H b11-1",
+   "n": "IceGeysers WaterGeysers",
+   "cat": "Biology",
+   "sub": "Geology and Anomalies",
+   "cuerpo": "Col 285 Sector UX-H b11-1 4 a",
+   "junto": "HIP 41850",
+   "ly": 19.2,
+   "t": 1794944666
+  },
   {
    "sys": "Hyades Sector MD-S c4-21",
    "n": "Bacterial 01 K",

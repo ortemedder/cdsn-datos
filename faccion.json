@@ -359,7 +359,8 @@
     "2026-11-11": 17,
     "2026-11-12": 14,
     "2026-11-13": 3,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-17": 1
    },
    "tk": {
     "firma": "67410ade",
@@ -393,7 +394,112 @@
     ]
    ],
    "tick_ult": 1794734720,
-   "tick_marg": 1690
+   "tick_marg": 1690,
+   "estaciones": {
+    "Insula Barataria": {
+     "f": "Caballeros de Sion",
+     "tipo": "Coriolis",
+     "t": 1794918482,
+     "estado": "",
+     "ls": 147195,
+     "pads": {
+      "Small": 8,
+      "Medium": 12,
+      "Large": 5
+     },
+     "mid": 4209206531,
+     "mer": {
+      "t": 1794918505,
+      "n": 366,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 144282,
+        "d": 23364
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 94739,
+        "d": 943
+       },
+       {
+        "n": "helium",
+        "p": 79573,
+        "d": 378
+       },
+       {
+        "n": "helium3",
+        "p": 74470,
+        "d": 378
+       },
+       {
+        "n": "platinum",
+        "p": 54548,
+        "d": 5062
+       }
+      ],
+      "alta": [
+       {
+        "n": "polymers",
+        "p": 610,
+        "m": 306
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 641,
+        "m": 354
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 647,
+        "m": 402
+       },
+       {
+        "n": "pesticides",
+        "p": 639,
+        "m": 412
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 2102,
+        "m": 1375
+       }
+      ],
+      "barato": [
+       {
+        "n": "water",
+        "p": 43,
+        "m": 260,
+        "s": 67307
+       },
+       {
+        "n": "foodcartridges",
+        "p": 71,
+        "m": 252,
+        "s": 227503
+       },
+       {
+        "n": "algae",
+        "p": 92,
+        "m": 308,
+        "s": 84795
+       },
+       {
+        "n": "grain",
+        "p": 125,
+        "m": 387,
+        "s": 305313
+       },
+       {
+        "n": "mineraloil",
+        "p": 146,
+        "m": 416,
+        "s": 58049
+       }
+      ]
+     }
+    }
+   }
   },
   "Hyades Sector VA-M b8-3": {
    "sys": "Hyades Sector VA-M b8-3",
@@ -3657,18 +3763,18 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 13
+    "2026-11-17": 15
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794902992
+     "t": 1794918331
     },
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794902992
+     "t": 1794918331
     }
    ],
    "pn": {
@@ -3678,12 +3784,12 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794902992,
+     "t": 1794918331,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794902992,
+     "t": 1794918331,
      "d": 1794888452
     }
    },
@@ -3830,9 +3936,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794903088,
+     "t": 1794918461,
      "estado": "",
-     "ls": 3151,
+     "ls": 3150,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -3840,14 +3946,23 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1794903094,
+      "t": 1794918467,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 123,
-     "mods_t": 1794903094
+     "mods_t": 1794918467,
+     "neg": {
+      "NoSpace": 17
+     },
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 17
+      }
+     }
     }
    },
    "prev": 40.4,
@@ -5185,7 +5300,10 @@
    "tick_marg": 558,
    "tick_prox": 1794764280,
    "tick_disp": 558,
-   "tick_n": 0
+   "tick_n": 0,
+   "rutas": {
+    "2026-11-17": 2
+   }
   },
   "Hyades Sector TK-M b8-3": {
    "sys": "Hyades Sector TK-M b8-3",
@@ -7214,7 +7332,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794917728,
+   "t": 1794919067,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7295,19 +7413,19 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 22
+    "2026-11-17": 23
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794917728
+    "igual": 1794919067
    },
    "saltos": {
     "1794902400": 2,
     "1794906000": 2,
-    "1794916800": 1
+    "1794916800": 2
    },
    "rutas": {
-    "2026-11-17": 5
+    "2026-11-17": 6
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -14234,11 +14352,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794918172.5095756,
-  "msgs": 393400,
-  "mios": 21
+  "ultimo": 1794919072.453683,
+  "msgs": 403579,
+  "mios": 22
  },
- "t": 1794918207.3537068,
+ "t": 1794919078.6382287,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14708,7 +14826,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794916453
+   "t": 1794918761
   },
   "Zephyrus": {
    "pos": [
@@ -16312,13 +16430,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.366675,
+   "prog": 0.366707,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794916453
+   "t": 1794918761
   },
   "Guei": {
    "pos": [

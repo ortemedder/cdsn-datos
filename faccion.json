@@ -11289,16 +11289,14 @@
   },
   "Kalenile": {
    "sys": "Kalenile",
-   "t": 1794682568,
+   "t": 1794880557,
    "src": "EDDN",
    "inf": 14.36,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 53.54,
    "conflictos": [],
@@ -11388,20 +11386,9 @@
    },
    "trafico": {
     "2026-11-13": 1,
-    "2026-11-14": 2
+    "2026-11-14": 2,
+    "2026-11-17": 1
    },
-   "tk": {
-    "firma": "a3d9efce",
-    "igual": 1794682568
-   },
-   "prev": null,
-   "prev_t": null,
-   "hinf": [
-    [
-     1794610663,
-     14.36
-    ]
-   ],
    "pn": {
     "KLZ-70X": {
      "n": "SOLEX",
@@ -11415,7 +11402,27 @@
      "n": "NEBUCHADNEZZAR",
      "t": 1794682842
     }
-   }
+   },
+   "tk": {
+    "firma": "a3d9efce",
+    "igual": 1794880557
+   },
+   "saltos": {
+    "1794877200": 1
+   },
+   "rutas": {
+    "2026-11-17": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794610663,
+     14.36
+    ]
+   ],
+   "rach": {},
+   "rivales": []
   },
   "Chan Mina": {
    "sys": "Chan Mina",
@@ -13169,11 +13176,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794879133.7012029,
-  "msgs": 69227,
-  "mios": 2
+  "ultimo": 1794880559.1133704,
+  "msgs": 79617,
+  "mios": 3
  },
- "t": 1794880221.1620936,
+ "t": 1794880931.6054337,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13344,7 +13351,7 @@
    "nfac": 3,
    "pob": 13190923,
    "ctrl_n": "Movement for BD-22 286 Free",
-   "t": 1794879552
+   "t": 1794880927
   },
   "Vivata": {
    "pos": [
@@ -13745,7 +13752,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794879552
+   "t": 1794880927
   },
   "Ininohima": {
    "pos": [
@@ -13796,9 +13803,54 @@
     "Jerome Archer"
    ],
    "t": 1794879868
+  },
+  "Kareneri": {
+   "pos": [
+    -19.03125,
+    2.5,
+    -74.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01282,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794880291
+  },
+  "Kalenile": {
+   "pos": [
+    4.0625,
+    11.40625,
+    -115.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794880557
   }
  },
  "codice": [
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Stratum 03 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794880843
+  },
   {
    "sys": "Hyades Sector MD-S c4-21",
    "n": "Fungoids 01 Tellurium",

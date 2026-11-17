@@ -7294,7 +7294,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 13
+    "2026-11-17": 16
    },
    "tk": {
     "firma": "9ac237db",
@@ -7311,20 +7311,20 @@
     "Planetary Construction Site: Leighton's Forge": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794908000,
+     "t": 1794909557,
      "estado": "",
      "ls": 1050,
      "mid": 4404154115,
      "mer": {
-      "t": 1794908009,
-      "n": 2,
+      "t": 1794909566,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-17": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      },
@@ -14040,10 +14040,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794908789.8293629,
-  "msgs": 313883,
+  "msgs": 321184,
   "mios": 17
  },
- "t": 1794909100.9556222,
+ "t": 1794909781.9957335,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14526,7 +14526,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794906410
+   "t": 1794909369
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -14799,7 +14799,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794901241
+   "t": 1794909181
   },
   "LTT 740": {
    "pos": [
@@ -14903,7 +14903,7 @@
    "nfac": 6,
    "pob": 141005,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1794907161
+   "t": 1794909682
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -14982,6 +14982,32 @@
    "pob": 48122139,
    "ctrl_n": "THE AZGHARIE",
    "t": 1794907581
+  },
+  "Skeller": {
+   "pos": [
+    3.9375,
+    -90.71875,
+    -35.6875
+   ],
+   "ly": 18.0,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 5,
+   "pob": 3082441,
+   "ctrl_n": "East India Company",
+   "t": 1794909403
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "ly": 14.3,
+   "junto": "Eurus",
+   "nfac": 6,
+   "pob": 9913425,
+   "ctrl_n": "Leviathan Scout Regiment",
+   "t": 1794909720
   }
  },
  "zona": {
@@ -16066,7 +16092,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794906410
+   "t": 1794909369
   },
   "Choujem": {
    "pos": [
@@ -16541,7 +16567,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794901241
+   "t": 1794909181
   },
   "LTT 740": {
    "pos": [
@@ -16590,7 +16616,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794903879
+   "t": 1794909776
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16690,7 +16716,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794908110
+   "t": 1794909360
   },
   "Patal": {
    "pos": [
@@ -16723,7 +16749,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794907161
+   "t": 1794909682
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -16872,6 +16898,55 @@
     "Zemina Torval"
    ],
    "t": 1794907581
+  },
+  "Bhagutsuk": {
+   "pos": [
+    -36.6875,
+    -12.84375,
+    -120.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.233712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794909354
+  },
+  "Skeller": {
+   "pos": [
+    3.9375,
+    -90.71875,
+    -35.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.260332,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794909403
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.268725,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794909720
   }
  },
  "codice": [

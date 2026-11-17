@@ -12345,7 +12345,10 @@
    "tick_marg": 510,
    "tick_prox": 1760154150,
    "tick_disp": 510,
-   "tick_n": 0
+   "tick_n": 0,
+   "rutas": {
+    "2026-11-17": 2
+   }
   },
   "Torenai": {
    "sys": "Torenai",
@@ -13177,10 +13180,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794880559.1133704,
-  "msgs": 90947,
+  "msgs": 103379,
   "mios": 3
  },
- "t": 1794882032.2593932,
+ "t": 1794882852.673027,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13390,7 +13393,7 @@
    "nfac": 3,
    "pob": 504229644,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794881538
+   "t": 1794882211
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -13404,6 +13407,19 @@
    "pob": 2805546,
    "ctrl_n": "Verne Partners LLP",
    "t": 1794881604
+  },
+  "LHS 1499": {
+   "pos": [
+    -41.5,
+    -18.15625,
+    -66.125
+   ],
+   "ly": 18.9,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 3,
+   "pob": 122300644,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794882567
   }
  },
  "zona": {
@@ -13878,7 +13894,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794881538
+   "t": 1794882211
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -13913,6 +13929,22 @@
     "Jerome Archer"
    ],
    "t": 1794882025
+  },
+  "LHS 1499": {
+   "pos": [
+    -41.5,
+    -18.15625,
+    -66.125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.698808,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794882567
   }
  },
  "codice": [

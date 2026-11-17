@@ -14213,10 +14213,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794916297.299975,
-  "msgs": 374361,
+  "msgs": 382324,
   "mios": 19
  },
- "t": 1794916385.7436,
+ "t": 1794917246.3148081,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14268,9 +14268,9 @@
    "ly": 7.1,
    "junto": "Hyades Sector RZ-N b7-5",
    "nfac": 3,
-   "pob": 239217,
+   "pob": 239234,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794887500
+   "t": 1794916468
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -14580,9 +14580,9 @@
    "ly": 10.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 218584,
+   "pob": 218595,
    "ctrl_n": "East India Company",
-   "t": 1794886791
+   "t": 1794917097
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -14686,7 +14686,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794916078
+   "t": 1794916453
   },
   "Zephyrus": {
    "pos": [
@@ -14998,7 +14998,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794908153
+   "t": 1794916764
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -15393,7 +15393,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794887500
+   "t": 1794916468
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -16094,7 +16094,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794886791
+   "t": 1794917097
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -16296,7 +16296,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794916078
+   "t": 1794916453
   },
   "Guei": {
    "pos": [
@@ -17283,6 +17283,21 @@
     "Jerome Archer"
    ],
    "t": 1794914668
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256461,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794917234
   }
  },
  "codice": [

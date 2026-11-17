@@ -13953,10 +13953,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 255049,
+  "msgs": 260542,
   "mios": 11
  },
- "t": 1794900954.4392126,
+ "t": 1794901884.9928913,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14218,7 +14218,7 @@
    "nfac": 6,
    "pob": 26663,
    "ctrl_n": "East India Company",
-   "t": 1794884494
+   "t": 1794901133
   },
   "Hajangai": {
    "pos": [
@@ -14712,7 +14712,20 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794900948
+   "t": 1794901241
+  },
+  "LTT 740": {
+   "pos": [
+    -3.75,
+    -104.15625,
+    -18.6875
+   ],
+   "ly": 19.4,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 191065,
+   "ctrl_n": "Verne Partners LLP",
+   "t": 1794901461
   }
  },
  "zona": {
@@ -15103,7 +15116,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794899086
+   "t": 1794901229
   },
   "Vivata": {
    "pos": [
@@ -15318,7 +15331,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794884494
+   "t": 1794901133
   },
   "Hajangai": {
    "pos": [
@@ -16272,7 +16285,38 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794900948
+   "t": 1794901241
+  },
+  "LTT 740": {
+   "pos": [
+    -3.75,
+    -104.15625,
+    -18.6875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.029354,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794901461
+  },
+  "Njungum": {
+   "pos": [
+    134.59375,
+    -21.5625,
+    1.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.116526,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794901874
   }
  },
  "codice": [

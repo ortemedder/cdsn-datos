@@ -7294,7 +7294,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 16
+    "2026-11-17": 17
    },
    "tk": {
     "firma": "9ac237db",
@@ -7358,6 +7358,26 @@
        "ok": 1,
        "no": 0
       }
+     }
+    },
+    "Orbital Construction Site: Holger-Madsen Reach": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1794910290,
+     "estado": "",
+     "ls": 1812,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3964232962,
+     "mer": {
+      "t": 1794910298,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -14040,10 +14060,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794908789.8293629,
-  "msgs": 321184,
+  "msgs": 329081,
   "mios": 17
  },
- "t": 1794909781.9957335,
+ "t": 1794910492.4133537,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14513,7 +14533,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794905723
+   "t": 1794910447
   },
   "Zephyrus": {
    "pos": [
@@ -15008,6 +15028,19 @@
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
    "t": 1794909720
+  },
+  "Lokaantii": {
+   "pos": [
+    129.625,
+    -4.1875,
+    11.875
+   ],
+   "ly": 13.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 121284,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1794910464
   }
  },
  "zona": {
@@ -16052,13 +16085,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.365587,
+   "prog": 0.36643,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794905723
+   "t": 1794910447
   },
   "Guei": {
    "pos": [
@@ -16731,7 +16764,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794905996
+   "t": 1794910484
   },
   "LTT 606": {
    "pos": [
@@ -16947,6 +16980,23 @@
     "Jerome Archer"
    ],
    "t": 1794909720
+  },
+  "Lokaantii": {
+   "pos": [
+    129.625,
+    -4.1875,
+    11.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.172569,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794910464
   }
  },
  "codice": [

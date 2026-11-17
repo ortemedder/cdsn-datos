@@ -14752,10 +14752,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794923320.1991394,
-  "msgs": 464883,
+  "msgs": 474325,
   "mios": 28
  },
- "t": 1794924493.652432,
+ "t": 1794925404.230593,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15225,7 +15225,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794924358
+   "t": 1794924680
   },
   "Zephyrus": {
    "pos": [
@@ -15329,7 +15329,7 @@
    "nfac": 3,
    "pob": 318367,
    "ctrl_n": "East India Company",
-   "t": 1794924364
+   "t": 1794925400
   },
   "LTT 751": {
    "pos": [
@@ -15914,14 +15914,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.249678,
+   "prog": 0.249712,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794914338
+   "t": 1794924852
   },
   "Dongkum": {
    "pos": [
@@ -16868,13 +16868,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.367338,
+   "prog": 0.36853,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794924358
+   "t": 1794924680
   },
   "Guei": {
    "pos": [
@@ -17055,7 +17055,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794924364
+   "t": 1794925400
   },
   "Crowfor": {
    "pos": [
@@ -18092,7 +18092,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794923594
+   "t": 1794925390
   },
   "ICZ EL-Y d90": {
    "pos": [
@@ -18107,6 +18107,21 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794921412
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794925281
   }
  },
  "codice": [

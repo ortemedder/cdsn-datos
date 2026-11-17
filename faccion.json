@@ -14213,10 +14213,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794908789.8293629,
-  "msgs": 336577,
+  "msgs": 344397,
   "mios": 17
  },
- "t": 1794911753.1530533,
+ "t": 1794912553.3940039,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14933,7 +14933,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794911655
+   "t": 1794912549
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -15220,6 +15220,19 @@
    "pob": 13010,
    "ctrl_n": "Solaris Xeno-Psychology Group",
    "t": 1794911707
+  },
+  "Piscium Sector SD-T b3-0": {
+   "pos": [
+    -8.78125,
+    -93.71875,
+    -18.375
+   ],
+   "ly": 18.2,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 4,
+   "pob": 397678,
+   "ctrl_n": "East India Company",
+   "t": 1794912377
   }
  },
  "zona": {
@@ -16712,7 +16725,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794911655
+   "t": 1794912549
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -17209,6 +17222,23 @@
     "Zemina Torval"
    ],
    "t": 1794911707
+  },
+  "Piscium Sector SD-T b3-0": {
+   "pos": [
+    -8.78125,
+    -93.71875,
+    -18.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794912377
   }
  },
  "codice": [

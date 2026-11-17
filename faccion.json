@@ -7304,7 +7304,7 @@
     "1794902400": 2
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 3
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -14033,10 +14033,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794905488.6578388,
-  "msgs": 290120,
+  "msgs": 296433,
   "mios": 15
  },
- "t": 1794906418.2769039,
+ "t": 1794907359.02541,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14753,7 +14753,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794899740
+   "t": 1794906960
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -14818,7 +14818,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794904853
+   "t": 1794906841
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -14884,6 +14884,58 @@
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
    "t": 1794904894
+  },
+  "LTT 606": {
+   "pos": [
+    0.5625,
+    -78.125,
+    -5.28125
+   ],
+   "ly": 19.2,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 6,
+   "pob": 141005,
+   "ctrl_n": "G.O.M. Collective",
+   "t": 1794907161
+  },
+  "Hyades Sector UK-M b8-1": {
+   "pos": [
+    24.78125,
+    42.9375,
+    -96.3125
+   ],
+   "ly": 14.6,
+   "junto": "Lati",
+   "nfac": 4,
+   "pob": 159077,
+   "ctrl_n": "Civitas Dei",
+   "t": 1794907253
+  },
+  "Tascheter Sector AA-Z b3": {
+   "pos": [
+    25.375,
+    2.46875,
+    -91.28125
+   ],
+   "ly": 7.7,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 3,
+   "pob": 153833,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794907293
+  },
+  "Tascheter Sector AA-Z b0": {
+   "pos": [
+    26.3125,
+    3.71875,
+    -93.0625
+   ],
+   "ly": 9.9,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 3,
+   "pob": 141655518,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794907352
   }
  },
  "zona": {
@@ -16370,13 +16422,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.310834,
+   "prog": 0.348249,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794899740
+   "t": 1794906960
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16608,6 +16660,75 @@
     "Pranav Antal"
    ],
    "t": 1794905996
+  },
+  "LTT 606": {
+   "pos": [
+    0.5625,
+    -78.125,
+    -5.28125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.10994,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794907161
+  },
+  "Hyades Sector UK-M b8-1": {
+   "pos": [
+    24.78125,
+    42.9375,
+    -96.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794907253
+  },
+  "Tascheter Sector AA-Z b3": {
+   "pos": [
+    25.375,
+    2.46875,
+    -91.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794907293
+  },
+  "Tascheter Sector AA-Z b0": {
+   "pos": [
+    26.3125,
+    3.71875,
+    -93.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.15314,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794907352
   }
  },
  "codice": [

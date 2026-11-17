@@ -4088,18 +4088,18 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 23
+    "2026-11-17": 25
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794956913
+     "t": 1794957076
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794956913
+     "t": 1794957076
     }
    ],
    "pn": {
@@ -4109,12 +4109,12 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794956913,
+     "t": 1794957076,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794956913,
+     "t": 1794957076,
      "d": 1794888452
     }
    },
@@ -4293,6 +4293,111 @@
        "no": 18
       }
      }
+    },
+    "Brunton Outpost": {
+     "f": "Caballeros de Sion",
+     "tipo": "Outpost",
+     "t": 1794957155,
+     "estado": "",
+     "ls": 3269,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 3228010496,
+     "mer": {
+      "t": 1794957162,
+      "n": 106,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 204887,
+        "d": 3
+       },
+       {
+        "n": "musgravite",
+        "p": 202299,
+        "d": 7
+       },
+       {
+        "n": "grandidierite",
+        "p": 201013,
+        "d": 7
+       },
+       {
+        "n": "rhodplumsite",
+        "p": 179266,
+        "d": 6
+       },
+       {
+        "n": "serendibite",
+        "p": 175905,
+        "d": 7
+       }
+      ],
+      "alta": [
+       {
+        "n": "foodcartridges",
+        "p": 585,
+        "m": 252
+       },
+       {
+        "n": "scrap",
+        "p": 626,
+        "m": 276
+       },
+       {
+        "n": "water",
+        "p": 573,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 763,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 798,
+        "m": 387
+       }
+      ],
+      "barato": [
+       {
+        "n": "polymers",
+        "p": 53,
+        "m": 306,
+        "s": 1606
+       },
+       {
+        "n": "biowaste",
+        "p": 64,
+        "m": 271,
+        "s": 120
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 85,
+        "m": 354,
+        "s": 1122
+       },
+       {
+        "n": "copper",
+        "p": 315,
+        "m": 631,
+        "s": 1911
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 704,
+        "m": 1375,
+        "s": 88
+       }
+      ]
+     },
+     "mods": 151,
+     "mods_t": 1794957162
     }
    },
    "prev": 40.4,
@@ -15862,7 +15967,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-17": 4
+    "2026-11-17": 7
    },
    "pn": {
     "KLJ-0QB": {
@@ -15942,10 +16047,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794956914.7057388,
-  "msgs": 993453,
+  "msgs": 1008657,
   "mios": 72
  },
- "t": 1794956915.2734134,
+ "t": 1794957896.1720743,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -18119,6 +18224,32 @@
    "pob": 2396473,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794956899
+  },
+  "Tirnitz": {
+   "pos": [
+    31.21875,
+    4.71875,
+    -81.9375
+   ],
+   "ly": 12.7,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 3,
+   "pob": 438291,
+   "ctrl_n": "Flotta Stellare",
+   "t": 1794957301
+  },
+  "Hyades Sector HX-R b5-1": {
+   "pos": [
+    45.4375,
+    63.71875,
+    -160.21875
+   ],
+   "ly": 16.2,
+   "junto": "Hyades Sector CB-W c2-3",
+   "nfac": 4,
+   "pob": 203841,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794957877
   }
  },
  "zona": {
@@ -19515,7 +19646,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794891027
+   "t": 1794957430
   },
   "Chimechilo": {
    "pos": [
@@ -22404,6 +22535,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794956899
+  },
+  "Tirnitz": {
+   "pos": [
+    31.21875,
+    4.71875,
+    -81.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794957301
+  },
+  "Hyades Sector HX-R b5-1": {
+   "pos": [
+    45.4375,
+    63.71875,
+    -160.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.040569,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters"
+   ],
+   "t": 1794957877
   }
  },
  "codice": [

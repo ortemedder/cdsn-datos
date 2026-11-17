@@ -1069,7 +1069,7 @@
     "2026-11-14": 34,
     "2026-11-15": 9,
     "2026-11-16": 2,
-    "2026-11-17": 2
+    "2026-11-17": 5
    },
    "zc": [
     {
@@ -1580,7 +1580,146 @@
    "tick_marg": 346,
    "tick_prox": 1794961650,
    "tick_disp": 181,
-   "tick_n": 0
+   "tick_n": 0,
+   "estaciones": {
+    "Judge Reach": {
+     "f": "Sirius Special Forces",
+     "tipo": "AsteroidBase",
+     "t": 1794886678,
+     "estado": "",
+     "ls": 2375,
+     "pads": {
+      "Small": 4,
+      "Medium": 8,
+      "Large": 6
+     },
+     "mid": 4210756355,
+     "mer": {
+      "t": 1794886734,
+      "n": 353,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 429572,
+        "d": 5141
+       },
+       {
+        "n": "iridium",
+        "p": 273674,
+        "d": 134114
+       },
+       {
+        "n": "metaalloys",
+        "p": 195547,
+        "d": 41106
+       },
+       {
+        "n": "rhodplumsite",
+        "p": 188036,
+        "d": 1624
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 180185,
+        "d": 1624
+       }
+      ],
+      "alta": [
+       {
+        "n": "ceramiccomposites",
+        "p": 1902,
+        "m": 402
+       },
+       {
+        "n": "lepidolite",
+        "p": 3173,
+        "m": 741
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 1261,
+        "m": 447
+       },
+       {
+        "n": "foodcartridges",
+        "p": 679,
+        "m": 252
+       },
+       {
+        "n": "explosives",
+        "p": 1261,
+        "m": 483
+       }
+      ],
+      "barato": [
+       {
+        "n": "water",
+        "p": 65,
+        "m": 260,
+        "s": 235820
+       },
+       {
+        "n": "algae",
+        "p": 95,
+        "m": 308,
+        "s": 476941
+       },
+       {
+        "n": "leather",
+        "p": 185,
+        "m": 423,
+        "s": 10143
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 221,
+        "m": 418,
+        "s": 131948
+       },
+       {
+        "n": "biowaste",
+        "p": 154,
+        "m": 271,
+        "s": 151367
+       }
+      ]
+     },
+     "mods": 577,
+     "mods_t": 1794886691,
+     "naves": [
+      "Adder",
+      "Asp",
+      "Asp_Scout",
+      "CobraMkIII",
+      "CobraMkV",
+      "DiamondBack",
+      "DiamondBackXL",
+      "Dolphin",
+      "Eagle",
+      "Federation_Corvette",
+      "Federation_Dropship",
+      "Federation_Dropship_MkII",
+      "Federation_Gunship",
+      "Hauler",
+      "Independant_Trader",
+      "Krait_Light",
+      "Krait_MkII",
+      "Mediumtransport01",
+      "Orca",
+      "Panthermkii",
+      "Python",
+      "SideWinder",
+      "SmallCombat01_nx",
+      "Type6",
+      "Type7",
+      "Type9",
+      "Viper",
+      "Viper_MkIV",
+      "Vulture"
+     ],
+     "naves_t": 1794886691
+    }
+   }
   },
   "Tascheter Sector ZZ-Y b1": {
    "sys": "Tascheter Sector ZZ-Y b1",
@@ -13666,10 +13805,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794886165.550678,
-  "msgs": 144019,
+  "msgs": 152392,
   "mios": 8
  },
- "t": 1794886486.351801,
+ "t": 1794887507.2481568,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13718,12 +13857,12 @@
     20.4375,
     -122.625
    ],
-   "ly": 8.7,
-   "junto": "Hyades Sector RZ-N b7-0",
+   "ly": 7.1,
+   "junto": "Hyades Sector RZ-N b7-5",
    "nfac": 3,
    "pob": 239217,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794876777
+   "t": 1794887500
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -14035,7 +14174,7 @@
    "nfac": 4,
    "pob": 218584,
    "ctrl_n": "East India Company",
-   "t": 1794885779
+   "t": 1794886791
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -14101,6 +14240,32 @@
    "pob": 125854,
    "ctrl_n": "Radius Group Inc",
    "t": 1794886177
+  },
+  "Unktock": {
+   "pos": [
+    -41.34375,
+    -14.59375,
+    -68.625
+   ],
+   "ly": 15.4,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 5,
+   "pob": 5089334,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794886934
+  },
+  "Synuefe TL-C c29-5": {
+   "pos": [
+    -17.65625,
+    -210.53125,
+    208.9375
+   ],
+   "ly": 19.4,
+   "junto": "Synuefe VG-C c29-7",
+   "nfac": 4,
+   "pob": 27736,
+   "ctrl_n": "The Winged Hussars",
+   "t": 1794887406
   }
  },
  "zona": {
@@ -14248,7 +14413,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794876777
+   "t": 1794887500
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -14949,7 +15114,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794885779
+   "t": 1794886791
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -15084,6 +15249,40 @@
     "Jerome Archer"
    ],
    "t": 1794886475
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.236569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794886675
+  },
+  "Unktock": {
+   "pos": [
+    -41.34375,
+    -14.59375,
+    -68.625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.310967,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794886934
   }
  },
  "codice": [

@@ -13953,10 +13953,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 249498,
+  "msgs": 255049,
   "mios": 11
  },
- "t": 1794900114.0659714,
+ "t": 1794900954.4392126,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14700,6 +14700,19 @@
    "pob": 19534,
    "ctrl_n": "Quebecois Patriots",
    "t": 1794900112
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "ly": 18.6,
+   "junto": "Eurus",
+   "nfac": 6,
+   "pob": 13023029,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794900948
   }
  },
  "zona": {
@@ -16242,6 +16255,24 @@
     "Jerome Archer"
    ],
    "t": 1794900112
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.408843,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794900948
   }
  },
  "codice": [

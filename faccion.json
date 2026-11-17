@@ -7294,7 +7294,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 17
+    "2026-11-17": 18
    },
    "tk": {
     "firma": "9ac237db",
@@ -7379,6 +7379,159 @@
       "alta": [],
       "barato": []
      }
+    },
+    "Rosebrae Vista": {
+     "f": "The Guild of Sefry",
+     "tipo": "SurfaceStation",
+     "t": 1794911738,
+     "estado": "Construction",
+     "ls": 1812,
+     "pads": {
+      "Small": 9,
+      "Medium": 14,
+      "Large": 6
+     },
+     "mid": 4404248835,
+     "mer": {
+      "t": 1794911746,
+      "n": 108,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 202355,
+        "d": 10024
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 133528,
+        "d": 405
+       },
+       {
+        "n": "helium",
+        "p": 86650,
+        "d": 162
+       },
+       {
+        "n": "helium3",
+        "p": 81049,
+        "d": 162
+       },
+       {
+        "n": "painite",
+        "p": 65304,
+        "d": 384
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 757,
+        "m": 260
+       },
+       {
+        "n": "polymers",
+        "p": 776,
+        "m": 306
+       },
+       {
+        "n": "algae",
+        "p": 762,
+        "m": 308
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 812,
+        "m": 354
+       },
+       {
+        "n": "beer",
+        "p": 799,
+        "m": 350
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 5830
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 97968
+       },
+       {
+        "n": "scrap",
+        "p": 64,
+        "m": 276,
+        "s": 29294
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 160,
+        "m": 447,
+        "s": 151177
+       },
+       {
+        "n": "basicmedicines",
+        "p": 198,
+        "m": 489,
+        "s": 10556
+       }
+      ]
+     },
+     "mods": 823,
+     "mods_t": 1794911746,
+     "naves": [
+      "adder",
+      "anaconda",
+      "anacondamkii",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "empire_courier",
+      "empire_eagle",
+      "empire_trader",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
+     ],
+     "naves_t": 1794911746
     }
    },
    "prev": null,
@@ -14060,10 +14213,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794908789.8293629,
-  "msgs": 329081,
+  "msgs": 336577,
   "mios": 17
  },
- "t": 1794910492.4133537,
+ "t": 1794911753.1530533,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14780,7 +14933,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794908796
+   "t": 1794911655
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -15041,6 +15194,32 @@
    "pob": 121284,
    "ctrl_n": "Solaris Xeno-Psychology Group",
    "t": 1794910464
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "ly": 17.4,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 6,
+   "pob": 631208592,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1794911332
+  },
+  "Bakuari": {
+   "pos": [
+    123.9375,
+    -7.84375,
+    6.78125
+   ],
+   "ly": 17.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 13010,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1794911707
   }
  },
  "zona": {
@@ -15156,7 +15335,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794881464
+   "t": 1794911372
   },
   "LEHPM 1902": {
    "pos": [
@@ -16527,13 +16706,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.348249,
+   "prog": 0.348357,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794908796
+   "t": 1794911655
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16997,6 +17176,39 @@
     "Zemina Torval"
    ],
    "t": 1794910464
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.145805,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794911332
+  },
+  "Bakuari": {
+   "pos": [
+    123.9375,
+    -7.84375,
+    6.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.288104,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794911707
   }
  },
  "codice": [

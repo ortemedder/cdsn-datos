@@ -7213,7 +7213,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794905482,
+   "t": 1794907565,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7294,14 +7294,15 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 8
+    "2026-11-17": 11
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794905482
+    "igual": 1794907565
    },
    "saltos": {
-    "1794902400": 2
+    "1794902400": 2,
+    "1794906000": 1
    },
    "rutas": {
     "2026-11-17": 3
@@ -7310,20 +7311,20 @@
     "Planetary Construction Site: Leighton's Forge": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794905938,
+     "t": 1794908000,
      "estado": "",
      "ls": 1050,
      "mid": 4404154115,
      "mer": {
-      "t": 1794905947,
-      "n": 1,
+      "t": 1794908009,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-17": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      },
@@ -14032,11 +14033,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794905488.6578388,
-  "msgs": 296433,
-  "mios": 15
+  "ultimo": 1794907570.233328,
+  "msgs": 304150,
+  "mios": 16
  },
- "t": 1794907359.02541,
+ "t": 1794908160.18386,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14753,7 +14754,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794906960
+   "t": 1794907481
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -14818,7 +14819,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794906841
+   "t": 1794908153
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -14936,6 +14937,45 @@
    "pob": 141655518,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794907352
+  },
+  "Hyades Sector XV-L b8-6": {
+   "pos": [
+    -42.125,
+    -10.1875,
+    -94.5625
+   ],
+   "ly": 11.4,
+   "junto": "Jangore",
+   "nfac": 6,
+   "pob": 2198742,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794907518
+  },
+  "Arietis Sector JS-S b4-5": {
+   "pos": [
+    -50.53125,
+    -2.09375,
+    -118.15625
+   ],
+   "ly": 10.8,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 3,
+   "pob": 88366923,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794907518
+  },
+  "Tascheter Sector BV-Y b7": {
+   "pos": [
+    8.125,
+    -9.34375,
+    -95.6875
+   ],
+   "ly": 11.5,
+   "junto": "Wolf 258",
+   "nfac": 4,
+   "pob": 48122139,
+   "ctrl_n": "THE AZGHARIE",
+   "t": 1794907581
   }
  },
  "zona": {
@@ -16428,7 +16468,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794906960
+   "t": 1794907481
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16637,14 +16677,14 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.269227,
+   "prog": 0.269312,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794905464
+   "t": 1794908110
   },
   "Patal": {
    "pos": [
@@ -16729,6 +16769,103 @@
     "Li Yong-Rui"
    ],
    "t": 1794907352
+  },
+  "Didarengu": {
+   "pos": [
+    27.375,
+    18.1875,
+    -89.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.260934,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794907425
+  },
+  "Orgeleu": {
+   "pos": [
+    120.15625,
+    -123.15625,
+    -20.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256095,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794907112
+  },
+  "Shouvul": {
+   "pos": [
+    28.53125,
+    17.875,
+    -88.90625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.236397,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794907492
+  },
+  "Hyades Sector XV-L b8-6": {
+   "pos": [
+    -42.125,
+    -10.1875,
+    -94.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.079426,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794907518
+  },
+  "Arietis Sector JS-S b4-5": {
+   "pos": [
+    -50.53125,
+    -2.09375,
+    -118.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794907518
+  },
+  "Tascheter Sector BV-Y b7": {
+   "pos": [
+    8.125,
+    -9.34375,
+    -95.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794907581
   }
  },
  "codice": [

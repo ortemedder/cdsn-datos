@@ -282,7 +282,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794939989,
+   "t": 1794941697,
    "src": "EDDN",
    "inf": 57.7,
    "ctrl": true,
@@ -358,18 +358,18 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 7
+    "2026-11-17": 10
    },
    "tk": {
     "firma": "d80c2167",
-    "igual": 1794939989,
+    "igual": 1794941697,
     "ult": 1794920431,
     "desde": 1794738516,
     "est": null
    },
    "saltos": {
     "1794920400": 1,
-    "1794938400": 1
+    "1794938400": 2
    },
    "rutas": {
     "2026-11-17": 3
@@ -500,7 +500,7 @@
     "Planetary Construction Site: Salinas Industrial Exchange": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794940804,
+     "t": 1794942178,
      "estado": "",
      "ls": 146954,
      "pads": {
@@ -511,7 +511,7 @@
      "mid": 4404257539,
      "atq": {
       "2026-11-17": {
-       "ok": 1,
+       "ok": 3,
        "no": 0
       }
      }
@@ -3734,7 +3734,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794930979,
+   "t": 1794941903,
    "src": "EDDN",
    "inf": 38.91,
    "ctrl": true,
@@ -3828,8 +3828,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 1.024437,
-    "ref": 108331,
+    "prog": 1.024906,
+    "ref": 108636,
     "soc": 81447,
     "pots": [
      "Edmund Mahon",
@@ -3845,18 +3845,18 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 16
+    "2026-11-17": 19
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794931014
+     "t": 1794942058
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794918331
+     "t": 1794942058
     }
    ],
    "pn": {
@@ -3866,18 +3866,18 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794931014,
+     "t": 1794942058,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794931014,
+     "t": 1794942058,
      "d": 1794888452
     }
    },
    "tk": {
     "firma": "d312cd18",
-    "igual": 1794930979,
+    "igual": 1794941903,
     "ult": 1794888421,
     "desde": 1794866661,
     "vent": [
@@ -3900,7 +3900,8 @@
     "1794888000": 2,
     "1794902400": 1,
     "1794916800": 1,
-    "1794927600": 1
+    "1794927600": 1,
+    "1794938400": 1
    },
    "rutas": {
     "2026-11-17": 5
@@ -4019,9 +4020,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794918461,
+     "t": 1794942118,
      "estado": "",
-     "ls": 3150,
+     "ls": 3149,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -4029,20 +4030,20 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1794918467,
+      "t": 1794942125,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 123,
-     "mods_t": 1794918467,
+     "mods_t": 1794942125,
      "neg": {
       "NoSpace": 17
      },
      "atq": {
       "2026-11-17": {
-       "ok": 1,
+       "ok": 2,
        "no": 17
       }
      }
@@ -4437,7 +4438,7 @@
     "2026-11-14": 42,
     "2026-11-15": 39,
     "2026-11-16": 71,
-    "2026-11-17": 29
+    "2026-11-17": 30
    },
    "pn": {
     "H5L-70M": {
@@ -4711,9 +4712,9 @@
     "Shvets Works": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794859789,
+     "t": 1794942270,
      "estado": "",
-     "ls": 2658,
+     "ls": 2657,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -4722,6 +4723,10 @@
      "mid": 4402023427,
      "atq": {
       "2026-11-16": {
+       "ok": 1,
+       "no": 0
+      },
+      "2026-11-17": {
        "ok": 1,
        "no": 0
       }
@@ -7908,7 +7913,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794940766,
+   "t": 1794941820,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7989,11 +7994,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 45
+    "2026-11-17": 48
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794940766
+    "igual": 1794941820
    },
    "saltos": {
     "1794902400": 2,
@@ -8002,7 +8007,7 @@
     "1794927600": 1,
     "1794931200": 3,
     "1794934800": 1,
-    "1794938400": 2
+    "1794938400": 3
    },
    "rutas": {
     "2026-11-17": 14
@@ -8236,7 +8241,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794941080,
+     "t": 1794942109,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8246,7 +8251,7 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794941087,
+      "t": 1794942116,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8254,7 +8259,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 8,
+       "ok": 9,
        "no": 0
       }
      }
@@ -15163,11 +15168,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794941106.3446624,
-  "msgs": 717729,
-  "mios": 45
+  "ultimo": 1794941905.1771183,
+  "msgs": 733056,
+  "mios": 48
  },
- "t": 1794941666.8253114,
+ "t": 1794942278.9008937,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15949,7 +15954,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794941203
+   "t": 1794942244
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16508,7 +16513,7 @@
    "nfac": 3,
    "pob": 22380762,
    "ctrl_n": "House of Saga",
-   "t": 1794939235
+   "t": 1794941982
   },
   "Umaspi": {
    "pos": [
@@ -16652,6 +16657,45 @@
    "pob": 399333,
    "ctrl_n": "Liberals of Panorua",
    "t": 1794940883
+  },
+  "Trianguli Sector RU-O a6-0": {
+   "pos": [
+    21.78125,
+    -40.75,
+    -59.90625
+   ],
+   "ly": 14.9,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 203340,
+   "ctrl_n": "EXO",
+   "t": 1794941852
+  },
+  "Nergal": {
+   "pos": [
+    -53.3125,
+    -22.59375,
+    -89.1875
+   ],
+   "ly": 16.5,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 4,
+   "pob": 1597851,
+   "ctrl_n": "Aseveljet",
+   "t": 1794941860
+  },
+  "Col 285 Sector RY-W b16-1": {
+   "pos": [
+    128.46875,
+    -3.21875,
+    3.71875
+   ],
+   "ly": 19.7,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 159200,
+   "ctrl_n": "Liberals of Panorua",
+   "t": 1794942266
   }
  },
  "zona": {
@@ -17678,7 +17722,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 1.024437,
+   "prog": 1.024906,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -17686,7 +17730,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794930979
+   "t": 1794941903
   },
   "Ross 332": {
    "pos": [
@@ -18803,7 +18847,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794939989
+   "t": 1794941697
   },
   "Utero": {
    "pos": [
@@ -19238,7 +19282,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794934265
+   "t": 1794941816
   },
   "Agrippa": {
    "pos": [
@@ -19480,7 +19524,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794939235
+   "t": 1794941982
   },
   "Umaspi": {
    "pos": [
@@ -19711,6 +19755,69 @@
     "Jerome Archer"
    ],
    "t": 1794941542
+  },
+  "Trianguli Sector RU-O a6-0": {
+   "pos": [
+    21.78125,
+    -40.75,
+    -59.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794941852
+  },
+  "Nergal": {
+   "pos": [
+    -53.3125,
+    -22.59375,
+    -89.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794941860
+  },
+  "Wolf 186": {
+   "pos": [
+    -55.1875,
+    -14.65625,
+    -96.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.133724,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794942043
+  },
+  "Col 285 Sector RY-W b16-1": {
+   "pos": [
+    128.46875,
+    -3.21875,
+    3.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794942266
   }
  },
  "codice": [

@@ -14752,10 +14752,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794923320.1991394,
-  "msgs": 456013,
+  "msgs": 464883,
   "mios": 28
  },
- "t": 1794923603.1567333,
+ "t": 1794924493.652432,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15212,7 +15212,7 @@
    "nfac": 4,
    "pob": 33166,
    "ctrl_n": "The Winged Hussars",
-   "t": 1794921404
+   "t": 1794924486
   },
   "Ross 332": {
    "pos": [
@@ -15225,7 +15225,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794920823
+   "t": 1794924358
   },
   "Zephyrus": {
    "pos": [
@@ -15327,9 +15327,9 @@
    "ly": 15.6,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 318349,
+   "pob": 318367,
    "ctrl_n": "East India Company",
-   "t": 1794892531
+   "t": 1794924364
   },
   "LTT 751": {
    "pos": [
@@ -15811,6 +15811,19 @@
    "pob": 49999051,
    "ctrl_n": "THE AZGHARIE",
    "t": 1794922429
+  },
+  "ICZ EL-Y d90": {
+   "pos": [
+    107.5,
+    -127.5625,
+    -24.5625
+   ],
+   "ly": 16.7,
+   "junto": "HIP 19292",
+   "nfac": 4,
+   "pob": 438766,
+   "ctrl_n": "Cobalt Imperium",
+   "t": 1794921412
   }
  },
  "zona": {
@@ -16861,7 +16874,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794920823
+   "t": 1794924358
   },
   "Guei": {
    "pos": [
@@ -17042,7 +17055,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794892531
+   "t": 1794924364
   },
   "Crowfor": {
    "pos": [
@@ -18080,6 +18093,20 @@
     "Zemina Torval"
    ],
    "t": 1794923594
+  },
+  "ICZ EL-Y d90": {
+   "pos": [
+    107.5,
+    -127.5625,
+    -24.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794921412
   }
  },
  "codice": [

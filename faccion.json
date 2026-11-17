@@ -3785,7 +3785,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794870033,
+   "t": 1794879132,
    "src": "EDDN",
    "inf": 79.14,
    "ctrl": true,
@@ -3854,14 +3854,14 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-09": 161,
     "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 70
+    "2026-11-16": 70,
+    "2026-11-17": 3
    },
    "pn": {
     "H5L-70M": {
@@ -3891,7 +3891,7 @@
    },
    "tk": {
     "firma": "8569ec69",
-    "igual": 1794870033,
+    "igual": 1794879132,
     "ult": 1794796745,
     "desde": 1794766064,
     "est": null,
@@ -3908,6 +3908,106 @@
     "hist": [
      1794701629
     ]
+   },
+   "estaciones": {
+    "Vanaheim": {
+     "f": "Caballeros de Sion",
+     "tipo": "Dodec",
+     "t": 1794879132,
+     "estado": "",
+     "ls": 1062,
+     "mid": 4396762115,
+     "mer": {
+      "t": 1794878593,
+      "n": 158,
+      "vende": [
+       {
+        "n": "musgravite",
+        "p": 694266,
+        "d": 35597
+       },
+       {
+        "n": "serendibite",
+        "p": 570948,
+        "d": 35597
+       },
+       {
+        "n": "benitoite",
+        "p": 567114,
+        "d": 35597
+       },
+       {
+        "n": "grandidierite",
+        "p": 563640,
+        "d": 35597
+       },
+       {
+        "n": "opal",
+        "p": 552666,
+        "d": 14536
+       }
+      ],
+      "alta": [
+       {
+        "n": "animalmonitors",
+        "p": 2825,
+        "m": 522
+       },
+       {
+        "n": "osmium",
+        "p": 234703,
+        "m": 44051
+       },
+       {
+        "n": "militarygradefabrics",
+        "p": 4610,
+        "m": 899
+       },
+       {
+        "n": "platinum",
+        "p": 280966,
+        "m": 55505
+       },
+       {
+        "n": "painite",
+        "p": 211587,
+        "m": 48333
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 520689
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 275652
+       },
+       {
+        "n": "polymers",
+        "p": 43,
+        "m": 306,
+        "s": 2939980
+       },
+       {
+        "n": "algae",
+        "p": 59,
+        "m": 308,
+        "s": 204973
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 72,
+        "m": 354,
+        "s": 19675291
+       }
+      ]
+     }
+    }
    },
    "prev": 78.24,
    "prev_t": 1794766064,
@@ -3941,6 +4041,8 @@
      79.14
     ]
    ],
+   "rach": {},
+   "rivales": [],
    "tick_ult": 1794796745,
    "tick_marg": 255,
    "tick_prox": 1794874410,
@@ -13067,11 +13169,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 45089,
-  "mios": 0
+  "ultimo": 1794879133.7012029,
+  "msgs": 56137,
+  "mios": 2
  },
- "t": 1794878460.0791557,
+ "t": 1794879140.5615108,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13204,6 +13306,19 @@
    "pob": 161723,
    "ctrl_n": "East India Company",
    "t": 1794878116
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "ly": 11.6,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 189958336,
+   "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
+   "t": 1794877648
   }
  },
  "zona": {
@@ -13514,9 +13629,51 @@
     "Li Yong-Rui"
    ],
    "t": 1794878287
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177706,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794877648
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.198135,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794878871
   }
  },
  "codice": [
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Fungoids 01 Tellurium",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794878908
+  },
   {
    "sys": "Hyades Sector MD-S c4-21",
    "n": "Aleoids 04 K",

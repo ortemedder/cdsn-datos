@@ -13947,10 +13947,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 208867,
+  "msgs": 216429,
   "mios": 11
  },
- "t": 1794894601.328091,
+ "t": 1794895431.9171584,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14420,7 +14420,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794891471
+   "t": 1794895077
   },
   "Zephyrus": {
    "pos": [
@@ -14538,6 +14538,45 @@
    "pob": 217403,
    "ctrl_n": "G.O.M. Collective",
    "t": 1794894595
+  },
+  "Tascheter Sector BV-Y b2": {
+   "pos": [
+    2.15625,
+    -9.3125,
+    -90.625
+   ],
+   "ly": 17.5,
+   "junto": "Wolf 258",
+   "nfac": 3,
+   "pob": 50016575,
+   "ctrl_n": "Allied Onyaksas Party",
+   "t": 1794894924
+  },
+  "Arietis Sector MN-S b4-5": {
+   "pos": [
+    -26.46875,
+    -21.9375,
+    -121.40625
+   ],
+   "ly": 19.9,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 4,
+   "pob": 207096,
+   "ctrl_n": "Barons of Gallavs",
+   "t": 1794895029
+  },
+  "Wolf 152": {
+   "pos": [
+    -41.125,
+    -15.125,
+    -71.78125
+   ],
+   "ly": 13.2,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 5,
+   "pob": 16424,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794895410
   }
  },
  "zona": {
@@ -15582,13 +15621,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.36203,
+   "prog": 0.362352,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794891471
+   "t": 1794895077
   },
   "Guei": {
    "pos": [
@@ -15822,6 +15861,71 @@
     "Zemina Torval"
    ],
    "t": 1794894595
+  },
+  "Tascheter Sector BV-Y b2": {
+   "pos": [
+    2.15625,
+    -9.3125,
+    -90.625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.194118,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794894924
+  },
+  "Arietis Sector MN-S b4-5": {
+   "pos": [
+    -26.46875,
+    -21.9375,
+    -121.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794895029
+  },
+  "Wolf 152": {
+   "pos": [
+    -41.125,
+    -15.125,
+    -71.78125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.233932,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794895410
+  },
+  "Jurua": {
+   "pos": [
+    -38.6875,
+    -14.09375,
+    -71.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.300611,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794895363
   }
  },
  "codice": [

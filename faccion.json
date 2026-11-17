@@ -13334,10 +13334,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794880559.1133704,
-  "msgs": 114617,
+  "msgs": 125536,
   "mios": 3
  },
- "t": 1794883753.1234221,
+ "t": 1794884763.8286247,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13587,6 +13587,45 @@
    "pob": 47997186,
    "ctrl_n": "Hu Jini Patron's Principles",
    "t": 1794883515
+  },
+  "GR 316": {
+   "pos": [
+    5.34375,
+    -70.84375,
+    -14.4375
+   ],
+   "ly": 19.3,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 6,
+   "pob": 26663,
+   "ctrl_n": "East India Company",
+   "t": 1794884494
+  },
+  "Hajangai": {
+   "pos": [
+    -28.125,
+    4.90625,
+    -68.28125
+   ],
+   "ly": 12.4,
+   "junto": "Tascheter Sector CG-X b1-1",
+   "nfac": 6,
+   "pob": 3268274824,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794884602
+  },
+  "LTT 10918": {
+   "pos": [
+    -60.53125,
+    -9.0625,
+    -73.78125
+   ],
+   "ly": 14.8,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 2439873,
+   "ctrl_n": "160 S.O.A.R.",
+   "t": 1794884663
   }
  },
  "zona": {
@@ -14143,6 +14182,106 @@
     "Zemina Torval"
    ],
    "t": 1794883515
+  },
+  "Nipibo": {
+   "pos": [
+    136.59375,
+    -5.5625,
+    4.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794884030
+  },
+  "Gurabru": {
+   "pos": [
+    3.59375,
+    15.34375,
+    -126.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.256428,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794884045
+  },
+  "GR 316": {
+   "pos": [
+    5.34375,
+    -70.84375,
+    -14.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.11314,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794884494
+  },
+  "Hajangai": {
+   "pos": [
+    -28.125,
+    4.90625,
+    -68.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.271709,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794884602
+  },
+  "LTT 10918": {
+   "pos": [
+    -60.53125,
+    -9.0625,
+    -73.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.045847,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794884663
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.193309,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794884757
   }
  },
  "codice": [

@@ -12599,7 +12599,7 @@
   },
   "Hyades Sector RZ-N b7-0": {
    "sys": "Hyades Sector RZ-N b7-0",
-   "t": 1794624564,
+   "t": 1794883065,
    "src": "EDSM",
    "inf": 0,
    "ctrl": false,
@@ -12608,12 +12608,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 76.01,
+   "segunda_inf": 76.23,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 76.01,
+     "inf": 76.23,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -12624,7 +12624,7 @@
     },
     {
      "n": "Bundhar Group",
-     "inf": 17.44,
+     "inf": 17.22,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -12675,6 +12675,13 @@
     "2025-10-10": 1,
     "2026-11-17": 3
    },
+   "pn": {
+    "KBF-3VZ": {
+     "n": "QUEEN ANNE'S REVENGE",
+     "t": 1794883188,
+     "d": 1794883188
+    }
+   },
    "tk": {
     "firma": "1d01350c",
     "igual": 1760098387,
@@ -12688,43 +12695,11 @@
      ]
     ]
    },
-   "prev": 5.27,
-   "prev_t": 1760098387,
-   "hinf": [
-    [
-     1759860300,
-     4.98
-    ],
-    [
-     1759937212,
-     4.78
-    ],
-    [
-     1760098387,
-     5.27
-    ],
-    [
-     1794624564,
-     0
-    ]
-   ],
-   "tick_ult": 1760098387,
-   "tick_marg": 510,
-   "tick_prox": 1760154150,
-   "tick_disp": 510,
-   "tick_n": 0,
-   "rutas": {
-    "2026-11-17": 2
-   },
    "saltos": {
     "1794880800": 2
    },
-   "pn": {
-    "KBF-3VZ": {
-     "n": "QUEEN ANNE'S REVENGE",
-     "t": 1794883188,
-     "d": 1794883188
-    }
+   "rutas": {
+    "2026-11-17": 2
    },
    "estaciones": {
     "Walesa Town": {
@@ -12868,7 +12843,38 @@
      ],
      "naves_t": 1794883743
     }
-   }
+   },
+   "prev": 5.27,
+   "prev_t": 1760098387,
+   "hinf": [
+    [
+     1759860300,
+     4.98
+    ],
+    [
+     1759937212,
+     4.78
+    ],
+    [
+     1760098387,
+     5.27
+    ],
+    [
+     1794624564,
+     0
+    ]
+   ],
+   "rach": {
+    "Sirius Special Forces": 1,
+    "Bundhar Group": 0,
+    "Astrobiology Research Cooperative": 0
+   },
+   "rivales": [],
+   "tick_ult": 1760098387,
+   "tick_marg": 510,
+   "tick_prox": 1760154150,
+   "tick_disp": 510,
+   "tick_n": 0
   },
   "Torenai": {
    "sys": "Torenai",
@@ -13947,10 +13953,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 224558,
+  "msgs": 236546,
   "mios": 11
  },
- "t": 1794896522.6851957,
+ "t": 1794898023.1320016,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15032,7 +15038,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794880036
+   "t": 1794897317
   },
   "Vivata": {
    "pos": [
@@ -15908,7 +15914,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794894532
+   "t": 1794896712
   },
   "LTT 751": {
    "pos": [

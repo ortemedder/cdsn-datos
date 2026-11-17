@@ -5618,7 +5618,10 @@
     ]
    ],
    "tick_ult": 1794675461,
-   "tick_marg": 780
+   "tick_marg": 780,
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "BD+27 881": {
    "sys": "BD+27 881",
@@ -14786,10 +14789,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794928582.6392176,
-  "msgs": 520083,
+  "msgs": 530797,
   "mios": 30
  },
- "t": 1794928987.088355,
+ "t": 1794929887.8542323,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15506,7 +15509,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794912549
+   "t": 1794929588
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -15571,7 +15574,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794920001
+   "t": 1794929575
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -15897,6 +15900,32 @@
    "pob": 204162,
    "ctrl_n": "Deutsche Elite Piloten Interstellar",
    "t": 1794928978
+  },
+  "Crucis Sector JW-W b1-8": {
+   "pos": [
+    130.5,
+    -10.09375,
+    33.09375
+   ],
+   "ly": 17.5,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 3,
+   "pob": 61799045,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1794929549
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "ly": 9.3,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 59908652,
+   "ctrl_n": "Kalvelis Imperial Society",
+   "t": 1794929750
   }
  },
  "zona": {
@@ -17383,13 +17412,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.348357,
+   "prog": 0.348365,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794912549
+   "t": 1794929588
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -18293,6 +18322,37 @@
     "Jerome Archer"
    ],
    "t": 1794926867
+  },
+  "Crucis Sector JW-W b1-8": {
+   "pos": [
+    130.5,
+    -10.09375,
+    33.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794929549
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794929750
   }
  },
  "codice": [

@@ -639,7 +639,10 @@
      15.47
     ]
    ],
-   "tk": {}
+   "tk": {},
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "Menkalinan": {
    "sys": "Menkalinan",
@@ -1127,7 +1130,10 @@
      1794160640,
      54.55
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
@@ -6742,21 +6748,21 @@
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794855731,
+   "t": 1794934637,
    "src": "EDDN",
-   "inf": 48.4,
+   "inf": 49.8,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
    "recuperando": [],
    "segunda": "The Fatherhood",
-   "segunda_inf": 40.4,
+   "segunda_inf": 39.3,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 48.4,
+     "inf": 49.8,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -6765,7 +6771,7 @@
     },
     {
      "n": "The Fatherhood",
-     "inf": 40.4,
+     "inf": 39.3,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [
@@ -6776,12 +6782,10 @@
     },
     {
      "n": "The Dukes of Mikunn",
-     "inf": 11.2,
+     "inf": 10.9,
      "gov": "Feudal",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -6793,7 +6797,7 @@
     960.875
    ],
    "sis": {
-    "pob": 4371640,
+    "pob": 4376901,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -6812,7 +6816,8 @@
     "2026-11-09": 2,
     "2026-11-10": 3,
     "2026-11-15": 9,
-    "2026-11-16": 15
+    "2026-11-16": 15,
+    "2026-11-17": 4
    },
    "pn": {
     "H2J-72G": {
@@ -6821,17 +6826,222 @@
     }
    },
    "tk": {
-    "firma": "9b50ec57",
-    "igual": 1794855731
+    "firma": "acd93d60",
+    "igual": 1794934637,
+    "ult": 1794934637,
+    "desde": 1794855731,
+    "est": null
    },
-   "prev": null,
-   "prev_t": null,
+   "saltos": {
+    "1794931200": 1
+   },
+   "rutas": {
+    "2026-11-17": 2
+   },
+   "prev": 48.4,
+   "prev_t": 1794855731,
    "hinf": [
     [
      1794322561,
      48.4
+    ],
+    [
+     1794934637,
+     49.8
     ]
-   ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 1,
+    "The Fatherhood": 0,
+    "The Dukes of Mikunn": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794934637,
+   "tick_marg": 657,
+   "estaciones": {
+    "Adama Botanical Biosphere": {
+     "f": "Caballeros de Sion",
+     "tipo": "OnFootSettlement",
+     "t": 1794934871,
+     "estado": "",
+     "ls": 1487,
+     "pads": {
+      "Small": 2,
+      "Medium": 0,
+      "Large": 1
+     },
+     "mid": 4335289091,
+     "mer": {
+      "t": 1794934889,
+      "n": 366,
+      "vende": [
+       {
+        "n": "consumertechnology",
+        "p": 7486,
+        "d": 104
+       },
+       {
+        "n": "performanceenhancers",
+        "p": 7486,
+        "d": 54
+       },
+       {
+        "n": "progenitorcells",
+        "p": 7486,
+        "d": 58
+       },
+       {
+        "n": "terrainenrichmentsystems",
+        "p": 5805,
+        "d": 1533
+       },
+       {
+        "n": "onionheadc",
+        "p": 5530,
+        "d": 75
+       }
+      ],
+      "alta": [
+       {
+        "n": "pesticides",
+        "p": 892,
+        "m": 412
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 914,
+        "m": 447
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 892,
+        "m": 502
+       },
+       {
+        "n": "animalmonitors",
+        "p": 922,
+        "m": 522
+       },
+       {
+        "n": "hazardousenvironmentsuits",
+        "p": 892,
+        "m": 518
+       }
+      ],
+      "barato": [
+       {
+        "n": "algae",
+        "p": 33,
+        "m": 308,
+        "s": 2309
+       },
+       {
+        "n": "foodcartridges",
+        "p": 34,
+        "m": 252,
+        "s": 1058
+       },
+       {
+        "n": "grain",
+        "p": 95,
+        "m": 387,
+        "s": 1064
+       },
+       {
+        "n": "leather",
+        "p": 117,
+        "m": 423,
+        "s": 344
+       },
+       {
+        "n": "biowaste",
+        "p": 132,
+        "m": 271,
+        "s": 1248
+       }
+      ]
+     }
+    },
+    "Caceres Nutrition Biome": {
+     "f": "The Fatherhood",
+     "tipo": "OnFootSettlement",
+     "t": 1794935107,
+     "estado": "",
+     "ls": 1487,
+     "pads": {
+      "Small": 1,
+      "Medium": 0,
+      "Large": 1
+     },
+     "mid": 4335292675,
+     "mer": {
+      "t": 1794935116,
+      "n": 355,
+      "vende": [
+       {
+        "n": "lowtemperaturediamond",
+        "p": 166743,
+        "d": 3
+       },
+       {
+        "n": "consumertechnology",
+        "p": 7486,
+        "d": 56
+       },
+       {
+        "n": "performanceenhancers",
+        "p": 7486,
+        "d": 30
+       },
+       {
+        "n": "progenitorcells",
+        "p": 7486,
+        "d": 32
+       },
+       {
+        "n": "syntheticreagents",
+        "p": 7486,
+        "d": 125
+       }
+      ],
+      "alta": [
+       {
+        "n": "waterpurifiers",
+        "p": 1374,
+        "m": 447
+       },
+       {
+        "n": "water",
+        "p": 736,
+        "m": 260
+       },
+       {
+        "n": "foodcartridges",
+        "p": 595,
+        "m": 252
+       },
+       {
+        "n": "surfacestabilisers",
+        "p": 1427,
+        "m": 668
+       },
+       {
+        "n": "grain",
+        "p": 813,
+        "m": 387
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 107,
+        "m": 271,
+        "s": 47
+       }
+      ]
+     }
+    }
+   }
   },
   "NN 3365": {
    "sys": "NN 3365",
@@ -8514,6 +8724,9 @@
    "tk": {
     "firma": "fb61b771",
     "igual": 1794429248
+   },
+   "rutas": {
+    "2026-11-17": 1
    }
   },
   "Lan Caihe": {
@@ -9062,6 +9275,9 @@
    "tk": {
     "firma": "a410ef3e",
     "igual": 1794606404
+   },
+   "rutas": {
+    "2026-11-17": 1
    }
   },
   "Lyncis Sector KM-W c1-10": {
@@ -13239,6 +13455,9 @@
    },
    "trafico": {
     "2026-11-15": 1
+   },
+   "rutas": {
+    "2026-11-17": 1
    }
   },
   "Yin Sector XJ-A c21": {
@@ -14907,11 +15126,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794934043.8372107,
-  "msgs": 601282,
-  "mios": 37
+  "ultimo": 1794934640.0491028,
+  "msgs": 615282,
+  "mios": 38
  },
- "t": 1794934405.9883273,
+ "t": 1794935247.2144017,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -16109,7 +16328,7 @@
    "nfac": 5,
    "pob": 81052,
    "ctrl_n": "United Wolf 279 Alliance",
-   "t": 1794933458
+   "t": 1794935044
   },
   "Agrippa": {
    "pos": [
@@ -16123,6 +16342,19 @@
    "pob": 2252290,
    "ctrl_n": "Order of Enblackenment",
    "t": 1794934358
+  },
+  "Hyades Sector SK-M b8-3": {
+   "pos": [
+    -21.34375,
+    37.34375,
+    -96.125
+   ],
+   "ly": 9.6,
+   "junto": "Eluskapu",
+   "nfac": 5,
+   "pob": 106653987,
+   "ctrl_n": "The Winged Hussars",
+   "t": 1794934891
   }
  },
  "zona": {
@@ -16507,13 +16739,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.132997,
+   "prog": 0.132389,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794920061
+   "t": 1794934097
   },
   "Vivata": {
    "pos": [
@@ -17105,7 +17337,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794886475
+   "t": 1794935138
   },
   "Kou Zu": {
    "pos": [
@@ -18692,7 +18924,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794933458
+   "t": 1794935044
   },
   "Didayac": {
    "pos": [
@@ -18727,9 +18959,36 @@
     "Jerome Archer"
    ],
    "t": 1794934358
+  },
+  "Hyades Sector SK-M b8-3": {
+   "pos": [
+    -21.34375,
+    37.34375,
+    -96.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.086855,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794934891
   }
  },
  "codice": [
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Osseus 03 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794934886
+  },
   {
    "sys": "Hyades Sector MD-S c4-21",
    "n": "Bacterial 06 K",

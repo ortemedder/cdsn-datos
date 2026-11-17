@@ -13177,10 +13177,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794880559.1133704,
-  "msgs": 79617,
+  "msgs": 90947,
   "mios": 3
  },
- "t": 1794880931.6054337,
+ "t": 1794882032.2593932,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13260,7 +13260,7 @@
    "nfac": 4,
    "pob": 1794499,
    "ctrl_n": "East India Company",
-   "t": 1794878399
+   "t": 1794881973
   },
   "Tanmark": {
    "pos": [
@@ -13378,6 +13378,32 @@
    "pob": 155708,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
    "t": 1794879868
+  },
+  "Hyades Sector OT-P b6-1": {
+   "pos": [
+    16.4375,
+    32.9375,
+    -139.6875
+   ],
+   "ly": 17.9,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 504229644,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794881538
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "ly": 16.4,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 5,
+   "pob": 2805546,
+   "ctrl_n": "Verne Partners LLP",
+   "t": 1794881604
   }
  },
  "zona": {
@@ -13485,7 +13511,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274707,
+   "prog": 0.274755,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -13493,7 +13519,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794876508
+   "t": 1794881464
   },
   "LEHPM 1902": {
    "pos": [
@@ -13557,7 +13583,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794878399
+   "t": 1794881973
   },
   "Tanmark": {
    "pos": [
@@ -13838,9 +13864,68 @@
     "Li Yong-Rui"
    ],
    "t": 1794880557
+  },
+  "Hyades Sector OT-P b6-1": {
+   "pos": [
+    16.4375,
+    32.9375,
+    -139.6875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.235872,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794881538
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794881604
+  },
+  "Shenetserii": {
+   "pos": [
+    15.21875,
+    -44.3125,
+    -33.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.285384,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794882025
   }
  },
  "codice": [
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Bacterial 06 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794881206
+  },
   {
    "sys": "Hyades Sector MD-S c4-21",
    "n": "Stratum 03 K",

@@ -15767,15 +15767,141 @@
    "saltos": {
     "1794949200": 1
    }
+  },
+  "Col 285 Sector NY-Q c5-8": {
+   "sys": "Col 285 Sector NY-Q c5-8",
+   "t": 1794954394,
+   "src": "EDDN",
+   "inf": 50.65,
+   "ctrl": true,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Sirius Corporation",
+   "segunda_inf": 36.31,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 50.65,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Sirius Corporation",
+     "inf": 36.31,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Qahat Services",
+     "inf": 13.04,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -167,
+    23.25,
+    -137.0625
+   ],
+   "sis": {
+    "pob": 187393620,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "hinf": [
+    [
+     1794954394,
+     50.65
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "162aecc3",
+    "igual": 1794954394
+   },
+   "trafico": {
+    "2026-11-17": 2
+   },
+   "pn": {
+    "KLJ-0QB": {
+     "n": "ROMEO'S DESTINY",
+     "t": 1794954509,
+     "d": 1794954509
+    },
+    "HHQ-6HV": {
+     "n": "RIDER OF THE STORM",
+     "t": 1794954509,
+     "d": 1794954509
+    }
+   },
+   "estaciones": {
+    "Bulgakov Enterprise": {
+     "f": "Caballeros de Sion",
+     "tipo": "Dodec",
+     "t": 1794954554,
+     "estado": "",
+     "ls": 730,
+     "pads": {
+      "Small": 7,
+      "Medium": 10,
+      "Large": 5
+     },
+     "mid": 4309276675
+    },
+    "Gama's Inheritance": {
+     "f": "Caballeros de Sion",
+     "tipo": "Outpost",
+     "t": 1794954851,
+     "estado": "",
+     "ls": 409,
+     "pads": {
+      "Small": 3,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 4300059139
+    }
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794953358.7237673,
-  "msgs": 945046,
-  "mios": 68
+  "ultimo": 1794954400.0213406,
+  "msgs": 961309,
+  "mios": 69
  },
- "t": 1794954240.6222227,
+ "t": 1794955232.1206956,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16622,7 +16748,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1794904894
+   "t": 1794954987
   },
   "LTT 606": {
    "pos": [
@@ -17636,7 +17762,7 @@
    "nfac": 4,
    "pob": 1477905,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794951803
+   "t": 1794954636
   },
   "BD+11 1163": {
    "pos": [
@@ -17649,7 +17775,7 @@
    "nfac": 4,
    "pob": 437586,
    "ctrl_n": "Omega Merchant Command",
-   "t": 1794951374
+   "t": 1794954703
   },
   "Ghimr": {
    "pos": [
@@ -17728,6 +17854,71 @@
    "pob": 442148,
    "ctrl_n": "Lavigny's Legion",
    "t": 1794950661
+  },
+  "Hyades Sector PE-O b7-4": {
+   "pos": [
+    11.0625,
+    47.375,
+    -121.4375
+   ],
+   "ly": 13.9,
+   "junto": "Satvaneka",
+   "nfac": 3,
+   "pob": 203490,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794954686
+  },
+  "Mandra": {
+   "pos": [
+    104.96875,
+    -117.40625,
+    -7.46875
+   ],
+   "ly": 14.8,
+   "junto": "HIP 19292",
+   "nfac": 6,
+   "pob": 6910144,
+   "ctrl_n": "Bakara Empire Party",
+   "t": 1794954841
+  },
+  "Col 285 Sector AH-J b10-5": {
+   "pos": [
+    -175.4375,
+    8.625,
+    -139.90625
+   ],
+   "ly": 17.1,
+   "junto": "Col 285 Sector NY-Q c5-8",
+   "nfac": 3,
+   "pob": 1996612,
+   "ctrl_n": "Sirius Corporation",
+   "t": 1794955025
+  },
+  "Tascheter Sector CL-Y d104": {
+   "pos": [
+    -21.65625,
+    12.5625,
+    -68.1875
+   ],
+   "ly": 11.2,
+   "junto": "Menkalinan",
+   "nfac": 4,
+   "pob": 1594304,
+   "ctrl_n": "Blood Brothers from Alrai",
+   "t": 1794955035
+  },
+  "Loki Tan": {
+   "pos": [
+    32.375,
+    28.34375,
+    -109.375
+   ],
+   "ly": 19.3,
+   "junto": "Makum",
+   "nfac": 6,
+   "pob": 9175114,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794955186
   }
  },
  "zona": {
@@ -17818,14 +18009,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.249712,
+   "prog": 0.249721,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794938762
+   "t": 1794955210
   },
   "Dongkum": {
    "pos": [
@@ -18544,7 +18735,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794937316
+   "t": 1794955042
   },
   "HIP 31143": {
    "pos": [
@@ -19419,7 +19610,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794904894
+   "t": 1794954987
   },
   "Kenna": {
    "pos": [
@@ -20231,13 +20422,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.253404,
+   "prog": 0.252826,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794930945
+   "t": 1794955027
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -21524,7 +21715,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794951803
+   "t": 1794954636
   },
   "BD+11 1163": {
    "pos": [
@@ -21539,7 +21730,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794951374
+   "t": 1794954703
   },
   "Snotricopa": {
    "pos": [
@@ -21702,6 +21893,70 @@
     "A. Lavigny-Duval"
    ],
    "t": 1794950661
+  },
+  "Hyades Sector PE-O b7-4": {
+   "pos": [
+    11.0625,
+    47.375,
+    -121.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794954686
+  },
+  "Mandra": {
+   "pos": [
+    104.96875,
+    -117.40625,
+    -7.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.285895,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794954841
+  },
+  "Tascheter Sector CL-Y d104": {
+   "pos": [
+    -21.65625,
+    12.5625,
+    -68.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794955035
+  },
+  "Loki Tan": {
+   "pos": [
+    32.375,
+    28.34375,
+    -109.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.170283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794955186
   }
  },
  "codice": [

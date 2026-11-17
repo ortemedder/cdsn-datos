@@ -7213,7 +7213,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794903619,
+   "t": 1794904372,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7294,11 +7294,17 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 1
+    "2026-11-17": 4
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794903619
+    "igual": 1794904372
+   },
+   "saltos": {
+    "1794902400": 1
+   },
+   "rutas": {
+    "2026-11-17": 1
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -7314,6 +7320,12 @@
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -13995,11 +14007,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794903626.1290798,
-  "msgs": 272034,
-  "mios": 13
+  "ultimo": 1794904378.5181866,
+  "msgs": 278638,
+  "mios": 14
  },
- "t": 1794903745.8739452,
+ "t": 1794904656.6607387,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14782,6 +14794,58 @@
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
    "t": 1794903738
+  },
+  "Tascheter Sector AA-Z b2": {
+   "pos": [
+    30.59375,
+    1.03125,
+    -87.34375
+   ],
+   "ly": 8.4,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 4,
+   "pob": 272246,
+   "ctrl_n": "Flotta Stellare",
+   "t": 1794896053
+  },
+  "Bero": {
+   "pos": [
+    26.5625,
+    13.25,
+    -99.9375
+   ],
+   "ly": 14.2,
+   "junto": "Tascheter Sector BQ-Y c27",
+   "nfac": 5,
+   "pob": 7068912,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794896106
+  },
+  "Hyades Sector UU-N b7-4": {
+   "pos": [
+    26.46875,
+    13.59375,
+    -108.75
+   ],
+   "ly": 11.0,
+   "junto": "Hyades Sector SZ-N b7-0",
+   "nfac": 3,
+   "pob": 27804844,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794896188
+  },
+  "Dewikum": {
+   "pos": [
+    19.375,
+    -0.28125,
+    -68.9375
+   ],
+   "ly": 17.7,
+   "junto": "Ryujingit",
+   "nfac": 6,
+   "pob": 83688,
+   "ctrl_n": "Flotta Stellare",
+   "t": 1794897876
   }
  },
  "zona": {
@@ -14913,7 +14977,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794885715
+   "t": 1794903768
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -16373,6 +16437,91 @@
     "Zemina Torval"
    ],
    "t": 1794901874
+  },
+  "EGM 762": {
+   "pos": [
+    12.375,
+    -79.1875,
+    -3.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259166,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794903879
+  },
+  "Tascheter Sector AA-Z b2": {
+   "pos": [
+    30.59375,
+    1.03125,
+    -87.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794896053
+  },
+  "Bero": {
+   "pos": [
+    26.5625,
+    13.25,
+    -99.9375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Stronghold",
+   "prog": 0.340212,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794896106
+  },
+  "Hyades Sector UU-N b7-4": {
+   "pos": [
+    26.46875,
+    13.59375,
+    -108.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.108923,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794896188
+  },
+  "Dewikum": {
+   "pos": [
+    19.375,
+    -0.28125,
+    -68.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794897876
   }
  },
  "codice": [

@@ -7294,7 +7294,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 5
+    "2026-11-17": 8
    },
    "tk": {
     "firma": "9ac237db",
@@ -7310,12 +7310,12 @@
     "Planetary Construction Site: Leighton's Forge": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794904713,
+     "t": 1794905938,
      "estado": "",
      "ls": 1050,
      "mid": 4404154115,
      "mer": {
-      "t": 1794904723,
+      "t": 1794905947,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -7323,7 +7323,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -7331,6 +7331,26 @@
       "Small": 2,
       "Medium": 2,
       "Large": 3
+     }
+    },
+    "Orbital Construction Site: Herbig Platform": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1794906310,
+     "estado": "",
+     "ls": 1048,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3963368194,
+     "mer": {
+      "t": 1794906319,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -14013,10 +14033,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794905488.6578388,
-  "msgs": 284086,
+  "msgs": 290120,
   "mios": 15
  },
- "t": 1794905497.309743,
+ "t": 1794906418.2769039,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14185,9 +14205,9 @@
    "ly": 8.5,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 13190923,
+   "pob": 13285828,
    "ctrl_n": "Movement for BD-22 286 Free",
-   "t": 1794880927
+   "t": 1794905575
   },
   "Vivata": {
    "pos": [
@@ -14486,7 +14506,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794903401
+   "t": 1794905723
   },
   "Zephyrus": {
    "pos": [
@@ -14499,7 +14519,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794889932
+   "t": 1794906410
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -15238,7 +15258,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794880927
+   "t": 1794905575
   },
   "Ininohima": {
    "pos": [
@@ -15914,7 +15934,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794903401
+   "t": 1794905723
   },
   "Guei": {
    "pos": [
@@ -15948,7 +15968,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794889932
+   "t": 1794906410
   },
   "Choujem": {
    "pos": [
@@ -16573,6 +16593,21 @@
     "Pranav Antal"
    ],
    "t": 1794905464
+  },
+  "Patal": {
+   "pos": [
+    -1.3125,
+    -117.71875,
+    -52.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794905996
   }
  },
  "codice": [

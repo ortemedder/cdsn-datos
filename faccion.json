@@ -3977,7 +3977,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794950446,
+   "t": 1794952978,
    "src": "EDDN",
    "inf": 38.91,
    "ctrl": true,
@@ -4088,18 +4088,18 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 21
+    "2026-11-17": 22
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794950605
+     "t": 1794953043
     },
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794950605
+     "t": 1794953043
     }
    ],
    "pn": {
@@ -4109,18 +4109,18 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794950605,
+     "t": 1794953043,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794950605,
+     "t": 1794953043,
      "d": 1794888452
     }
    },
    "tk": {
     "firma": "d312cd18",
-    "igual": 1794950446,
+    "igual": 1794952978,
     "ult": 1794888421,
     "desde": 1794866661,
     "vent": [
@@ -4145,10 +4145,11 @@
     "1794916800": 1,
     "1794927600": 1,
     "1794938400": 1,
-    "1794949200": 1
+    "1794949200": 1,
+    "1794952800": 1
    },
    "rutas": {
-    "2026-11-17": 7
+    "2026-11-17": 8
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -4338,32 +4339,34 @@
   },
   "Elivagar": {
    "sys": "Elivagar",
-   "t": 1794758359,
+   "t": 1794953358,
    "src": "EDDN",
-   "inf": 39.17,
+   "inf": 38.98,
    "ctrl": true,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Elivagar for Equality",
-   "segunda_inf": 18.8,
+   "segunda_inf": 19.19,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 39.17,
+     "inf": 38.98,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Elivagar for Equality",
-     "inf": 18.8,
+     "inf": 19.19,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -4372,16 +4375,18 @@
     },
     {
      "n": "CHIMERA",
-     "inf": 11.61,
+     "inf": 11.52,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Elivagar Silver Advanced Ind",
-     "inf": 10.53,
+     "inf": 10.43,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -4433,9 +4438,9 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.123115,
+    "prog": 0.122765,
     "ref": 25,
-    "soc": 0,
+    "soc": 228,
     "pots": [
      "Edmund Mahon",
      "Pranav Antal",
@@ -4444,7 +4449,8 @@
    },
    "trafico": {
     "2026-11-10": 1,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-17": 2
    },
    "pn": {
     "AZF-3VB": {
@@ -4460,8 +4466,18 @@
      "t": 1794758359
     }
    },
-   "prev": 39.11,
-   "prev_t": 1794321834,
+   "tk": {
+    "firma": "78b3cd33",
+    "igual": 1794953358,
+    "ult": 1794953358,
+    "desde": 1794758359,
+    "est": null
+   },
+   "saltos": {
+    "1794952800": 2
+   },
+   "prev": 39.17,
+   "prev_t": 1794758359,
    "hinf": [
     [
      1794321834,
@@ -4470,12 +4486,24 @@
     [
      1794758359,
      39.17
+    ],
+    [
+     1794953358,
+     38.98
     ]
    ],
-   "tk": {
-    "firma": "00983917",
-    "igual": 1794758359
-   }
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Elivagar for Equality": 1,
+    "CHIMERA": 0,
+    "Elivagar Silver Advanced Ind": 0,
+    "Elivagar Law Party": 0,
+    "Traditional Elivagar Autocracy": 0,
+    "Elivagar Company": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794953358,
+   "tick_marg": 1624
   },
   "Makum": {
    "sys": "Makum",
@@ -8159,13 +8187,15 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794950700,
+   "t": 1794952905,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "The Fatherhood",
    "segunda_inf": 60.0,
@@ -8188,7 +8218,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -8196,9 +8228,7 @@
      "inf": 13.0,
      "gov": "Feudal",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -8240,11 +8270,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 68
+    "2026-11-17": 71
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794950700
+    "igual": 1794952905
    },
    "saltos": {
     "1794902400": 2,
@@ -8520,6 +8550,26 @@
      },
      "neg": {
       "Distance": 1
+     }
+    },
+    "Planetary Construction Site: Andrews Market": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1794953037,
+     "estado": "",
+     "ls": 700,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4404361731,
+     "mer": {
+      "t": 1794953045,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -15721,11 +15771,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794950703.7160316,
-  "msgs": 910864,
-  "mios": 65
+  "ultimo": 1794953358.7237673,
+  "msgs": 926598,
+  "mios": 68
  },
- "t": 1794952447.9057086,
+ "t": 1794953409.7781558,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -15805,7 +15855,7 @@
    "nfac": 4,
    "pob": 1795872,
    "ctrl_n": "East India Company",
-   "t": 1794948292
+   "t": 1794952934
   },
   "Tanmark": {
    "pos": [
@@ -16208,7 +16258,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794952090
+   "t": 1794952680
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -16442,7 +16492,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794951902
+   "t": 1794953128
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16728,7 +16778,7 @@
    "nfac": 5,
    "pob": 13010,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794911707
+   "t": 1794953002
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -16936,7 +16986,7 @@
    "nfac": 4,
    "pob": 2252290,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794939565
+   "t": 1794952900
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -17066,7 +17116,7 @@
    "nfac": 3,
    "pob": 22380762,
    "ctrl_n": "House of Saga",
-   "t": 1794945413
+   "t": 1794952721
   },
   "Umaspi": {
    "pos": [
@@ -17639,6 +17689,32 @@
    "pob": 404557,
    "ctrl_n": "East India Company",
    "t": 1794951916
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "ly": 19.9,
+   "junto": "Eurus",
+   "nfac": 5,
+   "pob": 97392,
+   "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
+   "t": 1794952872
+  },
+  "Hyades Sector UA-M b8-4": {
+   "pos": [
+    -47,
+    1.65625,
+    -94.34375
+   ],
+   "ly": 12.4,
+   "junto": "Jangore",
+   "nfac": 5,
+   "pob": 2400051,
+   "ctrl_n": "Astrobiology Research Cooperative",
+   "t": 1794953402
   }
  },
  "zona": {
@@ -17818,7 +17894,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794948292
+   "t": 1794952934
   },
   "Tanmark": {
    "pos": [
@@ -17869,7 +17945,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794877762
+   "t": 1794952751
   },
   "HIP 16460": {
    "pos": [
@@ -18209,7 +18285,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794919884
+   "t": 1794953321
   },
   "Gurabru": {
    "pos": [
@@ -18673,7 +18749,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794950446
+   "t": 1794952978
   },
   "Ross 332": {
    "pos": [
@@ -18723,7 +18799,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794952090
+   "t": 1794952680
   },
   "Choujem": {
    "pos": [
@@ -18752,7 +18828,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794941420
+   "t": 1794952715
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -19131,7 +19207,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794951902
+   "t": 1794953128
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -19627,7 +19703,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794911707
+   "t": 1794953002
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -19659,7 +19735,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794913198
+   "t": 1794952782
   },
   "Mukun": {
    "pos": [
@@ -20242,7 +20318,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794939565
+   "t": 1794952900
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -20462,12 +20538,12 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.197883,
+   "prog": 0.198412,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794945413
+   "t": 1794952721
   },
   "Umaspi": {
    "pos": [
@@ -21085,7 +21161,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794948822
+   "t": 1794953272
   },
   "ICZ GL-X b1-1": {
    "pos": [
@@ -21550,6 +21626,55 @@
     "Jerome Archer"
    ],
    "t": 1794952243
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.119923,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794952872
+  },
+  "Elivagar": {
+   "pos": [
+    -34.4375,
+    21.5625,
+    -93.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.122765,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794953358
+  },
+  "Hyades Sector UA-M b8-4": {
+   "pos": [
+    -47,
+    1.65625,
+    -94.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.025712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794953402
   }
  },
  "codice": [

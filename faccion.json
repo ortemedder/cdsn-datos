@@ -15127,10 +15127,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794934640.0491028,
-  "msgs": 615282,
+  "msgs": 629679,
   "mios": 38
  },
- "t": 1794935247.2144017,
+ "t": 1794936237.9798307,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15912,7 +15912,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794933393
+   "t": 1794936085
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16328,7 +16328,7 @@
    "nfac": 5,
    "pob": 81052,
    "ctrl_n": "United Wolf 279 Alliance",
-   "t": 1794935044
+   "t": 1794936229
   },
   "Agrippa": {
    "pos": [
@@ -16341,7 +16341,7 @@
    "nfac": 4,
    "pob": 2252290,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794934358
+   "t": 1794935757
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -16355,6 +16355,45 @@
    "pob": 106653987,
    "ctrl_n": "The Winged Hussars",
    "t": 1794934891
+  },
+  "Arietis Sector LN-S b4-5": {
+   "pos": [
+    -55.59375,
+    -14.03125,
+    -113
+   ],
+   "ly": 15.5,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 5,
+   "pob": 1487305,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794935473
+  },
+  "BD-09 956": {
+   "pos": [
+    23.84375,
+    -34.65625,
+    -48.53125
+   ],
+   "ly": 5.7,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 198739,
+   "ctrl_n": "East India Company",
+   "t": 1794935568
+  },
+  "Parrot's Head Sector EQ-Y c7": {
+   "pos": [
+    55.46875,
+    -131.21875,
+    968.28125
+   ],
+   "ly": 12.6,
+   "junto": "Parrot's Head Sector PS-T b3-3",
+   "nfac": 4,
+   "pob": 7024005260,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794935570
   }
  },
  "zona": {
@@ -18924,7 +18963,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794935044
+   "t": 1794936229
   },
   "Didayac": {
    "pos": [
@@ -18958,7 +18997,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794934358
+   "t": 1794935757
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -18976,6 +19015,71 @@
     "Jerome Archer"
    ],
    "t": 1794934891
+  },
+  "Arietis Sector LN-S b4-5": {
+   "pos": [
+    -55.59375,
+    -14.03125,
+    -113
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794935473
+  },
+  "BD-09 956": {
+   "pos": [
+    23.84375,
+    -34.65625,
+    -48.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794935568
+  },
+  "Mirongkomi": {
+   "pos": [
+    -58.78125,
+    -1.46875,
+    -93.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.158855,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794935940
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.265855,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794936157
   }
  },
  "codice": [

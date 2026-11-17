@@ -13068,10 +13068,183 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 1095,
+  "msgs": 17299,
   "mios": 0
  },
- "t": 0,
+ "t": 1794876679.0386155,
  "tick_global": 1794849994,
- "thargoides": {}
+ "thargoides": {},
+ "expansion": {
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "ly": 14.5,
+   "junto": "Menkalinan",
+   "nfac": 6,
+   "pob": 3999768496,
+   "ctrl_n": "THE AZGHARIE",
+   "t": 1794876107
+  },
+  "Col 285 Sector TD-T a33-3": {
+   "pos": [
+    146.6875,
+    -28.9375,
+    13.625
+   ],
+   "ly": 17.7,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1353297,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1794876149
+  },
+  "Tascheter Sector CL-Y d132": {
+   "pos": [
+    -25.53125,
+    -24.78125,
+    -99.8125
+   ],
+   "ly": 17.6,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 4,
+   "pob": 65884192,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1794876433
+  }
+ },
+ "zona": {
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.360439,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794875911
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794876091
+  },
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.264166,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794876107
+  },
+  "Col 285 Sector TD-T a33-3": {
+   "pos": [
+    146.6875,
+    -28.9375,
+    13.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794876149
+  },
+  "Tascheter Sector CL-Y d132": {
+   "pos": [
+    -25.53125,
+    -24.78125,
+    -99.8125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.304488,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794876433
+  },
+  "LP 302-22": {
+   "pos": [
+    -18.875,
+    -17.0625,
+    -79.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.249678,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794876458
+  },
+  "Dongkum": {
+   "pos": [
+    -17.875,
+    -11.75,
+    -90.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.274707,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794876508
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260326,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794876674
+  }
+ }
 }

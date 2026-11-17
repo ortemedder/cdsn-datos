@@ -3977,7 +3977,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794952978,
+   "t": 1794956913,
    "src": "EDDN",
    "inf": 38.91,
    "ctrl": true,
@@ -4071,8 +4071,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 1.032177,
-    "ref": 113362,
+    "prog": 1.040489,
+    "ref": 118765,
     "soc": 81447,
     "pots": [
      "Edmund Mahon",
@@ -4088,18 +4088,18 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 22
+    "2026-11-17": 23
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Med:#index=1;",
-     "i": "Med",
-     "t": 1794953043
-    },
-    {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794953043
+     "t": 1794956913
+    },
+    {
+     "n": "$Warzone_PointRace_Med:#index=1;",
+     "i": "Med",
+     "t": 1794956913
     }
    ],
    "pn": {
@@ -4109,18 +4109,18 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794953043,
+     "t": 1794956913,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794953043,
+     "t": 1794956913,
      "d": 1794888452
     }
    },
    "tk": {
     "firma": "d312cd18",
-    "igual": 1794952978,
+    "igual": 1794956913,
     "ult": 1794888421,
     "desde": 1794866661,
     "vent": [
@@ -4146,10 +4146,11 @@
     "1794927600": 1,
     "1794938400": 1,
     "1794949200": 1,
-    "1794952800": 1
+    "1794952800": 1,
+    "1794956400": 1
    },
    "rutas": {
-    "2026-11-17": 8
+    "2026-11-17": 9
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -15861,17 +15862,17 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-17": 3
+    "2026-11-17": 4
    },
    "pn": {
     "KLJ-0QB": {
      "n": "ROMEO'S DESTINY",
-     "t": 1794956041,
+     "t": 1794956138,
      "d": 1794954509
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794956041,
+     "t": 1794956138,
      "d": 1794954509
     }
    },
@@ -15911,6 +15912,19 @@
       "Large": 0
      },
      "mid": 4300059139
+    },
+    "Poncelet Gateway": {
+     "f": "Caballeros de Sion",
+     "tipo": "Coriolis",
+     "t": 1794956186,
+     "estado": "",
+     "ls": 305,
+     "pads": {
+      "Small": 9,
+      "Medium": 11,
+      "Large": 6
+     },
+     "mid": 4222529027
     }
    },
    "prev": null,
@@ -15927,11 +15941,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794956062.9911754,
-  "msgs": 976600,
-  "mios": 71
+  "ultimo": 1794956914.7057388,
+  "msgs": 993453,
+  "mios": 72
  },
- "t": 1794956063.966202,
+ "t": 1794956915.2734134,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16102,7 +16116,7 @@
    "nfac": 3,
    "pob": 13285828,
    "ctrl_n": "Movement for BD-22 286 Free",
-   "t": 1794905575
+   "t": 1794956141
   },
   "Vivata": {
    "pos": [
@@ -17142,7 +17156,7 @@
    "nfac": 4,
    "pob": 2252290,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794952900
+   "t": 1794956869
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -18027,6 +18041,84 @@
    "pob": 64056524,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794955990
+  },
+  "Yin Sector YU-Y b4": {
+   "pos": [
+    -34.34375,
+    17.03125,
+    -70.96875
+   ],
+   "ly": 14.2,
+   "junto": "Tascheter Sector CG-X b1-3",
+   "nfac": 4,
+   "pob": 1997947,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794956394
+  },
+  "Hyades Sector SZ-N b7-4": {
+   "pos": [
+    28.75,
+    26.21875,
+    -124.9375
+   ],
+   "ly": 12.7,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 2054973,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794956398
+  },
+  "Hyades Sector EB-X d1-117": {
+   "pos": [
+    19.96875,
+    27.75,
+    -131.71875
+   ],
+   "ly": 11.2,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 215699,
+   "ctrl_n": "Tiegfries Life Co",
+   "t": 1794956549
+  },
+  "Hyades Sector HC-U c3-10": {
+   "pos": [
+    12.65625,
+    28.84375,
+    -137
+   ],
+   "ly": 16.7,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 240479,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794956768
+  },
+  "Guambia": {
+   "pos": [
+    19,
+    19.59375,
+    -133.125
+   ],
+   "ly": 15.0,
+   "junto": "Ngargambo",
+   "nfac": 6,
+   "pob": 192489,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794956822
+  },
+  "Hyades Sector QO-P b6-5": {
+   "pos": [
+    28.25,
+    7.40625,
+    -130.125
+   ],
+   "ly": 17.8,
+   "junto": "Ngargambo",
+   "nfac": 3,
+   "pob": 2396473,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794956899
   }
  },
  "zona": {
@@ -18401,7 +18493,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794905575
+   "t": 1794956141
   },
   "Ininohima": {
    "pos": [
@@ -18697,7 +18789,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794884838
+   "t": 1794956312
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -19053,7 +19145,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 1.032177,
+   "prog": 1.040489,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -19061,7 +19153,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794952978
+   "t": 1794956913
   },
   "Ross 332": {
    "pos": [
@@ -20630,7 +20722,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794952900
+   "t": 1794956869
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -22187,6 +22279,131 @@
     "Li Yong-Rui"
    ],
    "t": 1794956061
+  },
+  "Mirdhing": {
+   "pos": [
+    8.15625,
+    35.71875,
+    -111.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.09772,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956190
+  },
+  "Yin Sector YU-Y b4": {
+   "pos": [
+    -34.34375,
+    17.03125,
+    -70.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.06914,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794956394
+  },
+  "Hyades Sector SZ-N b7-4": {
+   "pos": [
+    28.75,
+    26.21875,
+    -124.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.04114,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956398
+  },
+  "Hyades Sector EB-X d1-117": {
+   "pos": [
+    19.96875,
+    27.75,
+    -131.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.047426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956549
+  },
+  "Mukulcana": {
+   "pos": [
+    19.28125,
+    28.3125,
+    -137.15625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.259689,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956695
+  },
+  "Hyades Sector HC-U c3-10": {
+   "pos": [
+    12.65625,
+    28.84375,
+    -137
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.275404,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956768
+  },
+  "Guambia": {
+   "pos": [
+    19,
+    19.59375,
+    -133.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.253445,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956822
+  },
+  "Hyades Sector QO-P b6-5": {
+   "pos": [
+    28.25,
+    7.40625,
+    -130.125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.104429,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956899
   }
  },
  "codice": [

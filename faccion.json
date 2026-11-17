@@ -15772,10 +15772,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794953358.7237673,
-  "msgs": 926598,
+  "msgs": 945046,
   "mios": 68
  },
- "t": 1794953409.7781558,
+ "t": 1794954240.6222227,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17233,7 +17233,7 @@
    "nfac": 6,
    "pob": 1758431356,
    "ctrl_n": "The Fatherhood",
-   "t": 1794940817
+   "t": 1794953445
   },
   "LHS 6103": {
    "pos": [
@@ -17715,6 +17715,19 @@
    "pob": 2400051,
    "ctrl_n": "Astrobiology Research Cooperative",
    "t": 1794953402
+  },
+  "ICZ CV-Y c17": {
+   "pos": [
+    116.78125,
+    -102.25,
+    -16.90625
+   ],
+   "ly": 17.8,
+   "junto": "HIP 19292",
+   "nfac": 4,
+   "pob": 442148,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1794950661
   }
  },
  "zona": {
@@ -18056,7 +18069,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794878871
+   "t": 1794953570
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -18285,7 +18298,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794953321
+   "t": 1794954234
   },
   "Gurabru": {
    "pos": [
@@ -20075,7 +20088,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794926683
+   "t": 1794953846
   },
   "Kamuti": {
    "pos": [
@@ -20707,7 +20720,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794940817
+   "t": 1794953445
   },
   "LHS 6103": {
    "pos": [
@@ -21675,6 +21688,20 @@
     "Jerome Archer"
    ],
    "t": 1794953402
+  },
+  "ICZ CV-Y c17": {
+   "pos": [
+    116.78125,
+    -102.25,
+    -16.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794950661
   }
  },
  "codice": [

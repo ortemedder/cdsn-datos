@@ -2294,7 +2294,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1794866949,
+   "t": 1794922802,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -2303,12 +2303,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Guardians of Tranquillity",
-   "segunda_inf": 45.65,
+   "segunda_inf": 45.75,
    "conflictos": [],
    "todas": [
     {
      "n": "Guardians of Tranquillity",
-     "inf": 45.65,
+     "inf": 45.75,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -2317,7 +2317,7 @@
     },
     {
      "n": "East India Company",
-     "inf": 30.43,
+     "inf": 30.33,
      "gov": "Corporate",
      "alg": "Empire",
      "act": [
@@ -2352,7 +2352,7 @@
     -18.46875
    ],
    "sis": {
-    "pob": 2198211,
+    "pob": 2198244,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2372,21 +2372,33 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 1,
     "2026-11-10": 2,
     "2026-11-11": 2,
     "2026-11-12": 1,
     "2026-11-13": 1,
     "2026-11-14": 1,
     "2026-11-15": 3,
-    "2026-11-16": 5
+    "2026-11-16": 5,
+    "2026-11-17": 1
    },
    "tk": {
-    "firma": "94c05588",
-    "igual": 1794866949,
-    "ult": 1794698937,
-    "desde": 1794531890,
-    "est": null
+    "firma": "60db3419",
+    "igual": 1794922802,
+    "ult": 1794922802,
+    "desde": 1794866949,
+    "est": null,
+    "vent": [
+     [
+      1794866949,
+      1794922802
+     ]
+    ]
+   },
+   "saltos": {
+    "1794920400": 1
+   },
+   "rutas": {
+    "2026-11-17": 2
    },
    "prev": null,
    "prev_t": null,
@@ -2396,11 +2408,18 @@
      10.61
     ]
    ],
-   "tick_ult": 1794698937,
-   "tick_marg": 1392,
-   "rutas": {
-    "2026-11-17": 1
-   }
+   "rach": {
+    "Guardians of Tranquillity": 1,
+    "East India Company": 0,
+    "UICLI": 0,
+    "Caballeros de Sion": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794922802,
+   "tick_marg": 465,
+   "tick_prox": 1794981240,
+   "tick_disp": 465,
+   "tick_n": 0
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -14732,11 +14751,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794922371.4860253,
-  "msgs": 444644,
-  "mios": 27
+  "ultimo": 1794923320.1991394,
+  "msgs": 456013,
+  "mios": 28
  },
- "t": 1794922552.7762368,
+ "t": 1794923603.1567333,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15917,13 +15936,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.260369,
+   "prog": 0.260512,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794919787
+   "t": 1794922865
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -18028,6 +18047,39 @@
     "Jerome Archer"
    ],
    "t": 1794922429
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.265149,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794922802
+  },
+  "Padhyas": {
+   "pos": [
+    -1.625,
+    -12.6875,
+    -85.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.134283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794923594
   }
  },
  "codice": [

@@ -7213,7 +7213,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794907565,
+   "t": 1794908784,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7294,18 +7294,18 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 11
+    "2026-11-17": 13
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794907565
+    "igual": 1794908784
    },
    "saltos": {
     "1794902400": 2,
-    "1794906000": 1
+    "1794906000": 2
    },
    "rutas": {
-    "2026-11-17": 3
+    "2026-11-17": 4
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -7337,7 +7337,7 @@
     "Orbital Construction Site: Herbig Platform": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794906310,
+     "t": 1794909084,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -7347,11 +7347,17 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794906319,
-      "n": 0,
+      "t": 1794909093,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -14033,11 +14039,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794907570.233328,
-  "msgs": 304150,
-  "mios": 16
+  "ultimo": 1794908789.8293629,
+  "msgs": 313883,
+  "mios": 17
  },
- "t": 1794908160.18386,
+ "t": 1794909100.9556222,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14622,9 +14628,9 @@
    "ly": 10.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 217403,
+   "pob": 217432,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1794894595
+   "t": 1794908956
   },
   "Tascheter Sector BV-Y b2": {
    "pos": [
@@ -14754,7 +14760,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794907481
+   "t": 1794908796
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16259,7 +16265,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794894595
+   "t": 1794908956
   },
   "Tascheter Sector BV-Y b2": {
    "pos": [
@@ -16468,7 +16474,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794907481
+   "t": 1794908796
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [

@@ -358,7 +358,7 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 10
+    "2026-11-17": 12
    },
    "tk": {
     "firma": "d80c2167",
@@ -514,6 +514,103 @@
        "ok": 3,
        "no": 0
       }
+     }
+    },
+    "Bauer Industrial Productions": {
+     "f": "Caballeros de Sion",
+     "tipo": "OnFootSettlement",
+     "t": 1794943050,
+     "estado": "",
+     "ls": 470,
+     "pads": {
+      "Small": 0,
+      "Medium": 0,
+      "Large": 1
+     },
+     "mid": 4214203139,
+     "mer": {
+      "t": 1794943085,
+      "n": 366,
+      "vende": [
+       {
+        "n": "grandidierite",
+        "p": 153850,
+        "d": 6
+       },
+       {
+        "n": "iridium",
+        "p": 122505,
+        "d": 43
+       },
+       {
+        "n": "benitoite",
+        "p": 115138,
+        "d": 6
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 78918,
+        "d": 6
+       },
+       {
+        "n": "platinum",
+        "p": 50981,
+        "d": 253
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 596,
+        "m": 260
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 641,
+        "m": 354
+       },
+       {
+        "n": "beer",
+        "p": 630,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 661,
+        "m": 387
+       },
+       {
+        "n": "wine",
+        "p": 708,
+        "m": 417
+       }
+      ],
+      "barato": [
+       {
+        "n": "scrap",
+        "p": 57,
+        "m": 276,
+        "s": 2417
+       },
+       {
+        "n": "polymers",
+        "p": 87,
+        "m": 306,
+        "s": 5492
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 203,
+        "m": 402,
+        "s": 1530
+       },
+       {
+        "n": "hydrogenfuel",
+        "p": 76,
+        "m": 119,
+        "s": 5955
+       }
+      ]
      }
     }
    },
@@ -1234,7 +1331,7 @@
     "2026-11-14": 34,
     "2026-11-15": 9,
     "2026-11-16": 2,
-    "2026-11-17": 13
+    "2026-11-17": 15
    },
    "zc": [
     {
@@ -7913,7 +8010,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794941820,
+   "t": 1794943108,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7994,11 +8091,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 48
+    "2026-11-17": 51
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794941820
+    "igual": 1794943108
    },
    "saltos": {
     "1794902400": 2,
@@ -8007,10 +8104,11 @@
     "1794927600": 1,
     "1794931200": 3,
     "1794934800": 1,
-    "1794938400": 3
+    "1794938400": 3,
+    "1794942000": 1
    },
    "rutas": {
-    "2026-11-17": 14
+    "2026-11-17": 15
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -8241,7 +8339,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794942109,
+     "t": 1794943427,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8251,7 +8349,7 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794942116,
+      "t": 1794943435,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8259,7 +8357,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 9,
+       "ok": 10,
        "no": 0
       }
      }
@@ -15168,11 +15266,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794941905.1771183,
-  "msgs": 733056,
-  "mios": 48
+  "ultimo": 1794943111.560574,
+  "msgs": 748574,
+  "mios": 49
  },
- "t": 1794942278.9008937,
+ "t": 1794943440.3764548,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15655,7 +15753,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794939754
+   "t": 1794943394
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -16682,7 +16780,7 @@
    "nfac": 4,
    "pob": 1597851,
    "ctrl_n": "Aseveljet",
-   "t": 1794941860
+   "t": 1794943433
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -16696,6 +16794,32 @@
    "pob": 159200,
    "ctrl_n": "Liberals of Panorua",
    "t": 1794942266
+  },
+  "Arnemil": {
+   "pos": [
+    -38.5,
+    -2.875,
+    -67.8125
+   ],
+   "ly": 17.6,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 55206,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794943289
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "ly": 6.6,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 6,
+   "pob": 4855062,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794943381
   }
  },
  "zona": {
@@ -17780,7 +17904,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794939754
+   "t": 1794943394
   },
   "Choujem": {
    "pos": [
@@ -18651,7 +18775,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794910464
+   "t": 1794859801
   },
   "Any Na": {
    "pos": [
@@ -19024,7 +19148,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794926586
+   "t": 1794863094
   },
   "Tascheter Sector GR-M a7-0": {
    "pos": [
@@ -19786,7 +19910,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794941860
+   "t": 1794943433
   },
   "Wolf 186": {
    "pos": [
@@ -19818,6 +19942,39 @@
     "Zemina Torval"
    ],
    "t": 1794942266
+  },
+  "Arnemil": {
+   "pos": [
+    -38.5,
+    -2.875,
+    -67.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.176763,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794943289
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.339887,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794943381
   }
  },
  "codice": [

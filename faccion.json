@@ -6353,13 +6353,15 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794919881,
+   "t": 1794939516,
    "src": "EDDN",
    "inf": 61.36,
    "ctrl": true,
-   "estado": "None",
+   "estado": "War",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 16.4,
@@ -6371,7 +6373,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -6441,12 +6445,12 @@
     "2026-11-14": 8,
     "2026-11-15": 5,
     "2026-11-16": 1,
-    "2026-11-17": 3
+    "2026-11-17": 6
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794920019,
+     "t": 1794939647,
      "d": 1794919881
     },
     "V0Z-T1Q": {
@@ -6456,7 +6460,7 @@
    },
    "tk": {
     "firma": "f5005495",
-    "igual": 1794919881,
+    "igual": 1794939516,
     "ult": 1794919881,
     "desde": 1794827488,
     "est": null,
@@ -6476,64 +6480,17 @@
     ]
    },
    "saltos": {
-    "1794916800": 1
+    "1794916800": 1,
+    "1794938400": 1
    },
    "rutas": {
-    "2026-11-17": 1
+    "2026-11-17": 2
    },
-   "prev": 61.11,
-   "prev_t": 1794827488,
-   "hinf": [
-    [
-     1794331119,
-     59.94
-    ],
-    [
-     1794421989,
-     60.34
-    ],
-    [
-     1794513155,
-     58.36
-    ],
-    [
-     1794586083,
-     58.56
-    ],
-    [
-     1794677051,
-     58.95
-    ],
-    [
-     1794740537,
-     60.57
-    ],
-    [
-     1794827488,
-     61.11
-    ],
-    [
-     1794919881,
-     61.36
-    ]
-   ],
-   "rach": {
-    "Caballeros de Sion": 1,
-    "Sirius Special Forces": 0,
-    "THE AZGHARIE": 0,
-    "Aristocrats of Lhou Wangs": 0
-   },
-   "rivales": [],
-   "tick_ult": 1794919881,
-   "tick_marg": 769,
-   "tick_prox": 1794980070,
-   "tick_disp": 327,
-   "tick_n": 0,
    "estaciones": {
     "Piel City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794920185,
+     "t": 1794939767,
      "estado": "",
      "ls": 401,
      "pads": {
@@ -6543,7 +6500,7 @@
      },
      "mid": 4212382211,
      "mer": {
-      "t": 1794920240,
+      "t": 1794939823,
       "n": 366,
       "vende": [
        {
@@ -6563,8 +6520,8 @@
        },
        {
         "n": "monazite",
-        "p": 220477,
-        "d": 1744
+        "p": 220547,
+        "d": 1745
        },
        {
         "n": "serendibite",
@@ -6616,13 +6573,13 @@
         "n": "scrap",
         "p": 81,
         "m": 276,
-        "s": 258510
+        "s": 258513
        },
        {
         "n": "polymers",
         "p": 112,
         "m": 306,
-        "s": 1105042
+        "s": 1105052
        },
        {
         "n": "evacuationshelter",
@@ -6631,9 +6588,63 @@
         "s": 1123
        }
       ]
+     },
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
-   }
+   },
+   "prev": 61.11,
+   "prev_t": 1794827488,
+   "hinf": [
+    [
+     1794331119,
+     59.94
+    ],
+    [
+     1794421989,
+     60.34
+    ],
+    [
+     1794513155,
+     58.36
+    ],
+    [
+     1794586083,
+     58.56
+    ],
+    [
+     1794677051,
+     58.95
+    ],
+    [
+     1794740537,
+     60.57
+    ],
+    [
+     1794827488,
+     61.11
+    ],
+    [
+     1794919881,
+     61.36
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
+    "THE AZGHARIE": 0,
+    "Aristocrats of Lhou Wangs": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794919881,
+   "tick_marg": 769,
+   "tick_prox": 1794980070,
+   "tick_disp": 327,
+   "tick_n": 0
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
@@ -7890,7 +7901,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794937111,
+   "t": 1794939749,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7971,11 +7982,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 40
+    "2026-11-17": 41
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794937111
+    "igual": 1794939749
    },
    "saltos": {
     "1794902400": 2,
@@ -7983,10 +7994,11 @@
     "1794916800": 2,
     "1794927600": 1,
     "1794931200": 3,
-    "1794934800": 1
+    "1794934800": 1,
+    "1794938400": 1
    },
    "rutas": {
-    "2026-11-17": 11
+    "2026-11-17": 12
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -15144,11 +15156,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794937114.2585464,
-  "msgs": 673100,
-  "mios": 39
+  "ultimo": 1794939752.247595,
+  "msgs": 688435,
+  "mios": 41
  },
- "t": 1794938930.9214232,
+ "t": 1794939832.8695958,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15226,9 +15238,9 @@
    "ly": 7.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 1794499,
+   "pob": 1795872,
    "ctrl_n": "East India Company",
-   "t": 1794881973
+   "t": 1794938832
   },
   "Tanmark": {
    "pos": [
@@ -15631,7 +15643,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794937969
+   "t": 1794939754
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -15930,7 +15942,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794936085
+   "t": 1794939078
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16359,7 +16371,7 @@
    "nfac": 4,
    "pob": 2252290,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794935757
+   "t": 1794939565
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -16477,6 +16489,58 @@
    "pob": 148021,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1794938564
+  },
+  "Ceti Sector CL-X b1-3": {
+   "pos": [
+    10.0625,
+    -97.8125,
+    -55.875
+   ],
+   "ly": 6.5,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 3,
+   "pob": 22380762,
+   "ctrl_n": "House of Saga",
+   "t": 1794939235
+  },
+  "Umaspi": {
+   "pos": [
+    18.6875,
+    -72.71875,
+    -14.1875
+   ],
+   "ly": 19.8,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 6,
+   "pob": 2023524,
+   "ctrl_n": "Imperial Self Defense Force",
+   "t": 1794939257
+  },
+  "Tascheter Sector OX-U b2-7": {
+   "pos": [
+    19.25,
+    -54.75,
+    -45.15625
+   ],
+   "ly": 17.1,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 199035,
+   "ctrl_n": "East India Company",
+   "t": 1794939435
+  },
+  "Apadecavi": {
+   "pos": [
+    -5.25,
+    5.59375,
+    -117.5625
+   ],
+   "ly": 6.2,
+   "junto": "Hyades Sector JX-T c3-19",
+   "nfac": 6,
+   "pob": 7797550,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794939460
   }
  },
  "zona": {
@@ -16656,7 +16720,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794881973
+   "t": 1794938832
   },
   "Tanmark": {
    "pos": [
@@ -17554,14 +17618,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233382,
+   "prog": 0.233386,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794937969
+   "t": 1794939754
   },
   "Choujem": {
    "pos": [
@@ -18578,7 +18642,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794919881
+   "t": 1794939516
   },
   "Hu Jini": {
    "pos": [
@@ -19080,7 +19144,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794935757
+   "t": 1794939565
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -19144,7 +19208,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794935940
+   "t": 1794939600
   },
   "Ninmah": {
    "pos": [
@@ -19258,9 +19322,144 @@
     "Pranav Antal"
    ],
    "t": 1794938564
+  },
+  "Deriv-Dar": {
+   "pos": [
+    -4.46875,
+    11,
+    -82.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.262421,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794939018
+  },
+  "Nauacan": {
+   "pos": [
+    22.25,
+    -101.03125,
+    -56.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.115997,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794939184
+  },
+  "Ceti Sector CL-X b1-3": {
+   "pos": [
+    10.0625,
+    -97.8125,
+    -55.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.197698,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794939235
+  },
+  "Umaspi": {
+   "pos": [
+    18.6875,
+    -72.71875,
+    -14.1875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251309,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1794939257
+  },
+  "Ketekhmet": {
+   "pos": [
+    9.90625,
+    -102.5,
+    -23.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251148,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794939338
+  },
+  "Tascheter Sector OX-U b2-7": {
+   "pos": [
+    19.25,
+    -54.75,
+    -45.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794939435
+  },
+  "Apadecavi": {
+   "pos": [
+    -5.25,
+    5.59375,
+    -117.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.259542,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794939460
   }
  },
  "codice": [
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Bacterial 01 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 11 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794939626
+  },
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Stratum 06 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 11 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794939211
+  },
   {
    "sys": "Zach",
    "n": "Cactoid 02 M",

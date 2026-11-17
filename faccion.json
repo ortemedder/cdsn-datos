@@ -2404,7 +2404,7 @@
     "1794920400": 1
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 3
    },
    "prev": null,
    "prev_t": null,
@@ -4429,18 +4429,14 @@
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
-    "2026-11-16": 70,
+    "2026-11-16": 71,
     "2026-11-17": 27
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794930574,
+     "t": 1794855120,
      "d": 1794928703
-    },
-    "W8Q-BQM": {
-     "n": "EXQUISITE-EXCURSION",
-     "t": 1794328250
     },
     "KBG-B1L": {
      "n": "",
@@ -4448,15 +4444,17 @@
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1794870153
+     "t": 1794855120,
+     "d": 1794855069
     },
     "KBY-8QF": {
      "n": "SILVERTHORN",
-     "t": 1794870153
+     "t": 1794855120,
+     "d": 1794855069
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794930574,
+     "t": 1794855120,
      "d": 1794928703
     },
     "J9Z-01M": {
@@ -4699,6 +4697,25 @@
      "atq": {
       "2026-11-17": {
        "ok": 6,
+       "no": 0
+      }
+     }
+    },
+    "Shvets Works": {
+     "f": "Caballeros de Sion",
+     "tipo": "CraterOutpost",
+     "t": 1794859789,
+     "estado": "",
+     "ls": 2658,
+     "pads": {
+      "Small": 4,
+      "Medium": 2,
+      "Large": 2
+     },
+     "mid": 4402023427,
+     "atq": {
+      "2026-11-16": {
+       "ok": 1,
        "no": 0
       }
      }
@@ -15128,10 +15145,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794937114.2585464,
-  "msgs": 658313,
+  "msgs": 673100,
   "mios": 39
  },
- "t": 1794938059.662991,
+ "t": 1794938930.9214232,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15146,7 +15163,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794913422
+   "t": 1794938831
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -15276,7 +15293,7 @@
    "nfac": 4,
    "pob": 190178269,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794932696
+   "t": 1794938173
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -16095,7 +16112,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1794927556
+   "t": 1794938268
   },
   "Lokaantii": {
    "pos": [
@@ -16290,7 +16307,7 @@
    "nfac": 5,
    "pob": 4328269,
    "ctrl_n": "Flotta Stellare",
-   "t": 1794930913
+   "t": 1794938918
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -16447,6 +16464,19 @@
    "pob": 51667,
    "ctrl_n": "Quebecois Patriots",
    "t": 1794937931
+  },
+  "Col 285 Sector MZ-D b13-3": {
+   "pos": [
+    -179.0625,
+    14.78125,
+    -72.84375
+   ],
+   "ly": 9.6,
+   "junto": "Col 285 Sector KE-E b13-0",
+   "nfac": 4,
+   "pob": 148021,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1794938564
   }
  },
  "zona": {
@@ -16488,7 +16518,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.264535,
+   "prog": 0.261868,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -16496,7 +16526,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794913422
+   "t": 1794938831
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -16544,7 +16574,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794928804
+   "t": 1794938762
   },
   "Dongkum": {
    "pos": [
@@ -16562,7 +16592,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794938029
+   "t": 1794938819
   },
   "LEHPM 1902": {
    "pos": [
@@ -16773,7 +16803,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794932696
+   "t": 1794938173
   },
   "Moram": {
    "pos": [
@@ -18378,14 +18408,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.268725,
+   "prog": 0.269857,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794927556
+   "t": 1794938268
   },
   "Lokaantii": {
    "pos": [
@@ -18940,7 +18970,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794930913
+   "t": 1794938918
   },
   "HIP 25880": {
    "pos": [
@@ -19199,9 +19229,58 @@
     "Jerome Archer"
    ],
    "t": 1794937931
+  },
+  "Lenchis": {
+   "pos": [
+    27.8125,
+    -19.09375,
+    -99.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.061712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794938315
+  },
+  "Col 285 Sector MZ-D b13-3": {
+   "pos": [
+    -179.0625,
+    14.78125,
+    -72.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1794938564
   }
  },
  "codice": [
+  {
+   "sys": "Zach",
+   "n": "Cactoid 02 M",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Zach D 2",
+   "junto": "Menkalinan",
+   "ly": 11.2,
+   "t": 1794938589
+  },
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Clypeus 01 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 11 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794938392
+  },
   {
    "sys": "Hyades Sector MD-S c4-21",
    "n": "Osseus 03 K",

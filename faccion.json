@@ -3657,18 +3657,18 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 10
+    "2026-11-17": 12
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Low:#index=1;",
-     "i": "Low",
-     "t": 1794890343
-    },
-    {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794866872
+     "t": 1794902992
+    },
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1794902992
     }
    ],
    "pn": {
@@ -3678,12 +3678,12 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794890343,
+     "t": 1794902992,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794890343,
+     "t": 1794902992,
      "d": 1794888452
     }
    },
@@ -3825,6 +3825,28 @@
        }
       ]
      }
+    },
+    "Cook Silo": {
+     "f": "Caballeros de Sion",
+     "tipo": "CraterOutpost",
+     "t": 1794903088,
+     "estado": "",
+     "ls": 3151,
+     "pads": {
+      "Small": 4,
+      "Medium": 2,
+      "Large": 2
+     },
+     "mid": 3531454464,
+     "mer": {
+      "t": 1794903094,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     },
+     "mods": 123,
+     "mods_t": 1794903094
     }
    },
    "prev": 40.4,
@@ -7191,7 +7213,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794868347,
+   "t": 1794903619,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7251,7 +7273,7 @@
     960.6875
    ],
    "sis": {
-    "pob": 182418,
+    "pob": 216479,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -7271,11 +7293,29 @@
     "2026-11-11": 6,
     "2026-11-14": 25,
     "2026-11-15": 53,
-    "2026-11-16": 54
+    "2026-11-16": 54,
+    "2026-11-17": 1
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794868347
+    "igual": 1794903619
+   },
+   "estaciones": {
+    "Planetary Construction Site: Leighton's Forge": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1794903619,
+     "estado": "",
+     "ls": 1050,
+     "mid": 4404154115,
+     "mer": {
+      "t": 1794903633,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     }
+    }
    },
    "prev": null,
    "prev_t": null,
@@ -7284,7 +7324,9 @@
      1794409201,
      20.0
     ]
-   ]
+   ],
+   "rach": {},
+   "rivales": []
   },
   "Hyades Sector QZ-N b7-3": {
    "sys": "Hyades Sector QZ-N b7-3",
@@ -13953,11 +13995,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794902801.4204643,
-  "msgs": 266236,
-  "mios": 12
+  "ultimo": 1794903626.1290798,
+  "msgs": 272034,
+  "mios": 13
  },
- "t": 1794902805.204908,
+ "t": 1794903745.8739452,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14427,7 +14469,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794895077
+   "t": 1794903401
   },
   "Zephyrus": {
    "pos": [
@@ -14661,7 +14703,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794899110
+   "t": 1794903133
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -14727,6 +14769,19 @@
    "pob": 191065,
    "ctrl_n": "Verne Partners LLP",
    "t": 1794901461
+  },
+  "Parrot's Head Sector EL-Y d70": {
+   "pos": [
+    47.75,
+    -135.09375,
+    953.40625
+   ],
+   "ly": 17.6,
+   "junto": "Parrot's Head Sector DQ-Y c23",
+   "nfac": 3,
+   "pob": 173743461,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794903738
   }
  },
  "zona": {
@@ -15771,13 +15826,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.362352,
+   "prog": 0.365587,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794895077
+   "t": 1794903401
   },
   "Guei": {
    "pos": [
@@ -16197,13 +16252,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.015723,
+   "prog": 0.015854,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794899110
+   "t": 1794903133
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [

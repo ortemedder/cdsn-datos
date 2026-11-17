@@ -13170,10 +13170,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794879133.7012029,
-  "msgs": 56137,
+  "msgs": 69227,
   "mios": 2
  },
- "t": 1794879140.5615108,
+ "t": 1794880221.1620936,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13188,7 +13188,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794876107
+   "t": 1794879571
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -13319,6 +13319,58 @@
    "pob": 189958336,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
    "t": 1794877648
+  },
+  "Trianguli Sector QZ-O a6-0": {
+   "pos": [
+    27.8125,
+    -32.84375,
+    -62.0625
+   ],
+   "ly": 17.6,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 1555841,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1794879492
+  },
+  "Ceti Sector GR-V b2-4": {
+   "pos": [
+    10.53125,
+    -89.59375,
+    -26.8125
+   ],
+   "ly": 8.5,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 13190923,
+   "ctrl_n": "Movement for BD-22 286 Free",
+   "t": 1794879552
+  },
+  "Vivata": {
+   "pos": [
+    17.96875,
+    -77.375,
+    -17.59375
+   ],
+   "ly": 15.1,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 6,
+   "pob": 1348,
+   "ctrl_n": "East India Company",
+   "t": 1794880099
+  },
+  "Trianguli Sector BH-L a8-0": {
+   "pos": [
+    37.15625,
+    -44.96875,
+    -42.84375
+   ],
+   "ly": 12.9,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 155708,
+   "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
+   "t": 1794879868
   }
  },
  "zona": {
@@ -13368,7 +13420,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794876107
+   "t": 1794879571
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -13661,6 +13713,89 @@
     "Zemina Torval"
    ],
    "t": 1794878871
+  },
+  "Trianguli Sector QZ-O a6-0": {
+   "pos": [
+    27.8125,
+    -32.84375,
+    -62.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.031426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794879492
+  },
+  "Ceti Sector GR-V b2-4": {
+   "pos": [
+    10.53125,
+    -89.59375,
+    -26.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.260738,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794879552
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.135869,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794880036
+  },
+  "Vivata": {
+   "pos": [
+    17.96875,
+    -77.375,
+    -17.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794880099
+  },
+  "Trianguli Sector BH-L a8-0": {
+   "pos": [
+    37.15625,
+    -44.96875,
+    -42.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794879868
   }
  },
  "codice": [

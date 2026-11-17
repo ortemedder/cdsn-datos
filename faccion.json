@@ -4347,9 +4347,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794879132,
+   "t": 1794928581,
    "src": "EDDN",
-   "inf": 79.14,
+   "inf": 83.33,
    "ctrl": true,
    "estado": "Boom",
    "activos": [
@@ -4359,12 +4359,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 14.77,
+   "segunda_inf": 11.78,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 79.14,
+     "inf": 83.33,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4376,7 +4376,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 14.77,
+     "inf": 11.78,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -4385,7 +4385,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 6.09,
+     "inf": 4.89,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -4400,7 +4400,7 @@
     280.59375
    ],
    "sis": {
-    "pob": 56781994,
+    "pob": 60212863,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -4423,12 +4423,13 @@
     "2026-11-14": 42,
     "2026-11-15": 39,
     "2026-11-16": 70,
-    "2026-11-17": 3
+    "2026-11-17": 6
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794870153
+     "t": 1794928703,
+     "d": 1794928703
     },
     "W8Q-BQM": {
      "n": "EXQUISITE-EXCURSION",
@@ -4448,14 +4449,15 @@
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794870153
+     "t": 1794928703,
+     "d": 1794928703
     }
    },
    "tk": {
-    "firma": "8569ec69",
-    "igual": 1794879132,
-    "ult": 1794796745,
-    "desde": 1794766064,
+    "firma": "8969fec3",
+    "igual": 1794928581,
+    "ult": 1794928581,
+    "desde": 1794879132,
     "est": null,
     "vent": [
      [
@@ -4465,11 +4467,21 @@
      [
       1794766064,
       1794796745
+     ],
+     [
+      1794879132,
+      1794928581
      ]
     ],
     "hist": [
      1794701629
     ]
+   },
+   "saltos": {
+    "1794927600": 1
+   },
+   "rutas": {
+    "2026-11-17": 2
    },
    "estaciones": {
     "Vanaheim": {
@@ -4571,8 +4583,8 @@
      }
     }
    },
-   "prev": 78.24,
-   "prev_t": 1794766064,
+   "prev": 79.14,
+   "prev_t": 1794879132,
    "hinf": [
     [
      1794353391,
@@ -4601,13 +4613,21 @@
     [
      1794796745,
      79.14
+    ],
+    [
+     1794928581,
+     83.33
     ]
    ],
-   "rach": {},
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Natural Atese Front": 0,
+    "Wolves of Jonai": 0
+   },
    "rivales": [],
-   "tick_ult": 1794796745,
-   "tick_marg": 255,
-   "tick_prox": 1794874410,
+   "tick_ult": 1794928581,
+   "tick_marg": 412,
+   "tick_prox": 1794960810,
    "tick_disp": 6,
    "tick_n": 1
   },
@@ -14765,11 +14785,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794926868.3084867,
-  "msgs": 508560,
-  "mios": 29
+  "ultimo": 1794928582.6392176,
+  "msgs": 520083,
+  "mios": 30
  },
- "t": 1794928116.1279402,
+ "t": 1794928987.088355,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14873,9 +14893,9 @@
    "ly": 17.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 219679,
+   "pob": 219690,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1794877390
+   "t": 1794928528
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -15864,6 +15884,19 @@
    "pob": 122794115,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794926661
+  },
+  "Col 285 Sector UX-H b11-1": {
+   "pos": [
+    220.40625,
+    38.03125,
+    -123.1875
+   ],
+   "ly": 19.2,
+   "junto": "HIP 41850",
+   "nfac": 3,
+   "pob": 204162,
+   "ctrl_n": "Deutsche Elite Piloten Interstellar",
+   "t": 1794928978
   }
  },
  "zona": {
@@ -15961,7 +15994,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794926618
+   "t": 1794928804
   },
   "Dongkum": {
    "pos": [
@@ -15971,7 +16004,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274857,
+   "prog": 0.274877,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -15979,7 +16012,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794921059
+   "t": 1794928853
   },
   "LEHPM 1902": {
    "pos": [
@@ -16078,7 +16111,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794877390
+   "t": 1794928528
   },
   "LHS 1758": {
    "pos": [

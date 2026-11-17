@@ -7213,7 +7213,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794904372,
+   "t": 1794905482,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7294,29 +7294,29 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 4
+    "2026-11-17": 5
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794904372
+    "igual": 1794905482
    },
    "saltos": {
-    "1794902400": 1
+    "1794902400": 2
    },
    "rutas": {
-    "2026-11-17": 1
+    "2026-11-17": 2
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794903619,
+     "t": 1794904713,
      "estado": "",
      "ls": 1050,
      "mid": 4404154115,
      "mer": {
-      "t": 1794903633,
-      "n": 0,
+      "t": 1794904723,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
@@ -7326,6 +7326,11 @@
        "ok": 1,
        "no": 0
       }
+     },
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
      }
     }
    },
@@ -14007,11 +14012,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794904378.5181866,
-  "msgs": 278638,
-  "mios": 14
+  "ultimo": 1794905488.6578388,
+  "msgs": 284086,
+  "mios": 15
  },
- "t": 1794904656.6607387,
+ "t": 1794905497.309743,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14793,7 +14798,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794903738
+   "t": 1794904853
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -14846,6 +14851,19 @@
    "pob": 83688,
    "ctrl_n": "Flotta Stellare",
    "t": 1794897876
+  },
+  "Segon": {
+   "pos": [
+    -48.96875,
+    -0.6875,
+    -96
+   ],
+   "ly": 14.2,
+   "junto": "Jangore",
+   "nfac": 5,
+   "pob": 8144338,
+   "ctrl_n": "Astrobiology Research Cooperative",
+   "t": 1794904894
   }
  },
  "zona": {
@@ -16522,6 +16540,39 @@
     "Jerome Archer"
    ],
    "t": 1794897876
+  },
+  "Segon": {
+   "pos": [
+    -48.96875,
+    -0.6875,
+    -96
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.259698,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794904894
+  },
+  "Kenna": {
+   "pos": [
+    -5.5,
+    -100.53125,
+    -10.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.269227,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794905464
   }
  },
  "codice": [

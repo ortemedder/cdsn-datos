@@ -358,7 +358,7 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 3
+    "2026-11-17": 5
    },
    "tk": {
     "firma": "d80c2167",
@@ -481,6 +481,25 @@
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
      "t": 1794919560,
+     "estado": "",
+     "ls": 146953,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4404257539,
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
+     }
+    },
+    "Planetary Construction Site: Salinas Industrial Exchange": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1794921533,
      "estado": "",
      "ls": 146953,
      "pads": {
@@ -14509,10 +14528,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794920677.9974904,
-  "msgs": 422596,
+  "msgs": 433662,
   "mios": 25
  },
- "t": 1794920881.035237,
+ "t": 1794921712.0170746,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14566,7 +14585,7 @@
    "nfac": 3,
    "pob": 239234,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794920266
+   "t": 1794921704
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -14967,9 +14986,9 @@
    "ly": 19.4,
    "junto": "Synuefe VG-C c29-7",
    "nfac": 4,
-   "pob": 27736,
+   "pob": 33166,
    "ctrl_n": "The Winged Hussars",
-   "t": 1794887406
+   "t": 1794921404
   },
   "Ross 332": {
    "pos": [
@@ -14995,7 +15014,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794909369
+   "t": 1794921185
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -15502,7 +15521,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794911332
+   "t": 1794921201
   },
   "Bakuari": {
    "pos": [
@@ -15662,7 +15681,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274755,
+   "prog": 0.274857,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -15670,7 +15689,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794914390
+   "t": 1794921059
   },
   "LEHPM 1902": {
    "pos": [
@@ -15702,7 +15721,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794920266
+   "t": 1794921704
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -16639,7 +16658,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794909369
+   "t": 1794921185
   },
   "Choujem": {
    "pos": [
@@ -17520,14 +17539,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.145805,
+   "prog": 0.148769,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794911332
+   "t": 1794921201
   },
   "Bakuari": {
    "pos": [
@@ -17707,6 +17726,22 @@
     "Jerome Archer"
    ],
    "t": 1794920431
+  },
+  "Utero": {
+   "pos": [
+    -37.125,
+    33.71875,
+    -123.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794921357
   }
  },
  "codice": [

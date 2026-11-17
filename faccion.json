@@ -282,13 +282,15 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1794945272,
+   "t": 1794947269,
    "src": "EDDN",
    "inf": 57.7,
    "ctrl": true,
    "estado": "War",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 26.7,
@@ -300,7 +302,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -358,11 +362,11 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 21
+    "2026-11-17": 23
    },
    "tk": {
     "firma": "d80c2167",
-    "igual": 1794945272,
+    "igual": 1794947269,
     "ult": 1794920431,
     "desde": 1794738516,
     "est": null
@@ -716,6 +720,19 @@
        "no": 0
       }
      }
+    },
+    "Planetary Construction Site: Sangweni Military Base": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1794947373,
+     "estado": "",
+     "ls": 146204,
+     "pads": {
+      "Small": 1,
+      "Medium": 1,
+      "Large": 1
+     },
+     "mid": 4404343555
     }
    },
    "prev": 58.5,
@@ -6574,7 +6591,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794944791,
+   "t": 1794947891,
    "src": "EDDN",
    "inf": 61.36,
    "ctrl": true,
@@ -6666,12 +6683,12 @@
     "2026-11-14": 8,
     "2026-11-15": 5,
     "2026-11-16": 1,
-    "2026-11-17": 12
+    "2026-11-17": 13
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794944925,
+     "t": 1794947891,
      "d": 1794919881
     },
     "V0Z-T1Q": {
@@ -6681,7 +6698,7 @@
    },
    "tk": {
     "firma": "f5005495",
-    "igual": 1794944791,
+    "igual": 1794947891,
     "ult": 1794919881,
     "desde": 1794827488,
     "est": null,
@@ -6703,10 +6720,11 @@
    "saltos": {
     "1794916800": 1,
     "1794938400": 2,
-    "1794942000": 1
+    "1794942000": 1,
+    "1794945600": 1
    },
    "rutas": {
-    "2026-11-17": 4
+    "2026-11-17": 5
    },
    "estaciones": {
     "Piel City": {
@@ -8221,7 +8239,7 @@
     "1794942000": 3
    },
    "rutas": {
-    "2026-11-17": 17
+    "2026-11-17": 18
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -9228,7 +9246,10 @@
      1794326239,
      4.69
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "Hyades Sector UP-N b7-6": {
    "sys": "Hyades Sector UP-N b7-6",
@@ -15382,11 +15403,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794945571.5558255,
-  "msgs": 812464,
-  "mios": 54
+  "ultimo": 1794947892.266373,
+  "msgs": 827931,
+  "mios": 56
  },
- "t": 1794946786.5338168,
+ "t": 1794947977.9893746,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -15435,12 +15456,12 @@
     20.4375,
     -122.625
    ],
-   "ly": 7.1,
-   "junto": "Hyades Sector RZ-N b7-5",
+   "ly": 4.0,
+   "junto": "Hyades Sector RZ-N b7-3",
    "nfac": 3,
    "pob": 239234,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794921704
+   "t": 1794947218
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -15921,7 +15942,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1794892263
+   "t": 1794947217
   },
   "HIP 33497": {
    "pos": [
@@ -16103,7 +16124,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794945094
+   "t": 1794947830
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -16428,7 +16449,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794940405
+   "t": 1794947614
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -16988,6 +17009,45 @@
    "pob": 397957,
    "ctrl_n": "The 46th and 2nd Galactic Regiment",
    "t": 1794946775
+  },
+  "Lambayeque": {
+   "pos": [
+    120.53125,
+    -104.75,
+    -9.34375
+   ],
+   "ly": 16.0,
+   "junto": "HIP 19292",
+   "nfac": 4,
+   "pob": 22249,
+   "ctrl_n": "Yenici Patron's Principles",
+   "t": 1794947114
+  },
+  "Alhena": {
+   "pos": [
+    32.0625,
+    9.59375,
+    -104.0625
+   ],
+   "ly": 18.4,
+   "junto": "Hyades Sector SZ-N b7-0",
+   "nfac": 5,
+   "pob": 36761,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794947881
+  },
+  "ICZ CF-Z b5": {
+   "pos": [
+    124.65625,
+    -106.65625,
+    -13.84375
+   ],
+   "ly": 14.8,
+   "junto": "HIP 19292",
+   "nfac": 5,
+   "pob": 108054936,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1794947974
   }
  },
  "zona": {
@@ -17135,7 +17195,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794921704
+   "t": 1794947218
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -18162,14 +18222,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.233567,
+   "prog": 0.233659,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794892263
+   "t": 1794947217
   },
   "HIP 33497": {
    "pos": [
@@ -18480,7 +18540,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794945094
+   "t": 1794947830
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -19055,7 +19115,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794940405
+   "t": 1794947614
   },
   "Evenks": {
    "pos": [
@@ -19089,7 +19149,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794944791
+   "t": 1794947891
   },
   "Hu Jini": {
    "pos": [
@@ -19139,7 +19199,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794945272
+   "t": 1794947269
   },
   "Utero": {
    "pos": [
@@ -20257,6 +20317,85 @@
     "Jerome Archer"
    ],
    "t": 1794946775
+  },
+  "Lambayeque": {
+   "pos": [
+    120.53125,
+    -104.75,
+    -9.34375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.263448,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794947114
+  },
+  "Bota Ili": {
+   "pos": [
+    3.71875,
+    -6.78125,
+    -81.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.256118,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794947126
+  },
+  "Cailla": {
+   "pos": [
+    25.875,
+    1.875,
+    -107.625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Stronghold",
+   "prog": 0.263418,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794947157
+  },
+  "Alhena": {
+   "pos": [
+    32.0625,
+    9.59375,
+    -104.0625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.261261,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794947881
+  },
+  "ICZ CF-Z b5": {
+   "pos": [
+    124.65625,
+    -106.65625,
+    -13.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794947974
   }
  },
  "codice": [

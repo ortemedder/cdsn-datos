@@ -362,7 +362,7 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 24
+    "2026-11-17": 25
    },
    "tk": {
     "firma": "d80c2167",
@@ -2214,6 +2214,9 @@
    "tk": {
     "firma": "72efede1",
     "igual": 1794846206
+   },
+   "rutas": {
+    "2026-11-17": 2
    }
   },
   "Jitabed": {
@@ -8145,7 +8148,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794948175,
+   "t": 1794949101,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -8226,11 +8229,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 60
+    "2026-11-17": 63
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794948175
+    "igual": 1794949101
    },
    "saltos": {
     "1794902400": 2,
@@ -8241,7 +8244,7 @@
     "1794934800": 1,
     "1794938400": 3,
     "1794942000": 3,
-    "1794945600": 1
+    "1794945600": 2
    },
    "rutas": {
     "2026-11-17": 19
@@ -8475,7 +8478,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794948445,
+     "t": 1794949403,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8485,7 +8488,7 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794948452,
+      "t": 1794949410,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8493,7 +8496,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 13,
+       "ok": 14,
        "no": 1
       }
      },
@@ -15543,11 +15546,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794948768.4894626,
-  "msgs": 846182,
-  "mios": 59
+  "ultimo": 1794949104.5503469,
+  "msgs": 862484,
+  "mios": 60
  },
- "t": 1794948910.3710985,
+ "t": 1794949772.0452297,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -15562,7 +15565,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794938831
+   "t": 1794949493
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -15692,7 +15695,7 @@
    "nfac": 4,
    "pob": 190178269,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794938173
+   "t": 1794948946
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -15965,7 +15968,7 @@
    "nfac": 6,
    "pob": 3455292694,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794886110
+   "t": 1794949331
   },
   "HJ 3456B": {
    "pos": [
@@ -16329,7 +16332,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794948550
+   "t": 1794949497
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16381,7 +16384,7 @@
    "nfac": 6,
    "pob": 83688,
    "ctrl_n": "Flotta Stellare",
-   "t": 1794897876
+   "t": 1794949091
   },
   "Segon": {
    "pos": [
@@ -17214,6 +17217,58 @@
    "pob": 2043243,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794948282
+  },
+  "ICZ GL-X b1-1": {
+   "pos": [
+    121.25,
+    -122.5,
+    -0.0625
+   ],
+   "ly": 14.7,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 119891874,
+   "ctrl_n": "Bluestar PMC",
+   "t": 1794949375
+  },
+  "Nidarijedi": {
+   "pos": [
+    13.65625,
+    -104.90625,
+    -47.65625
+   ],
+   "ly": 8.6,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 6,
+   "pob": 4787137,
+   "ctrl_n": "Bommatsuri Emperor's Grace",
+   "t": 1794949570
+  },
+  "Tascheter Sector DG-O a6-3": {
+   "pos": [
+    20.15625,
+    -44.0625,
+    -40.8125
+   ],
+   "ly": 9.2,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 2000739,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794949588
+  },
+  "Ceti Sector CL-X b1-2": {
+   "pos": [
+    7.15625,
+    -102.28125,
+    -54.0625
+   ],
+   "ly": 1.9,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 3,
+   "pob": 46998283,
+   "ctrl_n": "Ukrainian Pilots Federation",
+   "t": 1794949628
   }
  },
  "zona": {
@@ -17255,7 +17310,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.261868,
+   "prog": 0.261871,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -17263,7 +17318,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794938831
+   "t": 1794949493
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -17523,7 +17578,7 @@
     "A. Lavigny-Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794946506
+   "t": 1794949678
   },
   "LHS 1734": {
    "pos": [
@@ -17540,7 +17595,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794938173
+   "t": 1794948946
   },
   "Moram": {
    "pos": [
@@ -18149,7 +18204,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794886110
+   "t": 1794949331
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -18889,7 +18944,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794897876
+   "t": 1794949091
   },
   "Segon": {
    "pos": [
@@ -19899,7 +19954,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794936157
+   "t": 1794948910
   },
   "Trianguli Sector WA-N a7-1": {
    "pos": [
@@ -20661,6 +20716,66 @@
     "Zemina Torval"
    ],
    "t": 1794948822
+  },
+  "ICZ GL-X b1-1": {
+   "pos": [
+    121.25,
+    -122.5,
+    -0.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794949375
+  },
+  "Nidarijedi": {
+   "pos": [
+    13.65625,
+    -104.90625,
+    -47.65625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.100569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794949570
+  },
+  "Tascheter Sector DG-O a6-3": {
+   "pos": [
+    20.15625,
+    -44.0625,
+    -40.8125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.084569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794949588
+  },
+  "Ceti Sector CL-X b1-2": {
+   "pos": [
+    7.15625,
+    -102.28125,
+    -54.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794949628
   }
  },
  "codice": [

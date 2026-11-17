@@ -3546,7 +3546,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794902800,
+   "t": 1794918171,
    "src": "EDDN",
    "inf": 38.91,
    "ctrl": true,
@@ -3640,8 +3640,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 1.002162,
-    "ref": 93852,
+    "prog": 1.016049,
+    "ref": 102879,
     "soc": 81447,
     "pots": [
      "Edmund Mahon",
@@ -3657,7 +3657,7 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 12
+    "2026-11-17": 13
    },
    "zc": [
     {
@@ -3689,7 +3689,7 @@
    },
    "tk": {
     "firma": "d312cd18",
-    "igual": 1794902800,
+    "igual": 1794918171,
     "ult": 1794888421,
     "desde": 1794866661,
     "vent": [
@@ -3710,10 +3710,11 @@
    },
    "saltos": {
     "1794888000": 2,
-    "1794902400": 1
+    "1794902400": 1,
+    "1794916800": 1
    },
    "rutas": {
-    "2026-11-17": 3
+    "2026-11-17": 4
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -7213,7 +7214,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794908784,
+   "t": 1794917728,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7294,18 +7295,19 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 19
+    "2026-11-17": 22
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794908784
+    "igual": 1794917728
    },
    "saltos": {
     "1794902400": 2,
-    "1794906000": 2
+    "1794906000": 2,
+    "1794916800": 1
    },
    "rutas": {
-    "2026-11-17": 4
+    "2026-11-17": 5
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -7355,7 +7357,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -7532,6 +7534,26 @@
       "vulture"
      ],
      "naves_t": 1794911746
+    },
+    "Orbital Construction Site: Fardane Point": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1794918058,
+     "estado": "",
+     "ls": 1048,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3963368194,
+     "mer": {
+      "t": 1794918067,
+      "n": 9,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     }
     }
    },
    "prev": null,
@@ -14212,11 +14234,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794916297.299975,
-  "msgs": 382324,
-  "mios": 19
+  "ultimo": 1794918172.5095756,
+  "msgs": 393400,
+  "mios": 21
  },
- "t": 1794917246.3148081,
+ "t": 1794918207.3537068,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14998,7 +15020,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794916764
+   "t": 1794918198
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -15167,7 +15189,7 @@
    "nfac": 5,
    "pob": 3082441,
    "ctrl_n": "East India Company",
-   "t": 1794909403
+   "t": 1794917905
   },
   "LP 834-42": {
    "pos": [
@@ -16272,7 +16294,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 1.002162,
+   "prog": 1.016049,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -16280,7 +16302,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794902800
+   "t": 1794918171
   },
   "Ross 332": {
    "pos": [
@@ -16947,14 +16969,14 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.269377,
+   "prog": 0.269547,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794913017
+   "t": 1794917735
   },
   "Patal": {
    "pos": [
@@ -17167,7 +17189,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794909403
+   "t": 1794917905
   },
   "LP 834-42": {
    "pos": [
@@ -17297,7 +17319,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794917234
+   "t": 1794918022
   }
  },
  "codice": [

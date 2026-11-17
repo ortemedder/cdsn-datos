@@ -13953,10 +13953,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 236546,
+  "msgs": 242109,
   "mios": 11
  },
- "t": 1794898023.1320016,
+ "t": 1794899113.4301918,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14099,9 +14099,9 @@
    "ly": 11.6,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 189958336,
+   "pob": 190178269,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794877648
+   "t": 1794899103
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -14648,6 +14648,19 @@
    "pob": 53896005,
    "ctrl_n": "East India Company",
    "t": 1794896512
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "ly": 17.1,
+   "junto": "Ngargambo",
+   "nfac": 5,
+   "pob": 31982,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794899110
   }
  },
  "zona": {
@@ -14974,7 +14987,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794877648
+   "t": 1794899103
   },
   "Moram": {
    "pos": [
@@ -15038,7 +15051,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794897317
+   "t": 1794899086
   },
   "Vivata": {
    "pos": [
@@ -16109,6 +16122,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794896512
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.015723,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794899110
   }
  },
  "codice": [

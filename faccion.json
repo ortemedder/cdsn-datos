@@ -7873,7 +7873,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794934041,
+   "t": 1794937111,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -7954,21 +7954,22 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 37
+    "2026-11-17": 38
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794934041
+    "igual": 1794937111
    },
    "saltos": {
     "1794902400": 2,
     "1794906000": 2,
     "1794916800": 2,
     "1794927600": 1,
-    "1794931200": 3
+    "1794931200": 3,
+    "1794934800": 1
    },
    "rutas": {
-    "2026-11-17": 10
+    "2026-11-17": 11
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -15126,11 +15127,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794934640.0491028,
-  "msgs": 629679,
-  "mios": 38
+  "ultimo": 1794937114.2585464,
+  "msgs": 643156,
+  "mios": 39
  },
- "t": 1794936237.9798307,
+ "t": 1794937118.521615,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -16172,7 +16173,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794930406
+   "t": 1794936399
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -17919,7 +17920,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794900026
+   "t": 1794936569
   },
   "Ross 345": {
    "pos": [
@@ -18461,7 +18462,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794930406
+   "t": 1794936399
   },
   "Evenks": {
    "pos": [

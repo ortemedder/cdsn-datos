@@ -15383,10 +15383,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794945571.5558255,
-  "msgs": 796146,
+  "msgs": 812464,
   "mios": 54
  },
- "t": 1794946176.1188831,
+ "t": 1794946786.5338168,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -15633,9 +15633,9 @@
    "ly": 16.9,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 47997186,
+   "pob": 47998307,
    "ctrl_n": "Hu Jini Patron's Principles",
-   "t": 1794883515
+   "t": 1794946654
   },
   "GR 316": {
    "pos": [
@@ -16975,6 +16975,19 @@
    "pob": 138120,
    "ctrl_n": "THE AZGHARIE",
    "t": 1794945976
+  },
+  "Tascheter Sector GR-M a7-1": {
+   "pos": [
+    25.90625,
+    -28.46875,
+    -30.28125
+   ],
+   "ly": 18.8,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 397957,
+   "ctrl_n": "The 46th and 2nd Galactic Regiment",
+   "t": 1794946775
   }
  },
  "zona": {
@@ -17284,7 +17297,7 @@
     "A. Lavigny-Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794878287
+   "t": 1794946506
   },
   "LHS 1734": {
    "pos": [
@@ -17530,7 +17543,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794883515
+   "t": 1794946654
   },
   "Nipibo": {
    "pos": [
@@ -20226,6 +20239,24 @@
     "Li Yong-Rui"
    ],
    "t": 1794945976
+  },
+  "Tascheter Sector GR-M a7-1": {
+   "pos": [
+    25.90625,
+    -28.46875,
+    -30.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794946775
   }
  },
  "codice": [

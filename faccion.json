@@ -358,7 +358,7 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 18
+    "2026-11-17": 21
    },
    "tk": {
     "firma": "d80c2167",
@@ -501,7 +501,7 @@
     "Planetary Construction Site: Salinas Industrial Exchange": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794944439,
+     "t": 1794946013,
      "estado": "",
      "ls": 146954,
      "pads": {
@@ -512,7 +512,7 @@
      "mid": 4404257539,
      "atq": {
       "2026-11-17": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      }
@@ -1435,7 +1435,7 @@
     "2026-11-14": 34,
     "2026-11-15": 9,
     "2026-11-16": 2,
-    "2026-11-17": 15
+    "2026-11-17": 16
    },
    "zc": [
     {
@@ -2200,16 +2200,14 @@
   },
   "Jitabed": {
    "sys": "Jitabed",
-   "t": 1794741240,
+   "t": 1794945569,
    "src": "EDDN",
    "inf": 45.92,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 19.38,
    "conflictos": [],
@@ -2310,17 +2308,25 @@
    },
    "trafico": {
     "2026-11-14": 1,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-17": 2
    },
    "pn": {
     "CZJ-02M": {
      "n": "THE DISTILLERY",
-     "t": 1794741240
+     "t": 1794945569,
+     "d": 1794945569
     }
    },
    "tk": {
     "firma": "6e768b81",
-    "igual": 1794741240
+    "igual": 1794945569
+   },
+   "saltos": {
+    "1794942000": 2
+   },
+   "rutas": {
+    "2026-11-17": 3
    },
    "prev": 46.12,
    "prev_t": 1794143086,
@@ -2334,9 +2340,8 @@
      45.92
     ]
    ],
-   "rutas": {
-    "2026-11-17": 3
-   }
+   "rach": {},
+   "rivales": []
   },
   "Catun": {
    "sys": "Catun",
@@ -8118,7 +8123,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794944223,
+   "t": 1794945399,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -8199,11 +8204,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 54
+    "2026-11-17": 57
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794944223
+    "igual": 1794945399
    },
    "saltos": {
     "1794902400": 2,
@@ -8213,7 +8218,7 @@
     "1794931200": 3,
     "1794934800": 1,
     "1794938400": 3,
-    "1794942000": 2
+    "1794942000": 3
    },
    "rutas": {
     "2026-11-17": 17
@@ -8447,7 +8452,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794944521,
+     "t": 1794945706,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8457,7 +8462,7 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794944528,
+      "t": 1794945713,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8465,9 +8470,12 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 11,
-       "no": 0
+       "ok": 12,
+       "no": 1
       }
+     },
+     "neg": {
+      "Distance": 1
      }
     }
    },
@@ -15374,12 +15382,12 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794945273.6217723,
-  "msgs": 779378,
-  "mios": 52
+  "ultimo": 1794945571.5558255,
+  "msgs": 796146,
+  "mios": 54
  },
- "t": 1794945274.3238208,
- "tick_global": 1794849994,
+ "t": 1794946176.1188831,
+ "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
   "Lalande 10797": {
@@ -16160,7 +16168,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794944731
+   "t": 1794945885
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16719,7 +16727,7 @@
    "nfac": 3,
    "pob": 22380762,
    "ctrl_n": "House of Saga",
-   "t": 1794941982
+   "t": 1794945413
   },
   "Umaspi": {
    "pos": [
@@ -16940,7 +16948,33 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1794944196
+   "t": 1794945468
+  },
+  "Alpha Doradus": {
+   "pos": [
+    125.9375,
+    -111.28125,
+    -14
+   ],
+   "ly": 11.7,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 2168567,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1794945529
+  },
+  "Tascheter Sector ZZ-Y b4": {
+   "pos": [
+    12.28125,
+    4.40625,
+    -102.375
+   ],
+   "ly": 4.9,
+   "junto": "Tascheter Sector BQ-Y c27",
+   "nfac": 5,
+   "pob": 138120,
+   "ctrl_n": "THE AZGHARIE",
+   "t": 1794945976
   }
  },
  "zona": {
@@ -17590,13 +17624,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.193309,
+   "prog": 0.193474,
    "pots": [
     "Edmund Mahon",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794884757
+   "t": 1794945634
   },
   "HIP 33287": {
    "pos": [
@@ -19764,12 +19798,12 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.197698,
+   "prog": 0.197883,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1794941982
+   "t": 1794945413
   },
   "Umaspi": {
    "pos": [
@@ -20129,7 +20163,69 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1794944196
+   "t": 1794945468
+  },
+  "LTT 1391": {
+   "pos": [
+    7.0625,
+    -96.03125,
+    -68.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794945306
+  },
+  "Alpha Doradus": {
+   "pos": [
+    125.9375,
+    -111.28125,
+    -14
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794945529
+  },
+  "Jitabed": {
+   "pos": [
+    -19.75,
+    -0.78125,
+    -115.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.080569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794945569
+  },
+  "Tascheter Sector ZZ-Y b4": {
+   "pos": [
+    12.28125,
+    4.40625,
+    -102.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794945976
   }
  },
  "codice": [

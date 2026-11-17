@@ -13947,10 +13947,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 216429,
+  "msgs": 224558,
   "mios": 11
  },
- "t": 1794895431.9171584,
+ "t": 1794896522.6851957,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14459,7 +14459,7 @@
    "nfac": 4,
    "pob": 1992610,
    "ctrl_n": "Galaxy Express",
-   "t": 1794891237
+   "t": 1794896269
   },
   "LTT 11383": {
    "pos": [
@@ -14498,7 +14498,7 @@
    "nfac": 3,
    "pob": 3497253957,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794892311
+   "t": 1794896205
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -14577,6 +14577,71 @@
    "pob": 16424,
    "ctrl_n": "Quebecois Patriots",
    "t": 1794895410
+  },
+  "Col 285 Sector VJ-R a34-0": {
+   "pos": [
+    129.84375,
+    -30.9375,
+    21.375
+   ],
+   "ly": 17.7,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1384798,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1794895838
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "ly": 18.9,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 65924171,
+   "ctrl_n": "G.O.M. Collective",
+   "t": 1794890976
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "ly": 12.2,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 6,
+   "pob": 388147,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1794896426
+  },
+  "Ceti Sector GR-V b2-3": {
+   "pos": [
+    5.65625,
+    -90.125,
+    -31.78125
+   ],
+   "ly": 13.7,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 2633541,
+   "ctrl_n": "East India Company",
+   "t": 1794896469
+  },
+  "Maiden": {
+   "pos": [
+    -8,
+    -98.28125,
+    -51.40625
+   ],
+   "ly": 17.4,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 5,
+   "pob": 53896005,
+   "ctrl_n": "East India Company",
+   "t": 1794896512
   }
  },
  "zona": {
@@ -15724,7 +15789,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794891237
+   "t": 1794896269
   },
   "LTT 11383": {
    "pos": [
@@ -15774,7 +15839,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794892311
+   "t": 1794896205
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -15926,6 +15991,118 @@
     "Jerome Archer"
    ],
    "t": 1794895363
+  },
+  "Col 285 Sector VJ-R a34-0": {
+   "pos": [
+    129.84375,
+    -30.9375,
+    21.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794895838
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.126283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794890976
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.253597,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794891027
+  },
+  "Chimechilo": {
+   "pos": [
+    20.8125,
+    -84.875,
+    -12.90625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260738,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794896417
+  },
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794896426
+  },
+  "Ceti Sector GR-V b2-3": {
+   "pos": [
+    5.65625,
+    -90.125,
+    -31.78125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.122283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794896469
+  },
+  "Maiden": {
+   "pos": [
+    -8,
+    -98.28125,
+    -51.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.264306,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794896512
   }
  },
  "codice": [

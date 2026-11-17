@@ -14213,10 +14213,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794908789.8293629,
-  "msgs": 359298,
+  "msgs": 366313,
   "mios": 17
  },
- "t": 1794914554.5861056,
+ "t": 1794915024.9800713,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14686,7 +14686,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794910447
+   "t": 1794914840
   },
   "Zephyrus": {
    "pos": [
@@ -14907,7 +14907,7 @@
    "nfac": 5,
    "pob": 53896005,
    "ctrl_n": "East India Company",
-   "t": 1794896512
+   "t": 1794915016
   },
   "Wo 9203": {
    "pos": [
@@ -15233,6 +15233,19 @@
    "pob": 397678,
    "ctrl_n": "East India Company",
    "t": 1794912377
+  },
+  "Mukun": {
+   "pos": [
+    -40.9375,
+    31.15625,
+    -100.25
+   ],
+   "ly": 13.6,
+   "junto": "Elivagar",
+   "nfac": 4,
+   "pob": 24555,
+   "ctrl_n": "Mukun Prison Colony",
+   "t": 1794914668
   }
  },
  "zona": {
@@ -16277,13 +16290,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.36643,
+   "prog": 0.366675,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794910447
+   "t": 1794914840
   },
   "Guei": {
    "pos": [
@@ -16693,7 +16706,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1794896512
+   "t": 1794915016
   },
   "Wo 9203": {
    "pos": [
@@ -17254,6 +17267,22 @@
     "Pranav Antal"
    ],
    "t": 1794913198
+  },
+  "Mukun": {
+   "pos": [
+    -40.9375,
+    31.15625,
+    -100.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794914668
   }
  },
  "codice": [

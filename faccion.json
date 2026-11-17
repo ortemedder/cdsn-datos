@@ -360,7 +360,7 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 1
+    "2026-11-17": 2
    },
    "tk": {
     "firma": "67410ade",
@@ -498,6 +498,19 @@
        }
       ]
      }
+    },
+    "Planetary Construction Site: Takeuchi Engineering Site": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1794919560,
+     "estado": "",
+     "ls": 146953,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4404257539
     }
    }
   },
@@ -6121,23 +6134,21 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794827488,
+   "t": 1794919881,
    "src": "EDDN",
-   "inf": 61.11,
+   "inf": 61.36,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 16.49,
+   "segunda_inf": 16.4,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 61.11,
+     "inf": 61.36,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -6146,7 +6157,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 16.49,
+     "inf": 16.4,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -6157,18 +6168,18 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 12.14,
+     "inf": 12.06,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "Aristocrats of Lhou Wangs",
-     "inf": 10.27,
+     "inf": 10.18,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -6183,7 +6194,7 @@
     -120
    ],
    "sis": {
-    "pob": 101175821,
+    "pob": 101588139,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -6210,12 +6221,14 @@
     "2026-11-12": 6,
     "2026-11-14": 8,
     "2026-11-15": 5,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-17": 1
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794827500
+     "t": 1794919881,
+     "d": 1794919881
     },
     "V0Z-T1Q": {
      "n": "AVALON",
@@ -6223,10 +6236,10 @@
     }
    },
    "tk": {
-    "firma": "dead0373",
-    "igual": 1794827488,
-    "ult": 1794827488,
-    "desde": 1794763684,
+    "firma": "f5005495",
+    "igual": 1794919881,
+    "ult": 1794919881,
+    "desde": 1794827488,
     "est": null,
     "vent": [
      [
@@ -6243,8 +6256,14 @@
      ]
     ]
    },
-   "prev": 60.57,
-   "prev_t": 1794763684,
+   "saltos": {
+    "1794916800": 1
+   },
+   "rutas": {
+    "2026-11-17": 1
+   },
+   "prev": 61.11,
+   "prev_t": 1794827488,
    "hinf": [
     [
      1794331119,
@@ -6273,11 +6292,22 @@
     [
      1794827488,
      61.11
+    ],
+    [
+     1794919881,
+     61.36
     ]
    ],
-   "tick_ult": 1794827488,
-   "tick_marg": 531,
-   "tick_prox": 1794893670,
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
+    "THE AZGHARIE": 0,
+    "Aristocrats of Lhou Wangs": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794919881,
+   "tick_marg": 769,
+   "tick_prox": 1794980070,
    "tick_disp": 327,
    "tick_n": 0
   },
@@ -7413,7 +7443,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 23
+    "2026-11-17": 25
    },
    "tk": {
     "firma": "9ac237db",
@@ -7656,7 +7686,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794918058,
+     "t": 1794919371,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -7666,11 +7696,17 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794918067,
-      "n": 9,
+      "t": 1794919381,
+      "n": 3,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -14352,11 +14388,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794919072.453683,
-  "msgs": 403579,
-  "mios": 22
+  "ultimo": 1794919882.4932778,
+  "msgs": 413188,
+  "mios": 23
  },
- "t": 1794919078.6382287,
+ "t": 1794920009.9510763,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15138,7 +15174,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794918198
+   "t": 1794920001
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -15386,6 +15422,19 @@
    "pob": 24555,
    "ctrl_n": "Mukun Prison Colony",
    "t": 1794914668
+  },
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "ly": 13.2,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 6,
+   "pob": 10083939,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1794919604
   }
  },
  "zona": {
@@ -15511,13 +15560,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.260326,
+   "prog": 0.260369,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794903768
+   "t": 1794919787
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -15956,7 +16005,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794884878
+   "t": 1794919884
   },
   "Gurabru": {
    "pos": [
@@ -17437,7 +17486,72 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794918022
+   "t": 1794919993
+  },
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.211764,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794919604
+  },
+  "Evenks": {
+   "pos": [
+    -37.5,
+    19.65625,
+    -79.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.241712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794919875
+  },
+  "Hyades Sector SU-N b7-0": {
+   "pos": [
+    -19.59375,
+    -0.40625,
+    -120
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794919881
+  },
+  "Hu Jini": {
+   "pos": [
+    139.125,
+    -22.09375,
+    2.96875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.261438,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794919939
   }
  },
  "codice": [

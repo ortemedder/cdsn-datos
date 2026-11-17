@@ -13068,10 +13068,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 30878,
+  "msgs": 45089,
   "mios": 0
  },
- "t": 1794877399.422723,
+ "t": 1794878460.0791557,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13151,7 +13151,7 @@
    "nfac": 4,
    "pob": 1794499,
    "ctrl_n": "East India Company",
-   "t": 1794877310
+   "t": 1794878399
   },
   "Tanmark": {
    "pos": [
@@ -13178,6 +13178,32 @@
    "pob": 219679,
    "ctrl_n": "Movement for LHS 20 Liberals",
    "t": 1794877390
+  },
+  "Tascheter Sector FR-M a7-2": {
+   "pos": [
+    17.0625,
+    -34.09375,
+    -33.84375
+   ],
+   "ly": 15.8,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 1997963,
+   "ctrl_n": "Movement for LHS 20 Liberals",
+   "t": 1794878107
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "ly": 15.7,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 5,
+   "pob": 161723,
+   "ctrl_n": "East India Company",
+   "t": 1794878116
   }
  },
  "zona": {
@@ -13357,7 +13383,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794877310
+   "t": 1794878399
   },
   "Tanmark": {
    "pos": [
@@ -13393,6 +13419,113 @@
     "Jerome Archer"
    ],
    "t": 1794877390
+  },
+  "LHS 1758": {
+   "pos": [
+    -38.125,
+    17.71875,
+    -72.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794877762
+  },
+  "HIP 16460": {
+   "pos": [
+    106.40625,
+    -131.0625,
+    -11.125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.251403,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794877992
+  },
+  "Tascheter Sector FR-M a7-2": {
+   "pos": [
+    17.0625,
+    -34.09375,
+    -33.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.057089,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794878107
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.284832,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794878116
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794878188
+  },
+  "Feng Tanga": {
+   "pos": [
+    5.75,
+    -113.125,
+    -67.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.135412,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794878287
   }
- }
+ },
+ "codice": [
+  {
+   "sys": "Hyades Sector MD-S c4-21",
+   "n": "Aleoids 04 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
+   "junto": "LP 158-2",
+   "ly": 19.2,
+   "t": 1794878448
+  }
+ ]
 }

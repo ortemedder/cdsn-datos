@@ -7954,7 +7954,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 38
+    "2026-11-17": 40
    },
    "tk": {
     "firma": "9ac237db",
@@ -8200,7 +8200,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794934389,
+     "t": 1794937400,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8210,15 +8210,15 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794934396,
-      "n": 3,
+      "t": 1794937407,
+      "n": 5,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-17": {
-       "ok": 5,
+       "ok": 6,
        "no": 0
       }
      }
@@ -15128,10 +15128,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794937114.2585464,
-  "msgs": 643156,
+  "msgs": 658313,
   "mios": 39
  },
- "t": 1794937118.521615,
+ "t": 1794938059.662991,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15614,7 +15614,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794921185
+   "t": 1794937969
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -16329,7 +16329,7 @@
    "nfac": 5,
    "pob": 81052,
    "ctrl_n": "United Wolf 279 Alliance",
-   "t": 1794936229
+   "t": 1794937761
   },
   "Agrippa": {
    "pos": [
@@ -16395,6 +16395,58 @@
    "pob": 7024005260,
    "ctrl_n": "The Fatherhood",
    "t": 1794935570
+  },
+  "Trianguli Sector WA-N a7-1": {
+   "pos": [
+    28.46875,
+    -41.09375,
+    -50.1875
+   ],
+   "ly": 5.4,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 59888784,
+   "ctrl_n": "Vulcan Coalition",
+   "t": 1794937197
+  },
+  "ICZ CF-Z b4": {
+   "pos": [
+    122.25,
+    -117.78125,
+    -16.21875
+   ],
+   "ly": 5.2,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 159717,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1794937600
+  },
+  "BD+47 977": {
+   "pos": [
+    -42.75,
+    -1.03125,
+    -92.21875
+   ],
+   "ly": 7.5,
+   "junto": "Jangore",
+   "nfac": 4,
+   "pob": 159783,
+   "ctrl_n": "160 S.O.A.R.",
+   "t": 1794937928
+  },
+  "LTT 11455": {
+   "pos": [
+    -17.84375,
+    -11.46875,
+    -72.84375
+   ],
+   "ly": 15.6,
+   "junto": "SPOCS 253",
+   "nfac": 6,
+   "pob": 51667,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794937931
   }
  },
  "zona": {
@@ -16502,7 +16554,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.274877,
+   "prog": 0.27494,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -16510,7 +16562,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794928853
+   "t": 1794938029
   },
   "LEHPM 1902": {
    "pos": [
@@ -17211,7 +17263,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794885572
+   "t": 1794937316
   },
   "HIP 31143": {
    "pos": [
@@ -17472,14 +17524,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233271,
+   "prog": 0.233382,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794921185
+   "t": 1794937969
   },
   "Choujem": {
    "pos": [
@@ -18964,7 +19016,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794936229
+   "t": 1794937761
   },
   "Didayac": {
    "pos": [
@@ -19081,6 +19133,72 @@
     "Jerome Archer"
    ],
    "t": 1794936157
+  },
+  "Trianguli Sector WA-N a7-1": {
+   "pos": [
+    28.46875,
+    -41.09375,
+    -50.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.142855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794937197
+  },
+  "ICZ CF-Z b4": {
+   "pos": [
+    122.25,
+    -117.78125,
+    -16.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794937600
+  },
+  "BD+47 977": {
+   "pos": [
+    -42.75,
+    -1.03125,
+    -92.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.060672,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794937928
+  },
+  "LTT 11455": {
+   "pos": [
+    -17.84375,
+    -11.46875,
+    -72.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794937931
   }
  },
  "codice": [

@@ -2545,7 +2545,7 @@
    "tick_disp": 279,
    "tick_n": 0,
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 4
    }
   },
   "Epsilon Sculptoris": {
@@ -15967,7 +15967,7 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-17": 8
+    "2026-11-17": 9
    },
    "pn": {
     "KLJ-0QB": {
@@ -15990,7 +15990,7 @@
     "1794956400": 1
    },
    "rutas": {
-    "2026-11-17": 3
+    "2026-11-17": 4
    },
    "estaciones": {
     "Bulgakov Enterprise": {
@@ -16036,6 +16036,96 @@
        "ok": 1,
        "no": 0
       }
+     },
+     "mer": {
+      "t": 1794958844,
+      "n": 366,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 274894,
+        "d": 2607
+       },
+       {
+        "n": "musgravite",
+        "p": 257135,
+        "d": 2607
+       },
+       {
+        "n": "grandidierite",
+        "p": 257135,
+        "d": 2607
+       },
+       {
+        "n": "monazite",
+        "p": 240530,
+        "d": 1074
+       },
+       {
+        "n": "serendibite",
+        "p": 225004,
+        "d": 2607
+       }
+      ],
+      "alta": [
+       {
+        "n": "foodcartridges",
+        "p": 767,
+        "m": 252
+       },
+       {
+        "n": "scrap",
+        "p": 791,
+        "m": 276
+       },
+       {
+        "n": "water",
+        "p": 597,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 796,
+        "m": 350
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 946,
+        "m": 447
+       }
+      ],
+      "barato": [
+       {
+        "n": "algae",
+        "p": 28,
+        "m": 308,
+        "s": 67781
+       },
+       {
+        "n": "polymers",
+        "p": 43,
+        "m": 306,
+        "s": 655614
+       },
+       {
+        "n": "leather",
+        "p": 64,
+        "m": 423,
+        "s": 2018
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 71,
+        "m": 354,
+        "s": 457921
+       },
+       {
+        "n": "biowaste",
+        "p": 90,
+        "m": 271,
+        "s": 36687
+       }
+      ]
      }
     }
    },
@@ -16054,10 +16144,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794958571.2934694,
-  "msgs": 1021639,
+  "msgs": 1034240,
   "mios": 73
  },
- "t": 1794958747.3481889,
+ "t": 1794959728.2482548,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -18100,7 +18190,7 @@
    "nfac": 3,
    "pob": 1682490,
    "ctrl_n": "The Dark Wheel",
-   "t": 1794958164
+   "t": 1794959023
   },
   "Saktas": {
    "pos": [
@@ -18296,6 +18386,32 @@
    "pob": 48852320,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794958301
+  },
+  "Col 285 Sector YL-J b10-1": {
+   "pos": [
+    -180.5,
+    27.90625,
+    -142.09375
+   ],
+   "ly": 15.1,
+   "junto": "Col 285 Sector NY-Q c5-8",
+   "nfac": 3,
+   "pob": 4197830,
+   "ctrl_n": "Sirius Corporation",
+   "t": 1794959344
+  },
+  "Tascheter Sector HM-M a7-1": {
+   "pos": [
+    16.875,
+    -43.75,
+    -31.3125
+   ],
+   "ly": 17.8,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 207091,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794959680
   }
  },
  "zona": {
@@ -22672,6 +22788,42 @@
     "Edmund Mahon"
    ],
    "t": 1794958301
+  },
+  "Tascheter Sector HM-M a7-1": {
+   "pos": [
+    16.875,
+    -43.75,
+    -31.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.014854,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794959680
+  },
+  "Wolf 289": {
+   "pos": [
+    24.75,
+    7.0625,
+    -77.375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.164786,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794959723
   }
  },
  "codice": [

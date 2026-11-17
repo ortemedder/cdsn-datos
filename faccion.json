@@ -4507,23 +4507,21 @@
   },
   "Makum": {
    "sys": "Makum",
-   "t": 1794679786,
+   "t": 1794956061,
    "src": "EDDN",
-   "inf": 3.69,
+   "inf": 4.29,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
-    "Expansion"
-   ],
+   "estado": "None",
+   "activos": [],
    "pendientes": [],
    "recuperando": [],
    "segunda": "Flat Galaxy Society",
-   "segunda_inf": 71.86,
+   "segunda_inf": 70.96,
    "conflictos": [],
    "todas": [
     {
      "n": "Flat Galaxy Society",
-     "inf": 71.86,
+     "inf": 70.96,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [
@@ -4534,7 +4532,7 @@
     },
     {
      "n": "Makum Group",
-     "inf": 7.98,
+     "inf": 7.88,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -4543,7 +4541,7 @@
     },
     {
      "n": "Makum Solutions",
-     "inf": 7.09,
+     "inf": 7.58,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -4552,7 +4550,16 @@
     },
     {
      "n": "Makum for Equality",
-     "inf": 4.49,
+     "inf": 4.39,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 4.29,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -4565,17 +4572,6 @@
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 3.69,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
      "pend": [],
      "jug": null
     },
@@ -4617,20 +4613,46 @@
    },
    "trafico": {
     "2026-11-12": 1,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-17": 1
    },
    "tk": {
-    "firma": "7cb7ffbf",
-    "igual": 1794679786
+    "firma": "918e4530",
+    "igual": 1794956061,
+    "ult": 1794956061,
+    "desde": 1794679786,
+    "est": null
    },
-   "prev": null,
-   "prev_t": null,
+   "saltos": {
+    "1794952800": 1
+   },
+   "rutas": {
+    "2026-11-17": 1
+   },
+   "prev": 3.69,
+   "prev_t": 1794679786,
    "hinf": [
     [
      1794487559,
      3.69
+    ],
+    [
+     1794956061,
+     4.29
     ]
-   ]
+   ],
+   "rach": {
+    "Flat Galaxy Society": 0,
+    "Makum Group": 0,
+    "Makum Solutions": 1,
+    "Makum for Equality": 0,
+    "Caballeros de Sion": 1,
+    "Makum Defence Force": 0,
+    "Makum Silver Gang": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794956061,
+   "tick_marg": 2302
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
@@ -15770,7 +15792,7 @@
   },
   "Col 285 Sector NY-Q c5-8": {
    "sys": "Col 285 Sector NY-Q c5-8",
-   "t": 1794954394,
+   "t": 1794956041,
    "src": "EDDN",
    "inf": 50.65,
    "ctrl": true,
@@ -15838,32 +15860,30 @@
     "soc": null,
     "pots": []
    },
-   "hinf": [
-    [
-     1794954394,
-     50.65
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "162aecc3",
-    "igual": 1794954394
-   },
    "trafico": {
-    "2026-11-17": 2
+    "2026-11-17": 3
    },
    "pn": {
     "KLJ-0QB": {
      "n": "ROMEO'S DESTINY",
-     "t": 1794954509,
+     "t": 1794956041,
      "d": 1794954509
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794954509,
+     "t": 1794956041,
      "d": 1794954509
     }
+   },
+   "tk": {
+    "firma": "162aecc3",
+    "igual": 1794956041
+   },
+   "saltos": {
+    "1794952800": 1
+   },
+   "rutas": {
+    "2026-11-17": 2
    },
    "estaciones": {
     "Bulgakov Enterprise": {
@@ -15892,16 +15912,26 @@
      },
      "mid": 4300059139
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794954394,
+     50.65
+    ]
+   ],
+   "rach": {},
+   "rivales": []
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794954400.0213406,
-  "msgs": 961309,
-  "mios": 69
+  "ultimo": 1794956062.9911754,
+  "msgs": 976600,
+  "mios": 71
  },
- "t": 1794955232.1206956,
+ "t": 1794956063.966202,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16384,7 +16414,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794952680
+   "t": 1794955545
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -16618,7 +16648,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794953128
+   "t": 1794955528
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -17775,7 +17805,7 @@
    "nfac": 4,
    "pob": 437586,
    "ctrl_n": "Omega Merchant Command",
-   "t": 1794954703
+   "t": 1794956011
   },
   "Ghimr": {
    "pos": [
@@ -17905,7 +17935,7 @@
    "nfac": 4,
    "pob": 1594304,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794955035
+   "t": 1794955577
   },
   "Loki Tan": {
    "pos": [
@@ -17919,6 +17949,84 @@
    "pob": 9175114,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794955186
+  },
+  "Col 285 Sector PT-Q c5-18": {
+   "pos": [
+    -165.84375,
+    10.21875,
+    -141.875
+   ],
+   "ly": 13.9,
+   "junto": "Col 285 Sector NY-Q c5-8",
+   "nfac": 3,
+   "pob": 18481056,
+   "ctrl_n": "Sirius Corporation",
+   "t": 1794955271
+  },
+  "Col 285 Sector ZL-J b10-0": {
+   "pos": [
+    -162.8125,
+    17,
+    -143.59375
+   ],
+   "ly": 10.0,
+   "junto": "Col 285 Sector NY-Q c5-8",
+   "nfac": 3,
+   "pob": 1682490,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1794955542
+  },
+  "Saktas": {
+   "pos": [
+    31.5,
+    32.75,
+    -122.375
+   ],
+   "ly": 13.1,
+   "junto": "Makum",
+   "nfac": 6,
+   "pob": 130967,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794955758
+  },
+  "HIP 8717": {
+   "pos": [
+    -160.4375,
+    16.71875,
+    -131.15625
+   ],
+   "ly": 11.0,
+   "junto": "Col 285 Sector NY-Q c5-8",
+   "nfac": 3,
+   "pob": 54997138,
+   "ctrl_n": "Movement for HIP 7670 Unionists",
+   "t": 1794955782
+  },
+  "Hyades Sector MY-P b6-1": {
+   "pos": [
+    26.3125,
+    39.5625,
+    -139.09375
+   ],
+   "ly": 20.0,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 205066,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794955783
+  },
+  "Hyades Sector QE-O b7-3": {
+   "pos": [
+    17.90625,
+    45.59375,
+    -122.125
+   ],
+   "ly": 12.6,
+   "junto": "Makum",
+   "nfac": 6,
+   "pob": 64056524,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794955990
   }
  },
  "zona": {
@@ -18026,7 +18134,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.27503,
+   "prog": 0.275108,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -18034,7 +18142,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794944336
+   "t": 1794955261
   },
   "LEHPM 1902": {
    "pos": [
@@ -19003,7 +19111,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794952680
+   "t": 1794955545
   },
   "Choujem": {
    "pos": [
@@ -19411,7 +19519,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794953128
+   "t": 1794955528
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -21730,7 +21838,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794954703
+   "t": 1794956011
   },
   "Snotricopa": {
    "pos": [
@@ -21939,7 +22047,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794955035
+   "t": 1794955577
   },
   "Loki Tan": {
    "pos": [
@@ -21957,6 +22065,128 @@
     "Li Yong-Rui"
    ],
    "t": 1794955186
+  },
+  "Baliscii": {
+   "pos": [
+    -43.59375,
+    37.3125,
+    -122.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.257069,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794955303
+  },
+  "Shokwa": {
+   "pos": [
+    15.15625,
+    -33.125,
+    -41.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.253189,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794955543
+  },
+  "Wawal": {
+   "pos": [
+    35.5625,
+    -1.3125,
+    -93.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.037572,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794955679
+  },
+  "Saktas": {
+   "pos": [
+    31.5,
+    32.75,
+    -122.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.244569,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794955758
+  },
+  "HR 2711": {
+   "pos": [
+    24.46875,
+    40.5,
+    -130.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.093137,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1794955816
+  },
+  "Hyades Sector MY-P b6-1": {
+   "pos": [
+    26.3125,
+    39.5625,
+    -139.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1794955783
+  },
+  "Hyades Sector QE-O b7-3": {
+   "pos": [
+    17.90625,
+    45.59375,
+    -122.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.222855,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794955990
+  },
+  "Makum": {
+   "pos": [
+    18.4375,
+    33,
+    -121.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.245712,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794956061
   }
  },
  "codice": [

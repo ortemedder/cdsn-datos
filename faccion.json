@@ -14766,10 +14766,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794926868.3084867,
-  "msgs": 496714,
+  "msgs": 508560,
   "mios": 29
  },
- "t": 1794926945.6734395,
+ "t": 1794928116.1279402,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15395,7 +15395,7 @@
    "nfac": 5,
    "pob": 16424,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794926713
+   "t": 1794927302
   },
   "Col 285 Sector VJ-R a34-0": {
    "pos": [
@@ -15733,7 +15733,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1794909720
+   "t": 1794927556
   },
   "Lokaantii": {
    "pos": [
@@ -17195,7 +17195,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794926713
+   "t": 1794927302
   },
   "Jurua": {
    "pos": [
@@ -17802,7 +17802,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794909720
+   "t": 1794927556
   },
   "Lokaantii": {
    "pos": [
@@ -17915,7 +17915,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794926573
+   "t": 1794927785
   },
   "HIP 46236": {
    "pos": [

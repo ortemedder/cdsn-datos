@@ -2397,7 +2397,10 @@
     ]
    ],
    "tick_ult": 1794698937,
-   "tick_marg": 1392
+   "tick_marg": 1392,
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -14523,15 +14526,217 @@
    "saltos": {
     "1794884400": 1
    }
+  },
+  "Hyades Sector RZ-N b7-3": {
+   "sys": "Hyades Sector RZ-N b7-3",
+   "t": 1794921938,
+   "src": "EDDN",
+   "inf": 9.4,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 67.36,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 67.36,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "The Buurian Protectorate",
+     "inf": 15.23,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 9.4,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Gurabru Galactic Corporation",
+     "inf": 8.01,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    4.4375,
+    22.46875,
+    -119.21875
+   ],
+   "sis": {
+    "pob": 49271996,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_HighTech;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.256024,
+    "ref": 0,
+    "soc": 191,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui"
+    ]
+   },
+   "hinf": [
+    [
+     1794921938,
+     9.4
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "0349749b",
+    "igual": 1794921938
+   },
+   "trafico": {
+    "2026-11-17": 1
+   }
+  },
+  "BD+40 1697": {
+   "sys": "BD+40 1697",
+   "t": 1794922370,
+   "src": "EDDN",
+   "inf": 9.05,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Order of Enblackenment",
+   "segunda_inf": 38.19,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Order of Enblackenment",
+     "inf": 38.19,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "HIP 28774 Inc",
+     "inf": 20.6,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 16.58,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "LP 254-40 Co",
+     "inf": 15.58,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 9.05,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Order of Enblackenment",
+   "pos": [
+    -6.53125,
+    24.0625,
+    -80.40625
+   ],
+   "sis": {
+    "pob": 2201369,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Tourism;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Theocracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Felicia Winters",
+     "Li Yong-Rui",
+     "Pranav Antal"
+    ]
+   },
+   "hinf": [
+    [
+     1794922370,
+     9.05
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "38e6885b",
+    "igual": 1794922370
+   },
+   "trafico": {
+    "2026-11-17": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794920677.9974904,
-  "msgs": 433662,
-  "mios": 25
+  "ultimo": 1794922371.4860253,
+  "msgs": 444644,
+  "mios": 27
  },
- "t": 1794921712.0170746,
+ "t": 1794922552.7762368,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15521,7 +15726,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794921201
+   "t": 1794922550
   },
   "Bakuari": {
    "pos": [
@@ -15574,6 +15779,19 @@
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
    "t": 1794919604
+  },
+  "Hyades Sector WA-M b8-5": {
+   "pos": [
+    -16.78125,
+    9.25,
+    -97.28125
+   ],
+   "ly": 3.7,
+   "junto": "Adjukru",
+   "nfac": 3,
+   "pob": 49999051,
+   "ctrl_n": "THE AZGHARIE",
+   "t": 1794922429
   }
  },
  "zona": {
@@ -17546,7 +17764,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794921201
+   "t": 1794922550
   },
   "Bakuari": {
    "pos": [
@@ -17742,6 +17960,74 @@
     "Jerome Archer"
    ],
    "t": 1794921357
+  },
+  "Hyades Sector RZ-N b7-3": {
+   "pos": [
+    4.4375,
+    22.46875,
+    -119.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794921938
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.265132,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794922190
+  },
+  "BD+40 1697": {
+   "pos": [
+    -6.53125,
+    24.0625,
+    -80.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794922370
+  },
+  "Hyades Sector WA-M b8-5": {
+   "pos": [
+    -16.78125,
+    9.25,
+    -97.28125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.151125,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794922429
   }
  },
  "codice": [

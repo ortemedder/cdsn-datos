@@ -3728,7 +3728,10 @@
    "tick_marg": 693,
    "tick_prox": 1794873720,
    "tick_disp": 213,
-   "tick_n": 0
+   "tick_n": 0,
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "Elivagar": {
    "sys": "Elivagar",
@@ -6374,7 +6377,10 @@
     ]
    ],
    "tick_ult": 1794786709,
-   "tick_marg": 1823
+   "tick_marg": 1823,
+   "rutas": {
+    "2026-11-17": 1
+   }
   },
   "Ngargambo": {
    "sys": "Ngargambo",
@@ -13805,10 +13811,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794886165.550678,
-  "msgs": 152392,
+  "msgs": 160590,
   "mios": 8
  },
- "t": 1794887507.2481568,
+ "t": 1794888367.532282,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14031,7 +14037,7 @@
    "nfac": 5,
    "pob": 2805546,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794884901
+   "t": 1794888346
   },
   "LHS 1499": {
    "pos": [
@@ -14756,7 +14762,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794884901
+   "t": 1794888346
   },
   "Shenetserii": {
    "pos": [

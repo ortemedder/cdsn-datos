@@ -13068,10 +13068,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 17299,
+  "msgs": 30878,
   "mios": 0
  },
- "t": 1794876679.0386155,
+ "t": 1794877399.422723,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13113,6 +13113,71 @@
    "pob": 65884192,
    "ctrl_n": "Beasts of Bestia",
    "t": 1794876433
+  },
+  "Hyades Sector RZ-N b7-1": {
+   "pos": [
+    3.84375,
+    20.4375,
+    -122.625
+   ],
+   "ly": 8.7,
+   "junto": "Hyades Sector RZ-N b7-0",
+   "nfac": 3,
+   "pob": 239217,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794876777
+  },
+  "Hyades Sector MD-S c4-21": {
+   "pos": [
+    -57.375,
+    3.875,
+    -104.28125
+   ],
+   "ly": 19.2,
+   "junto": "LP 158-2",
+   "nfac": 4,
+   "pob": 5976129,
+   "ctrl_n": "Radiant Ruby Control Cooperative",
+   "t": 1794877268
+  },
+  "Ceti Sector GR-V b2-5": {
+   "pos": [
+    11.59375,
+    -88,
+    -25.5625
+   ],
+   "ly": 7.7,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 4,
+   "pob": 1794499,
+   "ctrl_n": "East India Company",
+   "t": 1794877310
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "ly": 17.9,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 6,
+   "pob": 5061479,
+   "ctrl_n": "East India Company",
+   "t": 1794877326
+  },
+  "Tau-6 Eridani": {
+   "pos": [
+    22.46875,
+    -43.9375,
+    -29.53125
+   ],
+   "ly": 17.3,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 219679,
+   "ctrl_n": "Movement for LHS 20 Liberals",
+   "t": 1794877390
   }
  },
  "zona": {
@@ -13245,6 +13310,89 @@
     "Pranav Antal"
    ],
    "t": 1794876674
+  },
+  "Hyades Sector RZ-N b7-1": {
+   "pos": [
+    3.84375,
+    20.4375,
+    -122.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794876777
+  },
+  "Hyades Sector MD-S c4-21": {
+   "pos": [
+    -57.375,
+    3.875,
+    -104.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794877268
+  },
+  "Ceti Sector GR-V b2-5": {
+   "pos": [
+    11.59375,
+    -88,
+    -25.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155998,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794877310
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.199237,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794877326
+  },
+  "Tau-6 Eridani": {
+   "pos": [
+    22.46875,
+    -43.9375,
+    -29.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794877390
   }
  }
 }

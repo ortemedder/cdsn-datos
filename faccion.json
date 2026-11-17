@@ -14213,10 +14213,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794908789.8293629,
-  "msgs": 344397,
+  "msgs": 351678,
   "mios": 17
  },
- "t": 1794912553.3940039,
+ "t": 1794913614.0167475,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14231,7 +14231,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794879571
+   "t": 1794913422
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -15274,7 +15274,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.264166,
+   "prog": 0.264535,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -15282,7 +15282,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794879571
+   "t": 1794913422
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -15330,7 +15330,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794876458
+   "t": 1794913540
   },
   "Dongkum": {
    "pos": [
@@ -15348,7 +15348,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794911372
+   "t": 1794913591
   },
   "LEHPM 1902": {
    "pos": [
@@ -16934,14 +16934,14 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.269312,
+   "prog": 0.269377,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794909360
+   "t": 1794913017
   },
   "Patal": {
    "pos": [
@@ -17239,6 +17239,21 @@
     "Pranav Antal"
    ],
    "t": 1794912377
+  },
+  "Sairre": {
+   "pos": [
+    -21.21875,
+    37.375,
+    -82.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794913198
   }
  },
  "codice": [

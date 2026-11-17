@@ -378,7 +378,7 @@
     "1794945600": 1
    },
    "rutas": {
-    "2026-11-17": 5
+    "2026-11-17": 6
    },
    "estaciones": {
     "Insula Barataria": {
@@ -4148,7 +4148,7 @@
     "1794949200": 1
    },
    "rutas": {
-    "2026-11-17": 6
+    "2026-11-17": 7
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -8240,7 +8240,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 67
+    "2026-11-17": 68
    },
    "tk": {
     "firma": "9ac237db",
@@ -9614,6 +9614,9 @@
    "tk": {
     "firma": "c3764389",
     "igual": 1794779790
+   },
+   "rutas": {
+    "2026-11-17": 1
    }
   },
   "BD+44 1353": {
@@ -15719,10 +15722,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794950703.7160316,
-  "msgs": 893500,
+  "msgs": 910864,
   "mios": 65
  },
- "t": 1794951606.4558167,
+ "t": 1794952447.9057086,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16205,7 +16208,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794951551
+   "t": 1794952090
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -16439,7 +16442,7 @@
    "nfac": 4,
    "pob": 156523060,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794950976
+   "t": 1794951902
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -17583,7 +17586,7 @@
    "nfac": 4,
    "pob": 1477905,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794951330
+   "t": 1794951803
   },
   "BD+11 1163": {
    "pos": [
@@ -17597,6 +17600,45 @@
    "pob": 437586,
    "ctrl_n": "Omega Merchant Command",
    "t": 1794951374
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "ly": 12.4,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 6,
+   "pob": 4217328,
+   "ctrl_n": "East India Company",
+   "t": 1794951778
+  },
+  "LHS 1719": {
+   "pos": [
+    -18.8125,
+    -9.15625,
+    -108.90625
+   ],
+   "ly": 4.5,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 5,
+   "pob": 154894,
+   "ctrl_n": "The Freedom Flotilla",
+   "t": 1794951852
+  },
+  "Ceti Sector EW-V b2-5": {
+   "pos": [
+    14.03125,
+    -83.625,
+    -25.28125
+   ],
+   "ly": 10.3,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 404557,
+   "ctrl_n": "East India Company",
+   "t": 1794951916
   }
  },
  "zona": {
@@ -18681,7 +18723,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794951551
+   "t": 1794952090
   },
   "Choujem": {
    "pos": [
@@ -19089,7 +19131,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794950976
+   "t": 1794951902
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -21393,7 +21435,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794951330
+   "t": 1794951803
   },
   "BD+11 1163": {
    "pos": [
@@ -21423,7 +21465,91 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1794951441
+   "t": 1794952445
+  },
+  "BD-22 286": {
+   "pos": [
+    4.1875,
+    -92.125,
+    -21.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.108569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794951734
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251532,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794951778
+  },
+  "LHS 1719": {
+   "pos": [
+    -18.8125,
+    -9.15625,
+    -108.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794951852
+  },
+  "Ceti Sector EW-V b2-5": {
+   "pos": [
+    14.03125,
+    -83.625,
+    -25.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794951916
+  },
+  "Khwar": {
+   "pos": [
+    -58.46875,
+    -11.9375,
+    -116.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794952243
   }
  },
  "codice": [

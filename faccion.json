@@ -3712,7 +3712,7 @@
     "1794888000": 2
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 3
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -13953,10 +13953,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 242109,
+  "msgs": 249498,
   "mios": 11
  },
- "t": 1794899113.4301918,
+ "t": 1794900114.0659714,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14661,6 +14661,45 @@
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794899110
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "ly": 9.7,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 4,
+   "pob": 156523060,
+   "ctrl_n": "Verne Partners LLP",
+   "t": 1794899740
+  },
+  "Ceti Sector DL-X b1-0": {
+   "pos": [
+    17.6875,
+    -101.25,
+    -60.90625
+   ],
+   "ly": 11.8,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 3,
+   "pob": 2167238,
+   "ctrl_n": "Sirius Corporation",
+   "t": 1794899862
+  },
+  "Ross 345": {
+   "pos": [
+    -54.375,
+    -6.75,
+    -75.6875
+   ],
+   "ly": 9.0,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 19534,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794900112
   }
  },
  "zona": {
@@ -16138,6 +16177,71 @@
     "Li Yong-Rui"
    ],
    "t": 1794899110
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.310834,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794899740
+  },
+  "Ceti Sector DL-X b1-0": {
+   "pos": [
+    17.6875,
+    -101.25,
+    -60.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01714,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794899862
+  },
+  "Zach": {
+   "pos": [
+    -10.09375,
+    19.0625,
+    -69.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.110175,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794900026
+  },
+  "Ross 345": {
+   "pos": [
+    -54.375,
+    -6.75,
+    -75.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.213918,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794900112
   }
  },
  "codice": [

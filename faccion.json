@@ -358,7 +358,7 @@
     "2026-11-12": 14,
     "2026-11-13": 3,
     "2026-11-15": 1,
-    "2026-11-17": 12
+    "2026-11-17": 16
    },
    "tk": {
     "firma": "d80c2167",
@@ -611,6 +611,109 @@
         "s": 5955
        }
       ]
+     }
+    },
+    "Ibanez Hub": {
+     "f": "Sirius Special Forces",
+     "tipo": "CraterOutpost",
+     "t": 1794943903,
+     "estado": "",
+     "ls": 470,
+     "pads": {
+      "Small": 4,
+      "Medium": 4,
+      "Large": 4
+     },
+     "mid": 4209306115,
+     "mer": {
+      "t": 1794943689,
+      "n": 353,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 385558,
+        "d": 28609
+       },
+       {
+        "n": "iridium",
+        "p": 230851,
+        "d": 1028859
+       },
+       {
+        "n": "periclasedunite",
+        "p": 230851,
+        "d": 248346
+       },
+       {
+        "n": "thortveitite",
+        "p": 230851,
+        "d": 248346
+       },
+       {
+        "n": "alexandrite",
+        "p": 203385,
+        "d": 16389
+       }
+      ],
+      "alta": [
+       {
+        "n": "lepidolite",
+        "p": 5392,
+        "m": 741
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 1694,
+        "m": 402
+       },
+       {
+        "n": "bauxite",
+        "p": 4401,
+        "m": 1096
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 1236,
+        "m": 354
+       },
+       {
+        "n": "polymers",
+        "p": 1061,
+        "m": 306
+       }
+      ],
+      "barato": [
+       {
+        "n": "foodcartridges",
+        "p": 132,
+        "m": 252,
+        "s": 5348363
+       },
+       {
+        "n": "biowaste",
+        "p": 154,
+        "m": 271,
+        "s": 580981
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 250,
+        "m": 418,
+        "s": 2913250
+       },
+       {
+        "n": "evacuationshelter",
+        "p": 317,
+        "m": 500,
+        "s": 143047
+       }
+      ]
+     },
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -4001,7 +4104,7 @@
     "1794938400": 1
    },
    "rutas": {
-    "2026-11-17": 5
+    "2026-11-17": 6
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -4535,7 +4638,7 @@
     "2026-11-14": 42,
     "2026-11-15": 39,
     "2026-11-16": 71,
-    "2026-11-17": 30
+    "2026-11-17": 31
    },
    "pn": {
     "H5L-70M": {
@@ -4809,7 +4912,7 @@
     "Shvets Works": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794942270,
+     "t": 1794944332,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -4824,7 +4927,7 @@
        "no": 0
       },
       "2026-11-17": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -8010,7 +8113,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794943108,
+   "t": 1794944223,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -8091,11 +8194,11 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 51
+    "2026-11-17": 52
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794943108
+    "igual": 1794944223
    },
    "saltos": {
     "1794902400": 2,
@@ -8105,10 +8208,10 @@
     "1794931200": 3,
     "1794934800": 1,
     "1794938400": 3,
-    "1794942000": 1
+    "1794942000": 2
    },
    "rutas": {
-    "2026-11-17": 15
+    "2026-11-17": 16
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -15266,11 +15369,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794943111.560574,
-  "msgs": 748574,
-  "mios": 49
+  "ultimo": 1794944226.0425763,
+  "msgs": 764640,
+  "mios": 50
  },
- "t": 1794943440.3764548,
+ "t": 1794944392.03631,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15491,9 +15594,9 @@
    "ly": 16.4,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 2805546,
+   "pob": 2805645,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794888346
+   "t": 1794943760
   },
   "LHS 1499": {
    "pos": [
@@ -16052,7 +16155,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794942244
+   "t": 1794943595
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16820,6 +16923,19 @@
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
    "t": 1794943381
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "ly": 14.4,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 6,
+   "pob": 15927631,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1794944196
   }
  },
  "zona": {
@@ -16927,7 +17043,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.27494,
+   "prog": 0.27503,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -16935,7 +17051,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794938819
+   "t": 1794944336
   },
   "LEHPM 1902": {
    "pos": [
@@ -17310,7 +17426,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794888346
+   "t": 1794943760
   },
   "Shenetserii": {
    "pos": [
@@ -19975,6 +20091,40 @@
     "Zemina Torval"
    ],
    "t": 1794943381
+  },
+  "Ashandras": {
+   "pos": [
+    -20.1875,
+    -9.0625,
+    -71.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.05314,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794944063
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.244243,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794944196
   }
  },
  "codice": [

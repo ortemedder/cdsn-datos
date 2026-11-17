@@ -13947,10 +13947,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794889987.1754172,
-  "msgs": 182988,
+  "msgs": 189706,
   "mios": 11
  },
- "t": 1794890849.8782668,
+ "t": 1794891540.2710617,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14420,7 +14420,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794891062
+   "t": 1794891471
   },
   "Zephyrus": {
    "pos": [
@@ -14447,6 +14447,32 @@
    "pob": 216401,
    "ctrl_n": "East India Company",
    "t": 1794890839
+  },
+  "Trianguli Sector SU-O a6-3": {
+   "pos": [
+    29.875,
+    -44.84375,
+    -55.53125
+   ],
+   "ly": 12.0,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 1992610,
+   "ctrl_n": "Galaxy Express",
+   "t": 1794891237
+  },
+  "LTT 11383": {
+   "pos": [
+    -25.1875,
+    -14.5,
+    -81.84375
+   ],
+   "ly": 17.1,
+   "junto": "SPOCS 253",
+   "nfac": 6,
+   "pob": 450009,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1794891494
   }
  },
  "zona": {
@@ -15497,7 +15523,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794891062
+   "t": 1794891471
   },
   "Guei": {
    "pos": [
@@ -15578,6 +15604,40 @@
     "Jerome Archer"
    ],
    "t": 1794890839
+  },
+  "Trianguli Sector SU-O a6-3": {
+   "pos": [
+    29.875,
+    -44.84375,
+    -55.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.021543,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794891237
+  },
+  "LTT 11383": {
+   "pos": [
+    -25.1875,
+    -14.5,
+    -81.84375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.244272,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794891494
   }
  },
  "codice": [

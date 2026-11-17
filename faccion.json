@@ -12306,7 +12306,8 @@
    "trafico": {
     "2025-10-08": 1,
     "2025-10-09": 1,
-    "2025-10-10": 1
+    "2025-10-10": 1,
+    "2026-11-17": 3
    },
    "tk": {
     "firma": "1d01350c",
@@ -12348,6 +12349,159 @@
    "tick_n": 0,
    "rutas": {
     "2026-11-17": 2
+   },
+   "saltos": {
+    "1794880800": 2
+   },
+   "pn": {
+    "KBF-3VZ": {
+     "n": "QUEEN ANNE'S REVENGE",
+     "t": 1794883188,
+     "d": 1794883188
+    }
+   },
+   "estaciones": {
+    "Walesa Town": {
+     "f": "Sirius Special Forces",
+     "tipo": "Coriolis",
+     "t": 1794883730,
+     "estado": "",
+     "ls": 2101,
+     "pads": {
+      "Small": 6,
+      "Medium": 13,
+      "Large": 5
+     },
+     "mid": 4241004035,
+     "mer": {
+      "t": 1794883742,
+      "n": 136,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 472756,
+        "d": 779
+       },
+       {
+        "n": "iridium",
+        "p": 315689,
+        "d": 51903
+       },
+       {
+        "n": "metaalloys",
+        "p": 196694,
+        "d": 6225
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 194473,
+        "d": 1423
+       },
+       {
+        "n": "rhodplumsite",
+        "p": 181982,
+        "d": 246
+       }
+      ],
+      "alta": [
+       {
+        "n": "ceramiccomposites",
+        "p": 2107,
+        "m": 402
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 1539,
+        "m": 354
+       },
+       {
+        "n": "polymers",
+        "p": 1326,
+        "m": 306
+       },
+       {
+        "n": "lepidolite",
+        "p": 3007,
+        "m": 741
+       },
+       {
+        "n": "explosives",
+        "p": 1386,
+        "m": 483
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 125,
+        "m": 271,
+        "s": 22770
+       },
+       {
+        "n": "foodcartridges",
+        "p": 121,
+        "m": 252,
+        "s": 313803
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 222,
+        "m": 418,
+        "s": 19982
+       },
+       {
+        "n": "scrap",
+        "p": 189,
+        "m": 276,
+        "s": 124573
+       }
+      ]
+     },
+     "mods": 995,
+     "mods_t": 1794883743,
+     "naves": [
+      "Adder",
+      "Anaconda",
+      "Asp",
+      "Asp_Scout",
+      "BelugaLiner",
+      "CobraMkIII",
+      "CobraMkV",
+      "DiamondBack",
+      "DiamondBackXL",
+      "Dolphin",
+      "Eagle",
+      "Explorer_nx",
+      "Federation_Corvette",
+      "Federation_Dropship",
+      "Federation_Dropship_MkII",
+      "Federation_Gunship",
+      "FerDeLance",
+      "Hauler",
+      "Independant_Trader",
+      "Krait_Light",
+      "Krait_MkII",
+      "LakonMiner",
+      "Mamba",
+      "Mandalay",
+      "Mediumtransport01",
+      "Orca",
+      "Panthermkii",
+      "Python",
+      "Python_NX",
+      "SideWinder",
+      "SmallCombat01_nx",
+      "Type6",
+      "Type7",
+      "Type8",
+      "Type9",
+      "Viper",
+      "Viper_MkIV",
+      "Vulture",
+      "anacondamkii"
+     ],
+     "naves_t": 1794883743
+    }
    }
   },
   "Torenai": {
@@ -13180,10 +13334,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794880559.1133704,
-  "msgs": 103379,
+  "msgs": 114617,
   "mios": 3
  },
- "t": 1794882852.673027,
+ "t": 1794883753.1234221,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -13420,6 +13574,19 @@
    "pob": 122300644,
    "ctrl_n": "Quebecois Patriots",
    "t": 1794882567
+  },
+  "HIP 43660": {
+   "pos": [
+    131.40625,
+    -10.09375,
+    2
+   ],
+   "ly": 16.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 47997186,
+   "ctrl_n": "Hu Jini Patron's Principles",
+   "t": 1794883515
   }
  },
  "zona": {
@@ -13945,6 +14112,37 @@
     "Jerome Archer"
    ],
    "t": 1794882567
+  },
+  "Hyades Sector RZ-N b7-0": {
+   "pos": [
+    4.84375,
+    18.96875,
+    -114.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.222855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794883065
+  },
+  "HIP 43660": {
+   "pos": [
+    131.40625,
+    -10.09375,
+    2
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794883515
   }
  },
  "codice": [

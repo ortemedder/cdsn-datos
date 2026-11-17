@@ -1540,7 +1540,7 @@
     "1794884400": 2
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 5
    },
    "prev": 13.87,
    "prev_t": 1794844632,
@@ -3545,23 +3545,21 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794866661,
+   "t": 1794888421,
    "src": "EDDN",
-   "inf": 40.4,
+   "inf": 38.91,
    "ctrl": true,
    "estado": "None",
    "activos": [],
    "pendientes": [],
-   "recuperando": [
-    "Expansion"
-   ],
+   "recuperando": [],
    "segunda": "160 S.O.A.R.",
-   "segunda_inf": 20.3,
+   "segunda_inf": 19.5,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 40.4,
+     "inf": 38.91,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -3570,7 +3568,7 @@
     },
     {
      "n": "160 S.O.A.R.",
-     "inf": 20.3,
+     "inf": 19.5,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
@@ -3581,11 +3579,13 @@
     },
     {
      "n": "United Burr Partnership",
-     "inf": 15.42,
+     "inf": 17.71,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Outbreak"
+     ],
      "jug": null
     },
     {
@@ -3639,8 +3639,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.992115,
-    "ref": 87277,
+    "prog": 0.998802,
+    "ref": 91623,
     "soc": 81402,
     "pots": [
      "Edmund Mahon",
@@ -3655,7 +3655,8 @@
     "2026-11-13": 2,
     "2026-11-14": 7,
     "2026-11-15": 9,
-    "2026-11-16": 12
+    "2026-11-16": 12,
+    "2026-11-17": 6
    },
    "zc": [
     {
@@ -3676,18 +3677,20 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794866872
+     "t": 1794888452,
+     "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794866872
+     "t": 1794888452,
+     "d": 1794888452
     }
    },
    "tk": {
-    "firma": "de958dbf",
-    "igual": 1794866661,
-    "ult": 1794848322,
-    "desde": 1794765133,
+    "firma": "d312cd18",
+    "igual": 1794888421,
+    "ult": 1794888421,
+    "desde": 1794866661,
     "vent": [
      [
       1794601776,
@@ -3696,12 +3699,22 @@
      [
       1794677241,
       1794744910
+     ],
+     [
+      1794866661,
+      1794888421
      ]
     ],
     "est": null
    },
-   "prev": 41.29,
-   "prev_t": 1794765133,
+   "saltos": {
+    "1794888000": 1
+   },
+   "rutas": {
+    "2026-11-17": 1
+   },
+   "prev": 40.4,
+   "prev_t": 1794866661,
    "hinf": [
     [
      1794270346,
@@ -3722,16 +3735,26 @@
     [
      1794848322,
      40.4
+    ],
+    [
+     1794888421,
+     38.91
     ]
    ],
-   "tick_ult": 1794848322,
-   "tick_marg": 693,
-   "tick_prox": 1794873720,
-   "tick_disp": 213,
-   "tick_n": 0,
-   "rutas": {
-    "2026-11-17": 1
-   }
+   "rach": {
+    "Caballeros de Sion": 0,
+    "160 S.O.A.R.": 0,
+    "United Burr Partnership": 1,
+    "Burr Jet Fortune Industries": 0,
+    "Beasts of Bestia": 0,
+    "Burr Boys": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794888421,
+   "tick_marg": 181,
+   "tick_prox": 1794962970,
+   "tick_disp": 165,
+   "tick_n": 0
   },
   "Elivagar": {
    "sys": "Elivagar",
@@ -13810,11 +13833,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794886165.550678,
-  "msgs": 160590,
-  "mios": 8
+  "ultimo": 1794888422.8714204,
+  "msgs": 168135,
+  "mios": 9
  },
- "t": 1794888367.532282,
+ "t": 1794889258.3329449,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -14245,7 +14268,7 @@
    "nfac": 4,
    "pob": 125854,
    "ctrl_n": "Radius Group Inc",
-   "t": 1794886177
+   "t": 1794889127
   },
   "Unktock": {
    "pos": [
@@ -14258,7 +14281,7 @@
    "nfac": 5,
    "pob": 5089334,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794886934
+   "t": 1794888493
   },
   "Synuefe TL-C c29-5": {
    "pos": [
@@ -14272,6 +14295,19 @@
    "pob": 27736,
    "ctrl_n": "The Winged Hussars",
    "t": 1794887406
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "ly": 16.4,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 5221374,
+   "ctrl_n": "Armada",
+   "t": 1794889124
   }
  },
  "zona": {
@@ -15239,7 +15275,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794886177
+   "t": 1794889127
   },
   "Malean": {
    "pos": [
@@ -15282,13 +15318,47 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.310967,
+   "prog": 0.311034,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794886934
+   "t": 1794888493
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.998802,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794888421
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.36203,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794889124
   }
  },
  "codice": [

@@ -372,7 +372,7 @@
     "1794938400": 1
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 3
    },
    "estaciones": {
     "Insula Barataria": {
@@ -500,9 +500,9 @@
     "Planetary Construction Site: Salinas Industrial Exchange": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1794921533,
+     "t": 1794940804,
      "estado": "",
-     "ls": 146953,
+     "ls": 146954,
      "pads": {
       "Small": 2,
       "Medium": 2,
@@ -1707,7 +1707,7 @@
     "1794920400": 1
    },
    "rutas": {
-    "2026-11-17": 6
+    "2026-11-17": 7
    },
    "estaciones": {
     "Judge Reach": {
@@ -6360,7 +6360,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1794939516,
+   "t": 1794941105,
    "src": "EDDN",
    "inf": 61.36,
    "ctrl": true,
@@ -6452,12 +6452,12 @@
     "2026-11-14": 8,
     "2026-11-15": 5,
     "2026-11-16": 1,
-    "2026-11-17": 6
+    "2026-11-17": 9
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1794939647,
+     "t": 1794941249,
      "d": 1794919881
     },
     "V0Z-T1Q": {
@@ -6467,7 +6467,7 @@
    },
    "tk": {
     "firma": "f5005495",
-    "igual": 1794939516,
+    "igual": 1794941105,
     "ult": 1794919881,
     "desde": 1794827488,
     "est": null,
@@ -6488,16 +6488,16 @@
    },
    "saltos": {
     "1794916800": 1,
-    "1794938400": 1
+    "1794938400": 2
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 3
    },
    "estaciones": {
     "Piel City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794939767,
+     "t": 1794941392,
      "estado": "",
      "ls": 401,
      "pads": {
@@ -6507,7 +6507,7 @@
      },
      "mid": 4212382211,
      "mer": {
-      "t": 1794939823,
+      "t": 1794941473,
       "n": 366,
       "vende": [
        {
@@ -6598,7 +6598,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -7989,7 +7989,7 @@
     "2026-11-14": 25,
     "2026-11-15": 53,
     "2026-11-16": 54,
-    "2026-11-17": 43
+    "2026-11-17": 45
    },
    "tk": {
     "firma": "9ac237db",
@@ -8005,7 +8005,7 @@
     "1794938400": 2
    },
    "rutas": {
-    "2026-11-17": 13
+    "2026-11-17": 14
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -8236,7 +8236,7 @@
     "Orbital Construction Site: Fardane Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1794940033,
+     "t": 1794941080,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -8246,7 +8246,7 @@
      },
      "mid": 3963368194,
      "mer": {
-      "t": 1794940040,
+      "t": 1794941087,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8254,7 +8254,7 @@
      },
      "atq": {
       "2026-11-17": {
-       "ok": 7,
+       "ok": 8,
        "no": 0
       }
      }
@@ -15163,11 +15163,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794940769.2426145,
-  "msgs": 702571,
-  "mios": 44
+  "ultimo": 1794941106.3446624,
+  "msgs": 717729,
+  "mios": 45
  },
- "t": 1794940774.5718436,
+ "t": 1794941666.8253114,
  "tick_global": 1794849994,
  "thargoides": {},
  "expansion": {
@@ -15949,7 +15949,7 @@
    "nfac": 3,
    "pob": 173743461,
    "ctrl_n": "The Fatherhood",
-   "t": 1794940138
+   "t": 1794941203
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -16560,7 +16560,7 @@
    "nfac": 3,
    "pob": 200418,
    "ctrl_n": "East India Company",
-   "t": 1794940037
+   "t": 1794941562
   },
   "Bestia": {
    "pos": [
@@ -16613,6 +16613,45 @@
    "pob": 2004067,
    "ctrl_n": "East India Company",
    "t": 1794940646
+  },
+  "BD+39 876": {
+   "pos": [
+    -42.40625,
+    -20.0625,
+    -100.0625
+   ],
+   "ly": 16.7,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 6,
+   "pob": 1758431356,
+   "ctrl_n": "The Fatherhood",
+   "t": 1794940817
+  },
+  "LHS 6103": {
+   "pos": [
+    8.84375,
+    6.03125,
+    -72
+   ],
+   "ly": 19.4,
+   "junto": "Ryujingit",
+   "nfac": 6,
+   "pob": 32286,
+   "ctrl_n": "Flotta Stellare",
+   "t": 1794940855
+  },
+  "Col 285 Sector UT-W b16-4": {
+   "pos": [
+    138.375,
+    -10.84375,
+    9.15625
+   ],
+   "ly": 9.4,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 399333,
+   "ctrl_n": "Liberals of Panorua",
+   "t": 1794940883
   }
  },
  "zona": {
@@ -17726,7 +17765,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794890718
+   "t": 1794941420
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -18714,7 +18753,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794939516
+   "t": 1794941105
   },
   "Hu Jini": {
    "pos": [
@@ -19524,7 +19563,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794940037
+   "t": 1794941562
   },
   "Bestia": {
    "pos": [
@@ -19590,6 +19629,88 @@
     "Pranav Antal"
    ],
    "t": 1794940646
+  },
+  "BD+39 876": {
+   "pos": [
+    -42.40625,
+    -20.0625,
+    -100.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.198077,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794940817
+  },
+  "LHS 6103": {
+   "pos": [
+    8.84375,
+    6.03125,
+    -72
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.030854,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794940855
+  },
+  "Col 285 Sector UT-W b16-4": {
+   "pos": [
+    138.375,
+    -10.84375,
+    9.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794940883
+  },
+  "LHS 1848": {
+   "pos": [
+    -24.96875,
+    23.5,
+    -64.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.327729,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794941483
+  },
+  "Damna": {
+   "pos": [
+    -40.53125,
+    4.375,
+    -124.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.161538,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794941542
   }
  },
  "codice": [

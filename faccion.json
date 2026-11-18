@@ -4487,18 +4487,18 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 16
+    "2026-11-18": 17
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Low:#index=1;",
-     "i": "Low",
-     "t": 1794990649
-    },
-    {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794990649
+     "t": 1795006400
+    },
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1795006400
     }
    ],
    "pn": {
@@ -4508,12 +4508,12 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794990649,
+     "t": 1795006400,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794990649,
+     "t": 1795006400,
      "d": 1794888452
     }
    },
@@ -4672,9 +4672,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794990704,
+     "t": 1795006490,
      "estado": "",
-     "ls": 3147,
+     "ls": 3146,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -4682,16 +4682,16 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1794990711,
+      "t": 1795006502,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 123,
-     "mods_t": 1794990711,
+     "mods_t": 1795006502,
      "neg": {
-      "NoSpace": 18
+      "NoSpace": 19
      },
      "atq": {
       "2026-11-17": {
@@ -4699,8 +4699,8 @@
        "no": 18
       },
       "2026-11-18": {
-       "ok": 1,
-       "no": 0
+       "ok": 2,
+       "no": 1
       }
      }
     },
@@ -5256,7 +5256,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 13
+    "2026-11-18": 18
    },
    "pn": {
     "H5L-70M": {
@@ -5543,9 +5543,9 @@
     "Shvets Works": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794944332,
+     "t": 1795007104,
      "estado": "",
-     "ls": 2657,
+     "ls": 2656,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -5560,13 +5560,110 @@
       "2026-11-17": {
        "ok": 2,
        "no": 0
+      },
+      "2026-11-18": {
+       "ok": 2,
+       "no": 1
       }
+     },
+     "neg": {
+      "Distance": 1
+     },
+     "mer": {
+      "t": 1795007111,
+      "n": 366,
+      "vende": [
+       {
+        "n": "musgravite",
+        "p": 694266,
+        "d": 418
+       },
+       {
+        "n": "serendibite",
+        "p": 570948,
+        "d": 418
+       },
+       {
+        "n": "benitoite",
+        "p": 567114,
+        "d": 418
+       },
+       {
+        "n": "grandidierite",
+        "p": 563640,
+        "d": 418
+       },
+       {
+        "n": "opal",
+        "p": 552666,
+        "d": 499
+       }
+      ],
+      "alta": [
+       {
+        "n": "conductivefabrics",
+        "p": 3851,
+        "m": 666
+       },
+       {
+        "n": "osmium",
+        "p": 234707,
+        "m": 44051
+       },
+       {
+        "n": "militarygradefabrics",
+        "p": 4610,
+        "m": 899
+       },
+       {
+        "n": "platinum",
+        "p": 280944,
+        "m": 55505
+       },
+       {
+        "n": "painite",
+        "p": 211587,
+        "m": 48333
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 112579
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 3504651
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 83,
+        "m": 418,
+        "s": 140425
+       },
+       {
+        "n": "scrap",
+        "p": 64,
+        "m": 276,
+        "s": 820162
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 141,
+        "m": 502,
+        "s": 75093
+       }
+      ]
      }
     },
     "Orbital Construction Site: Snofru Depot": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795005771,
+     "t": 1795006802,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -5577,7 +5674,7 @@
      "mid": 3966431490,
      "atq": {
       "2026-11-18": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      }
@@ -17319,10 +17416,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795006204.7664084,
-  "msgs": 150520,
+  "msgs": 158873,
   "mios": 21
  },
- "t": 1795006206.8547416,
+ "t": 1795007118.372333,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -20053,7 +20150,7 @@
    "nfac": 6,
    "pob": 2003443,
    "ctrl_n": "Nagii Union",
-   "t": 1794989198
+   "t": 1795006790
   },
   "Natero Kop": {
    "pos": [
@@ -20223,6 +20320,19 @@
    "pob": 2164190,
    "ctrl_n": "Chuj Coordinated",
    "t": 1795005103
+  },
+  "HIP 47625": {
+   "pos": [
+    138.46875,
+    -5.34375,
+    21.6875
+   ],
+   "ly": 10.8,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 222268,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1795006648
   }
  },
  "codice": [
@@ -20438,7 +20548,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794989198
+   "t": 1795006790
   },
   "Tascheter Sector CG-X b1-3": {
    "pos": [
@@ -21356,6 +21466,23 @@
     "Jerome Archer"
    ],
    "t": 1795005093
+  },
+  "HIP 47625": {
+   "pos": [
+    138.46875,
+    -5.34375,
+    21.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795006648
   }
  },
  "ataques": {

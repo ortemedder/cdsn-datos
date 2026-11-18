@@ -16753,10 +16753,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794978295.0405385,
-  "msgs": 1266114,
+  "msgs": 1272007,
   "mios": 83
  },
- "t": 1794982136.6549296,
+ "t": 1794982917.2280242,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17460,7 +17460,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794974359
+   "t": 1794982809
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -18903,7 +18903,7 @@
    "nfac": 3,
    "pob": 240479,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794959767
+   "t": 1794982741
   },
   "Guambia": {
    "pos": [
@@ -18992,9 +18992,9 @@
    "ly": 19.6,
    "junto": "Hyades Sector CB-W c2-3",
    "nfac": 3,
-   "pob": 48852320,
+   "pob": 48866273,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794958301
+   "t": 1794982346
   },
   "Col 285 Sector YL-J b10-1": {
    "pos": [
@@ -19423,7 +19423,7 @@
    "nfac": 6,
    "pob": 10596188,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794980545
+   "t": 1794982902
   }
  },
  "zona": {
@@ -20894,13 +20894,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.02714,
+   "prog": 0.028186,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794974359
+   "t": 1794982809
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -23676,7 +23676,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794959767
+   "t": 1794982741
   },
   "Guambia": {
    "pos": [
@@ -23799,7 +23799,7 @@
    "pots": [
     "Edmund Mahon"
    ],
-   "t": 1794958301
+   "t": 1794982346
   },
   "Tascheter Sector HM-M a7-1": {
    "pos": [
@@ -24560,7 +24560,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794980545
+   "t": 1794982902
   }
  },
  "codice": [

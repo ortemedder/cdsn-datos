@@ -2617,7 +2617,8 @@
     "1794942000": 2
    },
    "rutas": {
-    "2026-11-17": 3
+    "2026-11-17": 3,
+    "2026-11-18": 1
    },
    "prev": 46.12,
    "prev_t": 1794143086,
@@ -4546,7 +4547,7 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 33
+    "2026-11-18": 34
    },
    "zc": [
     {
@@ -6255,7 +6256,10 @@
      1794747490,
      8.67
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-18": 1
+   }
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
@@ -11890,7 +11894,10 @@
      1794369094,
      57.86
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-18": 1
+   }
   },
   "Col 285 Sector RZ-O c6-12": {
    "sys": "Col 285 Sector RZ-O c6-12",
@@ -18589,10 +18596,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795037654.986117,
-  "msgs": 678348,
+  "msgs": 693779,
   "mios": 73
  },
- "t": 1795038766.2541187,
+ "t": 1795039687.5330465,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20413,7 +20420,7 @@
    "nfac": 6,
    "pob": 19789217,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795032306
+   "t": 1795039295
   },
   "Irdlivices": {
    "pos": [
@@ -22247,6 +22254,32 @@
    "pob": 2016966,
    "ctrl_n": "The Dark Wheel",
    "t": 1795038764
+  },
+  "Tascheter Sector FB-X b1-7": {
+   "pos": [
+    3.59375,
+    -12.09375,
+    -81.625
+   ],
+   "ly": 18.7,
+   "junto": "Ryujingit",
+   "nfac": 4,
+   "pob": 157297,
+   "ctrl_n": "Empire Corsairs",
+   "t": 1795038882
+  },
+  "Tascheter Sector WE-Q a5-1": {
+   "pos": [
+    12.5625,
+    -33.1875,
+    -52.21875
+   ],
+   "ly": 16.1,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 60713277,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794554981
   }
  },
  "codice": [
@@ -24875,7 +24908,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795032306
+   "t": 1795039295
   },
   "Tirnitz": {
    "pos": [
@@ -25699,6 +25732,86 @@
     "Zemina Torval"
    ],
    "t": 1795038764
+  },
+  "Tascheter Sector FB-X b1-7": {
+   "pos": [
+    3.59375,
+    -12.09375,
+    -81.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795038882
+  },
+  "Selniang": {
+   "pos": [
+    14.9375,
+    -8.03125,
+    -90.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795038947
+  },
+  "Ross 364": {
+   "pos": [
+    -67.03125,
+    -5.15625,
+    -81.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.252692,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795039101
+  },
+  "Holo": {
+   "pos": [
+    20.84375,
+    -9.6875,
+    -110.875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.248875,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795039674
+  },
+  "Tascheter Sector WE-Q a5-1": {
+   "pos": [
+    12.5625,
+    -33.1875,
+    -52.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.072572,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794554981
   }
  },
  "ataques": {

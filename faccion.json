@@ -3753,7 +3753,10 @@
     ]
    ],
    "tick_ult": 1794483850,
-   "tick_marg": 566
+   "tick_marg": 566,
+   "rutas": {
+    "2026-11-18": 1
+   }
   },
   "Jangore": {
    "sys": "Jangore",
@@ -16735,10 +16738,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794974708.6123402,
-  "msgs": 1222757,
+  "msgs": 1230963,
   "mios": 82
  },
- "t": 1794976773.6672056,
+ "t": 1794977614.170215,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -19341,6 +19344,32 @@
    "pob": 12784480,
    "ctrl_n": "Verne Partners LLP",
    "t": 1794975668
+  },
+  "Trianguli Sector BQ-Y c15": {
+   "pos": [
+    30.5,
+    -18.4375,
+    -87.65625
+   ],
+   "ly": 15.9,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 3,
+   "pob": 209547,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1794977460
+  },
+  "Jeticans": {
+   "pos": [
+    28.90625,
+    11.0625,
+    -110.125
+   ],
+   "ly": 14.1,
+   "junto": "Hyades Sector SZ-N b7-0",
+   "nfac": 5,
+   "pob": 5949,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794977561
   }
  },
  "zona": {
@@ -24380,6 +24409,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794976763
+  },
+  "Trianguli Sector BQ-Y c15": {
+   "pos": [
+    30.5,
+    -18.4375,
+    -87.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794977460
+  },
+  "Jeticans": {
+   "pos": [
+    28.90625,
+    11.0625,
+    -110.125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.168732,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794977561
   }
  },
  "codice": [

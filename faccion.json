@@ -1262,7 +1262,7 @@
     "2026-11-14": 1,
     "2026-11-15": 3,
     "2026-11-16": 1,
-    "2026-11-18": 2
+    "2026-11-18": 3
    },
    "tk": {
     "firma": "732e6b21",
@@ -1296,7 +1296,90 @@
    "rach": {},
    "rivales": [],
    "tick_ult": 1794694787,
-   "tick_marg": 2301
+   "tick_marg": 2301,
+   "estaciones": {
+    "Blish Point": {
+     "f": "SPOCS 253 Free",
+     "tipo": "CraterOutpost",
+     "t": 1795040750,
+     "estado": "",
+     "ls": 4310,
+     "pads": {
+      "Small": 4,
+      "Medium": 4,
+      "Large": 4
+     },
+     "mid": 3531220736,
+     "mer": {
+      "t": 1795040756,
+      "n": 72,
+      "vende": [
+       {
+        "n": "metaalloys",
+        "p": 194908,
+        "d": 765
+       },
+       {
+        "n": "monazite",
+        "p": 154477,
+        "d": 48
+       },
+       {
+        "n": "osmium",
+        "p": 42040,
+        "d": 892
+       },
+       {
+        "n": "hostage",
+        "p": 34249,
+        "d": 160
+       },
+       {
+        "n": "usscargoblackbox",
+        "p": 30668,
+        "d": 160
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 630,
+        "m": 260
+       },
+       {
+        "n": "polymers",
+        "p": 643,
+        "m": 306
+       },
+       {
+        "n": "algae",
+        "p": 633,
+        "m": 308
+       },
+       {
+        "n": "beer",
+        "p": 665,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 697,
+        "m": 387
+       }
+      ],
+      "barato": [
+       {
+        "n": "scrap",
+        "p": 112,
+        "m": 276,
+        "s": 16028
+       }
+      ]
+     },
+     "mods": 202,
+     "mods_t": 1795040756
+    }
+   }
   },
   "BD+47 1236": {
    "sys": "BD+47 1236",
@@ -5221,13 +5304,15 @@
   },
   "Makum": {
    "sys": "Makum",
-   "t": 1794956061,
+   "t": 1795041290,
    "src": "EDDN",
    "inf": 4.29,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Flat Galaxy Society",
    "segunda_inf": 70.96,
@@ -5238,9 +5323,7 @@
      "inf": 70.96,
      "gov": "Democracy",
      "alg": "Alliance",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -5277,7 +5360,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -5328,20 +5413,23 @@
    "trafico": {
     "2026-11-12": 1,
     "2026-11-14": 1,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-18": 1
    },
    "tk": {
     "firma": "918e4530",
-    "igual": 1794956061,
+    "igual": 1795041290,
     "ult": 1794956061,
     "desde": 1794679786,
     "est": null
    },
    "saltos": {
-    "1794952800": 1
+    "1794952800": 1,
+    "1795039200": 1
    },
    "rutas": {
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-18": 1
    },
    "prev": 3.69,
    "prev_t": 1794679786,
@@ -5450,7 +5538,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 34
+    "2026-11-18": 36
    },
    "pn": {
     "H5L-70M": {
@@ -5524,7 +5612,7 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795040505,
+     "t": 1795041274,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
@@ -5620,8 +5708,8 @@
      },
      "atq": {
       "2026-11-18": {
-       "ok": 4,
-       "no": 0
+       "ok": 5,
+       "no": 1
       }
      },
      "pads": {
@@ -5634,7 +5722,10 @@
       "explorer_nx",
       "panthermkii"
      ],
-     "naves_t": 1795037449
+     "naves_t": 1795037449,
+     "neg": {
+      "Distance": 1
+     }
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6002,7 +6093,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795040278,
+     "t": 1795040794,
      "estado": "",
      "ls": 2655,
      "pads": {
@@ -6013,9 +6104,12 @@
      "mid": 3966078978,
      "atq": {
       "2026-11-18": {
-       "ok": 2,
-       "no": 0
+       "ok": 3,
+       "no": 1
       }
+     },
+     "neg": {
+      "Distance": 1
      }
     }
    },
@@ -18644,15 +18738,107 @@
     "firma": "c3870db3",
     "igual": 1795023278
    }
+  },
+  "Hyades Sector TK-M b8-4": {
+   "sys": "Hyades Sector TK-M b8-4",
+   "t": 1795040789,
+   "src": "EDDN",
+   "inf": 44.25,
+   "ctrl": true,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Tastis Company",
+   "segunda_inf": 28.33,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 44.25,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Tastis Company",
+     "inf": 28.33,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Catun PLC",
+     "inf": 27.42,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -4.25,
+    35.46875,
+    -95.625
+   ],
+   "sis": {
+    "pob": 2197192,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Li Yong-Rui",
+    "est": "Exploited",
+    "prog": 0.063426,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1795040789,
+     44.25
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "af0ac1c4",
+    "igual": 1795040789
+   },
+   "trafico": {
+    "2026-11-18": 1
+   },
+   "saltos": {
+    "1795039200": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795040325.1308246,
-  "msgs": 708709,
-  "mios": 76
+  "ultimo": 1795041291.875299,
+  "msgs": 726927,
+  "mios": 78
  },
- "t": 1795040580.2421227,
+ "t": 1795041472.876314,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -19199,7 +19385,7 @@
    "nfac": 3,
    "pob": 3498085802,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795037531
+   "t": 1795041335
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -20042,9 +20228,9 @@
    "ly": 7.5,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 200418,
+   "pob": 200430,
    "ctrl_n": "East India Company",
-   "t": 1794941562
+   "t": 1795041170
   },
   "Bestia": {
    "pos": [
@@ -20837,7 +21023,7 @@
    "nfac": 3,
    "pob": 438311,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795028015
+   "t": 1795041131
   },
   "Hyades Sector HX-R b5-1": {
    "pos": [
@@ -20991,9 +21177,9 @@
    "ly": 18.1,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 54038477,
+   "pob": 54042681,
    "ctrl_n": "Sons of Ikarus",
-   "t": 1794961334
+   "t": 1795041392
   },
   "Kwiamo": {
    "pos": [
@@ -21279,7 +21465,7 @@
    "nfac": 5,
    "pob": 5949,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794977561
+   "t": 1795041459
   },
   "Leuctra": {
    "pos": [
@@ -22726,14 +22912,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.334274,
+   "prog": 0.335521,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795009545
+   "t": 1795041424
   },
   "Njungum": {
    "pos": [
@@ -24113,7 +24299,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795016749
+   "t": 1795040793
   },
   "Agrippa": {
    "pos": [
@@ -25004,7 +25190,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795028015
+   "t": 1795041131
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -25164,7 +25350,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795030202
+   "t": 1795040757
   },
   "Ahti": {
    "pos": [
@@ -25622,7 +25808,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795037531
+   "t": 1795041335
   },
   "Yawala": {
    "pos": [
@@ -25700,7 +25886,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795037303
+   "t": 1795040655
   },
   "LHS 1803": {
    "pos": [
@@ -25874,7 +26060,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795039674
+   "t": 1795041217
   },
   "Tascheter Sector WE-Q a5-1": {
    "pos": [
@@ -25884,13 +26070,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.072572,
+   "prog": 0.018186,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794554981
+   "t": 1794524211
   },
   "Mwamen": {
    "pos": [
@@ -26055,6 +26241,122 @@
     "Li Yong-Rui"
    ],
    "t": 1795040500
+  },
+  "Hyades Sector TK-M b8-4": {
+   "pos": [
+    -4.25,
+    35.46875,
+    -95.625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.063426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795040789
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.153215,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795040828
+  },
+  "Blati": {
+   "pos": [
+    -10.34375,
+    40.1875,
+    -70.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795040863
+  },
+  "Tascheter Sector ZZ-P a5-0": {
+   "pos": [
+    19.4375,
+    -35.59375,
+    -45.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.00914,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795041170
+  },
+  "Makum": {
+   "pos": [
+    18.4375,
+    33,
+    -121.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.245712,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795041290
+  },
+  "Trianguli Sector VF-N a7-3": {
+   "pos": [
+    39.40625,
+    -28.125,
+    -51.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.178215,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795041392
+  },
+  "Jeticans": {
+   "pos": [
+    28.90625,
+    11.0625,
+    -110.125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.168732,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795041459
   }
  },
  "ataques": {

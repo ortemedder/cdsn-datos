@@ -17272,10 +17272,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794996424.2259674,
-  "msgs": 76486,
+  "msgs": 93510,
   "mios": 17
  },
- "t": 1794998018.3740346,
+ "t": 1794999239.135704,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -20128,6 +20128,16 @@
  },
  "codice": [
   {
+   "sys": "Cosi",
+   "n": "Earth Likes",
+   "cat": "StellarBodies",
+   "sub": "Terrestrials",
+   "cuerpo": "",
+   "junto": "Tascheter Sector AA-Z b5",
+   "ly": 19.8,
+   "t": 1794999234
+  },
+  {
    "sys": "Tirfing",
    "n": "Recepta 03 Ruthenium",
    "cat": "Biology",
@@ -21005,6 +21015,21 @@
     "Pranav Antal"
    ],
    "t": 1794997919
+  },
+  "Cosi": {
+   "pos": [
+    24.75,
+    -14.6875,
+    -70.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.278032,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794999005
   }
  },
  "ataques": {

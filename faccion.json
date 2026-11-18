@@ -17573,10 +17573,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 194053,
+  "msgs": 205373,
   "mios": 25
  },
- "t": 1795009973.1817336,
+ "t": 1795011634.5310829,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17837,7 +17837,7 @@
    "nfac": 6,
    "pob": 26663,
    "ctrl_n": "East India Company",
-   "t": 1794901133
+   "t": 1795010794
   },
   "Hajangai": {
    "pos": [
@@ -18058,7 +18058,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795002935
+   "t": 1795011046
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -18160,9 +18160,9 @@
    "ly": 10.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 217432,
+   "pob": 217460,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1794908956
+   "t": 1795010854
   },
   "Tascheter Sector BV-Y b2": {
    "pos": [
@@ -18617,7 +18617,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795003326
+   "t": 1795011624
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -20568,6 +20568,19 @@
    "pob": 49694642,
    "ctrl_n": "East India Company",
    "t": 1795008995
+  },
+  "Col 285 Sector RD-T a33-4": {
+   "pos": [
+    132.71875,
+    -31.96875,
+    13.34375
+   ],
+   "ly": 17.8,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1862904,
+   "ctrl_n": "Movement for Njemari Independents",
+   "t": 1795011227
   }
  },
  "codice": [
@@ -21359,7 +21372,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795002935
+   "t": 1795011046
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -21607,7 +21620,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795003326
+   "t": 1795011624
   },
   "Meeneratii": {
    "pos": [
@@ -21900,6 +21913,88 @@
     "Zemina Torval"
    ],
    "t": 1795009966
+  },
+  "GR 316": {
+   "pos": [
+    5.34375,
+    -70.84375,
+    -14.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.11314,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795010794
+  },
+  "Nipibo": {
+   "pos": [
+    136.59375,
+    -5.5625,
+    4.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795010801
+  },
+  "LTT 751": {
+   "pos": [
+    6.375,
+    -95.625,
+    -10.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795010854
+  },
+  "Kalangputys": {
+   "pos": [
+    143.90625,
+    -15.53125,
+    5.25
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.143246,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795011176
+  },
+  "Col 285 Sector RD-T a33-4": {
+   "pos": [
+    132.71875,
+    -31.96875,
+    13.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795011227
   }
  },
  "ataques": {

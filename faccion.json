@@ -16043,7 +16043,7 @@
   },
   "Col 285 Sector NY-Q c5-8": {
    "sys": "Col 285 Sector NY-Q c5-8",
-   "t": 1794959746,
+   "t": 1794960912,
    "src": "EDDN",
    "inf": 50.65,
    "ctrl": true,
@@ -16113,30 +16113,32 @@
    },
    "trafico": {
     "2026-11-17": 11,
-    "2026-11-18": 1
+    "2026-11-18": 3
    },
    "pn": {
     "KLJ-0QB": {
      "n": "ROMEO'S DESTINY",
-     "t": 1794959915,
+     "t": 1794961018,
      "d": 1794954509
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794959915,
+     "t": 1794961018,
      "d": 1794954509
     }
    },
    "tk": {
     "firma": "162aecc3",
-    "igual": 1794959746
+    "igual": 1794960912
    },
    "saltos": {
     "1794952800": 1,
-    "1794956400": 2
+    "1794956400": 2,
+    "1794960000": 1
    },
    "rutas": {
-    "2026-11-17": 4
+    "2026-11-17": 4,
+    "2026-11-18": 1
    },
    "estaciones": {
     "Bulgakov Enterprise": {
@@ -16168,7 +16170,7 @@
     "Poncelet Gateway": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794959998,
+     "t": 1794961105,
      "estado": "",
      "ls": 305,
      "pads": {
@@ -16180,6 +16182,10 @@
      "atq": {
       "2026-11-17": {
        "ok": 2,
+       "no": 0
+      },
+      "2026-11-18": {
+       "ok": 1,
        "no": 0
       }
      },
@@ -16289,11 +16295,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794959842.735934,
-  "msgs": 1046885,
-  "mios": 75
+  "ultimo": 1794960917.8262258,
+  "msgs": 1057578,
+  "mios": 76
  },
- "t": 1794960610.6329715,
+ "t": 1794961521.8002415,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17816,7 +17822,7 @@
    "nfac": 5,
    "pob": 159200,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1794960350
+   "t": 1794960968
   },
   "Arnemil": {
    "pos": [
@@ -18310,7 +18316,7 @@
    "nfac": 6,
    "pob": 9175114,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794955186
+   "t": 1794961432
   },
   "Col 285 Sector PT-Q c5-18": {
    "pos": [
@@ -18623,6 +18629,32 @@
    "pob": 48018778,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794960487
+  },
+  "Trianguli Sector VF-N a7-3": {
+   "pos": [
+    39.40625,
+    -28.125,
+    -51.15625
+   ],
+   "ly": 18.1,
+   "junto": "Eurus",
+   "nfac": 5,
+   "pob": 54038477,
+   "ctrl_n": "Sons of Ikarus",
+   "t": 1794961334
+  },
+  "Kwiamo": {
+   "pos": [
+    24.90625,
+    22.71875,
+    -122.96875
+   ],
+   "ly": 12.2,
+   "junto": "Makum",
+   "nfac": 5,
+   "pob": 115088,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794961513
   }
  },
  "zona": {
@@ -21744,7 +21776,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794960350
+   "t": 1794960968
   },
   "Arnemil": {
    "pos": [
@@ -22660,7 +22692,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794955186
+   "t": 1794961432
   },
   "Baliscii": {
    "pos": [
@@ -23133,6 +23165,73 @@
     "Li Yong-Rui"
    ],
    "t": 1794960487
+  },
+  "HIP 45096": {
+   "pos": [
+    133.40625,
+    -10.9375,
+    11.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794961225
+  },
+  "Trianguli Sector VF-N a7-3": {
+   "pos": [
+    39.40625,
+    -28.125,
+    -51.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.178215,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794961334
+  },
+  "Zosia": {
+   "pos": [
+    -16.75,
+    19.59375,
+    -60.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257661,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794961435
+  },
+  "Kwiamo": {
+   "pos": [
+    24.90625,
+    22.71875,
+    -122.96875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.0638,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794961513
   }
  },
  "codice": [

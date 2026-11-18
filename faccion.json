@@ -1607,7 +1607,7 @@
     "2026-11-15": 9,
     "2026-11-16": 2,
     "2026-11-17": 16,
-    "2026-11-18": 34
+    "2026-11-18": 36
    },
    "zc": [
     {
@@ -2133,7 +2133,7 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795024240,
+     "t": 1795026785,
      "estado": "",
      "ls": 2377,
      "pads": {
@@ -2232,8 +2232,8 @@
        }
       ]
      },
-     "mods": 589,
-     "mods_t": 1795024408,
+     "mods": 590,
+     "mods_t": 1795027037,
      "naves": [
       "adder",
       "asp",
@@ -2268,9 +2268,12 @@
      "naves_t": 1795024248,
      "atq": {
       "2026-11-18": {
-       "ok": 6,
-       "no": 0
+       "ok": 7,
+       "no": 1
       }
+     },
+     "neg": {
+      "Distance": 1
      }
     },
     "Gama Vision": {
@@ -9436,7 +9439,7 @@
    },
    "rutas": {
     "2026-11-17": 20,
-    "2026-11-18": 4
+    "2026-11-18": 5
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -18041,11 +18044,11 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795025642.225625,
-  "msgs": 435472,
+  "msgs": 454524,
   "mios": 44
  },
- "t": 1795026125.3839288,
- "tick_global": 1794938051,
+ "t": 1795027047.101554,
+ "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
    "pos": [
@@ -19085,7 +19088,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795022840
+   "t": 1795027001
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -19317,9 +19320,9 @@
    "ly": 5.4,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 59888784,
+   "pob": 59890247,
    "ctrl_n": "Vulcan Coalition",
-   "t": 1794937197
+   "t": 1795026187
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -20305,9 +20308,9 @@
    "ly": 17.8,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 207091,
+   "pob": 207115,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794959680
+   "t": 1795026540
   },
   "Hyades Sector IX-R b5-0": {
    "pos": [
@@ -20710,7 +20713,7 @@
    "nfac": 6,
    "pob": 10596188,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794988595
+   "t": 1795026837
   },
   "Xuanebuth": {
    "pos": [
@@ -21309,6 +21312,32 @@
    "pob": 397781,
    "ctrl_n": "UGP 92 Purple Travel Services",
    "t": 1795026014
+  },
+  "Hayimstae": {
+   "pos": [
+    32.875,
+    -38.46875,
+    -44.75
+   ],
+   "ly": 6.9,
+   "junto": "Eurus",
+   "nfac": 6,
+   "pob": 2130909,
+   "ctrl_n": "Leviathan Scout Regiment",
+   "t": 1795026320
+  },
+  "Trianguli Sector BH-L a8-2": {
+   "pos": [
+    36.9375,
+    -43.21875,
+    -42.40625
+   ],
+   "ly": 12.1,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 430676,
+   "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
+   "t": 1795026407
   }
  },
  "codice": [
@@ -22331,7 +22360,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795022840
+   "t": 1795027001
   },
   "Meeneratii": {
    "pos": [
@@ -23492,7 +23521,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795025291
+   "t": 1795026468
   },
   "LHS 1734": {
    "pos": [
@@ -23560,13 +23589,131 @@
     "Jerome Archer"
    ],
    "t": 1795026014
+  },
+  "Trianguli Sector WA-N a7-1": {
+   "pos": [
+    28.46875,
+    -41.09375,
+    -50.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.142855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795026187
+  },
+  "Hayimstae": {
+   "pos": [
+    32.875,
+    -38.46875,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.239998,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795026320
+  },
+  "Trianguli Sector BH-L a8-2": {
+   "pos": [
+    36.9375,
+    -43.21875,
+    -42.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795026407
+  },
+  "Mirongkomi": {
+   "pos": [
+    -58.78125,
+    -1.46875,
+    -93.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.158855,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795026468
+  },
+  "Tascheter Sector HM-M a7-1": {
+   "pos": [
+    16.875,
+    -43.75,
+    -31.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.014854,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795026540
+  },
+  "Piriti": {
+   "pos": [
+    -47.9375,
+    -1.1875,
+    -106.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.268512,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795026639
+  },
+  "Rindjibal": {
+   "pos": [
+    133,
+    -3.375,
+    23.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.253935,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795026837
   }
  },
  "ataques": {
   "act": {
    "Hyades Sector DB-X d1-112": {
     "ini": 1795024212,
-    "v": 34,
+    "v": 35,
     "m": 9.7,
     "dia": "hoy",
     "antes": 13.87,

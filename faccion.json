@@ -17575,10 +17575,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 273328,
+  "msgs": 286202,
   "mios": 25
  },
- "t": 1795016139.4144893,
+ "t": 1795016870.0720844,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18786,9 +18786,9 @@
    "ly": 10.3,
    "junto": "BD+47 1236",
    "nfac": 4,
-   "pob": 2252290,
+   "pob": 2252346,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794956869
+   "t": 1795016867
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -20687,6 +20687,19 @@
    "pob": 199828,
    "ctrl_n": "EXO",
    "t": 1795016129
+  },
+  "Jardovici": {
+   "pos": [
+    -7.78125,
+    -86.53125,
+    -9.3125
+   ],
+   "ly": 19.2,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 5,
+   "pob": 3560964,
+   "ctrl_n": "Guardians of Tranquillity",
+   "t": 1795016474
   }
  },
  "codice": [
@@ -22330,6 +22343,75 @@
     "Jerome Archer"
    ],
    "t": 1795016129
+  },
+  "EGM 823": {
+   "pos": [
+    10.59375,
+    -75.875,
+    -9.03125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1795016231
+  },
+  "Jardovici": {
+   "pos": [
+    -7.78125,
+    -86.53125,
+    -9.3125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.25226,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795016474
+  },
+  "Damna": {
+   "pos": [
+    -40.53125,
+    4.375,
+    -124.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.161538,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795016749
+  },
+  "Agrippa": {
+   "pos": [
+    -31.84375,
+    18.9375,
+    -83.3125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.079997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795016867
   }
  },
  "ataques": {

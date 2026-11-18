@@ -2714,7 +2714,7 @@
     "2026-11-15": 7,
     "2026-11-16": 10,
     "2026-11-17": 2,
-    "2026-11-18": 15
+    "2026-11-18": 17
    },
    "pn": {
     "T9K-6QK": {
@@ -2858,7 +2858,7 @@
       ]
      },
      "mods": 825,
-     "mods_t": 1795000703,
+     "mods_t": 1795002153,
      "naves": [
       "anaconda",
       "explorer_nx",
@@ -2867,7 +2867,7 @@
       "panthermkii",
       "type8"
      ],
-     "naves_t": 1795000579,
+     "naves_t": 1795002140,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -6044,15 +6044,15 @@
   },
   "HIP 19292": {
    "sys": "HIP 19292",
-   "t": 1794285416,
+   "t": 1795002105,
    "src": "EDDN",
    "inf": 13.29,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Lavigny's Legion",
    "segunda_inf": 52.85,
@@ -6064,9 +6064,7 @@
      "gov": "Patronage",
      "alg": "Empire",
      "act": [],
-     "pend": [
-      "Expansion"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -6083,10 +6081,10 @@
      "inf": 13.29,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -6094,9 +6092,7 @@
      "inf": 9.09,
      "gov": "Patronage",
      "alg": "Empire",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -6117,7 +6113,7 @@
     -14.1875
    ],
    "sis": {
-    "pob": 204538,
+    "pob": 205996,
     "eco": "$economy_Military;",
     "eco2": "$economy_Tourism;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -6135,10 +6131,26 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 1
+    "2026-11-10": 1,
+    "2026-11-18": 1
+   },
+   "saltos": {
+    "1794999600": 1
    },
    "prev": null,
-   "prev_t": null
+   "prev_t": null,
+   "hinf": [
+    [
+     1794285416,
+     13.29
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "595823b4",
+    "igual": 1795002105
+   }
   },
   "Wathiparian": {
    "sys": "Wathiparian",
@@ -17271,11 +17283,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795000738.2254357,
-  "msgs": 109922,
-  "mios": 18
+  "ultimo": 1795002106.3883765,
+  "msgs": 118028,
+  "mios": 19
  },
- "t": 1795001741.2684631,
+ "t": 1795002442.0988855,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17809,7 +17821,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1794994304
+   "t": 1795001837
   },
   "HIP 33497": {
    "pos": [
@@ -20136,7 +20148,7 @@
    "nfac": 3,
    "pob": 761158999,
    "ctrl_n": "Nagii Union",
-   "t": 1795000571
+   "t": 1795002434
   },
   "HIP 35163": {
    "pos": [
@@ -20149,7 +20161,7 @@
    "nfac": 3,
    "pob": 2371443,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795001360
+   "t": 1795002273
   }
  },
  "codice": [
@@ -20825,7 +20837,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794994304
+   "t": 1795001837
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -21055,7 +21067,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794999005
+   "t": 1795002124
   },
   "Lyncis Sector IM-V b2-3": {
    "pos": [
@@ -21070,7 +21082,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795000571
+   "t": 1795002434
   },
   "Hu Jini": {
    "pos": [
@@ -21131,7 +21143,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795001360
+   "t": 1795002273
   },
   "Lambayeque": {
    "pos": [
@@ -21160,6 +21172,20 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795001587
+  },
+  "HIP 19292": {
+   "pos": [
+    117.96875,
+    -119.8125,
+    -14.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795002105
   }
  },
  "ataques": {

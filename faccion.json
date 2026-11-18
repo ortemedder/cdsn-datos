@@ -8183,36 +8183,25 @@
   },
   "Kunuvii": {
    "sys": "Kunuvii",
-   "t": 1794274942,
+   "t": 1794985921,
    "src": "EDDN",
-   "inf": 51.91,
+   "inf": 57.29,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 24.5,
+   "segunda_inf": 22.01,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 51.91,
+     "inf": 57.29,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Sirius Special Forces",
-     "inf": 24.5,
-     "gov": "Corporate",
-     "alg": "Federation",
      "act": [],
      "pend": [
       "Expansion"
@@ -8220,8 +8209,19 @@
      "jug": null
     },
     {
+     "n": "Sirius Special Forces",
+     "inf": 22.01,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "People's Kunuvii Democrats",
-     "inf": 9.64,
+     "inf": 8.44,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -8230,7 +8230,7 @@
     },
     {
      "n": "Kunuvii Jet Comms Co",
-     "inf": 6.02,
+     "inf": 5.33,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -8239,7 +8239,7 @@
     },
     {
      "n": "Kunuvii Pro-Independent Union",
-     "inf": 5.62,
+     "inf": 4.92,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
@@ -8248,7 +8248,7 @@
     },
     {
      "n": "Posse of Kunuvii",
-     "inf": 2.31,
+     "inf": 2.01,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [
@@ -8287,10 +8287,34 @@
     ]
    },
    "trafico": {
-    "2026-11-10": 1
+    "2026-11-10": 1,
+    "2026-11-18": 1
    },
-   "prev": null,
-   "prev_t": null
+   "prev": 51.91,
+   "prev_t": 1794274942,
+   "hinf": [
+    [
+     1794274942,
+     51.91
+    ],
+    [
+     1794985921,
+     57.29
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
+    "People's Kunuvii Democrats": 0,
+    "Kunuvii Jet Comms Co": 0,
+    "Kunuvii Pro-Independent Union": 0,
+    "Posse of Kunuvii": 0
+   },
+   "rivales": [],
+   "tk": {
+    "firma": "670abb93",
+    "igual": 1794985921
+   }
   },
   "Hidatsa": {
    "sys": "Hidatsa",
@@ -16752,11 +16776,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794978295.0405385,
-  "msgs": 1286081,
-  "mios": 83
+  "ultimo": 1794985922.9772902,
+  "msgs": 1294676,
+  "mios": 84
  },
- "t": 1794984917.9135625,
+ "t": 1794985738.7192712,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16979,7 +17003,7 @@
    "nfac": 5,
    "pob": 2805645,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794980517
+   "t": 1794985725
   },
   "LHS 1499": {
    "pos": [
@@ -17031,7 +17055,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1794984273
+   "t": 1794985456
   },
   "LTT 10918": {
    "pos": [
@@ -18760,7 +18784,7 @@
    "nfac": 4,
    "pob": 1594304,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794955577
+   "t": 1794985102
   },
   "Loki Tan": {
    "pos": [
@@ -19424,6 +19448,19 @@
    "pob": 10596188,
    "ctrl_n": "Solaris Xeno-Psychology Group",
    "t": 1794982902
+  },
+  "Xuanebuth": {
+   "pos": [
+    114.59375,
+    -112.0625,
+    -21.46875
+   ],
+   "ly": 11.2,
+   "junto": "HIP 19292",
+   "nfac": 6,
+   "pob": 750493,
+   "ctrl_n": "Chapterhouse of Inquisition",
+   "t": 1794985109
   }
  },
  "zona": {
@@ -19914,7 +19951,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794980517
+   "t": 1794985725
   },
   "Shenetserii": {
    "pos": [
@@ -20047,7 +20084,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794984273
+   "t": 1794985456
   },
   "LTT 10918": {
    "pos": [
@@ -23444,7 +23481,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794955577
+   "t": 1794985102
   },
   "Loki Tan": {
    "pos": [
@@ -24561,6 +24598,38 @@
     "Zemina Torval"
    ],
    "t": 1794982902
+  },
+  "Xuanebuth": {
+   "pos": [
+    114.59375,
+    -112.0625,
+    -21.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.309347,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794985109
+  },
+  "Kunuvii": {
+   "pos": [
+    -11.4375,
+    18.03125,
+    -107.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794985921
   }
  },
  "codice": [

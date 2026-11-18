@@ -16414,10 +16414,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794965256.592109,
-  "msgs": 1153461,
+  "msgs": 1164209,
   "mios": 78
  },
- "t": 1794969038.1236467,
+ "t": 1794970469.066497,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16835,7 +16835,7 @@
    "nfac": 6,
    "pob": 3455292694,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1794949331
+   "t": 1794970107
   },
   "HJ 3456B": {
    "pos": [
@@ -17121,7 +17121,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794968545
+   "t": 1794970433
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -18890,6 +18890,32 @@
    "pob": 17138585,
    "ctrl_n": "Quebecois Patriots",
    "t": 1794968864
+  },
+  "Trianguli Sector AH-L a8-1": {
+   "pos": [
+    31.90625,
+    -35.375,
+    -43.4375
+   ],
+   "ly": 7.3,
+   "junto": "Eurus",
+   "nfac": 5,
+   "pob": 2195528,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1794969838
+  },
+  "Ceti Sector DL-X b1-5": {
+   "pos": [
+    18.59375,
+    -94.75,
+    -49.21875
+   ],
+   "ly": 14.7,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 4,
+   "pob": 1572479,
+   "ctrl_n": "Imperial Self Defense Force",
+   "t": 1794969948
   }
  },
  "zona": {
@@ -19817,7 +19843,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.253998,
+   "prog": 0.254786,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -19825,7 +19851,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794949331
+   "t": 1794970107
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -20366,7 +20392,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794968545
+   "t": 1794970433
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -21932,7 +21958,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794941483
+   "t": 1794970053
   },
   "Damna": {
    "pos": [
@@ -22959,7 +22985,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794955543
+   "t": 1794970461
   },
   "Wawal": {
    "pos": [
@@ -23728,6 +23754,38 @@
     "Jerome Archer"
    ],
    "t": 1794968864
+  },
+  "Trianguli Sector AH-L a8-1": {
+   "pos": [
+    31.90625,
+    -35.375,
+    -43.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794969838
+  },
+  "Ceti Sector DL-X b1-5": {
+   "pos": [
+    18.59375,
+    -94.75,
+    -49.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794969948
   }
  },
  "codice": [

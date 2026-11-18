@@ -1148,16 +1148,16 @@
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
-   "t": 1794848568,
+   "t": 1795040275,
    "src": "EDDN",
    "inf": 12.15,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Flotta Stellare",
    "segunda_inf": 49.4,
    "conflictos": [],
@@ -1188,7 +1188,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -1245,8 +1247,8 @@
    "pp": {
     "pot": "Zemina Torval",
     "est": "Fortified",
-    "prog": 0.154769,
-    "ref": 0,
+    "prog": 0.155288,
+    "ref": 337,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -1259,14 +1261,21 @@
     "2026-11-11": 2,
     "2026-11-14": 1,
     "2026-11-15": 3,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-18": 2
    },
    "tk": {
     "firma": "732e6b21",
-    "igual": 1794848568,
+    "igual": 1795040275,
     "ult": 1794694787,
     "desde": 1794418553,
     "est": null
+   },
+   "saltos": {
+    "1795039200": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
    },
    "prev": 12.46,
    "prev_t": 1794418553,
@@ -1284,6 +1293,8 @@
      12.15
     ]
    ],
+   "rach": {},
+   "rivales": [],
    "tick_ult": 1794694787,
    "tick_marg": 2301
   },
@@ -4547,18 +4558,18 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 34
+    "2026-11-18": 36
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795033100
+     "t": 1795039845
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795033100
+     "t": 1795039845
     }
    ],
    "pn": {
@@ -4568,7 +4579,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795033100,
+     "t": 1795039845,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -4578,7 +4589,7 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795033100,
+     "t": 1795039845,
      "d": 1795025641
     }
    },
@@ -4624,7 +4635,7 @@
    },
    "rutas": {
     "2026-11-17": 9,
-    "2026-11-18": 7
+    "2026-11-18": 8
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -4886,9 +4897,9 @@
     "Shepherd Beacon": {
      "f": "Caballeros de Sion",
      "tipo": "Outpost",
-     "t": 1795028480,
+     "t": 1795040083,
      "estado": "",
-     "ls": 3394,
+     "ls": 3393,
      "pads": {
       "Small": 2,
       "Medium": 1,
@@ -4896,7 +4907,7 @@
      },
      "mid": 3228010240,
      "mer": {
-      "t": 1795028487,
+      "t": 1795040089,
       "n": 106,
       "vende": [
        {
@@ -4984,6 +4995,12 @@
         "s": 524
        }
       ]
+     },
+     "atq": {
+      "2026-11-18": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -5433,7 +5450,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 31
+    "2026-11-18": 34
    },
    "pn": {
     "H5L-70M": {
@@ -5507,12 +5524,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795038118,
+     "t": 1795040505,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795038153,
+      "t": 1795040512,
       "n": 366,
       "vende": [
        {
@@ -5603,7 +5620,7 @@
      },
      "atq": {
       "2026-11-18": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      },
@@ -5985,7 +6002,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795038380,
+     "t": 1795040278,
      "estado": "",
      "ls": 2655,
      "pads": {
@@ -5996,7 +6013,7 @@
      "mid": 3966078978,
      "atq": {
       "2026-11-18": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -9576,7 +9593,7 @@
    "trafico": {
     "2026-11-12": 2,
     "2025-01-12": 1,
-    "2026-11-18": 3
+    "2026-11-18": 4
    },
    "tk": {
     "firma": "67337163",
@@ -9680,8 +9697,8 @@
        }
       ]
      },
-     "mods": 524,
-     "mods_t": 1795037943,
+     "mods": 562,
+     "mods_t": 1795040443,
      "naves": [
       "asp",
       "cobramkiii",
@@ -11805,15 +11822,15 @@
   },
   "Tascheter Sector UT-A b1": {
    "sys": "Tascheter Sector UT-A b1",
-   "t": 1794646830,
+   "t": 1795040100,
    "src": "EDDN",
    "inf": 57.86,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 30.95,
@@ -11824,10 +11841,10 @@
      "inf": 57.86,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -11858,7 +11875,7 @@
     -105.03125
    ],
    "sis": {
-    "pob": 331862,
+    "pob": 332886,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -11881,11 +11898,18 @@
    },
    "trafico": {
     "2026-11-12": 2,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-18": 1
    },
    "tk": {
     "firma": "75000d02",
-    "igual": 1794646830
+    "igual": 1795040100
+   },
+   "saltos": {
+    "1795039200": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
    },
    "prev": null,
    "prev_t": null,
@@ -11895,9 +11919,8 @@
      57.86
     ]
    ],
-   "rutas": {
-    "2026-11-18": 1
-   }
+   "rach": {},
+   "rivales": []
   },
   "Col 285 Sector RZ-O c6-12": {
    "sys": "Col 285 Sector RZ-O c6-12",
@@ -13433,52 +13456,56 @@
   },
   "Skang": {
    "sys": "Skang",
-   "t": 1794496026,
+   "t": 1795040322,
    "src": "EDDN",
    "inf": 3.6,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 54.1,
+   "segunda_inf": 53.7,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 54.1,
+     "inf": 53.7,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
-     "jug": null
-    },
-    {
-     "n": "Skang Group",
-     "inf": 13.2,
-     "gov": "Corporate",
-     "alg": "Independent",
-     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Revolutionary Furuhjelm II-432 Alliance",
-     "inf": 11.5,
+     "inf": 12.6,
      "gov": "Confederacy",
      "alg": "Federation",
-     "act": [],
+     "act": [
+      "War"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Skang Group",
+     "inf": 12.6,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [
+      "War"
+     ],
      "pend": [],
      "jug": null
     },
     {
      "n": "New Skang Progressive Party",
-     "inf": 10.3,
+     "inf": 10.2,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -13499,10 +13526,10 @@
      "inf": 3.6,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -13542,16 +13569,42 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-18": 1
+   },
+   "tk": {
+    "firma": "cdca5bf1",
+    "igual": 1795040322,
+    "ult": 1795040322,
+    "desde": 1794496026,
+    "est": null
+   },
+   "saltos": {
+    "1795039200": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794496026,
      3.6
     ]
    ],
-   "tk": {
-    "firma": "4524f567",
-    "igual": 1794496026
-   }
+   "rach": {
+    "Flotta Stellare": 0,
+    "Revolutionary Furuhjelm II-432 Alliance": 1,
+    "Skang Group": 0,
+    "New Skang Progressive Party": 0,
+    "Order of Enblackenment": 0,
+    "Caballeros de Sion": 0,
+    "Skang Posse": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795040322,
+   "tick_marg": 4535
   },
   "Lyncis Sector WO-R b4-3": {
    "sys": "Lyncis Sector WO-R b4-3",
@@ -18595,11 +18648,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795037654.986117,
-  "msgs": 693779,
-  "mios": 73
+  "ultimo": 1795040325.1308246,
+  "msgs": 708709,
+  "mios": 76
  },
- "t": 1795039687.5330465,
+ "t": 1795040580.2421227,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -19209,9 +19262,9 @@
    "ly": 19.9,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 4,
-   "pob": 207096,
+   "pob": 207112,
    "ctrl_n": "Barons of Gallavs",
-   "t": 1794895029
+   "t": 1795040154
   },
   "Wolf 152": {
    "pos": [
@@ -20470,9 +20523,9 @@
    "ly": 16.8,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 437586,
+   "pob": 437614,
    "ctrl_n": "Omega Merchant Command",
-   "t": 1794956011
+   "t": 1795040500
   },
   "Ghimr": {
    "pos": [
@@ -21837,7 +21890,7 @@
    "nfac": 3,
    "pob": 183534347,
    "ctrl_n": "Canonn",
-   "t": 1795024727
+   "t": 1795040215
   },
   "BD+18 1160": {
    "pos": [
@@ -22280,6 +22333,32 @@
    "pob": 60713277,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794554981
+  },
+  "Tascheter Sector XE-Q a5-0": {
+   "pos": [
+    15.59375,
+    -34.15625,
+    -51.4375
+   ],
+   "ly": 12.9,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 448368,
+   "ctrl_n": "East India Company",
+   "t": 1795040211
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "ly": 18.4,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 5,
+   "pob": 274911967,
+   "ctrl_n": "BFNF Solutions",
+   "t": 1795040266
   }
  },
  "codice": [
@@ -25812,6 +25891,170 @@
     "Jerome Archer"
    ],
    "t": 1794554981
+  },
+  "Mwamen": {
+   "pos": [
+    -6.125,
+    -88.65625,
+    -15.59375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.249538,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795039728
+  },
+  "HR 2439": {
+   "pos": [
+    18.1875,
+    16.90625,
+    -104
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.253786,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795040045
+  },
+  "Tascheter Sector UT-A b1": {
+   "pos": [
+    -8.125,
+    -0.6875,
+    -105.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795040100
+  },
+  "Arietis Sector MN-S b4-5": {
+   "pos": [
+    -26.46875,
+    -21.9375,
+    -121.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795040154
+  },
+  "Tascheter Sector XE-Q a5-0": {
+   "pos": [
+    15.59375,
+    -34.15625,
+    -51.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795040211
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795040266
+  },
+  "SPOCS 253": {
+   "pos": [
+    -15.375,
+    -0.625,
+    -83.8125
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.155288,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795040275
+  },
+  "Skang": {
+   "pos": [
+    -4.09375,
+    36.46875,
+    -89.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795040322
+  },
+  "Awonai": {
+   "pos": [
+    -2.46875,
+    41.3125,
+    -96.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.498544,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795040388
+  },
+  "BD+11 1163": {
+   "pos": [
+    36.28125,
+    -0.03125,
+    -98.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795040500
   }
  },
  "ataques": {

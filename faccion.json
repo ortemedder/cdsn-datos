@@ -10876,16 +10876,16 @@
   },
   "Lyncis Sector JR-W c1-15": {
    "sys": "Lyncis Sector JR-W c1-15",
-   "t": 1794679601,
+   "t": 1794965237,
    "src": "EDDN",
    "inf": 10.04,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 51.31,
    "conflictos": [],
@@ -10925,7 +10925,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -10945,7 +10947,7 @@
     -135.03125
    ],
    "sis": {
-    "pob": 202550,
+    "pob": 202578,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -10964,11 +10966,18 @@
     ]
    },
    "trafico": {
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-18": 1
    },
    "tk": {
     "firma": "bd3edb01",
-    "igual": 1794679601
+    "igual": 1794965237
+   },
+   "saltos": {
+    "1794963600": 1
+   },
+   "rutas": {
+    "2026-11-18": 2
    },
    "prev": null,
    "prev_t": null,
@@ -10977,7 +10986,9 @@
      1794264834,
      10.04
     ]
-   ]
+   ],
+   "rach": {},
+   "rivales": []
   },
   "Satvaneka": {
    "sys": "Satvaneka",
@@ -16398,11 +16409,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794961697.1650407,
-  "msgs": 1100066,
-  "mios": 77
+  "ultimo": 1794965256.592109,
+  "msgs": 1110538,
+  "mios": 78
  },
- "t": 1794964934.6301782,
+ "t": 1794965955.7919624,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -18211,7 +18222,7 @@
    "nfac": 6,
    "pob": 9608908279,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794950744
+   "t": 1794965604
   },
   "BD+16 1001": {
    "pos": [
@@ -18797,6 +18808,58 @@
    "pob": 2802342,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794964926
+  },
+  "Hyades Sector DB-X d1-79": {
+   "pos": [
+    9.90625,
+    29.15625,
+    -130.71875
+   ],
+   "ly": 12.8,
+   "junto": "Makum",
+   "nfac": 4,
+   "pob": 2441015,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794965466
+  },
+  "HIP 17820": {
+   "pos": [
+    104.75,
+    -117.75,
+    -11.75
+   ],
+   "ly": 13.6,
+   "junto": "HIP 19292",
+   "nfac": 5,
+   "pob": 2197518,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1794965695
+  },
+  "ICZ BF-Z b4": {
+   "pos": [
+    100.0625,
+    -114.25,
+    -8.53125
+   ],
+   "ly": 19.6,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 198748,
+   "ctrl_n": "The White Templars",
+   "t": 1794965739
+  },
+  "Tascheter Sector WE-Q a5-2": {
+   "pos": [
+    11.9375,
+    -31.1875,
+    -50.5
+   ],
+   "ly": 16.9,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 618595,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794965945
   }
  },
  "zona": {
@@ -19041,7 +19104,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794890014
+   "t": 1794965603
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -22514,7 +22577,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794950744
+   "t": 1794965604
   },
   "BD+16 1001": {
    "pos": [
@@ -22971,7 +23034,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794956190
+   "t": 1794965535
   },
   "Yin Sector YU-Y b4": {
    "pos": [
@@ -23467,6 +23530,108 @@
     "Li Yong-Rui"
    ],
    "t": 1794964926
+  },
+  "Lyncis Sector JR-W c1-15": {
+   "pos": [
+    -16.9375,
+    25.34375,
+    -135.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.021811,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794965237
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794965288
+  },
+  "Hyades Sector DB-X d1-79": {
+   "pos": [
+    9.90625,
+    29.15625,
+    -130.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794965466
+  },
+  "Gyvatices": {
+   "pos": [
+    101.78125,
+    -126.40625,
+    -12.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.261332,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794965648
+  },
+  "HIP 17820": {
+   "pos": [
+    104.75,
+    -117.75,
+    -11.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.008554,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794965695
+  },
+  "ICZ BF-Z b4": {
+   "pos": [
+    100.0625,
+    -114.25,
+    -8.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794965739
+  },
+  "Tascheter Sector WE-Q a5-2": {
+   "pos": [
+    11.9375,
+    -31.1875,
+    -50.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794965945
   }
  },
  "codice": [

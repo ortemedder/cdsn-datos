@@ -16410,10 +16410,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794965256.592109,
-  "msgs": 1110538,
+  "msgs": 1132157,
   "mios": 78
  },
- "t": 1794965955.7919624,
+ "t": 1794967866.8424478,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17206,9 +17206,9 @@
    "ly": 8.4,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 272246,
+   "pob": 272708,
    "ctrl_n": "Flotta Stellare",
-   "t": 1794896053
+   "t": 1794967589
   },
   "Bero": {
    "pos": [
@@ -17377,7 +17377,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1794938268
+   "t": 1794967657
   },
   "Lokaantii": {
    "pos": [
@@ -17767,7 +17767,7 @@
    "nfac": 6,
    "pob": 2023524,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1794939257
+   "t": 1794967176
   },
   "Tascheter Sector OX-U b2-7": {
    "pos": [
@@ -20485,7 +20485,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794896053
+   "t": 1794967589
   },
   "Bero": {
    "pos": [
@@ -20791,14 +20791,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.269857,
+   "prog": 0.270178,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794938268
+   "t": 1794967657
   },
   "Lokaantii": {
    "pos": [
@@ -21706,7 +21706,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794939257
+   "t": 1794967176
   },
   "Ketekhmet": {
    "pos": [
@@ -23464,7 +23464,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1794962652
+   "t": 1794967064
   },
   "Pularungu": {
    "pos": [
@@ -23497,7 +23497,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794964763
+   "t": 1794966315
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -23632,6 +23632,24 @@
     "Jerome Archer"
    ],
    "t": 1794965945
+  },
+  "Cerno": {
+   "pos": [
+    30.0625,
+    26.875,
+    -82.9375
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.138082,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794967076
   }
  },
  "codice": [

@@ -8152,6 +8152,9 @@
    "tk": {
     "firma": "44ffbe4e",
     "igual": 1794779426
+   },
+   "rutas": {
+    "2026-11-18": 1
    }
   },
   "Kunuvii": {
@@ -16411,10 +16414,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794965256.592109,
-  "msgs": 1142463,
+  "msgs": 1153461,
   "mios": 78
  },
- "t": 1794968557.7368202,
+ "t": 1794969038.1236467,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16897,7 +16900,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794955545
+   "t": 1794969027
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -18874,6 +18877,19 @@
    "pob": 405228172,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794968346
+  },
+  "Ross 23": {
+   "pos": [
+    -45.71875,
+    0.875,
+    -75.21875
+   ],
+   "ly": 12.0,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 17138585,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1794968864
   }
  },
  "zona": {
@@ -19958,7 +19974,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794955545
+   "t": 1794969027
   },
   "Choujem": {
    "pos": [
@@ -23696,6 +23712,22 @@
     "Jerome Archer"
    ],
    "t": 1794968346
+  },
+  "Ross 23": {
+   "pos": [
+    -45.71875,
+    0.875,
+    -75.21875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.167985,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794968864
   }
  },
  "codice": [

@@ -17573,10 +17573,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 205373,
+  "msgs": 218204,
   "mios": 25
  },
- "t": 1795011634.5310829,
+ "t": 1795012475.1914747,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -20515,7 +20515,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795009257
+   "t": 1795011838
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -20581,6 +20581,19 @@
    "pob": 1862904,
    "ctrl_n": "Movement for Njemari Independents",
    "t": 1795011227
+  },
+  "Col 285 Sector SD-T a33-2": {
+   "pos": [
+    143.90625,
+    -27.84375,
+    11.65625
+   ],
+   "ly": 15.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 398709,
+   "ctrl_n": "Hu Jini Patron's Principles",
+   "t": 1795012467
   }
  },
  "codice": [
@@ -20895,7 +20908,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794990660
+   "t": 1795011976
   },
   "Apam Napat": {
    "pos": [
@@ -21635,7 +21648,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795009661
+   "t": 1795012397
   },
   "Col 285 Sector KE-E b13-8": {
    "pos": [
@@ -21778,7 +21791,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795009257
+   "t": 1795011838
   },
   "Dewikum": {
    "pos": [
@@ -21995,6 +22008,21 @@
     "Zemina Torval"
    ],
    "t": 1795011227
+  },
+  "Col 285 Sector SD-T a33-2": {
+   "pos": [
+    143.90625,
+    -27.84375,
+    11.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795012467
   }
  },
  "ataques": {

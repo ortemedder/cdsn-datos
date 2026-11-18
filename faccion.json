@@ -3635,23 +3635,23 @@
   },
   "Hyades Sector SZ-N b7-0": {
    "sys": "Hyades Sector SZ-N b7-0",
-   "t": 1794740634,
+   "t": 1794978294,
    "src": "EDDN",
-   "inf": 4.7,
+   "inf": 4.69,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 72.93,
+   "segunda_inf": 73.38,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 72.93,
+     "inf": 73.38,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -3662,31 +3662,33 @@
     },
     {
      "n": "Enigma Dyson Syndicate",
-     "inf": 13.59,
+     "inf": 13.36,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Anti Xeno Initiative",
-     "inf": 8.79,
+     "inf": 8.57,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 4.7,
+     "inf": 4.69,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -3697,7 +3699,7 @@
     -109.3125
    ],
    "sis": {
-    "pob": 1583754,
+    "pob": 1585218,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -3707,8 +3709,8 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.217209,
-    "ref": 24,
+    "prog": 0.217221,
+    "ref": 28,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -3721,24 +3723,33 @@
     "2026-11-11": 3,
     "2026-11-12": 2,
     "2026-11-14": 1,
-    "2026-11-15": 2
+    "2026-11-15": 2,
+    "2026-11-18": 1
    },
    "pn": {
     "XHF-N1M": {
      "n": "HMAS KATOOMBA",
-     "t": 1794483857
+     "t": 1794978300,
+     "d": 1794978300
     },
     "XZV-67H": {
      "n": "[EDS] BIGMAMA [GOOFY]",
-     "t": 1794483857
+     "t": 1794978300,
+     "d": 1794978300
     }
    },
    "tk": {
-    "firma": "31f3d6f1",
-    "igual": 1794740634,
-    "ult": 1794483850,
-    "desde": 1794415913,
+    "firma": "fc7f7715",
+    "igual": 1794978294,
+    "ult": 1794978294,
+    "desde": 1794740634,
     "est": null
+   },
+   "saltos": {
+    "1794978000": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
    },
    "prev": 5.0,
    "prev_t": 1794415913,
@@ -3752,11 +3763,15 @@
      4.7
     ]
    ],
-   "tick_ult": 1794483850,
-   "tick_marg": 566,
-   "rutas": {
-    "2026-11-18": 1
-   }
+   "rach": {
+    "Sirius Special Forces": 1,
+    "Enigma Dyson Syndicate": 0,
+    "Anti Xeno Initiative": 0,
+    "Caballeros de Sion": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794978294,
+   "tick_marg": 1980
   },
   "Jangore": {
    "sys": "Jangore",
@@ -16737,11 +16752,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794974708.6123402,
-  "msgs": 1230963,
-  "mios": 82
+  "ultimo": 1794978295.0405385,
+  "msgs": 1238069,
+  "mios": 83
  },
- "t": 1794977614.170215,
+ "t": 1794978304.394982,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -24441,6 +24456,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794977561
+  },
+  "Hyades Sector SZ-N b7-0": {
+   "pos": [
+    15.9375,
+    16.65625,
+    -109.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.217221,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794978294
   }
  },
  "codice": [

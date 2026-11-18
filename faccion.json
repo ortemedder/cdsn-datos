@@ -4908,7 +4908,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794974128,
+   "t": 1794974707,
    "src": "EDDN",
    "inf": 83.33,
    "ctrl": true,
@@ -4988,7 +4988,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 1
+    "2026-11-18": 2
    },
    "pn": {
     "H5L-70M": {
@@ -5023,7 +5023,7 @@
    },
    "tk": {
     "firma": "8969fec3",
-    "igual": 1794974128,
+    "igual": 1794974707,
     "ult": 1794928581,
     "desde": 1794879132,
     "est": null,
@@ -16734,11 +16734,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794974129.4266644,
-  "msgs": 1197640,
-  "mios": 81
+  "ultimo": 1794974708.6123402,
+  "msgs": 1205552,
+  "mios": 82
  },
- "t": 1794974132.000947,
+ "t": 1794974712.4248965,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17442,7 +17442,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794974105
+   "t": 1794974359
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -18170,7 +18170,7 @@
    "nfac": 6,
    "pob": 2155583,
    "ctrl_n": "Hu Jini Patron's Principles",
-   "t": 1794940598
+   "t": 1794974395
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -20778,7 +20778,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794974105
+   "t": 1794974359
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -22257,12 +22257,12 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.292167,
+   "prog": 0.291849,
    "pots": [
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794940598
+   "t": 1794974395
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [

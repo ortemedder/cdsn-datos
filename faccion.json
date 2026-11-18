@@ -5175,9 +5175,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794974707,
+   "t": 1795003151,
    "src": "EDDN",
-   "inf": 83.33,
+   "inf": 86.63,
    "ctrl": true,
    "estado": "Boom",
    "activos": [
@@ -5189,12 +5189,12 @@
    ],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 11.78,
+   "segunda_inf": 9.48,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 83.33,
+     "inf": 86.63,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -5208,7 +5208,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 11.78,
+     "inf": 9.48,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -5217,7 +5217,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 4.89,
+     "inf": 3.89,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -5232,7 +5232,7 @@
     280.59375
    ],
    "sis": {
-    "pob": 60212863,
+    "pob": 63649164,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -5255,12 +5255,12 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 2
+    "2026-11-18": 3
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794974128,
+     "t": 1795003204,
      "d": 1794928703
     },
     "KBG-B1L": {
@@ -5289,10 +5289,10 @@
     }
    },
    "tk": {
-    "firma": "8969fec3",
-    "igual": 1794974707,
-    "ult": 1794928581,
-    "desde": 1794879132,
+    "firma": "368753ce",
+    "igual": 1795003151,
+    "ult": 1795003151,
+    "desde": 1794974707,
     "est": null,
     "vent": [
      [
@@ -5306,6 +5306,10 @@
      [
       1794879132,
       1794928581
+     ],
+     [
+      1794974707,
+      1795003151
      ]
     ],
     "hist": [
@@ -5422,7 +5426,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794933821,
+     "t": 1795003532,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5432,39 +5436,39 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1794933837,
+      "t": 1795003564,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
         "p": 694266,
-        "d": 6104
+        "d": 6387
        },
        {
         "n": "serendibite",
         "p": 570948,
-        "d": 6104
+        "d": 6387
        },
        {
         "n": "benitoite",
         "p": 567114,
-        "d": 6104
+        "d": 6387
        },
        {
         "n": "grandidierite",
         "p": 563640,
-        "d": 6104
+        "d": 6387
        },
        {
         "n": "opal",
         "p": 552666,
-        "d": 2715
+        "d": 2841
        }
       ],
       "alta": [
        {
         "n": "osmium",
-        "p": 234704,
+        "p": 234687,
         "m": 44051
        },
        {
@@ -5474,7 +5478,7 @@
        },
        {
         "n": "platinum",
-        "p": 279592,
+        "p": 280303,
         "m": 55505
        },
        {
@@ -5493,37 +5497,41 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 100555
+        "s": 105229
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 136408
+        "s": 142736
        },
        {
         "n": "polymers",
         "p": 43,
         "m": 306,
-        "s": 4819826
+        "s": 5043313
        },
        {
         "n": "ceramiccomposites",
         "p": 78,
         "m": 402,
-        "s": 377133
+        "s": 394620
        },
        {
         "n": "syntheticfabrics",
         "p": 72,
         "m": 354,
-        "s": 3404464
+        "s": 3562326
        }
       ]
      },
      "atq": {
       "2026-11-17": {
        "ok": 6,
+       "no": 0
+      },
+      "2026-11-18": {
+       "ok": 1,
        "no": 0
       }
      }
@@ -5552,8 +5560,8 @@
      }
     }
    },
-   "prev": 79.14,
-   "prev_t": 1794879132,
+   "prev": 83.33,
+   "prev_t": 1794974707,
    "hinf": [
     [
      1794353391,
@@ -5586,17 +5594,21 @@
     [
      1794928581,
      83.33
+    ],
+    [
+     1795003151,
+     86.63
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 1,
+    "Caballeros de Sion": 2,
     "Natural Atese Front": 0,
     "Wolves of Jonai": 0
    },
    "rivales": [],
-   "tick_ult": 1794928581,
-   "tick_marg": 412,
-   "tick_prox": 1794960810,
+   "tick_ult": 1795003151,
+   "tick_marg": 237,
+   "tick_prox": 1795047210,
    "tick_disp": 6,
    "tick_n": 1
   },
@@ -17283,11 +17295,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795002106.3883765,
-  "msgs": 118028,
-  "mios": 19
+  "ultimo": 1795003500.322431,
+  "msgs": 126077,
+  "mios": 20
  },
- "t": 1795002442.0988855,
+ "t": 1795003542.9882605,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17769,7 +17781,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1794995344
+   "t": 1795002935
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -18328,7 +18340,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794964749
+   "t": 1795003326
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -20953,7 +20965,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794995344
+   "t": 1795002935
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -21186,6 +21198,37 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795002105
+  },
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.217842,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795003326
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256455,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795003408
   }
  },
  "ataques": {

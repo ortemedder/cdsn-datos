@@ -16399,10 +16399,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794961697.1650407,
-  "msgs": 1088905,
+  "msgs": 1100066,
   "mios": 77
  },
- "t": 1794964233.6847615,
+ "t": 1794964934.6301782,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16872,7 +16872,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794964124
+   "t": 1794964472
   },
   "Zephyrus": {
    "pos": [
@@ -17106,7 +17106,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794962002
+   "t": 1794964920
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -17444,7 +17444,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794963950
+   "t": 1794964749
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -17873,7 +17873,7 @@
    "nfac": 6,
    "pob": 32286,
    "ctrl_n": "Flotta Stellare",
-   "t": 1794940855
+   "t": 1794964874
   },
   "Col 285 Sector UT-W b16-4": {
    "pos": [
@@ -18771,6 +18771,32 @@
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
    "t": 1794964229
+  },
+  "Trianguli Sector XA-N a7-1": {
+   "pos": [
+    37.28125,
+    -38.3125,
+    -47.59375
+   ],
+   "ly": 11.4,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 3172758,
+   "ctrl_n": "EXO",
+   "t": 1794964914
+  },
+  "Prom Du": {
+   "pos": [
+    2.90625,
+    -1.5625,
+    -120.4375
+   ],
+   "ly": 3.8,
+   "junto": "BD+27 881",
+   "nfac": 6,
+   "pob": 2802342,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794964926
   }
  },
  "zona": {
@@ -19821,7 +19847,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794964124
+   "t": 1794964472
   },
   "Guei": {
    "pos": [
@@ -20241,13 +20267,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.02468,
+   "prog": 0.025546,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794962002
+   "t": 1794964920
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -20838,7 +20864,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794963950
+   "t": 1794964749
   },
   "Evenks": {
    "pos": [
@@ -21780,7 +21806,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794940855
+   "t": 1794964874
   },
   "Col 285 Sector UT-W b16-4": {
    "pos": [
@@ -23393,6 +23419,54 @@
     "Jerome Archer"
    ],
    "t": 1794964229
+  },
+  "HIP 34730": {
+   "pos": [
+    -26.75,
+    62.84375,
+    -140.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794964763
+  },
+  "Trianguli Sector XA-N a7-1": {
+   "pos": [
+    37.28125,
+    -38.3125,
+    -47.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.273041,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794964914
+  },
+  "Prom Du": {
+   "pos": [
+    2.90625,
+    -1.5625,
+    -120.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.266498,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1794964926
   }
  },
  "codice": [

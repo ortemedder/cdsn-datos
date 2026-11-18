@@ -4367,7 +4367,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794990245,
+   "t": 1795006203,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4469,8 +4469,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 1.042468,
-    "ref": 120051,
+    "prog": 1.051938,
+    "ref": 126207,
     "soc": 81447,
     "pots": [
      "Edmund Mahon",
@@ -4487,7 +4487,7 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 15
+    "2026-11-18": 16
    },
    "zc": [
     {
@@ -4519,7 +4519,7 @@
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1794990245,
+    "igual": 1795006203,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -4551,7 +4551,8 @@
     "1794949200": 1,
     "1794952800": 1,
     "1794956400": 1,
-    "1794988800": 1
+    "1794988800": 1,
+    "1795003200": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -5255,7 +5256,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 10
+    "2026-11-18": 13
    },
    "pn": {
     "H5L-70M": {
@@ -5426,7 +5427,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795004777,
+     "t": 1795006056,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5436,7 +5437,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795004803,
+      "t": 1795006063,
       "n": 366,
       "vende": [
        {
@@ -5515,7 +5516,7 @@
         "n": "ceramiccomposites",
         "p": 78,
         "m": 402,
-        "s": 394620
+        "s": 392424
        },
        {
         "n": "syntheticfabrics",
@@ -5531,7 +5532,7 @@
        "no": 0
       },
       "2026-11-18": {
-       "ok": 4,
+       "ok": 5,
        "no": 1
       }
      },
@@ -5565,7 +5566,7 @@
     "Orbital Construction Site: Snofru Depot": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795005044,
+     "t": 1795005771,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -5576,7 +5577,7 @@
      "mid": 3966431490,
      "atq": {
       "2026-11-18": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -17317,11 +17318,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795003500.322431,
-  "msgs": 142398,
-  "mios": 20
+  "ultimo": 1795006204.7664084,
+  "msgs": 150520,
+  "mios": 21
  },
- "t": 1795005335.4609852,
+ "t": 1795006206.8547416,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17777,7 +17778,7 @@
    "nfac": 4,
    "pob": 39598,
    "ctrl_n": "The Winged Hussars",
-   "t": 1795005180
+   "t": 1795005514
   },
   "Ross 332": {
    "pos": [
@@ -17814,9 +17815,9 @@
    "ly": 17.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 216401,
+   "pob": 216496,
    "ctrl_n": "East India Company",
-   "t": 1794890839
+   "t": 1795005093
   },
   "Trianguli Sector SU-O a6-3": {
    "pos": [
@@ -20481,7 +20482,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 1.042468,
+   "prog": 1.051938,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -20489,7 +20490,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794990245
+   "t": 1795006203
   },
   "LHS 1734": {
    "pos": [
@@ -21322,6 +21323,39 @@
     "Zemina Torval"
    ],
    "t": 1795005153
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260555,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795005593
+  },
+  "Tascheter Sector IM-M a7-1": {
+   "pos": [
+    27.6875,
+    -38.875,
+    -28.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795005093
   }
  },
  "ataques": {

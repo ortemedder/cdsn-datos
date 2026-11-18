@@ -2494,7 +2494,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794959840,
+   "t": 1794991697,
    "src": "EDDN",
    "inf": 70.98,
    "ctrl": true,
@@ -2593,8 +2593,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.252394,
-    "ref": 2721,
+    "prog": 0.252398,
+    "ref": 2724,
     "soc": 64,
     "pots": [
      "Aisling Duval",
@@ -2611,28 +2611,28 @@
     "2026-11-15": 7,
     "2026-11-16": 10,
     "2026-11-17": 2,
-    "2026-11-18": 4
+    "2026-11-18": 5
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794959958,
+     "t": 1794991697,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794959958,
+     "t": 1794991697,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794959958,
+     "t": 1794991697,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1794959840,
+    "igual": 1794991697,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -2644,50 +2644,13 @@
     "est": null
    },
    "saltos": {
-    "1794956400": 2
+    "1794956400": 2,
+    "1794988800": 1
    },
    "rutas": {
-    "2026-11-17": 4
+    "2026-11-17": 4,
+    "2026-11-18": 3
    },
-   "prev": 69.6,
-   "prev_t": 1794848801,
-   "hinf": [
-    [
-     1794290838,
-     67.33
-    ],
-    [
-     1794617698,
-     68.35
-    ],
-    [
-     1794702233,
-     66.17
-    ],
-    [
-     1794832834,
-     69.6
-    ],
-    [
-     1794959840,
-     70.98
-    ]
-   ],
-   "rach": {
-    "Caballeros de Sion": 1,
-    "Sirius Special Forces": 0,
-    "Escuadron Centinelas": 0,
-    "New Catun First": 0,
-    "Catun Resistance": 0,
-    "Catun PLC": 0,
-    "Catun Mafia": 0
-   },
-   "rivales": [],
-   "tick_ult": 1794959840,
-   "tick_marg": 925,
-   "tick_prox": 1795031010,
-   "tick_disp": 279,
-   "tick_n": 0,
    "estaciones": {
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
@@ -2809,7 +2772,46 @@
       }
      }
     }
-   }
+   },
+   "prev": 69.6,
+   "prev_t": 1794848801,
+   "hinf": [
+    [
+     1794290838,
+     67.33
+    ],
+    [
+     1794617698,
+     68.35
+    ],
+    [
+     1794702233,
+     66.17
+    ],
+    [
+     1794832834,
+     69.6
+    ],
+    [
+     1794959840,
+     70.98
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
+    "Escuadron Centinelas": 0,
+    "New Catun First": 0,
+    "Catun Resistance": 0,
+    "Catun PLC": 0,
+    "Catun Mafia": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794959840,
+   "tick_marg": 925,
+   "tick_prox": 1795031010,
+   "tick_disp": 279,
+   "tick_n": 0
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
@@ -4378,7 +4380,7 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 4
+    "2026-11-18": 9
    },
    "zc": [
     {
@@ -4446,7 +4448,7 @@
    },
    "rutas": {
     "2026-11-17": 9,
-    "2026-11-18": 1
+    "2026-11-18": 3
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -16935,11 +16937,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794990246.0108461,
-  "msgs": 12646,
-  "mios": 3
+  "ultimo": 1794991704.0844333,
+  "msgs": 20644,
+  "mios": 4
  },
- "t": 1794990896.4418693,
+ "t": 1794991787.657218,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17031,7 +17033,7 @@
    "nfac": 6,
    "pob": 5061479,
    "ctrl_n": "East India Company",
-   "t": 1794877326
+   "t": 1794991512
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -19697,6 +19699,19 @@
    "pob": 47374430,
    "ctrl_n": "Kalvelis Imperial Society",
    "t": 1794990418
+  },
+  "Bakara": {
+   "pos": [
+    109.5,
+    -111.4375,
+    -4.375
+   ],
+   "ly": 15.4,
+   "junto": "HIP 19292",
+   "nfac": 5,
+   "pob": 8347,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1794991642
   }
  },
  "codice": [
@@ -20024,6 +20039,54 @@
     "Zemina Torval"
    ],
    "t": 1794990889
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.199237,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794991512
+  },
+  "Bakara": {
+   "pos": [
+    109.5,
+    -111.4375,
+    -4.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.201488,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794991642
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252398,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794991697
   }
  },
  "ataques": {

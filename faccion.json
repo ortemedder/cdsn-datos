@@ -16291,15 +16291,118 @@
    ],
    "rach": {},
    "rivales": []
+  },
+  "Hyades Sector JX-T c3-11": {
+   "sys": "Hyades Sector JX-T c3-11",
+   "t": 1794961689,
+   "src": "EDDN",
+   "inf": 8.58,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Sirius Special Forces",
+   "segunda_inf": 55.79,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Sirius Special Forces",
+     "inf": 55.79,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "League of Apadecavi Order",
+     "inf": 17.56,
+     "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Friends of Bubians",
+     "inf": 12.48,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 8.58,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Apadecavi Crew",
+     "inf": 5.59,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Sirius Special Forces",
+   "pos": [
+    -11.1875,
+    4.34375,
+    -129.0625
+   ],
+   "sis": {
+    "pob": 219044,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Corporate;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Li Yong-Rui"
+    ]
+   },
+   "hinf": [
+    [
+     1794961689,
+     8.58
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "f534f1d6",
+    "igual": 1794961689
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794960917.8262258,
-  "msgs": 1057578,
-  "mios": 76
+  "ultimo": 1794961697.1650407,
+  "msgs": 1069121,
+  "mios": 77
  },
- "t": 1794961521.8002415,
+ "t": 1794962012.5598564,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17003,7 +17106,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794950344
+   "t": 1794962002
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -17341,7 +17444,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794947614
+   "t": 1794961714
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -17822,7 +17925,7 @@
    "nfac": 5,
    "pob": 159200,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1794960968
+   "t": 1794961555
   },
   "Arnemil": {
    "pos": [
@@ -18459,7 +18562,7 @@
    "nfac": 6,
    "pob": 192489,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794956822
+   "t": 1794961622
   },
   "Hyades Sector QO-P b6-5": {
    "pos": [
@@ -20125,13 +20228,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.021911,
+   "prog": 0.02468,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794950344
+   "t": 1794962002
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -20716,13 +20819,13 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.211764,
+   "prog": 0.218236,
    "pots": [
     "A. Lavigny-Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794947614
+   "t": 1794961714
   },
   "Evenks": {
    "pos": [
@@ -21713,7 +21816,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794941542
+   "t": 1794961996
   },
   "Trianguli Sector RU-O a6-0": {
    "pos": [
@@ -21776,7 +21879,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794960968
+   "t": 1794961555
   },
   "Arnemil": {
    "pos": [
@@ -22922,7 +23025,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794956822
+   "t": 1794961622
   },
   "Hyades Sector QO-P b6-5": {
    "pos": [
@@ -23232,6 +23335,20 @@
     "Li Yong-Rui"
    ],
    "t": 1794961513
+  },
+  "Hyades Sector JX-T c3-11": {
+   "pos": [
+    -11.1875,
+    4.34375,
+    -129.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1794961689
   }
  },
  "codice": [

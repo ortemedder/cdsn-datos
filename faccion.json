@@ -17575,10 +17575,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 244884,
+  "msgs": 273328,
   "mios": 25
  },
- "t": 1795014177.4876983,
+ "t": 1795016139.4144893,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18281,7 +18281,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794982809
+   "t": 1795015448
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -20218,7 +20218,7 @@
    "nfac": 5,
    "pob": 47337434,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794979816
+   "t": 1795015482
   },
   "Oisi": {
    "pos": [
@@ -20648,6 +20648,45 @@
    "pob": 399168,
    "ctrl_n": "Movement for LHS 20 Liberals",
    "t": 1795014165
+  },
+  "PLX 695": {
+   "pos": [
+    -43.34375,
+    -4.71875,
+    -62.5
+   ],
+   "ly": 20.0,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 5,
+   "pob": 250000,
+   "ctrl_n": "Social Manamaya Democrats",
+   "t": 1795015475
+  },
+  "Col 285 Sector TZ-O c6-17": {
+   "pos": [
+    -177.8125,
+    10.875,
+    -93.59375
+   ],
+   "ly": 15.0,
+   "junto": "Col 285 Sector KE-E b13-0",
+   "nfac": 3,
+   "pob": 170709766,
+   "ctrl_n": "Explorer on Tour",
+   "t": 1795015760
+  },
+  "Trianguli Sector SU-O a6-0": {
+   "pos": [
+    34.78125,
+    -35.9375,
+    -59.75
+   ],
+   "ly": 16.8,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 199828,
+   "ctrl_n": "EXO",
+   "t": 1795016129
   }
  },
  "codice": [
@@ -20807,14 +20846,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.249721,
+   "prog": 0.249729,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794988966
+   "t": 1795015373
   },
   "Dongkum": {
    "pos": [
@@ -20824,7 +20863,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.275248,
+   "prog": 0.275334,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -20832,7 +20871,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794989018
+   "t": 1795015428
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -20955,14 +20994,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.334229,
+   "prog": 0.334274,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794990715
+   "t": 1795009545
   },
   "Njungum": {
    "pos": [
@@ -22224,6 +22263,73 @@
     "Jerome Archer"
    ],
    "t": 1795014165
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.031874,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795015448
+  },
+  "PLX 695": {
+   "pos": [
+    -43.34375,
+    -4.71875,
+    -62.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.251595,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795015475
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.102183,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795015482
+  },
+  "Trianguli Sector SU-O a6-0": {
+   "pos": [
+    34.78125,
+    -35.9375,
+    -59.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795016129
   }
  },
  "ataques": {

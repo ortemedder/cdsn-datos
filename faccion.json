@@ -16753,10 +16753,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794978295.0405385,
-  "msgs": 1245590,
+  "msgs": 1252835,
   "mios": 83
  },
- "t": 1794979234.8992057,
+ "t": 1794980485.3194833,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -19385,6 +19385,32 @@
    "pob": 5949,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794977561
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "ly": 19.8,
+   "junto": "Eurus",
+   "nfac": 5,
+   "pob": 47337434,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794979816
+  },
+  "Oisi": {
+   "pos": [
+    -44.8125,
+    19.34375,
+    -102.375
+   ],
+   "ly": 12.5,
+   "junto": "LP 158-2",
+   "nfac": 6,
+   "pob": 6291159,
+   "ctrl_n": "CHIMERA",
+   "t": 1794980480
   }
  },
  "zona": {
@@ -24472,6 +24498,39 @@
     "Li Yong-Rui"
    ],
    "t": 1794978294
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.102183,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794979816
+  },
+  "Oisi": {
+   "pos": [
+    -44.8125,
+    19.34375,
+    -102.375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.153712,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794980480
   }
  },
  "codice": [

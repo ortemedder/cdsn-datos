@@ -1607,7 +1607,7 @@
     "2026-11-15": 9,
     "2026-11-16": 2,
     "2026-11-17": 16,
-    "2026-11-18": 26
+    "2026-11-18": 31
    },
    "zc": [
     {
@@ -2133,7 +2133,7 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795023222,
+     "t": 1795024240,
      "estado": "",
      "ls": 2377,
      "pads": {
@@ -2143,8 +2143,8 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795022029,
-      "n": 353,
+      "t": 1795024248,
+      "n": 117,
       "vende": [
        {
         "n": "monazite",
@@ -2232,43 +2232,43 @@
        }
       ]
      },
-     "mods": 585,
-     "mods_t": 1795020691,
+     "mods": 525,
+     "mods_t": 1795024248,
      "naves": [
-      "Adder",
-      "Asp",
-      "Asp_Scout",
-      "CobraMkIII",
-      "CobraMkV",
-      "DiamondBack",
-      "DiamondBackXL",
-      "Dolphin",
-      "Eagle",
-      "Federation_Corvette",
-      "Federation_Dropship",
-      "Federation_Dropship_MkII",
-      "Federation_Gunship",
-      "Hauler",
-      "Independant_Trader",
-      "Krait_Light",
-      "Krait_MkII",
-      "Mediumtransport01",
-      "Orca",
-      "Panthermkii",
-      "Python",
-      "SideWinder",
-      "SmallCombat01_nx",
-      "Type6",
-      "Type7",
-      "Type9",
-      "Viper",
-      "Viper_MkIV",
-      "Vulture"
+      "adder",
+      "asp",
+      "asp_scout",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type9",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1794886691,
+     "naves_t": 1795024248,
      "atq": {
       "2026-11-18": {
-       "ok": 5,
+       "ok": 6,
        "no": 0
       }
      }
@@ -2276,7 +2276,7 @@
     "Gama Vision": {
      "f": "Sirius Special Forces",
      "tipo": "Outpost",
-     "t": 1795021120,
+     "t": 1795024015,
      "estado": "",
      "ls": 2377,
      "pads": {
@@ -2287,12 +2287,12 @@
      "mid": 4300295171,
      "atq": {
       "2026-11-18": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
      "mer": {
-      "t": 1795021127,
+      "t": 1795024021,
       "n": 0,
       "vende": [],
       "alta": [],
@@ -9410,7 +9410,7 @@
     "2026-11-15": 53,
     "2026-11-16": 54,
     "2026-11-17": 71,
-    "2026-11-18": 14
+    "2026-11-18": 16
    },
    "tk": {
     "firma": "9ac237db",
@@ -9744,20 +9744,20 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795021894,
+     "t": 1795023790,
      "estado": "",
      "ls": 703,
      "mid": 4404361731,
      "mer": {
-      "t": 1795021901,
-      "n": 4,
+      "t": 1795023797,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-18": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -18034,10 +18034,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795023279.2248342,
-  "msgs": 384405,
+  "msgs": 402264,
   "mios": 42
  },
- "t": 1795023280.845549,
+ "t": 1795024252.93943,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18818,7 +18818,7 @@
    "nfac": 3,
    "pob": 174153920,
    "ctrl_n": "The Fatherhood",
-   "t": 1795022604
+   "t": 1795024219
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -21237,6 +21237,32 @@
    "pob": 497036,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795023218
+  },
+  "Tascheter Sector FG-X b1-6": {
+   "pos": [
+    36.71875,
+    3.5625,
+    -84.5
+   ],
+   "ly": 15.2,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 4,
+   "pob": 200928,
+   "ctrl_n": "Flotta Stellare",
+   "t": 1795024059
+  },
+  "LFT 179": {
+   "pos": [
+    13.65625,
+    -70.34375,
+    -16.4375
+   ],
+   "ly": 19.8,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 4,
+   "pob": 1638190,
+   "ctrl_n": "East India Company",
+   "t": 1792624130
   }
  },
  "codice": [
@@ -21403,7 +21429,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795015373
+   "t": 1795023929
   },
   "Dongkum": {
    "pos": [
@@ -21413,7 +21439,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.275713,
+   "prog": 0.275734,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -21421,7 +21447,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795020834
+   "t": 1795023980
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -23338,10 +23364,71 @@
     "Jerome Archer"
    ],
    "t": 1795023278
+  },
+  "Tascheter Sector FG-X b1-6": {
+   "pos": [
+    36.71875,
+    3.5625,
+    -84.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795024059
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.169354,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1792624048
+  },
+  "LFT 179": {
+   "pos": [
+    13.65625,
+    -70.34375,
+    -16.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.210283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1792624130
   }
  },
  "ataques": {
-  "act": {},
+  "act": {
+   "Hyades Sector DB-X d1-112": {
+    "ini": 1795024212,
+    "v": 30,
+    "m": 9.7,
+    "dia": "hoy",
+    "antes": 13.87,
+    "min": 12.28,
+    "inf": 12.28,
+    "ctrl": false
+   }
+  },
   "hist": [
    {
     "sys": "Burr",

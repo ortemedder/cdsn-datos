@@ -2111,7 +2111,7 @@
    },
    "rutas": {
     "2026-11-17": 7,
-    "2026-11-18": 2
+    "2026-11-18": 3
    },
    "estaciones": {
     "Judge Reach": {
@@ -5802,7 +5802,7 @@
       "explorer_nx",
       "panthermkii"
      ],
-     "naves_t": 1795008952
+     "naves_t": 1795008987
     }
    },
    "prev": 83.33,
@@ -17573,10 +17573,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 175904,
+  "msgs": 184406,
   "mios": 25
  },
- "t": 1795008982.2220924,
+ "t": 1795009672.9558942,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18565,7 +18565,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794932806
+   "t": 1795009012
   },
   "Bakuari": {
    "pos": [
@@ -20515,7 +20515,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795007952
+   "t": 1795009257
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -20555,6 +20555,19 @@
    "pob": 62268546,
    "ctrl_n": "Astrobiology Research Cooperative",
    "t": 1795008807
+  },
+  "Tascheter Sector DG-O a6-1": {
+   "pos": [
+    22.28125,
+    -43.40625,
+    -36.1875
+   ],
+   "ly": 11.2,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 49694642,
+   "ctrl_n": "East India Company",
+   "t": 1795008995
   }
  },
  "codice": [
@@ -21609,7 +21622,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795003408
+   "t": 1795009661
   },
   "Col 285 Sector KE-E b13-8": {
    "pos": [
@@ -21752,7 +21765,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795007952
+   "t": 1795009257
   },
   "Dewikum": {
    "pos": [
@@ -21852,6 +21865,41 @@
     "Jerome Archer"
    ],
    "t": 1795008807
+  },
+  "Tascheter Sector DG-O a6-1": {
+   "pos": [
+    22.28125,
+    -43.40625,
+    -36.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12336,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795008995
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.157497,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795009012
   }
  },
  "ataques": {

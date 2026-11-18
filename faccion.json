@@ -16753,10 +16753,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794978295.0405385,
-  "msgs": 1272007,
+  "msgs": 1286081,
   "mios": 83
  },
- "t": 1794982917.2280242,
+ "t": 1794984917.9135625,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17031,7 +17031,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1794884602
+   "t": 1794984273
   },
   "LTT 10918": {
    "pos": [
@@ -17226,7 +17226,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794981299
+   "t": 1794984343
   },
   "Zephyrus": {
    "pos": [
@@ -17304,7 +17304,7 @@
    "nfac": 3,
    "pob": 3497253957,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794982124
+   "t": 1794984913
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -20039,7 +20039,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.271709,
+   "prog": 0.271714,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
@@ -20047,7 +20047,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794884602
+   "t": 1794984273
   },
   "LTT 10918": {
    "pos": [
@@ -20468,13 +20468,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.375993,
+   "prog": 0.376175,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794981299
+   "t": 1794984343
   },
   "Guei": {
    "pos": [
@@ -20621,7 +20621,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794982124
+   "t": 1794984913
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -24310,7 +24310,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794981901
+   "t": 1794984395
   },
   "Col 285 Sector TD-T a33-7": {
    "pos": [

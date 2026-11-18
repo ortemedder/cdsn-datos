@@ -363,7 +363,7 @@
     "2026-11-13": 3,
     "2026-11-15": 1,
     "2026-11-17": 26,
-    "2026-11-18": 3
+    "2026-11-18": 5
    },
    "tk": {
     "firma": "d80c2167",
@@ -526,7 +526,7 @@
     "Bauer Industrial Productions": {
      "f": "Caballeros de Sion",
      "tipo": "OnFootSettlement",
-     "t": 1794988655,
+     "t": 1794989788,
      "estado": "",
      "ls": 470,
      "pads": {
@@ -536,7 +536,7 @@
      },
      "mid": 4214203139,
      "mer": {
-      "t": 1794988697,
+      "t": 1794989878,
       "n": 366,
       "vende": [
        {
@@ -607,9 +607,9 @@
        },
        {
         "n": "ceramiccomposites",
-        "p": 206,
+        "p": 205,
         "m": 402,
-        "s": 1508
+        "s": 1514
        },
        {
         "n": "hydrogenfuel",
@@ -621,9 +621,12 @@
      },
      "atq": {
       "2026-11-18": {
-       "ok": 1,
-       "no": 0
+       "ok": 3,
+       "no": 5
       }
+     },
+     "neg": {
+      "NoSpace": 5
      }
     },
     "Ibanez Hub": {
@@ -4152,32 +4155,25 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794956913,
+   "t": 1794989674,
    "src": "EDDN",
-   "inf": 38.91,
+   "inf": 41.04,
    "ctrl": true,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
-   "segunda": "160 S.O.A.R.",
-   "segunda_inf": 19.5,
+   "segunda": "United Burr Partnership",
+   "segunda_inf": 17.53,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 38.91,
+     "inf": 41.04,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "160 S.O.A.R.",
-     "inf": 19.5,
-     "gov": "Democracy",
-     "alg": "Alliance",
      "act": [],
      "pend": [
       "Expansion"
@@ -4186,18 +4182,33 @@
     },
     {
      "n": "United Burr Partnership",
-     "inf": 17.71,
+     "inf": 17.53,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
      "pend": [
-      "Outbreak"
+      "Outbreak",
+      "Boom",
+      "Election"
+     ],
+     "jug": null
+    },
+    {
+     "n": "160 S.O.A.R.",
+     "inf": 17.53,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [
+      "Election"
      ],
      "jug": null
     },
     {
      "n": "Burr Jet Fortune Industries",
-     "inf": 11.44,
+     "inf": 11.45,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [
@@ -4208,7 +4219,7 @@
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 11.44,
+     "inf": 11.45,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4246,8 +4257,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 1.040489,
-    "ref": 118765,
+    "prog": 1.042468,
+    "ref": 120051,
     "soc": 81447,
     "pots": [
      "Edmund Mahon",
@@ -4263,13 +4274,14 @@
     "2026-11-14": 7,
     "2026-11-15": 9,
     "2026-11-16": 12,
-    "2026-11-17": 25
+    "2026-11-17": 25,
+    "2026-11-18": 1
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794957076
+     "t": 1794989686
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
@@ -4284,20 +4296,20 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794957076,
+     "t": 1794989686,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794957076,
+     "t": 1794989686,
      "d": 1794888452
     }
    },
    "tk": {
-    "firma": "d312cd18",
-    "igual": 1794956913,
-    "ult": 1794888421,
-    "desde": 1794866661,
+    "firma": "6a0cf33b",
+    "igual": 1794989674,
+    "ult": 1794989674,
+    "desde": 1794956913,
     "vent": [
      [
       1794601776,
@@ -4310,6 +4322,10 @@
      [
       1794866661,
       1794888421
+     ],
+     [
+      1794956913,
+      1794989674
      ]
     ],
     "est": null
@@ -4322,10 +4338,12 @@
     "1794938400": 1,
     "1794949200": 1,
     "1794952800": 1,
-    "1794956400": 1
+    "1794956400": 1,
+    "1794988800": 1
    },
    "rutas": {
-    "2026-11-17": 9
+    "2026-11-17": 9,
+    "2026-11-18": 1
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -4575,8 +4593,8 @@
      "mods_t": 1794957162
     }
    },
-   "prev": 40.4,
-   "prev_t": 1794866661,
+   "prev": 38.91,
+   "prev_t": 1794956913,
    "hinf": [
     [
      1794270346,
@@ -4601,21 +4619,25 @@
     [
      1794888421,
      38.91
+    ],
+    [
+     1794989674,
+     41.04
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 0,
+    "Caballeros de Sion": 1,
     "160 S.O.A.R.": 0,
-    "United Burr Partnership": 1,
+    "United Burr Partnership": 0,
     "Burr Jet Fortune Industries": 0,
     "Beasts of Bestia": 0,
     "Burr Boys": 0
    },
    "rivales": [],
-   "tick_ult": 1794888421,
-   "tick_marg": 181,
-   "tick_prox": 1794962970,
-   "tick_disp": 165,
+   "tick_ult": 1794989674,
+   "tick_marg": 273,
+   "tick_prox": 1795051290,
+   "tick_disp": 133,
    "tick_n": 0
   },
   "Elivagar": {
@@ -10745,15 +10767,15 @@
   },
   "Tascheter Sector CG-X b1-3": {
    "sys": "Tascheter Sector CG-X b1-3",
-   "t": 1794419372,
+   "t": 1794989448,
    "src": "EDDN",
    "inf": 56.03,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Wathiparian Power Corp.",
    "segunda_inf": 17.15,
@@ -10764,10 +10786,10 @@
      "inf": 56.03,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -10805,7 +10827,7 @@
     -79.6875
    ],
    "sis": {
-    "pob": 317821,
+    "pob": 318053,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -10826,10 +10848,29 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-18": 1
+   },
    "tk": {
     "firma": "8b3e4dae",
-    "igual": 1794419372
-   }
+    "igual": 1794989448
+   },
+   "saltos": {
+    "1794988800": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794419372,
+     56.03
+    ]
+   ],
+   "rach": {},
+   "rivales": []
   },
   "Wolf 258": {
    "sys": "Wolf 258",
@@ -16787,11 +16828,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 442,
-  "mios": 0
+  "ultimo": 1794989675.1439304,
+  "msgs": 6479,
+  "mios": 2
  },
- "t": 0,
+ "t": 1794989965.3644552,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -16933,9 +16974,9 @@
    "ly": 11.6,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 190178269,
+   "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794963586
+   "t": 1794989914
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -17507,7 +17548,7 @@
    "nfac": 4,
    "pob": 156890360,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794987409
+   "t": 1794989224
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -19497,6 +19538,45 @@
    "pob": 198751,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1794988590
+  },
+  "Ariameni": {
+   "pos": [
+    -42.03125,
+    35.53125,
+    -143.875
+   ],
+   "ly": 17.3,
+   "junto": "Windizetet",
+   "nfac": 5,
+   "pob": 7803964,
+   "ctrl_n": "Nagii Union",
+   "t": 1794989143
+  },
+  "Otohiko": {
+   "pos": [
+    -57.46875,
+    32.6875,
+    -142.21875
+   ],
+   "ly": 18.6,
+   "junto": "Windizetet",
+   "nfac": 6,
+   "pob": 2003443,
+   "ctrl_n": "Nagii Union",
+   "t": 1794989198
+  },
+  "Natero Kop": {
+   "pos": [
+    -58.875,
+    36.5625,
+    -132.4375
+   ],
+   "ly": 18.6,
+   "junto": "Windizetet",
+   "nfac": 6,
+   "pob": 125333,
+   "ctrl_n": "Nagii Union",
+   "t": 1794989520
   }
  },
  "codice": [
@@ -19611,5 +19691,175 @@
    "t": 1794878448
   }
  ],
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "Ariameni": {
+   "pos": [
+    -42.03125,
+    35.53125,
+    -143.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256546,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794989143
+  },
+  "LP 302-22": {
+   "pos": [
+    -18.875,
+    -17.0625,
+    -79.6875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.249721,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794988966
+  },
+  "Dongkum": {
+   "pos": [
+    -17.875,
+    -11.75,
+    -90.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.275248,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794989018
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.348455,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1794989224
+  },
+  "Otohiko": {
+   "pos": [
+    -57.46875,
+    32.6875,
+    -142.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794989198
+  },
+  "Tascheter Sector CG-X b1-3": {
+   "pos": [
+    -24.125,
+    12.40625,
+    -79.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794989448
+  },
+  "Natero Kop": {
+   "pos": [
+    -58.875,
+    36.5625,
+    -132.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794989520
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 1.042468,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794989674
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177706,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794989914
+  }
+ },
+ "ataques": {
+  "act": {},
+  "hist": [
+   {
+    "sys": "Burr",
+    "ini": 1794989364,
+    "fin": 1794989965,
+    "v": 25,
+    "m": 4.4,
+    "antes": 40.4,
+    "min": 38.91,
+    "inf": 41.04,
+    "dif": 0.6,
+    "res": "recuperada",
+    "ctrl": true
+   }
+  ]
+ }
 }

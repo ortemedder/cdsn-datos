@@ -5563,7 +5563,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 40
+    "2026-11-18": 43
    },
    "pn": {
     "H5L-70M": {
@@ -5637,12 +5637,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795042800,
+     "t": 1795044060,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795042858,
+      "t": 1795044069,
       "n": 366,
       "vende": [
        {
@@ -5709,7 +5709,7 @@
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 278604
+        "s": 278510
        },
        {
         "n": "polymers",
@@ -5733,8 +5733,8 @@
      },
      "atq": {
       "2026-11-18": {
-       "ok": 6,
-       "no": 1
+       "ok": 8,
+       "no": 2
       }
      },
      "pads": {
@@ -5749,7 +5749,7 @@
      ],
      "naves_t": 1795037449,
      "neg": {
-      "Distance": 1
+      "Distance": 2
      }
     },
     "Millidge Refinery": {
@@ -6118,7 +6118,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795043300,
+     "t": 1795043833,
      "estado": "",
      "ls": 2655,
      "pads": {
@@ -6129,7 +6129,7 @@
      "mid": 3966078978,
      "atq": {
       "2026-11-18": {
-       "ok": 5,
+       "ok": 6,
        "no": 1
       }
      },
@@ -18997,15 +18997,119 @@
     "firma": "794c607e",
     "igual": 1793466570
    }
+  },
+  "Hyades Sector UF-M b8-3": {
+   "sys": "Hyades Sector UF-M b8-3",
+   "t": 1795044197,
+   "src": "EDDN",
+   "inf": 54.2,
+   "ctrl": true,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Escuadron Centinelas",
+   "segunda_inf": 23.4,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 54.2,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Escuadron Centinelas",
+     "inf": 23.4,
+     "gov": "Feudal",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Eluskapu Gold General Company",
+     "inf": 13.4,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 9.0,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -15.09375,
+    22.40625,
+    -99.78125
+   ],
+   "sis": {
+    "pob": 154012,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1795044197,
+     54.2
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "a7b689ea",
+    "igual": 1795044197
+   },
+   "trafico": {
+    "2026-11-18": 1
+   },
+   "saltos": {
+    "1795042800": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795042531.4937398,
-  "msgs": 756609,
-  "mios": 81
+  "ultimo": 1795044198.4887452,
+  "msgs": 771268,
+  "mios": 82
  },
- "t": 1795043288.9309342,
+ "t": 1795044200.974056,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21008,7 +21112,7 @@
    "nfac": 4,
    "pob": 1594391,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795043026
+   "t": 1795044112
   },
   "Loki Tan": {
    "pos": [
@@ -24578,7 +24682,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795030363
+   "t": 1795043617
   },
   "Col 285 Sector UT-W b16-4": {
    "pos": [
@@ -26706,7 +26810,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795043026
+   "t": 1795044112
   },
   "Tascheter Sector DG-O a6-2": {
    "pos": [
@@ -26725,22 +26829,6 @@
    ],
    "t": 1795043168
   },
-  "Naren": {
-   "pos": [
-    -47.46875,
-    -18.78125,
-    -114.28125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Fortified",
-   "prog": 0.254311,
-   "pots": [
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1793051694
-  },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
     -57.6875,
@@ -26755,6 +26843,72 @@
     "Jerome Archer"
    ],
    "t": 1795043274
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.366965,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795043549
+  },
+  "Alexis Centauri": {
+   "pos": [
+    -41.15625,
+    23.4375,
+    -108.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795043665
+  },
+  "Zosia": {
+   "pos": [
+    -16.75,
+    19.59375,
+    -60.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257661,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795044035
+  },
+  "Hyades Sector UF-M b8-3": {
+   "pos": [
+    -15.09375,
+    22.40625,
+    -99.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795044197
   }
  },
  "ataques": {

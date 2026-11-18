@@ -4421,7 +4421,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795032926,
+   "t": 1795036343,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4522,8 +4522,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 1.060826,
-    "ref": 131984,
+    "prog": 1.061403,
+    "ref": 132359,
     "soc": 81447,
     "pots": [
      "Edmund Mahon",
@@ -4540,7 +4540,7 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 31
+    "2026-11-18": 32
    },
    "zc": [
     {
@@ -4577,7 +4577,7 @@
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795032926,
+    "igual": 1795036343,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -9706,7 +9706,7 @@
     "2026-11-15": 53,
     "2026-11-16": 54,
     "2026-11-17": 71,
-    "2026-11-18": 29
+    "2026-11-18": 31
    },
    "tk": {
     "firma": "9ac237db",
@@ -10044,20 +10044,20 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795035314,
+     "t": 1795036549,
      "estado": "",
      "ls": 703,
      "mid": 4404361731,
      "mer": {
-      "t": 1795035322,
-      "n": 1,
+      "t": 1795036555,
+      "n": 5,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-18": {
-       "ok": 6,
+       "ok": 7,
        "no": 0
       }
      },
@@ -18427,11 +18427,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795036039.0854225,
-  "msgs": 628517,
-  "mios": 70
+  "ultimo": 1795036344.615823,
+  "msgs": 644770,
+  "mios": 71
  },
- "t": 1795036049.0881886,
+ "t": 1795036861.2887006,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -18976,9 +18976,9 @@
    "ly": 18.4,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 3497253957,
+   "pob": 3498085802,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794984913
+   "t": 1795036608
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -19212,7 +19212,7 @@
    "nfac": 3,
    "pob": 174153920,
    "ctrl_n": "The Fatherhood",
-   "t": 1795035414
+   "t": 1795036674
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -19979,7 +19979,7 @@
    "nfac": 6,
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
-   "t": 1795012671
+   "t": 1795036762
   },
   "Tote": {
    "pos": [
@@ -20278,7 +20278,7 @@
    "nfac": 3,
    "pob": 75093540,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795022325
+   "t": 1795036508
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -21956,6 +21956,45 @@
    "pob": 183244,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795035768
+  },
+  "HIP 41777": {
+   "pos": [
+    138.84375,
+    -20.84375,
+    1.5625
+   ],
+   "ly": 17.0,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 2193849,
+   "ctrl_n": "Straylight Systems",
+   "t": 1795036855
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "ly": 19.7,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 383121,
+   "ctrl_n": "Pilots of the Catalan Republic",
+   "t": 1795036393
+  },
+  "Arietis Sector DG-X c1-14": {
+   "pos": [
+    -59.59375,
+    -4.03125,
+    -110.75
+   ],
+   "ly": 17.8,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 3,
+   "pob": 218804,
+   "ctrl_n": "160 S.O.A.R.",
+   "t": 1795036409
   }
  },
  "codice": [
@@ -22275,7 +22314,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 1.060826,
+   "prog": 1.061403,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -22283,7 +22322,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795032926
+   "t": 1795036343
   },
   "Col 285 Sector YZ-U b17-4": {
    "pos": [
@@ -22523,13 +22562,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.940386,
+   "prog": 1.008143,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795022325
+   "t": 1795036508
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -22857,7 +22896,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1794996292
+   "t": 1795032568
   },
   "Guei": {
    "pos": [
@@ -23396,7 +23435,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795011176
+   "t": 1795036803
   },
   "Col 285 Sector RD-T a33-4": {
    "pos": [
@@ -23437,14 +23476,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.366243,
+   "prog": 0.378056,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795012671
+   "t": 1795036762
   },
   "Trianguli Sector BQ-Y c15": {
    "pos": [
@@ -25158,6 +25197,99 @@
     "Li Yong-Rui"
    ],
    "t": 1795035768
+  },
+  "HIP 41777": {
+   "pos": [
+    138.84375,
+    -20.84375,
+    1.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795036855
+  },
+  "Chonsu": {
+   "pos": [
+    149.28125,
+    -11.40625,
+    2.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795036393
+  },
+  "Arietis Sector DG-X c1-14": {
+   "pos": [
+    -59.59375,
+    -4.03125,
+    -110.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795036409
+  },
+  "HIP 33497": {
+   "pos": [
+    31.78125,
+    29.65625,
+    -134.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.252998,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795036608
+  },
+  "Yawala": {
+   "pos": [
+    -4.09375,
+    -15.34375,
+    -100.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.098283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795036334
+  },
+  "Brians": {
+   "pos": [
+    107.75,
+    -135.15625,
+    -8.40625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.200323,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795030813
   }
  },
  "ataques": {

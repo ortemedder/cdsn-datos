@@ -1505,7 +1505,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1794996421,
+   "t": 1795018506,
    "src": "EDDN",
    "inf": 12.28,
    "ctrl": false,
@@ -1582,9 +1582,9 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Stronghold",
-    "prog": 0.254383,
+    "prog": 0.254371,
     "ref": 1952,
-    "soc": 1969,
+    "soc": 1981,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -1599,7 +1599,7 @@
     "2026-11-15": 9,
     "2026-11-16": 2,
     "2026-11-17": 16,
-    "2026-11-18": 13
+    "2026-11-18": 14
    },
    "zc": [
     {
@@ -2083,7 +2083,7 @@
    },
    "tk": {
     "firma": "7ff3f008",
-    "igual": 1794996421,
+    "igual": 1795018506,
     "ult": 1794886163,
     "desde": 1794844632,
     "est": null,
@@ -2117,7 +2117,7 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1794996910,
+     "t": 1795018506,
      "estado": "",
      "ls": 2377,
      "pads": {
@@ -9204,7 +9204,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1794995859,
+   "t": 1795018439,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -9288,11 +9288,11 @@
     "2026-11-15": 53,
     "2026-11-16": 54,
     "2026-11-17": 71,
-    "2026-11-18": 7
+    "2026-11-18": 8
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1794995859
+    "igual": 1795018439
    },
    "saltos": {
     "1794902400": 2,
@@ -9616,6 +9616,21 @@
       "Small": 2,
       "Medium": 2,
       "Large": 3
+     }
+    },
+    "Planetary Construction Site: Pivot Point": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795018439,
+     "estado": "",
+     "ls": 703,
+     "mid": 4404361731,
+     "mer": {
+      "t": 1795018448,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -16694,6 +16709,9 @@
    },
    "saltos": {
     "1794884400": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
    }
   },
   "Hyades Sector RZ-N b7-3": {
@@ -17574,11 +17592,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795008980.4937308,
-  "msgs": 286202,
-  "mios": 25
+  "ultimo": 1795018508.234275,
+  "msgs": 312077,
+  "mios": 27
  },
- "t": 1795016870.0720844,
+ "t": 1795018901.5974798,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18788,7 +18806,7 @@
    "nfac": 4,
    "pob": 2252346,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795016867
+   "t": 1795018884
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -21384,13 +21402,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.254383,
+   "prog": 0.254371,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794996421
+   "t": 1795018506
   },
   "HIP 31451": {
    "pos": [
@@ -21732,12 +21750,12 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.256455,
+   "prog": 0.256486,
    "pots": [
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795012662
+   "t": 1795018824
   },
   "Col 285 Sector KE-E b13-8": {
    "pos": [
@@ -22411,7 +22429,23 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795016867
+   "t": 1795018884
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795017350
   }
  },
  "ataques": {

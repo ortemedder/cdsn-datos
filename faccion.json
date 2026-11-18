@@ -16399,10 +16399,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794961697.1650407,
-  "msgs": 1069121,
+  "msgs": 1088905,
   "mios": 77
  },
- "t": 1794962012.5598564,
+ "t": 1794964233.6847615,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16547,7 +16547,7 @@
    "nfac": 4,
    "pob": 190178269,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794950887
+   "t": 1794963586
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -16872,7 +16872,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794960596
+   "t": 1794964124
   },
   "Zephyrus": {
    "pos": [
@@ -17444,7 +17444,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794961714
+   "t": 1794963950
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -18758,6 +18758,19 @@
    "pob": 115088,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1794961513
+  },
+  "Pularungu": {
+   "pos": [
+    7.53125,
+    5.875,
+    -83.03125
+   ],
+   "ly": 12.9,
+   "junto": "Haraka",
+   "nfac": 6,
+   "pob": 4432008,
+   "ctrl_n": "Flotta Stellare",
+   "t": 1794964229
   }
  },
  "zona": {
@@ -18889,7 +18902,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794932377
+   "t": 1794963640
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -19084,7 +19097,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794950887
+   "t": 1794963586
   },
   "Moram": {
    "pos": [
@@ -19328,7 +19341,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794954234
+   "t": 1794962845
   },
   "Gurabru": {
    "pos": [
@@ -19808,7 +19821,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794960596
+   "t": 1794964124
   },
   "Guei": {
    "pos": [
@@ -20825,7 +20838,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794961714
+   "t": 1794963950
   },
   "Evenks": {
    "pos": [
@@ -23349,6 +23362,37 @@
     "Li Yong-Rui"
    ],
    "t": 1794961689
+  },
+  "Scottii": {
+   "pos": [
+    124,
+    -116.40625,
+    -31.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.263355,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1794962652
+  },
+  "Pularungu": {
+   "pos": [
+    7.53125,
+    5.875,
+    -83.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.081686,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794964229
   }
  },
  "codice": [

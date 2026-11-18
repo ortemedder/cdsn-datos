@@ -16777,10 +16777,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794985922.9772902,
-  "msgs": 1294676,
+  "msgs": 1301244,
   "mios": 84
  },
- "t": 1794985738.7192712,
+ "t": 1794986629.2560174,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17003,7 +17003,7 @@
    "nfac": 5,
    "pob": 2805645,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794985725
+   "t": 1794986610
   },
   "LHS 1499": {
    "pos": [
@@ -17495,9 +17495,9 @@
    "ly": 9.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 156523060,
+   "pob": 156890360,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794955528
+   "t": 1794986596
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -19951,7 +19951,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794985725
+   "t": 1794986610
   },
   "Shenetserii": {
    "pos": [
@@ -20947,13 +20947,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.34838,
+   "prog": 0.348455,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794955528
+   "t": 1794986596
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [

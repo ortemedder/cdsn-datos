@@ -17272,10 +17272,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795000738.2254357,
-  "msgs": 101875,
+  "msgs": 109922,
   "mios": 18
  },
- "t": 1795000740.2298295,
+ "t": 1795001741.2684631,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17549,7 +17549,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1794993322
+   "t": 1795001529
   },
   "LTT 10918": {
    "pos": [
@@ -17744,7 +17744,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794984343
+   "t": 1795001678
   },
   "Zephyrus": {
    "pos": [
@@ -18888,7 +18888,7 @@
    "nfac": 4,
    "pob": 22249,
    "ctrl_n": "Yenici Patron's Principles",
-   "t": 1794947114
+   "t": 1795001505
   },
   "Alhena": {
    "pos": [
@@ -19224,9 +19224,9 @@
    "ly": 17.8,
    "junto": "HIP 19292",
    "nfac": 4,
-   "pob": 442148,
+   "pob": 442155,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1794950661
+   "t": 1795001587
   },
   "Hyades Sector PE-O b7-4": {
    "pos": [
@@ -20137,6 +20137,19 @@
    "pob": 761158999,
    "ctrl_n": "Nagii Union",
    "t": 1795000571
+  },
+  "HIP 35163": {
+   "pos": [
+    -55.21875,
+    76.65625,
+    -143.875
+   ],
+   "ly": 15.3,
+   "junto": "HIP 37216",
+   "nfac": 3,
+   "pob": 2371443,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795001360
   }
  },
  "codice": [
@@ -20732,7 +20745,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794993322
+   "t": 1795001529
   },
   "Xuanebuth": {
    "pos": [
@@ -21073,6 +21086,80 @@
     "Zemina Torval"
    ],
    "t": 1795000622
+  },
+  "Shedi": {
+   "pos": [
+    -33.53125,
+    -19.90625,
+    -77.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252709,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795000987
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.376887,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795001678
+  },
+  "HIP 35163": {
+   "pos": [
+    -55.21875,
+    76.65625,
+    -143.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795001360
+  },
+  "Lambayeque": {
+   "pos": [
+    120.53125,
+    -104.75,
+    -9.34375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.263448,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795001505
+  },
+  "ICZ CV-Y c17": {
+   "pos": [
+    116.78125,
+    -102.25,
+    -16.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795001587
   }
  },
  "ataques": {

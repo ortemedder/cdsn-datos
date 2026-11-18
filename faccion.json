@@ -4414,7 +4414,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795022427,
+   "t": 1795025641,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4444,11 +4444,12 @@
      "inf": 17.53,
      "gov": "Confederacy",
      "alg": "Federation",
-     "act": [],
-     "pend": [
-      "Outbreak",
+     "act": [
       "Boom",
       "Election"
+     ],
+     "pend": [
+      "Outbreak"
      ],
      "jug": null
     },
@@ -4458,11 +4459,10 @@
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [
-      "Expansion"
-     ],
-     "pend": [
+      "Expansion",
       "Election"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -4482,11 +4482,10 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
+      "Expansion",
       "War"
      ],
-     "pend": [
-      "Expansion"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -4534,18 +4533,18 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 20
+    "2026-11-18": 22
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Med:#index=1;",
-     "i": "Med",
-     "t": 1795022448
-    },
-    {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795022448
+     "t": 1795025641
+    },
+    {
+     "n": "$Warzone_PointRace_Med:#index=1;",
+     "i": "Med",
+     "t": 1795025641
     }
    ],
    "pn": {
@@ -4555,18 +4554,23 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795022448,
+     "t": 1795025641,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
      "t": 1795022448,
      "d": 1794888452
+    },
+    "YZH-B6Z": {
+     "n": "CDSN PROVIDENCIA",
+     "t": 1795025641,
+     "d": 1795025641
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795022427,
+    "igual": 1795025641,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -18036,11 +18040,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795024556.854918,
-  "msgs": 418786,
-  "mios": 43
+  "ultimo": 1795025642.225625,
+  "msgs": 435472,
+  "mios": 44
  },
- "t": 1795025054.0437484,
+ "t": 1795026125.3839288,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18184,7 +18188,7 @@
    "nfac": 4,
    "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794996804
+   "t": 1795025338
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -19534,9 +19538,9 @@
    "ly": 14.9,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 203340,
+   "pob": 203363,
    "ctrl_n": "EXO",
-   "t": 1794941852
+   "t": 1795025872
   },
   "Nergal": {
    "pos": [
@@ -21279,6 +21283,32 @@
    "pob": 183534347,
    "ctrl_n": "Canonn",
    "t": 1795024727
+  },
+  "BD+18 1160": {
+   "pos": [
+    25.125,
+    2.8125,
+    -105.09375
+   ],
+   "ly": 12.4,
+   "junto": "Wolf 258",
+   "nfac": 5,
+   "pob": 44330,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795025587
+  },
+  "Trianguli Sector WA-N a7-0": {
+   "pos": [
+    26.09375,
+    -43.75,
+    -52.625
+   ],
+   "ly": 8.3,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 397781,
+   "ctrl_n": "UGP 92 Purple Travel Services",
+   "t": 1795026014
   }
  },
  "codice": [
@@ -21546,7 +21576,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795022427
+   "t": 1795025641
   },
   "Col 285 Sector YZ-U b17-4": {
    "pos": [
@@ -23345,7 +23375,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795023024
+   "t": 1795026106
   },
   "Tascheter Sector XO-A b6": {
    "pos": [
@@ -23446,6 +23476,90 @@
     "Jerome Archer"
    ],
    "t": 1795025043
+  },
+  "Cama Zotz": {
+   "pos": [
+    42.71875,
+    -47.125,
+    -45.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.252314,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795025291
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177706,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795025338
+  },
+  "BD+18 1160": {
+   "pos": [
+    25.125,
+    2.8125,
+    -105.09375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.268595,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795025587
+  },
+  "Trianguli Sector RU-O a6-0": {
+   "pos": [
+    21.78125,
+    -40.75,
+    -59.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795025872
+  },
+  "Trianguli Sector WA-N a7-0": {
+   "pos": [
+    26.09375,
+    -43.75,
+    -52.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795026014
   }
  },
  "ataques": {

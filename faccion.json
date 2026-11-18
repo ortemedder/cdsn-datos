@@ -363,7 +363,7 @@
     "2026-11-13": 3,
     "2026-11-15": 1,
     "2026-11-17": 26,
-    "2026-11-18": 1
+    "2026-11-18": 2
    },
    "tk": {
     "firma": "d80c2167",
@@ -618,6 +618,12 @@
         "s": 5955
        }
       ]
+     },
+     "atq": {
+      "2026-11-18": {
+       "ok": 1,
+       "no": 0
+      }
      }
     },
     "Ibanez Hub": {
@@ -16782,10 +16788,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794985922.9772902,
-  "msgs": 1307865,
+  "msgs": 1314684,
   "mios": 84
  },
- "t": 1794987490.1041956,
+ "t": 1794988601.2166767,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -19452,7 +19458,7 @@
    "nfac": 6,
    "pob": 10596188,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794982902
+   "t": 1794988595
   },
   "Xuanebuth": {
    "pos": [
@@ -19466,6 +19472,32 @@
    "pob": 750493,
    "ctrl_n": "Chapterhouse of Inquisition",
    "t": 1794985109
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "ly": 19.7,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 1584352,
+   "ctrl_n": "Verne Partners LLP",
+   "t": 1794987804
+  },
+  "Trianguli Sector SU-O a6-2": {
+   "pos": [
+    32.09375,
+    -40.46875,
+    -55.625
+   ],
+   "ly": 11.6,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 198751,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1794988590
   }
  },
  "zona": {
@@ -19573,7 +19605,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.275108,
+   "prog": 0.275215,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -19581,7 +19613,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794955261
+   "t": 1794988368
   },
   "LEHPM 1902": {
    "pos": [
@@ -19597,7 +19629,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794963640
+   "t": 1794987855
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -19850,13 +19882,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.132389,
+   "prog": 0.145715,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1794934097
+   "t": 1794988196
   },
   "Vivata": {
    "pos": [
@@ -24602,7 +24634,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1794982902
+   "t": 1794988595
   },
   "Xuanebuth": {
    "pos": [
@@ -24635,6 +24667,40 @@
     "Jerome Archer"
    ],
    "t": 1794985921
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.171618,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794987804
+  },
+  "Trianguli Sector SU-O a6-2": {
+   "pos": [
+    32.09375,
+    -40.46875,
+    -55.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794988590
   }
  },
  "codice": [

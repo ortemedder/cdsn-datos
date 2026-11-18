@@ -17573,10 +17573,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 184406,
+  "msgs": 194053,
   "mios": 25
  },
- "t": 1795009672.9558942,
+ "t": 1795009973.1817336,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18565,7 +18565,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795009012
+   "t": 1795009966
   },
   "Bakuari": {
    "pos": [
@@ -21899,7 +21899,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795009012
+   "t": 1795009966
   }
  },
  "ataques": {

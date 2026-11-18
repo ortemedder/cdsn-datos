@@ -16735,10 +16735,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794974708.6123402,
-  "msgs": 1205552,
+  "msgs": 1214995,
   "mios": 82
  },
- "t": 1794974712.4248965,
+ "t": 1794975903.1813552,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17494,7 +17494,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794909181
+   "t": 1794975891
   },
   "LTT 740": {
    "pos": [
@@ -19302,6 +19302,45 @@
    "pob": 2760433,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794972591
+  },
+  "Yaro": {
+   "pos": [
+    131.6875,
+    -11.46875,
+    26.625
+   ],
+   "ly": 11.0,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 6,
+   "pob": 1518,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1794975128
+  },
+  "Chnumandr": {
+   "pos": [
+    24.1875,
+    -99.0625,
+    -59.21875
+   ],
+   "ly": 17.4,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 6,
+   "pob": 1201,
+   "ctrl_n": "East India Company",
+   "t": 1794975249
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "ly": 19.4,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 5,
+   "pob": 12784480,
+   "ctrl_n": "Verne Partners LLP",
+   "t": 1794975668
   }
  },
  "zona": {
@@ -20853,7 +20892,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.408843,
+   "prog": 0.409376,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -20861,7 +20900,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794909181
+   "t": 1794975891
   },
   "LTT 740": {
    "pos": [
@@ -24263,6 +24302,69 @@
     "Li Yong-Rui"
    ],
    "t": 1794972591
+  },
+  "Yaro": {
+   "pos": [
+    131.6875,
+    -11.46875,
+    26.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794975128
+  },
+  "Chnumandr": {
+   "pos": [
+    24.1875,
+    -99.0625,
+    -59.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.050283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1794975249
+  },
+  "NLTT 14879": {
+   "pos": [
+    -31.71875,
+    14,
+    -67.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.122855,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1794975392
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1794975668
   }
  },
  "codice": [

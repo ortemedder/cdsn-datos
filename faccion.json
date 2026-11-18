@@ -3914,6 +3914,9 @@
    "tk": {
     "firma": "452709ec",
     "igual": 1794665047
+   },
+   "rutas": {
+    "2026-11-18": 5
    }
   },
   "Hyades Sector SZ-N b7-0": {
@@ -4543,7 +4546,7 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 32
+    "2026-11-18": 33
    },
    "zc": [
     {
@@ -5429,7 +5432,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 29
+    "2026-11-18": 31
    },
    "pn": {
     "H5L-70M": {
@@ -5503,12 +5506,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795036993,
+     "t": 1795038118,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795037466,
+      "t": 1795038153,
       "n": 366,
       "vende": [
        {
@@ -5599,7 +5602,7 @@
      },
      "atq": {
       "2026-11-18": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -5981,7 +5984,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795037728,
+     "t": 1795038380,
      "estado": "",
      "ls": 2655,
      "pads": {
@@ -5989,7 +5992,13 @@
       "Medium": 11,
       "Large": 0
      },
-     "mid": 3966078978
+     "mid": 3966078978,
+     "atq": {
+      "2026-11-18": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
    },
    "prev": 83.33,
@@ -9563,7 +9572,7 @@
    "trafico": {
     "2026-11-12": 2,
     "2025-01-12": 1,
-    "2026-11-18": 2
+    "2026-11-18": 3
    },
    "tk": {
     "firma": "67337163",
@@ -9581,7 +9590,114 @@
     ]
    ],
    "rach": {},
-   "rivales": []
+   "rivales": [],
+   "estaciones": {
+    "Ciferri Enterprise": {
+     "f": "Sirius Special Forces",
+     "tipo": "Ocellus",
+     "t": 1795037905,
+     "estado": "",
+     "ls": 2882,
+     "pads": {
+      "Small": 17,
+      "Medium": 18,
+      "Large": 9
+     },
+     "mid": 3227722752,
+     "mer": {
+      "t": 1795037943,
+      "n": 99,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 268018,
+        "d": 31187
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 176408,
+        "d": 1258
+       },
+       {
+        "n": "helium",
+        "p": 139992,
+        "d": 504
+       },
+       {
+        "n": "helium3",
+        "p": 130990,
+        "d": 504
+       },
+       {
+        "n": "platinum",
+        "p": 57966,
+        "d": 14086
+       }
+      ],
+      "alta": [
+       {
+        "n": "ceramiccomposites",
+        "p": 1875,
+        "m": 402
+       },
+       {
+        "n": "lepidolite",
+        "p": 2976,
+        "m": 741
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 1369,
+        "m": 354
+       },
+       {
+        "n": "polymers",
+        "p": 1177,
+        "m": 306
+       },
+       {
+        "n": "haematite",
+        "p": 4694,
+        "m": 1791
+       }
+      ],
+      "barato": [
+       {
+        "n": "foodcartridges",
+        "p": 123,
+        "m": 252,
+        "s": 303349
+       },
+       {
+        "n": "biowaste",
+        "p": 145,
+        "m": 271,
+        "s": 5584
+       }
+      ]
+     },
+     "mods": 524,
+     "mods_t": 1795037943,
+     "naves": [
+      "asp",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "eagle",
+      "federation_dropship",
+      "hauler",
+      "independant_trader",
+      "lakonminer",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8"
+     ],
+     "naves_t": 1795037943
+    }
+   }
   },
   "BD+47 1285": {
    "sys": "BD+47 1285",
@@ -12363,6 +12479,9 @@
    "tk": {
     "firma": "418f6c21",
     "igual": 1794413402
+   },
+   "rutas": {
+    "2026-11-18": 1
    }
   },
   "Lyncis Sector JR-W c1-15": {
@@ -14823,6 +14942,9 @@
    },
    "trafico": {
     "2026-11-13": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
    }
   },
   "HIP 37216": {
@@ -18467,10 +18589,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795037654.986117,
-  "msgs": 660820,
+  "msgs": 678348,
   "mios": 73
  },
- "t": 1795037873.757641,
+ "t": 1795038766.2541187,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -19329,7 +19451,7 @@
    "nfac": 6,
    "pob": 141005,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1794996268
+   "t": 1795038408
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -22099,6 +22221,32 @@
    "pob": 7217090,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795037796
+  },
+  "Capa": {
+   "pos": [
+    60.75,
+    48.65625,
+    -174.53125
+   ],
+   "ly": 16.4,
+   "junto": "Hyades Sector CB-W c2-3",
+   "nfac": 6,
+   "pob": 1578211,
+   "ctrl_n": "Elite Defense Force",
+   "t": 1795037900
+  },
+  "HIP 44745": {
+   "pos": [
+    139.78125,
+    -24.09375,
+    23.90625
+   ],
+   "ly": 11.7,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 2016966,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795038764
   }
  },
  "codice": [
@@ -22974,7 +23122,7 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.110878,
+   "prog": 0.110886,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
@@ -22982,7 +23130,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794996268
+   "t": 1795038408
   },
   "EGM 762": {
    "pos": [
@@ -23241,7 +23389,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795005153
+   "t": 1795038752
   },
   "LEHPM 1902": {
    "pos": [
@@ -24219,13 +24367,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Stronghold",
-   "prog": 0.262807,
+   "prog": 0.262813,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795035652
+   "t": 1795038527
   },
   "Tascheter Sector XO-A b6": {
    "pos": [
@@ -24840,7 +24988,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795028994
+   "t": 1795038313
   },
   "Hyades Sector PE-O b7-2": {
    "pos": [
@@ -25520,6 +25668,37 @@
     "Li Yong-Rui"
    ],
    "t": 1795037796
+  },
+  "Capa": {
+   "pos": [
+    60.75,
+    48.65625,
+    -174.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters"
+   ],
+   "t": 1795037900
+  },
+  "HIP 44745": {
+   "pos": [
+    139.78125,
+    -24.09375,
+    23.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795038764
   }
  },
  "ataques": {

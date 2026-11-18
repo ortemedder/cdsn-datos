@@ -1599,159 +1599,159 @@
     "2026-11-15": 9,
     "2026-11-16": 2,
     "2026-11-17": 16,
-    "2026-11-18": 14
+    "2026-11-18": 15
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794996421
-    },
-    {
-     "n": "$Warzone_PointRace_High:#index=1;",
-     "i": "High",
-     "t": 1794996421
+     "t": 1795018999
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794996421
+     "t": 1795018999
+    },
+    {
+     "n": "$Warzone_PointRace_High:#index=1;",
+     "i": "High",
+     "t": 1795018999
     }
    ],
    "pn": {
     "V5L-09Z": {
      "n": "BACON BOMB",
-     "t": 1794994668,
+     "t": 1795018999,
      "d": 1794994452
     },
     "XFM-66W": {
      "n": "RINGUN",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "V7F-62H": {
      "n": "JOHNNY ROTTEN",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "X9H-8TK": {
      "n": "TOKEN OF SLEEP",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "W2L-W0V": {
      "n": "OBSCUR",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "KBK-L5F": {
      "n": "[FPV] SHTORM",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "VBM-10Y": {
      "n": "CENTZON PAINITA 300k",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "V1J-3HV": {
      "n": "WEASEL NEST",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "V2G-B7F": {
      "n": "ANDROMEDA",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "M5J-4SZ": {
      "n": "SIBERIA",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "W4N-44Z": {
      "n": "LAST LIGHT",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "G6L-WXG": {
      "n": "M.U.L.E",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "KLJ-29X": {
      "n": "M*********B",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "V7G-78Q": {
      "n": "VOID WEAVER",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "T9V-65H": {
      "n": "Aram draz",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K4J-49Y": {
      "n": "Dordalor's Folly",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V1N-71J": {
      "n": "Prometheus",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V8F-8HL": {
      "n": "buy Pain180k-Mona 500k",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "H6L-N0T": {
      "n": "SCOBAR",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V5Z-18F": {
      "n": "photon's carrier",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V5N-G4K": {
      "n": "CAFE RENE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K2L-58J": {
      "n": "Unwitting Accomplice",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "X6T-T0B": {
      "n": "THE KAPISI",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "QBY-16N": {
      "n": "HMS VENGEANCE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "L6V-NVZ": {
      "n": "ABYSS",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V3N-4QH": {
      "n": "UNIVERSAL IRONY",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "FNX-56Z": {
      "n": "REPAIR REARM SERVICES",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "N8J-2HF": {
@@ -1760,67 +1760,67 @@
     },
     "XHK-97Z": {
      "n": "SODOR SOJOURNER",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "W9K-2KZ": {
      "n": "WANDERER",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "N6L-02Q": {
      "n": "EVENT HORIZON",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "VLQ-T8V": {
      "n": "BUGBEAR",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K3W-98V": {
      "n": "FSR [Pain 150k]",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "J8Z-GXL": {
      "n": "Painite buying 215K",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "VZM-4HM": {
      "n": "CRYING LUNATIC",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "XLM-05K": {
      "n": "QUEEN ANNE REVENGE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K1N-W3M": {
      "n": "ISCARIOT",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "X6B-6XT": {
      "n": "BUY PAINITE EXPENSIVE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "XBW-W1N": {
      "n": "HEART OF THE TEMPEST",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "JZM-91G": {
      "n": "blas de lezo",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K9J-58T": {
      "n": "kaiser nelsons tv",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "L5F-5QZ": {
@@ -1829,72 +1829,72 @@
     },
     "V3Q-4TY": {
      "n": "buying painite 215k",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K1N-1HQ": {
      "n": "[FRZN] INDEPENDENCE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K0M-T8X": {
      "n": "NEUSEL DER VIERTE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K3H-7VH": {
      "n": "RISING STAR",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "KBK-31X": {
      "n": "SANGUINITY",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "BFK-WHT": {
      "n": "JURATE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "VBL-3HQ": {
      "n": "ECHO-3-DELTA",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "T9J-63Q": {
      "n": "KIRA NERYS",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "KHJ-L9Y": {
      "n": "RICKETY RIDE",
-     "t": 1794994668,
+     "t": 1795018999,
      "d": 1794994452
     },
     "H7G-GXK": {
      "n": "SOLAR IRONY",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "BLG-TTV": {
      "n": "Battle star: gALACTICA",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "Q3Y-16Z": {
      "n": "(bsec) AJS BACCHUS",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "T9L-NHT": {
      "n": "DRAEKUL",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "G3N-L3B": {
      "n": "ORE HAMMER",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "W7Q-83Z": {
@@ -1903,117 +1903,117 @@
     },
     "J1H-2TY": {
      "n": "COAG PARTY BUS",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "X6T-GXJ": {
      "n": "THE AGORA",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "XZH-B7H": {
      "n": "GRAY HOME",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "T9V-20J": {
      "n": "CROW CRAG",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "UZG-24Q": {
      "n": "KBS 73-07",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V1Q-59T": {
      "n": "INTERSTELLAIRE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V8N-T5Q": {
      "n": "**PLAT 150**PAIN 140*",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "QHX-9KF": {
      "n": "CYGNUS  X-1",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "KLW-2QM": {
      "n": "[TRFC] GÖKTÜRK",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "J6L-0HF": {
      "n": "SNF ALLMIGHTY",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "K7T-12N": {
      "n": "INFINITE PAWSABILITIES",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "V6Q-02Q": {
      "n": "THE ANZAC",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "QLN-GQZ": {
      "n": "THE DEVIL MAY CRY",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "B3H-3SZ": {
      "n": "HMS CONDORITO",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "Q9V-58Y": {
      "n": "DARKI",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "W3H-71N": {
      "n": "TFC BUY PAINITE 280K",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "KHB-57W": {
      "n": "KATIE1",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "XLM-78Y": {
      "n": "ORVILLE",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "KLN-WXH": {
      "n": "E.D.A. Slaughterhausen",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "H8K-T7W": {
      "n": "*200K*PLAT-*125K*PAIN*",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "KBJ-L5K": {
      "n": "THE NEST",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "J6T-TXH": {
      "n": "SOUL OF THE DARK",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "B6Z-59X": {
      "n": "WAR",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "B5T-08L": {
@@ -2022,63 +2022,73 @@
     },
     "V7G-N4Z": {
      "n": "PRINCE OF WALES",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "G1L-L2Z": {
      "n": "ICV = DARKSTAR =",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "X6K-LVV": {
      "n": "BABODILDIL'S PAW",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "H9F-12Y": {
      "n": "LOOK WHAT I GOT",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "K6K-2TB": {
      "n": "NEBUCHADNEZZAR 3",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "X9B-69N": {
      "n": "CDSN el tito berni",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "Q6W-G1F": {
      "n": "SPANISH INQUISITION",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "Q2T-24L": {
      "n": "SPEAR OF THE MOON",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794994452
     },
     "X5W-19Y": {
      "n": "STELLAR NOMAD",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "AZW-7TQ": {
      "n": "LETZTE HOFFNUNG",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794886382
     },
     "X3N-1KV": {
      "n": "SANCTUS MECHANICUS ANA",
-     "t": 1794996421,
+     "t": 1795018999,
      "d": 1794995388
     },
     "T9Q-5HX": {
      "n": "[CDSN] Alfonso I",
-     "t": 1794996334,
+     "t": 1795018999,
      "d": 1794996334
+    },
+    "H5L-70M": {
+     "n": "[CDSN] Folkvangr",
+     "t": 1795018999,
+     "d": 1795018999
+    },
+    "H2J-72G": {
+     "n": "(CDSN)- * NAUTILUS * -",
+     "t": 1795018999,
+     "d": 1795018999
     }
    },
    "tk": {
@@ -9288,7 +9298,7 @@
     "2026-11-15": 53,
     "2026-11-16": 54,
     "2026-11-17": 71,
-    "2026-11-18": 8
+    "2026-11-18": 10
    },
    "tk": {
     "firma": "9ac237db",
@@ -9631,6 +9641,159 @@
       "vende": [],
       "alta": [],
       "barato": []
+     }
+    },
+    "Dawnswatch": {
+     "f": "The Fatherhood",
+     "tipo": "Coriolis",
+     "t": 1795019796,
+     "estado": "",
+     "ls": 49816,
+     "pads": {
+      "Small": 17,
+      "Medium": 18,
+      "Large": 9
+     },
+     "mid": 4402758403,
+     "mer": {
+      "t": 1795019803,
+      "n": 105,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 323768,
+        "d": 17784
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 213645,
+        "d": 718
+       },
+       {
+        "n": "helium",
+        "p": 138639,
+        "d": 288
+       },
+       {
+        "n": "helium3",
+        "p": 129678,
+        "d": 288
+       },
+       {
+        "n": "painite",
+        "p": 65304,
+        "d": 1591
+       }
+      ],
+      "alta": [
+       {
+        "n": "aquaponicsystems",
+        "p": 2745,
+        "m": 502
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 2146,
+        "m": 402
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 1568,
+        "m": 354
+       },
+       {
+        "n": "polymers",
+        "p": 1351,
+        "m": 306
+       },
+       {
+        "n": "lepidolite",
+        "p": 3012,
+        "m": 741
+       }
+      ],
+      "barato": [
+       {
+        "n": "water",
+        "p": 84,
+        "m": 260,
+        "s": 46835
+       },
+       {
+        "n": "foodcartridges",
+        "p": 123,
+        "m": 252,
+        "s": 17763
+       },
+       {
+        "n": "algae",
+        "p": 153,
+        "m": 308,
+        "s": 58199
+       },
+       {
+        "n": "biowaste",
+        "p": 153,
+        "m": 271,
+        "s": 30349
+       },
+       {
+        "n": "scrap",
+        "p": 186,
+        "m": 276,
+        "s": 51975
+       }
+      ]
+     },
+     "mods": 903,
+     "mods_t": 1795019390,
+     "naves": [
+      "adder",
+      "anaconda",
+      "anacondamkii",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "explorer_nx",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "viper",
+      "viper_mkiv",
+      "vulture"
+     ],
+     "naves_t": 1795019390,
+     "atq": {
+      "2026-11-18": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -16490,13 +16653,15 @@
   },
   "HIP 31143": {
    "sys": "HIP 31143",
-   "t": 1794885611,
+   "t": 1795019499,
    "src": "EDDN",
    "inf": 23.67,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 49.25,
@@ -16519,7 +16684,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -16594,6 +16761,23 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-17": 2,
+    "2026-11-18": 1
+   },
+   "tk": {
+    "firma": "be19b24e",
+    "igual": 1795019499
+   },
+   "saltos": {
+    "1794884400": 1,
+    "1795017600": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794885611,
@@ -16601,27 +16785,19 @@
     ]
    ],
    "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "be19b24e",
-    "igual": 1794885611
-   },
-   "trafico": {
-    "2026-11-17": 2
-   },
-   "saltos": {
-    "1794884400": 1
-   }
+   "rivales": []
   },
   "Hyades Sector RZ-N b7-5": {
    "sys": "Hyades Sector RZ-N b7-5",
-   "t": 1794886011,
+   "t": 1795019054,
    "src": "EDDN",
    "inf": 7.31,
    "ctrl": false,
-   "estado": "None",
+   "estado": "War",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 61.92,
@@ -16662,7 +16838,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -16673,7 +16851,7 @@
     -117.6875
    ],
    "sis": {
-    "pob": 1598366,
+    "pob": 1598425,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -16692,6 +16870,23 @@
      "Li Yong-Rui"
     ]
    },
+   "trafico": {
+    "2026-11-17": 1,
+    "2026-11-18": 1
+   },
+   "tk": {
+    "firma": "fbdf30cf",
+    "igual": 1795019054
+   },
+   "saltos": {
+    "1794884400": 1,
+    "1795017600": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794886011,
@@ -16700,18 +16895,20 @@
    ],
    "rach": {},
    "rivales": [],
-   "tk": {
-    "firma": "fbdf30cf",
-    "igual": 1794886011
-   },
-   "trafico": {
-    "2026-11-17": 1
-   },
-   "saltos": {
-    "1794884400": 1
-   },
-   "rutas": {
-    "2026-11-18": 1
+   "estaciones": {
+    "Anthean Station": {
+     "f": "Sirius Special Forces",
+     "tipo": "Coriolis",
+     "t": 1795019150,
+     "estado": "",
+     "ls": 4,
+     "pads": {
+      "Small": 10,
+      "Medium": 9,
+      "Large": 7
+     },
+     "mid": 4217307907
+    }
    }
   },
   "Hyades Sector RZ-N b7-3": {
@@ -17592,11 +17789,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795018508.234275,
-  "msgs": 312077,
-  "mios": 27
+  "ultimo": 1795019501.6180189,
+  "msgs": 323707,
+  "mios": 29
  },
- "t": 1795018901.5974798,
+ "t": 1795019813.1442633,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -18585,7 +18782,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795009966
+   "t": 1795019081
   },
   "Bakuari": {
    "pos": [
@@ -18843,9 +19040,9 @@
    "ly": 5.7,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 198739,
+   "pob": 198753,
    "ctrl_n": "East India Company",
-   "t": 1794935568
+   "t": 1795019817
   },
   "Parrot's Head Sector EQ-Y c7": {
    "pos": [
@@ -19079,7 +19276,7 @@
    "nfac": 4,
    "pob": 399333,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1794940883
+   "t": 1794944549
   },
   "Trianguli Sector RU-O a6-0": {
    "pos": [
@@ -20718,6 +20915,19 @@
    "pob": 3560964,
    "ctrl_n": "Guardians of Tranquillity",
    "t": 1795016474
+  },
+  "Col 285 Sector RD-T a33-6": {
+   "pos": [
+    125.65625,
+    -28.21875,
+    13.34375
+   ],
+   "ly": 17.5,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 181813,
+   "ctrl_n": "Movement for Njemari Independents",
+   "t": 1795018122
   }
  },
  "codice": [
@@ -22025,14 +22235,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.157497,
+   "prog": 0.163457,
    "pots": [
     "A. Lavigny-Duval",
     "Aisling Duval",
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795009966
+   "t": 1795019081
   },
   "GR 316": {
    "pos": [
@@ -22446,6 +22656,114 @@
     "Zemina Torval"
    ],
    "t": 1795017350
+  },
+  "Hyades Sector RZ-N b7-5": {
+   "pos": [
+    -0.78125,
+    18.1875,
+    -117.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.067997,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795019054
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795019059
+  },
+  "Col 285 Sector UT-W b16-4": {
+   "pos": [
+    138.375,
+    -10.84375,
+    9.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794944549
+  },
+  "Col 285 Sector RD-T a33-6": {
+   "pos": [
+    125.65625,
+    -28.21875,
+    13.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795018122
+  },
+  "HIP 31143": {
+   "pos": [
+    -11.03125,
+    30.125,
+    -117.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795019499
+  },
+  "Mirdhing": {
+   "pos": [
+    8.15625,
+    35.71875,
+    -111.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.09772,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795019628
+  },
+  "BD-09 956": {
+   "pos": [
+    23.84375,
+    -34.65625,
+    -48.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795019817
   }
  },
  "ataques": {

@@ -1463,7 +1463,7 @@
     "2026-11-15": 9,
     "2026-11-16": 2,
     "2026-11-17": 16,
-    "2026-11-18": 2
+    "2026-11-18": 3
    },
    "zc": [
     {
@@ -2058,6 +2058,19 @@
       "Vulture"
      ],
      "naves_t": 1794886691
+    },
+    "Gama Vision": {
+     "f": "Sirius Special Forces",
+     "tipo": "Outpost",
+     "t": 1794972400,
+     "estado": "",
+     "ls": 2376,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 4300295171
     }
    },
    "prev": 13.87,
@@ -16590,10 +16603,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794971976.3263354,
-  "msgs": 1181119,
+  "msgs": 1189241,
   "mios": 80
  },
- "t": 1794972160.7234406,
+ "t": 1794972791.1688924,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17401,7 +17414,7 @@
    "nfac": 5,
    "pob": 7068912,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794896106
+   "t": 1794972581
   },
   "Hyades Sector UU-N b7-4": {
    "pos": [
@@ -19144,6 +19157,19 @@
    "pob": 65952881,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794971895
+  },
+  "Sarugh": {
+   "pos": [
+    1.65625,
+    13.46875,
+    -120
+   ],
+   "ly": 5.2,
+   "junto": "Kalenile",
+   "nfac": 6,
+   "pob": 2760433,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1794972591
   }
  },
  "zona": {
@@ -20492,7 +20518,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794895363
+   "t": 1794972783
   },
   "Col 285 Sector VJ-R a34-0": {
    "pos": [
@@ -20779,14 +20805,14 @@
    ],
    "pot": "Aisling Duval",
    "est": "Stronghold",
-   "prog": 0.340212,
+   "prog": 0.344572,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794896106
+   "t": 1794972581
   },
   "Hyades Sector UU-N b7-4": {
    "pos": [
@@ -24089,6 +24115,22 @@
     "Li Yong-Rui"
    ],
    "t": 1794971895
+  },
+  "Sarugh": {
+   "pos": [
+    1.65625,
+    13.46875,
+    -120
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.264575,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794972591
   }
  },
  "codice": [

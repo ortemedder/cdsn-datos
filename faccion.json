@@ -4908,7 +4908,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1794940230,
+   "t": 1794974128,
    "src": "EDDN",
    "inf": 83.33,
    "ctrl": true,
@@ -4917,7 +4917,9 @@
     "CivilLiberty",
     "Boom"
    ],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Natural Atese Front",
    "segunda_inf": 11.78,
@@ -4932,7 +4934,9 @@
       "CivilLiberty",
       "Boom"
      ],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -4977,19 +4981,19 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-10": 207,
     "2026-11-11": 165,
     "2026-11-12": 88,
     "2026-11-13": 43,
     "2026-11-14": 42,
     "2026-11-15": 39,
     "2026-11-16": 71,
-    "2026-11-17": 32
+    "2026-11-17": 32,
+    "2026-11-18": 1
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1794940317,
+     "t": 1794974128,
      "d": 1794928703
     },
     "KBG-B1L": {
@@ -5019,7 +5023,7 @@
    },
    "tk": {
     "firma": "8969fec3",
-    "igual": 1794940230,
+    "igual": 1794974128,
     "ult": 1794928581,
     "desde": 1794879132,
     "est": null,
@@ -5042,10 +5046,12 @@
     ]
    },
    "saltos": {
-    "1794927600": 1
+    "1794927600": 1,
+    "1794970800": 1
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 2,
+    "2026-11-18": 1
    },
    "estaciones": {
     "Vanaheim": {
@@ -15413,6 +15419,132 @@
    "tk": {
     "firma": "6930e4c4",
     "igual": 1794845358
+   },
+   "trafico": {
+    "2026-11-18": 2
+   },
+   "estaciones": {
+    "Lavoisier Settlement": {
+     "f": "Caballeros de Sion",
+     "tipo": "SurfaceStation",
+     "t": 1794973871,
+     "estado": "Construction",
+     "ls": 3694,
+     "pads": {
+      "Small": 4,
+      "Medium": 8,
+      "Large": 6
+     },
+     "mid": 4403917827,
+     "mer": {
+      "t": 1794973962,
+      "n": 366,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 164041,
+        "d": 276
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 106660,
+        "d": 12
+       },
+       {
+        "n": "helium",
+        "p": 85962,
+        "d": 5
+       },
+       {
+        "n": "helium3",
+        "p": 80406,
+        "d": 5
+       },
+       {
+        "n": "platinum",
+        "p": 57092,
+        "d": 54
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 746,
+        "m": 260
+       },
+       {
+        "n": "polymers",
+        "p": 765,
+        "m": 306
+       },
+       {
+        "n": "algae",
+        "p": 751,
+        "m": 308
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 801,
+        "m": 354
+       },
+       {
+        "n": "beer",
+        "p": 788,
+        "m": 350
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 30,
+        "m": 271,
+        "s": 3484
+       },
+       {
+        "n": "scrap",
+        "p": 68,
+        "m": 276,
+        "s": 1344
+       },
+       {
+        "n": "foodcartridges",
+        "p": 127,
+        "m": 252,
+        "s": 4745
+       },
+       {
+        "n": "lepidolite",
+        "p": 393,
+        "m": 741,
+        "s": 2310
+       },
+       {
+        "n": "bauxite",
+        "p": 673,
+        "m": 1096,
+        "s": 38981
+       }
+      ]
+     },
+     "mods": 254,
+     "mods_t": 1794973879,
+     "naves": [
+      "adder",
+      "asp",
+      "asp_scout",
+      "cobramkiii",
+      "eagle",
+      "hauler",
+      "krait_light",
+      "krait_mkii",
+      "sidewinder",
+      "type6",
+      "type7",
+      "viper",
+      "viper_mkiv"
+     ],
+     "naves_t": 1794973879
+    }
    }
   },
   "Col 285 Sector TK-J b24-1": {
@@ -16602,11 +16734,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794971976.3263354,
-  "msgs": 1189241,
-  "mios": 80
+  "ultimo": 1794974129.4266644,
+  "msgs": 1197640,
+  "mios": 81
  },
- "t": 1794972791.1688924,
+ "t": 1794974132.000947,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17310,7 +17442,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794970433
+   "t": 1794974105
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -20640,13 +20772,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.025977,
+   "prog": 0.02714,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794970433
+   "t": 1794974105
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -22609,14 +22741,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.334102,
+   "prog": 0.334229,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1794953272
+   "t": 1794973681
   },
   "ICZ GL-X b1-1": {
    "pos": [

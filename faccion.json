@@ -2376,32 +2376,34 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1794848801,
+   "t": 1794959840,
    "src": "EDDN",
-   "inf": 69.6,
+   "inf": 70.98,
    "ctrl": true,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 9.58,
+   "segunda_inf": 9.18,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 69.6,
+     "inf": 70.98,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 9.58,
+     "inf": 9.18,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -2412,7 +2414,7 @@
     },
     {
      "n": "Escuadron Centinelas",
-     "inf": 6.42,
+     "inf": 6.22,
      "gov": "Feudal",
      "alg": "Empire",
      "act": [],
@@ -2421,7 +2423,7 @@
     },
     {
      "n": "New Catun First",
-     "inf": 5.82,
+     "inf": 5.63,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -2430,7 +2432,7 @@
     },
     {
      "n": "Catun Resistance",
-     "inf": 3.55,
+     "inf": 3.46,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2439,7 +2441,7 @@
     },
     {
      "n": "Catun PLC",
-     "inf": 2.86,
+     "inf": 2.76,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -2448,7 +2450,7 @@
     },
     {
      "n": "Catun Mafia",
-     "inf": 2.17,
+     "inf": 1.78,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -2473,9 +2475,9 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.252146,
-    "ref": 2496,
-    "soc": 0,
+    "prog": 0.252394,
+    "ref": 2721,
+    "soc": 64,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -2489,28 +2491,32 @@
     "2026-04-11": 1,
     "2026-05-03": 1,
     "2026-11-15": 7,
-    "2025-01-11": 1,
-    "2026-11-16": 10
+    "2026-11-16": 10,
+    "2026-11-17": 2,
+    "2026-11-18": 4
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794848801
+     "t": 1794959958,
+     "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794848801
+     "t": 1794959958,
+     "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794848801
+     "t": 1794959958,
+     "d": 1794959958
     }
    },
    "tk": {
-    "firma": "be8338a4",
-    "igual": 1794848801,
-    "ult": 1794832834,
-    "desde": 1794736283,
+    "firma": "f9f668ba",
+    "igual": 1794959840,
+    "ult": 1794959840,
+    "desde": 1794848801,
     "vent": [
      [
       1794668657,
@@ -2519,8 +2525,14 @@
     ],
     "est": null
    },
-   "prev": 66.17,
-   "prev_t": 1794736283,
+   "saltos": {
+    "1794956400": 2
+   },
+   "rutas": {
+    "2026-11-17": 4
+   },
+   "prev": 69.6,
+   "prev_t": 1794848801,
    "hinf": [
     [
      1794290838,
@@ -2537,15 +2549,148 @@
     [
      1794832834,
      69.6
+    ],
+    [
+     1794959840,
+     70.98
     ]
    ],
-   "tick_ult": 1794832834,
-   "tick_marg": 804,
-   "tick_prox": 1794858210,
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
+    "Escuadron Centinelas": 0,
+    "New Catun First": 0,
+    "Catun Resistance": 0,
+    "Catun PLC": 0,
+    "Catun Mafia": 0
+   },
+   "rivales": [],
+   "tick_ult": 1794959840,
+   "tick_marg": 925,
+   "tick_prox": 1795031010,
    "tick_disp": 279,
    "tick_n": 0,
-   "rutas": {
-    "2026-11-17": 4
+   "estaciones": {
+    "Gardner Orbital": {
+     "f": "Caballeros de Sion",
+     "tipo": "Coriolis",
+     "t": 1794960027,
+     "estado": "",
+     "ls": 1818,
+     "pads": {
+      "Small": 7,
+      "Medium": 12,
+      "Large": 6
+     },
+     "mid": 3227674624,
+     "mer": {
+      "t": 1794960326,
+      "n": 366,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 236342,
+        "d": 927
+       },
+       {
+        "n": "musgravite",
+        "p": 218265,
+        "d": 927
+       },
+       {
+        "n": "grandidierite",
+        "p": 217487,
+        "d": 927
+       },
+       {
+        "n": "monazite",
+        "p": 214786,
+        "d": 2633
+       },
+       {
+        "n": "metaalloys",
+        "p": 195547,
+        "d": 18174
+       }
+      ],
+      "alta": [
+       {
+        "n": "foodcartridges",
+        "p": 679,
+        "m": 252
+       },
+       {
+        "n": "water",
+        "p": 670,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 706,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 741,
+        "m": 387
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 842,
+        "m": 447
+       }
+      ],
+      "barato": [
+       {
+        "n": "polymers",
+        "p": 69,
+        "m": 306,
+        "s": 223006
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 107,
+        "m": 354,
+        "s": 159703
+       },
+       {
+        "n": "biowaste",
+        "p": 90,
+        "m": 271,
+        "s": 12489
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 192,
+        "m": 502,
+        "s": 39216
+       },
+       {
+        "n": "syntheticmeat",
+        "p": 170,
+        "m": 415,
+        "s": 58598
+       }
+      ]
+     },
+     "mods": 825,
+     "mods_t": 1794960263,
+     "naves": [
+      "anaconda",
+      "explorer_nx",
+      "lakonminer",
+      "mandalay",
+      "panthermkii",
+      "type8"
+     ],
+     "naves_t": 1794960124,
+     "atq": {
+      "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      }
+     }
+    }
    }
   },
   "Epsilon Sculptoris": {
@@ -15898,7 +16043,7 @@
   },
   "Col 285 Sector NY-Q c5-8": {
    "sys": "Col 285 Sector NY-Q c5-8",
-   "t": 1794958565,
+   "t": 1794959746,
    "src": "EDDN",
    "inf": 50.65,
    "ctrl": true,
@@ -15967,27 +16112,28 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-17": 9
+    "2026-11-17": 11,
+    "2026-11-18": 1
    },
    "pn": {
     "KLJ-0QB": {
      "n": "ROMEO'S DESTINY",
-     "t": 1794958664,
+     "t": 1794959915,
      "d": 1794954509
     },
     "HHQ-6HV": {
      "n": "RIDER OF THE STORM",
-     "t": 1794958664,
+     "t": 1794959915,
      "d": 1794954509
     }
    },
    "tk": {
     "firma": "162aecc3",
-    "igual": 1794958565
+    "igual": 1794959746
    },
    "saltos": {
     "1794952800": 1,
-    "1794956400": 1
+    "1794956400": 2
    },
    "rutas": {
     "2026-11-17": 4
@@ -16022,7 +16168,7 @@
     "Poncelet Gateway": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794958737,
+     "t": 1794959998,
      "estado": "",
      "ls": 305,
      "pads": {
@@ -16033,12 +16179,12 @@
      "mid": 4222529027,
      "atq": {
       "2026-11-17": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
      "mer": {
-      "t": 1794958844,
+      "t": 1794960032,
       "n": 366,
       "vende": [
        {
@@ -16143,11 +16289,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794958571.2934694,
-  "msgs": 1034240,
-  "mios": 73
+  "ultimo": 1794959842.735934,
+  "msgs": 1046885,
+  "mios": 75
  },
- "t": 1794959728.2482548,
+ "t": 1794960610.6329715,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16617,7 +16763,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794924680
+   "t": 1794960596
   },
   "Zephyrus": {
    "pos": [
@@ -17670,7 +17816,7 @@
    "nfac": 5,
    "pob": 159200,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1794942266
+   "t": 1794960350
   },
   "Arnemil": {
    "pos": [
@@ -18190,7 +18336,7 @@
    "nfac": 3,
    "pob": 1682490,
    "ctrl_n": "The Dark Wheel",
-   "t": 1794959023
+   "t": 1794960187
   },
   "Saktas": {
    "pos": [
@@ -18294,7 +18440,7 @@
    "nfac": 3,
    "pob": 240479,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794956768
+   "t": 1794959767
   },
   "Guambia": {
    "pos": [
@@ -18398,7 +18544,7 @@
    "nfac": 3,
    "pob": 4197830,
    "ctrl_n": "Sirius Corporation",
-   "t": 1794959344
+   "t": 1794960522
   },
   "Tascheter Sector HM-M a7-1": {
    "pos": [
@@ -18412,6 +18558,71 @@
    "pob": 207091,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794959680
+  },
+  "Hyades Sector IX-R b5-0": {
+   "pos": [
+    55.03125,
+    60.59375,
+    -165
+   ],
+   "ly": 9.4,
+   "junto": "Hyades Sector CB-W c2-3",
+   "nfac": 4,
+   "pob": 41564598,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794959816
+  },
+  "Hyades Sector PE-O b7-2": {
+   "pos": [
+    13.34375,
+    36.0625,
+    -110.25
+   ],
+   "ly": 7.5,
+   "junto": "Satvaneka",
+   "nfac": 4,
+   "pob": 108489278,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794960282
+  },
+  "SPOCS 323": {
+   "pos": [
+    18.9375,
+    23.0625,
+    -107.5
+   ],
+   "ly": 7.3,
+   "junto": "Hyades Sector SZ-N b7-0",
+   "nfac": 5,
+   "pob": 2190070,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794960350
+  },
+  "Propus": {
+   "pos": [
+    22,
+    40.90625,
+    -111.03125
+   ],
+   "ly": 13.9,
+   "junto": "Makum",
+   "nfac": 4,
+   "pob": 2199483,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794960411
+  },
+  "Hyades Sector SZ-N b7-2": {
+   "pos": [
+    29.84375,
+    34.625,
+    -119.34375
+   ],
+   "ly": 11.8,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 48018778,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794960487
   }
  },
  "zona": {
@@ -19456,13 +19667,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.36853,
+   "prog": 0.374758,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794924680
+   "t": 1794960596
   },
   "Guei": {
    "pos": [
@@ -19479,7 +19690,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794889407
+   "t": 1794959786
   },
   "Zephyrus": {
    "pos": [
@@ -21533,7 +21744,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1794942266
+   "t": 1794960350
   },
   "Arnemil": {
    "pos": [
@@ -22664,7 +22875,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794956768
+   "t": 1794959767
   },
   "Guambia": {
    "pos": [
@@ -22824,6 +23035,104 @@
     "Jerome Archer"
    ],
    "t": 1794959723
+  },
+  "Hyades Sector IX-R b5-0": {
+   "pos": [
+    55.03125,
+    60.59375,
+    -165
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.1304,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters"
+   ],
+   "t": 1794959816
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252394,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794959840
+  },
+  "Hyades Sector PE-O b7-2": {
+   "pos": [
+    13.34375,
+    36.0625,
+    -110.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.049712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1794960282
+  },
+  "SPOCS 323": {
+   "pos": [
+    18.9375,
+    23.0625,
+    -107.5
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.116569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794960350
+  },
+  "Propus": {
+   "pos": [
+    22,
+    40.90625,
+    -111.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.091997,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794960411
+  },
+  "Hyades Sector SZ-N b7-2": {
+   "pos": [
+    29.84375,
+    34.625,
+    -119.34375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.011997,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1794960487
   }
  },
  "codice": [

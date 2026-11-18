@@ -5255,7 +5255,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 6
+    "2026-11-18": 10
    },
    "pn": {
     "H5L-70M": {
@@ -5426,7 +5426,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795004128,
+     "t": 1795004777,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5436,7 +5436,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795004138,
+      "t": 1795004803,
       "n": 366,
       "vende": [
        {
@@ -5531,9 +5531,12 @@
        "no": 0
       },
       "2026-11-18": {
-       "ok": 2,
-       "no": 0
+       "ok": 4,
+       "no": 1
       }
+     },
+     "neg": {
+      "Distance": 1
      }
     },
     "Shvets Works": {
@@ -5562,7 +5565,7 @@
     "Orbital Construction Site: Snofru Depot": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795004397,
+     "t": 1795005044,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -5573,7 +5576,7 @@
      "mid": 3966431490,
      "atq": {
       "2026-11-18": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -17315,10 +17318,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795003500.322431,
-  "msgs": 134803,
+  "msgs": 142398,
   "mios": 20
  },
- "t": 1795004403.9457414,
+ "t": 1795005335.4609852,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17592,7 +17595,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795001529
+   "t": 1795004544
   },
   "LTT 10918": {
    "pos": [
@@ -17772,9 +17775,9 @@
    "ly": 19.4,
    "junto": "Synuefe VG-C c29-7",
    "nfac": 4,
-   "pob": 33166,
+   "pob": 39598,
    "ctrl_n": "The Winged Hussars",
-   "t": 1794925909
+   "t": 1795005180
   },
   "Ross 332": {
    "pos": [
@@ -20193,6 +20196,32 @@
    "pob": 2371443,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1795002273
+  },
+  "Col 285 Sector KE-E b13-8": {
+   "pos": [
+    -174.71875,
+    27.75,
+    -69.4375
+   ],
+   "ly": 17.8,
+   "junto": "Col 285 Sector KE-E b13-0",
+   "nfac": 3,
+   "pob": 318460,
+   "ctrl_n": "Canonn",
+   "t": 1795004978
+  },
+  "Col 285 Sector JM-L c8-12": {
+   "pos": [
+    138.46875,
+    -21.9375,
+    3.34375
+   ],
+   "ly": 15.8,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 2164190,
+   "ctrl_n": "Chuj Coordinated",
+   "t": 1795005103
   }
  },
  "codice": [
@@ -20788,7 +20817,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795001529
+   "t": 1795004544
   },
   "Xuanebuth": {
    "pos": [
@@ -21248,6 +21277,51 @@
     "Zemina Torval"
    ],
    "t": 1795003408
+  },
+  "Col 285 Sector KE-E b13-8": {
+   "pos": [
+    -174.71875,
+    27.75,
+    -69.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1795004978
+  },
+  "Col 285 Sector JM-L c8-12": {
+   "pos": [
+    138.46875,
+    -21.9375,
+    3.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795005103
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795005153
   }
  },
  "ataques": {

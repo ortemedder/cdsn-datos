@@ -2217,7 +2217,8 @@
     "1794949200": 1
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 2,
+    "2026-11-18": 1
    },
    "prev": null,
    "prev_t": null,
@@ -16414,10 +16415,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794965256.592109,
-  "msgs": 1164209,
+  "msgs": 1172271,
   "mios": 78
  },
- "t": 1794970469.066497,
+ "t": 1794971279.542818,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -18916,6 +18917,19 @@
    "pob": 1572479,
    "ctrl_n": "Imperial Self Defense Force",
    "t": 1794969948
+  },
+  "Col 285 Sector TD-T a33-7": {
+   "pos": [
+    148.03125,
+    -27.96875,
+    8.625
+   ],
+   "ly": 19.4,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 83900183,
+   "ctrl_n": "Hu Jini Patron's Principles",
+   "t": 1794971275
   }
  },
  "zona": {
@@ -23786,6 +23800,38 @@
     "Li Yong-Rui"
    ],
    "t": 1794969948
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.092578,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1794971019
+  },
+  "Col 285 Sector TD-T a33-7": {
+   "pos": [
+    148.03125,
+    -27.96875,
+    8.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794971275
   }
  },
  "codice": [

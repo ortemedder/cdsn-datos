@@ -5256,7 +5256,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 18
+    "2026-11-18": 21
    },
    "pn": {
     "H5L-70M": {
@@ -5427,7 +5427,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795006056,
+     "t": 1795007855,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5437,7 +5437,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795006063,
+      "t": 1795007861,
       "n": 366,
       "vende": [
        {
@@ -5516,7 +5516,7 @@
         "n": "ceramiccomposites",
         "p": 78,
         "m": 402,
-        "s": 392424
+        "s": 394620
        },
        {
         "n": "syntheticfabrics",
@@ -5532,7 +5532,7 @@
        "no": 0
       },
       "2026-11-18": {
-       "ok": 5,
+       "ok": 6,
        "no": 1
       }
      },
@@ -5663,7 +5663,7 @@
     "Orbital Construction Site: Snofru Depot": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795006802,
+     "t": 1795007451,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -5674,7 +5674,7 @@
      "mid": 3966431490,
      "atq": {
       "2026-11-18": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      }
@@ -16018,16 +16018,16 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1794845358,
+   "t": 1795008025,
    "src": "EDDN",
    "inf": 60.0,
    "ctrl": true,
    "estado": "Boom",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Natural Atese Front",
    "segunda_inf": 20.0,
    "conflictos": [],
@@ -16038,7 +16038,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -16076,9 +16078,9 @@
     291.34375
    ],
    "sis": {
-    "pob": 10238,
+    "pob": 125101,
     "eco": "$economy_Extraction;",
-    "eco2": "$economy_None;",
+    "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
@@ -16091,18 +16093,18 @@
     "soc": null,
     "pots": []
    },
-   "hinf": [
-    [
-     1794845358,
-     60.0
-    ]
-   ],
+   "trafico": {
+    "2026-11-18": 3
+   },
    "tk": {
     "firma": "6930e4c4",
-    "igual": 1794845358
+    "igual": 1795008025
    },
-   "trafico": {
-    "2026-11-18": 2
+   "saltos": {
+    "1795006800": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
    },
    "estaciones": {
     "Lavoisier Settlement": {
@@ -16225,6 +16227,23 @@
       "viper_mkiv"
      ],
      "naves_t": 1794973879
+    }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794845358,
+     60.0
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "pn": {
+    "KBL-37L": {
+     "n": "EPICUS FUROR *CDSN*",
+     "t": 1795008025,
+     "d": 1795008025
     }
    }
   },
@@ -17415,11 +17434,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795006204.7664084,
-  "msgs": 158873,
-  "mios": 21
+  "ultimo": 1795008025.7145877,
+  "msgs": 167551,
+  "mios": 22
  },
- "t": 1795007118.372333,
+ "t": 1795008029.8226256,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -20280,7 +20299,7 @@
    "nfac": 3,
    "pob": 761158999,
    "ctrl_n": "Nagii Union",
-   "t": 1795002434
+   "t": 1795007908
   },
   "HIP 35163": {
    "pos": [
@@ -20333,6 +20352,32 @@
    "pob": 222268,
    "ctrl_n": "Solaris Xeno-Psychology Group",
    "t": 1795006648
+  },
+  "Col 285 Sector YZ-U b17-2": {
+   "pos": [
+    135.75,
+    -14.1875,
+    23.5625
+   ],
+   "ly": 6.3,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 2009450,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1795006931
+  },
+  "Nogatas": {
+   "pos": [
+    15.90625,
+    -99.625,
+    -39.15625
+   ],
+   "ly": 17.5,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 6,
+   "pob": 6518204,
+   "ctrl_n": "East India Company",
+   "t": 1795007952
   }
  },
  "codice": [
@@ -21253,7 +21298,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795002434
+   "t": 1795007908
   },
   "Hu Jini": {
    "pos": [
@@ -21483,6 +21528,54 @@
     "Zemina Torval"
    ],
    "t": 1795006648
+  },
+  "Col 285 Sector YZ-U b17-2": {
+   "pos": [
+    135.75,
+    -14.1875,
+    23.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795006931
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795007341
+  },
+  "Nogatas": {
+   "pos": [
+    15.90625,
+    -99.625,
+    -39.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.205712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795007952
   }
  },
  "ataques": {

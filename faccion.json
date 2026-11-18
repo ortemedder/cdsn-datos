@@ -16753,10 +16753,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794978295.0405385,
-  "msgs": 1238069,
+  "msgs": 1245590,
   "mios": 83
  },
- "t": 1794978304.394982,
+ "t": 1794979234.8992057,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -17226,7 +17226,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794968157
+   "t": 1794979222
   },
   "Zephyrus": {
    "pos": [
@@ -17304,7 +17304,7 @@
    "nfac": 3,
    "pob": 3497253957,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794896205
+   "t": 1794978797
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -19955,7 +19955,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1794962845
+   "t": 1794978950
   },
   "Gurabru": {
    "pos": [
@@ -20429,13 +20429,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.375247,
+   "prog": 0.375993,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794968157
+   "t": 1794979222
   },
   "Guei": {
    "pos": [
@@ -20582,7 +20582,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1794896205
+   "t": 1794978797
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [

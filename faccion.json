@@ -363,7 +363,7 @@
     "2026-11-13": 3,
     "2026-11-15": 1,
     "2026-11-17": 26,
-    "2026-11-18": 5
+    "2026-11-18": 6
    },
    "tk": {
     "firma": "d80c2167",
@@ -753,6 +753,109 @@
        "ok": 1,
        "no": 0
       }
+     }
+    },
+    "Toro Terminal": {
+     "f": "Caballeros de Sion",
+     "tipo": "Ocellus",
+     "t": 1794990729,
+     "estado": "",
+     "ls": 6,
+     "pads": {
+      "Small": 8,
+      "Medium": 11,
+      "Large": 7
+     },
+     "mid": 4230738179,
+     "mer": {
+      "t": 1794990752,
+      "n": 366,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 203385,
+        "d": 774
+       },
+       {
+        "n": "metaalloys",
+        "p": 194379,
+        "d": 68638
+       },
+       {
+        "n": "monazite",
+        "p": 192779,
+        "d": 4140
+       },
+       {
+        "n": "musgravite",
+        "p": 185037,
+        "d": 774
+       },
+       {
+        "n": "grandidierite",
+        "p": 183594,
+        "d": 774
+       }
+      ],
+      "alta": [
+       {
+        "n": "biowaste",
+        "p": 577,
+        "m": 271
+       },
+       {
+        "n": "polymers",
+        "p": 610,
+        "m": 306
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 641,
+        "m": 354
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 647,
+        "m": 402
+       },
+       {
+        "n": "explosives",
+        "p": 760,
+        "m": 483
+       }
+      ],
+      "barato": [
+       {
+        "n": "water",
+        "p": 18,
+        "m": 260,
+        "s": 979612
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 707734
+       },
+       {
+        "n": "algae",
+        "p": 49,
+        "m": 308,
+        "s": 2513439
+       },
+       {
+        "n": "syntheticmeat",
+        "p": 123,
+        "m": 415,
+        "s": 454972
+       },
+       {
+        "n": "grain",
+        "p": 127,
+        "m": 387,
+        "s": 2476569
+       }
+      ]
      }
     }
    },
@@ -4155,7 +4258,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1794989674,
+   "t": 1794990245,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4275,18 +4378,18 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 1
+    "2026-11-18": 4
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794989686
+     "t": 1794990649
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794957076
+     "t": 1794990649
     }
    ],
    "pn": {
@@ -4296,18 +4399,18 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1794989686,
+     "t": 1794990649,
      "d": 1794888452
     },
     "BBF-G3Z": {
      "n": "[FRC] TICONDEROGA",
-     "t": 1794989686,
+     "t": 1794990649,
      "d": 1794888452
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1794989674,
+    "igual": 1794990245,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -4459,9 +4562,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1794950689,
+     "t": 1794990704,
      "estado": "",
-     "ls": 3149,
+     "ls": 3147,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -4469,14 +4572,14 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1794950696,
+      "t": 1794990711,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 123,
-     "mods_t": 1794950696,
+     "mods_t": 1794990711,
      "neg": {
       "NoSpace": 18
      },
@@ -4484,6 +4587,10 @@
       "2026-11-17": {
        "ok": 3,
        "no": 18
+      },
+      "2026-11-18": {
+       "ok": 1,
+       "no": 0
       }
      }
     },
@@ -16828,11 +16935,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1794989675.1439304,
-  "msgs": 6479,
-  "mios": 2
+  "ultimo": 1794990246.0108461,
+  "msgs": 12646,
+  "mios": 3
  },
- "t": 1794989965.3644552,
+ "t": 1794990896.4418693,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -19577,6 +19684,19 @@
    "pob": 125333,
    "ctrl_n": "Nagii Union",
    "t": 1794989520
+  },
+  "Col 285 Sector YZ-U b17-4": {
+   "pos": [
+    142.1875,
+    -21.09375,
+    16.96875
+   ],
+   "ly": 8.4,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 47374430,
+   "ctrl_n": "Kalvelis Imperial Society",
+   "t": 1794990418
   }
  },
  "codice": [
@@ -19824,7 +19944,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794989674
+   "t": 1794990245
   },
   "LHS 1734": {
    "pos": [
@@ -19842,6 +19962,68 @@
     "Jerome Archer"
    ],
    "t": 1794989914
+  },
+  "Col 285 Sector YZ-U b17-4": {
+   "pos": [
+    142.1875,
+    -21.09375,
+    16.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794990418
+  },
+  "HIP 45096": {
+   "pos": [
+    133.40625,
+    -10.9375,
+    11.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794990660
+  },
+  "Apam Napat": {
+   "pos": [
+    10.09375,
+    -90.46875,
+    -0.71875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Stronghold",
+   "prog": 0.334229,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794990715
+  },
+  "Njungum": {
+   "pos": [
+    134.59375,
+    -21.5625,
+    1.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.116526,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794990889
   }
  },
  "ataques": {

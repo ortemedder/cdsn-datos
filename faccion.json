@@ -2130,7 +2130,7 @@
    },
    "rutas": {
     "2026-11-17": 7,
-    "2026-11-18": 14
+    "2026-11-18": 15
    },
    "estaciones": {
     "Judge Reach": {
@@ -7161,7 +7161,8 @@
     "1794927600": 1
    },
    "rutas": {
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-18": 1
    },
    "prev": 50.9,
    "prev_t": 1794581831,
@@ -18419,10 +18420,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795033094.6385899,
-  "msgs": 576762,
+  "msgs": 593844,
   "mios": 64
  },
- "t": 1795033353.346183,
+ "t": 1795034144.7918212,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -18904,7 +18905,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795031946
+   "t": 1795033633
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -19203,7 +19204,7 @@
    "nfac": 3,
    "pob": 174153920,
    "ctrl_n": "The Fatherhood",
-   "t": 1795030638
+   "t": 1795033624
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -19463,7 +19464,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795031057
+   "t": 1795033745
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -21869,9 +21870,32 @@
    "pob": 59943426,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795032787
+  },
+  "Col 285 Sector VJ-R a34-1": {
+   "pos": [
+    128.9375,
+    -29.96875,
+    19.875
+   ],
+   "ly": 16.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 417477,
+   "ctrl_n": "Talon Order",
+   "t": 1795033797
   }
  },
  "codice": [
+  {
+   "sys": "HIP 46236",
+   "n": "Shrubs 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 d",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795034140
+  },
   {
    "sys": "Huveang De",
    "n": "Standard Ammonia Worlds",
@@ -21881,16 +21905,6 @@
    "junto": "Arietis Sector CQ-Y d60",
    "ly": 16.6,
    "t": 1795032957
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Shrubs 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 d",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795030844
   },
   {
    "sys": "HIP 46236",
@@ -22703,7 +22717,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795031946
+   "t": 1795033633
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -22951,7 +22965,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795031057
+   "t": 1795033745
   },
   "Meeneratii": {
    "pos": [
@@ -24890,6 +24904,36 @@
     "Jerome Archer"
    ],
    "t": 1795032842
+  },
+  "HIP 33287": {
+   "pos": [
+    13.28125,
+    31.75,
+    -120.75
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.136615,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795033327
+  },
+  "Col 285 Sector VJ-R a34-1": {
+   "pos": [
+    128.9375,
+    -29.96875,
+    19.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795033797
   }
  },
  "ataques": {

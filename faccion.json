@@ -1932,7 +1932,8 @@
     "1794920400": 1
    },
    "rutas": {
-    "2026-11-17": 7
+    "2026-11-17": 7,
+    "2026-11-18": 1
    },
    "estaciones": {
     "Judge Reach": {
@@ -16410,10 +16411,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794965256.592109,
-  "msgs": 1132157,
+  "msgs": 1142463,
   "mios": 78
  },
- "t": 1794967866.8424478,
+ "t": 1794968557.7368202,
  "tick_global": 1794938051,
  "thargoides": {},
  "expansion": {
@@ -16883,7 +16884,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1794964472
+   "t": 1794968157
   },
   "Zephyrus": {
    "pos": [
@@ -17117,7 +17118,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794964920
+   "t": 1794968545
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -18248,7 +18249,7 @@
    "nfac": 6,
    "pob": 12380955,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794950979
+   "t": 1794968159
   },
   "Ceti Sector KX-T b3-0": {
    "pos": [
@@ -18573,7 +18574,7 @@
    "nfac": 6,
    "pob": 192489,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794961622
+   "t": 1794968488
   },
   "Hyades Sector QO-P b6-5": {
    "pos": [
@@ -18860,6 +18861,19 @@
    "pob": 618595,
    "ctrl_n": "Sirius Special Forces",
    "t": 1794965945
+  },
+  "HIP 35755": {
+   "pos": [
+    5.5625,
+    46.03125,
+    -113.8125
+   ],
+   "ly": 10.8,
+   "junto": "Satvaneka",
+   "nfac": 6,
+   "pob": 405228172,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1794968346
   }
  },
  "zona": {
@@ -19530,7 +19544,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794956312
+   "t": 1794968419
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -19904,13 +19918,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.374758,
+   "prog": 0.375247,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1794964472
+   "t": 1794968157
   },
   "Guei": {
    "pos": [
@@ -20330,13 +20344,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.025546,
+   "prog": 0.025977,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794964920
+   "t": 1794968545
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -22609,7 +22623,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794950979
+   "t": 1794968159
   },
   "Ceti Sector KX-T b3-0": {
    "pos": [
@@ -23127,7 +23141,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794961622
+   "t": 1794968488
   },
   "Hyades Sector QO-P b6-5": {
    "pos": [
@@ -23650,6 +23664,38 @@
     "Jerome Archer"
    ],
    "t": 1794967076
+  },
+  "Shedi": {
+   "pos": [
+    -33.53125,
+    -19.90625,
+    -77.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252709,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794968055
+  },
+  "HIP 35755": {
+   "pos": [
+    5.5625,
+    46.03125,
+    -113.8125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.144217,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1794968346
   }
  },
  "codice": [

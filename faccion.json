@@ -2611,22 +2611,22 @@
     "2026-11-15": 7,
     "2026-11-16": 10,
     "2026-11-17": 2,
-    "2026-11-18": 5
+    "2026-11-18": 8
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1794991697,
+     "t": 1794991860,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1794991697,
+     "t": 1794991860,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1794991697,
+     "t": 1794991860,
      "d": 1794959958
     }
    },
@@ -2645,7 +2645,7 @@
    },
    "saltos": {
     "1794956400": 2,
-    "1794988800": 1
+    "1794988800": 2
    },
    "rutas": {
     "2026-11-17": 4,
@@ -2655,9 +2655,9 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794960027,
+     "t": 1794991937,
      "estado": "",
-     "ls": 1818,
+     "ls": 1817,
      "pads": {
       "Small": 7,
       "Medium": 12,
@@ -2665,7 +2665,7 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1794960326,
+      "t": 1794991987,
       "n": 366,
       "vende": [
        {
@@ -2754,20 +2754,39 @@
        }
       ]
      },
-     "mods": 825,
-     "mods_t": 1794960263,
+     "mods": 867,
+     "mods_t": 1794992345,
      "naves": [
       "anaconda",
+      "asp",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
       "explorer_nx",
+      "ferdelance",
+      "hauler",
       "lakonminer",
-      "mandalay",
-      "panthermkii",
-      "type8"
+      "mamba",
+      "mediumtransport01",
+      "orca",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type8",
+      "viper",
+      "viper_mkiv"
      ],
-     "naves_t": 1794960124,
+     "naves_t": 1794991943,
      "atq": {
       "2026-11-17": {
        "ok": 1,
+       "no": 0
+      },
+      "2026-11-18": {
+       "ok": 2,
        "no": 0
       }
      }
@@ -4380,7 +4399,7 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 9
+    "2026-11-18": 12
    },
    "zc": [
     {
@@ -7210,7 +7229,8 @@
     "1794945600": 1
    },
    "rutas": {
-    "2026-11-17": 5
+    "2026-11-17": 5,
+    "2026-11-18": 1
    },
    "estaciones": {
     "Piel City": {
@@ -16938,10 +16958,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1794991704.0844333,
-  "msgs": 20644,
+  "msgs": 28134,
   "mios": 4
  },
- "t": 1794991787.657218,
+ "t": 1794992658.9516342,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -17512,9 +17532,9 @@
    "ly": 15.6,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 318367,
+   "pob": 318385,
    "ctrl_n": "East India Company",
-   "t": 1794925400
+   "t": 1794992050
   },
   "LTT 751": {
    "pos": [
@@ -17696,7 +17716,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794975891
+   "t": 1794992412
   },
   "LTT 740": {
    "pos": [
@@ -18502,7 +18522,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1794945468
+   "t": 1794991906
   },
   "Alpha Doradus": {
    "pos": [
@@ -18851,9 +18871,9 @@
    "ly": 10.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 404557,
+   "pob": 404576,
    "ctrl_n": "East India Company",
-   "t": 1794951916
+   "t": 1794991935
   },
   "UGP 92": {
    "pos": [
@@ -19712,6 +19732,19 @@
    "pob": 8347,
    "ctrl_n": "Lavigny's Legion",
    "t": 1794991642
+  },
+  "Col 285 Sector RD-T a33-5": {
+   "pos": [
+    131.09375,
+    -29.875,
+    11.625
+   ],
+   "ly": 16.8,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 10134146,
+   "ctrl_n": "Movement for Njemari Independents",
+   "t": 1794992436
   }
  },
  "codice": [
@@ -20087,6 +20120,91 @@
     "Jerome Archer"
    ],
    "t": 1794991697
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.244243,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1794991906
+  },
+  "Ceti Sector EW-V b2-5": {
+   "pos": [
+    14.03125,
+    -83.625,
+    -25.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794991935
+  },
+  "Ceti Sector EW-V b2-4": {
+   "pos": [
+    8.09375,
+    -84.125,
+    -33.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1794992050
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.409507,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1794992412
+  },
+  "Col 285 Sector RD-T a33-5": {
+   "pos": [
+    131.09375,
+    -29.875,
+    11.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1794992436
   }
  },
  "ataques": {

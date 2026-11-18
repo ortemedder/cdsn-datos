@@ -3023,7 +3023,8 @@
     "2026-11-14": 1,
     "2026-11-15": 3,
     "2026-11-16": 5,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-01-16": 1
    },
    "tk": {
     "firma": "60db3419",
@@ -3039,6 +3040,7 @@
     ]
    },
    "saltos": {
+    "1768532400": 1,
     "1794920400": 1
    },
    "rutas": {
@@ -17573,10 +17575,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795008980.4937308,
-  "msgs": 218204,
+  "msgs": 231908,
   "mios": 25
  },
- "t": 1795012475.1914747,
+ "t": 1795013466.5999484,
  "tick_global": 1794938051,
  "expansion": {
   "Lalande 10797": {
@@ -19124,7 +19126,7 @@
    "nfac": 6,
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
-   "t": 1794943381
+   "t": 1795012671
   },
   "Tote": {
    "pos": [
@@ -20188,9 +20190,9 @@
    "ly": 15.9,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 3,
-   "pob": 209547,
+   "pob": 209658,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1794977460
+   "t": 1795012854
   },
   "Jeticans": {
    "pos": [
@@ -20594,6 +20596,19 @@
    "pob": 398709,
    "ctrl_n": "Hu Jini Patron's Principles",
    "t": 1795012467
+  },
+  "Binar": {
+   "pos": [
+    124.15625,
+    -14.65625,
+    22.5
+   ],
+   "ly": 13.4,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 6,
+   "pob": 377978988,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1795012863
   }
  },
  "codice": [
@@ -20862,23 +20877,6 @@
     "Jerome Archer"
    ],
    "t": 1795006203
-  },
-  "LHS 1734": {
-   "pos": [
-    37.09375,
-    -36.28125,
-    -47.875
-   ],
-   "pot": "Zemina Torval",
-   "est": "Exploited",
-   "prog": 0.177706,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1794996804
   },
   "Col 285 Sector YZ-U b17-4": {
    "pos": [
@@ -21648,7 +21646,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795012397
+   "t": 1795012662
   },
   "Col 285 Sector KE-E b13-8": {
    "pos": [
@@ -22023,6 +22021,121 @@
     "Zemina Torval"
    ],
    "t": 1795012467
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.366243,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795012671
+  },
+  "Trianguli Sector BQ-Y c15": {
+   "pos": [
+    30.5,
+    -18.4375,
+    -87.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795012854
+  },
+  "Binar": {
+   "pos": [
+    124.15625,
+    -14.65625,
+    22.5
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.145604,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795012863
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.265132,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795013257
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155426,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795013093
+  },
+  "Suyarang": {
+   "pos": [
+    21.15625,
+    -12.0625,
+    -75.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.161712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795013385
+  },
+  "Epsilon Sculptoris": {
+   "pos": [
+    8.875,
+    -89.40625,
+    -18.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.221712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1768533458
   }
  },
  "ataques": {

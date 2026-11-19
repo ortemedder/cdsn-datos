@@ -249,7 +249,7 @@
     "2026-11-11": 3,
     "2026-05-04": 1,
     "2026-11-14": 2,
-    "2026-11-18": 2
+    "2026-11-18": 3
    },
    "pn": {
     "H2J-72G": {
@@ -299,7 +299,112 @@
    },
    "rivales": [],
    "tick_ult": 1795045730,
-   "tick_marg": 3061
+   "tick_marg": 3061,
+   "estaciones": {
+    "Verne Garden": {
+     "f": "Caballeros de Sion",
+     "tipo": "CraterOutpost",
+     "t": 1795046106,
+     "estado": "",
+     "ls": 1643,
+     "pads": {
+      "Small": 4,
+      "Medium": 2,
+      "Large": 2
+     },
+     "mid": 4331996931,
+     "mer": {
+      "t": 1795046112,
+      "n": 113,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 226828,
+        "d": 2600
+       },
+       {
+        "n": "rhodplumsite",
+        "p": 198538,
+        "d": 822
+       },
+       {
+        "n": "metaalloys",
+        "p": 196187,
+        "d": 20790
+       },
+       {
+        "n": "iridium",
+        "p": 185691,
+        "d": 67837
+       },
+       {
+        "n": "opal",
+        "p": 167928,
+        "d": 3420
+       }
+      ],
+      "alta": [
+       {
+        "n": "foodcartridges",
+        "p": 720,
+        "m": 252
+       },
+       {
+        "n": "water",
+        "p": 711,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 751,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 785,
+        "m": 387
+       },
+       {
+        "n": "wine",
+        "p": 837,
+        "m": 417
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 37,
+        "m": 271,
+        "s": 14772
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 104,
+        "m": 418,
+        "s": 66742
+       },
+       {
+        "n": "scrap",
+        "p": 82,
+        "m": 276,
+        "s": 55071
+       },
+       {
+        "n": "hazardousenvironmentsuits",
+        "p": 169,
+        "m": 518,
+        "s": 89719
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 169,
+        "m": 502,
+        "s": 223202
+       }
+      ]
+     }
+    }
+   }
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
@@ -4596,7 +4701,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795044913,
+   "t": 1795046237,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4715,18 +4820,19 @@
     "2026-11-15": 9,
     "2026-11-16": 12,
     "2026-11-17": 25,
-    "2026-11-18": 38
+    "2026-11-18": 39,
+    "2026-11-19": 1
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795045189
+     "t": 1795046421
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795045189
+     "t": 1795046421
     }
    ],
    "pn": {
@@ -4736,7 +4842,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795045189,
+     "t": 1795046421,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -4746,13 +4852,13 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795045189,
+     "t": 1795046421,
      "d": 1795025641
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795044913,
+    "igual": 1795046237,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -4789,11 +4895,11 @@
     "1795021200": 1,
     "1795024800": 1,
     "1795032000": 1,
-    "1795042800": 1
+    "1795042800": 2
    },
    "rutas": {
     "2026-11-17": 9,
-    "2026-11-18": 9
+    "2026-11-18": 10
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -5055,7 +5161,7 @@
     "Shepherd Beacon": {
      "f": "Caballeros de Sion",
      "tipo": "Outpost",
-     "t": 1795045235,
+     "t": 1795046475,
      "estado": "",
      "ls": 3393,
      "pads": {
@@ -5065,7 +5171,7 @@
      },
      "mid": 3228010240,
      "mer": {
-      "t": 1795045242,
+      "t": 1795046482,
       "n": 106,
       "vende": [
        {
@@ -5157,6 +5263,10 @@
      "atq": {
       "2026-11-18": {
        "ok": 2,
+       "no": 0
+      },
+      "2026-11-19": {
+       "ok": 1,
        "no": 0
       }
      }
@@ -5613,7 +5723,7 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 50
+    "2026-11-18": 52
    },
    "pn": {
     "H5L-70M": {
@@ -5687,12 +5797,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795045357,
+     "t": 1795046092,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795045395,
+      "t": 1795046330,
       "n": 366,
       "vende": [
        {
@@ -5759,7 +5869,7 @@
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 278510
+        "s": 278604
        },
        {
         "n": "polymers",
@@ -5783,7 +5893,7 @@
      },
      "atq": {
       "2026-11-18": {
-       "ok": 10,
+       "ok": 11,
        "no": 2
       }
      },
@@ -6181,6 +6291,10 @@
       "2026-11-18": {
        "ok": 9,
        "no": 2
+      },
+      "2026-11-19": {
+       "ok": 1,
+       "no": 0
       }
      },
      "neg": {
@@ -13359,8 +13473,8 @@
        }
       ]
      },
-     "mods": 60,
-     "mods_t": 1795046012
+     "mods": 84,
+     "mods_t": 1795046083
     }
    }
   },
@@ -16939,23 +17053,23 @@
   },
   "Celticassag": {
    "sys": "Celticassag",
-   "t": 1794788421,
+   "t": 1795046252,
    "src": "EDDN",
-   "inf": 3.6,
+   "inf": 3.29,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 54.5,
+   "segunda_inf": 58.52,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 54.5,
+     "inf": 58.52,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -16966,7 +17080,7 @@
     },
     {
      "n": "United Nganji Labour",
-     "inf": 18.2,
+     "inf": 16.35,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -16975,7 +17089,7 @@
     },
     {
      "n": "Kamilagro Universal Group",
-     "inf": 10.0,
+     "inf": 8.97,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -16984,7 +17098,7 @@
     },
     {
      "n": "Celticassag Jet Bridge & Co",
-     "inf": 8.4,
+     "inf": 7.58,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -16993,7 +17107,7 @@
     },
     {
      "n": "Celticassag  Co-operative",
-     "inf": 4.3,
+     "inf": 4.29,
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
@@ -17002,11 +17116,13 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 3.6,
+     "inf": 3.29,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -17045,18 +17161,136 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-16": 8,
+    "2026-11-18": 2,
+    "2026-11-19": 2
+   },
+   "tk": {
+    "firma": "e5004ff7",
+    "igual": 1795046252,
+    "ult": 1795046252,
+    "desde": 1794788421,
+    "est": null
+   },
+   "saltos": {
+    "1795042800": 1
+   },
+   "rutas": {
+    "2026-11-18": 1
+   },
+   "prev": 3.6,
+   "prev_t": 1794788421,
    "hinf": [
     [
      1794788421,
      3.6
+    ],
+    [
+     1795046252,
+     3.29
     ]
    ],
-   "tk": {
-    "firma": "2db981ee",
-    "igual": 1794788421
+   "rach": {
+    "Sirius Special Forces": 1,
+    "United Nganji Labour": 0,
+    "Kamilagro Universal Group": 0,
+    "Celticassag Jet Bridge & Co": 0,
+    "Celticassag  Co-operative": 0,
+    "Caballeros de Sion": 0,
+    "Celticassag Blue Pirates": 0
    },
-   "trafico": {
-    "2026-11-16": 8
+   "rivales": [],
+   "tick_ult": 1795046252,
+   "tick_marg": 2148,
+   "estaciones": {
+    "Porges Freeport": {
+     "f": "Sirius Special Forces",
+     "tipo": "Outpost",
+     "t": 1795046504,
+     "estado": "",
+     "ls": 593,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 3227793920,
+     "mods": 180,
+     "mods_t": 1795046567,
+     "mer": {
+      "t": 1795046510,
+      "n": 104,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 409773,
+        "d": 7
+       },
+       {
+        "n": "periclasedunite",
+        "p": 255596,
+        "d": 270
+       },
+       {
+        "n": "thortveitite",
+        "p": 255596,
+        "d": 270
+       },
+       {
+        "n": "alexandrite",
+        "p": 221047,
+        "d": 18
+       },
+       {
+        "n": "musgravite",
+        "p": 202299,
+        "d": 18
+       }
+      ],
+      "alta": [
+       {
+        "n": "lepidolite",
+        "p": 6106,
+        "m": 741
+       },
+       {
+        "n": "mineraloil",
+        "p": 1415,
+        "m": 416
+       },
+       {
+        "n": "bauxite",
+        "p": 3317,
+        "m": 1096
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 1350,
+        "m": 447
+       },
+       {
+        "n": "foodcartridges",
+        "p": 732,
+        "m": 252
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 128,
+        "m": 271,
+        "s": 392
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 896,
+        "m": 1375,
+        "s": 168
+       }
+      ]
+     }
+    }
    }
   },
   "Bundhar": {
@@ -19784,16 +20018,19 @@
      "mods": 768,
      "mods_t": 1795045637
     }
+   },
+   "rutas": {
+    "2026-11-19": 1
    }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795045731.4102135,
-  "msgs": 797888,
-  "mios": 91
+  "ultimo": 1795046253.877629,
+  "msgs": 809944,
+  "mios": 93
  },
- "t": 1795046008.5868146,
+ "t": 1795046911.9512174,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20054,7 +20291,7 @@
    "nfac": 6,
    "pob": 26663,
    "ctrl_n": "East India Company",
-   "t": 1795010794
+   "t": 1795046817
   },
   "Hajangai": {
    "pos": [
@@ -20509,7 +20746,7 @@
    "nfac": 4,
    "pob": 156890360,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795042492
+   "t": 1795046509
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -21796,7 +22033,7 @@
    "nfac": 4,
    "pob": 1594391,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795044112
+   "t": 1795046804
   },
   "Loki Tan": {
    "pos": [
@@ -22485,7 +22722,7 @@
    "nfac": 3,
    "pob": 1584352,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794987804
+   "t": 1795046706
   },
   "Trianguli Sector SU-O a6-2": {
    "pos": [
@@ -23565,6 +23802,19 @@
    "pob": 198715,
    "ctrl_n": "Nagii Union",
    "t": 1795044938
+  },
+  "BD+44 1040": {
+   "pos": [
+    -31.5625,
+    1.84375,
+    -92.375
+   ],
+   "ly": 1.7,
+   "junto": "Heili",
+   "nfac": 5,
+   "pob": 219737,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795046597
   }
  },
  "codice": [
@@ -23819,13 +24069,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.398282,
+   "prog": 0.405665,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795042492
+   "t": 1795046509
   },
   "Otohiko": {
    "pos": [
@@ -23892,7 +24142,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795044913
+   "t": 1795046237
   },
   "Col 285 Sector YZ-U b17-4": {
    "pos": [
@@ -24941,7 +25191,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795010794
+   "t": 1795046817
   },
   "Nipibo": {
    "pos": [
@@ -27426,7 +27676,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795044112
+   "t": 1795046804
   },
   "Tascheter Sector DG-O a6-2": {
    "pos": [
@@ -27706,6 +27956,136 @@
     "Jerome Archer"
    ],
    "t": 1795045870
+  },
+  "Malean": {
+   "pos": [
+    -37.90625,
+    34.125,
+    -96.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795046137
+  },
+  "Celticassag": {
+   "pos": [
+    -20.4375,
+    42.75,
+    -124.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.091426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795046252
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795046343
+  },
+  "LHS 1798": {
+   "pos": [
+    35.53125,
+    -16.65625,
+    -77.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795046350
+  },
+  "Chicoana": {
+   "pos": [
+    -35,
+    -23.21875,
+    -110.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795046558
+  },
+  "BD+44 1040": {
+   "pos": [
+    -31.5625,
+    1.84375,
+    -92.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795046597
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.171618,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795046706
+  },
+  "LHS 1848": {
+   "pos": [
+    -24.96875,
+    23.5,
+    -64.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.327729,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795046887
   }
  },
  "ataques": {

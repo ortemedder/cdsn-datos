@@ -2913,7 +2913,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795098996,
+   "t": 1795103105,
    "src": "EDDN",
    "inf": 71.01,
    "ctrl": true,
@@ -3012,8 +3012,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.252575,
-    "ref": 99,
+    "prog": 0.252626,
+    "ref": 132,
     "soc": 324,
     "pots": [
      "Aisling Duval",
@@ -3031,28 +3031,28 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 7
+    "2026-11-19": 8
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795097713,
+     "t": 1795103207,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795097713,
+     "t": 1795103207,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795097713,
+     "t": 1795103207,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795098996,
+    "igual": 1795103105,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3069,18 +3069,19 @@
     "1795006800": 2,
     "1795082400": 1,
     "1795093200": 1,
-    "1795096800": 1
+    "1795096800": 1,
+    "1795100400": 1
    },
    "rutas": {
     "2026-11-17": 4,
     "2026-11-18": 5,
-    "2026-11-19": 3
+    "2026-11-19": 4
    },
    "estaciones": {
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795098996,
+     "t": 1795103291,
      "estado": "",
      "ls": 1815,
      "pads": {
@@ -3090,7 +3091,7 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795098550,
+      "t": 1795103297,
       "n": 144,
       "vende": [
        {
@@ -3180,7 +3181,7 @@
       ]
      },
      "mods": 783,
-     "mods_t": 1795094756,
+     "mods_t": 1795103297,
      "naves": [
       "anaconda",
       "asp",
@@ -3204,7 +3205,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795093143,
+     "naves_t": 1795103297,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3215,7 +3216,7 @@
        "no": 0
       },
       "2026-11-19": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      }
@@ -5007,7 +5008,7 @@
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -16230,7 +16231,7 @@
   },
   "Chan Mina": {
    "sys": "Chan Mina",
-   "t": 1795096071,
+   "t": 1795099606,
    "src": "EDDN",
    "inf": 57.73,
    "ctrl": true,
@@ -16341,22 +16342,23 @@
    },
    "trafico": {
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "pn": {
     "WLT-20Z": {
      "n": "IKN Ketty Jay",
-     "t": 1795096078,
+     "t": 1795099660,
      "d": 1795020686
     }
    },
    "tk": {
     "firma": "5e4540f6",
-    "igual": 1795096071
+    "igual": 1795099606
    },
    "saltos": {
     "1795017600": 1,
-    "1795093200": 1
+    "1795093200": 1,
+    "1795096800": 1
    },
    "rutas": {
     "2026-11-18": 3,
@@ -20756,11 +20758,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 24811,
-  "mios": 0
+  "ultimo": 1795103300.476374,
+  "msgs": 39392,
+  "mios": 2
  },
- "t": 1795102076.4077425,
+ "t": 1795103418.1500144,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21526,9 +21528,9 @@
    "ly": 19.4,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 191065,
+   "pob": 191901,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794901461
+   "t": 1795102770
   },
   "Parrot's Head Sector EL-Y d70": {
    "pos": [
@@ -21762,7 +21764,7 @@
    "nfac": 5,
    "pob": 13010,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794953002
+   "t": 1795103270
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -22605,9 +22607,9 @@
    "ly": 18.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 75093540,
+   "pob": 75095265,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795036508
+   "t": 1795102851
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -24804,7 +24806,7 @@
    "nfac": 3,
    "pob": 444820969,
    "ctrl_n": "Green Party of BD+27 1356",
-   "t": 1795100794
+   "t": 1795103170
   },
   "Galibi": {
    "pos": [
@@ -24922,6 +24924,32 @@
    "pob": 657872862,
    "ctrl_n": "Canonn",
    "t": 1795101661
+  },
+  "LHS 6127": {
+   "pos": [
+    -17.9375,
+    47.28125,
+    -89.125
+   ],
+   "ly": 17.3,
+   "junto": "Kher",
+   "nfac": 4,
+   "pob": 437997,
+   "ctrl_n": "Jade Constitutional Republican Society",
+   "t": 1795102934
+  },
+  "Galene": {
+   "pos": [
+    37.25,
+    -44.09375,
+    -56.65625
+   ],
+   "ly": 16.4,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 2196885,
+   "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
+   "t": 1795103279
   }
  },
  "codice": [
@@ -25221,7 +25249,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795100794
+   "t": 1795103170
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -25252,6 +25280,155 @@
     "Pranav Antal"
    ],
    "t": 1795101661
+  },
+  "LTT 740": {
+   "pos": [
+    -3.75,
+    -104.15625,
+    -18.6875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.02914,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795102770
+  },
+  "Ceti Sector KX-T b3-0": {
+   "pos": [
+    -2.25,
+    -104.3125,
+    -19.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.012272,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795102851
+  },
+  "LHS 6127": {
+   "pos": [
+    -17.9375,
+    47.28125,
+    -89.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795102934
+  },
+  "Didarengu": {
+   "pos": [
+    27.375,
+    18.1875,
+    -89.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.259312,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795103031
+  },
+  "63 Geminorum": {
+   "pos": [
+    31.9375,
+    34.09375,
+    -100.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.07714,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795103098
+  },
+  "Bakuari": {
+   "pos": [
+    123.9375,
+    -7.84375,
+    6.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.281167,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795103270
+  },
+  "Galene": {
+   "pos": [
+    37.25,
+    -44.09375,
+    -56.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.120569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795103279
+  },
+  "Chan Mina": {
+   "pos": [
+    -3.65625,
+    19.6875,
+    -101.5
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.284832,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795099606
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252626,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795103105
   }
  }
 }

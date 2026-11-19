@@ -20467,10 +20467,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795084154.2300205,
-  "msgs": 19823,
+  "msgs": 25929,
   "mios": 7
  },
- "t": 1795084736.1397085,
+ "t": 1795085556.7862132,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20744,7 +20744,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795084145
+   "t": 1795085354
   },
   "LTT 10918": {
    "pos": [
@@ -21511,7 +21511,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795082012
+   "t": 1795085483
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -23500,7 +23500,7 @@
    "nfac": 6,
    "pob": 377978988,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795012863
+   "t": 1795085546
   },
   "HIP 21850": {
    "pos": [
@@ -24884,7 +24884,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795082012
+   "t": 1795085483
   },
   "LP 254-27": {
    "pos": [
@@ -24950,7 +24950,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795084145
+   "t": 1795085354
   },
   "Furuhjelm II-431": {
    "pos": [
@@ -25086,6 +25086,22 @@
     "Jerome Archer"
    ],
    "t": 1795084729
+  },
+  "Binar": {
+   "pos": [
+    124.15625,
+    -14.65625,
+    22.5
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.1456,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795085546
   }
  }
 }

@@ -20386,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 66058,
+  "msgs": 74083,
   "mios": 0
  },
- "t": 1795056045.6662896,
+ "t": 1795056906.8277822,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20533,7 +20533,7 @@
    "nfac": 4,
    "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795029674
+   "t": 1795056510
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -20624,7 +20624,7 @@
    "nfac": 3,
    "pob": 122320414,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795055524
+   "t": 1795056472
   },
   "HIP 43660": {
    "pos": [
@@ -20832,7 +20832,7 @@
    "nfac": 5,
    "pob": 5089334,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795055426
+   "t": 1795056736
   },
   "Synuefe TL-C c29-5": {
    "pos": [
@@ -20962,7 +20962,7 @@
    "nfac": 3,
    "pob": 318385,
    "ctrl_n": "East India Company",
-   "t": 1794992050
+   "t": 1795056898
   },
   "LTT 751": {
    "pos": [
@@ -21675,9 +21675,9 @@
    "ly": 5.2,
    "junto": "HIP 19292",
    "nfac": 3,
-   "pob": 159717,
+   "pob": 159729,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1794937600
+   "t": 1795056591
   },
   "BD+47 977": {
    "pos": [
@@ -24095,7 +24095,7 @@
    "nfac": 5,
    "pob": 274911967,
    "ctrl_n": "BFNF Solutions",
-   "t": 1795040266
+   "t": 1795056510
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -24936,7 +24936,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795055426
+   "t": 1795056736
   },
   "LHS 1499": {
    "pos": [
@@ -24952,7 +24952,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795055524
+   "t": 1795056472
   },
   "Any Na": {
    "pos": [
@@ -24970,6 +24970,101 @@
     "Zemina Torval"
    ],
    "t": 1795056037
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795056510
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177706,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795056510
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134438,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795056531
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260555,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795056561
+  },
+  "ICZ CF-Z b4": {
+   "pos": [
+    122.25,
+    -117.78125,
+    -16.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795056591
+  },
+  "Ceti Sector EW-V b2-4": {
+   "pos": [
+    8.09375,
+    -84.125,
+    -33.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795056898
   }
  }
 }

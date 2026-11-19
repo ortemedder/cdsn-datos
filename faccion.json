@@ -2913,7 +2913,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795097662,
+   "t": 1795098996,
    "src": "EDDN",
    "inf": 71.01,
    "ctrl": true,
@@ -3031,7 +3031,7 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 6
+    "2026-11-19": 7
    },
    "pn": {
     "T9K-6QK": {
@@ -3052,7 +3052,7 @@
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795097662,
+    "igual": 1795098996,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3080,7 +3080,7 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795098544,
+     "t": 1795098996,
      "estado": "",
      "ls": 1815,
      "pads": {
@@ -3940,7 +3940,7 @@
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
-   "t": 1795094270,
+   "t": 1795099124,
    "src": "EDDN",
    "inf": 14.84,
    "ctrl": false,
@@ -4037,17 +4037,18 @@
     "2026-05-03": 1,
     "2026-11-14": 2,
     "2026-11-15": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "tk": {
     "firma": "b61f7c67",
-    "igual": 1795094270
+    "igual": 1795099124
    },
    "saltos": {
-    "1795093200": 1
+    "1795093200": 1,
+    "1795096800": 1
    },
    "rutas": {
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "prev": null,
    "prev_t": null,
@@ -9919,16 +9920,16 @@
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
-   "t": 1794779426,
+   "t": 1795099195,
    "src": "EDDN",
    "inf": 18.39,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Nanamatha Progressive Party",
    "segunda_inf": 37.49,
    "conflictos": [],
@@ -9966,7 +9967,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -9977,7 +9980,7 @@
     -103.90625
    ],
    "sis": {
-    "pob": 48818997,
+    "pob": 48821944,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -10000,7 +10003,173 @@
    },
    "trafico": {
     "2026-11-10": 2,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-19": 1
+   },
+   "tk": {
+    "firma": "44ffbe4e",
+    "igual": 1795099195
+   },
+   "saltos": {
+    "1795096800": 1
+   },
+   "rutas": {
+    "2026-11-18": 1,
+    "2026-11-19": 1
+   },
+   "estaciones": {
+    "Machigai Station": {
+     "f": "Nanamatha Progressive Party",
+     "tipo": "Orbis",
+     "t": 1795099416,
+     "estado": "",
+     "ls": 5,
+     "pads": {
+      "Small": 6,
+      "Medium": 13,
+      "Large": 4
+     },
+     "mid": 4216546563,
+     "atq": {
+      "2026-11-19": {
+       "ok": 1,
+       "no": 0
+      }
+     },
+     "mer": {
+      "t": 1795099422,
+      "n": 155,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 230745,
+        "d": 1080
+       },
+       {
+        "n": "musgravite",
+        "p": 212623,
+        "d": 1080
+       },
+       {
+        "n": "grandidierite",
+        "p": 211731,
+        "d": 1080
+       },
+       {
+        "n": "monazite",
+        "p": 211049,
+        "d": 1998
+       },
+       {
+        "n": "metaalloys",
+        "p": 195349,
+        "d": 68515
+       }
+      ],
+      "alta": [
+       {
+        "n": "biowaste",
+        "p": 638,
+        "m": 271
+       },
+       {
+        "n": "foodcartridges",
+        "p": 550,
+        "m": 252
+       },
+       {
+        "n": "polymers",
+        "p": 658,
+        "m": 306
+       },
+       {
+        "n": "clothing",
+        "p": 848,
+        "m": 523
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 789,
+        "m": 502
+       }
+      ],
+      "barato": [
+       {
+        "n": "water",
+        "p": 14,
+        "m": 260,
+        "s": 251344
+       },
+       {
+        "n": "algae",
+        "p": 28,
+        "m": 308,
+        "s": 814029
+       },
+       {
+        "n": "grain",
+        "p": 88,
+        "m": 387,
+        "s": 1250334
+       },
+       {
+        "n": "fruitandvegetables",
+        "p": 172,
+        "m": 483,
+        "s": 187643
+       },
+       {
+        "n": "mineraloil",
+        "p": 152,
+        "m": 416,
+        "s": 232692
+       }
+      ]
+     },
+     "mods": 911,
+     "mods_t": 1795099422,
+     "naves": [
+      "adder",
+      "anaconda",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "explorer_nx",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "viper",
+      "viper_mkiv",
+      "vulture"
+     ],
+     "naves_t": 1795099422
+    }
    },
    "prev": null,
    "prev_t": null,
@@ -10010,13 +10179,8 @@
      18.39
     ]
    ],
-   "tk": {
-    "firma": "44ffbe4e",
-    "igual": 1794779426
-   },
-   "rutas": {
-    "2026-11-18": 1
-   }
+   "rach": {},
+   "rivales": []
   },
   "Kunuvii": {
    "sys": "Kunuvii",
@@ -16193,7 +16357,7 @@
    },
    "rutas": {
     "2026-11-18": 3,
-    "2026-11-19": 1
+    "2026-11-19": 3
    },
    "prev": null,
    "prev_t": null,
@@ -20589,11 +20753,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795098555.486588,
-  "msgs": 10907,
-  "mios": 2
+  "ultimo": 1795099417.8505743,
+  "msgs": 21339,
+  "mios": 5
  },
- "t": 1795098579.525172,
+ "t": 1795099500.7680624,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -25046,7 +25210,43 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795097662
+   "t": 1795098996
+  },
+  "Yin Sector WO-A b1": {
+   "pos": [
+    -0.3125,
+    20.65625,
+    -89.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.070283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795099124
+  },
+  "Hyades Sector UF-M b8-2": {
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.199426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795099195
   }
  }
 }

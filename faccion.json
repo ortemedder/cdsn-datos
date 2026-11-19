@@ -20385,10 +20385,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 29386,
+  "msgs": 36475,
   "mios": 0
  },
- "t": 1795063780.8953886,
+ "t": 1795064251.2446647,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20922,7 +20922,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795001837
+   "t": 1795064242
   },
   "HIP 33497": {
    "pos": [
@@ -24753,6 +24753,23 @@
     "Jerome Archer"
    ],
    "t": 1795063778
+  },
+  "Decima": {
+   "pos": [
+    35.9375,
+    -34.4375,
+    -30.4375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.23396,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795064242
   }
  }
 }

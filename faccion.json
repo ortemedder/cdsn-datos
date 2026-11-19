@@ -20386,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 74083,
+  "msgs": 81798,
   "mios": 0
  },
- "t": 1795056906.8277822,
+ "t": 1795057817.5765305,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20962,7 +20962,7 @@
    "nfac": 3,
    "pob": 318385,
    "ctrl_n": "East India Company",
-   "t": 1795056898
+   "t": 1795057493
   },
   "LTT 751": {
    "pos": [
@@ -21235,7 +21235,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1795052267
+   "t": 1795057658
   },
   "LTT 606": {
    "pos": [
@@ -24546,7 +24546,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795052267
+   "t": 1795057658
   },
   "NLTT 16389": {
    "pos": [
@@ -25064,7 +25064,22 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795056898
+   "t": 1795057493
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795057801
   }
  }
 }

@@ -2674,7 +2674,7 @@
       1,
       0
      ],
-     "tick": 1795015532,
+     "tick": 1795107129,
      "eval": null,
      "fase": "defensa",
      "res0": 2,
@@ -5863,7 +5863,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 45
+    "2026-11-19": 48
    },
    "pn": {
     "H5L-70M": {
@@ -5943,12 +5943,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795116024,
+     "t": 1795116759,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795116099,
+      "t": 1795116768,
       "n": 366,
       "vende": [
        {
@@ -6043,7 +6043,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 12,
+       "ok": 13,
        "no": 2
       }
      },
@@ -6477,7 +6477,7 @@
     "Orbital Construction Site: Carlisle's Folly": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795115752,
+     "t": 1795117259,
      "estado": "",
      "ls": 2662,
      "pads": {
@@ -6495,7 +6495,7 @@
      },
      "atq": {
       "2026-11-19": {
-       "ok": 10,
+       "ok": 12,
        "no": 1
       }
      },
@@ -12578,15 +12578,15 @@
   },
   "Hyades Sector HC-U c3-21": {
    "sys": "Hyades Sector HC-U c3-21",
-   "t": 1794350009,
+   "t": 1795116765,
    "src": "EDDN",
    "inf": 44.39,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "CHIMERA",
    "segunda_inf": 20.74,
@@ -12597,10 +12597,10 @@
      "inf": 44.39,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -12609,7 +12609,9 @@
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -12626,10 +12628,10 @@
      "inf": 17.03,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     }
    ],
@@ -12640,7 +12642,7 @@
     -116.84375
    ],
    "sis": {
-    "pob": 2598472,
+    "pob": 2599029,
     "eco": "$economy_Military;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -12659,9 +12661,30 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-19": 1
+   },
+   "saltos": {
+    "1795114800": 1
+   },
    "rutas": {
     "2026-11-19": 1
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794350009,
+     44.39
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "fe3f8ebf",
+    "igual": 1795116765
+   },
+   "cseg": {}
   },
   "Tascheter Sector UT-A b1": {
    "sys": "Tascheter Sector UT-A b1",
@@ -17054,7 +17077,7 @@
   },
   "Yin Sector XJ-A c21": {
    "sys": "Yin Sector XJ-A c21",
-   "t": 1795083271,
+   "t": 1795116678,
    "src": "EDDN",
    "inf": 13.84,
    "ctrl": false,
@@ -17131,14 +17154,14 @@
     ]
    },
    "trafico": {
+    "2026-10-30": 1,
     "2026-11-17": 2,
     "2026-11-18": 2,
-    "2026-10-30": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "tk": {
     "firma": "348d19a1",
-    "igual": 1795083271,
+    "igual": 1795116678,
     "ult": 1794926867,
     "desde": 1759845602,
     "est": null
@@ -17147,7 +17170,8 @@
     "1793368800": 1,
     "1794924000": 1,
     "1795032000": 1,
-    "1795082400": 1
+    "1795082400": 1,
+    "1795114800": 1
    },
    "rutas": {
     "2026-11-17": 1,
@@ -17188,7 +17212,8 @@
    },
    "rivales": [],
    "tick_ult": 1794926867,
-   "tick_marg": 292343
+   "tick_marg": 292343,
+   "cseg": {}
   },
   "Hyades Sector RZ-N b7-0": {
    "sys": "Hyades Sector RZ-N b7-0",
@@ -20998,12 +21023,12 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795115528.0878308,
-  "msgs": 50318,
-  "mios": 2
+  "ultimo": 1795116766.453235,
+  "msgs": 68623,
+  "mios": 4
  },
- "t": 1795116364.700565,
- "tick_global": 1795015532,
+ "t": 1795117266.3886235,
+ "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
    "pos": [
@@ -21016,7 +21041,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795096222
+   "t": 1795116650
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -21146,7 +21171,7 @@
    "nfac": 4,
    "pob": 190618746,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795113618
+   "t": 1795116620
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -23328,9 +23353,9 @@
    "ly": 11.8,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 48018778,
+   "pob": 48023148,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794960487
+   "t": 1795116226
   },
   "Trianguli Sector VF-N a7-3": {
    "pos": [
@@ -25346,6 +25371,19 @@
    "pob": 35446009,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1795115410
+  },
+  "Hyades Sector UK-M b8-5": {
+   "pos": [
+    20.9375,
+    49.875,
+    -93.09375
+   ],
+   "ly": 18.6,
+   "junto": "Lati",
+   "nfac": 5,
+   "pob": 327172,
+   "ctrl_n": "Civitas Dei",
+   "t": 1795116280
   }
  },
  "codice": [
@@ -25599,7 +25637,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795113618
+   "t": 1795116620
   },
   "Bakuari": {
    "pos": [
@@ -26011,6 +26049,91 @@
     "Li Yong-Rui"
    ],
    "t": 1795116357
+  },
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.256017,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795116650
+  },
+  "Yin Sector XJ-A c21": {
+   "pos": [
+    -10.9375,
+    25.75,
+    -92.75
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.018854,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795116678
+  },
+  "Hyades Sector HC-U c3-21": {
+   "pos": [
+    -13.53125,
+    18.34375,
+    -116.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.073712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795116765
+  },
+  "Hyades Sector SZ-N b7-2": {
+   "pos": [
+    29.84375,
+    34.625,
+    -119.34375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.011997,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795116226
+  },
+  "Hyades Sector UK-M b8-5": {
+   "pos": [
+    20.9375,
+    49.875,
+    -93.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795116280
   }
  },
  "rivales": {

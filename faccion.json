@@ -20396,10 +20396,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795065562.6495278,
-  "msgs": 57154,
+  "msgs": 71301,
   "mios": 1
  },
- "t": 1795067494.5406356,
+ "t": 1795069125.4342375,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20881,7 +20881,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795047394
+   "t": 1795068933
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -21102,7 +21102,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795054671
+   "t": 1795069117
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -22777,9 +22777,9 @@
    "ly": 11.4,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 3172758,
+   "pob": 3173178,
    "ctrl_n": "EXO",
-   "t": 1794964914
+   "t": 1795068771
   },
   "Prom Du": {
    "pos": [
@@ -25075,6 +25075,56 @@
     "Jerome Archer"
    ],
    "t": 1795067492
+  },
+  "Trianguli Sector XA-N a7-1": {
+   "pos": [
+    37.28125,
+    -38.3125,
+    -47.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.272892,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795068771
+  },
+  "Zephyrus": {
+   "pos": [
+    -21.84375,
+    12.59375,
+    -60.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.233491,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795068933
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.032766,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795069117
   }
  }
 }

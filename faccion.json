@@ -20467,7 +20467,7 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 451,
+  "msgs": 424,
   "mios": 0
  },
  "t": 0,
@@ -21511,7 +21511,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795085483
+   "t": 1795089767
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -24722,5 +24722,23 @@
    }
   ]
  },
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "HIP 46236": {
+   "pos": [
+    143.90625,
+    -4.84375,
+    13.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.2178,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795089767
+  }
+ }
 }

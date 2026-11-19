@@ -5723,7 +5723,8 @@
     "2026-11-15": 39,
     "2026-11-16": 71,
     "2026-11-17": 32,
-    "2026-11-18": 52
+    "2026-11-18": 52,
+    "2026-11-19": 3
    },
    "pn": {
     "H5L-70M": {
@@ -5797,12 +5798,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795046092,
+     "t": 1795047325,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795046330,
+      "t": 1795047349,
       "n": 366,
       "vende": [
        {
@@ -5895,6 +5896,10 @@
       "2026-11-18": {
        "ok": 11,
        "no": 2
+      },
+      "2026-11-19": {
+       "ok": 1,
+       "no": 1
       }
      },
      "pads": {
@@ -5909,13 +5914,13 @@
      ],
      "naves_t": 1795037449,
      "neg": {
-      "Distance": 2
+      "Distance": 3
      }
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795007855,
+     "t": 1795047767,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5925,7 +5930,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795007861,
+      "t": 1795047773,
       "n": 366,
       "vende": [
        {
@@ -5967,7 +5972,7 @@
        },
        {
         "n": "platinum",
-        "p": 280303,
+        "p": 280929,
         "m": 55505
        },
        {
@@ -6022,6 +6027,10 @@
       "2026-11-18": {
        "ok": 6,
        "no": 1
+      },
+      "2026-11-19": {
+       "ok": 1,
+       "no": 0
       }
      },
      "neg": {
@@ -6278,7 +6287,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795045751,
+     "t": 1795046978,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -19816,7 +19825,7 @@
   },
   "Hyades Sector ND-S c4-15": {
    "sys": "Hyades Sector ND-S c4-15",
-   "t": 1795045341,
+   "t": 1795046927,
    "src": "EDDN",
    "inf": 65.19,
    "ctrl": true,
@@ -19890,27 +19899,26 @@
      "Jerome Archer"
     ]
    },
-   "hinf": [
-    [
-     1795045341,
-     65.19
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "c29c7c7b",
-    "igual": 1795045341
-   },
    "trafico": {
-    "2026-11-18": 3
+    "2026-11-18": 3,
+    "2026-11-19": 2
    },
    "pn": {
     "HHT-24K": {
      "n": "USAX Cygnus",
-     "t": 1795045388,
+     "t": 1795047065,
      "d": 1795045388
     }
+   },
+   "tk": {
+    "firma": "c29c7c7b",
+    "igual": 1795046927
+   },
+   "saltos": {
+    "1795046400": 1
+   },
+   "rutas": {
+    "2026-11-19": 1
    },
    "estaciones": {
     "Maunder Works": {
@@ -20017,20 +20025,132 @@
      },
      "mods": 768,
      "mods_t": 1795045637
+    },
+    "Fort Tiptinian": {
+     "f": "Caballeros de Sion",
+     "tipo": "Outpost",
+     "t": 1795047116,
+     "estado": "",
+     "ls": 1659,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 4207034371,
+     "mer": {
+      "t": 1795047122,
+      "n": 163,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 212030,
+        "d": 67
+       },
+       {
+        "n": "monazite",
+        "p": 198866,
+        "d": 296
+       },
+       {
+        "n": "metaalloys",
+        "p": 195724,
+        "d": 5090
+       },
+       {
+        "n": "musgravite",
+        "p": 193209,
+        "d": 67
+       },
+       {
+        "n": "grandidierite",
+        "p": 191740,
+        "d": 67
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 610,
+        "m": 260
+       },
+       {
+        "n": "polymers",
+        "p": 676,
+        "m": 306
+       },
+       {
+        "n": "algae",
+        "p": 659,
+        "m": 308
+       },
+       {
+        "n": "beer",
+        "p": 717,
+        "m": 350
+       },
+       {
+        "n": "wine",
+        "p": 801,
+        "m": 417
+       }
+      ],
+      "barato": [
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 22546
+       },
+       {
+        "n": "scrap",
+        "p": 92,
+        "m": 276,
+        "s": 46803
+       },
+       {
+        "n": "biowaste",
+        "p": 92,
+        "m": 271,
+        "s": 4819
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 157,
+        "m": 418,
+        "s": 7835
+       },
+       {
+        "n": "evacuationshelter",
+        "p": 218,
+        "m": 500,
+        "s": 867
+       }
+      ]
+     },
+     "mods": 724,
+     "mods_t": 1795047122
     }
    },
-   "rutas": {
-    "2026-11-19": 1
-   }
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1795045341,
+     65.19
+    ]
+   ],
+   "rach": {},
+   "rivales": []
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795046253.877629,
-  "msgs": 809944,
-  "mios": 93
+  "ultimo": 1795046928.9554484,
+  "msgs": 820521,
+  "mios": 94
  },
- "t": 1795046911.9512174,
+ "t": 1795047814.081185,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20512,7 +20632,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795041549
+   "t": 1795047394
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -20746,7 +20866,7 @@
    "nfac": 4,
    "pob": 156890360,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795046509
+   "t": 1795047433
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -20876,7 +20996,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1794954987
+   "t": 1795047810
   },
   "LTT 606": {
    "pos": [
@@ -21329,9 +21449,9 @@
    "ly": 7.5,
    "junto": "Jangore",
    "nfac": 4,
-   "pob": 159783,
+   "pob": 159800,
    "ctrl_n": "160 S.O.A.R.",
-   "t": 1794937928
+   "t": 1795047745
   },
   "LTT 11455": {
    "pos": [
@@ -24075,7 +24195,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795046509
+   "t": 1795047433
   },
   "Otohiko": {
    "pos": [
@@ -24625,14 +24745,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233528,
+   "prog": 0.233491,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795041549
+   "t": 1795047394
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -27890,7 +28010,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795045341
+   "t": 1795046927
   },
   "HIP 17820": {
    "pos": [
@@ -28086,6 +28206,40 @@
     "Jerome Archer"
    ],
    "t": 1795046887
+  },
+  "BD+47 977": {
+   "pos": [
+    -42.75,
+    -1.03125,
+    -92.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.060672,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795047745
+  },
+  "Segon": {
+   "pos": [
+    -48.96875,
+    -0.6875,
+    -96
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.259855,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795047810
   }
  },
  "ataques": {

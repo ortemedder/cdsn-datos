@@ -20386,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 46769,
+  "msgs": 56555,
   "mios": 0
  },
- "t": 1795054273.6721911,
+ "t": 1795054994.68985,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21092,7 +21092,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795034699
+   "t": 1795054671
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -21443,7 +21443,7 @@
    "nfac": 3,
    "pob": 50001413,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795027959
+   "t": 1795054887
   },
   "ICZ EL-Y d90": {
    "pos": [
@@ -22026,9 +22026,9 @@
    "ly": 14.8,
    "junto": "HIP 19292",
    "nfac": 5,
-   "pob": 108054936,
+   "pob": 108060353,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1794947974
+   "t": 1795054271
   },
   "Fimbulwinter": {
    "pos": [
@@ -22392,7 +22392,7 @@
    "nfac": 4,
    "pob": 1594391,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795051859
+   "t": 1795054851
   },
   "Loki Tan": {
    "pos": [
@@ -22574,7 +22574,7 @@
    "nfac": 3,
    "pob": 438311,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795042685
+   "t": 1795054986
   },
   "Hyades Sector HX-R b5-1": {
    "pos": [
@@ -24213,6 +24213,19 @@
    "pob": 1268029,
    "ctrl_n": "The Dark Wheel",
    "t": 1795053036
+  },
+  "Trianguli Sector RU-O a6-2": {
+   "pos": [
+    17.71875,
+    -43.875,
+    -61.78125
+   ],
+   "ly": 18.7,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 1684616,
+   "ctrl_n": "East India Company",
+   "t": 1795054619
   }
  },
  "codice": [
@@ -24454,7 +24467,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795051859
+   "t": 1795054851
   },
   "Exigus": {
    "pos": [
@@ -24809,6 +24822,87 @@
     "Jerome Archer"
    ],
    "t": 1795054269
+  },
+  "ICZ CF-Z b5": {
+   "pos": [
+    124.65625,
+    -106.65625,
+    -13.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795054271
+  },
+  "Trianguli Sector RU-O a6-2": {
+   "pos": [
+    17.71875,
+    -43.875,
+    -61.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.042283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795054619
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.032766,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795054671
+  },
+  "Hyades Sector WA-M b8-5": {
+   "pos": [
+    -16.78125,
+    9.25,
+    -97.28125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.156912,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795054887
+  },
+  "Tirnitz": {
+   "pos": [
+    31.21875,
+    4.71875,
+    -81.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795054986
   }
  }
 }

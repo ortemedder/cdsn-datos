@@ -2994,7 +2994,7 @@
     "2026-11-15": 7,
     "2026-11-16": 10,
     "2026-11-17": 2,
-    "2026-11-18": 24
+    "2026-11-18": 25
    },
    "pn": {
     "T9K-6QK": {
@@ -3138,32 +3138,17 @@
        }
       ]
      },
-     "mods": 866,
-     "mods_t": 1795030182,
+     "mods": 824,
+     "mods_t": 1795030530,
      "naves": [
       "anaconda",
-      "asp",
-      "cobramkiii",
-      "cobramkv",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
       "explorer_nx",
-      "ferdelance",
-      "hauler",
       "lakonminer",
-      "mamba",
-      "mediumtransport01",
-      "orca",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type8",
-      "viper",
-      "viper_mkiv"
+      "mandalay",
+      "panthermkii",
+      "type8"
      ],
-     "naves_t": 1795029864,
+     "naves_t": 1795030514,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -20396,10 +20381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 3668,
+  "msgs": 3983,
   "mios": 0
  },
- "t": 1795071430.4017723,
+ "t": 1795077222.6331482,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -24641,6 +24626,23 @@
     "Jerome Archer"
    ],
    "t": 1795071425
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252992,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795029858
   }
  }
 }

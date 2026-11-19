@@ -20385,10 +20385,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 22484,
+  "msgs": 29386,
   "mios": 0
  },
- "t": 1795062950.3348598,
+ "t": 1795063780.8953886,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20610,7 +20610,7 @@
    "nfac": 5,
    "pob": 2805739,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795062133
+   "t": 1795063275
   },
   "LHS 1499": {
    "pos": [
@@ -24290,6 +24290,19 @@
    "pob": 56483,
    "ctrl_n": "East India Company",
    "t": 1795062275
+  },
+  "Warnates": {
+   "pos": [
+    -46.1875,
+    -4.375,
+    -67.65625
+   ],
+   "ly": 14.7,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 2453296799,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795063560
   }
  },
  "codice": [
@@ -24658,7 +24671,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795062133
+   "t": 1795063275
   },
   "LHS 1651": {
    "pos": [
@@ -24708,6 +24721,38 @@
     "Li Yong-Rui"
    ],
    "t": 1795062941
+  },
+  "Warnates": {
+   "pos": [
+    -46.1875,
+    -4.375,
+    -67.65625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.268667,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795063560
+  },
+  "LFT 361": {
+   "pos": [
+    -45.875,
+    9.90625,
+    -84.53125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795063778
   }
  }
 }

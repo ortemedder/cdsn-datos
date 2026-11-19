@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 29
+    "2026-11-19": 35
    },
    "pn": {
     "H5L-70M": {
@@ -6297,7 +6297,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795051944,
+     "t": 1795053046,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -6312,7 +6312,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 9,
+       "ok": 11,
        "no": 0
       }
      },
@@ -6320,8 +6320,8 @@
       "Distance": 2
      },
      "mer": {
-      "t": 1795051951,
-      "n": 1,
+      "t": 1795053052,
+      "n": 5,
       "vende": [],
       "alta": [],
       "barato": []
@@ -6330,7 +6330,7 @@
     "Orbital Construction Site: Carlisle's Folly": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795052143,
+     "t": 1795053306,
      "estado": "",
      "ls": 2661,
      "pads": {
@@ -6340,11 +6340,17 @@
      },
      "mid": 3966235650,
      "mer": {
-      "t": 1795052150,
-      "n": 1,
+      "t": 1795053312,
+      "n": 5,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-19": {
+       "ok": 2,
+       "no": 0
+      }
      }
     },
     "Tanaka Enterprise": {
@@ -6360,7 +6366,7 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795052470,
+      "t": 1795052695,
       "n": 366,
       "vende": [
        {
@@ -6445,7 +6451,7 @@
         "n": "waterpurifiers",
         "p": 160,
         "m": 447,
-        "s": 338759
+        "s": 338683
        }
       ]
      },
@@ -20339,10 +20345,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 28190,
+  "msgs": 37315,
   "mios": 0
  },
- "t": 1795052481.218606,
+ "t": 1795053322.409597,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20406,9 +20412,9 @@
    "ly": 19.2,
    "junto": "LP 158-2",
    "nfac": 4,
-   "pob": 5976411,
+   "pob": 5976691,
    "ctrl_n": "Radiant Ruby Control Cooperative",
-   "t": 1794934099
+   "t": 1795053294
   },
   "Ceti Sector GR-V b2-5": {
    "pos": [
@@ -24153,6 +24159,19 @@
    "pob": 48882719,
    "ctrl_n": "Radiant Ruby Control Cooperative",
    "t": 1795052004
+  },
+  "Col 285 Sector XJ-R a34-2": {
+   "pos": [
+    149.25,
+    -30.1875,
+    19.25
+   ],
+   "ly": 19.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1268029,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795053036
   }
  },
  "codice": [
@@ -24619,6 +24638,55 @@
     "Pranav Antal"
    ],
    "t": 1795052152
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155615,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795052617
+  },
+  "Col 285 Sector XJ-R a34-2": {
+   "pos": [
+    149.25,
+    -30.1875,
+    19.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795053036
+  },
+  "Hyades Sector MD-S c4-21": {
+   "pos": [
+    -57.375,
+    3.875,
+    -104.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795053294
   }
  }
 }

@@ -20467,10 +20467,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 7611,
+  "msgs": 14525,
   "mios": 0
  },
- "t": 1795087736.4332376,
+ "t": 1795088186.732178,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21459,7 +21459,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795056037
+   "t": 1795088180
   },
   "Bakuari": {
    "pos": [
@@ -23136,7 +23136,7 @@
    "nfac": 6,
    "pob": 10596188,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795026837
+   "t": 1795088123
   },
   "Xuanebuth": {
    "pos": [
@@ -24371,7 +24371,7 @@
    "nfac": 6,
    "pob": 56483,
    "ctrl_n": "East India Company",
-   "t": 1795062275
+   "t": 1795088170
   },
   "Warnates": {
    "pos": [
@@ -24774,6 +24774,57 @@
     "Jerome Archer"
    ],
    "t": 1795087726
+  },
+  "Rindjibal": {
+   "pos": [
+    133,
+    -3.375,
+    23.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795088123
+  },
+  "LHS 1651": {
+   "pos": [
+    31.25,
+    -44.09375,
+    -32.5625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.104569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795088170
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.163385,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795088180
   }
  }
 }

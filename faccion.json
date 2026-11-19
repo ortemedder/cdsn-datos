@@ -18676,23 +18676,23 @@
   },
   "Hyades Sector RZ-N b7-5": {
    "sys": "Hyades Sector RZ-N b7-5",
-   "t": 1795019054,
+   "t": 1795106267,
    "src": "EDDN",
    "inf": 7.31,
    "ctrl": false,
-   "estado": "War",
+   "estado": "None",
    "activos": [],
    "pendientes": [
     "Expansion"
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 61.92,
+   "segunda_inf": 61.62,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 61.92,
+     "inf": 61.62,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -18703,7 +18703,7 @@
     },
     {
      "n": "Federal Liberal Command",
-     "inf": 22.44,
+     "inf": 22.34,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -18712,7 +18712,7 @@
     },
     {
      "n": "Sarugh & Co",
-     "inf": 8.32,
+     "inf": 8.72,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -18738,7 +18738,7 @@
     -117.6875
    ],
    "sis": {
-    "pob": 1598425,
+    "pob": 1598454,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -18759,30 +18759,25 @@
    },
    "trafico": {
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
    "tk": {
-    "firma": "fbdf30cf",
-    "igual": 1795019054
+    "firma": "84980ad0",
+    "igual": 1795106267,
+    "ult": 1795106267,
+    "desde": 1795019054,
+    "est": null
    },
    "saltos": {
     "1794884400": 1,
-    "1795017600": 1
+    "1795017600": 1,
+    "1795104000": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-19": 1
    },
-   "prev": null,
-   "prev_t": null,
-   "hinf": [
-    [
-     1794886011,
-     7.31
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
    "estaciones": {
     "Anthean Station": {
      "f": "Sirius Special Forces",
@@ -18797,7 +18792,24 @@
      },
      "mid": 4217307907
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794886011,
+     7.31
+    ]
+   ],
+   "rach": {
+    "Sirius Special Forces": 0,
+    "Federal Liberal Command": 0,
+    "Sarugh & Co": 1,
+    "Caballeros de Sion": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795106267,
+   "tick_marg": 726
   },
   "Hyades Sector RZ-N b7-3": {
    "sys": "Hyades Sector RZ-N b7-3",
@@ -20857,11 +20869,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795105076.1524262,
-  "msgs": 80765,
-  "mios": 7
+  "ultimo": 1795106270.028069,
+  "msgs": 96280,
+  "mios": 8
  },
- "t": 1795106031.1832194,
+ "t": 1795106762.0331385,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20992,7 +21004,7 @@
    "nfac": 5,
    "pob": 161723,
    "ctrl_n": "East India Company",
-   "t": 1794930813
+   "t": 1795106433
   },
   "LHS 1734": {
    "pos": [
@@ -25049,6 +25061,19 @@
    "pob": 2196885,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
    "t": 1795103279
+  },
+  "BD-04 782": {
+   "pos": [
+    16.46875,
+    -39.75,
+    -52.4375
+   ],
+   "ly": 11.7,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 2194097,
+   "ctrl_n": "East India Company",
+   "t": 1795106453
   }
  },
  "codice": [
@@ -25713,6 +25738,89 @@
     "Pranav Antal"
    ],
    "t": 1795106023
+  },
+  "Hyades Sector RZ-N b7-5": {
+   "pos": [
+    -0.78125,
+    18.1875,
+    -117.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.067997,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795106267
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.282212,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795106433
+  },
+  "BD-04 782": {
+   "pos": [
+    16.46875,
+    -39.75,
+    -52.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795106453
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795106490
+  },
+  "Mwamen": {
+   "pos": [
+    -6.125,
+    -88.65625,
+    -15.59375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.249538,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795106756
   }
  }
 }

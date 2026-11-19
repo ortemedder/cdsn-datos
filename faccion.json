@@ -5002,7 +5002,7 @@
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
-    "2026-11-19": 3
+    "2026-11-19": 4
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -5911,12 +5911,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795113191,
+     "t": 1795113937,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795113231,
+      "t": 1795114505,
       "n": 366,
       "vende": [
        {
@@ -5936,8 +5936,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559216,
-        "d": 35977
+        "p": 559232,
+        "d": 35978
        },
        {
         "n": "opal",
@@ -6011,7 +6011,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 9,
+       "ok": 10,
        "no": 2
       }
      },
@@ -20593,7 +20593,7 @@
     "1795046400": 1
    },
    "rutas": {
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "estaciones": {
     "Maunder Works": {
@@ -20926,10 +20926,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 1066,
+  "msgs": 18058,
   "mios": 0
  },
- "t": 1795113628.583862,
+ "t": 1795114509.8463335,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20995,7 +20995,7 @@
    "nfac": 4,
    "pob": 5976966,
    "ctrl_n": "Radiant Ruby Control Cooperative",
-   "t": 1795107693
+   "t": 1795114329
   },
   "Ceti Sector GR-V b2-5": {
    "pos": [
@@ -21931,7 +21931,7 @@
    "nfac": 5,
    "pob": 13010,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795103270
+   "t": 1795113871
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -25439,19 +25439,22 @@
   }
  ],
  "ataques": {
-  "act": {
-   "Hyades Sector DB-X d1-112": {
+  "act": {},
+  "hist": [
+   {
+    "sys": "Hyades Sector DB-X d1-112",
     "ini": 1795024212,
+    "fin": 1795113899,
     "v": 55,
     "m": 9.7,
-    "dia": "hoy",
     "antes": 13.87,
     "min": 12.28,
     "inf": 12.28,
-    "ctrl": false
-   }
-  },
-  "hist": [
+    "dif": -1.6,
+    "res": "perdida",
+    "ctrl": false,
+    "quien": ""
+   },
    {
     "sys": "Burr",
     "ini": 1794989364,
@@ -25485,6 +25488,55 @@
     "Jerome Archer"
    ],
    "t": 1795113618
+  },
+  "Bakuari": {
+   "pos": [
+    123.9375,
+    -7.84375,
+    6.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.281167,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795113871
+  },
+  "Hyades Sector MD-S c4-21": {
+   "pos": [
+    -57.375,
+    3.875,
+    -104.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795114329
+  },
+  "BD+24 1451": {
+   "pos": [
+    19.4375,
+    20.40625,
+    -93.40625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.260083,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795114501
   }
  }
 }

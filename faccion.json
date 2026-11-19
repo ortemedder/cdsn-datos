@@ -7421,16 +7421,16 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1794842324,
-   "src": "EDDN",
+   "t": 1795060134,
+   "src": "EDSM",
    "inf": 12.73,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Solaris Xeno-Psychology Group",
    "segunda_inf": 51.21,
    "conflictos": [],
@@ -7444,7 +7444,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Labour of Any Na",
@@ -7453,7 +7453,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "Social Binar Values Party",
@@ -7462,7 +7462,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "Caballeros de Sion",
@@ -7470,8 +7470,10 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
-     "jug": null
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
     }
    ],
    "ctrl_n": "Solaris Xeno-Psychology Group",
@@ -7519,6 +7521,9 @@
     ],
     "est": null
    },
+   "rutas": {
+    "2026-11-17": 2
+   },
    "prev": 12.93,
    "prev_t": 1794644442,
    "hinf": [
@@ -7531,14 +7536,13 @@
      12.73
     ]
    ],
+   "rach": {},
+   "rivales": [],
    "tick_ult": 1794711459,
    "tick_marg": 558,
    "tick_prox": 1794764280,
    "tick_disp": 558,
-   "tick_n": 0,
-   "rutas": {
-    "2026-11-17": 2
-   }
+   "tick_n": 0
   },
   "Hyades Sector TK-M b8-3": {
    "sys": "Hyades Sector TK-M b8-3",
@@ -20381,7 +20385,7 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 281,
+  "msgs": 273,
   "mios": 0
  },
  "t": 0,

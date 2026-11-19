@@ -20385,10 +20385,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 15427,
+  "msgs": 22484,
   "mios": 0
  },
- "t": 1795061629.2359726,
+ "t": 1795062950.3348598,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20610,7 +20610,7 @@
    "nfac": 5,
    "pob": 2805739,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794994904
+   "t": 1795062133
   },
   "LHS 1499": {
    "pos": [
@@ -24094,7 +24094,7 @@
    "nfac": 5,
    "pob": 274911967,
    "ctrl_n": "BFNF Solutions",
-   "t": 1795056510
+   "t": 1795062941
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -24276,7 +24276,20 @@
    "nfac": 4,
    "pob": 2160802,
    "ctrl_n": "East India Company",
-   "t": 1795061623
+   "t": 1795062864
+  },
+  "LHS 1651": {
+   "pos": [
+    31.25,
+    -44.09375,
+    -32.5625
+   ],
+   "ly": 15.0,
+   "junto": "Eurus",
+   "nfac": 6,
+   "pob": 56483,
+   "ctrl_n": "East India Company",
+   "t": 1795062275
   }
  },
  "codice": [
@@ -24629,7 +24642,72 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795061623
+   "t": 1795062864
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795062133
+  },
+  "LHS 1651": {
+   "pos": [
+    31.25,
+    -44.09375,
+    -32.5625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.104477,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795062275
+  },
+  "StKM 1-442": {
+   "pos": [
+    31.96875,
+    -55.6875,
+    -40.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.125712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795062386
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795062941
   }
  }
 }

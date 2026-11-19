@@ -2913,7 +2913,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795083327,
+   "t": 1795093136,
    "src": "EDDN",
    "inf": 71.01,
    "ctrl": true,
@@ -3012,8 +3012,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.252423,
-    "ref": 0,
+    "prog": 0.252455,
+    "ref": 21,
     "soc": 324,
     "pots": [
      "Aisling Duval",
@@ -3031,28 +3031,28 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 3
+    "2026-11-19": 4
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795083334,
+     "t": 1795093136,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795083334,
+     "t": 1795093136,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795083334,
+     "t": 1795093136,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795083327,
+    "igual": 1795093136,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3078,7 +3078,7 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795083531,
+     "t": 1795093136,
      "estado": "",
      "ls": 1815,
      "pads": {
@@ -3088,8 +3088,8 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795083589,
-      "n": 366,
+      "t": 1795093069,
+      "n": 144,
       "vende": [
        {
         "n": "alexandrite",
@@ -3178,7 +3178,7 @@
       ]
      },
      "mods": 867,
-     "mods_t": 1795083679,
+     "mods_t": 1795093148,
      "naves": [
       "anaconda",
       "asp",
@@ -3202,7 +3202,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795083538,
+     "naves_t": 1795093143,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -4247,7 +4247,8 @@
     "igual": 1794665047
    },
    "rutas": {
-    "2026-11-18": 5
+    "2026-11-18": 5,
+    "2026-11-19": 1
    }
   },
   "Hyades Sector SZ-N b7-0": {
@@ -14049,6 +14050,9 @@
    },
    "saltos": {
     "1793372400": 1
+   },
+   "rutas": {
+    "2026-11-19": 2
    }
   },
   "Mau": {
@@ -20475,11 +20479,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795090677.135788,
-  "msgs": 23588,
-  "mios": 2
+  "ultimo": 1795093138.2132204,
+  "msgs": 32704,
+  "mios": 3
  },
- "t": 1795092156.6734734,
+ "t": 1795093368.267531,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -24498,9 +24502,65 @@
    "pob": 5026651,
    "ctrl_n": "Order of Enblackenment",
    "t": 1795087726
+  },
+  "HIP 36874": {
+   "pos": [
+    30.5,
+    45.125,
+    -115.28125
+   ],
+   "ly": 18.4,
+   "junto": "Makum",
+   "nfac": 4,
+   "pob": 214724,
+   "ctrl_n": "Green Party of BD+27 1356",
+   "t": 1795092593
+  },
+  "Hyades Sector QE-O b7-0": {
+   "pos": [
+    27.15625,
+    41.53125,
+    -109.96875
+   ],
+   "ly": 17.1,
+   "junto": "Makum",
+   "nfac": 3,
+   "pob": 444820969,
+   "ctrl_n": "Green Party of BD+27 1356",
+   "t": 1795092851
   }
  },
  "codice": [
+  {
+   "sys": "HIP 46236",
+   "n": "Tubus 05 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 e",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795092926
+  },
+  {
+   "sys": "HIP 46236",
+   "n": "Stratum 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 e",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795092834
+  },
+  {
+   "sys": "HIP 46236",
+   "n": "Shrubs 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 e",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795092589
+  },
   {
    "sys": "HIP 46236",
    "n": "Bacterial 01 F",
@@ -24530,36 +24590,6 @@
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
    "t": 1795090898
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Stratum 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795083821
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Tubus 05 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795083808
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Shrubs 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795083220
   },
   {
    "sys": "Huveang De",
@@ -24862,7 +24892,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795090665
+   "t": 1795092775
   },
   "Burr": {
    "pos": [
@@ -24980,6 +25010,54 @@
     "Zemina Torval"
    ],
    "t": 1795092147
+  },
+  "HIP 36874": {
+   "pos": [
+    30.5,
+    45.125,
+    -115.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters"
+   ],
+   "t": 1795092593
+  },
+  "Hyades Sector QE-O b7-0": {
+   "pos": [
+    27.15625,
+    41.53125,
+    -109.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795092851
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252455,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795093136
   }
  }
 }

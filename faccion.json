@@ -6954,7 +6954,7 @@
      "naves_t": 1795129582,
      "atq": {
       "2026-11-19": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      }
@@ -8611,34 +8611,34 @@
   },
   "LHS 5116": {
    "sys": "LHS 5116",
-   "t": 1794663733,
+   "t": 1795131785,
    "src": "EDDN",
    "inf": 8.57,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 62.75,
+   "segunda_inf": 63.05,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 62.75,
+     "inf": 63.05,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "BD+34 1378 Universal & Co",
-     "inf": 15.04,
+     "inf": 15.14,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -8650,10 +8650,10 @@
      "inf": 8.57,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -8685,7 +8685,7 @@
     },
     {
      "n": "Regulatory State of LHS 5116",
-     "inf": 1.39,
+     "inf": 1.0,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -8721,19 +8721,31 @@
     ]
    },
    "trafico": {
-    "2026-11-09": 1,
     "2026-04-11": 1,
-    "2026-11-14": 2
+    "2026-11-09": 1,
+    "2026-11-14": 2,
+    "2026-11-19": 3
    },
    "pn": {
     "BZB-26Z": {
      "n": "OZZY OSBOURNE",
-     "t": 1794663743
+     "t": 1795132020,
+     "d": 1795132020
     }
    },
    "tk": {
-    "firma": "aca29418",
-    "igual": 1794663733
+    "firma": "b2b74a87",
+    "igual": 1795131785,
+    "ult": 1795131785,
+    "desde": 1794663733,
+    "est": null
+   },
+   "saltos": {
+    "1795129200": 2
+   },
+   "rutas": {
+    "2026-11-18": 1,
+    "2026-11-19": 2
    },
    "prev": null,
    "prev_t": null,
@@ -8743,8 +8755,128 @@
      8.57
     ]
    ],
-   "rutas": {
-    "2026-11-18": 1
+   "rach": {
+    "THE AZGHARIE": 1,
+    "BD+34 1378 Universal & Co": 1,
+    "Caballeros de Sion": 0,
+    "LHS 5116 Nationalists": 0,
+    "LHS 5116 Industry": 0,
+    "Drug Empire of LHS 5116": 0,
+    "Regulatory State of LHS 5116": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795131785,
+   "tick_marg": 3900,
+   "cseg": {},
+   "estaciones": {
+    "Britnev Dock": {
+     "f": "THE AZGHARIE",
+     "tipo": "Orbis",
+     "t": 1795132144,
+     "estado": "",
+     "ls": 202632,
+     "pads": {
+      "Small": 17,
+      "Medium": 18,
+      "Large": 9
+     },
+     "mid": 3228018688,
+     "mer": {
+      "t": 1795132155,
+      "n": 129,
+      "vende": [
+       {
+        "n": "Monazite",
+        "p": 435386,
+        "d": 384
+       },
+       {
+        "n": "Iridium",
+        "p": 279330,
+        "d": 42166
+       },
+       {
+        "n": "PericlaseDunite",
+        "p": 279330,
+        "d": 6291
+       },
+       {
+        "n": "Thortveitite",
+        "p": 279330,
+        "d": 6291
+       },
+       {
+        "n": "Alexandrite",
+        "p": 240694,
+        "d": 990
+       }
+      ],
+      "alta": [
+       {
+        "n": "Lepidolite",
+        "p": 5944,
+        "m": 741
+       },
+       {
+        "n": "CeramicComposites",
+        "p": 1930,
+        "m": 402
+       },
+       {
+        "n": "Bauxite",
+        "p": 4771,
+        "m": 1096
+       },
+       {
+        "n": "SyntheticFabrics",
+        "p": 1409,
+        "m": 354
+       },
+       {
+        "n": "Polymers",
+        "p": 1212,
+        "m": 306
+       }
+      ],
+      "barato": [
+       {
+        "n": "Biowaste",
+        "p": 104,
+        "m": 271,
+        "s": 15495
+       },
+       {
+        "n": "FoodCartridges",
+        "p": 122,
+        "m": 252,
+        "s": 411016
+       }
+      ]
+     },
+     "mods": 721,
+     "mods_t": 1795132152,
+     "naves": [
+      "anaconda",
+      "asp",
+      "cobramkiii",
+      "diamondback",
+      "diamondbackxl",
+      "explorer_nx",
+      "hauler",
+      "independant_trader",
+      "lakonminer",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "viper",
+      "viper_mkiv"
+     ],
+     "naves_t": 1795132152
+    }
    }
   },
   "Ceti Sector CL-X b1-1": {
@@ -21677,11 +21809,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795130565.0842857,
-  "msgs": 322680,
-  "mios": 28
+  "ultimo": 1795131785.8704255,
+  "msgs": 332018,
+  "mios": 29
  },
- "t": 1795131195.6038349,
+ "t": 1795132607.0871387,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -28283,6 +28415,23 @@
     "Li Yong-Rui"
    ],
    "t": 1795130518
+  },
+  "LHS 5116": {
+   "pos": [
+    11.15625,
+    13.59375,
+    -95.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.243998,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795131785
   }
  },
  "rivales": {

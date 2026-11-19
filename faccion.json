@@ -20467,10 +20467,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 376,
+  "msgs": 502,
   "mios": 0
  },
- "t": 0,
+ "t": 1795086875.8058777,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21134,7 +21134,7 @@
    "nfac": 6,
    "pob": 388147,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795082812
+   "t": 1795086865
   },
   "Ceti Sector GR-V b2-3": {
    "pos": [
@@ -24135,9 +24135,9 @@
    "ly": 18.7,
    "junto": "Ryujingit",
    "nfac": 4,
-   "pob": 157297,
+   "pob": 157355,
    "ctrl_n": "Empire Corsairs",
-   "t": 1795038882
+   "t": 1795086701
   },
   "Tascheter Sector WE-Q a5-1": {
    "pos": [
@@ -24463,6 +24463,19 @@
    "pob": 218923,
    "ctrl_n": "LP 254-27 Free",
    "t": 1795083219
+  },
+  "Tascheter Sector CL-Y d135": {
+   "pos": [
+    -28.03125,
+    -11.15625,
+    -92.03125
+   ],
+   "ly": 8.0,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 4,
+   "pob": 438622,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1795086757
   }
  },
  "codice": [
@@ -24696,5 +24709,25 @@
    }
   ]
  },
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "Khaima": {
+   "pos": [
+    -23.625,
+    -10.75,
+    -89.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795086865
+  }
+ }
 }

@@ -4956,7 +4956,8 @@
    },
    "rutas": {
     "2026-11-17": 9,
-    "2026-11-18": 10
+    "2026-11-18": 10,
+    "2026-11-19": 1
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -7719,7 +7720,7 @@
   },
   "Eurus": {
    "sys": "Eurus",
-   "t": 1795034414,
+   "t": 1795090000,
    "src": "EDDN",
    "inf": 51.6,
    "ctrl": true,
@@ -7781,7 +7782,7 @@
     -45.75
    ],
    "sis": {
-    "pob": 2403897,
+    "pob": 2403951,
     "eco": "$economy_Military;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -7791,8 +7792,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.0853,
-    "ref": 56,
+    "prog": 0.08514,
+    "ref": 0,
     "soc": 0,
     "pots": [
      "Denton Patreus",
@@ -7806,22 +7807,25 @@
     "2026-11-13": 4,
     "2026-11-14": 1,
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
    "tk": {
     "firma": "66c73982",
-    "igual": 1795034414,
+    "igual": 1795090000,
     "ult": 1794675461,
     "desde": 1794581831,
     "est": null
    },
    "saltos": {
     "1794927600": 1,
-    "1795032000": 1
+    "1795032000": 1,
+    "1795089600": 1
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
    "prev": 50.9,
    "prev_t": 1794581831,
@@ -20466,11 +20470,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 424,
-  "mios": 0
+  "ultimo": 1795090001.943991,
+  "msgs": 8043,
+  "mios": 1
  },
- "t": 0,
+ "t": 1795090674.7274456,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20744,7 +20748,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795085354
+   "t": 1795090174
   },
   "LTT 10918": {
    "pos": [
@@ -20952,7 +20956,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795068933
+   "t": 1795090102
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -21316,7 +21320,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1795057658
+   "t": 1795089842
   },
   "LTT 606": {
    "pos": [
@@ -21511,7 +21515,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795089767
+   "t": 1795090455
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -24738,7 +24742,122 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795089767
+   "t": 1795090455
+  },
+  "Segon": {
+   "pos": [
+    -48.96875,
+    -0.6875,
+    -96
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.258292,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795089842
+  },
+  "Eurus": {
+   "pos": [
+    26.09375,
+    -39.09375,
+    -45.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.08514,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795090000
+  },
+  "HIP 23302": {
+   "pos": [
+    -15.09375,
+    -14.25,
+    -127.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795090057
+  },
+  "Zephyrus": {
+   "pos": [
+    -21.84375,
+    12.59375,
+    -60.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.233391,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795090102
+  },
+  "Hajangai": {
+   "pos": [
+    -28.125,
+    4.90625,
+    -68.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.268512,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795090174
+  },
+  "HR 3277": {
+   "pos": [
+    -33.71875,
+    95.75,
+    -129.40625
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.250792,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795090345
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795090665
   }
  }
 }

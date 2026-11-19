@@ -20386,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 56555,
+  "msgs": 66058,
   "mios": 0
  },
- "t": 1795054994.68985,
+ "t": 1795056045.6662896,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20622,9 +20622,9 @@
    "ly": 18.9,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 3,
-   "pob": 122300644,
+   "pob": 122320414,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794882567
+   "t": 1795055524
   },
   "HIP 43660": {
    "pos": [
@@ -20832,7 +20832,7 @@
    "nfac": 5,
    "pob": 5089334,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794888493
+   "t": 1795055426
   },
   "Synuefe TL-C c29-5": {
    "pos": [
@@ -21378,7 +21378,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795020306
+   "t": 1795056037
   },
   "Bakuari": {
    "pos": [
@@ -22873,7 +22873,7 @@
    "nfac": 5,
    "pob": 2195593,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795054231
+   "t": 1795055600
   },
   "Ceti Sector DL-X b1-5": {
    "pos": [
@@ -24805,7 +24805,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795054231
+   "t": 1795055600
   },
   "Acokwa": {
    "pos": [
@@ -24903,6 +24903,73 @@
     "Li Yong-Rui"
    ],
    "t": 1795054986
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.205984,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795044580
+  },
+  "Unktock": {
+   "pos": [
+    -41.34375,
+    -14.59375,
+    -68.625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.311614,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795055426
+  },
+  "LHS 1499": {
+   "pos": [
+    -41.5,
+    -18.15625,
+    -66.125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.700122,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795055524
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.163457,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795056037
   }
  }
 }

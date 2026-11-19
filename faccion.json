@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 19
+    "2026-11-19": 23
    },
    "pn": {
     "H5L-70M": {
@@ -5920,7 +5920,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795050227,
+     "t": 1795051580,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5930,7 +5930,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795050578,
+      "t": 1795051588,
       "n": 366,
       "vende": [
        {
@@ -6029,12 +6029,12 @@
        "no": 1
       },
       "2026-11-19": {
-       "ok": 6,
-       "no": 1
+       "ok": 8,
+       "no": 3
       }
      },
      "neg": {
-      "Distance": 2
+      "Distance": 4
      }
     },
     "Shvets Works": {
@@ -6291,7 +6291,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795049855,
+     "t": 1795050912,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -6306,7 +6306,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 5,
+       "ok": 7,
        "no": 0
       }
      },
@@ -6314,7 +6314,7 @@
       "Distance": 2
      },
      "mer": {
-      "t": 1795049862,
+      "t": 1795050918,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -20162,10 +20162,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 9348,
+  "msgs": 18490,
   "mios": 0
  },
- "t": 1795050617.941878,
+ "t": 1795051589.6346219,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -22857,7 +22857,7 @@
    "nfac": 3,
    "pob": 1584352,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795046706
+   "t": 1795050896
   },
   "Trianguli Sector SU-O a6-2": {
    "pos": [
@@ -23950,6 +23950,19 @@
    "pob": 219737,
    "ctrl_n": "The Fatherhood",
    "t": 1795046597
+  },
+  "Ceti Sector EG-X b1-3": {
+   "pos": [
+    2.84375,
+    -119.03125,
+    -47.46875
+   ],
+   "ly": 17.5,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 3,
+   "pob": 412019,
+   "ctrl_n": "Ukrainian Pilots Federation",
+   "t": 1795051266
   }
  },
  "codice": [
@@ -24288,6 +24301,101 @@
     "Pranav Antal"
    ],
    "t": 1795050615
+  },
+  "Imango": {
+   "pos": [
+    -50.59375,
+    -2.03125,
+    -93.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.251914,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795051492
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.171618,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795050896
+  },
+  "Mirongkomi": {
+   "pos": [
+    -58.78125,
+    -1.46875,
+    -93.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.158855,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795051057
+  },
+  "HIP 20606": {
+   "pos": [
+    126.75,
+    -122.53125,
+    -26.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.224484,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795051135
+  },
+  "Alexis Centauri": {
+   "pos": [
+    -41.15625,
+    23.4375,
+    -108.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795051217
+  },
+  "Ceti Sector EG-X b1-3": {
+   "pos": [
+    2.84375,
+    -119.03125,
+    -47.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795051266
   }
  }
 }

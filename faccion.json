@@ -150,9 +150,9 @@
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
-   "t": 1795045730,
+   "t": 1795128599,
    "src": "EDDN",
-   "inf": 43.88,
+   "inf": 43.73,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -161,12 +161,12 @@
    ],
    "recuperando": [],
    "segunda": "Wathiparian Power Corp.",
-   "segunda_inf": 20.48,
+   "segunda_inf": 20.46,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 43.88,
+     "inf": 43.73,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -177,7 +177,7 @@
     },
     {
      "n": "Wathiparian Power Corp.",
-     "inf": 20.48,
+     "inf": 20.46,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -186,7 +186,7 @@
     },
     {
      "n": "Beasts of Bestia",
-     "inf": 14.36,
+     "inf": 14.34,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -197,7 +197,7 @@
     },
     {
      "n": "Ngauna Incorporated",
-     "inf": 12.65,
+     "inf": 12.64,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -206,7 +206,7 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 8.63,
+     "inf": 8.83,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -223,7 +223,7 @@
     -84.28125
    ],
    "sis": {
-    "pob": 336977494,
+    "pob": 337105829,
     "eco": "$economy_HighTech;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -233,8 +233,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Exploited",
-    "prog": 0.256166,
-    "ref": 50,
+    "prog": 0.256024,
+    "ref": 0,
     "soc": 191,
     "pots": [
      "Edmund Mahon",
@@ -245,11 +245,12 @@
     ]
    },
    "trafico": {
+    "2026-05-04": 1,
     "2026-11-09": 2,
     "2026-11-11": 3,
-    "2026-05-04": 1,
     "2026-11-14": 2,
-    "2026-11-18": 3
+    "2026-11-18": 3,
+    "2026-11-19": 2
    },
    "pn": {
     "H2J-72G": {
@@ -258,48 +259,20 @@
     }
    },
    "tk": {
-    "firma": "10d5860b",
-    "igual": 1795045730,
-    "ult": 1795045730,
-    "desde": 1794678381,
+    "firma": "c3896ce1",
+    "igual": 1795128599,
+    "ult": 1795128599,
+    "desde": 1795045730,
     "est": null
    },
    "saltos": {
-    "1795042800": 1
+    "1795042800": 1,
+    "1795125600": 1
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
-   "prev": 43.29,
-   "prev_t": 1794678381,
-   "hinf": [
-    [
-     1794227083,
-     46.51
-    ],
-    [
-     1794419644,
-     42.44
-    ],
-    [
-     1794584244,
-     43.29
-    ],
-    [
-     1795045730,
-     43.88
-    ]
-   ],
-   "rach": {
-    "Caballeros de Sion": 1,
-    "Wathiparian Power Corp.": 0,
-    "Beasts of Bestia": 1,
-    "Ngauna Incorporated": 0,
-    "THE AZGHARIE": 0
-   },
-   "rivales": [],
-   "tick_ult": 1795045730,
-   "tick_marg": 3061,
    "estaciones": {
     "Verne Garden": {
      "f": "Caballeros de Sion",
@@ -403,8 +376,204 @@
        }
       ]
      }
+    },
+    "Manuela Malasaña": {
+     "f": "Caballeros de Sion",
+     "tipo": "Dodec",
+     "t": 1795128816,
+     "estado": "",
+     "ls": 1643,
+     "pads": {
+      "Small": 7,
+      "Medium": 13,
+      "Large": 5
+     },
+     "mid": 4310567427,
+     "neg": {
+      "Offences": 1
+     },
+     "atq": {
+      "2026-11-19": {
+       "ok": 1,
+       "no": 1
+      }
+     },
+     "mer": {
+      "t": 1795128824,
+      "n": 160,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 254374,
+        "d": 808
+       },
+       {
+        "n": "musgravite",
+        "p": 236446,
+        "d": 808
+       },
+       {
+        "n": "grandidierite",
+        "p": 236032,
+        "d": 808
+       },
+       {
+        "n": "monazite",
+        "p": 226828,
+        "d": 22583
+       },
+       {
+        "n": "serendibite",
+        "p": 206625,
+        "d": 808
+       }
+      ],
+      "alta": [
+       {
+        "n": "polymers",
+        "p": 724,
+        "m": 306
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 762,
+        "m": 354
+       },
+       {
+        "n": "algae",
+        "p": 638,
+        "m": 308
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 770,
+        "m": 402
+       },
+       {
+        "n": "water",
+        "p": 489,
+        "m": 260
+       }
+      ],
+      "barato": [
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 5666878
+       },
+       {
+        "n": "mineraloil",
+        "p": 98,
+        "m": 416,
+        "s": 1369924
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 104,
+        "m": 418,
+        "s": 1173293
+       },
+       {
+        "n": "scrap",
+        "p": 82,
+        "m": 276,
+        "s": 1901169
+       },
+       {
+        "n": "fruitandvegetables",
+        "p": 172,
+        "m": 483,
+        "s": 7217783
+       }
+      ]
+     },
+     "mods": 939,
+     "mods_t": 1795128928,
+     "naves": [
+      "adder",
+      "anaconda",
+      "anacondamkii",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "explorer_nx",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
+     ],
+     "naves_t": 1795128824
     }
-   }
+   },
+   "prev": 43.88,
+   "prev_t": 1795045730,
+   "hinf": [
+    [
+     1794227083,
+     46.51
+    ],
+    [
+     1794419644,
+     42.44
+    ],
+    [
+     1794584244,
+     43.29
+    ],
+    [
+     1795045730,
+     43.88
+    ],
+    [
+     1795128599,
+     43.73
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Wathiparian Power Corp.": 0,
+    "Beasts of Bestia": 1,
+    "Ngauna Incorporated": 0,
+    "THE AZGHARIE": 1
+   },
+   "rivales": [],
+   "tick_ult": 1795128599,
+   "tick_marg": 690,
+   "cseg": {}
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
@@ -2660,21 +2829,23 @@
   },
   "Tascheter Sector ZZ-Y b1": {
    "sys": "Tascheter Sector ZZ-Y b1",
-   "t": 1794949884,
+   "t": 1795128991,
    "src": "EDDN",
-   "inf": 21.88,
+   "inf": 21.76,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 45.75,
+   "segunda_inf": 45.51,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 45.75,
+     "inf": 45.51,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2685,16 +2856,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 21.88,
+     "inf": 21.76,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Edenses Comms Incorporated",
-     "inf": 20.68,
+     "inf": 20.56,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -2703,7 +2876,7 @@
     },
     {
      "n": "Flotta Stellare",
-     "inf": 8.59,
+     "inf": 8.58,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2714,7 +2887,7 @@
     },
     {
      "n": "Wolf 258 Silver Organisation",
-     "inf": 3.1,
+     "inf": 3.59,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -2729,7 +2902,7 @@
     -100.125
    ],
    "sis": {
-    "pob": 1169478,
+    "pob": 1177788,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2751,30 +2924,48 @@
    },
    "trafico": {
     "2026-11-16": 1,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-19": 1
    },
    "tk": {
-    "firma": "72efede1",
-    "igual": 1794949884
+    "firma": "85b2cd62",
+    "igual": 1795128991,
+    "ult": 1795128991,
+    "desde": 1794949884,
+    "est": null
    },
    "saltos": {
-    "1794949200": 1
+    "1794949200": 1,
+    "1795125600": 2
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 1,
     "2026-11-19": 2
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 21.88,
+   "prev_t": 1794949884,
    "hinf": [
     [
      1794186574,
      21.88
+    ],
+    [
+     1795128991,
+     21.76
     ]
    ],
-   "rach": {},
-   "rivales": []
+   "rach": {
+    "THE AZGHARIE": 0,
+    "Caballeros de Sion": 0,
+    "Edenses Comms Incorporated": 0,
+    "Flotta Stellare": 0,
+    "Wolf 258 Silver Organisation": 1
+   },
+   "rivales": [],
+   "tick_ult": 1795128991,
+   "tick_marg": 1492,
+   "cseg": {}
   },
   "Jitabed": {
    "sys": "Jitabed",
@@ -5870,7 +6061,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 102
+    "2026-11-19": 106
    },
    "pn": {
     "H5L-70M": {
@@ -6113,7 +6304,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795120503,
+     "t": 1795128826,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -6123,7 +6314,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795120511,
+      "t": 1795128833,
       "n": 366,
       "vende": [
        {
@@ -6222,7 +6413,7 @@
        "no": 1
       },
       "2026-11-19": {
-       "ok": 12,
+       "ok": 14,
        "no": 5
       }
      },
@@ -6703,7 +6894,7 @@
     "Planetary Construction Site: Delaunay Vista": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795127402,
+     "t": 1795128466,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -6713,15 +6904,15 @@
      },
      "mid": 4404677379,
      "mer": {
-      "t": 1795127409,
-      "n": 7,
+      "t": 1795128474,
+      "n": 4,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-19": {
-       "ok": 10,
+       "ok": 12,
        "no": 0
       }
      }
@@ -21418,11 +21609,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795125579.996327,
-  "msgs": 274638,
-  "mios": 25
+  "ultimo": 1795128992.7565646,
+  "msgs": 286589,
+  "mios": 27
  },
- "t": 1795128067.5961845,
+ "t": 1795128999.627211,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21642,9 +21833,9 @@
    "ly": 16.4,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 2805739,
+   "pob": 2805836,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795063275
+   "t": 1795128943
   },
   "LHS 1499": {
    "pos": [
@@ -24112,9 +24303,9 @@
    "ly": 19.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 1584352,
+   "pob": 1584556,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795097782
+   "t": 1795128438
   },
   "Trianguli Sector SU-O a6-2": {
    "pos": [
@@ -24346,9 +24537,9 @@
    "ly": 6.3,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 2009450,
+   "pob": 2009477,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795037451
+   "t": 1795128230
   },
   "Nogatas": {
    "pos": [
@@ -26000,6 +26191,19 @@
    "pob": 1997458,
    "ctrl_n": "Order of Enblackenment",
    "t": 1795126587
+  },
+  "Baraluhet": {
+   "pos": [
+    -29.40625,
+    -19.71875,
+    -119.125
+   ],
+   "ly": 19.4,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 5,
+   "pob": 7484,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1795128899
   }
  },
  "codice": [
@@ -27723,6 +27927,139 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795127701
+  },
+  "Col 285 Sector YZ-U b17-2": {
+   "pos": [
+    135.75,
+    -14.1875,
+    23.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795128230
+  },
+  "Ceti Sector PD-S b4-3": {
+   "pos": [
+    18.8125,
+    -98.15625,
+    -3.84375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.171426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795128438
+  },
+  "Breksta": {
+   "pos": [
+    29.4375,
+    -6.71875,
+    -70.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.276452,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795122349
+  },
+  "Tascheter Sector CG-X b1-2": {
+   "pos": [
+    -21.875,
+    8.6875,
+    -84.28125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795128599
+  },
+  "Mwamen": {
+   "pos": [
+    -6.125,
+    -88.65625,
+    -15.59375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.249452,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795128825
+  },
+  "Baraluhet": {
+   "pos": [
+    -29.40625,
+    -19.71875,
+    -119.125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.094283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795128899
+  },
+  "Ceti Sector GR-V b2-1": {
+   "pos": [
+    -0.90625,
+    -96.09375,
+    -29.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795128943
+  },
+  "Tascheter Sector ZZ-Y b1": {
+   "pos": [
+    1.96875,
+    7,
+    -100.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795128991
   }
  },
  "rivales": {

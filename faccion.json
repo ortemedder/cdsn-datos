@@ -10008,7 +10008,7 @@
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "estaciones": {
     "Machigai Station": {
@@ -15893,15 +15893,15 @@
   },
   "Tascheter Sector BQ-Y c27": {
    "sys": "Tascheter Sector BQ-Y c27",
-   "t": 1794603077,
+   "t": 1795109031,
    "src": "EDDN",
    "inf": 10.2,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 66.4,
@@ -15912,10 +15912,10 @@
      "inf": 66.4,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -15932,10 +15932,10 @@
      "inf": 10.2,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -15955,7 +15955,7 @@
     -99.5
    ],
    "sis": {
-    "pob": 203810,
+    "pob": 203887,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Military;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -15974,22 +15974,31 @@
      "Li Yong-Rui"
     ]
    },
+   "trafico": {
+    "2026-11-13": 1,
+    "2026-11-19": 1
+   },
+   "tk": {
+    "firma": "55aaeee2",
+    "igual": 1795109031
+   },
+   "saltos": {
+    "1795107600": 1
+   },
+   "rutas": {
+    "2026-11-18": 1,
+    "2026-11-19": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794603077,
      10.2
     ]
    ],
-   "tk": {
-    "firma": "55aaeee2",
-    "igual": 1794603077
-   },
-   "trafico": {
-    "2026-11-13": 1
-   },
-   "rutas": {
-    "2026-11-18": 1
-   }
+   "rach": {},
+   "rivales": []
   },
   "HIP 37216": {
    "sys": "HIP 37216",
@@ -20892,11 +20901,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795108707.647032,
-  "msgs": 126016,
-  "mios": 10
+  "ultimo": 1795109031.7011006,
+  "msgs": 142313,
+  "mios": 11
  },
- "t": 1795108714.6655638,
+ "t": 1795109766.5648732,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21027,7 +21036,7 @@
    "nfac": 5,
    "pob": 161723,
    "ctrl_n": "East India Company",
-   "t": 1795107958
+   "t": 1795109379
   },
   "LHS 1734": {
    "pos": [
@@ -21612,7 +21621,7 @@
    "nfac": 4,
    "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795105203
+   "t": 1795109721
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -23144,9 +23153,9 @@
    "ly": 15.1,
    "junto": "Col 285 Sector NY-Q c5-8",
    "nfac": 3,
-   "pob": 4197830,
+   "pob": 4198016,
    "ctrl_n": "Sirius Corporation",
-   "t": 1794960522
+   "t": 1795109440
   },
   "Tascheter Sector HM-M a7-1": {
    "pos": [
@@ -25149,6 +25158,45 @@
    "pob": 317948,
    "ctrl_n": "Branglal Independents",
    "t": 1795108435
+  },
+  "Mdi": {
+   "pos": [
+    -40.46875,
+    12.28125,
+    -128.6875
+   ],
+   "ly": 12.9,
+   "junto": "Windizetet",
+   "nfac": 6,
+   "pob": 1716033,
+   "ctrl_n": "Aristocrats of Allowini",
+   "t": 1795109017
+  },
+  "Yin Sector YZ-Y b5": {
+   "pos": [
+    -0.15625,
+    41.9375,
+    -74.40625
+   ],
+   "ly": 16.5,
+   "junto": "Skang",
+   "nfac": 4,
+   "pob": 1998402,
+   "ctrl_n": "Maya Free",
+   "t": 1795109650
+  },
+  "Yin Sector UT-A b1": {
+   "pos": [
+    4.21875,
+    43.0625,
+    -89.15625
+   ],
+   "ly": 10.3,
+   "junto": "Hyades Sector TK-M b8-3",
+   "nfac": 3,
+   "pob": 152176,
+   "ctrl_n": "New Skang Progressive Party",
+   "t": 1795109702
   }
  },
  "codice": [
@@ -25797,7 +25845,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795105203
+   "t": 1795109721
   },
   "LP 941-16": {
    "pos": [
@@ -25845,7 +25893,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795107958
+   "t": 1795109379
   },
   "BD-04 782": {
    "pos": [
@@ -25877,7 +25925,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795108017
+   "t": 1795109446
   },
   "Mwamen": {
    "pos": [
@@ -26075,6 +26123,135 @@
     "Zemina Torval"
    ],
    "t": 1795108707
+  },
+  "Mdi": {
+   "pos": [
+    -40.46875,
+    12.28125,
+    -128.6875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.259166,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1795109017
+  },
+  "Tascheter Sector BQ-Y c27": {
+   "pos": [
+    13.3125,
+    8.1875,
+    -99.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795109031
+  },
+  "Damna": {
+   "pos": [
+    -40.53125,
+    4.375,
+    -124.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.161538,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795109097
+  },
+  "Yin Sector YZ-Y b5": {
+   "pos": [
+    -0.15625,
+    41.9375,
+    -74.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795109650
+  },
+  "BD-22 286": {
+   "pos": [
+    4.1875,
+    -92.125,
+    -21.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.108569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795109674
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.236569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795109698
+  },
+  "Yin Sector UT-A b1": {
+   "pos": [
+    4.21875,
+    43.0625,
+    -89.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795109702
+  },
+  "BD+27 1356": {
+   "pos": [
+    20.03125,
+    34.09375,
+    -101.9375
+   ],
+   "pot": "Felicia Winters",
+   "est": "Exploited",
+   "prog": 0.161712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795109762
   }
  }
 }

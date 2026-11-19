@@ -20381,10 +20381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 3983,
+  "msgs": 281,
   "mios": 0
  },
- "t": 1795077222.6331482,
+ "t": 0,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21932,7 +21932,7 @@
    "nfac": 6,
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
-   "t": 1795045779
+   "t": 1795079429
   },
   "Tote": {
    "pos": [
@@ -23154,7 +23154,7 @@
    "nfac": 5,
    "pob": 8347,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795037654
+   "t": 1795079079
   },
   "Col 285 Sector RD-T a33-5": {
    "pos": [
@@ -24351,6 +24351,19 @@
    "pob": 4092876,
    "ctrl_n": "Black Hand of Orion",
    "t": 1795067308
+  },
+  "Allowini": {
+   "pos": [
+    -43.34375,
+    4.03125,
+    -126.6875
+   ],
+   "ly": 16.7,
+   "junto": "Hyades Sector RU-N b7-3",
+   "nfac": 6,
+   "pob": 95567,
+   "ctrl_n": "Nagii Union",
+   "t": 1795079084
   }
  },
  "codice": [
@@ -24574,75 +24587,5 @@
    }
   ]
  },
- "thargoides": {},
- "zona": {
-  "Trianguli Sector XA-N a7-1": {
-   "pos": [
-    37.28125,
-    -38.3125,
-    -47.59375
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.272892,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795071129
-  },
-  "Wo 9203": {
-   "pos": [
-    11,
-    7.8125,
-    -135.25
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.032766,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795071231
-  },
-  "Trianguli Sector ZL-L a8-2": {
-   "pos": [
-    38.15625,
-    -34.59375,
-    -43.59375
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.022283,
-   "pots": [
-    "Denton Patreus",
-    "Felicia Winters",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795071425
-  },
-  "Catun": {
-   "pos": [
-    -4.71875,
-    25.625,
-    -105.0625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Fortified",
-   "prog": 0.252992,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795029858
-  }
- }
+ "thargoides": {}
 }

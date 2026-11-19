@@ -20396,10 +20396,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795065562.6495278,
-  "msgs": 71301,
+  "msgs": 77419,
   "mios": 1
  },
- "t": 1795069125.4342375,
+ "t": 1795070146.462729,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21113,9 +21113,9 @@
    "ly": 9.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 156890360,
+   "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795047433
+   "t": 1795070118
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -22779,7 +22779,7 @@
    "nfac": 4,
    "pob": 3173178,
    "ctrl_n": "EXO",
-   "t": 1795068771
+   "t": 1795070086
   },
   "Prom Du": {
    "pos": [
@@ -23882,9 +23882,9 @@
    "ly": 13.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 2000131,
+   "pob": 2000161,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1794962571
+   "t": 1795070138
   },
   "LP 365-24": {
    "pos": [
@@ -25091,7 +25091,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795068771
+   "t": 1795070086
   },
   "Zephyrus": {
    "pos": [
@@ -25125,6 +25125,40 @@
     "Li Yong-Rui"
    ],
    "t": 1795069117
+  },
+  "Trianguli Sector ZL-L a8-2": {
+   "pos": [
+    38.15625,
+    -34.59375,
+    -43.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.022283,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795070138
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.405665,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795070118
   }
  }
 }

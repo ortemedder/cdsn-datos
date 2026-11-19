@@ -1871,7 +1871,7 @@
     "2026-11-16": 2,
     "2026-11-17": 16,
     "2026-11-18": 55,
-    "2026-11-19": 3
+    "2026-11-19": 4
    },
    "zc": [
     {
@@ -2408,7 +2408,7 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795042714,
+     "t": 1795083050,
      "estado": "",
      "ls": 2378,
      "pads": {
@@ -2418,7 +2418,7 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795042764,
+      "t": 1795083127,
       "n": 353,
       "vende": [
        {
@@ -2507,8 +2507,8 @@
        }
       ]
      },
-     "mods": 525,
-     "mods_t": 1795042721,
+     "mods": 590,
+     "mods_t": 1795083148,
      "naves": [
       "adder",
       "asp",
@@ -2913,7 +2913,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795081841,
+   "t": 1795083327,
    "src": "EDDN",
    "inf": 71.01,
    "ctrl": true,
@@ -3031,28 +3031,28 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 1
+    "2026-11-19": 3
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795081841,
+     "t": 1795083334,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795081841,
+     "t": 1795083334,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795081841,
+     "t": 1795083334,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795081841,
+    "igual": 1795083327,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3066,17 +3066,19 @@
    "saltos": {
     "1794956400": 2,
     "1794988800": 2,
-    "1795006800": 2
+    "1795006800": 2,
+    "1795082400": 1
    },
    "rutas": {
     "2026-11-17": 4,
-    "2026-11-18": 5
+    "2026-11-18": 5,
+    "2026-11-19": 1
    },
    "estaciones": {
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795081841,
+     "t": 1795083531,
      "estado": "",
      "ls": 1815,
      "pads": {
@@ -3086,8 +3088,8 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795081848,
-      "n": 144,
+      "t": 1795083589,
+      "n": 366,
       "vende": [
        {
         "n": "alexandrite",
@@ -3176,7 +3178,7 @@
       ]
      },
      "mods": 867,
-     "mods_t": 1795082201,
+     "mods_t": 1795083679,
      "naves": [
       "anaconda",
       "asp",
@@ -3200,7 +3202,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795081848,
+     "naves_t": 1795083538,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3208,6 +3210,10 @@
       },
       "2026-11-18": {
        "ok": 4,
+       "no": 0
+      },
+      "2026-11-19": {
+       "ok": 1,
        "no": 0
       }
      }
@@ -16721,7 +16727,7 @@
   },
   "Yin Sector XJ-A c21": {
    "sys": "Yin Sector XJ-A c21",
-   "t": 1795032348,
+   "t": 1795083271,
    "src": "EDDN",
    "inf": 13.84,
    "ctrl": false,
@@ -16752,7 +16758,9 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -16774,7 +16782,7 @@
     -92.75
    ],
    "sis": {
-    "pob": 57674717,
+    "pob": 57753403,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -16798,11 +16806,12 @@
    "trafico": {
     "2026-11-17": 2,
     "2026-11-18": 2,
-    "2026-10-30": 1
+    "2026-10-30": 1,
+    "2026-11-19": 1
    },
    "tk": {
     "firma": "348d19a1",
-    "igual": 1795032348,
+    "igual": 1795083271,
     "ult": 1794926867,
     "desde": 1759845602,
     "est": null
@@ -16810,11 +16819,28 @@
    "saltos": {
     "1793368800": 1,
     "1794924000": 1,
-    "1795032000": 1
+    "1795032000": 1,
+    "1795082400": 1
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
+   },
+   "estaciones": {
+    "X Terminal": {
+     "f": "LP 254-40 Co",
+     "tipo": "Outpost",
+     "t": 1795032510,
+     "estado": "",
+     "ls": 762,
+     "pads": {
+      "Small": 3,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 4233408259
+    }
    },
    "prev": 16.97,
    "prev_t": 1759845602,
@@ -16835,22 +16861,7 @@
    },
    "rivales": [],
    "tick_ult": 1794926867,
-   "tick_marg": 292343,
-   "estaciones": {
-    "X Terminal": {
-     "f": "LP 254-40 Co",
-     "tipo": "Outpost",
-     "t": 1795032510,
-     "estado": "",
-     "ls": 762,
-     "pads": {
-      "Small": 3,
-      "Medium": 1,
-      "Large": 0
-     },
-     "mid": 4233408259
-    }
-   }
+   "tick_marg": 292343
   },
   "Hyades Sector RZ-N b7-0": {
    "sys": "Hyades Sector RZ-N b7-0",
@@ -20450,11 +20461,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795082765.7158341,
-  "msgs": 6851,
-  "mios": 4
+  "ultimo": 1795083537.9916322,
+  "msgs": 12657,
+  "mios": 6
  },
- "t": 1795083013.8927736,
+ "t": 1795083825.2724824,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20728,7 +20739,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795014163
+   "t": 1795083515
   },
   "LTT 10918": {
    "pos": [
@@ -21896,9 +21907,9 @@
    "ly": 18.5,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 2004067,
+   "pob": 2004153,
    "ctrl_n": "East India Company",
-   "t": 1794940646
+   "t": 1795083037
   },
   "BD+39 876": {
    "pos": [
@@ -23822,7 +23833,7 @@
    "nfac": 6,
    "pob": 910547,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795029592
+   "t": 1795083805
   },
   "Crucis Sector HB-X b1-5": {
    "pos": [
@@ -24434,18 +24445,51 @@
    "pob": 95567,
    "ctrl_n": "Nagii Union",
    "t": 1795079084
+  },
+  "Furuhjelm II-431": {
+   "pos": [
+    -4.28125,
+    25.53125,
+    -75.96875
+   ],
+   "ly": 5.2,
+   "junto": "BD+40 1697",
+   "nfac": 5,
+   "pob": 218923,
+   "ctrl_n": "LP 254-27 Free",
+   "t": 1795083219
   }
  },
  "codice": [
   {
    "sys": "HIP 46236",
+   "n": "Stratum 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 e",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795083821
+  },
+  {
+   "sys": "HIP 46236",
    "n": "Tubus 05 F",
    "cat": "Biology",
    "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 c",
+   "cuerpo": "HIP 46236 6 e",
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
-   "t": 1795037617
+   "t": 1795083808
+  },
+  {
+   "sys": "HIP 46236",
+   "n": "Shrubs 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 e",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795083220
   },
   {
    "sys": "HIP 46236",
@@ -24466,16 +24510,6 @@
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
    "t": 1795035761
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Shrubs 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 d",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795034588
   },
   {
    "sys": "Huveang De",
@@ -24878,6 +24912,108 @@
     "Zemina Torval"
    ],
    "t": 1795082993
+  },
+  "Ceti Sector LX-T b3-2": {
+   "pos": [
+    19.375,
+    -102.71875,
+    -11.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.058283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795083037
+  },
+  "Hajangai": {
+   "pos": [
+    -28.125,
+    4.90625,
+    -68.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.268497,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795083515
+  },
+  "Furuhjelm II-431": {
+   "pos": [
+    -4.28125,
+    25.53125,
+    -75.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795083219
+  },
+  "Yin Sector XJ-A c21": {
+   "pos": [
+    -10.9375,
+    25.75,
+    -92.75
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.018854,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795083271
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252423,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795083327
+  },
+  "Strigenses": {
+   "pos": [
+    0.03125,
+    17.5,
+    -122.65625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256546,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795083805
   }
  }
 }

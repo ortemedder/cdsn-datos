@@ -6159,12 +6159,12 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 120
+    "2026-11-19": 124
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795121801,
+     "t": 1795130975,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -6351,14 +6351,15 @@
      "naves": [
       "cobramkv",
       "explorer_nx",
+      "federation_corvette",
       "panthermkii"
      ],
-     "naves_t": 1795130797,
+     "naves_t": 1795130900,
      "neg": {
       "Distance": 5
      },
-     "mods": 821,
-     "mods_t": 1795130531
+     "mods": 888,
+     "mods_t": 1795130908
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -21677,10 +21678,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795130565.0842857,
-  "msgs": 311006,
+  "msgs": 322680,
   "mios": 28
  },
- "t": 1795130814.8335395,
+ "t": 1795131195.6038349,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -28103,7 +28104,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795128825
+   "t": 1795131178
   },
   "Baraluhet": {
    "pos": [

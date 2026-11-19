@@ -20467,10 +20467,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 502,
+  "msgs": 7611,
   "mios": 0
  },
- "t": 1795086875.8058777,
+ "t": 1795087736.4332376,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -24476,6 +24476,19 @@
    "pob": 438622,
    "ctrl_n": "Beasts of Bestia",
    "t": 1795086757
+  },
+  "Lalande 9828": {
+   "pos": [
+    -45.125,
+    22.625,
+    -85.53125
+   ],
+   "ly": 13.2,
+   "junto": "Elivagar",
+   "nfac": 6,
+   "pob": 5026651,
+   "ctrl_n": "Order of Enblackenment",
+   "t": 1795087726
   }
  },
  "codice": [
@@ -24728,6 +24741,39 @@
     "Jerome Archer"
    ],
    "t": 1795086865
+  },
+  "Zosia": {
+   "pos": [
+    -16.75,
+    19.59375,
+    -60.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257069,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795087666
+  },
+  "Lalande 9828": {
+   "pos": [
+    -45.125,
+    22.625,
+    -85.53125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.154855,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795087726
   }
  }
 }

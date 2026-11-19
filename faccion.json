@@ -21419,10 +21419,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795125579.996327,
-  "msgs": 246685,
+  "msgs": 261528,
   "mios": 25
  },
- "t": 1795126274.384084,
+ "t": 1795127195.2921119,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21904,7 +21904,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795124825
+   "t": 1795126639
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -22138,7 +22138,7 @@
    "nfac": 4,
    "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795125800
+   "t": 1795127193
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -22177,7 +22177,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795112966
+   "t": 1795126554
   },
   "LTT 740": {
    "pos": [
@@ -25987,6 +25987,19 @@
    "pob": 42590,
    "ctrl_n": "The Dark Wheel",
    "t": 1795126024
+  },
+  "Yin Sector XZ-Y b2": {
+   "pos": [
+    -17.40625,
+    39.21875,
+    -80.4375
+   ],
+   "ly": 16.3,
+   "junto": "Skang",
+   "nfac": 5,
+   "pob": 1997458,
+   "ctrl_n": "Order of Enblackenment",
+   "t": 1795126587
   }
  },
  "codice": [
@@ -26394,7 +26407,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795124825
+   "t": 1795126639
   },
   "Nergal": {
    "pos": [
@@ -26592,7 +26605,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795125800
+   "t": 1795127193
   },
   "Wolf 186": {
    "pos": [
@@ -27094,7 +27107,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795123717
+   "t": 1795126648
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -27629,6 +27642,40 @@
     "Zemina Torval"
    ],
    "t": 1795126024
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.373971,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795126554
+  },
+  "Yin Sector XZ-Y b2": {
+   "pos": [
+    -17.40625,
+    39.21875,
+    -80.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795126587
   }
  },
  "rivales": {

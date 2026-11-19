@@ -2899,7 +2899,8 @@
    },
    "rutas": {
     "2026-11-17": 3,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
    "prev": 46.12,
    "prev_t": 1794143086,
@@ -4799,7 +4800,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795103462,
+   "t": 1795112656,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4900,8 +4901,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Stronghold",
-    "prog": 0.043342,
-    "ref": 3542,
+    "prog": 0.046407,
+    "ref": 6607,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -4919,18 +4920,18 @@
     "2026-11-16": 12,
     "2026-11-17": 25,
     "2026-11-18": 39,
-    "2026-11-19": 6
+    "2026-11-19": 9
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795103675
+     "t": 1795112903
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795103675
+     "t": 1795112903
     }
    ],
    "pn": {
@@ -4940,7 +4941,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795103675,
+     "t": 1795112903,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -4950,13 +4951,13 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795103675,
+     "t": 1795112903,
      "d": 1795025641
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795103462,
+    "igual": 1795112656,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -4995,12 +4996,13 @@
     "1795032000": 1,
     "1795042800": 2,
     "1795089600": 1,
-    "1795100400": 1
+    "1795100400": 1,
+    "1795111200": 1
    },
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -5116,9 +5118,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795103738,
+     "t": 1795112974,
      "estado": "",
-     "ls": 3142,
+     "ls": 3141,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -5126,16 +5128,16 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795103745,
+      "t": 1795112980,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795103745,
+     "mods_t": 1795112980,
      "neg": {
-      "NoSpace": 19
+      "NoSpace": 20
      },
      "atq": {
       "2026-11-17": {
@@ -5147,8 +5149,8 @@
        "no": 1
       },
       "2026-11-19": {
-       "ok": 2,
-       "no": 0
+       "ok": 3,
+       "no": 1
       }
      }
     },
@@ -5748,9 +5750,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795045357,
+   "t": 1795109138,
    "src": "EDDN",
-   "inf": 86.63,
+   "inf": 87.72,
    "ctrl": true,
    "estado": "Boom",
    "activos": [
@@ -5762,12 +5764,12 @@
    ],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 9.48,
+   "segunda_inf": 8.68,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 86.63,
+     "inf": 87.72,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -5781,7 +5783,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 9.48,
+     "inf": 8.68,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -5790,7 +5792,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 3.89,
+     "inf": 3.59,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -5805,7 +5807,7 @@
     280.59375
    ],
    "sis": {
-    "pob": 63649164,
+    "pob": 67104863,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -5829,17 +5831,13 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 38
+    "2026-11-19": 40
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795045499,
+     "t": 1795109488,
      "d": 1794928703
-    },
-    "KBG-B1L": {
-     "n": "",
-     "t": 1794456932
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
@@ -5860,13 +5858,18 @@
      "n": "H.M.S GALACTUS",
      "t": 1794930574,
      "d": 1794930122
+    },
+    "BNW-9TV": {
+     "n": "EOC KODIAK",
+     "t": 1795109488,
+     "d": 1795109138
     }
    },
    "tk": {
-    "firma": "368753ce",
-    "igual": 1795045357,
-    "ult": 1795003151,
-    "desde": 1794974707,
+    "firma": "073a8bac",
+    "igual": 1795109138,
+    "ult": 1795105256,
+    "desde": 1795045357,
     "est": null,
     "vent": [
      [
@@ -5884,6 +5887,10 @@
      [
       1794974707,
       1795003151
+     ],
+     [
+      1795045357,
+      1795105256
      ]
     ],
     "hist": [
@@ -5893,7 +5900,8 @@
    "saltos": {
     "1794927600": 1,
     "1794970800": 1,
-    "1795006800": 1
+    "1795006800": 1,
+    "1795107600": 1
    },
    "rutas": {
     "2026-11-17": 2,
@@ -5903,12 +5911,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795053604,
+     "t": 1795113191,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795110339,
+      "t": 1795113231,
       "n": 366,
       "vende": [
        {
@@ -5928,8 +5936,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 556534,
-        "d": 36256
+        "p": 559216,
+        "d": 35977
        },
        {
         "n": "opal",
@@ -6003,8 +6011,8 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 3,
-       "no": 1
+       "ok": 9,
+       "no": 2
       }
      },
      "pads": {
@@ -6013,52 +6021,13 @@
       "Large": 9
      },
      "naves": [
-      "adder",
-      "anaconda",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
       "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
       "explorer_nx",
-      "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
-      "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "panthermkii"
      ],
-     "naves_t": 1795053611,
+     "naves_t": 1795109798,
      "neg": {
-      "Distance": 3
+      "Distance": 4
      },
      "mods": 827,
      "mods_t": 1795053611
@@ -6476,9 +6445,9 @@
     "Orbital Construction Site: Carlisle's Folly": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795053306,
+     "t": 1795112873,
      "estado": "",
-     "ls": 2661,
+     "ls": 2662,
      "pads": {
       "Small": 3,
       "Medium": 11,
@@ -6494,7 +6463,7 @@
      },
      "atq": {
       "2026-11-19": {
-       "ok": 2,
+       "ok": 7,
        "no": 0
       }
      }
@@ -6651,8 +6620,8 @@
      "naves_t": 1795052470
     }
    },
-   "prev": 83.33,
-   "prev_t": 1794974707,
+   "prev": 86.63,
+   "prev_t": 1795045357,
    "hinf": [
     [
      1794353391,
@@ -6689,17 +6658,21 @@
     [
      1795003151,
      86.63
+    ],
+    [
+     1795105256,
+     87.72
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 2,
+    "Caballeros de Sion": 3,
     "Natural Atese Front": 0,
     "Wolves of Jonai": 0
    },
    "rivales": [],
-   "tick_ult": 1795003151,
-   "tick_marg": 237,
-   "tick_prox": 1795047210,
+   "tick_ult": 1795105256,
+   "tick_marg": 499,
+   "tick_prox": 1795133610,
    "tick_disp": 6,
    "tick_n": 1
   },
@@ -13341,7 +13314,8 @@
     "igual": 1794413402
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    }
   },
   "Lyncis Sector JR-W c1-15": {
@@ -16674,34 +16648,32 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1794866694,
+   "t": 1795107643,
    "src": "EDDN",
-   "inf": 10.42,
+   "inf": 12.12,
    "ctrl": false,
    "estado": "Boom",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Wolves of Jonai",
-   "segunda_inf": 61.32,
+   "segunda_inf": 55.21,
    "conflictos": [],
    "todas": [
     {
      "n": "Wolves of Jonai",
-     "inf": 61.32,
+     "inf": 55.21,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Natural Atese Front",
-     "inf": 20.34,
+     "inf": 23.55,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -16710,16 +16682,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 10.42,
+     "inf": 12.12,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Atese Labour",
-     "inf": 7.92,
+     "inf": 9.12,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -16734,7 +16708,7 @@
     291.75
    ],
    "sis": {
-    "pob": 75408342,
+    "pob": 77562172,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -16752,19 +16726,21 @@
    "trafico": {
     "2026-11-14": 11,
     "2026-11-15": 12,
-    "2026-11-16": 29
+    "2026-11-16": 29,
+    "2026-11-19": 1
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1794866694
+     "t": 1795107643,
+     "d": 1795106312
     }
    },
    "tk": {
-    "firma": "de13a946",
-    "igual": 1794866694,
-    "ult": 1794843540,
-    "desde": 1794768035,
+    "firma": "82837543",
+    "igual": 1795107643,
+    "ult": 1795106312,
+    "desde": 1794866694,
     "vent": [
      [
       1794701554,
@@ -16773,8 +16749,11 @@
     ],
     "est": null
    },
-   "prev": 9.71,
-   "prev_t": 1794768035,
+   "saltos": {
+    "1795104000": 1
+   },
+   "prev": 10.42,
+   "prev_t": 1794866694,
    "hinf": [
     [
      1794695209,
@@ -16787,11 +16766,22 @@
     [
      1794843540,
      10.42
+    ],
+    [
+     1795106312,
+     12.12
     ]
    ],
-   "tick_ult": 1794843540,
-   "tick_marg": 629,
-   "tick_prox": 1794902070,
+   "rach": {
+    "Wolves of Jonai": 0,
+    "Natural Atese Front": 1,
+    "Caballeros de Sion": 1,
+    "Atese Labour": 1
+   },
+   "rivales": [],
+   "tick_ult": 1795106312,
+   "tick_marg": 1996,
+   "tick_prox": 1795161270,
    "tick_disp": 462,
    "tick_n": 0
   },
@@ -18233,9 +18223,9 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1795008025,
+   "t": 1795108709,
    "src": "EDDN",
-   "inf": 60.0,
+   "inf": 59.9,
    "ctrl": true,
    "estado": "Boom",
    "activos": [],
@@ -18244,12 +18234,12 @@
    ],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 20.0,
+   "segunda_inf": 20.1,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 60.0,
+     "inf": 59.9,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -18260,7 +18250,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 20.0,
+     "inf": 20.1,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -18293,7 +18283,7 @@
     291.34375
    ],
    "sis": {
-    "pob": 125101,
+    "pob": 188484,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -18309,14 +18299,26 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-18": 4
+    "2026-11-18": 4,
+    "2026-11-19": 1
+   },
+   "pn": {
+    "KBL-37L": {
+     "n": "EPICUS FUROR *CDSN*",
+     "t": 1795108709,
+     "d": 1795008025
+    }
    },
    "tk": {
-    "firma": "6930e4c4",
-    "igual": 1795008025
+    "firma": "cfce0db1",
+    "igual": 1795108709,
+    "ult": 1795107884,
+    "desde": 1795008025,
+    "est": null
    },
    "saltos": {
-    "1795006800": 1
+    "1795006800": 1,
+    "1795107600": 1
    },
    "rutas": {
     "2026-11-18": 1
@@ -18324,10 +18326,10 @@
    "estaciones": {
     "Lavoisier Settlement": {
      "f": "Caballeros de Sion",
-     "tipo": "SurfaceStation",
-     "t": 1794973871,
-     "estado": "Construction",
-     "ls": 3694,
+     "tipo": "AsteroidBase",
+     "t": 1795108709,
+     "estado": "",
+     "ls": 3693,
      "pads": {
       "Small": 4,
       "Medium": 8,
@@ -18441,7 +18443,13 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1794973879
+     "naves_t": 1794973879,
+     "atq": {
+      "2026-11-19": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     },
     "Orbital Construction Site: Asimov's Folly": {
      "f": "Brewer Corporation",
@@ -18457,23 +18465,27 @@
      "mid": 3962938626
     }
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 60.0,
+   "prev_t": 1795008025,
    "hinf": [
     [
      1794845358,
      60.0
+    ],
+    [
+     1795107884,
+     59.9
     ]
    ],
-   "rach": {},
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Natural Atese Front": 1,
+    "Atese Labour": 0,
+    "Atese Camorra": 0
+   },
    "rivales": [],
-   "pn": {
-    "KBL-37L": {
-     "n": "EPICUS FUROR *CDSN*",
-     "t": 1795008160,
-     "d": 1795008025
-    }
-   }
+   "tick_ult": 1795107884,
+   "tick_marg": 832
   },
   "Col 285 Sector TK-J b24-1": {
    "sys": "Col 285 Sector TK-J b24-1",
@@ -20910,11 +20922,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795111269.4724321,
-  "msgs": 183150,
-  "mios": 13
+  "ultimo": 1795112964.5854359,
+  "msgs": 199879,
+  "mios": 32
  },
- "t": 1795112459.7331965,
+ "t": 1795113351.643137,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21669,7 +21681,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795107358
+   "t": 1795112966
   },
   "LTT 740": {
    "pos": [
@@ -23385,7 +23397,7 @@
    "nfac": 6,
    "pob": 17138585,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794968864
+   "t": 1795110698
   },
   "Trianguli Sector AH-L a8-1": {
    "pos": [
@@ -23747,9 +23759,9 @@
    "ly": 16.6,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 340488649,
+   "pob": 340510348,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795044580
+   "t": 1795113347
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -25707,7 +25719,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.043342,
+   "prog": 0.046407,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -25715,7 +25727,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795103462
+   "t": 1795112656
   },
   "Chimechilo": {
    "pos": [
@@ -25741,7 +25753,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.375173,
+   "prog": 0.37545,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -25749,7 +25761,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795107358
+   "t": 1795112966
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -26473,6 +26485,55 @@
     "Jerome Archer"
    ],
    "t": 1795112402
+  },
+  "HIP 44811": {
+   "pos": [
+    132.84375,
+    -4.40625,
+    3.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.135998,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795112349
+  },
+  "Ross 23": {
+   "pos": [
+    -45.71875,
+    0.875,
+    -75.21875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.167692,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795110698
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.206,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795113347
   }
  }
 }

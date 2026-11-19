@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 35
+    "2026-11-19": 37
    },
    "pn": {
     "H5L-70M": {
@@ -5798,13 +5798,13 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795047325,
+     "t": 1795053604,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795047349,
-      "n": 366,
+      "t": 1795053611,
+      "n": 158,
       "vende": [
        {
         "n": "musgravite",
@@ -5888,7 +5888,7 @@
         "n": "syntheticfabrics",
         "p": 72,
         "m": 354,
-        "s": 19884707
+        "s": 19884710
        }
       ]
      },
@@ -5898,7 +5898,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 1,
+       "ok": 3,
        "no": 1
       }
      },
@@ -5908,14 +5908,55 @@
       "Large": 9
      },
      "naves": [
+      "adder",
+      "anaconda",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
       "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
       "explorer_nx",
-      "panthermkii"
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1795037449,
+     "naves_t": 1795053611,
      "neg": {
       "Distance": 3
-     }
+     },
+     "mods": 827,
+     "mods_t": 1795053611
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -20345,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 37315,
+  "msgs": 46769,
   "mios": 0
  },
- "t": 1795053322.409597,
+ "t": 1795054273.6721911,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21868,9 +21909,9 @@
    "ly": 19.7,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 5,
-   "pob": 159200,
+   "pob": 159209,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1794961555
+   "t": 1795053648
   },
   "Arnemil": {
    "pos": [
@@ -22299,7 +22340,7 @@
    "nfac": 4,
    "pob": 442155,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795001587
+   "t": 1795053926
   },
   "Hyades Sector PE-O b7-4": {
    "pos": [
@@ -22830,9 +22871,9 @@
    "ly": 7.3,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 2195528,
+   "pob": 2195593,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1794969838
+   "t": 1795054231
   },
   "Ceti Sector DL-X b1-5": {
    "pos": [
@@ -22988,7 +23029,7 @@
    "nfac": 5,
    "pob": 47337434,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795041870
+   "t": 1795053532
   },
   "Oisi": {
    "pos": [
@@ -24525,7 +24566,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795051492
+   "t": 1795053664
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -24687,6 +24728,87 @@
     "Jerome Archer"
    ],
    "t": 1795053294
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.102183,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795053532
+  },
+  "Col 285 Sector RY-W b16-1": {
+   "pos": [
+    128.46875,
+    -3.21875,
+    3.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795053648
+  },
+  "ICZ CV-Y c17": {
+   "pos": [
+    116.78125,
+    -102.25,
+    -16.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795053926
+  },
+  "Trianguli Sector AH-L a8-1": {
+   "pos": [
+    31.90625,
+    -35.375,
+    -43.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795054231
+  },
+  "Acokwa": {
+   "pos": [
+    -52.59375,
+    -2.90625,
+    -92.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.266575,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795054269
   }
  }
 }

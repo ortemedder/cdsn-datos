@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 7
+    "2026-11-19": 11
    },
    "pn": {
     "H5L-70M": {
@@ -5920,7 +5920,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795048834,
+     "t": 1795049515,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5930,7 +5930,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795048845,
+      "t": 1795049545,
       "n": 366,
       "vende": [
        {
@@ -6029,7 +6029,7 @@
        "no": 1
       },
       "2026-11-19": {
-       "ok": 2,
+       "ok": 4,
        "no": 1
       }
      },
@@ -19292,16 +19292,16 @@
   },
   "Kamilagro": {
    "sys": "Kamilagro",
-   "t": 1793466570,
-   "src": "EDDN",
+   "t": 1793987789,
+   "src": "EDSM",
    "inf": 51.73,
    "ctrl": true,
-   "estado": "Expansion",
+   "estado": "Boom",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Kamilagro Values Party",
    "segunda_inf": 16.98,
    "conflictos": [],
@@ -19312,8 +19312,10 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
-     "jug": null
+     "pend": [
+      "Expansion"
+     ],
+     "jug": true
     },
     {
      "n": "Kamilagro Values Party",
@@ -19322,18 +19324,18 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "CHIMERA",
      "inf": 12.04,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
-     "jug": null
+     "pend": [],
+     "jug": true
     },
     {
      "n": "Kamilagro Universal Group",
@@ -19342,7 +19344,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "Privateer's Alliance",
@@ -19351,7 +19353,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": true
     },
     {
      "n": "Traditional Kamilagro Dominion",
@@ -19360,7 +19362,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     },
     {
      "n": "Kamilagro Organisation",
@@ -19369,7 +19371,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": null
+     "jug": false
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -19398,6 +19400,12 @@
      "Jerome Archer"
     ]
    },
+   "tk": {
+    "firma": "794c607e",
+    "igual": 1793466570
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1793466570,
@@ -19405,11 +19413,7 @@
     ]
    ],
    "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "794c607e",
-    "igual": 1793466570
-   }
+   "rivales": []
   },
   "Hyades Sector UF-M b8-3": {
    "sys": "Hyades Sector UF-M b8-3",
@@ -20151,7 +20155,7 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 540,
+  "msgs": 523,
   "mios": 0
  },
  "t": 0,

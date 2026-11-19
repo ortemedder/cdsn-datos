@@ -4808,7 +4808,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795090676,
+   "t": 1795103462,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4909,8 +4909,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Stronghold",
-    "prog": 0.039892,
-    "ref": 92,
+    "prog": 0.043342,
+    "ref": 3542,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -4928,18 +4928,18 @@
     "2026-11-16": 12,
     "2026-11-17": 25,
     "2026-11-18": 39,
-    "2026-11-19": 3
+    "2026-11-19": 6
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795090933
+     "t": 1795103675
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795090933
+     "t": 1795103675
     }
    ],
    "pn": {
@@ -4949,7 +4949,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795090933,
+     "t": 1795103675,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -4959,13 +4959,13 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795090933,
+     "t": 1795103675,
      "d": 1795025641
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795090676,
+    "igual": 1795103462,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -5003,7 +5003,8 @@
     "1795024800": 1,
     "1795032000": 1,
     "1795042800": 2,
-    "1795089600": 1
+    "1795089600": 1,
+    "1795100400": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -5124,7 +5125,7 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795091000,
+     "t": 1795103738,
      "estado": "",
      "ls": 3142,
      "pads": {
@@ -5134,14 +5135,14 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795091006,
+      "t": 1795103745,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795091006,
+     "mods_t": 1795103745,
      "neg": {
       "NoSpace": 19
      },
@@ -5155,7 +5156,7 @@
        "no": 1
       },
       "2026-11-19": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -20202,6 +20203,9 @@
       ]
      }
     }
+   },
+   "rutas": {
+    "2026-11-19": 1
    }
   },
   "HIP 33282": {
@@ -20758,11 +20762,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795103300.476374,
-  "msgs": 39392,
-  "mios": 2
+  "ultimo": 1795103463.8737142,
+  "msgs": 52631,
+  "mios": 3
  },
- "t": 1795103418.1500144,
+ "t": 1795104259.218141,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21060,9 +21064,9 @@
    "ly": 4.9,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 3,
-   "pob": 371788,
+   "pob": 372720,
    "ctrl_n": "Ukrainian Pilots Federation",
-   "t": 1794885081
+   "t": 1795104252
   },
   "Col 285 Sector RY-W b16-4": {
    "pos": [
@@ -21517,7 +21521,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795097160
+   "t": 1795104160
   },
   "LTT 740": {
    "pos": [
@@ -25429,6 +25433,72 @@
     "Jerome Archer"
    ],
    "t": 1795103105
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.043342,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795103462
+  },
+  "Chimechilo": {
+   "pos": [
+    20.8125,
+    -84.875,
+    -12.90625
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.260212,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795103566
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.375076,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795104160
+  },
+  "Ceti Sector AV-Y c22": {
+   "pos": [
+    7.84375,
+    -100.09375,
+    -51.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795104252
   }
  }
 }

@@ -20587,10 +20587,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795096525.3609343,
-  "msgs": 8742,
+  "msgs": 17099,
   "mios": 1
  },
- "t": 1795096564.175572,
+ "t": 1795097294.8705733,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21345,7 +21345,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795096558
+   "t": 1795097160
   },
   "LTT 740": {
    "pos": [
@@ -25106,7 +25106,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.373978,
+   "prog": 0.374017,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -25114,7 +25114,40 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795096558
+   "t": 1795097160
+  },
+  "Meeneratii": {
+   "pos": [
+    141.34375,
+    -9.28125,
+    10.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795096984
+  },
+  "Mwamen": {
+   "pos": [
+    -6.125,
+    -88.65625,
+    -15.59375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.249538,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795097289
   }
  }
 }

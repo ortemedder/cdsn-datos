@@ -20386,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 81798,
+  "msgs": 90312,
   "mios": 0
  },
- "t": 1795057817.5765305,
+ "t": 1795058768.5269103,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20492,9 +20492,9 @@
    "ly": 17.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 219690,
+   "pob": 219701,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1794948760
+   "t": 1795057471
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -24226,6 +24226,19 @@
    "pob": 1684616,
    "ctrl_n": "East India Company",
    "t": 1795054619
+  },
+  "Col 285 Sector XJ-R a34-4": {
+   "pos": [
+    150.3125,
+    -26.3125,
+    16.46875
+   ],
+   "ly": 17.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1630104,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795058363
   }
  },
  "codice": [
@@ -25080,6 +25093,57 @@
     "Zemina Torval"
    ],
    "t": 1795057801
+  },
+  "Tau-6 Eridani": {
+   "pos": [
+    22.46875,
+    -43.9375,
+    -29.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795057471
+  },
+  "Col 285 Sector XJ-R a34-4": {
+   "pos": [
+    150.3125,
+    -26.3125,
+    16.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795058363
+  },
+  "Mwamen": {
+   "pos": [
+    -6.125,
+    -88.65625,
+    -15.59375
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.249523,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795058639
   }
  }
 }

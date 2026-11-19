@@ -5870,7 +5870,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 84
+    "2026-11-19": 94
    },
    "pn": {
     "H5L-70M": {
@@ -5950,12 +5950,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795124863,
+     "t": 1795126218,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795124928,
+      "t": 1795126263,
       "n": 366,
       "vende": [
        {
@@ -5975,8 +5975,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559296,
-        "d": 35982
+        "p": 559311,
+        "d": 35983
        },
        {
         "n": "opal",
@@ -6050,7 +6050,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 25,
+       "ok": 27,
        "no": 3
       }
      },
@@ -6103,12 +6103,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795124869,
+     "naves_t": 1795126224,
      "neg": {
       "Distance": 5
      },
      "mods": 807,
-     "mods_t": 1795124869
+     "mods_t": 1795126224
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6703,7 +6703,7 @@
     "Planetary Construction Site: Delaunay Vista": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795125251,
+     "t": 1795125951,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -6713,7 +6713,7 @@
      },
      "mid": 4404677379,
      "mer": {
-      "t": 1795125258,
+      "t": 1795125957,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -6721,7 +6721,7 @@
      },
      "atq": {
       "2026-11-19": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
      }
@@ -7629,7 +7629,7 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1795108707,
+   "t": 1795125007,
    "src": "EDDN",
    "inf": 12.73,
    "ctrl": false,
@@ -7715,11 +7715,11 @@
     "2026-11-14": 1,
     "2026-11-15": 3,
     "2026-11-16": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "tk": {
     "firma": "bca96df7",
-    "igual": 1795108707,
+    "igual": 1795125007,
     "ult": 1794711459,
     "desde": 1794644442,
     "vent": [
@@ -7731,7 +7731,8 @@
     "est": null
    },
    "saltos": {
-    "1795107600": 1
+    "1795107600": 1,
+    "1795122000": 1
    },
    "rutas": {
     "2026-11-17": 2,
@@ -7755,7 +7756,8 @@
    "tick_marg": 558,
    "tick_prox": 1794764280,
    "tick_disp": 558,
-   "tick_n": 0
+   "tick_n": 0,
+   "cseg": {}
   },
   "Hyades Sector TK-M b8-3": {
    "sys": "Hyades Sector TK-M b8-3",
@@ -21416,11 +21418,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795125259.6899204,
-  "msgs": 229964,
-  "mios": 24
+  "ultimo": 1795125579.996327,
+  "msgs": 246685,
+  "mios": 25
  },
- "t": 1795125351.9815898,
+ "t": 1795126274.384084,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22136,7 +22138,7 @@
    "nfac": 4,
    "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795123708
+   "t": 1795125800
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -22643,7 +22645,7 @@
    "nfac": 5,
    "pob": 106684658,
    "ctrl_n": "The Winged Hussars",
-   "t": 1795115588
+   "t": 1795125914
   },
   "Arietis Sector LN-S b4-5": {
    "pos": [
@@ -25959,6 +25961,32 @@
    "pob": 199938,
    "ctrl_n": "Civitas Dei",
    "t": 1795109958
+  },
+  "Ceti Sector KX-T b3-4": {
+   "pos": [
+    6.0625,
+    -101.96875,
+    -19.53125
+   ],
+   "ly": 12.9,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 2047571,
+   "ctrl_n": "Imperial Self Defense Force",
+   "t": 1795125010
+  },
+  "Col 285 Sector RD-T a33-3": {
+   "pos": [
+    131.15625,
+    -31.46875,
+    11.40625
+   ],
+   "ly": 18.3,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 42590,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795126024
   }
  },
  "codice": [
@@ -26531,7 +26559,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795115588
+   "t": 1795125914
   },
   "LHS 1651": {
    "pos": [
@@ -26564,7 +26592,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795123708
+   "t": 1795125800
   },
   "Wolf 186": {
    "pos": [
@@ -27539,6 +27567,68 @@
     "Jerome Archer"
    ],
    "t": 1795109958
+  },
+  "Ceti Sector KX-T b3-4": {
+   "pos": [
+    6.0625,
+    -101.96875,
+    -19.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795125010
+  },
+  "Col 285 Sector YZ-U b17-3": {
+   "pos": [
+    136.46875,
+    -15,
+    17.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795125007
+  },
+  "Toxanda": {
+   "pos": [
+    -32.59375,
+    34.96875,
+    -89.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795125846
+  },
+  "Col 285 Sector RD-T a33-3": {
+   "pos": [
+    131.15625,
+    -31.46875,
+    11.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795126024
   }
  },
  "rivales": {

@@ -20396,10 +20396,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795065562.6495278,
-  "msgs": 50371,
+  "msgs": 57154,
   "mios": 1
  },
- "t": 1795066473.268631,
+ "t": 1795067494.5406356,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20517,7 +20517,7 @@
    "nfac": 4,
    "pob": 1998019,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1794992758
+   "t": 1795067492
   },
   "Dakvar": {
    "pos": [
@@ -20543,7 +20543,7 @@
    "nfac": 4,
    "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795066455
+   "t": 1795067118
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -22623,7 +22623,7 @@
    "nfac": 6,
    "pob": 5680814,
    "ctrl_n": "Brotherhood of Terra Mater",
-   "t": 1795065699
+   "t": 1795067179
   },
   "Col 285 Sector YJ-N b8-2": {
    "pos": [
@@ -23117,7 +23117,7 @@
    "nfac": 5,
    "pob": 7803964,
    "ctrl_n": "Nagii Union",
-   "t": 1794989143
+   "t": 1795067359
   },
   "Otohiko": {
    "pos": [
@@ -23312,7 +23312,7 @@
    "nfac": 4,
    "pob": 222268,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795006648
+   "t": 1795066893
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -24353,6 +24353,19 @@
    "pob": 2194669,
    "ctrl_n": "Pikum Public Group",
    "t": 1795063157
+  },
+  "Lyncis Sector FG-Y d92": {
+   "pos": [
+    -42.53125,
+    32.53125,
+    -146.90625
+   ],
+   "ly": 17.9,
+   "junto": "Windizetet",
+   "nfac": 3,
+   "pob": 4092876,
+   "ctrl_n": "Black Hand of Orion",
+   "t": 1795067308
   }
  },
  "codice": [
@@ -24689,7 +24702,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795066455
+   "t": 1795067118
   },
   "Ceti Sector HR-V b2-0": {
    "pos": [
@@ -24900,7 +24913,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795065699
+   "t": 1795067179
   },
   "Brians": {
    "pos": [
@@ -24964,6 +24977,104 @@
     "Jerome Archer"
    ],
    "t": 1795063157
+  },
+  "HIP 47490": {
+   "pos": [
+    132.34375,
+    -18.40625,
+    31.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795066846
+  },
+  "HIP 47625": {
+   "pos": [
+    138.46875,
+    -5.34375,
+    21.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795066893
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.265855,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795067309
+  },
+  "Lyncis Sector FG-Y d92": {
+   "pos": [
+    -42.53125,
+    32.53125,
+    -146.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795067308
+  },
+  "Ariameni": {
+   "pos": [
+    -42.03125,
+    35.53125,
+    -143.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256175,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795067359
+  },
+  "Tascheter Sector FR-M a7-2": {
+   "pos": [
+    17.0625,
+    -34.09375,
+    -33.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.057106,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795067492
   }
  }
 }

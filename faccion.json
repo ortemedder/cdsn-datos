@@ -20753,11 +20753,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795099417.8505743,
-  "msgs": 32810,
-  "mios": 5
+  "ultimo": 0,
+  "msgs": 717,
+  "mios": 0
  },
- "t": 1795100381.2685657,
+ "t": 1795100715.179471,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -24880,6 +24880,19 @@
    "pob": 1377010,
    "ctrl_n": "Federal Freedom Party",
    "t": 1795096381
+  },
+  "Lalande 15290": {
+   "pos": [
+    15.53125,
+    42.46875,
+    -83.65625
+   ],
+   "ly": 13.2,
+   "junto": "Lati",
+   "nfac": 1,
+   "pob": 274057643,
+   "ctrl_n": "Civitas Dei",
+   "t": 1795100706
   }
  },
  "codice": [
@@ -25115,172 +25128,22 @@
  },
  "thargoides": {},
  "zona": {
-  "Ceti Sector PD-S b4-3": {
+  "Lalande 15290": {
    "pos": [
-    18.8125,
-    -98.15625,
-    -3.84375
-   ],
-   "pot": "Pranav Antal",
-   "est": "Exploited",
-   "prog": 0.171426,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Zemina Torval"
-   ],
-   "t": 1795097782
-  },
-  "Tascheter Sector AA-Z b4": {
-   "pos": [
-    29.9375,
-    -3.8125,
-    -92.34375
-   ],
-   "pot": "Aisling Duval",
-   "est": "Exploited",
-   "prog": 0.059997,
-   "pots": [
-    "Aisling Duval",
-    "Li Yong-Rui"
-   ],
-   "t": 1795097902
-  },
-  "Cariangan": {
-   "pos": [
-    1.1875,
-    -93.21875,
-    -40.15625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.258641,
-   "pots": [
-    "Li Yong-Rui"
-   ],
-   "t": 1795097725
-  },
-  "Yax Balam": {
-   "pos": [
-    -23.53125,
-    -22.5625,
-    -95.34375
-   ],
-   "pot": "Zemina Torval",
-   "est": "Exploited",
-   "prog": 0.251832,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval"
-   ],
-   "t": 1795098533
-  },
-  "Chan Mina": {
-   "pos": [
-    -3.65625,
-    19.6875,
-    -101.5
-   ],
-   "pot": "Aisling Duval",
-   "est": "Exploited",
-   "prog": 0.284832,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795096071
-  },
-  "Catun": {
-   "pos": [
-    -4.71875,
-    25.625,
-    -105.0625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Fortified",
-   "prog": 0.252575,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795098996
-  },
-  "Yin Sector WO-A b1": {
-   "pos": [
-    -0.3125,
-    20.65625,
-    -89.03125
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.070283,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795099124
-  },
-  "Hyades Sector UF-M b8-2": {
-   "pos": [
-    -11.625,
-    29.9375,
-    -103.90625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.199426,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795099195
-  },
-  "Jardovici": {
-   "pos": [
-    -7.78125,
-    -86.53125,
-    -9.3125
-   ],
-   "pot": "Pranav Antal",
-   "est": "Fortified",
-   "prog": 0.251914,
-   "pots": [
-    "Archon Delaine",
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Zemina Torval"
-   ],
-   "t": 1795100374
-  },
-  "Mankul": {
-   "pos": [
-    12,
-    -120.1875,
-    -61
+    15.53125,
+    42.46875,
+    -83.65625
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.250634,
+   "prog": 0.0778,
    "pots": [
-    "A. Lavigny-Duval",
-    "Denton Patreus",
-    "Li Yong-Rui"
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
    ],
-   "t": 1795100532
+   "t": 1795100706
   }
  }
 }

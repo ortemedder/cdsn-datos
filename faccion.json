@@ -20396,10 +20396,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 381,
+  "msgs": 3668,
   "mios": 0
  },
- "t": 0,
+ "t": 1795071430.4017723,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21102,7 +21102,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795069117
+   "t": 1795071231
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -22779,7 +22779,7 @@
    "nfac": 4,
    "pob": 3173178,
    "ctrl_n": "EXO",
-   "t": 1795070551
+   "t": 1795071129
   },
   "Prom Du": {
    "pos": [
@@ -23884,7 +23884,7 @@
    "nfac": 4,
    "pob": 2000161,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795070138
+   "t": 1795071425
   },
   "LP 365-24": {
    "pos": [
@@ -24589,5 +24589,58 @@
    }
   ]
  },
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "Trianguli Sector XA-N a7-1": {
+   "pos": [
+    37.28125,
+    -38.3125,
+    -47.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.272892,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795071129
+  },
+  "Wo 9203": {
+   "pos": [
+    11,
+    7.8125,
+    -135.25
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.032766,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795071231
+  },
+  "Trianguli Sector ZL-L a8-2": {
+   "pos": [
+    38.15625,
+    -34.59375,
+    -43.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.022283,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795071425
+  }
+ }
 }

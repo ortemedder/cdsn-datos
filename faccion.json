@@ -1776,7 +1776,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1795082763,
+   "t": 1795111268,
    "src": "EDDN",
    "inf": 12.28,
    "ctrl": false,
@@ -1853,8 +1853,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Stronghold",
-    "prog": 0.255384,
-    "ref": 0,
+    "prog": 0.258009,
+    "ref": 2625,
     "soc": 1416,
     "pots": [
      "Aisling Duval",
@@ -1871,7 +1871,7 @@
     "2026-11-16": 2,
     "2026-11-17": 16,
     "2026-11-18": 55,
-    "2026-11-19": 5
+    "2026-11-19": 6
    },
    "zc": [
     {
@@ -2366,7 +2366,7 @@
    },
    "tk": {
     "firma": "7ff3f008",
-    "igual": 1795082763,
+    "igual": 1795111268,
     "ult": 1794886163,
     "desde": 1794844632,
     "est": null,
@@ -20905,11 +20905,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795109845.5676496,
-  "msgs": 155419,
-  "mios": 12
+  "ultimo": 1795111269.4724321,
+  "msgs": 169413,
+  "mios": 13
  },
- "t": 1795110487.7633073,
+ "t": 1795111278.3584723,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -22130,9 +22130,9 @@
    "ly": 9.6,
    "junto": "Eluskapu",
    "nfac": 5,
-   "pob": 106669403,
+   "pob": 106684658,
    "ctrl_n": "The Winged Hussars",
-   "t": 1795027677
+   "t": 1795111177
   },
   "Arietis Sector LN-S b4-5": {
    "pos": [
@@ -26352,6 +26352,55 @@
     "Li Yong-Rui"
    ],
    "t": 1795110373
+  },
+  "Hyades Sector SK-M b8-3": {
+   "pos": [
+    -21.34375,
+    37.34375,
+    -96.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.086855,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795111177
+  },
+  "Yukpenon": {
+   "pos": [
+    10.40625,
+    4.0625,
+    -132.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795103088
+  },
+  "Hyades Sector DB-X d1-112": {
+   "pos": [
+    9.28125,
+    15.40625,
+    -114.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.258009,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795111268
   }
  }
 }

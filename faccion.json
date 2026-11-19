@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 23
+    "2026-11-19": 29
    },
    "pn": {
     "H5L-70M": {
@@ -6286,12 +6286,18 @@
       "explorer_nx",
       "panthermkii"
      ],
-     "naves_t": 1795008987
+     "naves_t": 1795008987,
+     "atq": {
+      "2026-11-19": {
+       "ok": 2,
+       "no": 0
+      }
+     }
     },
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795050912,
+     "t": 1795051944,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -6306,7 +6312,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 7,
+       "ok": 9,
        "no": 0
       }
      },
@@ -6314,12 +6320,183 @@
       "Distance": 2
      },
      "mer": {
-      "t": 1795050918,
+      "t": 1795051951,
       "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      }
+    },
+    "Orbital Construction Site: Carlisle's Folly": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795052143,
+     "estado": "",
+     "ls": 2661,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3966235650,
+     "mer": {
+      "t": 1795052150,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     }
+    },
+    "Tanaka Enterprise": {
+     "f": "Caballeros de Sion",
+     "tipo": "SurfaceStation",
+     "t": 1795052463,
+     "estado": "Construction",
+     "ls": 2658,
+     "pads": {
+      "Small": 10,
+      "Medium": 12,
+      "Large": 7
+     },
+     "mid": 4404481539,
+     "mer": {
+      "t": 1795052470,
+      "n": 366,
+      "vende": [
+       {
+        "n": "musgravite",
+        "p": 567365,
+        "d": 16
+       },
+       {
+        "n": "serendibite",
+        "p": 464023,
+        "d": 16
+       },
+       {
+        "n": "grandidierite",
+        "p": 458141,
+        "d": 16
+       },
+       {
+        "n": "benitoite",
+        "p": 456360,
+        "d": 16
+       },
+       {
+        "n": "opal",
+        "p": 437562,
+        "d": 19
+       }
+      ],
+      "alta": [
+       {
+        "n": "animalmonitors",
+        "p": 3594,
+        "m": 522
+       },
+       {
+        "n": "conductivefabrics",
+        "p": 4058,
+        "m": 666
+       },
+       {
+        "n": "osmium",
+        "p": 234657,
+        "m": 44051
+       },
+       {
+        "n": "militarygradefabrics",
+        "p": 4610,
+        "m": 899
+       },
+       {
+        "n": "platinum",
+        "p": 264541,
+        "m": 55505
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 10287
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 226035
+       },
+       {
+        "n": "scrap",
+        "p": 64,
+        "m": 276,
+        "s": 53270
+       },
+       {
+        "n": "basicmedicines",
+        "p": 171,
+        "m": 489,
+        "s": 23126
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 160,
+        "m": 447,
+        "s": 338759
+       }
+      ]
+     },
+     "mods": 908,
+     "mods_t": 1795052470,
+     "naves": [
+      "adder",
+      "anaconda",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "explorer_nx",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
+     ],
+     "naves_t": 1795052470
     }
    },
    "prev": 83.33,
@@ -20162,10 +20339,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 18490,
+  "msgs": 28190,
   "mios": 0
  },
- "t": 1795051589.6346219,
+ "t": 1795052481.218606,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21011,7 +21188,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1795050313
+   "t": 1795052267
   },
   "LTT 606": {
    "pos": [
@@ -22168,7 +22345,7 @@
    "nfac": 4,
    "pob": 1594391,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795049802
+   "t": 1795051859
   },
   "Loki Tan": {
    "pos": [
@@ -23963,6 +24140,19 @@
    "pob": 412019,
    "ctrl_n": "Ukrainian Pilots Federation",
    "t": 1795051266
+  },
+  "Hyades Sector VA-M b8-1": {
+   "pos": [
+    -40.25,
+    -3.59375,
+    -103.59375
+   ],
+   "ly": 9.9,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 4,
+   "pob": 48882719,
+   "ctrl_n": "Radiant Ruby Control Cooperative",
+   "t": 1795052004
   }
  },
  "codice": [
@@ -24204,7 +24394,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795049802
+   "t": 1795051859
   },
   "Exigus": {
    "pos": [
@@ -24283,7 +24473,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795050313
+   "t": 1795052267
   },
   "NLTT 16389": {
    "pos": [
@@ -24349,7 +24539,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795051057
+   "t": 1795051759
   },
   "HIP 20606": {
    "pos": [
@@ -24396,6 +24586,39 @@
     "Pranav Antal"
    ],
    "t": 1795051266
+  },
+  "Hyades Sector VA-M b8-1": {
+   "pos": [
+    -40.25,
+    -3.59375,
+    -103.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795052004
+  },
+  "LTT 1015": {
+   "pos": [
+    -0.84375,
+    -110.46875,
+    -38.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795052152
   }
  }
 }

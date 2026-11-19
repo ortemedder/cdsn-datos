@@ -18770,7 +18770,8 @@
     "1795017600": 1
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
    "prev": null,
    "prev_t": null,
@@ -20857,10 +20858,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795105076.1524262,
-  "msgs": 65367,
+  "msgs": 80765,
   "mios": 7
  },
- "t": 1795105210.710009,
+ "t": 1795106031.1832194,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -23461,7 +23462,7 @@
    "nfac": 5,
    "pob": 12784480,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795065187
+   "t": 1795106023
   },
   "Trianguli Sector BQ-Y c15": {
    "pos": [
@@ -25697,6 +25698,21 @@
     "Pranav Antal"
    ],
    "t": 1795105203
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1795106023
   }
  }
 }

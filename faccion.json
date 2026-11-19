@@ -20385,10 +20385,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 8033,
+  "msgs": 15427,
   "mios": 0
  },
- "t": 1795061188.946601,
+ "t": 1795061629.2359726,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20532,7 +20532,7 @@
    "nfac": 4,
    "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795056510
+   "t": 1795056820
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -24264,6 +24264,19 @@
    "pob": 118217529,
    "ctrl_n": "Nagii Union",
    "t": 1795058518
+  },
+  "Ceti Sector HR-V b2-0": {
+   "pos": [
+    18.625,
+    -101.0625,
+    -40.0625
+   ],
+   "ly": 17.8,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 4,
+   "pob": 2160802,
+   "ctrl_n": "East India Company",
+   "t": 1795061623
   }
  },
  "codice": [
@@ -24569,6 +24582,54 @@
     "Zemina Torval"
    ],
    "t": 1795061176
+  },
+  "Wawal": {
+   "pos": [
+    35.5625,
+    -1.3125,
+    -93.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.037572,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795061191
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177706,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795056820
+  },
+  "Ceti Sector HR-V b2-0": {
+   "pos": [
+    18.625,
+    -101.0625,
+    -40.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795061623
   }
  }
 }

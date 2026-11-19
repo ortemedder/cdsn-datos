@@ -20754,10 +20754,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 717,
+  "msgs": 11570,
   "mios": 0
  },
- "t": 1795100715.179471,
+ "t": 1795101535.779378,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20849,7 +20849,7 @@
    "nfac": 6,
    "pob": 5061479,
    "ctrl_n": "East India Company",
-   "t": 1795041997
+   "t": 1795100786
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -24801,7 +24801,7 @@
    "nfac": 3,
    "pob": 444820969,
    "ctrl_n": "Green Party of BD+27 1356",
-   "t": 1795092851
+   "t": 1795100794
   },
   "Galibi": {
    "pos": [
@@ -24893,6 +24893,19 @@
    "pob": 274057643,
    "ctrl_n": "Civitas Dei",
    "t": 1795100706
+  },
+  "Lyncis Sector FG-Y d90": {
+   "pos": [
+    -32.8125,
+    44.46875,
+    -125.375
+   ],
+   "ly": 9.2,
+   "junto": "Kamilagro",
+   "nfac": 3,
+   "pob": 114090419,
+   "ctrl_n": "CHIMERA",
+   "t": 1795101522
   }
  },
  "codice": [
@@ -25144,6 +25157,71 @@
     "Jerome Archer"
    ],
    "t": 1795100706
+  },
+  "Ao Kuang": {
+   "pos": [
+    -20.25,
+    52.25,
+    -117.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.245,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795100776
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.199028,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795100786
+  },
+  "Hyades Sector QE-O b7-0": {
+   "pos": [
+    27.15625,
+    41.53125,
+    -109.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795100794
+  },
+  "Lyncis Sector FG-Y d90": {
+   "pos": [
+    -32.8125,
+    44.46875,
+    -125.375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.0706,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795101522
   }
  }
 }

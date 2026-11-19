@@ -18734,7 +18734,7 @@
   },
   "Windizetet": {
    "sys": "Windizetet",
-   "t": 1794950211,
+   "t": 1795084153,
    "src": "EDDN",
    "inf": 15.94,
    "ctrl": false,
@@ -18811,9 +18811,7 @@
      "inf": 1.49,
      "gov": "Anarchy",
      "alg": "Independent",
-     "act": [
-      "Bust"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     }
@@ -18843,6 +18841,23 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-17": 1,
+    "2026-11-19": 1
+   },
+   "tk": {
+    "firma": "a2f0d4c9",
+    "igual": 1795084153
+   },
+   "saltos": {
+    "1794949200": 1,
+    "1795082400": 1
+   },
+   "rutas": {
+    "2026-11-19": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794950211,
@@ -18850,17 +18865,7 @@
     ]
    ],
    "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "a2f0d4c9",
-    "igual": 1794950211
-   },
-   "trafico": {
-    "2026-11-17": 1
-   },
-   "saltos": {
-    "1794949200": 1
-   }
+   "rivales": []
   },
   "Col 285 Sector NY-Q c5-8": {
    "sys": "Col 285 Sector NY-Q c5-8",
@@ -20461,11 +20466,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795083537.9916322,
-  "msgs": 12657,
-  "mios": 6
+  "ultimo": 1795084154.2300205,
+  "msgs": 19823,
+  "mios": 7
  },
- "t": 1795083825.2724824,
+ "t": 1795084736.1397085,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20739,7 +20744,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795083515
+   "t": 1795084145
   },
   "LTT 10918": {
    "pos": [
@@ -20882,7 +20887,7 @@
    "nfac": 6,
    "pob": 3455292694,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795041673
+   "t": 1795084729
   },
   "HJ 3456B": {
    "pos": [
@@ -23103,9 +23108,9 @@
    "ly": 19.8,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 47337434,
+   "pob": 47349348,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795053532
+   "t": 1795084334
   },
   "Oisi": {
    "pos": [
@@ -24463,6 +24468,16 @@
  "codice": [
   {
    "sys": "HIP 46236",
+   "n": "Bacterial 01 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 e",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795084414
+  },
+  {
+   "sys": "HIP 46236",
    "n": "Stratum 02 F",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -24520,16 +24535,6 @@
    "junto": "Arietis Sector CQ-Y d60",
    "ly": 16.6,
    "t": 1795032957
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Bacterial 01 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 d",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795029781
   },
   {
    "sys": "Cosi",
@@ -24945,7 +24950,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795083515
+   "t": 1795084145
   },
   "Furuhjelm II-431": {
    "pos": [
@@ -25014,6 +25019,73 @@
     "Li Yong-Rui"
    ],
    "t": 1795083805
+  },
+  "Shokwa": {
+   "pos": [
+    15.15625,
+    -33.125,
+    -41.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252678,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795084029
+  },
+  "Windizetet": {
+   "pos": [
+    -45.125,
+    24.0625,
+    -131.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.234855,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795084153
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795084334
+  },
+  "9 Aurigae": {
+   "pos": [
+    -32.75,
+    10.5,
+    -78.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795084729
   }
  }
 }

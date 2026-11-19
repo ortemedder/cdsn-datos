@@ -20385,10 +20385,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 280,
+  "msgs": 5217,
   "mios": 0
  },
- "t": 0,
+ "t": 1795081660.8173006,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20909,7 +20909,7 @@
    "nfac": 6,
    "pob": 450009,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795045870
+   "t": 1795081600
   },
   "Decima": {
    "pos": [
@@ -24591,5 +24591,41 @@
    }
   ]
  },
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "LTT 11383": {
+   "pos": [
+    -25.1875,
+    -14.5,
+    -81.84375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.244569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795081600
+  },
+  "LTT 11503": {
+   "pos": [
+    -10.5,
+    -13,
+    -70.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795081650
+  }
+ }
 }

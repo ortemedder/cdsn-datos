@@ -2925,7 +2925,7 @@
    "trafico": {
     "2026-11-16": 1,
     "2026-11-17": 1,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "tk": {
     "firma": "85b2cd62",
@@ -2970,17 +2970,17 @@
     "La Coman": {
      "f": "THE AZGHARIE",
      "tipo": "Coriolis",
-     "t": 1795129165,
+     "t": 1795130356,
      "estado": "",
      "ls": 5,
      "pads": {
-      "Small": 4,
-      "Medium": 12,
-      "Large": 7
+      "Small": 9,
+      "Medium": 11,
+      "Large": 6
      },
      "mid": 4358624771,
      "mer": {
-      "t": 1795129176,
+      "t": 1795130367,
       "n": 62,
       "vende": [
        {
@@ -3055,7 +3055,13 @@
       "sidewinder",
       "type6"
      ],
-     "naves_t": 1795129172
+     "naves_t": 1795129172,
+     "atq": {
+      "2026-11-19": {
+       "ok": 2,
+       "no": 0
+      }
+     }
     }
    }
   },
@@ -6070,7 +6076,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795121801,
+   "t": 1795130564,
    "src": "EDDN",
    "inf": 87.72,
    "ctrl": true,
@@ -6153,7 +6159,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 112
+    "2026-11-19": 120
    },
    "pn": {
     "H5L-70M": {
@@ -6189,7 +6195,7 @@
    },
    "tk": {
     "firma": "073a8bac",
-    "igual": 1795121801,
+    "igual": 1795130564,
     "ult": 1795105256,
     "desde": 1795045357,
     "est": null,
@@ -6233,38 +6239,38 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795127614,
+     "t": 1795130564,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795127628,
+      "t": 1795130813,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
         "p": 694266,
-        "d": 36256
+        "d": 47705
        },
        {
         "n": "serendibite",
         "p": 570948,
-        "d": 36256
+        "d": 47705
        },
        {
         "n": "benitoite",
         "p": 567114,
-        "d": 36256
+        "d": 47705
        },
        {
         "n": "grandidierite",
-        "p": 559327,
-        "d": 35984
+        "p": 559352,
+        "d": 47349
        },
        {
         "n": "opal",
         "p": 552666,
-        "d": 14805
+        "d": 19237
        }
       ],
       "alta": [
@@ -6299,19 +6305,13 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 530409
-       },
-       {
-        "n": "foodcartridges",
-        "p": 33,
-        "m": 252,
-        "s": 280790
+        "s": 658478
        },
        {
         "n": "polymers",
         "p": 43,
         "m": 306,
-        "s": 2994396
+        "s": 3881880
        },
        {
         "n": "algae",
@@ -6323,7 +6323,13 @@
         "n": "syntheticfabrics",
         "p": 72,
         "m": 354,
-        "s": 20039465
+        "s": 26312680
+       },
+       {
+        "n": "water",
+        "p": 69,
+        "m": 260,
+        "s": 2080490
        }
       ]
      },
@@ -6333,7 +6339,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 29,
+       "ok": 31,
        "no": 3
       }
      },
@@ -6343,55 +6349,16 @@
       "Large": 9
      },
      "naves": [
-      "adder",
-      "anaconda",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
       "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
       "explorer_nx",
-      "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
-      "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "panthermkii"
      ],
-     "naves_t": 1795127620,
+     "naves_t": 1795130797,
      "neg": {
       "Distance": 5
      },
-     "mods": 807,
-     "mods_t": 1795127620
+     "mods": 821,
+     "mods_t": 1795130531
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6994,7 +6961,7 @@
     "Planetary Construction Site: Delaunay Vista": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795128466,
+     "t": 1795130255,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -7004,15 +6971,15 @@
      },
      "mid": 4404677379,
      "mer": {
-      "t": 1795128474,
-      "n": 4,
+      "t": 1795130262,
+      "n": 9,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-19": {
-       "ok": 12,
+       "ok": 14,
        "no": 0
       }
      }
@@ -21709,11 +21676,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795128992.7565646,
-  "msgs": 299177,
-  "mios": 27
+  "ultimo": 1795130565.0842857,
+  "msgs": 311006,
+  "mios": 28
  },
- "t": 1795129852.2509336,
+ "t": 1795130814.8335395,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21857,7 +21824,7 @@
    "nfac": 4,
    "pob": 190618746,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795124981
+   "t": 1795127760
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -21935,7 +21902,7 @@
    "nfac": 5,
    "pob": 2805836,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795128943
+   "t": 1795130621
   },
   "LHS 1499": {
    "pos": [
@@ -22141,9 +22108,9 @@
    "ly": 15.1,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 125854,
+   "pob": 127663,
    "ctrl_n": "Radius Group Inc",
-   "t": 1794889127
+   "t": 1795129943
   },
   "Unktock": {
    "pos": [
@@ -22195,7 +22162,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795126639
+   "t": 1795130156
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -26160,7 +26127,7 @@
    "nfac": 4,
    "pob": 159010,
    "ctrl_n": "Sirius Corporation",
-   "t": 1795121293
+   "t": 1795129976
   },
   "Ceti Sector BL-X b1-0": {
    "pos": [
@@ -26604,7 +26571,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795124981
+   "t": 1795127760
   },
   "Bakuari": {
    "pos": [
@@ -26737,7 +26704,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795126639
+   "t": 1795130156
   },
   "Nergal": {
    "pos": [
@@ -27491,7 +27458,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.251832,
+   "prog": 0.255129,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
@@ -27499,7 +27466,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795121293
+   "t": 1795129976
   },
   "Epsilon Sculptoris": {
    "pos": [
@@ -28168,7 +28135,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795128943
+   "t": 1795130621
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -28282,6 +28249,39 @@
     "Jerome Archer"
    ],
    "t": 1795129664
+  },
+  "HJ 3456B": {
+   "pos": [
+    4.65625,
+    -102.625,
+    -24.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795129943
+  },
+  "Guei": {
+   "pos": [
+    9.375,
+    19.28125,
+    -97
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.166855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795130518
   }
  },
  "rivales": {

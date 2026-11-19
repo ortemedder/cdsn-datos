@@ -1878,7 +1878,7 @@
     "2026-11-16": 2,
     "2026-11-17": 16,
     "2026-11-18": 55,
-    "2026-11-19": 27
+    "2026-11-19": 29
    },
    "zc": [
     {
@@ -2522,12 +2522,12 @@
        }
       ]
      },
-     "mods": 590,
-     "mods_t": 1795083148,
+     "mods": 545,
+     "mods_t": 1795124052,
      "naves": [
-      "asp"
+      "krait_mkii"
      ],
-     "naves_t": 1795119739,
+     "naves_t": 1795124078,
      "atq": {
       "2026-11-18": {
        "ok": 17,
@@ -2761,7 +2761,8 @@
    },
    "rutas": {
     "2026-11-17": 2,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 2
    },
    "prev": null,
    "prev_t": null,
@@ -5033,7 +5034,7 @@
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
-    "2026-11-19": 4
+    "2026-11-19": 5
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -5865,7 +5866,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 70
+    "2026-11-19": 76
    },
    "pn": {
     "H5L-70M": {
@@ -5945,12 +5946,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795123356,
+     "t": 1795124174,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795123504,
+      "t": 1795124189,
       "n": 366,
       "vende": [
        {
@@ -6045,7 +6046,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 19,
+       "ok": 21,
        "no": 3
       }
      },
@@ -6055,16 +6056,55 @@
       "Large": 9
      },
      "naves": [
+      "adder",
+      "anaconda",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
       "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
       "explorer_nx",
-      "panthermkii"
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1795123491,
+     "naves_t": 1795124180,
      "neg": {
       "Distance": 5
      },
-     "mods": 874,
-     "mods_t": 1795123430
+     "mods": 807,
+     "mods_t": 1795124180
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6659,7 +6699,7 @@
     "Planetary Construction Site: Delaunay Vista": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795121930,
+     "t": 1795123940,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -6669,11 +6709,17 @@
      },
      "mid": 4404677379,
      "mer": {
-      "t": 1795121936,
+      "t": 1795123946,
       "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-19": {
+       "ok": 4,
+       "no": 0
+      }
      }
     }
    },
@@ -7136,7 +7182,7 @@
     "2026-11-14": 3,
     "2026-11-15": 1,
     "2026-11-18": 6,
-    "2026-11-19": 3
+    "2026-11-19": 4
    },
    "pn": {
     "QBT-LQY": {
@@ -7201,7 +7247,7 @@
     "Melvin City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795122991,
+     "t": 1795124197,
      "estado": "",
      "ls": 691,
      "pads": {
@@ -7216,12 +7262,12 @@
        "no": 0
       },
       "2026-11-19": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      },
      "mer": {
-      "t": 1795123002,
+      "t": 1795124208,
       "n": 129,
       "vende": [
        {
@@ -10711,7 +10757,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795122463,
+   "t": 1795124011,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -10794,11 +10840,11 @@
     "2026-11-16": 54,
     "2026-11-17": 71,
     "2026-11-18": 31,
-    "2026-11-19": 8
+    "2026-11-19": 10
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795122463
+    "igual": 1795124011
    },
    "saltos": {
     "1794902400": 2,
@@ -10818,12 +10864,12 @@
     "1795032000": 1,
     "1795035600": 1,
     "1795118400": 1,
-    "1795122000": 1
+    "1795122000": 2
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -21222,11 +21268,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795123255.0394325,
-  "msgs": 192503,
-  "mios": 22
+  "ultimo": 1795124014.4127364,
+  "msgs": 210426,
+  "mios": 23
  },
- "t": 1795123525.6476867,
+ "t": 1795124488.9623654,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21708,7 +21754,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795121083
+   "t": 1795124464
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -21942,7 +21988,7 @@
    "nfac": 4,
    "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795123032
+   "t": 1795123708
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -22330,9 +22376,9 @@
    "ly": 19.2,
    "junto": "HIP 41850",
    "nfac": 3,
-   "pob": 204162,
+   "pob": 204161,
    "ctrl_n": "Deutsche Elite Piloten Interstellar",
-   "t": 1795031197
+   "t": 1795123595
   },
   "Crucis Sector JW-W b1-8": {
    "pos": [
@@ -24061,7 +24107,7 @@
    "nfac": 3,
    "pob": 340510348,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795113347
+   "t": 1795124377
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -25739,6 +25785,19 @@
    "pob": 398198,
    "ctrl_n": "Movement for LHS 20 Liberals",
    "t": 1795123341
+  },
+  "Tascheter Sector ZZ-P a5-6": {
+   "pos": [
+    19.46875,
+    -40.03125,
+    -53.5625
+   ],
+   "ly": 10.3,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 96984939,
+   "ctrl_n": "Shokwa Liberals",
+   "t": 1795124255
   }
  },
  "codice": [
@@ -26136,7 +26195,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795121083
+   "t": 1795124464
   },
   "Nergal": {
    "pos": [
@@ -26334,7 +26393,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795123032
+   "t": 1795123708
   },
   "Wolf 186": {
    "pos": [
@@ -26836,7 +26895,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795120538
+   "t": 1795123717
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -27143,6 +27202,58 @@
     "Jerome Archer"
    ],
    "t": 1795123341
+  },
+  "Gautama": {
+   "pos": [
+    -6.78125,
+    -90.21875,
+    -17.8125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795123791
+  },
+  "Tascheter Sector ZZ-P a5-6": {
+   "pos": [
+    19.46875,
+    -40.03125,
+    -53.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.034283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795124255
+  },
+  "Tascheter Sector HR-M a7-0": {
+   "pos": [
+    36.46875,
+    -32.65625,
+    -34.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.206,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795124377
   }
  },
  "rivales": {

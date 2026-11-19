@@ -20754,10 +20754,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795099417.8505743,
-  "msgs": 21339,
+  "msgs": 32810,
   "mios": 5
  },
- "t": 1795099500.7680624,
+ "t": 1795100381.2685657,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -23878,7 +23878,7 @@
    "nfac": 5,
    "pob": 3560964,
    "ctrl_n": "Guardians of Tranquillity",
-   "t": 1795016474
+   "t": 1795100374
   },
   "Col 285 Sector RD-T a33-6": {
    "pos": [
@@ -25247,6 +25247,40 @@
     "Jerome Archer"
    ],
    "t": 1795099195
+  },
+  "Jardovici": {
+   "pos": [
+    -7.78125,
+    -86.53125,
+    -9.3125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Fortified",
+   "prog": 0.251914,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795100374
+  },
+  "Mankul": {
+   "pos": [
+    12,
+    -120.1875,
+    -61
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.250634,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795100532
   }
  }
 }

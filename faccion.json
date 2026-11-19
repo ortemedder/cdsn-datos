@@ -2913,7 +2913,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795094115,
+   "t": 1795097662,
    "src": "EDDN",
    "inf": 71.01,
    "ctrl": true,
@@ -3012,8 +3012,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.252455,
-    "ref": 21,
+    "prog": 0.252575,
+    "ref": 99,
     "soc": 324,
     "pots": [
      "Aisling Duval",
@@ -3031,28 +3031,28 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 5
+    "2026-11-19": 6
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795094197,
+     "t": 1795097713,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795094197,
+     "t": 1795097713,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795094197,
+     "t": 1795097713,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795094115,
+    "igual": 1795097662,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3068,18 +3068,19 @@
     "1794988800": 2,
     "1795006800": 2,
     "1795082400": 1,
-    "1795093200": 1
+    "1795093200": 1,
+    "1795096800": 1
    },
    "rutas": {
     "2026-11-17": 4,
     "2026-11-18": 5,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "estaciones": {
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795094750,
+     "t": 1795098544,
      "estado": "",
      "ls": 1815,
      "pads": {
@@ -3089,7 +3090,7 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795094756,
+      "t": 1795098550,
       "n": 144,
       "vende": [
        {
@@ -3214,7 +3215,7 @@
        "no": 0
       },
       "2026-11-19": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -16062,7 +16063,7 @@
   },
   "Chan Mina": {
    "sys": "Chan Mina",
-   "t": 1795020650,
+   "t": 1795096071,
    "src": "EDDN",
    "inf": 57.73,
    "ctrl": true,
@@ -16161,9 +16162,9 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.287452,
+    "prog": 0.284832,
     "ref": 0,
-    "soc": 1191,
+    "soc": 1108,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -16172,14 +16173,23 @@
     ]
    },
    "trafico": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-19": 1
+   },
+   "pn": {
+    "WLT-20Z": {
+     "n": "IKN Ketty Jay",
+     "t": 1795096078,
+     "d": 1795020686
+    }
    },
    "tk": {
     "firma": "5e4540f6",
-    "igual": 1795020650
+    "igual": 1795096071
    },
    "saltos": {
-    "1795017600": 1
+    "1795017600": 1,
+    "1795093200": 1
    },
    "rutas": {
     "2026-11-18": 3,
@@ -16194,14 +16204,7 @@
     ]
    ],
    "rach": {},
-   "rivales": [],
-   "pn": {
-    "WLT-20Z": {
-     "n": "IKN Ketty Jay",
-     "t": 1795020686,
-     "d": 1795020686
-    }
-   }
+   "rivales": []
   },
   "Chothe": {
    "sys": "Chothe",
@@ -20586,11 +20589,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 611,
-  "mios": 0
+  "ultimo": 1795098555.486588,
+  "msgs": 10907,
+  "mios": 2
  },
- "t": 1795097798.6683128,
+ "t": 1795098579.525172,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -22448,9 +22451,9 @@
    "ly": 7.8,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 1477905,
+   "pob": 1487578,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794954636
+   "t": 1795097902
   },
   "BD+11 1163": {
    "pos": [
@@ -24166,7 +24169,7 @@
    "nfac": 4,
    "pob": 313674,
    "ctrl_n": "East India Company",
-   "t": 1794921258
+   "t": 1795097725
   },
   "Col 285 Sector NS-J c9-17": {
    "pos": [
@@ -24964,6 +24967,86 @@
     "Zemina Torval"
    ],
    "t": 1795097782
+  },
+  "Tascheter Sector AA-Z b4": {
+   "pos": [
+    29.9375,
+    -3.8125,
+    -92.34375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.059997,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795097902
+  },
+  "Cariangan": {
+   "pos": [
+    1.1875,
+    -93.21875,
+    -40.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795097725
+  },
+  "Yax Balam": {
+   "pos": [
+    -23.53125,
+    -22.5625,
+    -95.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.251832,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795098533
+  },
+  "Chan Mina": {
+   "pos": [
+    -3.65625,
+    19.6875,
+    -101.5
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.284832,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795096071
+  },
+  "Catun": {
+   "pos": [
+    -4.71875,
+    25.625,
+    -105.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252575,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795097662
   }
  }
 }

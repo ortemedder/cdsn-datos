@@ -6780,16 +6780,16 @@
   },
   "Ryujingit": {
    "sys": "Ryujingit",
-   "t": 1794848145,
+   "t": 1795096518,
    "src": "EDDN",
    "inf": 8.67,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Flotta Stellare",
    "segunda_inf": 58.17,
    "conflictos": [],
@@ -6820,7 +6820,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -6889,11 +6891,19 @@
    "trafico": {
     "2026-11-10": 1,
     "2026-11-15": 1,
-    "2026-11-16": 2
+    "2026-11-16": 2,
+    "2026-11-19": 1
    },
    "tk": {
     "firma": "5026b8eb",
-    "igual": 1794848145
+    "igual": 1795096518
+   },
+   "saltos": {
+    "1795093200": 1
+   },
+   "rutas": {
+    "2026-11-18": 1,
+    "2026-11-19": 1
    },
    "prev": 8.76,
    "prev_t": 1794331233,
@@ -6911,9 +6921,8 @@
      8.67
     ]
    ],
-   "rutas": {
-    "2026-11-18": 1
-   }
+   "rach": {},
+   "rivales": []
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
@@ -20577,11 +20586,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 590,
-  "mios": 0
+  "ultimo": 1795096525.3609343,
+  "msgs": 8742,
+  "mios": 1
  },
- "t": 0,
+ "t": 1795096564.175572,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20595,7 +20604,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794949493
+   "t": 1795096222
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -21336,7 +21345,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795081811
+   "t": 1795096558
   },
   "LTT 740": {
    "pos": [
@@ -24678,6 +24687,32 @@
    "pob": 1570943,
    "ctrl_n": "The Dark Wheel",
    "t": 1795095309
+  },
+  "Ross 409": {
+   "pos": [
+    -3.1875,
+    -3.15625,
+    -121.21875
+   ],
+   "ly": 9.5,
+   "junto": "BD+27 881",
+   "nfac": 6,
+   "pob": 2148169968,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795095866
+  },
+  "Arietis Sector QT-Q b5-4": {
+   "pos": [
+    -35.78125,
+    -23.6875,
+    -104.5625
+   ],
+   "ly": 17.3,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 5,
+   "pob": 1377010,
+   "ctrl_n": "Federal Freedom Party",
+   "t": 1795096381
   }
  },
  "codice": [
@@ -24911,5 +24946,175 @@
    }
   ]
  },
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259689,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795095746
+  },
+  "Ross 409": {
+   "pos": [
+    -3.1875,
+    -3.15625,
+    -121.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.18,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795095866
+  },
+  "Bestakas": {
+   "pos": [
+    -34.71875,
+    -10.125,
+    -100.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795095938
+  },
+  "Lalande 10797": {
+   "pos": [
+    -8.375,
+    6.1875,
+    -70.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.256017,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795096222
+  },
+  "Ditia": {
+   "pos": [
+    32.46875,
+    -39.59375,
+    -36.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795096257
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.0926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795096351
+  },
+  "Arietis Sector QT-Q b5-4": {
+   "pos": [
+    -35.78125,
+    -23.6875,
+    -104.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795096381
+  },
+  "Damna": {
+   "pos": [
+    -40.53125,
+    4.375,
+    -124.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.161538,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795096465
+  },
+  "Ryujingit": {
+   "pos": [
+    18.75,
+    -2.21875,
+    -86.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795096518
+  },
+  "Ross 584": {
+   "pos": [
+    10.9375,
+    -33.65625,
+    -36.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.373978,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795096558
+  }
+ }
 }

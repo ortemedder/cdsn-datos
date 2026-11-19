@@ -20386,10 +20386,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 90312,
+  "msgs": 98402,
   "mios": 0
  },
- "t": 1795058768.5269103,
+ "t": 1795059619.1180277,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -22275,7 +22275,7 @@
    "nfac": 6,
    "pob": 4217328,
    "ctrl_n": "East India Company",
-   "t": 1794951778
+   "t": 1795058962
   },
   "LHS 1719": {
    "pos": [
@@ -24239,6 +24239,32 @@
    "pob": 1630104,
    "ctrl_n": "The Dark Wheel",
    "t": 1795058363
+  },
+  "Iku-Turso": {
+   "pos": [
+    6.46875,
+    -77.90625,
+    -14.90625
+   ],
+   "ly": 12.3,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 5,
+   "pob": 159822,
+   "ctrl_n": "East India Company",
+   "t": 1795058917
+  },
+  "Lyncis Sector JR-W c1-12": {
+   "pos": [
+    -17.5,
+    42.8125,
+    -132.1875
+   ],
+   "ly": 7.7,
+   "junto": "Kamilagro",
+   "nfac": 3,
+   "pob": 118217529,
+   "ctrl_n": "Nagii Union",
+   "t": 1795058518
   }
  },
  "codice": [
@@ -25030,7 +25056,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795056531
+   "t": 1795059468
   },
   "LEHPM 1902": {
    "pos": [
@@ -25144,6 +25170,56 @@
     "Zemina Torval"
    ],
    "t": 1795058639
+  },
+  "Iku-Turso": {
+   "pos": [
+    6.46875,
+    -77.90625,
+    -14.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795058917
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251532,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795058962
+  },
+  "Lyncis Sector JR-W c1-12": {
+   "pos": [
+    -17.5,
+    42.8125,
+    -132.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795058518
   }
  }
 }

@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 11
+    "2026-11-19": 19
    },
    "pn": {
     "H5L-70M": {
@@ -5920,7 +5920,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795049515,
+     "t": 1795050227,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -5930,7 +5930,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795049545,
+      "t": 1795050578,
       "n": 366,
       "vende": [
        {
@@ -6029,7 +6029,7 @@
        "no": 1
       },
       "2026-11-19": {
-       "ok": 4,
+       "ok": 6,
        "no": 1
       }
      },
@@ -6291,7 +6291,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795048141,
+     "t": 1795049855,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -6306,12 +6306,19 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 3,
+       "ok": 5,
        "no": 0
       }
      },
      "neg": {
       "Distance": 2
+     },
+     "mer": {
+      "t": 1795049862,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -20155,10 +20162,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 523,
+  "msgs": 9348,
   "mios": 0
  },
- "t": 0,
+ "t": 1795050617.941878,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21004,7 +21011,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1795047810
+   "t": 1795050313
   },
   "LTT 606": {
    "pos": [
@@ -21186,7 +21193,7 @@
    "nfac": 4,
    "pob": 24555,
    "ctrl_n": "Mukun Prison Colony",
-   "t": 1794914668
+   "t": 1795050234
   },
   "HIP 46236": {
    "pos": [
@@ -22161,7 +22168,7 @@
    "nfac": 4,
    "pob": 1594391,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795048086
+   "t": 1795049802
   },
   "Loki Tan": {
    "pos": [
@@ -24166,5 +24173,121 @@
    }
   ]
  },
- "thargoides": {}
+ "thargoides": {},
+ "zona": {
+  "Tascheter Sector CL-Y d104": {
+   "pos": [
+    -21.65625,
+    12.5625,
+    -68.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795049802
+  },
+  "Exigus": {
+   "pos": [
+    -2.625,
+    38.3125,
+    -84.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795050053
+  },
+  "Mukun": {
+   "pos": [
+    -40.9375,
+    31.15625,
+    -100.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795050234
+  },
+  "LHS 1798": {
+   "pos": [
+    35.53125,
+    -16.65625,
+    -77.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795050250
+  },
+  "Khwar": {
+   "pos": [
+    -58.46875,
+    -11.9375,
+    -116.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795050279
+  },
+  "Segon": {
+   "pos": [
+    -48.96875,
+    -0.6875,
+    -96
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.259855,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795050313
+  },
+  "NLTT 16389": {
+   "pos": [
+    -13.3125,
+    18.1875,
+    -74.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795050615
+  }
+ }
 }

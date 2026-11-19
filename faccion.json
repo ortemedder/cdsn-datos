@@ -3398,7 +3398,7 @@
    },
    "rutas": {
     "2026-11-17": 3,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "prev": null,
    "prev_t": null,
@@ -5870,7 +5870,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 94
+    "2026-11-19": 102
    },
    "pn": {
     "H5L-70M": {
@@ -5950,12 +5950,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795126218,
+     "t": 1795127614,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795126263,
+      "t": 1795127628,
       "n": 366,
       "vende": [
        {
@@ -5975,8 +5975,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559311,
-        "d": 35983
+        "p": 559327,
+        "d": 35984
        },
        {
         "n": "opal",
@@ -6050,7 +6050,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 27,
+       "ok": 29,
        "no": 3
       }
      },
@@ -6103,12 +6103,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795126224,
+     "naves_t": 1795127620,
      "neg": {
       "Distance": 5
      },
      "mods": 807,
-     "mods_t": 1795126224
+     "mods_t": 1795127620
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6703,7 +6703,7 @@
     "Planetary Construction Site: Delaunay Vista": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795125951,
+     "t": 1795127402,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -6713,15 +6713,15 @@
      },
      "mid": 4404677379,
      "mer": {
-      "t": 1795125957,
-      "n": 1,
+      "t": 1795127409,
+      "n": 7,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-19": {
-       "ok": 8,
+       "ok": 10,
        "no": 0
       }
      }
@@ -21419,10 +21419,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795125579.996327,
-  "msgs": 261528,
+  "msgs": 274638,
   "mios": 25
  },
- "t": 1795127195.2921119,
+ "t": 1795128067.5961845,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22138,7 +22138,7 @@
    "nfac": 4,
    "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795127193
+   "t": 1795127994
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -22996,7 +22996,7 @@
    "nfac": 3,
    "pob": 2170851,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795121072
+   "t": 1795127284
   },
   "Tascheter Sector ZZ-Y b4": {
    "pos": [
@@ -24023,7 +24023,7 @@
    "nfac": 5,
    "pob": 12784480,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795106023
+   "t": 1795127859
   },
   "Trianguli Sector BQ-Y c15": {
    "pos": [
@@ -24905,9 +24905,9 @@
    "ly": 13.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 2000161,
+   "pob": 2000220,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795071425
+   "t": 1795127429
   },
   "LP 365-24": {
    "pos": [
@@ -26605,7 +26605,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795127193
+   "t": 1795127994
   },
   "Wolf 186": {
    "pos": [
@@ -27107,7 +27107,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795126648
+   "t": 1795127810
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -27151,7 +27151,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795121072
+   "t": 1795127284
   },
   "Piscium Sector SD-T b3-7": {
    "pos": [
@@ -27496,7 +27496,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795124536
+   "t": 1795127230
   },
   "Kamuti": {
    "pos": [
@@ -27676,6 +27676,53 @@
     "Pranav Antal"
    ],
    "t": 1795126587
+  },
+  "Trianguli Sector ZL-L a8-2": {
+   "pos": [
+    38.15625,
+    -34.59375,
+    -43.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795127429
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1795127859
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.3462,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795127701
   }
  },
  "rivales": {

@@ -1871,7 +1871,7 @@
     "2026-11-16": 2,
     "2026-11-17": 16,
     "2026-11-18": 55,
-    "2026-11-19": 4
+    "2026-11-19": 5
    },
    "zc": [
     {
@@ -5824,7 +5824,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 37
+    "2026-11-19": 38
    },
    "pn": {
     "H5L-70M": {
@@ -5903,33 +5903,33 @@
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795053611,
-      "n": 158,
+      "t": 1795110339,
+      "n": 366,
       "vende": [
        {
         "n": "musgravite",
         "p": 694266,
-        "d": 35976
+        "d": 36256
        },
        {
         "n": "serendibite",
         "p": 570948,
-        "d": 35976
+        "d": 36256
        },
        {
         "n": "benitoite",
         "p": 567114,
-        "d": 35976
+        "d": 36256
        },
        {
         "n": "grandidierite",
-        "p": 563640,
-        "d": 35976
+        "p": 556534,
+        "d": 36256
        },
        {
         "n": "opal",
         "p": 552666,
-        "d": 14690
+        "d": 14805
        }
       ],
       "alta": [
@@ -5940,7 +5940,7 @@
        },
        {
         "n": "osmium",
-        "p": 234694,
+        "p": 234705,
         "m": 44051
        },
        {
@@ -5950,7 +5950,7 @@
        },
        {
         "n": "platinum",
-        "p": 280917,
+        "p": 280911,
         "m": 55505
        },
        {
@@ -5964,31 +5964,31 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 526277
+        "s": 530409
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 278604
+        "s": 280790
        },
        {
         "n": "polymers",
         "p": 43,
         "m": 306,
-        "s": 2971276
+        "s": 2994396
        },
        {
         "n": "algae",
         "p": 59,
         "m": 308,
-        "s": 207191
+        "s": 208828
        },
        {
         "n": "syntheticfabrics",
         "p": 72,
         "m": 354,
-        "s": 19884710
+        "s": 20039465
        }
       ]
      },
@@ -9913,7 +9913,7 @@
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
-   "t": 1795099195,
+   "t": 1795109844,
    "src": "EDDN",
    "inf": 18.39,
    "ctrl": false,
@@ -9983,8 +9983,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.199426,
-    "ref": 0,
+    "prog": 0.199435,
+    "ref": 3,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -9997,14 +9997,15 @@
    "trafico": {
     "2026-11-10": 2,
     "2026-11-15": 1,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "tk": {
     "firma": "44ffbe4e",
-    "igual": 1795099195
+    "igual": 1795109844
    },
    "saltos": {
-    "1795096800": 2
+    "1795096800": 2,
+    "1795107600": 1
    },
    "rutas": {
     "2026-11-18": 1,
@@ -15785,7 +15786,10 @@
      1794556780,
      16.12
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-19": 1
+   }
   },
   "Hyades Sector CB-W c2-3": {
    "sys": "Hyades Sector CB-W c2-3",
@@ -20901,11 +20905,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795109031.7011006,
-  "msgs": 142313,
-  "mios": 11
+  "ultimo": 1795109845.5676496,
+  "msgs": 155419,
+  "mios": 12
  },
- "t": 1795109766.5648732,
+ "t": 1795110487.7633073,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -22269,9 +22273,9 @@
    "ly": 17.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 199035,
+   "pob": 199067,
    "ctrl_n": "East India Company",
-   "t": 1794939435
+   "t": 1795110066
   },
   "Apadecavi": {
    "pos": [
@@ -24102,9 +24106,9 @@
    "ly": 14.9,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 3,
-   "pob": 497036,
+   "pob": 497143,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795023218
+   "t": 1795109888
   },
   "Tascheter Sector FG-X b1-6": {
    "pos": [
@@ -24949,7 +24953,7 @@
    "nfac": 3,
    "pob": 444820969,
    "ctrl_n": "Green Party of BD+27 1356",
-   "t": 1795107953
+   "t": 1795109818
   },
   "Galibi": {
    "pos": [
@@ -25197,6 +25201,19 @@
    "pob": 152176,
    "ctrl_n": "New Skang Progressive Party",
    "t": 1795109702
+  },
+  "Hyades Sector SZ-N b7-1": {
+   "pos": [
+    16.09375,
+    24,
+    -123.75
+   ],
+   "ly": 9.5,
+   "junto": "Makum",
+   "nfac": 4,
+   "pob": 314213,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795086724
   }
  },
  "codice": [
@@ -25496,7 +25513,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795107953
+   "t": 1795109818
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -25821,7 +25838,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.199426,
+   "prog": 0.199435,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -25829,7 +25846,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795099195
+   "t": 1795109844
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -26252,6 +26269,89 @@
     "Li Yong-Rui"
    ],
    "t": 1795109762
+  },
+  "Mandu": {
+   "pos": [
+    117.9375,
+    -22.1875,
+    17.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795109848
+  },
+  "Tascheter Sector XO-A b6": {
+   "pos": [
+    -1.75,
+    -16.34375,
+    -108.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795109888
+  },
+  "Tascheter Sector OX-U b2-7": {
+   "pos": [
+    19.25,
+    -54.75,
+    -45.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795110066
+  },
+  "Hyades Sector SZ-N b7-1": {
+   "pos": [
+    16.09375,
+    24,
+    -123.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795086724
+  },
+  "Kanean": {
+   "pos": [
+    22.28125,
+    -22.75,
+    -86.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795110373
   }
  }
 }

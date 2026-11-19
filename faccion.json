@@ -7636,7 +7636,8 @@
     "est": null
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 2,
+    "2026-11-19": 1
    },
    "prev": 12.93,
    "prev_t": 1794644442,
@@ -20870,10 +20871,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795106270.028069,
-  "msgs": 96280,
+  "msgs": 111920,
   "mios": 8
  },
- "t": 1795106762.0331385,
+ "t": 1795107963.4093006,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20937,9 +20938,9 @@
    "ly": 19.2,
    "junto": "LP 158-2",
    "nfac": 4,
-   "pob": 5976691,
+   "pob": 5976966,
    "ctrl_n": "Radiant Ruby Control Cooperative",
-   "t": 1795053294
+   "t": 1795107693
   },
   "Ceti Sector GR-V b2-5": {
    "pos": [
@@ -20965,7 +20966,7 @@
    "nfac": 6,
    "pob": 5061479,
    "ctrl_n": "East India Company",
-   "t": 1795100786
+   "t": 1795107126
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -21004,7 +21005,7 @@
    "nfac": 5,
    "pob": 161723,
    "ctrl_n": "East India Company",
-   "t": 1795106433
+   "t": 1795107958
   },
   "LHS 1734": {
    "pos": [
@@ -21628,7 +21629,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795104944
+   "t": 1795107358
   },
   "LTT 740": {
    "pos": [
@@ -22226,7 +22227,7 @@
    "nfac": 6,
    "pob": 2023524,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1794967176
+   "t": 1795107561
   },
   "Tascheter Sector OX-U b2-7": {
    "pos": [
@@ -24917,7 +24918,7 @@
    "nfac": 3,
    "pob": 444820969,
    "ctrl_n": "Green Party of BD+27 1356",
-   "t": 1795103170
+   "t": 1795107953
   },
   "Galibi": {
    "pos": [
@@ -25074,6 +25075,32 @@
    "pob": 2194097,
    "ctrl_n": "East India Company",
    "t": 1795106453
+  },
+  "ICZ EL-Y d89": {
+   "pos": [
+    109.03125,
+    -131,
+    -24.96875
+   ],
+   "ly": 17.9,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 2210790,
+   "ctrl_n": "Creed of Valhalla",
+   "t": 1795107458
+  },
+  "HIP 23402": {
+   "pos": [
+    -7.03125,
+    -19.34375,
+    -125.90625
+   ],
+   "ly": 19.5,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 3,
+   "pob": 66062518,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795107882
   }
  },
  "codice": [
@@ -25357,7 +25384,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795100786
+   "t": 1795107126
   },
   "Hyades Sector QE-O b7-0": {
    "pos": [
@@ -25373,7 +25400,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795103170
+   "t": 1795107953
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -25604,7 +25631,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795104944
+   "t": 1795107358
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -25770,7 +25797,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795106433
+   "t": 1795107958
   },
   "BD-04 782": {
    "pos": [
@@ -25821,6 +25848,70 @@
     "Zemina Torval"
    ],
    "t": 1795106756
+  },
+  "ICZ EL-Y d89": {
+   "pos": [
+    109.03125,
+    -131,
+    -24.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795107458
+  },
+  "Umaspi": {
+   "pos": [
+    18.6875,
+    -72.71875,
+    -14.1875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251309,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1795107561
+  },
+  "Hyades Sector MD-S c4-21": {
+   "pos": [
+    -57.375,
+    3.875,
+    -104.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795107693
+  },
+  "HIP 23402": {
+   "pos": [
+    -7.03125,
+    -19.34375,
+    -125.90625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.318355,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795107882
   }
  }
 }

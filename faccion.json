@@ -4758,7 +4758,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795046237,
+   "t": 1795090676,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -4852,16 +4852,16 @@
     "pob": 46130,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
-    "seg": "$SYSTEM_SECURITY_low;",
+    "seg": "$SYSTEM_SECURITY_medium;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
    },
    "pp": {
     "pot": "Jerome Archer",
-    "est": "Fortified",
-    "prog": 1.061403,
-    "ref": 132359,
-    "soc": 81447,
+    "est": "Stronghold",
+    "prog": 0.039892,
+    "ref": 92,
+    "soc": 0,
     "pots": [
      "Edmund Mahon",
      "Li Yong-Rui",
@@ -4878,18 +4878,18 @@
     "2026-11-16": 12,
     "2026-11-17": 25,
     "2026-11-18": 39,
-    "2026-11-19": 1
+    "2026-11-19": 3
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795046421
+     "t": 1795090933
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795046421
+     "t": 1795090933
     }
    ],
    "pn": {
@@ -4899,7 +4899,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795046421,
+     "t": 1795090933,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -4909,13 +4909,13 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795046421,
+     "t": 1795090933,
      "d": 1795025641
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795046237,
+    "igual": 1795090676,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -4952,7 +4952,8 @@
     "1795021200": 1,
     "1795024800": 1,
     "1795032000": 1,
-    "1795042800": 2
+    "1795042800": 2,
+    "1795089600": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -5073,9 +5074,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795022625,
+     "t": 1795091000,
      "estado": "",
-     "ls": 3145,
+     "ls": 3142,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -5083,14 +5084,14 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795006502,
+      "t": 1795091006,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
-     "mods": 123,
-     "mods_t": 1795006502,
+     "mods": 124,
+     "mods_t": 1795091006,
      "neg": {
       "NoSpace": 19
      },
@@ -5102,6 +5103,10 @@
       "2026-11-18": {
        "ok": 3,
        "no": 1
+      },
+      "2026-11-19": {
+       "ok": 1,
+       "no": 0
       }
      }
     },
@@ -20470,11 +20475,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795090001.943991,
-  "msgs": 8043,
-  "mios": 1
+  "ultimo": 1795090677.135788,
+  "msgs": 16090,
+  "mios": 2
  },
- "t": 1795090674.7274456,
+ "t": 1795091415.9443812,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20668,9 +20673,9 @@
    "ly": 12.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 155708,
+   "pob": 155799,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1794879868
+   "t": 1795091236
   },
   "Hyades Sector OT-P b6-1": {
    "pos": [
@@ -24498,6 +24503,26 @@
  "codice": [
   {
    "sys": "HIP 46236",
+   "n": "Tussocks 07 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 c",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795091414
+  },
+  {
+   "sys": "HIP 46236",
+   "n": "Stratum 01 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 c",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795090898
+  },
+  {
+   "sys": "HIP 46236",
    "n": "Bacterial 01 F",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -24535,26 +24560,6 @@
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
    "t": 1795083220
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Stratum 01 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 d",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795035800
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Tussocks 07 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 d",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795035761
   },
   {
    "sys": "Huveang De",
@@ -24858,6 +24863,76 @@
     "Zemina Torval"
    ],
    "t": 1795090665
+  },
+  "Burr": {
+   "pos": [
+    -27.96875,
+    10.96875,
+    -89.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.039892,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795090676
+  },
+  "Hakili": {
+   "pos": [
+    39.03125,
+    -31.46875,
+    -41.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256546,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795090689
+  },
+  "Mandu": {
+   "pos": [
+    117.9375,
+    -22.1875,
+    17.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795090728
+  },
+  "Trianguli Sector BH-L a8-0": {
+   "pos": [
+    37.15625,
+    -44.96875,
+    -42.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795091236
   }
  }
 }

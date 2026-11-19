@@ -20476,10 +20476,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795090677.135788,
-  "msgs": 16090,
+  "msgs": 23588,
   "mios": 2
  },
- "t": 1795091415.9443812,
+ "t": 1795092156.6734734,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21442,7 +21442,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795025043
+   "t": 1795091747
   },
   "Lokaantii": {
    "pos": [
@@ -21609,9 +21609,9 @@
    "ly": 9.3,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 59908652,
+   "pob": 59911075,
    "ctrl_n": "Kalvelis Imperial Society",
-   "t": 1794929750
+   "t": 1795092147
   },
   "Tascheter Sector AL-O a6-0": {
    "pos": [
@@ -24503,6 +24503,16 @@
  "codice": [
   {
    "sys": "HIP 46236",
+   "n": "Bacterial 01 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 46236 6 c",
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "ly": 13.2,
+   "t": 1795091813
+  },
+  {
+   "sys": "HIP 46236",
    "n": "Tussocks 07 F",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -24520,16 +24530,6 @@
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
    "t": 1795090898
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Bacterial 01 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795084414
   },
   {
    "sys": "HIP 46236",
@@ -24933,6 +24933,53 @@
     "Jerome Archer"
    ],
    "t": 1795091236
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.266966,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795091747
+  },
+  "Bommatsuri": {
+   "pos": [
+    10.03125,
+    -104.3125,
+    -55.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.103997,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795091873
+  },
+  "Col 285 Sector UT-W b16-5": {
+   "pos": [
+    140.84375,
+    -10.8125,
+    10.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795092147
   }
  }
 }

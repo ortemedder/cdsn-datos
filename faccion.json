@@ -2913,7 +2913,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795103105,
+   "t": 1795105075,
    "src": "EDDN",
    "inf": 71.01,
    "ctrl": true,
@@ -3031,28 +3031,28 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 8
+    "2026-11-19": 11
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795103207,
+     "t": 1795105075,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795103207,
+     "t": 1795105075,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795103207,
+     "t": 1795105075,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795103105,
+    "igual": 1795105075,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3068,20 +3068,21 @@
     "1794988800": 2,
     "1795006800": 2,
     "1795082400": 1,
-    "1795093200": 1,
-    "1795096800": 1,
-    "1795100400": 1
+    "1795093200": 2,
+    "1795096800": 2,
+    "1795100400": 2,
+    "1795104000": 2
    },
    "rutas": {
     "2026-11-17": 4,
     "2026-11-18": 5,
-    "2026-11-19": 4
+    "2026-11-19": 5
    },
    "estaciones": {
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795103291,
+     "t": 1795105075,
      "estado": "",
      "ls": 1815,
      "pads": {
@@ -3091,7 +3092,7 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795103297,
+      "t": 1795104656,
       "n": 144,
       "vende": [
        {
@@ -3181,31 +3182,16 @@
       ]
      },
      "mods": 783,
-     "mods_t": 1795103297,
+     "mods_t": 1795105081,
      "naves": [
       "anaconda",
-      "asp",
-      "cobramkiii",
-      "cobramkv",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
       "explorer_nx",
-      "ferdelance",
-      "hauler",
       "lakonminer",
-      "mamba",
-      "mediumtransport01",
-      "orca",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type8",
-      "viper",
-      "viper_mkiv"
+      "mandalay",
+      "panthermkii",
+      "type8"
      ],
-     "naves_t": 1795103297,
+     "naves_t": 1795104741,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3216,7 +3202,7 @@
        "no": 0
       },
       "2026-11-19": {
-       "ok": 4,
+       "ok": 9,
        "no": 0
       }
      }
@@ -4249,7 +4235,7 @@
    },
    "trafico": {
     "2026-11-14": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "tk": {
     "firma": "5ab0df8a",
@@ -4259,7 +4245,7 @@
     "est": null
    },
    "saltos": {
-    "1795093200": 1
+    "1795093200": 2
    },
    "rutas": {
     "2026-11-18": 5,
@@ -10006,14 +9992,14 @@
    "trafico": {
     "2026-11-10": 2,
     "2026-11-15": 1,
-    "2026-11-19": 1
+    "2026-11-19": 2
    },
    "tk": {
     "firma": "44ffbe4e",
     "igual": 1795099195
    },
    "saltos": {
-    "1795096800": 1
+    "1795096800": 2
    },
    "rutas": {
     "2026-11-18": 1,
@@ -10034,7 +10020,7 @@
      "mid": 4216546563,
      "atq": {
       "2026-11-19": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -16343,7 +16329,7 @@
    },
    "trafico": {
     "2026-11-18": 1,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "pn": {
     "WLT-20Z": {
@@ -16358,8 +16344,8 @@
    },
    "saltos": {
     "1795017600": 1,
-    "1795093200": 1,
-    "1795096800": 1
+    "1795093200": 2,
+    "1795096800": 2
    },
    "rutas": {
     "2026-11-18": 3,
@@ -20022,7 +20008,7 @@
   },
   "Hyades Sector UF-M b8-3": {
    "sys": "Hyades Sector UF-M b8-3",
-   "t": 1795044197,
+   "t": 1795104163,
    "src": "EDDN",
    "inf": 54.2,
    "ctrl": true,
@@ -20084,7 +20070,7 @@
     -99.78125
    ],
    "sis": {
-    "pob": 154012,
+    "pob": 154074,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -20105,23 +20091,20 @@
      "Jerome Archer"
     ]
    },
-   "hinf": [
-    [
-     1795044197,
-     54.2
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
+   "trafico": {
+    "2026-11-18": 1,
+    "2026-11-19": 2
+   },
    "tk": {
     "firma": "a7b689ea",
-    "igual": 1795044197
-   },
-   "trafico": {
-    "2026-11-18": 1
+    "igual": 1795104163
    },
    "saltos": {
-    "1795042800": 1
+    "1795042800": 1,
+    "1795104000": 2
+   },
+   "rutas": {
+    "2026-11-19": 1
    },
    "estaciones": {
     "Esposito Survey": {
@@ -20204,9 +20187,16 @@
      }
     }
    },
-   "rutas": {
-    "2026-11-19": 1
-   }
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1795044197,
+     54.2
+    ]
+   ],
+   "rach": {},
+   "rivales": []
   },
   "HIP 33282": {
    "sys": "HIP 33282",
@@ -20758,15 +20748,119 @@
    ],
    "rach": {},
    "rivales": []
+  },
+  "Tascheter Sector BQ-Y c18": {
+   "sys": "Tascheter Sector BQ-Y c18",
+   "t": 1795104102,
+   "src": "EDDN",
+   "inf": 52.19,
+   "ctrl": true,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Wathiparian Power Corp.",
+   "segunda_inf": 25.03,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 52.19,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Power Corp.",
+     "inf": 25.03,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 13.33,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "New Adjukru Coalition",
+     "inf": 9.46,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -17.75,
+    9.1875,
+    -95
+   ],
+   "sis": {
+    "pob": 153958,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1795104102,
+     52.19
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "2b030eee",
+    "igual": 1795104102
+   },
+   "trafico": {
+    "2026-11-19": 2
+   },
+   "saltos": {
+    "1795104000": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795103463.8737142,
-  "msgs": 52631,
-  "mios": 3
+  "ultimo": 1795105076.1524262,
+  "msgs": 65367,
+  "mios": 7
  },
- "t": 1795104259.218141,
+ "t": 1795105210.710009,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21482,7 +21576,7 @@
    "nfac": 4,
    "pob": 157256630,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795070118
+   "t": 1795105203
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -21521,7 +21615,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795104160
+   "t": 1795104944
   },
   "LTT 740": {
    "pos": [
@@ -25432,7 +25526,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795103105
+   "t": 1795105075
   },
   "Burr": {
    "pos": [
@@ -25476,7 +25570,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.375076,
+   "prog": 0.375173,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -25484,7 +25578,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795104160
+   "t": 1795104944
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -25499,6 +25593,110 @@
     "Li Yong-Rui"
    ],
    "t": 1795104252
+  },
+  "Tascheter Sector BQ-Y c18": {
+   "pos": [
+    -17.75,
+    9.1875,
+    -95
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795104102
+  },
+  "Hyades Sector UF-M b8-3": {
+   "pos": [
+    -15.09375,
+    22.40625,
+    -99.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795104163
+  },
+  "Ahti": {
+   "pos": [
+    4.0625,
+    -79.09375,
+    -7.71875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795104848
+  },
+  "Hyades Sector LI-S c4-15": {
+   "pos": [
+    12.46875,
+    23.25,
+    -101.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.075426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795093576
+  },
+  "Hyades Sector UF-M b8-2": {
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.199426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795099195
+  },
+  "Ceti Sector KX-T b3-2": {
+   "pos": [
+    4.15625,
+    -94.6875,
+    -11.875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.380329,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795105203
   }
  }
 }

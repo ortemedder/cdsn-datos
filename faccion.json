@@ -7535,8 +7535,8 @@
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
-   "t": 1795060134,
-   "src": "EDSM",
+   "t": 1795108707,
+   "src": "EDDN",
    "inf": 12.73,
    "ctrl": false,
    "estado": "None",
@@ -7558,7 +7558,7 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Labour of Any Na",
@@ -7567,7 +7567,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Social Binar Values Party",
@@ -7576,7 +7576,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -7587,7 +7587,7 @@
      "pend": [
       "Expansion"
      ],
-     "jug": true
+     "jug": null
     }
    ],
    "ctrl_n": "Solaris Xeno-Psychology Group",
@@ -7597,7 +7597,7 @@
     17.34375
    ],
    "sis": {
-    "pob": 1592221,
+    "pob": 1592523,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -7620,11 +7620,12 @@
     "2026-11-13": 1,
     "2026-11-14": 1,
     "2026-11-15": 3,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-19": 1
    },
    "tk": {
     "firma": "bca96df7",
-    "igual": 1794842324,
+    "igual": 1795108707,
     "ult": 1794711459,
     "desde": 1794644442,
     "vent": [
@@ -7634,6 +7635,9 @@
      ]
     ],
     "est": null
+   },
+   "saltos": {
+    "1795107600": 1
    },
    "rutas": {
     "2026-11-17": 2,
@@ -18814,13 +18818,15 @@
   },
   "Hyades Sector RZ-N b7-3": {
    "sys": "Hyades Sector RZ-N b7-3",
-   "t": 1794921938,
+   "t": 1795108448,
    "src": "EDDN",
    "inf": 9.4,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 67.36,
@@ -18842,9 +18848,7 @@
      "inf": 15.23,
      "gov": "Cooperative",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -18854,7 +18858,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -18874,7 +18880,7 @@
     -119.21875
    ],
    "sis": {
-    "pob": 49271996,
+    "pob": 49289415,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -18893,6 +18899,29 @@
      "Li Yong-Rui"
     ]
    },
+   "trafico": {
+    "2026-11-17": 1,
+    "2026-11-19": 1
+   },
+   "pn": {
+    "B4V-B5V": {
+     "n": "SUKKULA VENUKSEEN",
+     "t": 1795108458,
+     "d": 1795108448
+    }
+   },
+   "tk": {
+    "firma": "0349749b",
+    "igual": 1795108448
+   },
+   "saltos": {
+    "1795107600": 1
+   },
+   "rutas": {
+    "2026-11-19": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794921938,
@@ -18900,14 +18929,7 @@
     ]
    ],
    "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "0349749b",
-    "igual": 1794921938
-   },
-   "trafico": {
-    "2026-11-17": 1
-   }
+   "rivales": []
   },
   "BD+40 1697": {
    "sys": "BD+40 1697",
@@ -20870,11 +20892,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795106270.028069,
-  "msgs": 111920,
-  "mios": 8
+  "ultimo": 1795108707.647032,
+  "msgs": 126016,
+  "mios": 10
  },
- "t": 1795107963.4093006,
+ "t": 1795108714.6655638,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21029,9 +21051,9 @@
    "ly": 17.6,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 1555841,
+   "pob": 1557519,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1794879492
+   "t": 1795107992
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -22654,9 +22676,9 @@
    "ly": 7.8,
    "junto": "Yin Sector ZU-Y b3",
    "nfac": 3,
-   "pob": 59936471,
+   "pob": 59938269,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794950419
+   "t": 1795108498
   },
   "Hyades Sector QO-P b6-7": {
    "pos": [
@@ -24450,7 +24472,7 @@
    "nfac": 4,
    "pob": 313674,
    "ctrl_n": "East India Company",
-   "t": 1795097725
+   "t": 1795108535
   },
   "Col 285 Sector NS-J c9-17": {
    "pos": [
@@ -25101,6 +25123,32 @@
    "pob": 66062518,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795107882
+  },
+  "Uoluskas": {
+   "pos": [
+    27.375,
+    15.53125,
+    -94.28125
+   ],
+   "ly": 16.4,
+   "junto": "LHS 5116",
+   "nfac": 5,
+   "pob": 18578114,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795108036
+  },
+  "Yin Sector ZZ-Y b0": {
+   "pos": [
+    19.46875,
+    35.84375,
+    -83.625
+   ],
+   "ly": 9.5,
+   "junto": "Lati",
+   "nfac": 4,
+   "pob": 317948,
+   "ctrl_n": "Branglal Independents",
+   "t": 1795108435
   }
  },
  "codice": [
@@ -25829,7 +25877,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795106490
+   "t": 1795108017
   },
   "Mwamen": {
    "pos": [
@@ -25912,6 +25960,121 @@
     "Pranav Antal"
    ],
    "t": 1795107882
+  },
+  "Trianguli Sector QZ-O a6-0": {
+   "pos": [
+    27.8125,
+    -32.84375,
+    -62.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.031426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795107992
+  },
+  "Uoluskas": {
+   "pos": [
+    27.375,
+    15.53125,
+    -94.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.279069,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795108036
+  },
+  "Yin Sector ZZ-Y b0": {
+   "pos": [
+    19.46875,
+    35.84375,
+    -83.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795108435
+  },
+  "Hyades Sector RZ-N b7-3": {
+   "pos": [
+    4.4375,
+    22.46875,
+    -119.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795108448
+  },
+  "Ceto": {
+   "pos": [
+    -2.71875,
+    16.875,
+    -78.3125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.070854,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795108498
+  },
+  "Cariangan": {
+   "pos": [
+    1.1875,
+    -93.21875,
+    -40.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795108535
+  },
+  "Col 285 Sector YZ-U b17-3": {
+   "pos": [
+    136.46875,
+    -15,
+    17.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795108707
   }
  }
 }

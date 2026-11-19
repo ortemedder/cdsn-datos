@@ -3938,16 +3938,16 @@
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
-   "t": 1794779274,
+   "t": 1795094270,
    "src": "EDDN",
    "inf": 14.84,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "LP 254-40 Co",
    "segunda_inf": 48.65,
    "conflictos": [],
@@ -3976,7 +3976,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -3984,10 +3986,10 @@
      "inf": 10.83,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -4007,7 +4009,7 @@
     -89.03125
    ],
    "sis": {
-    "pob": 1999111,
+    "pob": 1999387,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -4024,18 +4026,26 @@
      "Aisling Duval",
      "Edmund Mahon",
      "Li Yong-Rui",
-     "Pranav Antal"
+     "Pranav Antal",
+     "Jerome Archer"
     ]
    },
    "trafico": {
     "2026-11-11": 2,
     "2026-05-03": 1,
     "2026-11-14": 2,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-19": 1
    },
    "tk": {
     "firma": "b61f7c67",
-    "igual": 1794779274
+    "igual": 1795094270
+   },
+   "saltos": {
+    "1795093200": 1
+   },
+   "rutas": {
+    "2026-11-19": 1
    },
    "prev": null,
    "prev_t": null,
@@ -4044,7 +4054,9 @@
      1794381591,
      14.84
     ]
-   ]
+   ],
+   "rach": {},
+   "rivales": []
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
@@ -13929,34 +13941,34 @@
   },
   "Lu Pardan": {
    "sys": "Lu Pardan",
-   "t": 1794494152,
+   "t": 1795093550,
    "src": "EDDN",
-   "inf": 37.61,
+   "inf": 36.82,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Jet Travel Services",
-   "segunda_inf": 21.32,
+   "segunda_inf": 17.08,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 37.61,
+     "inf": 36.82,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
      "n": "Jet Travel Services",
-     "inf": 21.32,
+     "inf": 17.08,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -13965,17 +13977,8 @@
     },
     {
      "n": "Dominion of Lu Pardan",
-     "inf": 13.03,
+     "inf": 13.43,
      "gov": "Dictatorship",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "CHIMERA",
-     "inf": 10.76,
-     "gov": "Patronage",
      "alg": "Independent",
      "act": [],
      "pend": [],
@@ -13983,16 +13986,30 @@
     },
     {
      "n": "Defence Force of Lu Pardan",
-     "inf": 9.48,
+     "inf": 11.06,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Election"
+     ],
+     "jug": null
+    },
+    {
+     "n": "CHIMERA",
+     "inf": 11.06,
+     "gov": "Patronage",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion",
+      "Election"
+     ],
      "jug": null
     },
     {
      "n": "Revolutionary Lu Pardan Free",
-     "inf": 6.81,
+     "inf": 9.58,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -14035,24 +14052,59 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-10-30": 1,
+    "2026-11-19": 1
+   },
+   "tk": {
+    "firma": "4eb9cec9",
+    "igual": 1795093550,
+    "ult": 1795093550,
+    "desde": 1794494152,
+    "est": null
+   },
+   "saltos": {
+    "1793372400": 1,
+    "1795093200": 1
+   },
+   "rutas": {
+    "2026-11-19": 2
+   },
+   "prev": 37.61,
+   "prev_t": 1794494152,
    "hinf": [
     [
      1794494152,
      37.61
+    ],
+    [
+     1795093550,
+     36.82
     ]
    ],
-   "tk": {
-    "firma": "06873d7a",
-    "igual": 1794494152
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Jet Travel Services": 0,
+    "Dominion of Lu Pardan": 1,
+    "Defence Force of Lu Pardan": 1,
+    "CHIMERA": 1,
+    "Revolutionary Lu Pardan Free": 1,
+    "Lu Pardan Family": 0
    },
-   "trafico": {
-    "2026-10-30": 1
-   },
-   "saltos": {
-    "1793372400": 1
-   },
-   "rutas": {
-    "2026-11-19": 2
+   "rivales": [],
+   "tick_ult": 1795093550,
+   "tick_marg": 4994,
+   "pn": {
+    "V8X-11L": {
+     "n": "ALATREON",
+     "t": 1795093563,
+     "d": 1795093550
+    },
+    "B3J-3HM": {
+     "n": "L'OBLIVION",
+     "t": 1795093563,
+     "d": 1795093550
+    }
    }
   },
   "Mau": {
@@ -19425,7 +19477,7 @@
   },
   "Tascheter Sector AQ-Y c25": {
    "sys": "Tascheter Sector AQ-Y c25",
-   "t": 1795023278,
+   "t": 1795094265,
    "src": "EDDN",
    "inf": 9.41,
    "ctrl": false,
@@ -19444,10 +19496,10 @@
      "inf": 60.26,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -19489,7 +19541,7 @@
     -85.625
    ],
    "sis": {
-    "pob": 437863,
+    "pob": 437887,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -19510,6 +19562,21 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-19": 2
+   },
+   "tk": {
+    "firma": "c3870db3",
+    "igual": 1795094265
+   },
+   "saltos": {
+    "1795093200": 1
+   },
+   "rutas": {
+    "2026-11-19": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1795023278,
@@ -19517,11 +19584,7 @@
     ]
    ],
    "rach": {},
-   "rivales": [],
-   "tk": {
-    "firma": "c3870db3",
-    "igual": 1795023278
-   }
+   "rivales": []
   },
   "Hyades Sector TK-M b8-4": {
    "sys": "Hyades Sector TK-M b8-4",
@@ -20479,11 +20542,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795093138.2132204,
-  "msgs": 32704,
-  "mios": 3
+  "ultimo": 1795094270.8032734,
+  "msgs": 41913,
+  "mios": 6
  },
- "t": 1795093368.267531,
+ "t": 1795094279.673798,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20534,9 +20597,9 @@
    "ly": 4.0,
    "junto": "Hyades Sector RZ-N b7-3",
    "nfac": 3,
-   "pob": 239252,
+   "pob": 239267,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795014070
+   "t": 1795093634
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -20627,7 +20690,7 @@
    "nfac": 4,
    "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795067118
+   "t": 1795093948
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -21615,7 +21678,7 @@
    "nfac": 4,
    "pob": 59911075,
    "ctrl_n": "Kalvelis Imperial Society",
-   "t": 1795092147
+   "t": 1795093908
   },
   "Tascheter Sector AL-O a6-0": {
    "pos": [
@@ -24528,6 +24591,45 @@
    "pob": 444820969,
    "ctrl_n": "Green Party of BD+27 1356",
    "t": 1795092851
+  },
+  "Galibi": {
+   "pos": [
+    37.09375,
+    -2.4375,
+    -89.03125
+   ],
+   "ly": 13.4,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 6,
+   "pob": 2011,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795093491
+  },
+  "Col 285 Sector KS-T d3-60": {
+   "pos": [
+    -166.40625,
+    24.90625,
+    -85.90625
+   ],
+   "ly": 19.0,
+   "junto": "Col 285 Sector KE-E b13-0",
+   "nfac": 4,
+   "pob": 797916,
+   "ctrl_n": "Canonn",
+   "t": 1795093979
+  },
+  "Col 285 Sector XZ-U b17-2": {
+   "pos": [
+    132.15625,
+    -22.5625,
+    28.40625
+   ],
+   "ly": 14.1,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1413001,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795092116
   }
  },
  "codice": [
@@ -24877,7 +24979,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795090345
+   "t": 1795094162
   },
   "Meeneratii": {
    "pos": [
@@ -25009,7 +25111,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795092147
+   "t": 1795093908
   },
   "HIP 36874": {
    "pos": [
@@ -25058,6 +25160,169 @@
     "Jerome Archer"
    ],
    "t": 1795093136
+  },
+  "Galibi": {
+   "pos": [
+    37.09375,
+    -2.4375,
+    -89.03125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.105712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795093491
+  },
+  "Lu Pardan": {
+   "pos": [
+    -28.34375,
+    7.78125,
+    -115.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795093550
+  },
+  "Hyades Sector RZ-N b7-1": {
+   "pos": [
+    3.84375,
+    20.4375,
+    -122.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795093634
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795093779
+  },
+  "LHS 1734": {
+   "pos": [
+    37.09375,
+    -36.28125,
+    -47.875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.177712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795093948
+  },
+  "Col 285 Sector KS-T d3-60": {
+   "pos": [
+    -166.40625,
+    24.90625,
+    -85.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1795093979
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.0926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795091432
+  },
+  "Col 285 Sector XZ-U b17-2": {
+   "pos": [
+    132.15625,
+    -22.5625,
+    28.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795092116
+  },
+  "Tascheter Sector AQ-Y c25": {
+   "pos": [
+    -31.1875,
+    6.375,
+    -85.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795094265
+  },
+  "Yin Sector WO-A b1": {
+   "pos": [
+    -0.3125,
+    20.65625,
+    -89.03125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.070283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795094270
   }
  }
 }

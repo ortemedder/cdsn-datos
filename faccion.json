@@ -20467,10 +20467,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 14525,
+  "msgs": 451,
   "mios": 0
  },
- "t": 1795088186.732178,
+ "t": 0,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -24722,109 +24722,5 @@
    }
   ]
  },
- "thargoides": {},
- "zona": {
-  "Khaima": {
-   "pos": [
-    -23.625,
-    -10.75,
-    -89.46875
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795086865
-  },
-  "Zosia": {
-   "pos": [
-    -16.75,
-    19.59375,
-    -60.0625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.257069,
-   "pots": [
-    "Edmund Mahon",
-    "Felicia Winters",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795087666
-  },
-  "Lalande 9828": {
-   "pos": [
-    -45.125,
-    22.625,
-    -85.53125
-   ],
-   "pot": "Jerome Archer",
-   "est": "Exploited",
-   "prog": 0.154855,
-   "pots": [
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795087726
-  },
-  "Rindjibal": {
-   "pos": [
-    133,
-    -3.375,
-    23.875
-   ],
-   "pot": "Zemina Torval",
-   "est": "Exploited",
-   "prog": 0.253926,
-   "pots": [
-    "A. Lavigny-Duval",
-    "Aisling Duval",
-    "Felicia Winters",
-    "Zemina Torval"
-   ],
-   "t": 1795088123
-  },
-  "LHS 1651": {
-   "pos": [
-    31.25,
-    -44.09375,
-    -32.5625
-   ],
-   "pot": "Denton Patreus",
-   "est": "Exploited",
-   "prog": 0.104569,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795088170
-  },
-  "Any Na": {
-   "pos": [
-    125.65625,
-    -1.71875,
-    14.09375
-   ],
-   "pot": "Zemina Torval",
-   "est": "Fortified",
-   "prog": 0.163385,
-   "pots": [
-    "A. Lavigny-Duval",
-    "Aisling Duval",
-    "Felicia Winters",
-    "Zemina Torval"
-   ],
-   "t": 1795088180
-  }
- }
+ "thargoides": {}
 }

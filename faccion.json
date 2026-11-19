@@ -20396,10 +20396,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795065562.6495278,
-  "msgs": 43437,
+  "msgs": 50371,
   "mios": 1
  },
- "t": 1795065672.4801702,
+ "t": 1795066473.268631,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20543,7 +20543,7 @@
    "nfac": 4,
    "pob": 190398265,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795056820
+   "t": 1795066455
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -20894,7 +20894,7 @@
    "nfac": 4,
    "pob": 216496,
    "ctrl_n": "East India Company",
-   "t": 1795037790
+   "t": 1795066124
   },
   "Trianguli Sector SU-O a6-3": {
    "pos": [
@@ -24327,6 +24327,32 @@
    "pob": 339834692,
    "ctrl_n": "The Fatherhood",
    "t": 1795065656
+  },
+  "Wolf 225": {
+   "pos": [
+    -33,
+    -13.625,
+    -71.5
+   ],
+   "ly": 18.4,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 87747,
+   "ctrl_n": "Quebecois Patriots",
+   "t": 1795063080
+  },
+  "Wolf 1324": {
+   "pos": [
+    -45.46875,
+    -28.09375,
+    -87
+   ],
+   "ly": 19.9,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 4,
+   "pob": 2194669,
+   "ctrl_n": "Pikum Public Group",
+   "t": 1795063157
   }
  },
  "codice": [
@@ -24663,7 +24689,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795056820
+   "t": 1795066455
   },
   "Ceti Sector HR-V b2-0": {
    "pos": [
@@ -24875,6 +24901,69 @@
     "Jerome Archer"
    ],
    "t": 1795065699
+  },
+  "Brians": {
+   "pos": [
+    107.75,
+    -135.15625,
+    -8.40625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.201878,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795065998
+  },
+  "Tascheter Sector IM-M a7-1": {
+   "pos": [
+    27.6875,
+    -38.875,
+    -28.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795066124
+  },
+  "Wolf 225": {
+   "pos": [
+    -33,
+    -13.625,
+    -71.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.269641,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795063080
+  },
+  "Wolf 1324": {
+   "pos": [
+    -45.46875,
+    -28.09375,
+    -87
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.238855,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795063157
   }
  }
 }

@@ -2877,9 +2877,9 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795029858,
+   "t": 1795081841,
    "src": "EDDN",
-   "inf": 70.98,
+   "inf": 71.01,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -2888,12 +2888,12 @@
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 9.18,
+   "segunda_inf": 9.17,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 70.98,
+     "inf": 71.01,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2904,7 +2904,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 9.18,
+     "inf": 9.17,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -2915,7 +2915,7 @@
     },
     {
      "n": "Escuadron Centinelas",
-     "inf": 6.22,
+     "inf": 6.21,
      "gov": "Feudal",
      "alg": "Empire",
      "act": [],
@@ -2924,7 +2924,7 @@
     },
     {
      "n": "New Catun First",
-     "inf": 5.63,
+     "inf": 5.62,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -2933,7 +2933,7 @@
     },
     {
      "n": "Catun Resistance",
-     "inf": 3.46,
+     "inf": 3.45,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -2976,9 +2976,9 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.252992,
-    "ref": 3110,
-    "soc": 64,
+    "prog": 0.252423,
+    "ref": 0,
+    "soc": 324,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -2994,28 +2994,29 @@
     "2026-11-15": 7,
     "2026-11-16": 10,
     "2026-11-17": 2,
-    "2026-11-18": 25
+    "2026-11-18": 25,
+    "2026-11-19": 1
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795029858,
+     "t": 1795081841,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795029858,
+     "t": 1795081841,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795029858,
+     "t": 1795081841,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "f9f668ba",
-    "igual": 1795029858,
+    "igual": 1795081841,
     "ult": 1794959840,
     "desde": 1794848801,
     "vent": [
@@ -3039,9 +3040,9 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795029858,
+     "t": 1795081841,
      "estado": "",
-     "ls": 1816,
+     "ls": 1815,
      "pads": {
       "Small": 7,
       "Medium": 12,
@@ -3049,7 +3050,7 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795029781,
+      "t": 1795081848,
       "n": 144,
       "vende": [
        {
@@ -3138,17 +3139,32 @@
        }
       ]
      },
-     "mods": 824,
-     "mods_t": 1795030530,
+     "mods": 783,
+     "mods_t": 1795081848,
      "naves": [
       "anaconda",
+      "asp",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
       "explorer_nx",
+      "ferdelance",
+      "hauler",
       "lakonminer",
-      "mandalay",
-      "panthermkii",
-      "type8"
+      "mamba",
+      "mediumtransport01",
+      "orca",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type8",
+      "viper",
+      "viper_mkiv"
      ],
-     "naves_t": 1795030514,
+     "naves_t": 1795081848,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3161,8 +3177,8 @@
      }
     }
    },
-   "prev": 69.6,
-   "prev_t": 1794848801,
+   "prev": 70.98,
+   "prev_t": 1795029858,
    "hinf": [
     [
      1794290838,
@@ -3183,6 +3199,10 @@
     [
      1794959840,
      70.98
+    ],
+    [
+     1795081841,
+     71.01
     ]
    ],
    "rach": {
@@ -20385,10 +20405,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 5217,
+  "msgs": 315,
   "mios": 0
  },
- "t": 1795081660.8173006,
+ "t": 0,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -21143,7 +21163,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795044534
+   "t": 1795081811
   },
   "LTT 740": {
    "pos": [
@@ -24591,41 +24611,5 @@
    }
   ]
  },
- "thargoides": {},
- "zona": {
-  "LTT 11383": {
-   "pos": [
-    -25.1875,
-    -14.5,
-    -81.84375
-   ],
-   "pot": "Zemina Torval",
-   "est": "Exploited",
-   "prog": 0.244569,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795081600
-  },
-  "LTT 11503": {
-   "pos": [
-    -10.5,
-    -13,
-    -70.5625
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795081650
-  }
- }
+ "thargoides": {}
 }

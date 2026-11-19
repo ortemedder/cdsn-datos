@@ -5724,7 +5724,7 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 3
+    "2026-11-19": 6
    },
    "pn": {
     "H5L-70M": {
@@ -6040,9 +6040,9 @@
     "Shvets Works": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795007104,
+     "t": 1795048404,
      "estado": "",
-     "ls": 2656,
+     "ls": 2658,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -6061,13 +6061,17 @@
       "2026-11-18": {
        "ok": 2,
        "no": 1
+      },
+      "2026-11-19": {
+       "ok": 1,
+       "no": 0
       }
      },
      "neg": {
       "Distance": 1
      },
      "mer": {
-      "t": 1795007111,
+      "t": 1795048412,
       "n": 366,
       "vende": [
        {
@@ -6287,7 +6291,7 @@
     "Orbital Construction Site: Neugebauer's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795046978,
+     "t": 1795048141,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -6302,7 +6306,7 @@
        "no": 2
       },
       "2026-11-19": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -20147,10 +20151,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795046928.9554484,
-  "msgs": 820521,
+  "msgs": 830371,
   "mios": 94
  },
- "t": 1795047814.081185,
+ "t": 1795048615.5942273,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -22153,7 +22157,7 @@
    "nfac": 4,
    "pob": 1594391,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795046804
+   "t": 1795048086
   },
   "Loki Tan": {
    "pos": [
@@ -27796,7 +27800,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795046804
+   "t": 1795048086
   },
   "Tascheter Sector DG-O a6-2": {
    "pos": [
@@ -28135,7 +28139,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795046350
+   "t": 1795048153
   },
   "Chicoana": {
    "pos": [
@@ -28240,6 +28244,37 @@
     "Jerome Archer"
    ],
    "t": 1795047810
+  },
+  "Acokwa": {
+   "pos": [
+    -52.59375,
+    -2.90625,
+    -92.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.266575,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795048494
+  },
+  "Nebthet": {
+   "pos": [
+    4,
+    -9.96875,
+    -128.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.234284,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795048613
   }
  },
  "ataques": {

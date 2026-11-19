@@ -3468,13 +3468,15 @@
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
-   "t": 1794855965,
+   "t": 1795065561,
    "src": "EDDN",
    "inf": 9.87,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "The Fatherhood",
    "segunda_inf": 50.05,
@@ -3485,9 +3487,7 @@
      "inf": 50.05,
      "gov": "Democracy",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -3496,10 +3496,10 @@
      "inf": 15.21,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -3507,10 +3507,10 @@
      "inf": 15.0,
      "gov": "Democracy",
      "alg": "Alliance",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -3528,7 +3528,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -3539,7 +3541,7 @@
     -98.875
    ],
    "sis": {
-    "pob": 46817883,
+    "pob": 46870462,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -3566,11 +3568,12 @@
     "2026-11-13": 2,
     "2026-11-14": 1,
     "2026-11-15": 6,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-19": 1
    },
    "tk": {
     "firma": "999d3cbe",
-    "igual": 1794855965,
+    "igual": 1795065561,
     "ult": 1794855965,
     "desde": 1794784179,
     "est": null,
@@ -3580,6 +3583,12 @@
       1794855965
      ]
     ]
+   },
+   "saltos": {
+    "1795064400": 1
+   },
+   "rutas": {
+    "2026-11-19": 3
    },
    "prev": 8.55,
    "prev_t": 1794784179,
@@ -3597,6 +3606,8 @@
      9.87
     ]
    ],
+   "rach": {},
+   "rivales": [],
    "tick_ult": 1794855965,
    "tick_marg": 598,
    "tick_prox": 1794906420,
@@ -20384,11 +20395,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 0,
-  "msgs": 36475,
-  "mios": 0
+  "ultimo": 1795065562.6495278,
+  "msgs": 43437,
+  "mios": 1
  },
- "t": 1795064251.2446647,
+ "t": 1795065672.4801702,
  "tick_global": 1795015532,
  "expansion": {
   "Lalande 10797": {
@@ -20933,9 +20944,9 @@
    "ly": 18.4,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 3498085802,
+   "pob": 3498910559,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795044439
+   "t": 1795065298
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -22612,7 +22623,7 @@
    "nfac": 6,
    "pob": 5680814,
    "ctrl_n": "Brotherhood of Terra Mater",
-   "t": 1794958285
+   "t": 1795065699
   },
   "Col 285 Sector YJ-N b8-2": {
    "pos": [
@@ -22989,7 +23000,7 @@
    "nfac": 5,
    "pob": 12784480,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1794975668
+   "t": 1795065187
   },
   "Trianguli Sector BQ-Y c15": {
    "pos": [
@@ -24303,6 +24314,19 @@
    "pob": 2453296799,
    "ctrl_n": "The Fatherhood",
    "t": 1795063560
+  },
+  "Hyades Sector AC-K b9-7": {
+   "pos": [
+    -49.8125,
+    -15,
+    -77.21875
+   ],
+   "ly": 7.5,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 4,
+   "pob": 339834692,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795065656
   }
  },
  "codice": [
@@ -24770,6 +24794,87 @@
     "Jerome Archer"
    ],
    "t": 1795064242
+  },
+  "LP 941-16": {
+   "pos": [
+    27.9375,
+    -89.0625,
+    -15.09375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.100615,
+   "pots": [
+    "Denton Patreus",
+    "Pranav Antal"
+   ],
+   "t": 1795065187
+  },
+  "HIP 33497": {
+   "pos": [
+    31.78125,
+    29.65625,
+    -134.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.252998,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795065298
+  },
+  "Hyades Sector XV-L b8-3": {
+   "pos": [
+    -30.875,
+    -8.0625,
+    -98.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795065561
+  },
+  "Hyades Sector AC-K b9-7": {
+   "pos": [
+    -49.8125,
+    -15,
+    -77.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.231998,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795065656
+  },
+  "Caill Reddi": {
+   "pos": [
+    -61.375,
+    -21.90625,
+    -78.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.250154,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795065699
   }
  }
 }

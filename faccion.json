@@ -20333,7 +20333,8 @@
     "1795017600": 1
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 9
    },
    "prev": null,
    "prev_t": null,
@@ -22825,10 +22826,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795187622.4108818,
-  "msgs": 863978,
+  "msgs": 876858,
   "mios": 86
  },
- "t": 1795187678.2285469,
+ "t": 1795188479.7354527,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23310,7 +23311,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795177496
+   "t": 1795187105
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -24491,9 +24492,9 @@
    "ly": 17.5,
    "junto": "BD+27 881",
    "nfac": 3,
-   "pob": 2043243,
+   "pob": 2043433,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794948282
+   "t": 1795188473
   },
   "ICZ GL-X b1-1": {
    "pos": [
@@ -27770,9 +27771,32 @@
    "pob": 318342,
    "ctrl_n": "Solaris Xeno-Psychology Group",
    "t": 1795185029
+  },
+  "Hyades Sector UP-N b7-3": {
+   "pos": [
+    -11.21875,
+    -17.03125,
+    -121.5625
+   ],
+   "ly": 13.5,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 3,
+   "pob": 522709515,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795188419
   }
  },
  "codice": [
+  {
+   "sys": "Tascheter Sector YZ-Y a3",
+   "n": "Bacterial 04 Antimony",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Tascheter Sector YZ-Y a3 4",
+   "junto": "Hyades Sector XV-L b8-3",
+   "ly": 19.4,
+   "t": 1795188036
+  },
   {
    "sys": "HIP 28774",
    "n": "Tussocks 03 F",
@@ -28062,16 +28086,6 @@
    "junto": "Eurus",
    "ly": 18.5,
    "t": 1795174187
-  },
-  {
-   "sys": "Oto",
-   "n": "Fumerolas 03 Tin",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 3 b",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795174175
   }
  ],
  "ataques": {
@@ -28278,7 +28292,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795177496
+   "t": 1795187105
   },
   "Nergal": {
    "pos": [
@@ -32335,6 +32349,72 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795187453
+  },
+  "Kou Zu": {
+   "pos": [
+    -21.84375,
+    -11.25,
+    -92.65625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.236569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795188256
+  },
+  "Huveang De": {
+   "pos": [
+    -40.71875,
+    -22.84375,
+    -114.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795188362
+  },
+  "Hyades Sector UP-N b7-3": {
+   "pos": [
+    -11.21875,
+    -17.03125,
+    -121.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.280234,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795188419
+  },
+  "Hyades Sector SJ-P b6-4": {
+   "pos": [
+    15.40625,
+    -6.28125,
+    -130.21875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.162855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795188473
   }
  },
  "rivales": {

@@ -10711,23 +10711,36 @@
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
-   "t": 1795109844,
+   "t": 1795158455,
    "src": "EDDN",
-   "inf": 18.39,
+   "inf": 23.42,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [
-    "Expansion"
+    "Expansion",
+    "War"
    ],
    "recuperando": [],
    "segunda": "Nanamatha Progressive Party",
-   "segunda_inf": 37.49,
-   "conflictos": [],
+   "segunda_inf": 34.17,
+   "conflictos": [
+    {
+     "tipo": "war",
+     "estado": "pending",
+     "contra": "Catun PLC",
+     "ganados": 0,
+     "perdidos": 0,
+     "en_juego": "Marth Landing",
+     "en_juego_rival": "Hanyu Port",
+     "fase": "pendiente",
+     "desde": 1795158455
+    }
+   ],
    "todas": [
     {
      "n": "Nanamatha Progressive Party",
-     "inf": 37.49,
+     "inf": 34.17,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -10736,31 +10749,34 @@
     },
     {
      "n": "Catun PLC",
-     "inf": 24.02,
+     "inf": 23.42,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Leaders of Apinayimas",
-     "inf": 20.1,
-     "gov": "Feudal",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
+     "pend": [
+      "War"
+     ],
      "jug": null
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 18.39,
+     "inf": 23.42,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [
-      "Expansion"
+      "Expansion",
+      "War"
      ],
+     "jug": null
+    },
+    {
+     "n": "Leaders of Apinayimas",
+     "inf": 19.0,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
      "jug": null
     }
    ],
@@ -10771,7 +10787,7 @@
     -103.90625
    ],
    "sis": {
-    "pob": 48821944,
+    "pob": 48822650,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -10795,19 +10811,31 @@
    "trafico": {
     "2026-11-10": 2,
     "2026-11-15": 1,
-    "2026-11-19": 3
+    "2026-11-19": 3,
+    "2026-11-20": 1
    },
    "tk": {
-    "firma": "44ffbe4e",
-    "igual": 1795109844
+    "firma": "da431153",
+    "igual": 1795158455,
+    "ult": 1795158455,
+    "desde": 1795109844,
+    "vent": [
+     [
+      1795109844,
+      1795158455
+     ]
+    ],
+    "est": null
    },
    "saltos": {
     "1795096800": 2,
-    "1795107600": 1
+    "1795107600": 1,
+    "1795158000": 1
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Machigai Station": {
@@ -10963,16 +10991,51 @@
      "naves_t": 1795099422
     }
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 18.39,
+   "prev_t": 1795109844,
    "hinf": [
     [
      1794330619,
      18.39
+    ],
+    [
+     1795158455,
+     23.42
     ]
    ],
-   "rach": {},
-   "rivales": []
+   "rach": {
+    "Nanamatha Progressive Party": 0,
+    "Catun PLC": 0,
+    "Caballeros de Sion": 1,
+    "Leaders of Apinayimas": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795158455,
+   "tick_marg": 405,
+   "tick_prox": 1795220520,
+   "tick_disp": 405,
+   "tick_n": 0,
+   "cseg": {
+    "Catun PLC": {
+     "tipo": "war",
+     "ini": null,
+     "pend": 1795158455,
+     "exacto": false,
+     "dia": 0,
+     "res": [],
+     "ref": [
+      0,
+      0
+     ],
+     "tick": null,
+     "eval": null,
+     "fase": "pendiente",
+     "g": 0,
+     "p": 0,
+     "mio": "Marth Landing",
+     "suyo": "Hanyu Port"
+    }
+   }
   },
   "Kunuvii": {
    "sys": "Kunuvii",
@@ -22290,11 +22353,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795154819.7727108,
-  "msgs": 581415,
-  "mios": 46
+  "ultimo": 1795158456.1408734,
+  "msgs": 587317,
+  "mios": 47
  },
- "t": 1795157580.8256714,
+ "t": 1795158772.295928,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22657,9 +22720,9 @@
    "ly": 10.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 218621,
+   "pob": 218632,
    "ctrl_n": "East India Company",
-   "t": 1795136947
+   "t": 1795158769
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -22724,7 +22787,7 @@
    "nfac": 4,
    "pob": 128265,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795156852
+   "t": 1795158152
   },
   "Unktock": {
    "pos": [
@@ -26377,7 +26440,7 @@
    "nfac": 4,
    "pob": 1570943,
    "ctrl_n": "The Dark Wheel",
-   "t": 1795095309
+   "t": 1795158544
   },
   "Ross 409": {
    "pos": [
@@ -27028,6 +27091,32 @@
    "pob": 390784,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1795155476
+  },
+  "Ceti Sector FG-X b1-5": {
+   "pos": [
+    24.0625,
+    -106.75,
+    -63.21875
+   ],
+   "ly": 18.4,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 3,
+   "pob": 389101,
+   "ctrl_n": "Ukrainian Pilots Federation",
+   "t": 1795158502
+  },
+  "Trianguli Sector SU-O a6-4": {
+   "pos": [
+    30.78125,
+    -43.03125,
+    -58
+   ],
+   "ly": 13.7,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 420168,
+   "ctrl_n": "Galaxy Express",
+   "t": 1795156817
   }
  },
  "codice": [
@@ -28995,7 +29084,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795156852
+   "t": 1795158152
   },
   "Guei": {
    "pos": [
@@ -29402,7 +29491,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795136947
+   "t": 1795158769
   },
   "LTT 11655": {
    "pos": [
@@ -30308,6 +30397,73 @@
     "Jerome Archer"
    ],
    "t": 1795156354
+  },
+  "Hyades Sector UF-M b8-2": {
+   "pos": [
+    -11.625,
+    29.9375,
+    -103.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.199435,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795158455
+  },
+  "Ceti Sector FG-X b1-5": {
+   "pos": [
+    24.0625,
+    -106.75,
+    -63.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795158502
+  },
+  "Col 285 Sector YZ-U b17-9": {
+   "pos": [
+    146.53125,
+    -13.4375,
+    28.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795158544
+  },
+  "Trianguli Sector SU-O a6-4": {
+   "pos": [
+    30.78125,
+    -43.03125,
+    -58
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795156817
   }
  },
  "rivales": {

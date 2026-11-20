@@ -22357,10 +22357,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795160175.922724,
-  "msgs": 629280,
+  "msgs": 635348,
   "mios": 48
  },
- "t": 1795165089.1114247,
+ "t": 1795165599.7052944,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -27133,6 +27133,19 @@
    "pob": 428298,
    "ctrl_n": "Federal Interstellar Recon",
    "t": 1795162885
+  },
+  "ICZ XY-A b3": {
+   "pos": [
+    114.5625,
+    -119.25,
+    -27.0625
+   ],
+   "ly": 13.3,
+   "junto": "HIP 19292",
+   "nfac": 5,
+   "pob": 47445295,
+   "ctrl_n": "Chapterhouse of Inquisition",
+   "t": 1795165389
   }
  },
  "codice": [
@@ -29601,14 +29614,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.320323,
+   "prog": 0.320431,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795147602
+   "t": 1795165598
   },
   "Wolf 289": {
    "pos": [
@@ -29659,7 +29672,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795164739
+   "t": 1795166040
   },
   "Mandra": {
    "pos": [
@@ -30699,6 +30712,34 @@
     "Jerome Archer"
    ],
    "t": 1795165081
+  },
+  "Gyvatices": {
+   "pos": [
+    101.78125,
+    -126.40625,
+    -12.78125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.260738,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795164730
+  },
+  "ICZ XY-A b3": {
+   "pos": [
+    114.5625,
+    -119.25,
+    -27.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795165389
   }
  },
  "rivales": {

@@ -9734,7 +9734,7 @@
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
-    "2026-11-20": 5
+    "2026-11-20": 6
    },
    "estaciones": {
     "Piel City": {
@@ -15592,7 +15592,7 @@
   },
   "Lu Pardan": {
    "sys": "Lu Pardan",
-   "t": 1795184603,
+   "t": 1795186348,
    "src": "EDDN",
    "inf": 36.82,
    "ctrl": true,
@@ -15707,12 +15707,12 @@
    "trafico": {
     "2026-10-30": 1,
     "2026-11-19": 1,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1795184603,
+     "t": 1795186359,
      "d": 1795093550
     },
     "B3J-3HM": {
@@ -15723,7 +15723,7 @@
    },
    "tk": {
     "firma": "4eb9cec9",
-    "igual": 1795184603,
+    "igual": 1795186348,
     "ult": 1795093550,
     "desde": 1794494152,
     "est": null
@@ -15731,11 +15731,11 @@
    "saltos": {
     "1793372400": 1,
     "1795093200": 1,
-    "1795183200": 1
+    "1795183200": 2
    },
    "rutas": {
     "2026-11-19": 2,
-    "2026-11-20": 1
+    "2026-11-20": 3
    },
    "prev": 37.61,
    "prev_t": 1794494152,
@@ -22822,11 +22822,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795185145.2165387,
-  "msgs": 836561,
-  "mios": 84
+  "ultimo": 1795186379.4258852,
+  "msgs": 849638,
+  "mios": 85
  },
- "t": 1795185874.4896696,
+ "t": 1795186456.4729528,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23542,7 +23542,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795184077
+   "t": 1795186432
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -24268,9 +24268,9 @@
    "ly": 18.5,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 2004153,
+   "pob": 2004194,
    "ctrl_n": "East India Company",
-   "t": 1795135163
+   "t": 1795186247
   },
   "BD+39 876": {
    "pos": [
@@ -26870,7 +26870,7 @@
    "nfac": 6,
    "pob": 2011,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795093491
+   "t": 1795186279
   },
   "Col 285 Sector KS-T d3-60": {
    "pos": [
@@ -27299,7 +27299,7 @@
    "nfac": 4,
    "pob": 250344,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795173122
+   "t": 1795185981
   },
   "Hyades Sector TU-N b7-0": {
    "pos": [
@@ -27754,7 +27754,7 @@
    "nfac": 3,
    "pob": 2309581,
    "ctrl_n": "CHIMERA",
-   "t": 1795185132
+   "t": 1795185991
   },
   "HIP 44510": {
    "pos": [
@@ -28457,7 +28457,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795184077
+   "t": 1795186432
   },
   "Wolf 186": {
    "pos": [
@@ -28805,14 +28805,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.245073,
+   "prog": 0.245145,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795118274
+   "t": 1795186170
   },
   "LP 157-32": {
    "pos": [
@@ -29214,7 +29214,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795173122
+   "t": 1795185981
   },
   "Hyades Sector TU-N b7-0": {
    "pos": [
@@ -30107,7 +30107,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795135163
+   "t": 1795186247
   },
   "Siren": {
    "pos": [
@@ -30378,7 +30378,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795166040
+   "t": 1795186261
   },
   "Mandra": {
    "pos": [
@@ -32113,7 +32113,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795185132
+   "t": 1795185991
   },
   "Lalande 9828": {
    "pos": [
@@ -32144,7 +32144,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795184603
+   "t": 1795186348
   },
   "Col 285 Sector KE-E b13-0": {
    "pos": [
@@ -32269,6 +32269,38 @@
     "Pranav Antal"
    ],
    "t": 1795185822
+  },
+  "StKM 1-626": {
+   "pos": [
+    8.6875,
+    23.09375,
+    -75.65625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795186115
+  },
+  "Galibi": {
+   "pos": [
+    37.09375,
+    -2.4375,
+    -89.03125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.105712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795186279
   }
  },
  "rivales": {

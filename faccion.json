@@ -1972,7 +1972,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1795123254,
+   "t": 1795182220,
    "src": "EDDN",
    "inf": 12.28,
    "ctrl": false,
@@ -2046,7 +2046,7 @@
     -114.78125
    ],
    "sis": {
-    "pob": 61776222,
+    "pob": 61777850,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -2056,8 +2056,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Stronghold",
-    "prog": 0.258009,
-    "ref": 2625,
+    "prog": 0.258699,
+    "ref": 3315,
     "soc": 1416,
     "pots": [
      "Aisling Duval",
@@ -2075,7 +2075,7 @@
     "2026-11-17": 16,
     "2026-11-18": 55,
     "2026-11-19": 29,
-    "2026-11-20": 1
+    "2026-11-20": 3
    },
    "zc": [
     {
@@ -2575,7 +2575,7 @@
    },
    "tk": {
     "firma": "7ff3f008",
-    "igual": 1795123254,
+    "igual": 1795182220,
     "ult": 1794886163,
     "desde": 1794844632,
     "est": null,
@@ -2609,12 +2609,14 @@
     "1795082400": 1,
     "1795114800": 2,
     "1795118400": 4,
-    "1795122000": 1
+    "1795122000": 1,
+    "1795179600": 1
    },
    "rutas": {
     "2026-11-17": 7,
     "2026-11-18": 18,
-    "2026-11-19": 11
+    "2026-11-19": 11,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Judge Reach": {
@@ -22656,11 +22658,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795181199.830224,
-  "msgs": 785176,
-  "mios": 71
+  "ultimo": 1795182225.5549996,
+  "msgs": 795620,
+  "mios": 72
  },
- "t": 1795181301.424109,
+ "t": 1795182293.6784909,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23764,9 +23766,9 @@
    "ly": 19.2,
    "junto": "HIP 41850",
    "nfac": 3,
-   "pob": 204161,
+   "pob": 204160,
    "ctrl_n": "Deutsche Elite Piloten Interstellar",
-   "t": 1795123595
+   "t": 1795182288
   },
   "Crucis Sector JW-W b1-8": {
    "pos": [
@@ -24260,7 +24262,7 @@
    "nfac": 3,
    "pob": 398025,
    "ctrl_n": "The 46th and 2nd Galactic Regiment",
-   "t": 1795177847
+   "t": 1795182257
   },
   "Lambayeque": {
    "pos": [
@@ -27300,9 +27302,9 @@
    "ly": 16.5,
    "junto": "Haraka",
    "nfac": 5,
-   "pob": 963785,
+   "pob": 963823,
    "ctrl_n": "Civitas Dei",
-   "t": 1795134872
+   "t": 1795182049
   },
   "Yin Sector ZU-Y b4": {
    "pos": [
@@ -27537,9 +27539,82 @@
    "pob": 1231804,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1795180092
+  },
+  "Lyncis Sector CQ-Y c7": {
+   "pos": [
+    -44.84375,
+    70.65625,
+    -153.9375
+   ],
+   "ly": 18.1,
+   "junto": "HIP 37216",
+   "nfac": 4,
+   "pob": 68637930,
+   "ctrl_n": "People's Agarahma Progressive Party",
+   "t": 1795181742
   }
  },
  "codice": [
+  {
+   "sys": "HIP 28774",
+   "n": "Clypeus 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182224
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Tussocks 12 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182206
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Bacterial 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182178
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Shrubs 02 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182028
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Cactoid 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182006
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Fungoids 02 Molybdenum",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795181953
+  },
   {
    "sys": "LHS 1914",
    "n": "Cactoid 01 T",
@@ -27779,66 +27854,6 @@
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
    "t": 1795091414
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Stratum 01 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 c",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795090898
-  },
-  {
-   "sys": "Huveang De",
-   "n": "Standard Ammonia Worlds",
-   "cat": "StellarBodies",
-   "sub": "Terrestrials",
-   "cuerpo": "",
-   "junto": "Arietis Sector CQ-Y d60",
-   "ly": 16.6,
-   "t": 1795032957
-  },
-  {
-   "sys": "Cosi",
-   "n": "Earth Likes",
-   "cat": "StellarBodies",
-   "sub": "Terrestrials",
-   "cuerpo": "",
-   "junto": "Tascheter Sector AA-Z b5",
-   "ly": 19.8,
-   "t": 1794999234
-  },
-  {
-   "sys": "Tirfing",
-   "n": "Recepta 03 Ruthenium",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Tirfing 8 e",
-   "junto": "Hyades Sector AC-K b9-6",
-   "ly": 19.5,
-   "t": 1794994576
-  },
-  {
-   "sys": "Khwar",
-   "n": "Bacterial 05 Yttrium",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Khwar D 8",
-   "junto": "Arietis Sector CQ-Y d60",
-   "ly": 17.7,
-   "t": 1794958008
-  },
-  {
-   "sys": "Col 285 Sector UX-H b11-1",
-   "n": "IceGeysers WaterGeysers",
-   "cat": "Biology",
-   "sub": "Geology and Anomalies",
-   "cuerpo": "Col 285 Sector UX-H b11-1 4 a",
-   "junto": "HIP 41850",
-   "ly": 19.2,
-   "t": 1794944666
   }
  ],
  "ataques": {
@@ -28085,22 +28100,6 @@
    ],
    "t": 1795116181
   },
-  "Tascheter Sector CL-Y d132": {
-   "pos": [
-    -25.53125,
-    -24.78125,
-    -99.8125
-   ],
-   "pot": "Aisling Duval",
-   "est": "Fortified",
-   "prog": 0.314503,
-   "pots": [
-    "Aisling Duval",
-    "Li Yong-Rui",
-    "Zemina Torval"
-   ],
-   "t": 1794055391
-  },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
     136.875,
@@ -28141,13 +28140,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.258009,
+   "prog": 0.258699,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795123254
+   "t": 1795182220
   },
   "Oto": {
    "pos": [
@@ -29432,7 +29431,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795171989
+   "t": 1795181979
   },
   "Baraluhet": {
    "pos": [
@@ -29917,7 +29916,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795134872
+   "t": 1795182049
   },
   "Ceti Sector FB-X c1-26": {
    "pos": [
@@ -31527,7 +31526,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795177847
+   "t": 1795182257
   },
   "LF 8 +16 41": {
    "pos": [
@@ -31761,6 +31760,54 @@
     "Zemina Torval"
    ],
    "t": 1795180772
+  },
+  "HIP 28774": {
+   "pos": [
+    1.84375,
+    6.96875,
+    -82.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.274859,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795181610
+  },
+  "Lyncis Sector CQ-Y c7": {
+   "pos": [
+    -44.84375,
+    70.65625,
+    -153.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795181742
+  },
+  "GCRV 4259": {
+   "pos": [
+    13.3125,
+    18.09375,
+    -105.65625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.263881,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795182108
   }
  },
  "rivales": {

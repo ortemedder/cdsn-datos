@@ -22355,10 +22355,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795160175.922724,
-  "msgs": 598785,
+  "msgs": 605420,
   "mios": 48
  },
- "t": 1795160283.4817863,
+ "t": 1795161504.7270236,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -26712,9 +26712,9 @@
    "ly": 17.0,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 4,
-   "pob": 47877589,
+   "pob": 47879805,
    "ctrl_n": "East India Company",
-   "t": 1795117309
+   "t": 1795160338
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -27904,7 +27904,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795117309
+   "t": 1795160338
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -29636,7 +29636,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.257069,
+   "prog": 0.257155,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -29644,7 +29644,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795139146
+   "t": 1795161371
   },
   "Mandra": {
    "pos": [
@@ -30497,6 +30497,42 @@
     "Li Yong-Rui"
    ],
    "t": 1795154659
+  },
+  "Renetes": {
+   "pos": [
+    -14.09375,
+    -8.875,
+    -88.5625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.226855,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795160969
+  },
+  "LFT 446": {
+   "pos": [
+    -18.125,
+    15.46875,
+    -68.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.099997,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795161435
   }
  },
  "rivales": {

@@ -22391,10 +22391,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795174568.2091181,
-  "msgs": 714888,
+  "msgs": 725270,
   "mios": 51
  },
- "t": 1795174929.5851393,
+ "t": 1795175550.1809287,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22536,9 +22536,9 @@
    "ly": 11.6,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 190618746,
+   "pob": 190840223,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795151248
+   "t": 1795174748
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -27224,6 +27224,26 @@
  "codice": [
   {
    "sys": "Oto",
+   "n": "Bacterial 10 Antimony",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 3 c",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795175220
+  },
+  {
+   "sys": "Oto",
+   "n": "Fonticulus 06 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 3 c",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795175168
+  },
+  {
+   "sys": "Oto",
    "n": "Bacterial 07 Tin",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -27553,7 +27573,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795146850
+   "t": 1795174748
   },
   "Bakuari": {
    "pos": [

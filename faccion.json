@@ -10228,16 +10228,16 @@
   },
   "NN 3365": {
    "sys": "NN 3365",
-   "t": 1794786709,
+   "t": 1795126284,
    "src": "EDDN",
    "inf": 50.4,
    "ctrl": true,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "NN 3365 Corp.",
    "segunda_inf": 13.65,
    "conflictos": [],
@@ -10248,7 +10248,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -10256,10 +10258,10 @@
      "inf": 13.65,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "CivilWar"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -10267,10 +10269,10 @@
      "inf": 13.65,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "CivilWar"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -10327,8 +10329,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Exploited",
-    "prog": 0.253418,
-    "ref": 5,
+    "prog": 0.253404,
+    "ref": 0,
     "soc": 108,
     "pots": [
      "Edmund Mahon",
@@ -10340,31 +10342,34 @@
    },
    "trafico": {
     "2026-11-13": 1,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-19": 1
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1794567882
-    },
-    {
-     "n": "$Warzone_PointRace_High:#index=1;",
-     "i": "High",
-     "t": 1794567882
+     "t": 1795126291
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1794567882
+     "t": 1795126291
     }
    ],
    "tk": {
     "firma": "a7224626",
-    "igual": 1794786709,
+    "igual": 1795126284,
     "ult": 1794786709,
     "desde": 1794567838,
     "est": null
+   },
+   "saltos": {
+    "1795125600": 1
+   },
+   "rutas": {
+    "2026-11-17": 1,
+    "2026-11-19": 1
    },
    "prev": 49.2,
    "prev_t": 1794257274,
@@ -10378,12 +10383,11 @@
      50.4
     ]
    ],
+   "rach": {},
+   "rivales": [],
    "tick_ult": 1794786709,
    "tick_marg": 1823,
-   "rutas": {
-    "2026-11-17": 1,
-    "2026-11-19": 1
-   }
+   "cseg": {}
   },
   "Ngargambo": {
    "sys": "Ngargambo",
@@ -22145,11 +22149,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795144487.7344284,
-  "msgs": 467999,
-  "mios": 38
+  "ultimo": 1795146175.9645507,
+  "msgs": 477899,
+  "mios": 39
  },
- "t": 1795144689.385514,
+ "t": 1795145990.1886764,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23658,7 +23662,7 @@
    "nfac": 4,
    "pob": 1597907,
    "ctrl_n": "Aseveljet",
-   "t": 1795118240
+   "t": 1795145979
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -27279,7 +27283,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795118240
+   "t": 1795145979
   },
   "Hyades Sector IN-R b5-1": {
    "pos": [
@@ -27495,7 +27499,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795116120
+   "t": 1795126231
   },
   "BD+27 1356": {
    "pos": [
@@ -29727,6 +29731,40 @@
     "Jerome Archer"
    ],
    "t": 1795144681
+  },
+  "Onileut": {
+   "pos": [
+    124.9375,
+    -13.375,
+    17.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.12514,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795145468
+  },
+  "NN 3365": {
+   "pos": [
+    -18.46875,
+    11.5625,
+    -80.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795126284
   }
  },
  "rivales": {

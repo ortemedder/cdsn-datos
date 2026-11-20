@@ -22136,10 +22136,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795140431.206748,
-  "msgs": 442173,
+  "msgs": 451204,
   "mios": 36
  },
- "t": 1795142496.7254093,
+ "t": 1795143137.3417697,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22153,7 +22153,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795141827
+   "t": 1795142578
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -23986,7 +23986,7 @@
    "nfac": 3,
    "pob": 75095265,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795123415
+   "t": 1795143127
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -25635,9 +25635,9 @@
    "ly": 15.8,
    "junto": "Lati",
    "nfac": 3,
-   "pob": 159136,
+   "pob": 159146,
    "ctrl_n": "Civitas Dei",
-   "t": 1795035603
+   "t": 1795142730
   },
   "Ceti Sector FB-X c1-26": {
    "pos": [
@@ -27511,7 +27511,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795141827
+   "t": 1795142578
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -28137,7 +28137,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795123415
+   "t": 1795143127
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -29486,6 +29486,24 @@
     "Jerome Archer"
    ],
    "t": 1795142486
+  },
+  "LP 365-24": {
+   "pos": [
+    24.53125,
+    29.40625,
+    -78.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795142730
   }
  },
  "rivales": {

@@ -2867,23 +2867,36 @@
   },
   "Tascheter Sector ZZ-Y b1": {
    "sys": "Tascheter Sector ZZ-Y b1",
-   "t": 1795128991,
+   "t": 1795198049,
    "src": "EDDN",
-   "inf": 21.76,
+   "inf": 20.96,
    "ctrl": false,
    "estado": "None",
    "activos": [],
    "pendientes": [
-    "Expansion"
+    "Expansion",
+    "War"
    ],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 45.51,
-   "conflictos": [],
+   "segunda_inf": 46.61,
+   "conflictos": [
+    {
+     "tipo": "war",
+     "estado": "pending",
+     "contra": "Edenses Comms Incorporated",
+     "ganados": 0,
+     "perdidos": 0,
+     "en_juego": "",
+     "en_juego_rival": "Vance Point",
+     "fase": "pendiente",
+     "desde": 1795198049
+    }
+   ],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 45.51,
+     "inf": 46.61,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2893,28 +2906,31 @@
      "jug": null
     },
     {
-     "n": "Caballeros de Sion",
-     "inf": 21.76,
-     "gov": "Democracy",
-     "alg": "Independent",
+     "n": "Edenses Comms Incorporated",
+     "inf": 20.96,
+     "gov": "Corporate",
+     "alg": "Federation",
      "act": [],
      "pend": [
-      "Expansion"
+      "War"
      ],
      "jug": null
     },
     {
-     "n": "Edenses Comms Incorporated",
-     "inf": 20.56,
-     "gov": "Corporate",
-     "alg": "Federation",
+     "n": "Caballeros de Sion",
+     "inf": 20.96,
+     "gov": "Democracy",
+     "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion",
+      "War"
+     ],
      "jug": null
     },
     {
      "n": "Flotta Stellare",
-     "inf": 8.58,
+     "inf": 8.38,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -2925,7 +2941,7 @@
     },
     {
      "n": "Wolf 258 Silver Organisation",
-     "inf": 3.59,
+     "inf": 3.09,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -2940,7 +2956,7 @@
     -100.125
    ],
    "sis": {
-    "pob": 1177788,
+    "pob": 1181905,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -2963,18 +2979,26 @@
    "trafico": {
     "2026-11-16": 1,
     "2026-11-17": 1,
-    "2026-11-19": 3
+    "2026-11-19": 3,
+    "2026-11-20": 1
    },
    "tk": {
-    "firma": "85b2cd62",
-    "igual": 1795128991,
-    "ult": 1795128991,
-    "desde": 1794949884,
-    "est": null
+    "firma": "5ef94c53",
+    "igual": 1795198049,
+    "ult": 1795198049,
+    "desde": 1795128991,
+    "est": null,
+    "vent": [
+     [
+      1795128991,
+      1795198049
+     ]
+    ]
    },
    "saltos": {
     "1794949200": 1,
-    "1795125600": 2
+    "1795125600": 2,
+    "1795197600": 1
    },
    "rutas": {
     "2026-11-17": 2,
@@ -2982,29 +3006,6 @@
     "2026-11-19": 2,
     "2026-11-20": 1
    },
-   "prev": 21.88,
-   "prev_t": 1794949884,
-   "hinf": [
-    [
-     1794186574,
-     21.88
-    ],
-    [
-     1795128991,
-     21.76
-    ]
-   ],
-   "rach": {
-    "THE AZGHARIE": 0,
-    "Caballeros de Sion": 0,
-    "Edenses Comms Incorporated": 0,
-    "Flotta Stellare": 0,
-    "Wolf 258 Silver Organisation": 1
-   },
-   "rivales": [],
-   "tick_ult": 1795128991,
-   "tick_marg": 1492,
-   "cseg": {},
    "estaciones": {
     "La Coman": {
      "f": "THE AZGHARIE",
@@ -3101,6 +3102,56 @@
        "no": 0
       }
      }
+    }
+   },
+   "prev": 21.76,
+   "prev_t": 1795128991,
+   "hinf": [
+    [
+     1794186574,
+     21.88
+    ],
+    [
+     1795128991,
+     21.76
+    ],
+    [
+     1795198049,
+     20.96
+    ]
+   ],
+   "rach": {
+    "THE AZGHARIE": 1,
+    "Caballeros de Sion": 0,
+    "Edenses Comms Incorporated": 1,
+    "Flotta Stellare": 0,
+    "Wolf 258 Silver Organisation": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795198049,
+   "tick_marg": 575,
+   "tick_prox": 1795249860,
+   "tick_disp": 575,
+   "tick_n": 0,
+   "cseg": {
+    "Edenses Comms Incorporated": {
+     "tipo": "war",
+     "ini": null,
+     "pend": 1795198049,
+     "exacto": false,
+     "dia": 0,
+     "res": [],
+     "ref": [
+      0,
+      0
+     ],
+     "tick": null,
+     "eval": null,
+     "fase": "pendiente",
+     "g": 0,
+     "p": 0,
+     "mio": "",
+     "suyo": "Vance Point"
     }
    }
   },
@@ -12046,7 +12097,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795124011,
+   "t": 1795198009,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12086,7 +12137,9 @@
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -12106,7 +12159,7 @@
     960.6875
    ],
    "sis": {
-    "pob": 3627294,
+    "pob": 5687575,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -12129,11 +12182,12 @@
     "2026-11-16": 54,
     "2026-11-17": 71,
     "2026-11-18": 31,
-    "2026-11-19": 11
+    "2026-11-19": 11,
+    "2026-11-20": 3
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795124011
+    "igual": 1795198009
    },
    "saltos": {
     "1794902400": 2,
@@ -12153,12 +12207,14 @@
     "1795032000": 1,
     "1795035600": 1,
     "1795118400": 1,
-    "1795122000": 2
+    "1795122000": 2,
+    "1795197600": 1
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
-    "2026-11-19": 3
+    "2026-11-19": 3,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -12470,13 +12526,13 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795124588,
+     "t": 1795198365,
      "estado": "",
-     "ls": 703,
+     "ls": 700,
      "mid": 4404361731,
      "mer": {
-      "t": 1795124596,
-      "n": 2,
+      "t": 1795198373,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
@@ -12488,6 +12544,10 @@
       },
       "2026-11-19": {
        "ok": 3,
+       "no": 0
+      },
+      "2026-11-20": {
+       "ok": 1,
        "no": 0
       }
      },
@@ -23262,11 +23322,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795196883.2374218,
-  "msgs": 996747,
-  "mios": 98
+  "ultimo": 1795198054.611424,
+  "msgs": 1010929,
+  "mios": 100
  },
- "t": 1795197658.54894,
+ "t": 1795198541.105183,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23813,7 +23873,7 @@
    "nfac": 3,
    "pob": 3499728416,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795150430
+   "t": 1795197700
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -24021,7 +24081,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795142480
+   "t": 1795197667
   },
   "LTT 740": {
    "pos": [
@@ -24045,9 +24105,9 @@
    "ly": 17.6,
    "junto": "Parrot's Head Sector DQ-Y c23",
    "nfac": 3,
-   "pob": 174561401,
+   "pob": 174964799,
    "ctrl_n": "The Fatherhood",
-   "t": 1795124672
+   "t": 1795198534
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -24229,7 +24289,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795091747
+   "t": 1795198299
   },
   "Lokaantii": {
    "pos": [
@@ -24645,7 +24705,7 @@
    "nfac": 6,
    "pob": 7797550,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795183838
+   "t": 1795198122
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -25867,7 +25927,7 @@
    "nfac": 5,
    "pob": 12784480,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795127859
+   "t": 1795198102
   },
   "Trianguli Sector BQ-Y c15": {
    "pos": [
@@ -26036,7 +26096,7 @@
    "nfac": 5,
    "pob": 8347,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795140310
+   "t": 1795197269
   },
   "Col 285 Sector RD-T a33-5": {
    "pos": [
@@ -27596,7 +27656,7 @@
    "nfac": 5,
    "pob": 35446009,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795196965
+   "t": 1795197663
   },
   "Hyades Sector UK-M b8-5": {
    "pos": [
@@ -28312,6 +28372,32 @@
    "pob": 66769544,
    "ctrl_n": "Canonn",
    "t": 1795196736
+  },
+  "Hyades Sector DB-X d1-61": {
+   "pos": [
+    -32.9375,
+    -1.84375,
+    -118.875
+   ],
+   "ly": 11.1,
+   "junto": "Lu Pardan",
+   "nfac": 5,
+   "pob": 154842585,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795198072
+  },
+  "Col 285 Sector LZ-D b13-2": {
+   "pos": [
+    -191.40625,
+    5.875,
+    -67.90625
+   ],
+   "ly": 19.4,
+   "junto": "Col 285 Sector KE-E b13-0",
+   "nfac": 4,
+   "pob": 198528,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795198471
   }
  },
  "codice": [
@@ -28933,7 +29019,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795196965
+   "t": 1795197663
   },
   "Hyades Sector ND-S c4-15": {
    "pos": [
@@ -30047,7 +30133,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.373492,
+   "prog": 0.374041,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -30055,7 +30141,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795142480
+   "t": 1795197667
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -30104,7 +30190,7 @@
     "Denton Patreus",
     "Pranav Antal"
    ],
-   "t": 1795127859
+   "t": 1795198102
   },
   "Bunuson": {
    "pos": [
@@ -30251,7 +30337,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795128991
+   "t": 1795198049
   },
   "Trianguli Sector BH-L a8-0": {
    "pos": [
@@ -31003,7 +31089,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795140310
+   "t": 1795197269
   },
   "Kareneri": {
    "pos": [
@@ -31498,7 +31584,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795150430
+   "t": 1795197700
   },
   "Yukpenon": {
    "pos": [
@@ -31524,14 +31610,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.252169,
+   "prog": 0.253352,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795152667
+   "t": 1795197944
   },
   "Trianguli Sector FM-V b2-7": {
    "pos": [
@@ -32609,7 +32695,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795183838
+   "t": 1795198122
   },
   "Lyncis Sector ZE-R b4-1": {
    "pos": [
@@ -33435,6 +33521,73 @@
     "Zemina Torval"
    ],
    "t": 1795197139
+  },
+  "Bhagutsuk": {
+   "pos": [
+    -36.6875,
+    -12.84375,
+    -120.46875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.233712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795198020
+  },
+  "Hyades Sector DB-X d1-61": {
+   "pos": [
+    -32.9375,
+    -1.84375,
+    -118.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.191421,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795198072
+  },
+  "GCRV 4654": {
+   "pos": [
+    12.78125,
+    21.125,
+    -74.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795198107
+  },
+  "LP 834-42": {
+   "pos": [
+    30.53125,
+    -39.40625,
+    -32.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.266966,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795198299
   }
  },
  "rivales": {

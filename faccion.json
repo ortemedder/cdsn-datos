@@ -3378,7 +3378,8 @@
    "rutas": {
     "2026-11-17": 4,
     "2026-11-18": 5,
-    "2026-11-19": 6
+    "2026-11-19": 6,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Gardner Orbital": {
@@ -18925,7 +18926,8 @@
     "1795042800": 1
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 1
    },
    "prev": 3.6,
    "prev_t": 1794788421,
@@ -20376,7 +20378,8 @@
     "1795082400": 1
    },
    "rutas": {
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -22244,10 +22247,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795149865.953401,
-  "msgs": 544760,
+  "msgs": 552725,
   "mios": 43
  },
- "t": 1795153046.7152524,
+ "t": 1795154297.645706,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -26955,6 +26958,19 @@
    "pob": 398538,
    "ctrl_n": "Nagii Union",
    "t": 1795144681
+  },
+  "Trianguli Sector FM-V b2-7": {
+   "pos": [
+    25.5625,
+    -14.21875,
+    -74
+   ],
+   "ly": 17.0,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 3,
+   "pob": 320261,
+   "ctrl_n": "Civitas Dei",
+   "t": 1795153563
   }
  },
  "codice": [
@@ -30091,6 +30107,40 @@
     "Jerome Archer"
    ],
    "t": 1795152667
+  },
+  "Trianguli Sector FM-V b2-7": {
+   "pos": [
+    25.5625,
+    -14.21875,
+    -74
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795153563
+  },
+  "LHS 1848": {
+   "pos": [
+    -24.96875,
+    23.5,
+    -64.0625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.321498,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795153894
   }
  },
  "rivales": {

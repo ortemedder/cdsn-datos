@@ -3706,7 +3706,7 @@
    "rutas": {
     "2026-11-17": 3,
     "2026-11-19": 2,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "prev": null,
    "prev_t": null,
@@ -22371,10 +22371,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795171259.4562035,
-  "msgs": 697956,
+  "msgs": 706297,
   "mios": 50
  },
- "t": 1795173126.6789968,
+ "t": 1795173948.1174543,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23090,7 +23090,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795171304
+   "t": 1795173452
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -26704,7 +26704,7 @@
    "nfac": 5,
    "pob": 35446009,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795115410
+   "t": 1795173470
   },
   "Hyades Sector UK-M b8-5": {
    "pos": [
@@ -27160,9 +27160,88 @@
    "pob": 47445295,
    "ctrl_n": "Chapterhouse of Inquisition",
    "t": 1795165389
+  },
+  "Tascheter Sector CQ-Y c21": {
+   "pos": [
+    23.125,
+    -11.40625,
+    -77.0625
+   ],
+   "ly": 12.8,
+   "junto": "Tascheter Sector AA-Z b5",
+   "nfac": 3,
+   "pob": 1613081,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795173294
+  },
+  "Tascheter Sector YE-Q a5-1": {
+   "pos": [
+    25.875,
+    -28.65625,
+    -46.28125
+   ],
+   "ly": 10.5,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 1996659,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795173388
+  },
+  "Tascheter Sector YZ-Y a3": {
+   "pos": [
+    -29.875,
+    -27.34375,
+    -100.59375
+   ],
+   "ly": 19.4,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 3,
+   "pob": 2223207,
+   "ctrl_n": "Beasts of Bestia",
+   "t": 1795173561
   }
  },
  "codice": [
+  {
+   "sys": "Oto",
+   "n": "Tubus 05 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 1 c",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795173943
+  },
+  {
+   "sys": "Tascheter Sector YZ-Y a3",
+   "n": "Bacterial 04 Ruthenium",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Tascheter Sector YZ-Y a3 1",
+   "junto": "Hyades Sector XV-L b8-3",
+   "ly": 19.4,
+   "t": 1795173926
+  },
+  {
+   "sys": "Oto",
+   "n": "Bacterial 01 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 1 c",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795173766
+  },
+  {
+   "sys": "Oto",
+   "n": "Stratum 02 K",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 1 c",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795173760
+  },
   {
    "sys": "Tascheter Sector CG-O a6-1",
    "n": "Bacterial 02 Ruthenium",
@@ -27697,7 +27776,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795115410
+   "t": 1795173470
   },
   "Hyades Sector ND-S c4-15": {
    "pos": [
@@ -27759,13 +27838,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.438928,
+   "prog": 0.440249,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795171304
+   "t": 1795173452
   },
   "Wolf 186": {
    "pos": [
@@ -30423,7 +30502,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795156180
+   "t": 1795173380
   },
   "Ross 23": {
    "pos": [
@@ -30903,6 +30982,53 @@
     "Zemina Torval"
    ],
    "t": 1795172134
+  },
+  "Tascheter Sector CQ-Y c21": {
+   "pos": [
+    23.125,
+    -11.40625,
+    -77.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795173294
+  },
+  "Tascheter Sector YE-Q a5-1": {
+   "pos": [
+    25.875,
+    -28.65625,
+    -46.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.071426,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795173388
+  },
+  "Tascheter Sector YZ-Y a3": {
+   "pos": [
+    -29.875,
+    -27.34375,
+    -100.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795173561
   }
  },
  "rivales": {

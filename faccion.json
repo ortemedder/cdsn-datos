@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 21
+    "2026-11-20": 25
    },
    "pn": {
     "H5L-70M": {
@@ -6247,12 +6247,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795136066,
+     "t": 1795136968,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795136075,
+      "t": 1795136977,
       "n": 366,
       "vende": [
        {
@@ -6351,7 +6351,7 @@
        "no": 3
       },
       "2026-11-20": {
-       "ok": 4,
+       "ok": 6,
        "no": 0
       }
      },
@@ -6404,12 +6404,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795136072,
+     "naves_t": 1795136974,
      "neg": {
       "Distance": 5
      },
      "mods": 818,
-     "mods_t": 1795136072
+     "mods_t": 1795136974
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6997,7 +6997,7 @@
     "Planetary Construction Site: Li Command Facility": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795135697,
+     "t": 1795136601,
      "estado": "",
      "ls": 1987,
      "pads": {
@@ -7007,17 +7007,20 @@
      },
      "mid": 4404710403,
      "mer": {
-      "t": 1795135704,
-      "n": 1,
+      "t": 1795136608,
+      "n": 7,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 2,
-       "no": 0
+       "ok": 4,
+       "no": 2
       }
+     },
+     "neg": {
+      "Distance": 2
      }
     }
    },
@@ -21883,10 +21886,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795134933.9282007,
-  "msgs": 372096,
+  "msgs": 382496,
   "mios": 34
  },
- "t": 1795136084.837375,
+ "t": 1795137086.8666399,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21978,7 +21981,7 @@
    "nfac": 6,
    "pob": 5061479,
    "ctrl_n": "East India Company",
-   "t": 1795107126
+   "t": 1795137026
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -22249,9 +22252,9 @@
    "ly": 10.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 218595,
+   "pob": 218621,
    "ctrl_n": "East India Company",
-   "t": 1794917097
+   "t": 1795136947
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -28883,6 +28886,73 @@
     "Jerome Archer"
    ],
    "t": 1795135931
+  },
+  "Labe": {
+   "pos": [
+    -17.34375,
+    12.46875,
+    -68.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.155426,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795136372
+  },
+  "Ceti Sector KX-T b3-3": {
+   "pos": [
+    6.71875,
+    -99,
+    -23.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795136947
+  },
+  "LTT 11655": {
+   "pos": [
+    19.6875,
+    -18.59375,
+    -90.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.051426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795136955
+  },
+  "Tanmark": {
+   "pos": [
+    1.6875,
+    -77.875,
+    -30.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.199028,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795137026
   }
  },
  "rivales": {

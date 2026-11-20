@@ -22244,10 +22244,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795149865.953401,
-  "msgs": 536189,
+  "msgs": 544760,
   "mios": 43
  },
- "t": 1795152145.97135,
+ "t": 1795153046.7152524,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22950,7 +22950,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795150193
+   "t": 1795152984
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -26551,7 +26551,7 @@
    "nfac": 4,
    "pob": 185703609,
    "ctrl_n": "Axiom of Ishtar",
-   "t": 1795121589
+   "t": 1795153034
   },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
@@ -27393,7 +27393,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795121589
+   "t": 1795153034
   },
   "Yin Sector ZZ-Y b0": {
    "pos": [
@@ -28478,13 +28478,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.032592,
+   "prog": 0.033489,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795150193
+   "t": 1795152984
   },
   "Mandu": {
    "pos": [
@@ -30074,6 +30074,23 @@
     "Li Yong-Rui"
    ],
    "t": 1795151521
+  },
+  "Cama Zotz": {
+   "pos": [
+    42.71875,
+    -47.125,
+    -45.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.252169,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795152667
   }
  },
  "rivales": {

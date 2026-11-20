@@ -22291,10 +22291,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795154819.7727108,
-  "msgs": 567541,
+  "msgs": 574036,
   "mios": 46
  },
- "t": 1795156009.187021,
+ "t": 1795156930.2768173,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22568,7 +22568,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795151526
+   "t": 1795156879
   },
   "LTT 10918": {
    "pos": [
@@ -22722,9 +22722,9 @@
    "ly": 15.1,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 127663,
+   "pob": 128265,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795133947
+   "t": 1795156852
   },
   "Unktock": {
    "pos": [
@@ -24765,7 +24765,7 @@
    "nfac": 6,
    "pob": 17138585,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795110698
+   "t": 1795156354
   },
   "Trianguli Sector AH-L a8-1": {
    "pos": [
@@ -27385,7 +27385,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795151526
+   "t": 1795156879
   },
   "LP 302-22": {
    "pos": [
@@ -28995,7 +28995,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795133947
+   "t": 1795156852
   },
   "Guei": {
    "pos": [
@@ -30079,7 +30079,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795149785
+   "t": 1795156923
   },
   "Koamul": {
    "pos": [
@@ -30275,6 +30275,39 @@
     "Jerome Archer"
    ],
    "t": 1795155476
+  },
+  "Ditia": {
+   "pos": [
+    32.46875,
+    -39.59375,
+    -36.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795156180
+  },
+  "Ross 23": {
+   "pos": [
+    -45.71875,
+    0.875,
+    -75.21875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.167692,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795156354
   }
  },
  "rivales": {

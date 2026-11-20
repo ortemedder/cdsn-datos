@@ -7863,7 +7863,7 @@
   },
   "HIP 19292": {
    "sys": "HIP 19292",
-   "t": 1795002105,
+   "t": 1795144487,
    "src": "EDDN",
    "inf": 13.29,
    "ctrl": false,
@@ -7883,7 +7883,9 @@
      "gov": "Patronage",
      "alg": "Empire",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -7932,7 +7934,7 @@
     -14.1875
    ],
    "sis": {
-    "pob": 205996,
+    "pob": 206151,
     "eco": "$economy_Military;",
     "eco2": "$economy_Tourism;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -7951,10 +7953,19 @@
    },
    "trafico": {
     "2026-11-10": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 1
+   },
+   "tk": {
+    "firma": "595823b4",
+    "igual": 1795144487
    },
    "saltos": {
-    "1794999600": 1
+    "1794999600": 1,
+    "1795143600": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -7966,13 +7977,7 @@
    ],
    "rach": {},
    "rivales": [],
-   "tk": {
-    "firma": "595823b4",
-    "igual": 1795002105
-   },
-   "rutas": {
-    "2026-11-20": 1
-   }
+   "cseg": {}
   },
   "Wathiparian": {
    "sys": "Wathiparian",
@@ -22140,11 +22145,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795143837.8939102,
-  "msgs": 459621,
-  "mios": 37
+  "ultimo": 1795144487.7344284,
+  "msgs": 467999,
+  "mios": 38
  },
- "t": 1795144318.5808098,
+ "t": 1795144689.385514,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22260,9 +22265,9 @@
    "ly": 15.8,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 1998019,
+   "pob": 1998072,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795067492
+   "t": 1795144575
   },
   "Dakvar": {
    "pos": [
@@ -23718,7 +23723,7 @@
    "nfac": 3,
    "pob": 2170851,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795127284
+   "t": 1795144544
   },
   "Tascheter Sector ZZ-Y b4": {
    "pos": [
@@ -24561,9 +24566,9 @@
    "ly": 13.6,
    "junto": "HIP 19292",
    "nfac": 5,
-   "pob": 2197552,
+   "pob": 2197585,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795045579
+   "t": 1795144424
   },
   "ICZ BF-Z b4": {
    "pos": [
@@ -26826,6 +26831,32 @@
    "pob": 159135,
    "ctrl_n": "Civitas Dei",
    "t": 1795143790
+  },
+  "Tascheter Sector FR-M a7-0": {
+   "pos": [
+    17.625,
+    -34.84375,
+    -33.625
+   ],
+   "ly": 15.4,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 220221,
+   "ctrl_n": "Movement for LHS 20 Liberals",
+   "t": 1795144643
+  },
+  "Lyncis Sector TD-T b3-1": {
+   "pos": [
+    -41.78125,
+    28.625,
+    -137.5
+   ],
+   "ly": 8.4,
+   "junto": "Windizetet",
+   "nfac": 3,
+   "pob": 398538,
+   "ctrl_n": "Nagii Union",
+   "t": 1795144681
   }
  },
  "codice": [
@@ -27977,7 +28008,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795127284
+   "t": 1795144544
   },
   "Piscium Sector SD-T b3-7": {
    "pos": [
@@ -29619,6 +29650,83 @@
     "Zemina Torval"
    ],
    "t": 1795144149
+  },
+  "HIP 17820": {
+   "pos": [
+    104.75,
+    -117.75,
+    -11.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.009183,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795144424
+  },
+  "HIP 19292": {
+   "pos": [
+    117.96875,
+    -119.8125,
+    -14.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795144487
+  },
+  "Tascheter Sector FR-M a7-2": {
+   "pos": [
+    17.0625,
+    -34.09375,
+    -33.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.056569,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795144575
+  },
+  "Tascheter Sector FR-M a7-0": {
+   "pos": [
+    17.625,
+    -34.84375,
+    -33.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795144643
+  },
+  "Lyncis Sector TD-T b3-1": {
+   "pos": [
+    -41.78125,
+    28.625,
+    -137.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795144681
   }
  },
  "rivales": {

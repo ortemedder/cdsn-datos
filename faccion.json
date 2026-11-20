@@ -22291,10 +22291,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795154819.7727108,
-  "msgs": 561262,
+  "msgs": 567541,
   "mios": 46
  },
- "t": 1795154828.2487872,
+ "t": 1795156009.187021,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -24932,9 +24932,9 @@
    "ly": 19.8,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 47349348,
+   "pob": 47340143,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795147128
+   "t": 1795156003
   },
   "Oisi": {
    "pos": [
@@ -25270,9 +25270,9 @@
    "ly": 14.9,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 3,
-   "pob": 62268546,
+   "pob": 62271225,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1795008807
+   "t": 1795155435
   },
   "Tascheter Sector DG-O a6-1": {
    "pos": [
@@ -27015,6 +27015,19 @@
    "pob": 320261,
    "ctrl_n": "Civitas Dei",
    "t": 1795153563
+  },
+  "Trianguli Sector QZ-O a6-1": {
+   "pos": [
+    26.34375,
+    -25.625,
+    -55.65625
+   ],
+   "ly": 16.7,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 390784,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795155476
   }
  },
  "codice": [
@@ -29692,7 +29705,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795147128
+   "t": 1795156003
   },
   "LP 365-24": {
    "pos": [
@@ -30231,6 +30244,37 @@
     "Jerome Archer"
    ],
    "t": 1795154817
+  },
+  "Arietis Sector PT-Q b5-4": {
+   "pos": [
+    -50.34375,
+    -12.0625,
+    -95.8125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.000569,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795155435
+  },
+  "Trianguli Sector QZ-O a6-1": {
+   "pos": [
+    26.34375,
+    -25.625,
+    -55.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795155476
   }
  },
  "rivales": {

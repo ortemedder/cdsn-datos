@@ -6159,7 +6159,8 @@
     "2026-11-16": 71,
     "2026-11-17": 32,
     "2026-11-18": 52,
-    "2026-11-19": 124
+    "2026-11-19": 127,
+    "2026-11-20": 1
    },
    "pn": {
     "H5L-70M": {
@@ -6805,7 +6806,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795129355,
+     "t": 1795132640,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -6815,33 +6816,33 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795129582,
-      "n": 158,
+      "t": 1795132969,
+      "n": 366,
       "vende": [
        {
         "n": "musgravite",
         "p": 567365,
-        "d": 30
+        "d": 45
        },
        {
         "n": "serendibite",
         "p": 464023,
-        "d": 30
+        "d": 45
        },
        {
         "n": "grandidierite",
         "p": 458141,
-        "d": 30
+        "d": 45
        },
        {
         "n": "benitoite",
         "p": 456360,
-        "d": 30
+        "d": 45
        },
        {
         "n": "opal",
         "p": 437562,
-        "d": 36
+        "d": 42
        }
       ],
       "alta": [
@@ -6852,7 +6853,7 @@
        },
        {
         "n": "conductivefabrics",
-        "p": 4058,
+        "p": 4055,
         "m": 666
        },
        {
@@ -6876,82 +6877,41 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 19628
+        "s": 19793
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 431463
+        "s": 431483
        },
        {
         "n": "scrap",
         "p": 64,
         "m": 276,
-        "s": 101688
+        "s": 102239
        },
        {
         "n": "basicmedicines",
         "p": 171,
         "m": 489,
-        "s": 44156
+        "s": 44190
        },
        {
         "n": "waterpurifiers",
         "p": 160,
         "m": 447,
-        "s": 646658
+        "s": 646802
        }
       ]
      },
-     "mods": 903,
-     "mods_t": 1795129582,
+     "mods": 916,
+     "mods_t": 1795132647,
      "naves": [
-      "adder",
-      "anaconda",
-      "asp",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
-      "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
-      "explorer_nx",
       "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
-      "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "mediumtransport01"
      ],
-     "naves_t": 1795129582,
+     "naves_t": 1795132971,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -7331,7 +7291,7 @@
   },
   "Ndabangluya": {
    "sys": "Ndabangluya",
-   "t": 1795122733,
+   "t": 1795133292,
    "src": "EDDN",
    "inf": 64.95,
    "ctrl": true,
@@ -7361,9 +7321,7 @@
      "inf": 16.73,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -7430,8 +7388,8 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Fortified",
-    "prog": 0.265435,
-    "ref": 0,
+    "prog": 0.267637,
+    "ref": 1431,
     "soc": 2067,
     "pots": [
      "Aisling Duval",
@@ -7445,53 +7403,54 @@
     "2026-11-14": 3,
     "2026-11-15": 1,
     "2026-11-18": 6,
-    "2026-11-19": 4
+    "2026-11-19": 4,
+    "2026-11-20": 2
    },
    "pn": {
     "QBT-LQY": {
      "n": "NEOLUXX",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "X2Z-0HL": {
      "n": "SAPPHIRE",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "KBF-NTY": {
      "n": "[FIN] Vigilum Noctis",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "V7Q-8VJ": {
      "n": "SMS BLUE DANUBE",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "JHB-T6J": {
      "n": "SHINANO",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "Q0K-GQF": {
      "n": "PRYDAIN",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "GZM-0TW": {
      "n": "saphire allegiance",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795027461
     },
     "H9F-L0J": {
      "n": "[CRV] CALICO HAVEN",
-     "t": 1795122857,
+     "t": 1795133484,
      "d": 1795031350
     }
    },
    "tk": {
     "firma": "3c423245",
-    "igual": 1795122733,
+    "igual": 1795133292,
     "ult": 1795027461,
     "desde": 1794702170,
     "est": null
@@ -7500,11 +7459,13 @@
     "1795024800": 1,
     "1795039200": 1,
     "1795042800": 2,
-    "1795122000": 2
+    "1795122000": 2,
+    "1795132800": 2
    },
    "rutas": {
     "2026-11-18": 4,
-    "2026-11-19": 4
+    "2026-11-19": 4,
+    "2026-11-20": 2
    },
    "estaciones": {
     "Melvin City": {
@@ -19080,7 +19041,7 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1795108709,
+   "t": 1795133056,
    "src": "EDDN",
    "inf": 59.9,
    "ctrl": true,
@@ -19157,36 +19118,39 @@
    },
    "trafico": {
     "2026-11-18": 4,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 4
    },
    "pn": {
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1795108709,
+     "t": 1795133213,
      "d": 1795008025
     }
    },
    "tk": {
     "firma": "cfce0db1",
-    "igual": 1795108709,
+    "igual": 1795133056,
     "ult": 1795107884,
     "desde": 1795008025,
     "est": null
    },
    "saltos": {
     "1795006800": 1,
-    "1795107600": 1
+    "1795107600": 1,
+    "1795132800": 2
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 2
    },
    "estaciones": {
     "Lavoisier Settlement": {
      "f": "Caballeros de Sion",
      "tipo": "AsteroidBase",
-     "t": 1795108709,
+     "t": 1795133272,
      "estado": "",
-     "ls": 3693,
+     "ls": 3697,
      "pads": {
       "Small": 4,
       "Medium": 8,
@@ -19194,33 +19158,33 @@
      },
      "mid": 4403917827,
      "mer": {
-      "t": 1794973962,
-      "n": 366,
+      "t": 1795133279,
+      "n": 101,
       "vende": [
        {
         "n": "iridium",
-        "p": 164041,
-        "d": 276
+        "p": 198316,
+        "d": 1092
        },
        {
         "n": "lowtemperaturediamond",
         "p": 106660,
-        "d": 12
+        "d": 45
        },
        {
         "n": "helium",
         "p": 85962,
-        "d": 5
+        "d": 18
        },
        {
         "n": "helium3",
         "p": 80406,
-        "d": 5
+        "d": 18
        },
        {
         "n": "platinum",
         "p": 57092,
-        "d": 54
+        "d": 212
        }
       ],
       "alta": [
@@ -19255,55 +19219,70 @@
         "n": "biowaste",
         "p": 30,
         "m": 271,
-        "s": 3484
+        "s": 7128
        },
        {
         "n": "scrap",
         "p": 68,
         "m": 276,
-        "s": 1344
+        "s": 5315
        },
        {
         "n": "foodcartridges",
-        "p": 127,
+        "p": 83,
         "m": 252,
-        "s": 4745
+        "s": 16277
+       },
+       {
+        "n": "atmosphericextractors",
+        "p": 246,
+        "m": 536,
+        "s": 1590
        },
        {
         "n": "lepidolite",
         "p": 393,
         "m": 741,
-        "s": 2310
-       },
-       {
-        "n": "bauxite",
-        "p": 673,
-        "m": 1096,
-        "s": 38981
+        "s": 4682
        }
       ]
      },
-     "mods": 254,
-     "mods_t": 1794973879,
+     "mods": 473,
+     "mods_t": 1795133279,
      "naves": [
       "adder",
       "asp",
       "asp_scout",
       "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
       "eagle",
       "hauler",
       "krait_light",
       "krait_mkii",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
       "sidewinder",
+      "smallcombat01_nx",
       "type6",
       "type7",
+      "type9",
       "viper",
-      "viper_mkiv"
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1794973879,
+     "naves_t": 1795133279,
      "atq": {
       "2026-11-19": {
        "ok": 1,
+       "no": 0
+      },
+      "2026-11-20": {
+       "ok": 2,
        "no": 0
       }
      }
@@ -19342,7 +19321,8 @@
    },
    "rivales": [],
    "tick_ult": 1795107884,
-   "tick_marg": 832
+   "tick_marg": 832,
+   "cseg": {}
   },
   "Col 285 Sector TK-J b24-1": {
    "sys": "Col 285 Sector TK-J b24-1",
@@ -21809,11 +21789,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795131785.8704255,
-  "msgs": 332018,
-  "mios": 29
+  "ultimo": 1795133294.5980668,
+  "msgs": 342487,
+  "mios": 31
  },
- "t": 1795132607.0871387,
+ "t": 1795133499.449692,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23361,7 +23341,7 @@
    "nfac": 6,
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
-   "t": 1795079429
+   "t": 1795132633
   },
   "Tote": {
    "pos": [
@@ -24531,7 +24511,7 @@
    "nfac": 5,
    "pob": 7803964,
    "ctrl_n": "Nagii Union",
-   "t": 1795067359
+   "t": 1795133392
   },
   "Otohiko": {
    "pos": [
@@ -26430,6 +26410,32 @@
    "pob": 9342351,
    "ctrl_n": "Order of Enblackenment",
    "t": 1795129664
+  },
+  "Hyades Sector QJ-P b6-2": {
+   "pos": [
+    -10.90625,
+    -21.28125,
+    -125.53125
+   ],
+   "ly": 19.1,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 4,
+   "pob": 82814934,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795132650
+  },
+  "HIP 19327": {
+   "pos": [
+    115.90625,
+    -112.46875,
+    -4.1875
+   ],
+   "ly": 12.6,
+   "junto": "HIP 19292",
+   "nfac": 6,
+   "pob": 2672176,
+   "ctrl_n": "HIP 19327 Blue State Solutions",
+   "t": 1795132926
   }
  },
  "codice": [
@@ -27642,13 +27648,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.265435,
+   "prog": 0.267637,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795122733
+   "t": 1795133292
   },
   "Arnemil": {
    "pos": [
@@ -28432,6 +28438,69 @@
     "Li Yong-Rui"
    ],
    "t": 1795131785
+  },
+  "Kolaga": {
+   "pos": [
+    -32.9375,
+    -14.21875,
+    -97.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.352917,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795132633
+  },
+  "Hyades Sector QJ-P b6-2": {
+   "pos": [
+    -10.90625,
+    -21.28125,
+    -125.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795132650
+  },
+  "HIP 19327": {
+   "pos": [
+    115.90625,
+    -112.46875,
+    -4.1875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.255742,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795132926
+  },
+  "Ariameni": {
+   "pos": [
+    -42.03125,
+    35.53125,
+    -143.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795133392
   }
  },
  "rivales": {

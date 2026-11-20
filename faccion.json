@@ -12219,7 +12219,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795209941,
+   "t": 1795212622,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12305,11 +12305,11 @@
     "2026-11-17": 71,
     "2026-11-18": 31,
     "2026-11-19": 11,
-    "2026-11-20": 20
+    "2026-11-20": 24
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795209941
+    "igual": 1795212622
    },
    "saltos": {
     "1794902400": 2,
@@ -12333,13 +12333,14 @@
     "1795197600": 2,
     "1795201200": 2,
     "1795204800": 2,
-    "1795208400": 1
+    "1795208400": 1,
+    "1795212000": 1
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
     "2026-11-19": 3,
-    "2026-11-20": 7
+    "2026-11-20": 8
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -12651,7 +12652,7 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795210298,
+     "t": 1795213008,
      "estado": "",
      "ls": 700,
      "mid": 4404361731,
@@ -12672,7 +12673,7 @@
        "no": 0
       },
       "2026-11-20": {
-       "ok": 7,
+       "ok": 8,
        "no": 0
       }
      },
@@ -23689,11 +23690,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795210709.011855,
-  "msgs": 1271335,
-  "mios": 130
+  "ultimo": 1795212624.9804194,
+  "msgs": 1287363,
+  "mios": 131
  },
- "t": 1795212098.108443,
+ "t": 1795213010.3247006,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24240,7 +24241,7 @@
    "nfac": 3,
    "pob": 3499728416,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795197700
+   "t": 1795212287
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -24370,7 +24371,7 @@
    "nfac": 3,
    "pob": 2633825,
    "ctrl_n": "East India Company",
-   "t": 1795172880
+   "t": 1795212637
   },
   "Maiden": {
    "pos": [
@@ -24396,7 +24397,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795211891
+   "t": 1795212124
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -26515,7 +26516,7 @@
    "nfac": 3,
    "pob": 340531742,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795210017
+   "t": 1795212872
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -28803,7 +28804,7 @@
    "nfac": 4,
    "pob": 49868848,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795204006
+   "t": 1795212113
   },
   "Col 285 Sector VJ-R a34-2": {
    "pos": [
@@ -28933,7 +28934,7 @@
    "nfac": 6,
    "pob": 3802851,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795211696
+   "t": 1795212937
   }
  },
  "codice": [
@@ -30475,7 +30476,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.206244,
+   "prog": 0.206858,
    "pots": [
     "Denton Patreus",
     "Felicia Winters",
@@ -30483,7 +30484,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795210017
+   "t": 1795212872
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -30547,7 +30548,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795211891
+   "t": 1795212124
   },
   "Mandu": {
    "pos": [
@@ -32120,7 +32121,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795197700
+   "t": 1795212287
   },
   "Yukpenon": {
    "pos": [
@@ -32728,7 +32729,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795172880
+   "t": 1795212637
   },
   "Ininohima": {
    "pos": [
@@ -34026,7 +34027,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795206719
+   "t": 1795199082
   },
   "Col 285 Sector JE-E b13-0": {
    "pos": [
@@ -34604,7 +34605,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795204006
+   "t": 1795212113
   },
   "Khruvani": {
    "pos": [
@@ -35051,7 +35052,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795210685
+   "t": 1795212295
   },
   "Trianguli Sector SU-O a6-5": {
    "pos": [
@@ -35084,7 +35085,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795211696
+   "t": 1795212937
   },
   "HR 2439": {
    "pos": [
@@ -35102,6 +35103,38 @@
     "Li Yong-Rui"
    ],
    "t": 1795212063
+  },
+  "LP 84-34": {
+   "pos": [
+    -45.90625,
+    13.3125,
+    -75.21875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.266498,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795212237
+  },
+  "Lei Jen Zu": {
+   "pos": [
+    -28.6875,
+    26.96875,
+    -84.53125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.193465,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795212591
   }
  },
  "rivales": {

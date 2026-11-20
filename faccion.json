@@ -22407,10 +22407,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795176478.6395085,
-  "msgs": 734530,
+  "msgs": 743108,
   "mios": 52
  },
- "t": 1795176691.0853055,
+ "t": 1795177652.1602805,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22892,7 +22892,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795140210
+   "t": 1795177496
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -23568,7 +23568,7 @@
    "nfac": 5,
    "pob": 4328269,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795042377
+   "t": 1795177642
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -24086,9 +24086,9 @@
    "ly": 14.7,
    "junto": "HIP 19292",
    "nfac": 3,
-   "pob": 119891874,
+   "pob": 119896472,
    "ctrl_n": "Bluestar PMC",
-   "t": 1794949375
+   "t": 1795177537
   },
   "Nidarijedi": {
    "pos": [
@@ -27741,14 +27741,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233317,
+   "prog": 0.233206,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795140210
+   "t": 1795177496
   },
   "Nergal": {
    "pos": [
@@ -27979,7 +27979,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795126231
+   "t": 1795177578
   },
   "BD+27 1356": {
    "pos": [
@@ -28187,7 +28187,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795141945
+   "t": 1795176906
   },
   "Alexis Centauri": {
    "pos": [
@@ -31193,6 +31193,38 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795176681
+  },
+  "ICZ GL-X b1-1": {
+   "pos": [
+    121.25,
+    -122.5,
+    -0.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795177537
+  },
+  "G 98-44": {
+   "pos": [
+    -2.34375,
+    8.71875,
+    -79.0625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795177642
   }
  },
  "rivales": {

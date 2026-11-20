@@ -3216,23 +3216,23 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795118977,
+   "t": 1795154472,
    "src": "EDDN",
-   "inf": 71.01,
+   "inf": 70.68,
    "ctrl": true,
-   "estado": "War",
+   "estado": "None",
    "activos": [],
    "pendientes": [
     "Expansion"
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 9.17,
+   "segunda_inf": 8.39,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 71.01,
+     "inf": 70.68,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -3243,25 +3243,29 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 9.17,
+     "inf": 8.39,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "War"
+     ],
      "jug": null
     },
     {
      "n": "Escuadron Centinelas",
-     "inf": 6.21,
+     "inf": 8.39,
      "gov": "Feudal",
      "alg": "Empire",
      "act": [],
-     "pend": [],
+     "pend": [
+      "War"
+     ],
      "jug": null
     },
     {
      "n": "New Catun First",
-     "inf": 5.62,
+     "inf": 5.73,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -3270,7 +3274,7 @@
     },
     {
      "n": "Catun Resistance",
-     "inf": 3.45,
+     "inf": 3.46,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -3279,7 +3283,7 @@
     },
     {
      "n": "Catun PLC",
-     "inf": 2.76,
+     "inf": 2.37,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -3288,7 +3292,7 @@
     },
     {
      "n": "Catun Mafia",
-     "inf": 1.78,
+     "inf": 0.99,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -3332,34 +3336,39 @@
     "2026-11-16": 10,
     "2026-11-17": 2,
     "2026-11-18": 25,
-    "2026-11-19": 12
+    "2026-11-19": 12,
+    "2026-11-20": 1
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795119148,
+     "t": 1795154472,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795119148,
+     "t": 1795154472,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795119148,
+     "t": 1795154472,
      "d": 1794959958
     }
    },
    "tk": {
-    "firma": "f9f668ba",
-    "igual": 1795118977,
-    "ult": 1794959840,
-    "desde": 1794848801,
+    "firma": "32902711",
+    "igual": 1795154472,
+    "ult": 1795154472,
+    "desde": 1795118977,
     "vent": [
      [
       1794668657,
       1794702233
+     ],
+     [
+      1795118977,
+      1795154472
      ]
     ],
     "est": null
@@ -3373,7 +3382,8 @@
     "1795096800": 2,
     "1795100400": 2,
     "1795104000": 2,
-    "1795118400": 1
+    "1795118400": 1,
+    "1795154400": 1
    },
    "rutas": {
     "2026-11-17": 4,
@@ -3530,8 +3540,8 @@
      }
     }
    },
-   "prev": 70.98,
-   "prev_t": 1795029858,
+   "prev": 71.01,
+   "prev_t": 1795118977,
    "hinf": [
     [
      1794290838,
@@ -3556,22 +3566,26 @@
     [
      1795081841,
      71.01
+    ],
+    [
+     1795154472,
+     70.68
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 1,
+    "Caballeros de Sion": 0,
     "Sirius Special Forces": 0,
-    "Escuadron Centinelas": 0,
-    "New Catun First": 0,
+    "Escuadron Centinelas": 1,
+    "New Catun First": 1,
     "Catun Resistance": 0,
     "Catun PLC": 0,
     "Catun Mafia": 0
    },
    "rivales": [],
-   "tick_ult": 1794959840,
-   "tick_marg": 925,
-   "tick_prox": 1795031010,
-   "tick_disp": 279,
+   "tick_ult": 1795154472,
+   "tick_marg": 295,
+   "tick_prox": 1795212960,
+   "tick_disp": 127,
    "tick_n": 0,
    "cseg": {}
   },
@@ -18802,7 +18816,7 @@
   },
   "Celticassag": {
    "sys": "Celticassag",
-   "t": 1795046252,
+   "t": 1795154770,
    "src": "EDDN",
    "inf": 3.29,
    "ctrl": false,
@@ -18821,9 +18835,7 @@
      "inf": 58.52,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -18913,46 +18925,24 @@
    "trafico": {
     "2026-11-16": 8,
     "2026-11-18": 2,
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "tk": {
     "firma": "e5004ff7",
-    "igual": 1795046252,
+    "igual": 1795154770,
     "ult": 1795046252,
     "desde": 1794788421,
     "est": null
    },
    "saltos": {
-    "1795042800": 1
+    "1795042800": 1,
+    "1795154400": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 1
    },
-   "prev": 3.6,
-   "prev_t": 1794788421,
-   "hinf": [
-    [
-     1794788421,
-     3.6
-    ],
-    [
-     1795046252,
-     3.29
-    ]
-   ],
-   "rach": {
-    "Sirius Special Forces": 1,
-    "United Nganji Labour": 0,
-    "Kamilagro Universal Group": 0,
-    "Celticassag Jet Bridge & Co": 0,
-    "Celticassag  Co-operative": 0,
-    "Caballeros de Sion": 0,
-    "Celticassag Blue Pirates": 0
-   },
-   "rivales": [],
-   "tick_ult": 1795046252,
-   "tick_marg": 2148,
    "estaciones": {
     "Porges Freeport": {
      "f": "Sirius Special Forces",
@@ -19041,7 +19031,32 @@
       ]
      }
     }
-   }
+   },
+   "prev": 3.6,
+   "prev_t": 1794788421,
+   "hinf": [
+    [
+     1794788421,
+     3.6
+    ],
+    [
+     1795046252,
+     3.29
+    ]
+   ],
+   "rach": {
+    "Sirius Special Forces": 1,
+    "United Nganji Labour": 0,
+    "Kamilagro Universal Group": 0,
+    "Celticassag Jet Bridge & Co": 0,
+    "Celticassag  Co-operative": 0,
+    "Caballeros de Sion": 0,
+    "Celticassag Blue Pirates": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795046252,
+   "tick_marg": 2148,
+   "cseg": {}
   },
   "Bundhar": {
    "sys": "Bundhar",
@@ -20258,9 +20273,9 @@
   },
   "Windizetet": {
    "sys": "Windizetet",
-   "t": 1795084153,
+   "t": 1795154817,
    "src": "EDDN",
-   "inf": 15.94,
+   "inf": 16.14,
    "ctrl": false,
    "estado": "None",
    "activos": [],
@@ -20269,12 +20284,12 @@
    ],
    "recuperando": [],
    "segunda": "CHIMERA",
-   "segunda_inf": 53.88,
+   "segunda_inf": 54.18,
    "conflictos": [],
    "todas": [
     {
      "n": "CHIMERA",
-     "inf": 53.88,
+     "inf": 54.18,
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
@@ -20285,7 +20300,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 15.94,
+     "inf": 16.14,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -20296,7 +20311,7 @@
     },
     {
      "n": "Windizetet Crimson Public & Co",
-     "inf": 11.95,
+     "inf": 11.75,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -20305,7 +20320,7 @@
     },
     {
      "n": "Windizetet Services",
-     "inf": 8.27,
+     "inf": 8.17,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -20314,7 +20329,7 @@
     },
     {
      "n": "Union of Windizetet Progressive Party",
-     "inf": 4.28,
+     "inf": 4.18,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -20323,7 +20338,7 @@
     },
     {
      "n": "League of Windizetet Defence Party",
-     "inf": 4.18,
+     "inf": 4.08,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -20367,30 +20382,59 @@
    },
    "trafico": {
     "2026-11-17": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 1
    },
    "tk": {
-    "firma": "a2f0d4c9",
-    "igual": 1795084153
+    "firma": "eb0db9d7",
+    "igual": 1795154817,
+    "ult": 1795154817,
+    "desde": 1795084153,
+    "vent": [
+     [
+      1795084153,
+      1795154817
+     ]
+    ],
+    "est": null
    },
    "saltos": {
     "1794949200": 1,
-    "1795082400": 1
+    "1795082400": 1,
+    "1795154400": 1
    },
    "rutas": {
     "2026-11-19": 1,
     "2026-11-20": 1
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 15.94,
+   "prev_t": 1795084153,
    "hinf": [
     [
      1794950211,
      15.94
+    ],
+    [
+     1795154817,
+     16.14
     ]
    ],
-   "rach": {},
-   "rivales": []
+   "rach": {
+    "CHIMERA": 1,
+    "Caballeros de Sion": 1,
+    "Windizetet Crimson Public & Co": 0,
+    "Windizetet Services": 0,
+    "Union of Windizetet Progressive Party": 0,
+    "League of Windizetet Defence Party": 0,
+    "Windizetet Silver Gang": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795154817,
+   "tick_marg": 588,
+   "tick_prox": 1795205850,
+   "tick_disp": 588,
+   "tick_n": 0,
+   "cseg": {}
   },
   "Col 285 Sector NY-Q c5-8": {
    "sys": "Col 285 Sector NY-Q c5-8",
@@ -22246,11 +22290,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795149865.953401,
-  "msgs": 552725,
-  "mios": 43
+  "ultimo": 1795154819.7727108,
+  "msgs": 561262,
+  "mios": 46
  },
- "t": 1795154297.645706,
+ "t": 1795154828.2487872,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -24212,9 +24256,9 @@
    "ly": 13.9,
    "junto": "Satvaneka",
    "nfac": 3,
-   "pob": 203490,
+   "pob": 203521,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794954686
+   "t": 1795154702
   },
   "Mandra": {
    "pos": [
@@ -28028,7 +28072,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795118977
+   "t": 1795154472
   },
   "NLTT 16389": {
    "pos": [
@@ -30141,6 +30185,52 @@
     "Jerome Archer"
    ],
    "t": 1795153894
+  },
+  "Hyades Sector PE-O b7-4": {
+   "pos": [
+    11.0625,
+    47.375,
+    -121.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795154702
+  },
+  "Celticassag": {
+   "pos": [
+    -20.4375,
+    42.75,
+    -124.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.091426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795154770
+  },
+  "Windizetet": {
+   "pos": [
+    -45.125,
+    24.0625,
+    -131.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.234855,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795154817
   }
  },
  "rivales": {

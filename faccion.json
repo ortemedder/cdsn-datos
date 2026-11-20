@@ -1486,12 +1486,17 @@
     "2026-11-11": 1,
     "2026-11-14": 1,
     "2026-11-15": 9,
-    "2026-11-20": 2
+    "2026-11-20": 5
    },
    "pn": {
     "BLX-69Z": {
      "n": "OUTER RIM",
      "t": 1794759485
+    },
+    "H6K-7UZ": {
+     "n": "Atlas Mining Corp.",
+     "t": 1795214665,
+     "d": 1795214665
     }
    },
    "tk": {
@@ -1542,7 +1547,77 @@
       "Medium": 9,
       "Large": 7
      },
-     "mid": 4220780547
+     "mid": 4220780547,
+     "mer": {
+      "t": 1795214198,
+      "n": 366,
+      "vende": [
+       {
+        "n": "metaalloys",
+        "p": 196892,
+        "d": 22623
+       },
+       {
+        "n": "tritium",
+        "p": 57840,
+        "d": 20422
+       },
+       {
+        "n": "osmium",
+        "p": 52386,
+        "d": 61576
+       },
+       {
+        "n": "nerveagents",
+        "p": 14484,
+        "d": 8799
+       },
+       {
+        "n": "thorium",
+        "p": 12785,
+        "d": 79167
+       }
+      ],
+      "alta": [
+       {
+        "n": "polymers",
+        "p": 1348,
+        "m": 306
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 1408,
+        "m": 447
+       },
+       {
+        "n": "foodcartridges",
+        "p": 766,
+        "m": 252
+       },
+       {
+        "n": "water",
+        "p": 756,
+        "m": 260
+       },
+       {
+        "n": "algae",
+        "p": 761,
+        "m": 308
+       }
+      ],
+      "barato": [
+       {
+        "n": "scrap",
+        "p": 188,
+        "m": 276,
+        "s": 323705
+       }
+      ]
+     },
+     "naves": [
+      "panthermkii"
+     ],
+     "naves_t": 1795214424
     }
    }
   },
@@ -6780,7 +6855,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 111
+    "2026-11-20": 117
    },
    "pn": {
     "H5L-70M": {
@@ -6879,97 +6954,97 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795208132,
+     "t": 1795214364,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795208146,
+      "t": 1795214397,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 694266,
+        "p": 681400,
         "d": 47836
        },
        {
         "n": "serendibite",
-        "p": 570948,
+        "p": 560208,
         "d": 47836
        },
        {
         "n": "benitoite",
-        "p": 567114,
+        "p": 556120,
         "d": 47836
        },
        {
         "n": "grandidierite",
-        "p": 559938,
-        "d": 47528
+        "p": 549437,
+        "d": 47533
        },
        {
         "n": "opal",
-        "p": 552666,
+        "p": 541409,
         "d": 19290
        }
       ],
       "alta": [
        {
         "n": "animalmonitors",
-        "p": 2825,
+        "p": 2833,
         "m": 522
        },
        {
         "n": "osmium",
-        "p": 234704,
+        "p": 231971,
         "m": 44051
        },
        {
         "n": "militarygradefabrics",
-        "p": 4610,
+        "p": 4698,
         "m": 899
        },
        {
         "n": "platinum",
-        "p": 280977,
+        "p": 279347,
         "m": 55505
        },
        {
         "n": "painite",
-        "p": 211587,
+        "p": 207922,
         "m": 48333
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 28,
+        "p": 30,
         "m": 271,
         "s": 660302
        },
        {
         "n": "polymers",
-        "p": 43,
+        "p": 47,
         "m": 306,
-        "s": 3904906
+        "s": 3917266
        },
        {
         "n": "algae",
-        "p": 61,
+        "p": 65,
         "m": 308,
-        "s": 213486
+        "s": 217560
        },
        {
         "n": "syntheticfabrics",
-        "p": 72,
+        "p": 76,
         "m": 354,
         "s": 26384952
        },
        {
         "n": "water",
-        "p": 69,
+        "p": 68,
         "m": 260,
-        "s": 2088111
+        "s": 2090016
        }
       ]
      },
@@ -6983,7 +7058,7 @@
        "no": 3
       },
       "2026-11-20": {
-       "ok": 22,
+       "ok": 24,
        "no": 0
       }
      },
@@ -7037,12 +7112,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795208139,
+     "naves_t": 1795214370,
      "neg": {
       "Distance": 5
      },
-     "mods": 835,
-     "mods_t": 1795208139
+     "mods": 867,
+     "mods_t": 1795214370
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7825,6 +7900,26 @@
      },
      "neg": {
       "Distance": 2
+     }
+    },
+    "Orbital Construction Site: Nixon's Folly": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795214736,
+     "estado": "",
+     "ls": 2033,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3953330690,
+     "mer": {
+      "t": 1795214743,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -23725,10 +23820,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795213717.2329638,
-  "msgs": 1304502,
+  "msgs": 1320073,
   "mios": 133
  },
- "t": 1795213903.7225132,
+ "t": 1795214746.6371765,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -23742,7 +23837,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795209183
+   "t": 1795214008
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -24210,7 +24305,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795209691
+   "t": 1795213964
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -24444,7 +24539,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795213675
+   "t": 1795214298
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -26119,9 +26214,9 @@
    "ly": 12.8,
    "junto": "Makum",
    "nfac": 4,
-   "pob": 2441015,
+   "pob": 2444484,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794965466
+   "t": 1795213994
   },
   "HIP 17820": {
    "pos": [
@@ -26173,7 +26268,7 @@
    "nfac": 6,
    "pob": 405228172,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794968346
+   "t": 1795214056
   },
   "Ross 23": {
    "pos": [
@@ -26433,7 +26528,7 @@
    "nfac": 5,
    "pob": 7803964,
    "ctrl_n": "Nagii Union",
-   "t": 1795133392
+   "t": 1795214575
   },
   "Otohiko": {
    "pos": [
@@ -26821,9 +26916,9 @@
    "ly": 16.8,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 199828,
+   "pob": 199854,
    "ctrl_n": "EXO",
-   "t": 1795016129
+   "t": 1795214095
   },
   "Jardovici": {
    "pos": [
@@ -28084,7 +28179,7 @@
    "nfac": 3,
    "pob": 149851083,
    "ctrl_n": "Canonn",
-   "t": 1795211213
+   "t": 1795214067
   },
   "HIP 116221": {
    "pos": [
@@ -28136,7 +28231,7 @@
    "nfac": 4,
    "pob": 50237050,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795203570
+   "t": 1795214342
   },
   "Piscium Sector SD-T b3-7": {
    "pos": [
@@ -29477,7 +29572,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795209691
+   "t": 1795190771
   },
   "Nergal": {
    "pos": [
@@ -29658,7 +29753,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795213675
+   "t": 1795214298
   },
   "Wolf 186": {
    "pos": [
@@ -29748,7 +29843,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.256089,
+   "prog": 0.256414,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -29756,7 +29851,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795209183
+   "t": 1795214008
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -29853,7 +29948,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795211213
+   "t": 1795214067
   },
   "Ceti Sector CL-X b1-3": {
    "pos": [
@@ -30093,7 +30188,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795203570
+   "t": 1795214342
   },
   "Catun": {
    "pos": [
@@ -31117,7 +31212,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795133392
+   "t": 1795214575
   },
   "LP 716-35": {
    "pos": [
@@ -32316,7 +32411,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795173380
+   "t": 1795214353
   },
   "Ross 23": {
    "pos": [
@@ -34522,7 +34617,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795202384
+   "t": 1795213959
   },
   "Chonsu": {
    "pos": [
@@ -35219,6 +35314,54 @@
     "Zemina Torval"
    ],
    "t": 1795213813
+  },
+  "Hyades Sector DB-X d1-79": {
+   "pos": [
+    9.90625,
+    29.15625,
+    -130.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795213994
+  },
+  "HIP 35755": {
+   "pos": [
+    5.5625,
+    46.03125,
+    -113.8125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.1442,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795214056
+  },
+  "Trianguli Sector SU-O a6-0": {
+   "pos": [
+    34.78125,
+    -35.9375,
+    -59.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795214095
   }
  },
  "rivales": {

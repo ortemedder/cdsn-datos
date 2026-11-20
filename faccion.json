@@ -5401,7 +5401,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795183167,
+   "t": 1795184267,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -5521,18 +5521,18 @@
     "2026-11-17": 25,
     "2026-11-18": 39,
     "2026-11-19": 11,
-    "2026-11-20": 3
+    "2026-11-20": 5
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795183853
+     "t": 1795184267
     },
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795183173
+     "t": 1795184267
     }
    ],
    "pn": {
@@ -5542,7 +5542,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795183173,
+     "t": 1795184267,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -5552,18 +5552,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795183853,
+     "t": 1795184267,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795183173,
+     "t": 1795184267,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795183167,
+    "igual": 1795184267,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -5728,7 +5728,7 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795183897,
+     "t": 1795184912,
      "estado": "",
      "ls": 3138,
      "pads": {
@@ -5763,7 +5763,7 @@
        "no": 1
       },
       "2026-11-20": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -9589,7 +9589,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795183098,
+   "t": 1795184703,
    "src": "EDDN",
    "inf": 59.49,
    "ctrl": true,
@@ -9681,7 +9681,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 9
+    "2026-11-20": 11
    },
    "pn": {
     "V8X-11L": {
@@ -9696,7 +9696,7 @@
    },
    "tk": {
     "firma": "efd7bb88",
-    "igual": 1795183098,
+    "igual": 1795184703,
     "ult": 1795179189,
     "desde": 1794992890,
     "est": null,
@@ -9727,12 +9727,13 @@
     "1794945600": 1,
     "1794992400": 1,
     "1795176000": 1,
-    "1795179600": 3
+    "1795179600": 3,
+    "1795183200": 1
    },
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
-    "2026-11-20": 4
+    "2026-11-20": 5
    },
    "estaciones": {
     "Piel City": {
@@ -14218,15 +14219,15 @@
   },
   "Ariminimi": {
    "sys": "Ariminimi",
-   "t": 1794412153,
+   "t": 1795184653,
    "src": "EDDN",
    "inf": 20.49,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 40.0,
@@ -14238,9 +14239,7 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [
-      "Expansion"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -14248,10 +14247,10 @@
      "inf": 20.49,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -14259,7 +14258,9 @@
      "inf": 16.55,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -14327,11 +14328,31 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 2
+    "2026-11-11": 2,
+    "2026-11-20": 1
+   },
+   "saltos": {
+    "1795183200": 1
    },
    "rutas": {
-    "2026-11-19": 2
-   }
+    "2026-11-19": 2,
+    "2026-11-20": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794412153,
+     20.49
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "ea69dcc0",
+    "igual": 1795184653
+   },
+   "cseg": {}
   },
   "Tascheter Sector CG-X b1-3": {
    "sys": "Tascheter Sector CG-X b1-3",
@@ -15550,7 +15571,7 @@
   },
   "Lu Pardan": {
    "sys": "Lu Pardan",
-   "t": 1795093550,
+   "t": 1795184603,
    "src": "EDDN",
    "inf": 36.82,
    "ctrl": true,
@@ -15598,10 +15619,10 @@
      "inf": 11.06,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Election"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -15609,10 +15630,11 @@
      "inf": 11.06,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion",
+     "act": [
       "Election"
+     ],
+     "pend": [
+      "Expansion"
      ],
      "jug": null
     },
@@ -15664,21 +15686,35 @@
    "trafico": {
     "2026-10-30": 1,
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 2
+   },
+   "pn": {
+    "V8X-11L": {
+     "n": "ALATREON",
+     "t": 1795184603,
+     "d": 1795093550
+    },
+    "B3J-3HM": {
+     "n": "L'OBLIVION",
+     "t": 1795093563,
+     "d": 1795093550
+    }
    },
    "tk": {
     "firma": "4eb9cec9",
-    "igual": 1795093550,
+    "igual": 1795184603,
     "ult": 1795093550,
     "desde": 1794494152,
     "est": null
    },
    "saltos": {
     "1793372400": 1,
-    "1795093200": 1
+    "1795093200": 1,
+    "1795183200": 1
    },
    "rutas": {
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "prev": 37.61,
    "prev_t": 1794494152,
@@ -15704,18 +15740,7 @@
    "rivales": [],
    "tick_ult": 1795093550,
    "tick_marg": 4994,
-   "pn": {
-    "V8X-11L": {
-     "n": "ALATREON",
-     "t": 1795093563,
-     "d": 1795093550
-    },
-    "B3J-3HM": {
-     "n": "L'OBLIVION",
-     "t": 1795093563,
-     "d": 1795093550
-    }
-   }
+   "cseg": {}
   },
   "Mau": {
    "sys": "Mau",
@@ -16493,15 +16518,15 @@
   },
   "Col 285 Sector KE-E b13-0": {
    "sys": "Col 285 Sector KE-E b13-0",
-   "t": 1794515601,
+   "t": 1795184629,
    "src": "EDDN",
    "inf": 10.2,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Canonn",
    "segunda_inf": 73.94,
@@ -16513,9 +16538,7 @@
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
-     "pend": [
-      "Expansion"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -16532,10 +16555,10 @@
      "inf": 10.2,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     }
    ],
@@ -16546,7 +16569,7 @@
     -81.15625
    ],
    "sis": {
-    "pob": 415951,
+    "pob": 417964,
     "eco": "$economy_Military;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -16563,16 +16586,30 @@
      "Pranav Antal"
     ]
    },
+   "trafico": {
+    "2026-11-20": 1
+   },
+   "tk": {
+    "firma": "aba74737",
+    "igual": 1795184629
+   },
+   "saltos": {
+    "1795183200": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794515601,
      10.2
     ]
    ],
-   "tk": {
-    "firma": "aba74737",
-    "igual": 1794515601
-   }
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Ibishia": {
    "sys": "Ibishia",
@@ -22764,11 +22801,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795183964.5457551,
-  "msgs": 815344,
-  "mios": 78
+  "ultimo": 1795184704.6167686,
+  "msgs": 825725,
+  "mios": 83
  },
- "t": 1795184100.003388,
+ "t": 1795184932.3660033,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -24199,7 +24236,7 @@
    "nfac": 6,
    "pob": 2155583,
    "ctrl_n": "Hu Jini Patron's Principles",
-   "t": 1794976273
+   "t": 1795184776
   },
   "Ceti Sector LX-T b3-2": {
    "pos": [
@@ -25458,9 +25495,9 @@
    "ly": 19.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 1584556,
+   "pob": 1584758,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795128438
+   "t": 1795184538
   },
   "Trianguli Sector SU-O a6-2": {
    "pos": [
@@ -27683,7 +27720,7 @@
    "nfac": 6,
    "pob": 69238,
    "ctrl_n": "CHIMERA",
-   "t": 1795183976
+   "t": 1795184498
   },
   "Lyncis Sector WJ-R b4-1": {
    "pos": [
@@ -27702,13 +27739,33 @@
  "codice": [
   {
    "sys": "HIP 28774",
+   "n": "Tussocks 03 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 b",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795184453
+  },
+  {
+   "sys": "HIP 28774",
    "n": "Bacterial 01 F",
    "cat": "Biology",
    "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 C 7 a",
+   "cuerpo": "HIP 28774 C 7 b",
    "junto": "Haraka",
    "ly": 12.6,
-   "t": 1795184068
+   "t": 1795184445
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Shrubs 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 b",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795184414
   },
   {
    "sys": "HIP 28774",
@@ -27722,16 +27779,6 @@
   },
   {
    "sys": "HIP 28774",
-   "n": "Tussocks 03 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 C 7 a",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795184047
-  },
-  {
-   "sys": "HIP 28774",
    "n": "Recepta 01 F",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -27739,16 +27786,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795184030
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Shrubs 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 C 7 a",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795183994
   },
   {
    "sys": "HIP 28774",
@@ -29166,7 +29203,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795183167
+   "t": 1795184267
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -29525,7 +29562,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795128438
+   "t": 1795184538
   },
   "Breksta": {
    "pos": [
@@ -31774,7 +31811,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795183098
+   "t": 1795184703
   },
   "Ethli": {
    "pos": [
@@ -32016,7 +32053,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795183976
+   "t": 1795184498
   },
   "Lyncis Sector WJ-R b4-1": {
    "pos": [
@@ -32047,6 +32084,67 @@
     "Jerome Archer"
    ],
    "t": 1795184097
+  },
+  "Lu Pardan": {
+   "pos": [
+    -28.34375,
+    7.78125,
+    -115.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795184603
+  },
+  "Col 285 Sector KE-E b13-0": {
+   "pos": [
+    -183.21875,
+    17.375,
+    -81.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1795184629
+  },
+  "Ariminimi": {
+   "pos": [
+    -23,
+    6.78125,
+    -116
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795184653
+  },
+  "Koirada": {
+   "pos": [
+    134.34375,
+    -19.90625,
+    -1
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.288498,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795184776
   }
  },
  "rivales": {

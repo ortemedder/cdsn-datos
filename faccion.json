@@ -2979,7 +2979,8 @@
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 1,
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "prev": 21.88,
    "prev_t": 1794949884,
@@ -9786,7 +9787,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795193938,
+   "t": 1795196881,
    "src": "EDDN",
    "inf": 59.49,
    "ctrl": true,
@@ -9878,7 +9879,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 20
+    "2026-11-20": 22
    },
    "pn": {
     "V8X-11L": {
@@ -9893,7 +9894,7 @@
    },
    "tk": {
     "firma": "efd7bb88",
-    "igual": 1795193938,
+    "igual": 1795196881,
     "ult": 1795179189,
     "desde": 1794992890,
     "est": null,
@@ -9926,7 +9927,8 @@
     "1795176000": 1,
     "1795179600": 3,
     "1795183200": 1,
-    "1795190400": 1
+    "1795190400": 1,
+    "1795194000": 1
    },
    "rutas": {
     "2026-11-17": 5,
@@ -10126,7 +10128,7 @@
     "Planetary Construction Site: Munn's Crest": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795195912,
+     "t": 1795197170,
      "estado": "",
      "ls": 1254,
      "pads": {
@@ -10136,15 +10138,15 @@
      },
      "mid": 4404526595,
      "mer": {
-      "t": 1795195919,
-      "n": 6,
+      "t": 1795197177,
+      "n": 7,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -23260,11 +23262,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795195629.1309028,
-  "msgs": 981802,
-  "mios": 97
+  "ultimo": 1795196883.2374218,
+  "msgs": 996747,
+  "mios": 98
  },
- "t": 1795196745.872244,
+ "t": 1795197658.54894,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23590,7 +23592,7 @@
    "nfac": 6,
    "pob": 7515127,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795193882
+   "t": 1795196829
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -23629,7 +23631,7 @@
    "nfac": 4,
    "pob": 218632,
    "ctrl_n": "East India Company",
-   "t": 1795158769
+   "t": 1795197261
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -23694,7 +23696,7 @@
    "nfac": 4,
    "pob": 128265,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795158152
+   "t": 1795197352
   },
   "Unktock": {
    "pos": [
@@ -25709,7 +25711,7 @@
    "nfac": 3,
    "pob": 618850,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795185687
+   "t": 1795195508
   },
   "HIP 35755": {
    "pos": [
@@ -25839,7 +25841,7 @@
    "nfac": 6,
    "pob": 1518,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1794975128
+   "t": 1795197139
   },
   "Chnumandr": {
    "pos": [
@@ -25902,9 +25904,9 @@
    "ly": 19.8,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 47349348,
+   "pob": 47340143,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795157915
+   "t": 1795195559
   },
   "Oisi": {
    "pos": [
@@ -26188,9 +26190,9 @@
    "ly": 6.3,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 2009477,
+   "pob": 2009503,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795128230
+   "t": 1795197642
   },
   "Nogatas": {
    "pos": [
@@ -27347,7 +27349,7 @@
    "nfac": 4,
    "pob": 1570943,
    "ctrl_n": "The Dark Wheel",
-   "t": 1795166643
+   "t": 1795197187
   },
   "Ross 409": {
    "pos": [
@@ -27594,7 +27596,7 @@
    "nfac": 5,
    "pob": 35446009,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795194831
+   "t": 1795196965
   },
   "Hyades Sector UK-M b8-5": {
    "pos": [
@@ -28270,7 +28272,7 @@
    "nfac": 3,
    "pob": 40112731,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795193831
+   "t": 1795196785
   },
   "Tascheter Sector FR-M a7-3": {
    "pos": [
@@ -28628,7 +28630,7 @@
    },
    "Hyades Sector SU-N b7-0": {
     "ini": 1795185724,
-    "v": 20,
+    "v": 22,
     "m": 4.4,
     "dia": "hoy",
     "antes": 61.86,
@@ -28931,7 +28933,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795194831
+   "t": 1795196965
   },
   "Hyades Sector ND-S c4-15": {
    "pos": [
@@ -29596,7 +29598,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795121809
+   "t": 1795197556
   },
   "Ndabangluya": {
    "pos": [
@@ -30132,7 +30134,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795128230
+   "t": 1795197642
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -30361,7 +30363,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795158152
+   "t": 1795197352
   },
   "Guei": {
    "pos": [
@@ -30768,7 +30770,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795158769
+   "t": 1795197261
   },
   "LTT 11655": {
    "pos": [
@@ -31063,7 +31065,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.101823,
+   "prog": 0.101935,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -31071,7 +31073,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795157915
+   "t": 1795195559
   },
   "LP 365-24": {
    "pos": [
@@ -31348,7 +31350,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795193882
+   "t": 1795196829
   },
   "HIP 44811": {
    "pos": [
@@ -31723,7 +31725,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795166643
+   "t": 1795197187
   },
   "Trianguli Sector SU-O a6-4": {
    "pos": [
@@ -32398,7 +32400,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795193938
+   "t": 1795196881
   },
   "Ethli": {
    "pos": [
@@ -32777,7 +32779,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795185687
+   "t": 1795195508
   },
   "Iku-Turso": {
    "pos": [
@@ -32810,7 +32812,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795196093
+   "t": 1795197375
   },
   "StKM 1-626": {
    "pos": [
@@ -33136,7 +33138,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795193831
+   "t": 1795196785
   },
   "Skang": {
    "pos": [
@@ -33417,6 +33419,22 @@
     "Pranav Antal"
    ],
    "t": 1795196736
+  },
+  "Yaro": {
+   "pos": [
+    131.6875,
+    -11.46875,
+    26.625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.101712,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795197139
   }
  },
  "rivales": {

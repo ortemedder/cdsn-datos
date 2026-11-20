@@ -7969,6 +7969,9 @@
    "tk": {
     "firma": "595823b4",
     "igual": 1795002105
+   },
+   "rutas": {
+    "2026-11-20": 1
    }
   },
   "Wathiparian": {
@@ -17011,7 +17014,7 @@
   },
   "Kalenile": {
    "sys": "Kalenile",
-   "t": 1795082712,
+   "t": 1795143830,
    "src": "EDDN",
    "inf": 14.36,
    "ctrl": false,
@@ -17030,9 +17033,7 @@
      "inf": 53.54,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -17114,7 +17115,8 @@
     "2026-11-13": 1,
     "2026-11-14": 2,
     "2026-11-17": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 1
    },
    "pn": {
     "KLZ-70X": {
@@ -17132,15 +17134,17 @@
    },
    "tk": {
     "firma": "a3d9efce",
-    "igual": 1795082712
+    "igual": 1795143830
    },
    "saltos": {
     "1794877200": 1,
-    "1795082400": 1
+    "1795082400": 1,
+    "1795143600": 1
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -17151,7 +17155,8 @@
     ]
    ],
    "rach": {},
-   "rivales": []
+   "rivales": [],
+   "cseg": {}
   },
   "Chan Mina": {
    "sys": "Chan Mina",
@@ -22135,11 +22140,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795140431.206748,
-  "msgs": 451204,
-  "mios": 36
+  "ultimo": 1795143837.8939102,
+  "msgs": 459621,
+  "mios": 37
  },
- "t": 1795143137.3417697,
+ "t": 1795144318.5808098,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22697,9 +22702,9 @@
    "ly": 19.0,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 3,
-   "pob": 3984229,
+   "pob": 3994115,
    "ctrl_n": "Imperial Enforcement Division",
-   "t": 1794892397
+   "t": 1795144149
   },
   "Ceti Sector EW-V b2-4": {
    "pos": [
@@ -23074,9 +23079,9 @@
    "ly": 11.5,
    "junto": "Wolf 258",
    "nfac": 4,
-   "pob": 48122139,
+   "pob": 48191994,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1794907581
+   "t": 1795143781
   },
   "Skeller": {
    "pos": [
@@ -26120,19 +26125,6 @@
    "ctrl_n": "Nagii Union",
    "t": 1795079084
   },
-  "Furuhjelm II-431": {
-   "pos": [
-    -4.28125,
-    25.53125,
-    -75.96875
-   ],
-   "ly": 5.2,
-   "junto": "BD+40 1697",
-   "nfac": 5,
-   "pob": 218923,
-   "ctrl_n": "LP 254-27 Free",
-   "t": 1795083219
-  },
   "Tascheter Sector CL-Y d135": {
    "pos": [
     -28.03125,
@@ -26808,6 +26800,32 @@
    "pob": 59953918,
    "ctrl_n": "Order of Enblackenment",
    "t": 1795140864
+  },
+  "Lyncis Sector PX-U b2-0": {
+   "pos": [
+    -27.9375,
+    31.21875,
+    -158
+   ],
+   "ly": 18.5,
+   "junto": "HIP 31451",
+   "nfac": 4,
+   "pob": 94046204,
+   "ctrl_n": "Nagii Union",
+   "t": 1795140311
+  },
+  "BD+22 1802": {
+   "pos": [
+    30.5625,
+    41.53125,
+    -89.4375
+   ],
+   "ly": 17.3,
+   "junto": "Lati",
+   "nfac": 4,
+   "pob": 159135,
+   "ctrl_n": "Civitas Dei",
+   "t": 1795143790
   }
  },
  "codice": [
@@ -29504,6 +29522,103 @@
     "Jerome Archer"
    ],
    "t": 1795142730
+  },
+  "Lyncis Sector PX-U b2-0": {
+   "pos": [
+    -27.9375,
+    31.21875,
+    -158
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1795140311
+  },
+  "Tascheter Sector BV-Y b7": {
+   "pos": [
+    8.125,
+    -9.34375,
+    -95.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795143781
+  },
+  "BD+22 1802": {
+   "pos": [
+    30.5625,
+    41.53125,
+    -89.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795143790
+  },
+  "Kalenile": {
+   "pos": [
+    4.0625,
+    11.40625,
+    -115.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795143830
+  },
+  "Gurabru": {
+   "pos": [
+    3.59375,
+    15.34375,
+    -126.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.255225,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795143883
+  },
+  "Crucis Sector HB-X b1-6": {
+   "pos": [
+    127.40625,
+    -0.53125,
+    25.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795144149
   }
  },
  "rivales": {

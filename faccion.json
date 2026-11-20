@@ -597,7 +597,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1795179076,
+   "t": 1795180198,
    "src": "EDDN",
    "inf": 54.95,
    "ctrl": true,
@@ -678,7 +678,7 @@
     "2026-11-17": 26,
     "2026-11-18": 11,
     "2026-11-19": 3,
-    "2026-11-20": 1
+    "2026-11-20": 3
    },
    "pn": {
     "WLY-73X": {
@@ -689,7 +689,7 @@
    },
    "tk": {
     "firma": "79d59143",
-    "igual": 1795179076,
+    "igual": 1795180198,
     "ult": 1795126401,
     "desde": 1795082195,
     "est": null,
@@ -717,13 +717,14 @@
     "1795021200": 1,
     "1795078800": 1,
     "1795125600": 1,
-    "1795176000": 1
+    "1795176000": 1,
+    "1795179600": 2
    },
    "rutas": {
     "2026-11-17": 6,
     "2026-11-18": 2,
     "2026-11-19": 1,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "estaciones": {
     "Insula Barataria": {
@@ -3093,7 +3094,7 @@
   },
   "Jitabed": {
    "sys": "Jitabed",
-   "t": 1795179132,
+   "t": 1795180245,
    "src": "EDDN",
    "inf": 46.67,
    "ctrl": true,
@@ -3205,31 +3206,32 @@
     "2026-11-14": 1,
     "2026-11-15": 1,
     "2026-11-17": 2,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "pn": {
     "CZJ-02M": {
      "n": "THE DISTILLERY",
-     "t": 1794945569,
+     "t": 1795180245,
      "d": 1794945569
     }
    },
    "tk": {
     "firma": "ff9e5b8f",
-    "igual": 1795179132,
+    "igual": 1795180245,
     "ult": 1795179132,
     "desde": 1794945569,
     "est": null
    },
    "saltos": {
     "1794942000": 2,
-    "1795176000": 1
+    "1795176000": 1,
+    "1795179600": 1
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-18": 1,
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "prev": 45.92,
    "prev_t": 1794945569,
@@ -3778,7 +3780,7 @@
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
-   "t": 1795178578,
+   "t": 1795179721,
    "src": "EDDN",
    "inf": 23.92,
    "ctrl": false,
@@ -3877,56 +3879,36 @@
     "2026-04-26": 2,
     "2026-11-09": 3,
     "2026-11-10": 3,
-    "2026-11-20": 3
+    "2026-11-20": 5
    },
    "pn": {
     "N6J-80Z": {
      "n": "FRESH PRINCE OF ALTAIR",
-     "t": 1795178745,
+     "t": 1795179752,
      "d": 1795178745
     },
     "T9K-12H": {
      "n": "L*******************T",
-     "t": 1795178745,
+     "t": 1795179752,
      "d": 1795178745
     }
    },
-   "saltos": {
-    "1795176000": 1
-   },
-   "rutas": {
-    "2026-11-20": 1
-   },
-   "prev": 22.26,
-   "prev_t": 1794328002,
-   "hinf": [
-    [
-     1794328002,
-     22.26
-    ],
-    [
-     1795178578,
-     23.92
-    ]
-   ],
-   "rach": {
-    "THE AZGHARIE": 1,
-    "Caballeros de Sion": 1,
-    "New Adjukru Coalition": 0,
-    "Beasts of Bestia": 1,
-    "Revolutionary Party of Rong": 0
-   },
-   "rivales": [],
    "tk": {
     "firma": "b52f2a27",
-    "igual": 1795178578
+    "igual": 1795179721
    },
-   "cseg": {},
+   "saltos": {
+    "1795176000": 1,
+    "1795179600": 1
+   },
+   "rutas": {
+    "2026-11-20": 2
+   },
    "estaciones": {
     "Nux Station - La Station Des Penguins": {
      "f": "THE AZGHARIE",
      "tipo": "Ocellus",
-     "t": 1795178872,
+     "t": 1795179955,
      "estado": "",
      "ls": 341,
      "pads": {
@@ -3936,7 +3918,7 @@
      },
      "mid": 4225131267,
      "mer": {
-      "t": 1795178882,
+      "t": 1795179980,
       "n": 366,
       "vende": [
        {
@@ -4008,7 +3990,7 @@
       ]
      },
      "mods": 883,
-     "mods_t": 1795178878,
+     "mods_t": 1795179962,
      "naves": [
       "adder",
       "anaconda",
@@ -4049,9 +4031,36 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795178878
+     "naves_t": 1795179962,
+     "atq": {
+      "2026-11-20": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
-   }
+   },
+   "prev": 22.26,
+   "prev_t": 1794328002,
+   "hinf": [
+    [
+     1794328002,
+     22.26
+    ],
+    [
+     1795178578,
+     23.92
+    ]
+   ],
+   "rach": {
+    "THE AZGHARIE": 1,
+    "Caballeros de Sion": 1,
+    "New Adjukru Coalition": 0,
+    "Beasts of Bestia": 1,
+    "Revolutionary Party of Rong": 0
+   },
+   "rivales": [],
+   "cseg": {}
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
@@ -9448,7 +9457,7 @@
   },
   "Tascheter Sector YZ-Y b4": {
    "sys": "Tascheter Sector YZ-Y b4",
-   "t": 1795179024,
+   "t": 1795180154,
    "src": "EDDN",
    "inf": 15.35,
    "ctrl": false,
@@ -9545,18 +9554,19 @@
     "2026-11-09": 1,
     "2026-11-13": 2,
     "2026-11-16": 2,
-    "2026-11-20": 1
+    "2026-11-20": 3
    },
    "tk": {
     "firma": "e468e3bb",
-    "igual": 1795179024
+    "igual": 1795180154
    },
    "saltos": {
     "1778086800": 1,
-    "1795176000": 1
+    "1795176000": 1,
+    "1795179600": 2
    },
    "rutas": {
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "prev": null,
    "prev_t": null,
@@ -9572,7 +9582,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795179189,
+   "t": 1795180292,
    "src": "EDDN",
    "inf": 59.49,
    "ctrl": true,
@@ -9664,7 +9674,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 2
+    "2026-11-20": 4
    },
    "pn": {
     "V8X-11L": {
@@ -9679,7 +9689,7 @@
    },
    "tk": {
     "firma": "efd7bb88",
-    "igual": 1795179189,
+    "igual": 1795180292,
     "ult": 1795179189,
     "desde": 1794992890,
     "est": null,
@@ -9709,12 +9719,13 @@
     "1794942000": 1,
     "1794945600": 1,
     "1794992400": 1,
-    "1795176000": 1
+    "1795176000": 1,
+    "1795179600": 1
    },
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "estaciones": {
     "Piel City": {
@@ -9848,8 +9859,23 @@
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "neg": {
+      "Distance": 1
+     },
+     "atq": {
+      "2026-11-20": {
+       "ok": 1,
+       "no": 1
+      }
      }
     }
+   },
+   "sube_cuando_baja": {
+    "n": "Sirius Special Forces",
+    "d": 1.97,
+    "baja": 2.37,
+    "t": 1795179189
    },
    "prev": 61.86,
    "prev_t": 1794992890,
@@ -9907,13 +9933,7 @@
    "tick_prox": 1795235820,
    "tick_disp": 270,
    "tick_n": 0,
-   "cseg": {},
-   "sube_cuando_baja": {
-    "n": "Sirius Special Forces",
-    "d": 1.97,
-    "baja": 2.37,
-    "t": 1795179189
-   }
+   "cseg": {}
   },
   "Hyades Sector AC-K b9-6": {
    "sys": "Hyades Sector AC-K b9-6",
@@ -22636,11 +22656,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795179189.9594026,
-  "msgs": 762454,
-  "mios": 58
+  "ultimo": 1795180293.8568873,
+  "msgs": 773441,
+  "mios": 65
  },
- "t": 1795179575.7106595,
+ "t": 1795180468.56107,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -26409,9 +26429,9 @@
    "ly": 18.2,
    "junto": "Windizetet",
    "nfac": 5,
-   "pob": 198715,
+   "pob": 198729,
    "ctrl_n": "Nagii Union",
-   "t": 1795044938
+   "t": 1795124296
   },
   "BD+44 1040": {
    "pos": [
@@ -27504,6 +27524,19 @@
    "pob": 159949,
    "ctrl_n": "Empire Corsairs",
    "t": 1795179569
+  },
+  "Trianguli Sector QZ-O a6-3": {
+   "pos": [
+    27.625,
+    -31.125,
+    -58.875
+   ],
+   "ly": 15.4,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 1231804,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795180092
   }
  },
  "codice": [
@@ -30522,7 +30555,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795179076
+   "t": 1795180198
   },
   "Kwangwutii": {
    "pos": [
@@ -31210,7 +31243,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795167683
+   "t": 1795180170
   },
   "LTT 882": {
    "pos": [
@@ -31535,7 +31568,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795178578
+   "t": 1795179721
   },
   "Tascheter Sector YZ-Y b4": {
    "pos": [
@@ -31553,7 +31586,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795179024
+   "t": 1795180154
   },
   "Jitabed": {
    "pos": [
@@ -31571,7 +31604,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795179132
+   "t": 1795180245
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -31588,7 +31621,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795179189
+   "t": 1795180292
   },
   "Ethli": {
    "pos": [
@@ -31607,6 +31640,103 @@
     "Jerome Archer"
    ],
    "t": 1795179569
+  },
+  "HIP 24035": {
+   "pos": [
+    -6.53125,
+    -15,
+    -128.375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.097712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795179633
+  },
+  "Shenetserii": {
+   "pos": [
+    15.21875,
+    -44.3125,
+    -33.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.282738,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795179649
+  },
+  "Lyncis Sector UY-S b3-1": {
+   "pos": [
+    -57.6875,
+    11.28125,
+    -134.1875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795124296
+  },
+  "Trianguli Sector QZ-O a6-3": {
+   "pos": [
+    27.625,
+    -31.125,
+    -58.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.129712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795180092
+  },
+  "Kongaguan": {
+   "pos": [
+    15.96875,
+    -100.875,
+    -64.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.167426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795180234
+  },
+  "LHS 1914": {
+   "pos": [
+    9.84375,
+    26.15625,
+    -72.46875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.252881,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795180413
   }
  },
  "rivales": {

@@ -22371,10 +22371,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795171259.4562035,
-  "msgs": 689523,
+  "msgs": 697956,
   "mios": 50
  },
- "t": 1795172185.9181657,
+ "t": 1795173126.6789968,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23051,7 +23051,7 @@
    "nfac": 3,
    "pob": 2633825,
    "ctrl_n": "East India Company",
-   "t": 1795171689
+   "t": 1795172880
   },
   "Maiden": {
    "pos": [
@@ -26845,9 +26845,9 @@
    "ly": 19.0,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 4,
-   "pob": 250326,
+   "pob": 250344,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795123160
+   "t": 1795173122
   },
   "Hyades Sector TU-N b7-0": {
    "pos": [
@@ -28522,7 +28522,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795123160
+   "t": 1795173122
   },
   "Hyades Sector TU-N b7-0": {
    "pos": [
@@ -30870,7 +30870,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795171689
+   "t": 1795172880
   },
   "Ininohima": {
    "pos": [

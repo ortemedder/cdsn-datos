@@ -20212,7 +20212,7 @@
   },
   "HIP 31143": {
    "sys": "HIP 31143",
-   "t": 1795019499,
+   "t": 1795188849,
    "src": "EDDN",
    "inf": 23.67,
    "ctrl": false,
@@ -20231,9 +20231,7 @@
      "inf": 49.25,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -20322,15 +20320,17 @@
    },
    "trafico": {
     "2026-11-17": 2,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 2
    },
    "tk": {
     "firma": "be19b24e",
-    "igual": 1795019499
+    "igual": 1795188849
    },
    "saltos": {
     "1794884400": 1,
-    "1795017600": 1
+    "1795017600": 1,
+    "1795186800": 2
    },
    "rutas": {
     "2026-11-18": 1,
@@ -20345,7 +20345,8 @@
     ]
    ],
    "rach": {},
-   "rivales": []
+   "rivales": [],
+   "cseg": {}
   },
   "Hyades Sector RZ-N b7-5": {
    "sys": "Hyades Sector RZ-N b7-5",
@@ -22825,11 +22826,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795187622.4108818,
-  "msgs": 876858,
-  "mios": 86
+  "ultimo": 1795188849.905686,
+  "msgs": 890194,
+  "mios": 87
  },
- "t": 1795188479.7354527,
+ "t": 1795189461.2605991,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23545,7 +23546,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795186432
+   "t": 1795188762
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -24245,9 +24246,9 @@
    "ly": 19.1,
    "junto": "BD+40 1697",
    "nfac": 3,
-   "pob": 1598527,
+   "pob": 1598556,
    "ctrl_n": "Jade Constitutional Republican Society",
-   "t": 1795140818
+   "t": 1795189452
   },
   "Koirada": {
    "pos": [
@@ -26795,7 +26796,7 @@
    "nfac": 3,
    "pob": 4095638,
    "ctrl_n": "Black Hand of Orion",
-   "t": 1795180695
+   "t": 1795188709
   },
   "Allowini": {
    "pos": [
@@ -27679,7 +27680,7 @@
    "nfac": 6,
    "pob": 53664319,
    "ctrl_n": "Tialocan Empire Party",
-   "t": 1795176681
+   "t": 1795189236
   },
   "Ethli": {
    "pos": [
@@ -27784,9 +27785,42 @@
    "pob": 522709515,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795188419
+  },
+  "Lyncis Sector SD-T b3-5": {
+   "pos": [
+    -58,
+    25.21875,
+    -140.46875
+   ],
+   "ly": 15.8,
+   "junto": "Windizetet",
+   "nfac": 3,
+   "pob": 789923,
+   "ctrl_n": "Nagii Union",
+   "t": 1795188758
   }
  },
  "codice": [
+  {
+   "sys": "Tascheter Sector YZ-Y a3",
+   "n": "IceGeysers WaterGeysers",
+   "cat": "Biology",
+   "sub": "Geology and Anomalies",
+   "cuerpo": "Tascheter Sector YZ-Y a3 6",
+   "junto": "Hyades Sector XV-L b8-3",
+   "ly": 19.4,
+   "t": 1795189045
+  },
+  {
+   "sys": "Tascheter Sector YZ-Y a3",
+   "n": "Bacterial 07 Tin",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Tascheter Sector YZ-Y a3 6",
+   "junto": "Hyades Sector XV-L b8-3",
+   "ly": 19.4,
+   "t": 1795188956
+  },
   {
    "sys": "Tascheter Sector YZ-Y a3",
    "n": "Bacterial 04 Antimony",
@@ -28066,26 +28100,6 @@
    "junto": "Eurus",
    "ly": 18.5,
    "t": 1795175220
-  },
-  {
-   "sys": "Oto",
-   "n": "Fonticulus 06 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 3 c",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795175168
-  },
-  {
-   "sys": "Oto",
-   "n": "Bacterial 07 Tin",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 3 b",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795174187
   }
  ],
  "ataques": {
@@ -28467,13 +28481,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.442406,
+   "prog": 0.444263,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795186432
+   "t": 1795188762
   },
   "Wolf 186": {
    "pos": [
@@ -30510,7 +30524,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795140818
+   "t": 1795189452
   },
   "Yin Sector ZU-Y b4": {
    "pos": [
@@ -31229,7 +31243,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795180695
+   "t": 1795188709
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -31719,7 +31733,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795176681
+   "t": 1795189236
   },
   "ICZ GL-X b1-1": {
    "pos": [
@@ -32415,6 +32429,54 @@
     "Li Yong-Rui"
    ],
    "t": 1795188473
+  },
+  "Ahti": {
+   "pos": [
+    4.0625,
+    -79.09375,
+    -7.71875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795188690
+  },
+  "Lyncis Sector SD-T b3-5": {
+   "pos": [
+    -58,
+    25.21875,
+    -140.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795188758
+  },
+  "HIP 31143": {
+   "pos": [
+    -11.03125,
+    30.125,
+    -117.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795188849
   }
  },
  "rivales": {

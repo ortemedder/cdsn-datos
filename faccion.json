@@ -22188,10 +22188,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795146180.8793843,
-  "msgs": 494274,
+  "msgs": 502980,
   "mios": 41
  },
- "t": 1795147792.2700834,
+ "t": 1795148532.7979782,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22242,9 +22242,9 @@
    "ly": 4.0,
    "junto": "Hyades Sector RZ-N b7-3",
    "nfac": 3,
-   "pob": 239267,
+   "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795093634
+   "t": 1795148520
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -29918,6 +29918,22 @@
     "Jerome Archer"
    ],
    "t": 1795147726
+  },
+  "Hyades Sector RZ-N b7-1": {
+   "pos": [
+    3.84375,
+    20.4375,
+    -122.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795148520
   }
  },
  "rivales": {

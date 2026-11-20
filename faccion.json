@@ -597,7 +597,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1795181104,
+   "t": 1795183050,
    "src": "EDDN",
    "inf": 54.95,
    "ctrl": true,
@@ -678,7 +678,7 @@
     "2026-11-17": 26,
     "2026-11-18": 11,
     "2026-11-19": 3,
-    "2026-11-20": 5
+    "2026-11-20": 7
    },
    "pn": {
     "WLY-73X": {
@@ -689,7 +689,7 @@
    },
    "tk": {
     "firma": "79d59143",
-    "igual": 1795181104,
+    "igual": 1795183050,
     "ult": 1795126401,
     "desde": 1795082195,
     "est": null,
@@ -718,13 +718,13 @@
     "1795078800": 1,
     "1795125600": 1,
     "1795176000": 1,
-    "1795179600": 4
+    "1795179600": 6
    },
    "rutas": {
     "2026-11-17": 6,
     "2026-11-18": 2,
     "2026-11-19": 1,
-    "2026-11-20": 5
+    "2026-11-20": 7
    },
    "estaciones": {
     "Insula Barataria": {
@@ -2075,13 +2075,13 @@
     "2026-11-17": 16,
     "2026-11-18": 55,
     "2026-11-19": 29,
-    "2026-11-20": 3
+    "2026-11-20": 5
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795123262
+     "t": 1795182507
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
@@ -2167,132 +2167,132 @@
     },
     "T9V-65H": {
      "n": "Aram draz",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K4J-49Y": {
      "n": "Dordalor's Folly",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "V1N-71J": {
      "n": "Prometheus",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "V8F-8HL": {
      "n": "buy Pain180k-Mona 500k",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "H6L-N0T": {
      "n": "SCOBAR",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "V5Z-18F": {
      "n": "photon's carrier",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "V5N-G4K": {
      "n": "CAFE RENE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K2L-58J": {
      "n": "Unwitting Accomplice",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "X6T-T0B": {
      "n": "THE KAPISI",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "QBY-16N": {
      "n": "HMS VENGEANCE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "L6V-NVZ": {
      "n": "ABYSS",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "V3N-4QH": {
      "n": "UNIVERSAL IRONY",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "FNX-56Z": {
      "n": "REPAIR REARM SERVICES",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "XHK-97Z": {
      "n": "SODOR SOJOURNER",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "W9K-2KZ": {
      "n": "WANDERER",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "N6L-02Q": {
      "n": "EVENT HORIZON",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "VLQ-T8V": {
      "n": "BUGBEAR",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K3W-98V": {
      "n": "FSR [Pain 150k]",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "J8Z-GXL": {
      "n": "Painite buying 215K",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "VZM-4HM": {
      "n": "CRYING LUNATIC",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "XLM-05K": {
      "n": "QUEEN ANNE REVENGE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K1N-W3M": {
      "n": "ISCARIOT",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "X6B-6XT": {
      "n": "BUY PAINITE EXPENSIVE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "XBW-W1N": {
      "n": "HEART OF THE TEMPEST",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "JZM-91G": {
      "n": "blas de lezo",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K9J-58T": {
      "n": "kaiser nelsons tv",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "L5F-5QZ": {
@@ -2301,37 +2301,37 @@
     },
     "V3Q-4TY": {
      "n": "buying painite 215k",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K1N-1HQ": {
      "n": "[FRZN] INDEPENDENCE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K0M-T8X": {
      "n": "NEUSEL DER VIERTE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "K3H-7VH": {
      "n": "RISING STAR",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "KBK-31X": {
      "n": "SANGUINITY",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "BFK-WHT": {
      "n": "JURATE",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "VBL-3HQ": {
      "n": "ECHO-3-DELTA",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "T9J-63Q": {
@@ -2346,7 +2346,7 @@
     },
     "H7G-GXK": {
      "n": "SOLAR IRONY",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "BLG-TTV": {
@@ -2534,17 +2534,17 @@
     },
     "X5W-19Y": {
      "n": "STELLAR NOMAD",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "AZW-7TQ": {
      "n": "LETZTE HOFFNUNG",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794886382
     },
     "X3N-1KV": {
      "n": "SANCTUS MECHANICUS ANA",
-     "t": 1795123262,
+     "t": 1795182507,
      "d": 1794995388
     },
     "T9Q-5HX": {
@@ -2622,9 +2622,9 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795123588,
+     "t": 1795182951,
      "estado": "",
-     "ls": 2379,
+     "ls": 2381,
      "pads": {
       "Small": 4,
       "Medium": 8,
@@ -2734,6 +2734,10 @@
       },
       "2026-11-19": {
        "ok": 8,
+       "no": 0
+      },
+      "2026-11-20": {
+       "ok": 1,
        "no": 0
       }
      },
@@ -3782,7 +3786,7 @@
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
-   "t": 1795180678,
+   "t": 1795182635,
    "src": "EDDN",
    "inf": 23.92,
    "ctrl": false,
@@ -3881,36 +3885,36 @@
     "2026-04-26": 2,
     "2026-11-09": 3,
     "2026-11-10": 3,
-    "2026-11-20": 7
+    "2026-11-20": 9
    },
    "pn": {
     "N6J-80Z": {
      "n": "FRESH PRINCE OF ALTAIR",
-     "t": 1795180706,
+     "t": 1795182708,
      "d": 1795178745
     },
     "T9K-12H": {
      "n": "L*******************T",
-     "t": 1795180706,
+     "t": 1795182708,
      "d": 1795178745
     }
    },
    "tk": {
     "firma": "b52f2a27",
-    "igual": 1795180678
+    "igual": 1795182635
    },
    "saltos": {
     "1795176000": 1,
-    "1795179600": 2
+    "1795179600": 3
    },
    "rutas": {
-    "2026-11-20": 3
+    "2026-11-20": 4
    },
    "estaciones": {
     "Nux Station - La Station Des Penguins": {
      "f": "THE AZGHARIE",
      "tipo": "Ocellus",
-     "t": 1795180902,
+     "t": 1795182820,
      "estado": "",
      "ls": 341,
      "pads": {
@@ -3920,7 +3924,7 @@
      },
      "mid": 4225131267,
      "mer": {
-      "t": 1795180911,
+      "t": 1795182898,
       "n": 366,
       "vende": [
        {
@@ -3992,7 +3996,7 @@
       ]
      },
      "mods": 883,
-     "mods_t": 1795180909,
+     "mods_t": 1795182827,
      "naves": [
       "adder",
       "anaconda",
@@ -4033,10 +4037,10 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795180909,
+     "naves_t": 1795182827,
      "atq": {
       "2026-11-20": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -9584,7 +9588,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795181199,
+   "t": 1795183098,
    "src": "EDDN",
    "inf": 59.49,
    "ctrl": true,
@@ -9676,7 +9680,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 5
+    "2026-11-20": 8
    },
    "pn": {
     "V8X-11L": {
@@ -9691,7 +9695,7 @@
    },
    "tk": {
     "firma": "efd7bb88",
-    "igual": 1795181199,
+    "igual": 1795183098,
     "ult": 1795179189,
     "desde": 1794992890,
     "est": null,
@@ -9722,12 +9726,12 @@
     "1794945600": 1,
     "1794992400": 1,
     "1795176000": 1,
-    "1795179600": 2
+    "1795179600": 3
    },
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
-    "2026-11-20": 3
+    "2026-11-20": 4
    },
    "estaciones": {
     "Piel City": {
@@ -9846,7 +9850,7 @@
     "Orbital Construction Site: Kerimov Beacon": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795180517,
+     "t": 1795182464,
      "estado": "",
      "ls": 3457,
      "pads": {
@@ -9856,7 +9860,7 @@
      },
      "mid": 3966151170,
      "mer": {
-      "t": 1795180524,
+      "t": 1795182470,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -9867,7 +9871,7 @@
      },
      "atq": {
       "2026-11-20": {
-       "ok": 1,
+       "ok": 2,
        "no": 1
       }
      }
@@ -22658,11 +22662,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795182225.5549996,
-  "msgs": 795620,
-  "mios": 72
+  "ultimo": 1795183099.453174,
+  "msgs": 806340,
+  "mios": 76
  },
- "t": 1795182293.6784909,
+ "t": 1795183186.9338634,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -27557,6 +27561,66 @@
  "codice": [
   {
    "sys": "HIP 28774",
+   "n": "Cactoid 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 g",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183178
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Tussocks 11 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 g",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183140
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Shrubs 02 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 f",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182847
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Osseus 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 f",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182798
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Bacterial 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 f",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182644
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Osseus 06 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 e",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795182320
+  },
+  {
+   "sys": "HIP 28774",
    "n": "Clypeus 01 G",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -27574,36 +27638,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795182206
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Bacterial 01 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 e",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182178
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Shrubs 02 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 e",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182028
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Cactoid 01 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 e",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182006
   },
   {
    "sys": "HIP 28774",
@@ -27824,36 +27858,6 @@
    "junto": "Col 285 Sector YZ-U b17-3",
    "ly": 13.2,
    "t": 1795092834
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Shrubs 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795092589
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Bacterial 01 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 c",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795091813
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Tussocks 07 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 c",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795091414
   }
  ],
  "ataques": {
@@ -30563,7 +30567,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795181104
+   "t": 1795183050
   },
   "Kwangwutii": {
    "pos": [
@@ -31576,7 +31580,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795180678
+   "t": 1795182635
   },
   "Tascheter Sector YZ-Y b4": {
    "pos": [
@@ -31629,7 +31633,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795181199
+   "t": 1795183098
   },
   "Ethli": {
    "pos": [

@@ -22827,10 +22827,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795188849.905686,
-  "msgs": 903947,
+  "msgs": 914961,
   "mios": 87
  },
- "t": 1795190372.1777484,
+ "t": 1795191003.1559033,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23312,7 +23312,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795187105
+   "t": 1795190771
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -23323,9 +23323,9 @@
    "ly": 17.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 216496,
+   "pob": 216588,
    "ctrl_n": "East India Company",
-   "t": 1795066124
+   "t": 1795190433
   },
   "Trianguli Sector SU-O a6-3": {
    "pos": [
@@ -28319,7 +28319,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795187105
+   "t": 1795190771
   },
   "Nergal": {
    "pos": [
@@ -30421,7 +30421,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795186261
+   "t": 1795190507
   },
   "Mandra": {
    "pos": [
@@ -30864,7 +30864,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795172178
+   "t": 1795170733
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -32525,6 +32525,40 @@
     "Jerome Archer"
    ],
    "t": 1795190363
+  },
+  "Tascheter Sector IM-M a7-1": {
+   "pos": [
+    27.6875,
+    -38.875,
+    -28.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795190433
+  },
+  "LP 714-58": {
+   "pos": [
+    24.21875,
+    -44.21875,
+    -48.09375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.052569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795190478
   }
  },
  "rivales": {

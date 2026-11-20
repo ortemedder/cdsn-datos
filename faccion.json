@@ -3752,73 +3752,65 @@
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
-   "t": 1794328002,
+   "t": 1795178578,
    "src": "EDDN",
-   "inf": 22.26,
+   "inf": 23.92,
    "ctrl": false,
-   "estado": "Election",
-   "activos": [
-    "Expansion",
-    "Election"
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 30.71,
-   "conflictos": [
-    {
-     "tipo": "election",
-     "estado": "active",
-     "contra": "New Adjukru Coalition",
-     "ganados": 0,
-     "perdidos": 1
-    }
-   ],
+   "segunda_inf": 31.38,
+   "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 30.71,
+     "inf": 31.38,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "New Adjukru Coalition",
-     "inf": 22.26,
-     "gov": "Confederacy",
-     "alg": "Federation",
      "act": [
-      "Election"
+      "Expansion"
      ],
      "pend": [],
      "jug": null
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 22.26,
+     "inf": 23.92,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion",
-      "Election"
+     "act": [],
+     "pend": [
+      "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
-     "n": "Beasts of Bestia",
-     "inf": 16.41,
-     "gov": "Democracy",
-     "alg": "Independent",
+     "n": "New Adjukru Coalition",
+     "inf": 19.98,
+     "gov": "Confederacy",
+     "alg": "Federation",
      "act": [],
      "pend": [],
      "jug": null
     },
     {
+     "n": "Beasts of Bestia",
+     "inf": 16.75,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "Revolutionary Party of Rong",
-     "inf": 8.36,
+     "inf": 7.97,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -3833,7 +3825,7 @@
     -93.40625
    ],
    "sis": {
-    "pob": 75381565,
+    "pob": 75395312,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Refinery;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -3843,9 +3835,9 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.072638,
-    "ref": 197,
-    "soc": 1182,
+    "prog": 0.072071,
+    "ref": 0,
+    "soc": 154,
     "pots": [
      "Edmund Mahon",
      "Li Yong-Rui",
@@ -3855,10 +3847,11 @@
     ]
    },
    "trafico": {
+    "2026-04-24": 1,
+    "2026-04-26": 2,
     "2026-11-09": 3,
     "2026-11-10": 3,
-    "2026-04-26": 2,
-    "2026-04-24": 1
+    "2026-11-20": 2
    },
    "pn": {
     "T3Z-46L": {
@@ -3866,8 +3859,37 @@
      "t": 1777229150
     }
    },
-   "prev": null,
-   "prev_t": null
+   "saltos": {
+    "1795176000": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
+   },
+   "prev": 22.26,
+   "prev_t": 1794328002,
+   "hinf": [
+    [
+     1794328002,
+     22.26
+    ],
+    [
+     1795178578,
+     23.92
+    ]
+   ],
+   "rach": {
+    "THE AZGHARIE": 1,
+    "Caballeros de Sion": 1,
+    "New Adjukru Coalition": 0,
+    "Beasts of Bestia": 1,
+    "Revolutionary Party of Rong": 0
+   },
+   "rivales": [],
+   "tk": {
+    "firma": "b52f2a27",
+    "igual": 1795178578
+   },
+   "cseg": {}
   },
   "Hyades Sector XV-L b8-3": {
    "sys": "Hyades Sector XV-L b8-3",
@@ -15410,7 +15432,8 @@
    },
    "trafico": {
     "2026-10-30": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 1
    },
    "tk": {
     "firma": "4eb9cec9",
@@ -21848,7 +21871,7 @@
   },
   "Hyades Sector ND-S c4-15": {
    "sys": "Hyades Sector ND-S c4-15",
-   "t": 1795115527,
+   "t": 1795178532,
    "src": "EDDN",
    "inf": 63.74,
    "ctrl": true,
@@ -21901,7 +21924,7 @@
     -96.84375
    ],
    "sis": {
-    "pob": 5013329,
+    "pob": 5014546,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -21924,7 +21947,8 @@
    },
    "trafico": {
     "2026-11-18": 3,
-    "2026-11-19": 3
+    "2026-11-19": 3,
+    "2026-11-20": 1
    },
    "pn": {
     "HHT-24K": {
@@ -21935,7 +21959,7 @@
    },
    "tk": {
     "firma": "a9f298e4",
-    "igual": 1795115527,
+    "igual": 1795178532,
     "ult": 1795115527,
     "desde": 1795046927,
     "vent": [
@@ -21948,10 +21972,12 @@
    },
    "saltos": {
     "1795046400": 1,
-    "1795114800": 1
+    "1795114800": 1,
+    "1795176000": 1
    },
    "rutas": {
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Maunder Works": {
@@ -22165,6 +22191,12 @@
      "mods_t": 1795047122
     }
    },
+   "sube_cuando_baja": {
+    "n": "THE AZGHARIE",
+    "d": 1.93,
+    "baja": 1.45,
+    "t": 1795115527
+   },
    "prev": 65.19,
    "prev_t": 1795046927,
    "hinf": [
@@ -22188,13 +22220,7 @@
    "tick_prox": 1795167570,
    "tick_disp": 571,
    "tick_n": 0,
-   "cseg": {},
-   "sube_cuando_baja": {
-    "n": "THE AZGHARIE",
-    "d": 1.93,
-    "baja": 1.45,
-    "t": 1795115527
-   }
+   "cseg": {}
   },
   "Tascheter Sector BQ-Y c18": {
    "sys": "Tascheter Sector BQ-Y c18",
@@ -22406,11 +22432,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795176478.6395085,
-  "msgs": 743108,
-  "mios": 52
+  "ultimo": 1795178580.1683936,
+  "msgs": 752138,
+  "mios": 54
  },
- "t": 1795177652.1602805,
+ "t": 1795178623.6089826,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -24008,9 +24034,9 @@
    "ly": 18.8,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 397957,
+   "pob": 398025,
    "ctrl_n": "The 46th and 2nd Galactic Regiment",
-   "t": 1794946775
+   "t": 1795177847
   },
   "Lambayeque": {
    "pos": [
@@ -24281,9 +24307,9 @@
    "ly": 16.8,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 437614,
+   "pob": 437668,
    "ctrl_n": "Omega Merchant Command",
-   "t": 1795042460
+   "t": 1795178223
   },
   "Ghimr": {
    "pos": [
@@ -24777,7 +24803,7 @@
    "nfac": 6,
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795115702
+   "t": 1795178106
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -27846,7 +27872,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795115702
+   "t": 1795178106
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -27896,7 +27922,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795115527
+   "t": 1795178532
   },
   "Hyades Sector SK-M b8-3": {
    "pos": [
@@ -31225,6 +31251,74 @@
     "Jerome Archer"
    ],
    "t": 1795177642
+  },
+  "Tascheter Sector GR-M a7-1": {
+   "pos": [
+    25.90625,
+    -28.46875,
+    -30.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795177847
+  },
+  "LF 8 +16 41": {
+   "pos": [
+    23.90625,
+    1.59375,
+    -86.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795178155
+  },
+  "BD+11 1163": {
+   "pos": [
+    36.28125,
+    -0.03125,
+    -98.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795178223
+  },
+  "Tascheter Sector YZ-Y b6": {
+   "pos": [
+    -18.65625,
+    5.8125,
+    -93.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.072071,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795178578
   }
  },
  "rivales": {

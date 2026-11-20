@@ -1614,7 +1614,8 @@
     "1795039200": 1
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 1
    },
    "prev": 12.46,
    "prev_t": 1794418553,
@@ -6076,7 +6077,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795133668,
+   "t": 1795134768,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
@@ -6160,12 +6161,12 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 9
+    "2026-11-20": 17
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795133795,
+     "t": 1795134768,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -6196,7 +6197,7 @@
    },
    "tk": {
     "firma": "0acc3c3b",
-    "igual": 1795133668,
+    "igual": 1795134768,
     "ult": 1795133668,
     "desde": 1795130564,
     "est": 1795132116,
@@ -6246,12 +6247,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795133895,
+     "t": 1795135225,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795134146,
+      "t": 1795135269,
       "n": 366,
       "vende": [
        {
@@ -6271,8 +6272,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559376,
-        "d": 47351
+        "p": 559388,
+        "d": 47352
        },
        {
         "n": "opal",
@@ -6348,6 +6349,10 @@
       "2026-11-19": {
        "ok": 31,
        "no": 3
+      },
+      "2026-11-20": {
+       "ok": 2,
+       "no": 0
       }
      },
      "pads": {
@@ -6356,16 +6361,55 @@
       "Large": 9
      },
      "naves": [
+      "adder",
+      "anaconda",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
       "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
       "explorer_nx",
-      "panthermkii"
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1795134053,
+     "naves_t": 1795135231,
      "neg": {
       "Distance": 5
      },
-     "mods": 821,
-     "mods_t": 1795133937
+     "mods": 818,
+     "mods_t": 1795135231
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6948,6 +6992,26 @@
        "ok": 14,
        "no": 0
       }
+     }
+    },
+    "Planetary Construction Site: Li Command Facility": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795134859,
+     "estado": "",
+     "ls": 1987,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4404710403,
+     "mer": {
+      "t": 1795134866,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -8851,13 +8915,15 @@
   },
   "Ceti Sector CL-X b1-1": {
    "sys": "Ceti Sector CL-X b1-1",
-   "t": 1794860680,
+   "t": 1795134932,
    "src": "EDDN",
    "inf": 14.31,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
+   "pendientes": [
+    "Expansion"
+   ],
    "recuperando": [],
    "segunda": "Ukrainian Pilots Federation",
    "segunda_inf": 60.56,
@@ -8889,7 +8955,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -8900,7 +8968,7 @@
     -54.3125
    ],
    "sis": {
-    "pob": 1996385,
+    "pob": 1996526,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -8920,7 +8988,18 @@
    },
    "trafico": {
     "2026-11-09": 1,
-    "2026-11-16": 1
+    "2026-11-16": 1,
+    "2026-11-20": 1
+   },
+   "tk": {
+    "firma": "744b8276",
+    "igual": 1795134932
+   },
+   "saltos": {
+    "1795132800": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -8930,10 +9009,9 @@
      14.31
     ]
    ],
-   "tk": {
-    "firma": "744b8276",
-    "igual": 1794860680
-   }
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Tascheter Sector YZ-Y b4": {
    "sys": "Tascheter Sector YZ-Y b4",
@@ -21798,11 +21876,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795133668.7194116,
-  "msgs": 351839,
-  "mios": 32
+  "ultimo": 1795134933.9282007,
+  "msgs": 362024,
+  "mios": 34
  },
- "t": 1795134330.8911288,
+ "t": 1795135293.2114542,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22024,7 +22102,7 @@
    "nfac": 5,
    "pob": 2805836,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795130621
+   "t": 1795132480
   },
   "LHS 1499": {
    "pos": [
@@ -22232,7 +22310,7 @@
    "nfac": 4,
    "pob": 127663,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795129943
+   "t": 1795133947
   },
   "Unktock": {
    "pos": [
@@ -22412,9 +22490,9 @@
    "ly": 19.9,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 4,
-   "pob": 207112,
+   "pob": 207125,
    "ctrl_n": "Barons of Gallavs",
-   "t": 1795040154
+   "t": 1795134701
   },
   "Wolf 152": {
    "pos": [
@@ -23246,7 +23324,7 @@
    "nfac": 4,
    "pob": 2004153,
    "ctrl_n": "East India Company",
-   "t": 1795083037
+   "t": 1795135163
   },
   "BD+39 876": {
    "pos": [
@@ -24960,9 +25038,9 @@
    "ly": 11.5,
    "junto": "HIP 19292",
    "nfac": 4,
-   "pob": 401441,
+   "pob": 401458,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795020784
+   "t": 1795134714
   },
   "Masses": {
    "pos": [
@@ -26445,6 +26523,19 @@
    "pob": 2672176,
    "ctrl_n": "HIP 19327 Blue State Solutions",
    "t": 1795132926
+  },
+  "Ross 874": {
+   "pos": [
+    16,
+    19.53125,
+    -77.53125
+   ],
+   "ly": 16.5,
+   "junto": "Haraka",
+   "nfac": 5,
+   "pob": 963785,
+   "ctrl_n": "Civitas Dei",
+   "t": 1795134872
   }
  },
  "codice": [
@@ -28283,7 +28374,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795130621
+   "t": 1795132480
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -28412,7 +28503,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795129943
+   "t": 1795133947
   },
   "Guei": {
    "pos": [
@@ -28609,6 +28700,134 @@
     "Jerome Archer"
    ],
    "t": 1795134328
+  },
+  "LEHPM 1902": {
+   "pos": [
+    20.90625,
+    -100.28125,
+    -13.34375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.259689,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795134597
+  },
+  "CD-25 636": {
+   "pos": [
+    7,
+    -107,
+    -17.96875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.134283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795134681
+  },
+  "Arietis Sector MN-S b4-5": {
+   "pos": [
+    -26.46875,
+    -21.9375,
+    -121.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795134701
+  },
+  "ICZ EQ-Y c22": {
+   "pos": [
+    113.4375,
+    -111.90625,
+    -21.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795134714
+  },
+  "Ceti Sector CL-X b1-1": {
+   "pos": [
+    8.25,
+    -103.875,
+    -54.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795134932
+  },
+  "Ceti Sector LX-T b3-2": {
+   "pos": [
+    19.375,
+    -102.71875,
+    -11.15625
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.058283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795135163
+  },
+  "Siren": {
+   "pos": [
+    16.125,
+    22.28125,
+    -77.375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.238284,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795134930
+  },
+  "Ross 874": {
+   "pos": [
+    16,
+    19.53125,
+    -77.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795134872
   }
  },
  "rivales": {

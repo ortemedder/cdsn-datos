@@ -597,7 +597,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1795180198,
+   "t": 1795181104,
    "src": "EDDN",
    "inf": 54.95,
    "ctrl": true,
@@ -678,7 +678,7 @@
     "2026-11-17": 26,
     "2026-11-18": 11,
     "2026-11-19": 3,
-    "2026-11-20": 3
+    "2026-11-20": 5
    },
    "pn": {
     "WLY-73X": {
@@ -689,7 +689,7 @@
    },
    "tk": {
     "firma": "79d59143",
-    "igual": 1795180198,
+    "igual": 1795181104,
     "ult": 1795126401,
     "desde": 1795082195,
     "est": null,
@@ -718,13 +718,13 @@
     "1795078800": 1,
     "1795125600": 1,
     "1795176000": 1,
-    "1795179600": 2
+    "1795179600": 4
    },
    "rutas": {
     "2026-11-17": 6,
     "2026-11-18": 2,
     "2026-11-19": 1,
-    "2026-11-20": 3
+    "2026-11-20": 5
    },
    "estaciones": {
     "Insula Barataria": {
@@ -3094,7 +3094,7 @@
   },
   "Jitabed": {
    "sys": "Jitabed",
-   "t": 1795180245,
+   "t": 1795181148,
    "src": "EDDN",
    "inf": 46.67,
    "ctrl": true,
@@ -3206,18 +3206,18 @@
     "2026-11-14": 1,
     "2026-11-15": 1,
     "2026-11-17": 2,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "pn": {
     "CZJ-02M": {
      "n": "THE DISTILLERY",
-     "t": 1795180245,
+     "t": 1795181148,
      "d": 1794945569
     }
    },
    "tk": {
     "firma": "ff9e5b8f",
-    "igual": 1795180245,
+    "igual": 1795181148,
     "ult": 1795179132,
     "desde": 1794945569,
     "est": null
@@ -3225,13 +3225,13 @@
    "saltos": {
     "1794942000": 2,
     "1795176000": 1,
-    "1795179600": 1
+    "1795179600": 2
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-18": 1,
     "2026-11-19": 1,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "prev": 45.92,
    "prev_t": 1794945569,
@@ -3780,7 +3780,7 @@
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
-   "t": 1795179721,
+   "t": 1795180678,
    "src": "EDDN",
    "inf": 23.92,
    "ctrl": false,
@@ -3879,36 +3879,36 @@
     "2026-04-26": 2,
     "2026-11-09": 3,
     "2026-11-10": 3,
-    "2026-11-20": 5
+    "2026-11-20": 7
    },
    "pn": {
     "N6J-80Z": {
      "n": "FRESH PRINCE OF ALTAIR",
-     "t": 1795179752,
+     "t": 1795180706,
      "d": 1795178745
     },
     "T9K-12H": {
      "n": "L*******************T",
-     "t": 1795179752,
+     "t": 1795180706,
      "d": 1795178745
     }
    },
    "tk": {
     "firma": "b52f2a27",
-    "igual": 1795179721
+    "igual": 1795180678
    },
    "saltos": {
     "1795176000": 1,
-    "1795179600": 1
+    "1795179600": 2
    },
    "rutas": {
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "estaciones": {
     "Nux Station - La Station Des Penguins": {
      "f": "THE AZGHARIE",
      "tipo": "Ocellus",
-     "t": 1795179955,
+     "t": 1795180902,
      "estado": "",
      "ls": 341,
      "pads": {
@@ -3918,7 +3918,7 @@
      },
      "mid": 4225131267,
      "mer": {
-      "t": 1795179980,
+      "t": 1795180911,
       "n": 366,
       "vende": [
        {
@@ -3990,7 +3990,7 @@
       ]
      },
      "mods": 883,
-     "mods_t": 1795179962,
+     "mods_t": 1795180909,
      "naves": [
       "adder",
       "anaconda",
@@ -4031,10 +4031,10 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795179962,
+     "naves_t": 1795180909,
      "atq": {
       "2026-11-20": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -9457,7 +9457,7 @@
   },
   "Tascheter Sector YZ-Y b4": {
    "sys": "Tascheter Sector YZ-Y b4",
-   "t": 1795180154,
+   "t": 1795181058,
    "src": "EDDN",
    "inf": 15.35,
    "ctrl": false,
@@ -9554,19 +9554,19 @@
     "2026-11-09": 1,
     "2026-11-13": 2,
     "2026-11-16": 2,
-    "2026-11-20": 3
+    "2026-11-20": 4
    },
    "tk": {
     "firma": "e468e3bb",
-    "igual": 1795180154
+    "igual": 1795181058
    },
    "saltos": {
     "1778086800": 1,
     "1795176000": 1,
-    "1795179600": 2
+    "1795179600": 3
    },
    "rutas": {
-    "2026-11-20": 3
+    "2026-11-20": 4
    },
    "prev": null,
    "prev_t": null,
@@ -9582,7 +9582,7 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795180292,
+   "t": 1795181199,
    "src": "EDDN",
    "inf": 59.49,
    "ctrl": true,
@@ -9674,7 +9674,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 4
+    "2026-11-20": 5
    },
    "pn": {
     "V8X-11L": {
@@ -9689,7 +9689,7 @@
    },
    "tk": {
     "firma": "efd7bb88",
-    "igual": 1795180292,
+    "igual": 1795181199,
     "ult": 1795179189,
     "desde": 1794992890,
     "est": null,
@@ -9720,12 +9720,12 @@
     "1794945600": 1,
     "1794992400": 1,
     "1795176000": 1,
-    "1795179600": 1
+    "1795179600": 2
    },
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "estaciones": {
     "Piel City": {
@@ -9844,7 +9844,7 @@
     "Orbital Construction Site: Kerimov Beacon": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795179472,
+     "t": 1795180517,
      "estado": "",
      "ls": 3457,
      "pads": {
@@ -9854,7 +9854,7 @@
      },
      "mid": 3966151170,
      "mer": {
-      "t": 1795179478,
+      "t": 1795180524,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -22656,11 +22656,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795180293.8568873,
-  "msgs": 773441,
-  "mios": 65
+  "ultimo": 1795181199.830224,
+  "msgs": 785176,
+  "mios": 71
  },
- "t": 1795180468.56107,
+ "t": 1795181301.424109,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23363,7 +23363,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795159856
+   "t": 1795180568
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -25675,9 +25675,9 @@
    "ly": 15.9,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 398709,
+   "pob": 398739,
    "ctrl_n": "Hu Jini Patron's Principles",
-   "t": 1795012467
+   "t": 1795180772
   },
   "Binar": {
    "pos": [
@@ -26626,7 +26626,7 @@
    "nfac": 3,
    "pob": 4095638,
    "ctrl_n": "Black Hand of Orion",
-   "t": 1795160227
+   "t": 1795180695
   },
   "Allowini": {
    "pos": [
@@ -27541,6 +27541,106 @@
  },
  "codice": [
   {
+   "sys": "LHS 1914",
+   "n": "Cactoid 01 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 3",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795181295
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Bacterial 01 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 3",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795181235
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Tussocks 12 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 3",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795181188
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Stratum 07 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 3",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795181180
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Osseus 06 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 3",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795181161
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Cactoid 02 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 2",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795180901
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Bacterial 06 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 2",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795180841
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Tussocks 04 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 2",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795180696
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Osseus 03 T",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 2",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795180684
+  },
+  {
+   "sys": "LHS 1914",
+   "n": "Fungoids 01 Polonium",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1914 B 2",
+   "junto": "LP 254-40",
+   "ly": 16.5,
+   "t": 1795180665
+  },
+  {
    "sys": "Oto",
    "n": "Bacterial 10 Antimony",
    "cat": "Biology",
@@ -27739,96 +27839,6 @@
    "junto": "HIP 41850",
    "ly": 19.2,
    "t": 1794944666
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Bacterial 01 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 11 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794939626
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Stratum 06 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 11 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794939211
-  },
-  {
-   "sys": "Zach",
-   "n": "Cactoid 02 M",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Zach D 2",
-   "junto": "Menkalinan",
-   "ly": 11.2,
-   "t": 1794938589
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Clypeus 01 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 11 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794938392
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Osseus 03 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794934886
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Bacterial 06 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794881206
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Stratum 03 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794880843
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Fungoids 01 Tellurium",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794878908
-  },
-  {
-   "sys": "Hyades Sector MD-S c4-21",
-   "n": "Aleoids 04 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Hyades Sector MD-S c4-21 A 10 a",
-   "junto": "LP 158-2",
-   "ly": 19.2,
-   "t": 1794878448
   }
  ],
  "ataques": {
@@ -28083,14 +28093,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.296051,
+   "prog": 0.314503,
    "pots": [
     "Aisling Duval",
-    "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795115231
+   "t": 1794055391
   },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
@@ -29140,13 +29149,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.03456,
+   "prog": 0.037169,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795159856
+   "t": 1795180568
   },
   "Mandu": {
    "pos": [
@@ -30555,7 +30564,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795180198
+   "t": 1795181104
   },
   "Kwangwutii": {
    "pos": [
@@ -30978,7 +30987,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795160227
+   "t": 1795180695
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -31568,7 +31577,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795179721
+   "t": 1795180678
   },
   "Tascheter Sector YZ-Y b4": {
    "pos": [
@@ -31586,7 +31595,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795180154
+   "t": 1795181058
   },
   "Jitabed": {
    "pos": [
@@ -31604,7 +31613,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795180245
+   "t": 1795181148
   },
   "Hyades Sector SU-N b7-0": {
    "pos": [
@@ -31621,7 +31630,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795180292
+   "t": 1795181199
   },
   "Ethli": {
    "pos": [
@@ -31737,6 +31746,21 @@
     "Jerome Archer"
    ],
    "t": 1795180413
+  },
+  "Col 285 Sector SD-T a33-2": {
+   "pos": [
+    143.90625,
+    -27.84375,
+    11.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795180772
   }
  },
  "rivales": {

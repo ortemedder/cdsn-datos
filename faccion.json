@@ -2075,7 +2075,7 @@
     "2026-11-17": 16,
     "2026-11-18": 55,
     "2026-11-19": 29,
-    "2026-11-20": 5
+    "2026-11-20": 6
    },
    "zc": [
     {
@@ -2632,18 +2632,13 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795083127,
+      "t": 1795183567,
       "n": 353,
       "vende": [
        {
         "n": "monazite",
-        "p": 429572,
+        "p": 214786,
         "d": 5141
-       },
-       {
-        "n": "iridium",
-        "p": 273674,
-        "d": 134115
        },
        {
         "n": "metaalloys",
@@ -2656,73 +2651,78 @@
         "d": 1624
        },
        {
-        "n": "lowtemperaturediamond",
-        "p": 180185,
-        "d": 1624
+        "n": "iridium",
+        "p": 171046,
+        "d": 134117
+       },
+       {
+        "n": "opal",
+        "p": 153608,
+        "d": 6764
        }
       ],
       "alta": [
-       {
-        "n": "ceramiccomposites",
-        "p": 1902,
-        "m": 402
-       },
-       {
-        "n": "lepidolite",
-        "p": 3173,
-        "m": 741
-       },
-       {
-        "n": "waterpurifiers",
-        "p": 1261,
-        "m": 447
-       },
        {
         "n": "foodcartridges",
         "p": 679,
         "m": 252
        },
        {
-        "n": "explosives",
-        "p": 1261,
-        "m": 483
+        "n": "beer",
+        "p": 679,
+        "m": 350
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 846,
+        "m": 447
+       },
+       {
+        "n": "wine",
+        "p": 758,
+        "m": 417
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 726,
+        "m": 402
        }
       ],
       "barato": [
        {
         "n": "water",
-        "p": 65,
+        "p": 28,
         "m": 260,
-        "s": 235824
+        "s": 235826
        },
        {
         "n": "algae",
-        "p": 95,
+        "p": 46,
         "m": 308,
-        "s": 476948
+        "s": 476951
        },
        {
         "n": "leather",
-        "p": 185,
+        "p": 97,
         "m": 423,
         "s": 10143
        },
        {
-        "n": "heliostaticfurnaces",
-        "p": 221,
-        "m": 418,
-        "s": 131950
+        "n": "mineraloil",
+        "p": 116,
+        "m": 416,
+        "s": 87495
        },
        {
-        "n": "biowaste",
-        "p": 154,
-        "m": 271,
-        "s": 151369
+        "n": "heliostaticfurnaces",
+        "p": 122,
+        "m": 418,
+        "s": 131950
        }
       ]
      },
-     "mods": 545,
-     "mods_t": 1795124052,
+     "mods": 557,
+     "mods_t": 1795183622,
      "naves": [
       "krait_mkii"
      ],
@@ -5401,7 +5401,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795166409,
+   "t": 1795183167,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -5501,8 +5501,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Stronghold",
-    "prog": 0.054109,
-    "ref": 14309,
+    "prog": 0.057946,
+    "ref": 18146,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -5521,18 +5521,18 @@
     "2026-11-17": 25,
     "2026-11-18": 39,
     "2026-11-19": 11,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Low:#index=1;",
-     "i": "Low",
-     "t": 1795166553
-    },
-    {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795166553
+     "t": 1795183853
+    },
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1795183173
     }
    ],
    "pn": {
@@ -5542,7 +5542,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795166553,
+     "t": 1795183173,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -5552,18 +5552,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795166553,
+     "t": 1795183853,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795166553,
+     "t": 1795183173,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795166409,
+    "igual": 1795183167,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -5605,13 +5605,14 @@
     "1795100400": 1,
     "1795111200": 1,
     "1795122000": 1,
-    "1795165200": 1
+    "1795165200": 1,
+    "1795179600": 1
    },
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
     "2026-11-19": 5,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -5727,9 +5728,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795166612,
+     "t": 1795183897,
      "estado": "",
-     "ls": 3139,
+     "ls": 3138,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -5737,14 +5738,14 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795166619,
+      "t": 1795183904,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795166619,
+     "mods_t": 1795183904,
      "neg": {
       "NoSpace": 20
      },
@@ -5762,7 +5763,7 @@
        "no": 1
       },
       "2026-11-20": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -9680,7 +9681,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 8
+    "2026-11-20": 9
    },
    "pn": {
     "V8X-11L": {
@@ -9850,7 +9851,7 @@
     "Orbital Construction Site: Kerimov Beacon": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795182464,
+     "t": 1795183297,
      "estado": "",
      "ls": 3457,
      "pads": {
@@ -9860,7 +9861,7 @@
      },
      "mid": 3966151170,
      "mer": {
-      "t": 1795182470,
+      "t": 1795183303,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -9871,7 +9872,7 @@
      },
      "atq": {
       "2026-11-20": {
-       "ok": 2,
+       "ok": 3,
        "no": 1
       }
      }
@@ -19773,7 +19774,10 @@
      1794838763,
      18.36
     ]
-   ]
+   ],
+   "rutas": {
+    "2026-11-20": 1
+   }
   },
   "HIP 101655": {
    "sys": "HIP 101655",
@@ -22658,15 +22662,113 @@
     "igual": 1795139095
    },
    "cseg": {}
+  },
+  "Lyncis Sector ZE-R b4-1": {
+   "sys": "Lyncis Sector ZE-R b4-1",
+   "t": 1795183928,
+   "src": "EDDN",
+   "inf": 18.15,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Federal Republican Guard",
+   "segunda_inf": 43.95,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Federal Republican Guard",
+     "inf": 43.95,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Aristocrats of Lhou Wangs",
+     "inf": 30.16,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 18.15,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Radiant Ruby Control Cooperative",
+     "inf": 7.74,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Federal Republican Guard",
+   "pos": [
+    -33.84375,
+    10.625,
+    -116.46875
+   ],
+   "sis": {
+    "pob": 60566273,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Confederacy;",
+    "alg": "Federation"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1795183928,
+     18.15
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "70cf0490",
+    "igual": 1795183928
+   },
+   "cseg": {}
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795183099.453174,
-  "msgs": 806340,
-  "mios": 76
+  "ultimo": 1795183964.5457551,
+  "msgs": 815344,
+  "mios": 78
  },
- "t": 1795183186.9338634,
+ "t": 1795184100.003388,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23382,7 +23484,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795174919
+   "t": 1795184077
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -23772,7 +23874,7 @@
    "nfac": 3,
    "pob": 204160,
    "ctrl_n": "Deutsche Elite Piloten Interstellar",
-   "t": 1795182288
+   "t": 1795183908
   },
   "Crucis Sector JW-W b1-8": {
    "pos": [
@@ -24045,7 +24147,7 @@
    "nfac": 6,
    "pob": 7797550,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794939460
+   "t": 1795183838
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -25605,7 +25707,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795133969
+   "t": 1795184100
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -26671,7 +26773,7 @@
    "nfac": 6,
    "pob": 5026651,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795087726
+   "t": 1795184097
   },
   "HIP 36874": {
    "pos": [
@@ -27556,9 +27658,148 @@
    "pob": 68637930,
    "ctrl_n": "People's Agarahma Progressive Party",
    "t": 1795181742
+  },
+  "GCRV 2971": {
+   "pos": [
+    -3.25,
+    -20.59375,
+    -117.4375
+   ],
+   "ly": 17.3,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 3,
+   "pob": 2133082,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795183272
+  },
+  "Mbeguenchu": {
+   "pos": [
+    -44.28125,
+    19.875,
+    -114.25
+   ],
+   "ly": 11.8,
+   "junto": "Lyncis Sector FG-Y d93",
+   "nfac": 6,
+   "pob": 69238,
+   "ctrl_n": "CHIMERA",
+   "t": 1795183976
+  },
+  "Lyncis Sector WJ-R b4-1": {
+   "pos": [
+    -54.3125,
+    18.90625,
+    -116.59375
+   ],
+   "ly": 18.1,
+   "junto": "Windizetet",
+   "nfac": 3,
+   "pob": 2309581,
+   "ctrl_n": "CHIMERA",
+   "t": 1795184021
   }
  },
  "codice": [
+  {
+   "sys": "HIP 28774",
+   "n": "Bacterial 01 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 a",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795184068
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Tubus 05 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 a",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795184059
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Tussocks 03 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 a",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795184047
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Recepta 01 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 a",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795184030
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Shrubs 02 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 a",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183994
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Conchas 03 F",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 C 7 a",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183960
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Osseus 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 g",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183462
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Bacterial 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 g",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183398
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Fungoids 02 Mercury",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 g",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183327
+  },
+  {
+   "sys": "HIP 28774",
+   "n": "Shrubs 02 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "HIP 28774 AB 10 g",
+   "junto": "Haraka",
+   "ly": 12.6,
+   "t": 1795183280
+  },
   {
    "sys": "HIP 28774",
    "n": "Cactoid 01 G",
@@ -27578,36 +27819,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795183140
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Shrubs 02 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 f",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182847
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Osseus 01 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 f",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182798
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Bacterial 01 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 f",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182644
   },
   {
    "sys": "HIP 28774",
@@ -27788,76 +27999,6 @@
    "junto": "Eurus",
    "ly": 18.5,
    "t": 1795174175
-  },
-  {
-   "sys": "Oto",
-   "n": "Tubus 05 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 1 c",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795173943
-  },
-  {
-   "sys": "Tascheter Sector YZ-Y a3",
-   "n": "Bacterial 04 Ruthenium",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Tascheter Sector YZ-Y a3 1",
-   "junto": "Hyades Sector XV-L b8-3",
-   "ly": 19.4,
-   "t": 1795173926
-  },
-  {
-   "sys": "Oto",
-   "n": "Bacterial 01 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 1 c",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795173766
-  },
-  {
-   "sys": "Oto",
-   "n": "Stratum 02 K",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 1 c",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795173760
-  },
-  {
-   "sys": "Tascheter Sector CG-O a6-1",
-   "n": "Bacterial 02 Ruthenium",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Tascheter Sector CG-O a6-1 4",
-   "junto": "Eurus",
-   "ly": 18.8,
-   "t": 1795124928
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Tubus 05 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795092926
-  },
-  {
-   "sys": "HIP 46236",
-   "n": "Stratum 02 F",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 46236 6 e",
-   "junto": "Col 285 Sector YZ-U b17-3",
-   "ly": 13.2,
-   "t": 1795092834
   }
  ],
  "ataques": {
@@ -28228,13 +28369,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.440249,
+   "prog": 0.442406,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795174919
+   "t": 1795184077
   },
   "Wolf 186": {
    "pos": [
@@ -29017,7 +29158,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.054109,
+   "prog": 0.057946,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -29025,7 +29166,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795166409
+   "t": 1795183167
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -29760,7 +29901,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795133969
+   "t": 1795184100
   },
   "NLTT 8234": {
    "pos": [
@@ -31812,6 +31953,100 @@
     "Li Yong-Rui"
    ],
    "t": 1795182108
+  },
+  "GCRV 2971": {
+   "pos": [
+    -3.25,
+    -20.59375,
+    -117.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.011997,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795183272
+  },
+  "Apadecavi": {
+   "pos": [
+    -5.25,
+    5.59375,
+    -117.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.257765,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795183838
+  },
+  "Lyncis Sector ZE-R b4-1": {
+   "pos": [
+    -33.84375,
+    10.625,
+    -116.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795183928
+  },
+  "Mbeguenchu": {
+   "pos": [
+    -44.28125,
+    19.875,
+    -114.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795183976
+  },
+  "Lyncis Sector WJ-R b4-1": {
+   "pos": [
+    -54.3125,
+    18.90625,
+    -116.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795184021
+  },
+  "Lalande 9828": {
+   "pos": [
+    -45.125,
+    22.625,
+    -85.53125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.154855,
+   "pots": [
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795184097
   }
  },
  "rivales": {

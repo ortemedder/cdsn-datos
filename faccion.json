@@ -22368,10 +22368,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795166410.7007675,
-  "msgs": 643449,
+  "msgs": 650344,
   "mios": 49
  },
- "t": 1795166941.4276154,
+ "t": 1795167511.867739,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23085,9 +23085,9 @@
    "ly": 9.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 157256630,
+   "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795139891
+   "t": 1795167506
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -27756,13 +27756,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.411135,
+   "prog": 0.438928,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795139891
+   "t": 1795167506
   },
   "Wolf 186": {
    "pos": [

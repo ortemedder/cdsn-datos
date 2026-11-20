@@ -20336,7 +20336,7 @@
   },
   "Windizetet": {
    "sys": "Windizetet",
-   "t": 1795154817,
+   "t": 1795160175,
    "src": "EDDN",
    "inf": 16.14,
    "ctrl": false,
@@ -20446,11 +20446,11 @@
    "trafico": {
     "2026-11-17": 1,
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "tk": {
     "firma": "eb0db9d7",
-    "igual": 1795154817,
+    "igual": 1795160175,
     "ult": 1795154817,
     "desde": 1795084153,
     "vent": [
@@ -20464,11 +20464,12 @@
    "saltos": {
     "1794949200": 1,
     "1795082400": 1,
-    "1795154400": 1
+    "1795154400": 1,
+    "1795158000": 1
    },
    "rutas": {
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "prev": 15.94,
    "prev_t": 1795084153,
@@ -22353,11 +22354,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795158456.1408734,
-  "msgs": 587317,
-  "mios": 47
+  "ultimo": 1795160175.922724,
+  "msgs": 598785,
+  "mios": 48
  },
- "t": 1795158772.295928,
+ "t": 1795160283.4817863,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23060,7 +23061,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795152984
+   "t": 1795159856
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -23149,9 +23150,9 @@
    "ly": 8.4,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 273167,
+   "pob": 274073,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795042413
+   "t": 1795154659
   },
   "Bero": {
    "pos": [
@@ -26321,9 +26322,9 @@
    "ly": 17.9,
    "junto": "Windizetet",
    "nfac": 3,
-   "pob": 4092876,
+   "pob": 4095638,
    "ctrl_n": "Black Hand of Orion",
-   "t": 1795067308
+   "t": 1795160227
   },
   "Allowini": {
    "pos": [
@@ -28640,13 +28641,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.033489,
+   "prog": 0.03456,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795152984
+   "t": 1795159856
   },
   "Mandu": {
    "pos": [
@@ -30332,7 +30333,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795154817
+   "t": 1795160175
   },
   "Arietis Sector PT-Q b5-4": {
    "pos": [
@@ -30464,6 +30465,38 @@
     "Jerome Archer"
    ],
    "t": 1795156817
+  },
+  "Lyncis Sector FG-Y d92": {
+   "pos": [
+    -42.53125,
+    32.53125,
+    -146.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795160227
+  },
+  "Tascheter Sector AA-Z b2": {
+   "pos": [
+    30.59375,
+    1.03125,
+    -87.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795154659
   }
  },
  "rivales": {

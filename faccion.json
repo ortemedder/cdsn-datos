@@ -598,7 +598,7 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1795203753,
+   "t": 1795216554,
    "src": "EDDN",
    "inf": 54.95,
    "ctrl": true,
@@ -679,7 +679,7 @@
     "2026-11-17": 26,
     "2026-11-18": 11,
     "2026-11-19": 3,
-    "2026-11-20": 10
+    "2026-11-20": 11
    },
    "pn": {
     "WLY-73X": {
@@ -690,7 +690,7 @@
    },
    "tk": {
     "firma": "79d59143",
-    "igual": 1795203753,
+    "igual": 1795216554,
     "ult": 1795126401,
     "desde": 1795082195,
     "est": null,
@@ -721,13 +721,14 @@
     "1795176000": 1,
     "1795179600": 6,
     "1795197600": 2,
-    "1795201200": 1
+    "1795201200": 1,
+    "1795215600": 2
    },
    "rutas": {
     "2026-11-17": 6,
     "2026-11-18": 2,
     "2026-11-19": 1,
-    "2026-11-20": 10
+    "2026-11-20": 14
    },
    "estaciones": {
     "Insula Barataria": {
@@ -6855,7 +6856,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 121
+    "2026-11-20": 125
    },
    "pn": {
     "H5L-70M": {
@@ -6954,12 +6955,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795215030,
+     "t": 1795215963,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795215057,
+      "t": 1795216004,
       "n": 366,
       "vende": [
        {
@@ -6979,8 +6980,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 549437,
-        "d": 47533
+        "p": 549449,
+        "d": 47534
        },
        {
         "n": "opal",
@@ -7058,7 +7059,7 @@
        "no": 3
       },
       "2026-11-20": {
-       "ok": 26,
+       "ok": 28,
        "no": 0
       }
      },
@@ -7112,12 +7113,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795215036,
+     "naves_t": 1795215969,
      "neg": {
       "Distance": 5
      },
      "mods": 867,
-     "mods_t": 1795215036
+     "mods_t": 1795215969
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7905,7 +7906,7 @@
     "Orbital Construction Site: Nixon's Folly": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795215532,
+     "t": 1795216356,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -7915,7 +7916,7 @@
      },
      "mid": 3953330690,
      "mer": {
-      "t": 1795215538,
+      "t": 1795216362,
       "n": 2,
       "vende": [],
       "alta": [],
@@ -7926,7 +7927,7 @@
      },
      "atq": {
       "2026-11-20": {
-       "ok": 2,
+       "ok": 4,
        "no": 2
       }
      }
@@ -20467,34 +20468,32 @@
   },
   "Bundhar": {
    "sys": "Bundhar",
-   "t": 1794846143,
+   "t": 1795216381,
    "src": "EDDN",
-   "inf": 10.55,
+   "inf": 10.65,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 73.77,
+   "segunda_inf": 74.27,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 73.77,
+     "inf": 74.27,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Bundhar Group",
-     "inf": 12.96,
+     "inf": 12.36,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -20503,11 +20502,13 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 10.55,
+     "inf": 10.65,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -20547,38 +20548,66 @@
     ]
    },
    "trafico": {
-    "2026-11-16": 2
+    "2026-11-16": 2,
+    "2026-11-20": 2
    },
    "pn": {
     "Q3K-L0G": {
      "n": "F****************a",
-     "t": 1794846150
+     "t": 1795216618,
+     "d": 1795216618
     },
     "V0H-BVV": {
      "n": "P******************Y",
-     "t": 1794846150
+     "t": 1795216618,
+     "d": 1795216618
     },
     "V3B-0KX": {
      "n": "[1IF] GODS OF EGYPT",
-     "t": 1794846150
+     "t": 1795216618,
+     "d": 1795216618
     },
     "K8K-04L": {
      "n": "DUSTY NEBULA",
-     "t": 1794792840
+     "t": 1795216618,
+     "d": 1795216618
     }
    },
    "tk": {
-    "firma": "f666d685",
-    "igual": 1794846143
+    "firma": "c94603e0",
+    "igual": 1795216381,
+    "ult": 1795216381,
+    "desde": 1794846143,
+    "est": null
    },
-   "prev": null,
-   "prev_t": null,
+   "saltos": {
+    "1795215600": 2
+   },
+   "rutas": {
+    "2026-11-20": 2
+   },
+   "prev": 10.55,
+   "prev_t": 1794846143,
    "hinf": [
     [
      1794792734,
      10.55
+    ],
+    [
+     1795216381,
+     10.65
     ]
-   ]
+   ],
+   "rach": {
+    "Sirius Special Forces": 1,
+    "Bundhar Group": 0,
+    "Caballeros de Sion": 0,
+    "Bundhar Brothers": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795216381,
+   "tick_marg": 3085,
+   "cseg": {}
   },
   "Yin Sector ZU-Y b3": {
    "sys": "Yin Sector ZU-Y b3",
@@ -23828,11 +23857,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795213717.2329638,
-  "msgs": 1334120,
-  "mios": 133
+  "ultimo": 1795216555.2766538,
+  "msgs": 1348929,
+  "mios": 135
  },
- "t": 1795215629.291627,
+ "t": 1795216622.1576376,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24548,7 +24577,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795214298
+   "t": 1795216233
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -27419,9 +27448,9 @@
    "ly": 8.5,
    "junto": "Tascheter Sector ZZ-Y b1",
    "nfac": 3,
-   "pob": 404975,
+   "pob": 405010,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795037610
+   "t": 1795216266
   },
   "Shui Wei Sector HG-X b1-1": {
    "pos": [
@@ -29086,6 +29115,19 @@
    "pob": 12845475,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1795215625
+  },
+  "59 Geminorum": {
+   "pos": [
+    34.46875,
+    62.71875,
+    -173.03125
+   ],
+   "ly": 19.9,
+   "junto": "Hyades Sector CB-W c2-3",
+   "nfac": 4,
+   "pob": 219347,
+   "ctrl_n": "Khambara Labour",
+   "t": 1795216411
   }
  },
  "codice": [
@@ -29779,13 +29821,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.444998,
+   "prog": 0.445014,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795214298
+   "t": 1795216233
   },
   "Wolf 186": {
    "pos": [
@@ -31706,7 +31748,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795205556
+   "t": 1795215859
   },
   "Mandra": {
    "pos": [
@@ -32118,7 +32160,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795203753
+   "t": 1795216554
   },
   "Kwangwutii": {
    "pos": [
@@ -35457,6 +35499,70 @@
     "Jerome Archer"
    ],
    "t": 1795215625
+  },
+  "Tascheter Sector ZZ-Y b3": {
+   "pos": [
+    7.03125,
+    0.1875,
+    -100.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795216266
+  },
+  "Sotuki": {
+   "pos": [
+    10.6875,
+    43.0625,
+    -81.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.251832,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795216357
+  },
+  "Bundhar": {
+   "pos": [
+    9.28125,
+    13.65625,
+    -115.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.035426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795216381
+  },
+  "59 Geminorum": {
+   "pos": [
+    34.46875,
+    62.71875,
+    -173.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1795216411
   }
  },
  "rivales": {

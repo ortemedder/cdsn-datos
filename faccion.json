@@ -22368,10 +22368,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795166410.7007675,
-  "msgs": 650344,
+  "msgs": 658176,
   "mios": 49
  },
- "t": 1795167511.867739,
+ "t": 1795168412.555888,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23020,9 +23020,9 @@
    "ly": 18.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 65926285,
+   "pob": 65928340,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795060606
+   "t": 1795167735
   },
   "Khaima": {
    "pos": [
@@ -23280,9 +23280,9 @@
    "ly": 11.4,
    "junto": "Jangore",
    "nfac": 6,
-   "pob": 2198796,
+   "pob": 2198904,
    "ctrl_n": "The Fatherhood",
-   "t": 1795032701
+   "t": 1795168077
   },
   "Arietis Sector JS-S b4-5": {
    "pos": [
@@ -24216,9 +24216,9 @@
    "ly": 18.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 75095265,
+   "pob": 75096952,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795143127
+   "t": 1795168409
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -28486,7 +28486,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795143127
+   "t": 1795168409
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -30751,6 +30751,55 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795165389
+  },
+  "Hyades Sector XV-L b8-6": {
+   "pos": [
+    -42.125,
+    -10.1875,
+    -94.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.079426,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795168077
+  },
+  "Lorden": {
+   "pos": [
+    13.34375,
+    -84.8125,
+    -4.8125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.253243,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795167683
+  },
+  "LTT 882": {
+   "pos": [
+    14.71875,
+    -106.84375,
+    -14
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.126283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795167735
   }
  },
  "rivales": {

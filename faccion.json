@@ -12114,15 +12114,15 @@
   },
   "Koamul": {
    "sys": "Koamul",
-   "t": 1794412622,
+   "t": 1795149819,
    "src": "EDDN",
    "inf": 53.9,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "CHIMERA",
    "segunda_inf": 16.5,
@@ -12133,10 +12133,10 @@
      "inf": 53.9,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -12145,7 +12145,9 @@
      "gov": "Patronage",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -12213,19 +12215,36 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 2
+    "2026-11-11": 2,
+    "2026-11-20": 1
    },
-   "prev": null,
-   "prev_t": null,
    "pn": {
     "J8V-7XL": {
      "n": "POLARIS",
      "t": 1794412787
     }
    },
+   "saltos": {
+    "1795147200": 1
+   },
    "rutas": {
     "2026-11-20": 1
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794412622,
+     53.9
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "c65e4967",
+    "igual": 1795149819
+   },
+   "cseg": {}
   },
   "HIP 31451": {
    "sys": "HIP 31451",
@@ -14435,58 +14454,62 @@
   },
   "Tastis": {
    "sys": "Tastis",
-   "t": 1794465933,
+   "t": 1795149864,
    "src": "EDDN",
-   "inf": 5.81,
+   "inf": 9.19,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 70.57,
+   "segunda_inf": 70.03,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 70.57,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion"
-     ],
-     "jug": null
-    },
-    {
-     "n": "Tastis Company",
-     "inf": 13.31,
-     "gov": "Corporate",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Tastis Shared",
-     "inf": 9.31,
-     "gov": "Cooperative",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 5.81,
+     "inf": 70.03,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
       "Expansion"
      ],
      "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Tastis Company",
+     "inf": 9.89,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "CivilWar"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Tastis Shared",
+     "inf": 9.89,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [
+      "CivilWar"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 9.19,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -14516,9 +14539,9 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.303052,
-    "ref": 877,
-    "soc": 1608,
+    "prog": 0.302641,
+    "ref": 0,
+    "soc": 1675,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -14527,22 +14550,52 @@
      "Jerome Archer"
     ]
    },
-   "tk": {
-    "firma": "30ad79e9",
-    "igual": 1794465933
-   },
    "trafico": {
-    "2026-11-12": 1,
     "2025-10-03": 1,
     "2025-10-04": 1,
     "2025-10-07": 1,
     "2025-10-08": 1,
     "2025-10-09": 1,
-    "2025-10-10": 1
+    "2025-10-10": 1,
+    "2026-11-12": 1,
+    "2026-11-20": 1
+   },
+   "tk": {
+    "firma": "deebc4a0",
+    "igual": 1795149864,
+    "ult": 1795149864,
+    "desde": 1794465933,
+    "est": null
+   },
+   "saltos": {
+    "1795147200": 1
    },
    "rutas": {
     "2026-11-20": 2
-   }
+   },
+   "prev": 5.81,
+   "prev_t": 1794465933,
+   "hinf": [
+    [
+     1794465933,
+     5.81
+    ],
+    [
+     1795149864,
+     9.19
+    ]
+   ],
+   "rach": {
+    "Flotta Stellare": 0,
+    "Tastis Company": 0,
+    "Tastis Shared": 1,
+    "Caballeros de Sion": 1,
+    "Mafia of Tastis": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795149864,
+   "tick_marg": 5699,
+   "cseg": {}
   },
   "Col 285 Sector FT-F b12-6": {
    "sys": "Col 285 Sector FT-F b12-6",
@@ -22190,11 +22243,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795146180.8793843,
-  "msgs": 511317,
-  "mios": 41
+  "ultimo": 1795149865.953401,
+  "msgs": 520099,
+  "mios": 43
  },
- "t": 1795149693.4570777,
+ "t": 1795150564.5700464,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22739,9 +22792,9 @@
    "ly": 18.4,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 3498910559,
+   "pob": 3499728416,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795065298
+   "t": 1795150430
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -22897,7 +22950,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795147636
+   "t": 1795150193
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -24574,7 +24627,7 @@
    "nfac": 4,
    "pob": 3174003,
    "ctrl_n": "EXO",
-   "t": 1795147300
+   "t": 1795150553
   },
   "Prom Du": {
    "pos": [
@@ -26537,7 +26590,7 @@
    "nfac": 5,
    "pob": 327172,
    "ctrl_n": "Civitas Dei",
-   "t": 1795116280
+   "t": 1795149911
   },
   "Ceti Sector CL-X b1-0": {
    "pos": [
@@ -27672,7 +27725,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795116280
+   "t": 1795149911
   },
   "Ceti Sector CL-X b1-0": {
    "pos": [
@@ -28431,7 +28484,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795147636
+   "t": 1795150193
   },
   "Mandu": {
    "pos": [
@@ -29903,7 +29956,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795147300
+   "t": 1795150553
   },
   "Hoder": {
    "pos": [
@@ -29954,6 +30007,57 @@
     "Zemina Torval"
    ],
    "t": 1795149785
+  },
+  "Koamul": {
+   "pos": [
+    -26.46875,
+    24.90625,
+    -119.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795149819
+  },
+  "Tastis": {
+   "pos": [
+    -4.6875,
+    30.375,
+    -95.96875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.302641,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795149864
+  },
+  "HIP 33497": {
+   "pos": [
+    31.78125,
+    29.65625,
+    -134.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.252678,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795150430
   }
  },
  "rivales": {

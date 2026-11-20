@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 41
+    "2026-11-20": 43
    },
    "pn": {
     "H5L-70M": {
@@ -7001,7 +7001,7 @@
     "Planetary Construction Site: Li Command Facility": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795138302,
+     "t": 1795139324,
      "estado": "",
      "ls": 1987,
      "pads": {
@@ -7011,20 +7011,20 @@
      },
      "mid": 4404710403,
      "mer": {
-      "t": 1795138309,
-      "n": 0,
+      "t": 1795139331,
+      "n": 6,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 8,
-       "no": 2
+       "ok": 10,
+       "no": 4
       }
      },
      "neg": {
-      "Distance": 2
+      "Distance": 4
      }
     }
    },
@@ -14350,6 +14350,9 @@
     "2025-10-08": 1,
     "2025-10-09": 1,
     "2025-10-10": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
    }
   },
   "Col 285 Sector FT-F b12-6": {
@@ -21889,15 +21892,118 @@
    "saltos": {
     "1795104000": 1
    }
+  },
+  "Lyncis Sector FG-Y d73": {
+   "sys": "Lyncis Sector FG-Y d73",
+   "t": 1795139095,
+   "src": "EDDN",
+   "inf": 41.74,
+   "ctrl": true,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Leaders of Apinayimas",
+   "segunda_inf": 19.02,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Caballeros de Sion",
+     "inf": 41.74,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Leaders of Apinayimas",
+     "inf": 19.02,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Crimson Private Military Corporation",
+     "inf": 17.62,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Aristocrats of Allowini",
+     "inf": 16.72,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Koamul Silver Brothers",
+     "inf": 4.9,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Caballeros de Sion",
+   "pos": [
+    -33.59375,
+    20.96875,
+    -131.5625
+   ],
+   "sis": {
+    "pob": 218606,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1795139095,
+     41.74
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "0bbcb1a5",
+    "igual": 1795139095
+   },
+   "cseg": {}
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795134933.9282007,
-  "msgs": 401179,
-  "mios": 34
+  "ultimo": 1795139097.5524447,
+  "msgs": 410749,
+  "mios": 35
  },
- "t": 1795138860.6660416,
+ "t": 1795139742.2136817,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23211,7 +23317,7 @@
    "nfac": 6,
    "pob": 51667,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794937931
+   "t": 1795139506
   },
   "Col 285 Sector MZ-D b13-3": {
    "pos": [
@@ -23874,7 +23980,7 @@
    "nfac": 6,
    "pob": 6910144,
    "ctrl_n": "Bakara Empire Party",
-   "t": 1794954841
+   "t": 1795139323
   },
   "Col 285 Sector AH-J b10-5": {
    "pos": [
@@ -24524,7 +24630,7 @@
    "nfac": 5,
    "pob": 5949,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795041459
+   "t": 1795139369
   },
   "Leuctra": {
    "pos": [
@@ -29047,6 +29153,87 @@
     "Jerome Archer"
    ],
    "t": 1795138393
+  },
+  "Lyncis Sector FG-Y d73": {
+   "pos": [
+    -33.59375,
+    20.96875,
+    -131.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795139095
+  },
+  "Zosia": {
+   "pos": [
+    -16.75,
+    19.59375,
+    -60.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.257069,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795139146
+  },
+  "Mandra": {
+   "pos": [
+    104.96875,
+    -117.40625,
+    -7.46875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.283261,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795139323
+  },
+  "Jeticans": {
+   "pos": [
+    28.90625,
+    11.0625,
+    -110.125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.168569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795139369
+  },
+  "LTT 11455": {
+   "pos": [
+    -17.84375,
+    -11.46875,
+    -72.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795139506
   }
  },
  "rivales": {

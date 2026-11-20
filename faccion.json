@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 25
+    "2026-11-20": 31
    },
    "pn": {
     "H5L-70M": {
@@ -6247,12 +6247,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795136968,
+     "t": 1795137762,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795136977,
+      "t": 1795137845,
       "n": 366,
       "vende": [
        {
@@ -6272,8 +6272,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559400,
-        "d": 47353
+        "p": 559412,
+        "d": 47354
        },
        {
         "n": "opal",
@@ -6351,7 +6351,7 @@
        "no": 3
       },
       "2026-11-20": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
      },
@@ -6404,12 +6404,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795136974,
+     "naves_t": 1795137769,
      "neg": {
       "Distance": 5
      },
      "mods": 818,
-     "mods_t": 1795136974
+     "mods_t": 1795137769
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6997,7 +6997,7 @@
     "Planetary Construction Site: Li Command Facility": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795136601,
+     "t": 1795137385,
      "estado": "",
      "ls": 1987,
      "pads": {
@@ -7007,15 +7007,15 @@
      },
      "mid": 4404710403,
      "mer": {
-      "t": 1795136608,
-      "n": 7,
+      "t": 1795137392,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 4,
+       "ok": 6,
        "no": 2
       }
      },
@@ -7486,7 +7486,7 @@
     "2026-11-15": 1,
     "2026-11-18": 6,
     "2026-11-19": 4,
-    "2026-11-20": 3
+    "2026-11-20": 4
    },
    "pn": {
     "QBT-LQY": {
@@ -7553,7 +7553,7 @@
     "Melvin City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795124197,
+     "t": 1795137288,
      "estado": "",
      "ls": 691,
      "pads": {
@@ -7570,92 +7570,96 @@
       "2026-11-19": {
        "ok": 4,
        "no": 0
+      },
+      "2026-11-20": {
+       "ok": 2,
+       "no": 0
       }
      },
      "mer": {
-      "t": 1795124208,
+      "t": 1795137323,
       "n": 129,
       "vende": [
        {
-        "n": "Alexandrite",
+        "n": "alexandrite",
         "p": 236963,
         "d": 713
        },
        {
-        "n": "Musgravite",
+        "n": "musgravite",
         "p": 218892,
         "d": 713
        },
        {
-        "n": "Grandidierite",
+        "n": "grandidierite",
         "p": 215387,
         "d": 700
        },
        {
-        "n": "Monazite",
+        "n": "monazite",
         "p": 197413,
         "d": 277
        },
        {
-        "n": "Serendibite",
+        "n": "serendibite",
         "p": 191030,
         "d": 713
        }
       ],
       "alta": [
        {
-        "n": "Water",
+        "n": "water",
         "p": 672,
         "m": 260
        },
        {
-        "n": "Polymers",
+        "n": "polymers",
         "p": 679,
         "m": 306
        },
        {
-        "n": "Algae",
+        "n": "algae",
         "p": 667,
         "m": 308
        },
        {
-        "n": "SyntheticFabrics",
+        "n": "syntheticfabrics",
         "p": 712,
         "m": 354
        },
        {
-        "n": "Beer",
+        "n": "beer",
         "p": 697,
         "m": 350
        }
       ],
       "barato": [
        {
-        "n": "FoodCartridges",
+        "n": "foodcartridges",
         "p": 53,
         "m": 252,
         "s": 29276
        },
        {
-        "n": "Biowaste",
+        "n": "biowaste",
         "p": 89,
         "m": 271,
         "s": 5571
        },
        {
-        "n": "Scrap",
+        "n": "scrap",
         "p": 96,
         "m": 276,
         "s": 90816
        },
        {
-        "n": "Explosives",
+        "n": "explosives",
         "p": 213,
         "m": 483,
         "s": 30054
        },
        {
-        "n": "WaterPurifiers",
+        "n": "waterpurifiers",
         "p": 213,
         "m": 447,
         "s": 448717
@@ -7663,7 +7667,7 @@
       ]
      },
      "mods": 729,
-     "mods_t": 1795122998,
+     "mods_t": 1795137323,
      "naves": [
       "anaconda",
       "asp",
@@ -7684,7 +7688,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795122998
+     "naves_t": 1795137323
     }
    },
    "prev": 64.82,
@@ -21886,10 +21890,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795134933.9282007,
-  "msgs": 382496,
+  "msgs": 391331,
   "mios": 34
  },
- "t": 1795137086.8666399,
+ "t": 1795137848.490042,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21903,7 +21907,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795135762
+   "t": 1795137313
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -27248,7 +27252,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795135762
+   "t": 1795137313
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -28953,6 +28957,21 @@
     "Zemina Torval"
    ],
    "t": 1795137026
+  },
+  "Nebthet": {
+   "pos": [
+    4,
+    -9.96875,
+    -128.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.234284,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795048613
   }
  },
  "rivales": {

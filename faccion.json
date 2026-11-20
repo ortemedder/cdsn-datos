@@ -2050,7 +2050,8 @@
     "2026-11-16": 2,
     "2026-11-17": 16,
     "2026-11-18": 55,
-    "2026-11-19": 29
+    "2026-11-19": 29,
+    "2026-11-20": 1
    },
    "zc": [
     {
@@ -22370,10 +22371,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795171259.4562035,
-  "msgs": 680459,
+  "msgs": 689523,
   "mios": 50
  },
- "t": 1795171315.0875576,
+ "t": 1795172185.9181657,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23048,9 +23049,9 @@
    "ly": 13.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 2633541,
+   "pob": 2633825,
    "ctrl_n": "East India Company",
-   "t": 1794896469
+   "t": 1795171689
   },
   "Maiden": {
    "pos": [
@@ -23893,9 +23894,9 @@
    "ly": 19.7,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 5,
-   "pob": 159209,
+   "pob": 159245,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1795053648
+   "t": 1795172134
   },
   "Arnemil": {
    "pos": [
@@ -28957,7 +28958,7 @@
    ],
    "pot": "Pranav Antal",
    "est": "Fortified",
-   "prog": 0.249452,
+   "prog": 0.246889,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
@@ -28965,7 +28966,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795131178
+   "t": 1795171989
   },
   "Baraluhet": {
    "pos": [
@@ -30128,7 +30129,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795146556
+   "t": 1795172178
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -30854,6 +30855,54 @@
     "Jerome Archer"
    ],
    "t": 1795169259
+  },
+  "Ceti Sector GR-V b2-3": {
+   "pos": [
+    5.65625,
+    -90.125,
+    -31.78125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.122283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795171689
+  },
+  "Ininohima": {
+   "pos": [
+    20.46875,
+    -103.84375,
+    -14.28125
+   ],
+   "pot": "Pranav Antal",
+   "est": "Stronghold",
+   "prog": 0.152864,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795171976
+  },
+  "Col 285 Sector RY-W b16-1": {
+   "pos": [
+    128.46875,
+    -3.21875,
+    3.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795172134
   }
  },
  "rivales": {

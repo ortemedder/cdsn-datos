@@ -6856,7 +6856,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 125
+    "2026-11-20": 129
    },
    "pn": {
     "H5L-70M": {
@@ -6955,12 +6955,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795215963,
+     "t": 1795216827,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795216004,
+      "t": 1795216970,
       "n": 366,
       "vende": [
        {
@@ -7059,7 +7059,7 @@
        "no": 3
       },
       "2026-11-20": {
-       "ok": 28,
+       "ok": 30,
        "no": 0
       }
      },
@@ -7113,12 +7113,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795215969,
+     "naves_t": 1795216833,
      "neg": {
       "Distance": 5
      },
      "mods": 867,
-     "mods_t": 1795215969
+     "mods_t": 1795216833
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7906,7 +7906,7 @@
     "Orbital Construction Site: Nixon's Folly": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795216356,
+     "t": 1795217443,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -7916,7 +7916,7 @@
      },
      "mid": 3953330690,
      "mer": {
-      "t": 1795216362,
+      "t": 1795217450,
       "n": 2,
       "vende": [],
       "alta": [],
@@ -7927,7 +7927,7 @@
      },
      "atq": {
       "2026-11-20": {
-       "ok": 4,
+       "ok": 6,
        "no": 2
       }
      }
@@ -23858,10 +23858,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795216555.2766538,
-  "msgs": 1348929,
+  "msgs": 1362844,
   "mios": 135
  },
- "t": 1795216622.1576376,
+ "t": 1795217454.4160624,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -23875,7 +23875,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795214008
+   "t": 1795217046
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -23914,7 +23914,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795202936
+   "t": 1795217294
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -24005,7 +24005,7 @@
    "nfac": 4,
    "pob": 190840223,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795205792
+   "t": 1795216723
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -26930,7 +26930,7 @@
    "nfac": 5,
    "pob": 250000,
    "ctrl_n": "Social Manamaya Democrats",
-   "t": 1795015475
+   "t": 1795217070
   },
   "Col 285 Sector TZ-O c6-17": {
    "pos": [
@@ -29513,7 +29513,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795205792
+   "t": 1795216723
   },
   "Bakuari": {
    "pos": [
@@ -29925,7 +29925,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795214008
+   "t": 1795217046
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -30143,12 +30143,12 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Fortified",
-   "prog": 0.136615,
+   "prog": 0.136614,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795203817
+   "t": 1795217022
   },
   "Ceti Sector EW-V b2-4": {
    "pos": [
@@ -32256,7 +32256,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795202936
+   "t": 1795217294
   },
   "Onyaksas": {
    "pos": [
@@ -35563,6 +35563,40 @@
     "Edmund Mahon"
    ],
    "t": 1795216411
+  },
+  "Nima": {
+   "pos": [
+    7.5625,
+    30.25,
+    -82.65625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795216849
+  },
+  "PLX 695": {
+   "pos": [
+    -43.34375,
+    -4.71875,
+    -62.5
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.251832,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795217070
   }
  },
  "rivales": {

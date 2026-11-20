@@ -5697,7 +5697,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795205742,
+   "t": 1795209404,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -5817,18 +5817,18 @@
     "2026-11-17": 25,
     "2026-11-18": 39,
     "2026-11-19": 11,
-    "2026-11-20": 9
+    "2026-11-20": 11
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Med:#index=1;",
-     "i": "Med",
-     "t": 1795205742
-    },
-    {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795205742
+     "t": 1795209591
+    },
+    {
+     "n": "$Warzone_PointRace_Med:#index=1;",
+     "i": "Med",
+     "t": 1795209591
     }
    ],
    "pn": {
@@ -5838,7 +5838,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795205742,
+     "t": 1795209591,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -5848,18 +5848,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795205742,
+     "t": 1795209591,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795205742,
+     "t": 1795209591,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795205742,
+    "igual": 1795209404,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -5903,7 +5903,8 @@
     "1795122000": 1,
     "1795165200": 1,
     "1795179600": 1,
-    "1795197600": 1
+    "1795197600": 1,
+    "1795208400": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -6025,7 +6026,7 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795205742,
+     "t": 1795209658,
      "estado": "",
      "ls": 3137,
      "pads": {
@@ -6035,14 +6036,14 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795205749,
+      "t": 1795209665,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795205749,
+     "mods_t": 1795209665,
      "neg": {
       "NoSpace": 20
      },
@@ -6060,7 +6061,7 @@
        "no": 1
       },
       "2026-11-20": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      }
@@ -12218,7 +12219,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795207653,
+   "t": 1795209941,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12304,11 +12305,11 @@
     "2026-11-17": 71,
     "2026-11-18": 31,
     "2026-11-19": 11,
-    "2026-11-20": 17
+    "2026-11-20": 20
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795207653
+    "igual": 1795209941
    },
    "saltos": {
     "1794902400": 2,
@@ -12331,13 +12332,14 @@
     "1795122000": 2,
     "1795197600": 2,
     "1795201200": 2,
-    "1795204800": 2
+    "1795204800": 2,
+    "1795208400": 1
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
     "2026-11-19": 3,
-    "2026-11-20": 6
+    "2026-11-20": 7
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -12649,7 +12651,7 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795207965,
+     "t": 1795210298,
      "estado": "",
      "ls": 700,
      "mid": 4404361731,
@@ -12670,7 +12672,7 @@
        "no": 0
       },
       "2026-11-20": {
-       "ok": 6,
+       "ok": 7,
        "no": 0
       }
      },
@@ -18677,7 +18679,7 @@
   },
   "Chothe": {
    "sys": "Chothe",
-   "t": 1795022281,
+   "t": 1795210068,
    "src": "EDDN",
    "inf": 24.4,
    "ctrl": false,
@@ -18774,8 +18776,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Exploited",
-    "prog": 0.11844,
-    "ref": 55,
+    "prog": 0.118283,
+    "ref": 0,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -18791,22 +18793,25 @@
     "2025-10-09": 1,
     "2025-10-10": 1,
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 1
    },
    "tk": {
     "firma": "be623e90",
-    "igual": 1795022281,
+    "igual": 1795210068,
     "ult": 1794950474,
     "desde": 1794638637,
     "est": null
    },
    "saltos": {
     "1794949200": 1,
-    "1795021200": 1
+    "1795021200": 1,
+    "1795208400": 1
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -18827,7 +18832,8 @@
    },
    "rivales": [],
    "tick_ult": 1794950474,
-   "tick_marg": 2598
+   "tick_marg": 2598,
+   "cseg": {}
   },
   "Runab": {
    "sys": "Runab",
@@ -23683,11 +23689,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795207655.1391313,
-  "msgs": 1215739,
-  "mios": 126
+  "ultimo": 1795210069.4422762,
+  "msgs": 1237665,
+  "mios": 129
  },
- "t": 1795209189.4725132,
+ "t": 1795210303.3694515,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -23961,7 +23967,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795208470
+   "t": 1795210284
   },
   "LTT 10918": {
    "pos": [
@@ -24169,7 +24175,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795207306
+   "t": 1795209691
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -24442,7 +24448,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795208129
+   "t": 1795209457
   },
   "LTT 740": {
    "pos": [
@@ -26275,7 +26281,7 @@
    "nfac": 5,
    "pob": 12784480,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795198102
+   "t": 1795209707
   },
   "Trianguli Sector BQ-Y c15": {
    "pos": [
@@ -26509,7 +26515,7 @@
    "nfac": 3,
    "pob": 340531742,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795206902
+   "t": 1795210017
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -26832,9 +26838,9 @@
    "ly": 11.5,
    "junto": "HIP 19292",
    "nfac": 4,
-   "pob": 401458,
+   "pob": 401503,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795134714
+   "t": 1795209433
   },
   "Masses": {
    "pos": [
@@ -28850,6 +28856,58 @@
    "pob": 2340,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795208301
+  },
+  "Col 285 Sector LH-L c8-15": {
+   "pos": [
+    138.46875,
+    -29.15625,
+    13.0625
+   ],
+   "ly": 14.9,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1076253,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795209099
+  },
+  "Col 285 Sector VF-L b9-5": {
+   "pos": [
+    -160.8125,
+    26.21875,
+    -147.46875
+   ],
+   "ly": 12.5,
+   "junto": "Col 285 Sector NY-Q c5-8",
+   "nfac": 3,
+   "pob": 318572,
+   "ctrl_n": "Sirius Corporation",
+   "t": 1795209446
+  },
+  "ICZ CF-Z b2": {
+   "pos": [
+    128.125,
+    -110.59375,
+    -10.34375
+   ],
+   "ly": 14.2,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 318600,
+   "ctrl_n": "The Order of Mobius",
+   "t": 1795209557
+  },
+  "Col 285 Sector IM-L c8-19": {
+   "pos": [
+    131.5625,
+    -20.15625,
+    -0.5625
+   ],
+   "ly": 19.3,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 5,
+   "pob": 198781,
+   "ctrl_n": "Astral Dynamics, LLC",
+   "t": 1795210122
   }
  },
  "codice": [
@@ -29308,7 +29366,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795208470
+   "t": 1795210284
   },
   "LP 302-22": {
    "pos": [
@@ -29358,7 +29416,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795207306
+   "t": 1795209691
   },
   "Nergal": {
    "pos": [
@@ -30330,7 +30388,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795205742
+   "t": 1795209404
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -30365,7 +30423,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795123791
+   "t": 1795210233
   },
   "Tascheter Sector ZZ-P a5-6": {
    "pos": [
@@ -30399,7 +30457,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795206902
+   "t": 1795210017
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -30585,7 +30643,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.374041,
+   "prog": 0.374087,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -30593,7 +30651,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795208129
+   "t": 1795209457
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -30642,7 +30700,7 @@
     "Denton Patreus",
     "Pranav Antal"
    ],
-   "t": 1795198102
+   "t": 1795209707
   },
   "Bunuson": {
    "pos": [
@@ -31080,7 +31138,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1795135647
+   "t": 1795209696
   },
   "LP 254-27": {
    "pos": [
@@ -31158,7 +31216,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795134714
+   "t": 1795209433
   },
   "Ceti Sector CL-X b1-1": {
    "pos": [
@@ -31427,7 +31485,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795140203
+   "t": 1795209921
   },
   "Lyncis Sector FG-Y d73": {
    "pos": [
@@ -32069,7 +32127,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795201755
+   "t": 1795210193
   },
   "Trianguli Sector FM-V b2-7": {
    "pos": [
@@ -34825,6 +34883,116 @@
     "Zemina Torval"
    ],
    "t": 1795208489
+  },
+  "Col 285 Sector LH-L c8-15": {
+   "pos": [
+    138.46875,
+    -29.15625,
+    13.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795209099
+  },
+  "ICZ CF-Z b2": {
+   "pos": [
+    128.125,
+    -110.59375,
+    -10.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795209557
+  },
+  "Ba Jonandja": {
+   "pos": [
+    -18.53125,
+    36.09375,
+    -91.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.126855,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795210123
+  },
+  "Njungum": {
+   "pos": [
+    134.59375,
+    -21.5625,
+    1.15625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.115997,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795209932
+  },
+  "Chothe": {
+   "pos": [
+    -15.75,
+    18.53125,
+    -87.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.118283,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795210068
+  },
+  "Col 285 Sector IM-L c8-19": {
+   "pos": [
+    131.5625,
+    -20.15625,
+    -0.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795210122
+  },
+  "Holo": {
+   "pos": [
+    20.84375,
+    -9.6875,
+    -110.875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.248569,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795210224
   }
  },
  "rivales": {

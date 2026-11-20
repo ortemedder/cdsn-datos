@@ -6076,9 +6076,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795130564,
+   "t": 1795133668,
    "src": "EDDN",
-   "inf": 87.72,
+   "inf": 89.72,
    "ctrl": true,
    "estado": "Boom",
    "activos": [
@@ -6090,12 +6090,12 @@
    ],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 8.68,
+   "segunda_inf": 7.29,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 87.72,
+     "inf": 89.72,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -6109,7 +6109,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 8.68,
+     "inf": 7.29,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -6118,7 +6118,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 3.59,
+     "inf": 2.99,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -6160,12 +6160,12 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 1
+    "2026-11-20": 9
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795130975,
+     "t": 1795133795,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -6195,11 +6195,11 @@
     }
    },
    "tk": {
-    "firma": "073a8bac",
-    "igual": 1795130564,
-    "ult": 1795105256,
-    "desde": 1795045357,
-    "est": null,
+    "firma": "0acc3c3b",
+    "igual": 1795133668,
+    "ult": 1795133668,
+    "desde": 1795130564,
+    "est": 1795132116,
     "vent": [
      [
       1794701228,
@@ -6220,17 +6220,23 @@
      [
       1795045357,
       1795105256
+     ],
+     [
+      1795130564,
+      1795133668
      ]
     ],
     "hist": [
-     1794701629
+     1794701629,
+     1795132116
     ]
    },
    "saltos": {
     "1794927600": 1,
     "1794970800": 1,
     "1795006800": 1,
-    "1795107600": 1
+    "1795107600": 1,
+    "1795132800": 2
    },
    "rutas": {
     "2026-11-17": 2,
@@ -6240,12 +6246,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795130564,
+     "t": 1795133895,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795130813,
+      "t": 1795134146,
       "n": 366,
       "vende": [
        {
@@ -6265,8 +6271,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559352,
-        "d": 47349
+        "p": 559376,
+        "d": 47351
        },
        {
         "n": "opal",
@@ -6352,15 +6358,14 @@
      "naves": [
       "cobramkv",
       "explorer_nx",
-      "federation_corvette",
       "panthermkii"
      ],
-     "naves_t": 1795130900,
+     "naves_t": 1795134053,
      "neg": {
       "Distance": 5
      },
-     "mods": 888,
-     "mods_t": 1795130908
+     "mods": 821,
+     "mods_t": 1795133937
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6946,8 +6951,8 @@
      }
     }
    },
-   "prev": 86.63,
-   "prev_t": 1795045357,
+   "prev": 87.72,
+   "prev_t": 1795130564,
    "hinf": [
     [
      1794353391,
@@ -6988,19 +6993,23 @@
     [
      1795105256,
      87.72
+    ],
+    [
+     1795133668,
+     89.72
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 3,
+    "Caballeros de Sion": 4,
     "Natural Atese Front": 0,
     "Wolves of Jonai": 0
    },
    "rivales": [],
-   "tick_ult": 1795105256,
-   "tick_marg": 499,
-   "tick_prox": 1795133610,
-   "tick_disp": 6,
-   "tick_n": 1,
+   "tick_ult": 1795132116,
+   "tick_marg": 25,
+   "tick_prox": 1795219800,
+   "tick_disp": 3,
+   "tick_n": 2,
    "cseg": {}
   },
   "Hyades Sector JX-T c3-19": {
@@ -7404,7 +7413,7 @@
     "2026-11-15": 1,
     "2026-11-18": 6,
     "2026-11-19": 4,
-    "2026-11-20": 2
+    "2026-11-20": 3
    },
    "pn": {
     "QBT-LQY": {
@@ -21789,11 +21798,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795133294.5980668,
-  "msgs": 342487,
-  "mios": 31
+  "ultimo": 1795133668.7194116,
+  "msgs": 351839,
+  "mios": 32
  },
- "t": 1795133499.449692,
+ "t": 1795134330.8911288,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23354,7 +23363,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1794992755
+   "t": 1795116823
   },
   "Alpha Doradus": {
    "pos": [
@@ -24732,7 +24741,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795011838
+   "t": 1795133969
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -26810,7 +26819,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795114788
+   "t": 1795119820
   },
   "Selniang": {
    "pos": [
@@ -28501,6 +28510,105 @@
     "Jerome Archer"
    ],
    "t": 1795133392
+  },
+  "LP 716-35": {
+   "pos": [
+    28,
+    -29.25,
+    -44.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.091426,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795133922
+  },
+  "Ninmah": {
+   "pos": [
+    -3.625,
+    1.96875,
+    -67.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.263651,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795133958
+  },
+  "Tote": {
+   "pos": [
+    -21.0625,
+    -15.75,
+    -91.75
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.244308,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795116823
+  },
+  "Nogatas": {
+   "pos": [
+    15.90625,
+    -99.625,
+    -39.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.205712,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795133969
+  },
+  "NLTT 8234": {
+   "pos": [
+    17,
+    -103.71875,
+    -44.1875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.205141,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795134010
+  },
+  "LP 254-27": {
+   "pos": [
+    -1.5625,
+    19.65625,
+    -70.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.254452,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795134328
   }
  },
  "rivales": {

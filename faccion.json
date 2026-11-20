@@ -1389,23 +1389,43 @@
   },
   "Menkalinan": {
    "sys": "Menkalinan",
-   "t": 1794772660,
+   "t": 1795213714,
    "src": "EDDN",
-   "inf": 11.32,
+   "inf": 11.31,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 62.73,
+   "segunda_inf": 62.46,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 62.73,
+     "inf": 62.46,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Democrats of Condharwal",
+     "inf": 13.51,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 11.31,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -1415,26 +1435,8 @@
      "jug": null
     },
     {
-     "n": "Democrats of Condharwal",
-     "inf": 13.23,
-     "gov": "Democracy",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 11.32,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
      "n": "League of Lalande 10797 Front",
-     "inf": 9.72,
+     "inf": 9.71,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -1443,7 +1445,7 @@
     },
     {
      "n": "Condharwal Purple Partnership",
-     "inf": 3.01,
+     "inf": 3.0,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -1458,7 +1460,7 @@
     -77.84375
    ],
    "sis": {
-    "pob": 65931842,
+    "pob": 65936488,
     "eco": "$economy_Military;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1483,7 +1485,8 @@
    "trafico": {
     "2026-11-11": 1,
     "2026-11-14": 1,
-    "2026-11-15": 9
+    "2026-11-15": 9,
+    "2026-11-20": 2
    },
    "pn": {
     "BLX-69Z": {
@@ -1492,11 +1495,17 @@
     }
    },
    "tk": {
-    "firma": "47a66d38",
-    "igual": 1794772660,
-    "ult": 1794621945,
-    "desde": 1794413495,
+    "firma": "b46d0f2e",
+    "igual": 1795213714,
+    "ult": 1795213714,
+    "desde": 1794772660,
     "est": null
+   },
+   "saltos": {
+    "1795212000": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
    },
    "prev": 12.84,
    "prev_t": 1794157712,
@@ -1510,8 +1519,32 @@
      11.32
     ]
    ],
-   "tick_ult": 1794621945,
-   "tick_marg": 1737
+   "rach": {
+    "THE AZGHARIE": 0,
+    "Democrats of Condharwal": 1,
+    "Caballeros de Sion": 0,
+    "League of Lalande 10797 Front": 0,
+    "Condharwal Purple Partnership": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795213714,
+   "tick_marg": 3675,
+   "cseg": {},
+   "estaciones": {
+    "Pascale Forever": {
+     "f": "THE AZGHARIE",
+     "tipo": "Orbis",
+     "t": 1795213895,
+     "estado": "",
+     "ls": 29,
+     "pads": {
+      "Small": 9,
+      "Medium": 9,
+      "Large": 7
+     },
+     "mid": 4220780547
+    }
+   }
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
@@ -6663,7 +6696,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795210707,
+   "t": 1795213428,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
@@ -6747,17 +6780,17 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 105
+    "2026-11-20": 111
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795210727,
+     "t": 1795213548,
      "d": 1794928703
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1795210727,
+     "t": 1795213548,
      "d": 1794855069
     },
     "KBY-8QF": {
@@ -6782,18 +6815,18 @@
     },
     "KLG-1CZ": {
      "n": "LA CONQUISTADA",
-     "t": 1795210727,
+     "t": 1795213548,
      "d": 1795203070
     },
     "TLM-23V": {
      "n": "THE CARDINAL II",
-     "t": 1795210727,
+     "t": 1795213548,
      "d": 1795203070
     }
    },
    "tk": {
     "firma": "0acc3c3b",
-    "igual": 1795210707,
+    "igual": 1795213428,
     "ult": 1795133668,
     "desde": 1795130564,
     "est": 1795132116,
@@ -6834,12 +6867,13 @@
     "1795006800": 1,
     "1795107600": 1,
     "1795132800": 2,
-    "1795140000": 2
+    "1795140000": 2,
+    "1795212000": 2
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
-    "2026-11-20": 3
+    "2026-11-20": 5
    },
    "estaciones": {
     "Vanaheim": {
@@ -7767,7 +7801,7 @@
     "Orbital Construction Site: Wernervonsiemens'  Inheritance": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795212088,
+     "t": 1795213616,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -7777,15 +7811,15 @@
      },
      "mid": 3966936578,
      "mer": {
-      "t": 1795212095,
-      "n": 10,
+      "t": 1795213623,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 14,
+       "ok": 16,
        "no": 2
       }
      },
@@ -12657,7 +12691,7 @@
      "ls": 700,
      "mid": 4404361731,
      "mer": {
-      "t": 1795210305,
+      "t": 1795213015,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -23690,11 +23724,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795212624.9804194,
-  "msgs": 1287363,
-  "mios": 131
+  "ultimo": 1795213717.2329638,
+  "msgs": 1304502,
+  "mios": 133
  },
- "t": 1795213010.3247006,
+ "t": 1795213903.7225132,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -23901,9 +23935,9 @@
    "ly": 17.9,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 504229644,
+   "pob": 509542937,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794882211
+   "t": 1795212634
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -24059,7 +24093,7 @@
    "nfac": 4,
    "pob": 218632,
    "ctrl_n": "East India Company",
-   "t": 1795209183
+   "t": 1795212748
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -24397,7 +24431,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795212124
+   "t": 1795212832
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -24410,7 +24444,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795211722
+   "t": 1795213675
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -24475,7 +24509,7 @@
    "nfac": 3,
    "pob": 174964799,
    "ctrl_n": "The Fatherhood",
-   "t": 1795211762
+   "t": 1795213174
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -24657,7 +24691,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795211536
+   "t": 1795213240
   },
   "Lokaantii": {
    "pos": [
@@ -26711,7 +26745,7 @@
    "nfac": 6,
    "pob": 377978988,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795085546
+   "t": 1795213813
   },
   "HIP 21850": {
    "pos": [
@@ -28544,7 +28578,7 @@
    "nfac": 6,
    "pob": 159949,
    "ctrl_n": "Empire Corsairs",
-   "t": 1795179569
+   "t": 1795213670
   },
   "Trianguli Sector QZ-O a6-3": {
    "pos": [
@@ -28557,7 +28591,7 @@
    "nfac": 3,
    "pob": 1231804,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795180092
+   "t": 1795213802
   },
   "Lyncis Sector CQ-Y c7": {
    "pos": [
@@ -28934,7 +28968,7 @@
    "nfac": 6,
    "pob": 3802851,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795212937
+   "t": 1795213141
   }
  },
  "codice": [
@@ -29618,13 +29652,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.444952,
+   "prog": 0.444998,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795211722
+   "t": 1795213675
   },
   "Wolf 186": {
    "pos": [
@@ -30542,13 +30576,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.0391,
+   "prog": 0.040372,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795212124
+   "t": 1795212832
   },
   "Mandu": {
    "pos": [
@@ -31165,7 +31199,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1795209696
+   "t": 1795212365
   },
   "LP 254-27": {
    "pos": [
@@ -31393,7 +31427,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795209183
+   "t": 1795212748
   },
   "LTT 11655": {
    "pos": [
@@ -33041,7 +33075,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795179569
+   "t": 1795213670
   },
   "HIP 24035": {
    "pos": [
@@ -33106,7 +33140,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795180092
+   "t": 1795213802
   },
   "Kongaguan": {
    "pos": [
@@ -34124,7 +34158,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795211536
+   "t": 1795213240
   },
   "Yawala": {
    "pos": [
@@ -34205,7 +34239,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795211961
+   "t": 1795213258
   },
   "Lan Caihe": {
    "pos": [
@@ -35085,7 +35119,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795212937
+   "t": 1795213141
   },
   "HR 2439": {
    "pos": [
@@ -35135,6 +35169,56 @@
     "Jerome Archer"
    ],
    "t": 1795212591
+  },
+  "Hyades Sector OT-P b6-1": {
+   "pos": [
+    16.4375,
+    32.9375,
+    -139.6875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.2358,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795212634
+  },
+  "Menkalinan": {
+   "pos": [
+    -16.875,
+    15.4375,
+    -77.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795213714
+  },
+  "Binar": {
+   "pos": [
+    124.15625,
+    -14.65625,
+    22.5
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.1456,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795213813
   }
  },
  "rivales": {

@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 31
+    "2026-11-20": 41
    },
    "pn": {
     "H5L-70M": {
@@ -6414,7 +6414,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795128826,
+     "t": 1795138696,
      "estado": "",
      "ls": 1062,
      "pads": {
@@ -6424,33 +6424,33 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795128833,
+      "t": 1795138856,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
         "p": 694266,
-        "d": 6658
+        "d": 12364
        },
        {
         "n": "serendibite",
         "p": 570948,
-        "d": 6658
+        "d": 12364
        },
        {
         "n": "benitoite",
         "p": 567114,
-        "d": 6658
+        "d": 12364
        },
        {
         "n": "grandidierite",
         "p": 563640,
-        "d": 6658
+        "d": 12364
        },
        {
         "n": "opal",
         "p": 552666,
-        "d": 2961
+        "d": 5170
        }
       ],
       "alta": [
@@ -6485,31 +6485,31 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 109709
+        "s": 173545
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 148799
+        "s": 155838
        },
        {
         "n": "polymers",
         "p": 43,
         "m": 306,
-        "s": 5257518
+        "s": 9659107
        },
        {
         "n": "ceramiccomposites",
         "p": 78,
         "m": 402,
-        "s": 411382
+        "s": 704824
        },
        {
         "n": "syntheticfabrics",
         "p": 72,
         "m": 354,
-        "s": 3713632
+        "s": 6840872
        }
       ]
      },
@@ -6525,10 +6525,14 @@
       "2026-11-19": {
        "ok": 14,
        "no": 5
+      },
+      "2026-11-20": {
+       "ok": 2,
+       "no": 2
       }
      },
      "neg": {
-      "Distance": 6
+      "Distance": 8
      }
     },
     "Shvets Works": {
@@ -6997,7 +7001,7 @@
     "Planetary Construction Site: Li Command Facility": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795137385,
+     "t": 1795138302,
      "estado": "",
      "ls": 1987,
      "pads": {
@@ -7007,15 +7011,15 @@
      },
      "mid": 4404710403,
      "mer": {
-      "t": 1795137392,
-      "n": 1,
+      "t": 1795138309,
+      "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 6,
+       "ok": 8,
        "no": 2
       }
      },
@@ -21890,10 +21894,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795134933.9282007,
-  "msgs": 391331,
+  "msgs": 401179,
   "mios": 34
  },
- "t": 1795137848.490042,
+ "t": 1795138860.6660416,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23675,7 +23679,7 @@
    "nfac": 3,
    "pob": 59938269,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795108498
+   "t": 1795138167
   },
   "Hyades Sector QO-P b6-7": {
    "pos": [
@@ -28045,7 +28049,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795128968
+   "t": 1795138431
   },
   "Kamuti": {
    "pos": [
@@ -28972,6 +28976,77 @@
     "Li Yong-Rui"
    ],
    "t": 1795048613
+  },
+  "Ceto": {
+   "pos": [
+    -2.71875,
+    16.875,
+    -78.3125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.070854,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795138167
+  },
+  "EGM 823": {
+   "pos": [
+    10.59375,
+    -75.875,
+    -9.03125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253404,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1795138275
+  },
+  "Apam Napat": {
+   "pos": [
+    10.09375,
+    -90.46875,
+    -0.71875
+   ],
+   "pot": "Denton Patreus",
+   "est": "Stronghold",
+   "prog": 0.320323,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795138368
+  },
+  "Wolf 289": {
+   "pos": [
+    24.75,
+    7.0625,
+    -77.375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.164569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795138393
   }
  },
  "rivales": {

@@ -22357,10 +22357,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795160175.922724,
-  "msgs": 611626,
+  "msgs": 616980,
   "mios": 48
  },
- "t": 1795162376.4200628,
+ "t": 1795162987.0287719,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -26716,7 +26716,7 @@
    "nfac": 4,
    "pob": 47879805,
    "ctrl_n": "East India Company",
-   "t": 1795161403
+   "t": 1795162437
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -27132,7 +27132,7 @@
    "nfac": 6,
    "pob": 428298,
    "ctrl_n": "Federal Interstellar Recon",
-   "t": 1795162135
+   "t": 1795162885
   }
  },
  "codice": [
@@ -27919,7 +27919,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795161403
+   "t": 1795162437
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -30580,7 +30580,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795162135
+   "t": 1795162885
   },
   "BD+47 977": {
    "pos": [

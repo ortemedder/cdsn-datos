@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 47
+    "2026-11-20": 51
    },
    "pn": {
     "H5L-70M": {
@@ -6861,9 +6861,9 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795132640,
+     "t": 1795141257,
      "estado": "",
-     "ls": 2657,
+     "ls": 2658,
      "pads": {
       "Small": 17,
       "Medium": 18,
@@ -6871,7 +6871,7 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795132969,
+      "t": 1795141276,
       "n": 366,
       "vende": [
        {
@@ -6960,16 +6960,61 @@
        }
       ]
      },
-     "mods": 916,
-     "mods_t": 1795132647,
+     "mods": 915,
+     "mods_t": 1795141263,
      "naves": [
+      "adder",
+      "anaconda",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
+      "explorer_nx",
       "federation_corvette",
-      "mediumtransport01"
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
+      "mediumtransport01",
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1795132971,
+     "naves_t": 1795141263,
      "atq": {
       "2026-11-19": {
        "ok": 4,
+       "no": 0
+      },
+      "2026-11-20": {
+       "ok": 2,
        "no": 0
       }
      }
@@ -7021,12 +7066,12 @@
      },
      "atq": {
       "2026-11-20": {
-       "ok": 10,
-       "no": 4
+       "ok": 12,
+       "no": 6
       }
      },
      "neg": {
-      "Distance": 4
+      "Distance": 6
      }
     }
    },
@@ -22002,10 +22047,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795140431.206748,
-  "msgs": 420693,
+  "msgs": 432173,
   "mios": 36
  },
- "t": 1795140753.9335866,
+ "t": 1795141635.3492537,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23421,9 +23466,9 @@
    "ly": 19.1,
    "junto": "BD+40 1697",
    "nfac": 3,
-   "pob": 1598469,
+   "pob": 1598527,
    "ctrl_n": "Jade Constitutional Republican Society",
-   "t": 1794940470
+   "t": 1795140818
   },
   "Koirada": {
    "pos": [
@@ -26661,6 +26706,19 @@
    "pob": 963785,
    "ctrl_n": "Civitas Dei",
    "t": 1795134872
+  },
+  "Yin Sector ZU-Y b4": {
+   "pos": [
+    -12.65625,
+    26.65625,
+    -84.53125
+   ],
+   "ly": 7.8,
+   "junto": "BD+40 1697",
+   "nfac": 4,
+   "pob": 59953918,
+   "ctrl_n": "Order of Enblackenment",
+   "t": 1795140864
   }
  },
  "codice": [
@@ -28379,11 +28437,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.3462,
+   "prog": 0.3473,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795127701
+   "t": 1795141148
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -29288,6 +29346,39 @@
     "Jerome Archer"
    ],
    "t": 1795140658
+  },
+  "MCC 488": {
+   "pos": [
+    -20.5,
+    36.6875,
+    -76.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795140818
+  },
+  "Yin Sector ZU-Y b4": {
+   "pos": [
+    -12.65625,
+    26.65625,
+    -84.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795140864
   }
  },
  "rivales": {

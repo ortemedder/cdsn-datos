@@ -1972,7 +1972,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1795182220,
+   "t": 1795185140,
    "src": "EDDN",
    "inf": 12.28,
    "ctrl": false,
@@ -2075,7 +2075,7 @@
     "2026-11-17": 16,
     "2026-11-18": 55,
     "2026-11-19": 29,
-    "2026-11-20": 6
+    "2026-11-20": 7
    },
    "zc": [
     {
@@ -2575,7 +2575,7 @@
    },
    "tk": {
     "firma": "7ff3f008",
-    "igual": 1795182220,
+    "igual": 1795185140,
     "ult": 1794886163,
     "desde": 1794844632,
     "est": null,
@@ -2610,13 +2610,14 @@
     "1795114800": 2,
     "1795118400": 4,
     "1795122000": 1,
-    "1795179600": 1
+    "1795179600": 1,
+    "1795183200": 1
    },
    "rutas": {
     "2026-11-17": 7,
     "2026-11-18": 18,
     "2026-11-19": 11,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "estaciones": {
     "Judge Reach": {
@@ -9681,7 +9682,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 11
+    "2026-11-20": 14
    },
    "pn": {
     "V8X-11L": {
@@ -9876,6 +9877,26 @@
        "ok": 3,
        "no": 1
       }
+     }
+    },
+    "Planetary Construction Site: Munn's Crest": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795185529,
+     "estado": "",
+     "ls": 1254,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 1
+     },
+     "mid": 4404526595,
+     "mer": {
+      "t": 1795185537,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -22801,11 +22822,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795184704.6167686,
-  "msgs": 825725,
-  "mios": 83
+  "ultimo": 1795185145.2165387,
+  "msgs": 836561,
+  "mios": 84
  },
- "t": 1795184932.3660033,
+ "t": 1795185874.4896696,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23092,7 +23113,7 @@
    "nfac": 6,
    "pob": 2439873,
    "ctrl_n": "160 S.O.A.R.",
-   "t": 1794884663
+   "t": 1795185488
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -23131,7 +23152,7 @@
    "nfac": 6,
    "pob": 7515127,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795126521
+   "t": 1795185282
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -25248,9 +25269,9 @@
    "ly": 16.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 618595,
+   "pob": 618850,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794965945
+   "t": 1795185687
   },
   "HIP 35755": {
    "pos": [
@@ -26665,9 +26686,9 @@
    "ly": 12.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 159822,
+   "pob": 159841,
    "ctrl_n": "East India Company",
-   "t": 1795058917
+   "t": 1795185808
   },
   "Lyncis Sector JR-W c1-12": {
    "pos": [
@@ -27733,7 +27754,20 @@
    "nfac": 3,
    "pob": 2309581,
    "ctrl_n": "CHIMERA",
-   "t": 1795184021
+   "t": 1795185132
+  },
+  "HIP 44510": {
+   "pos": [
+    138.6875,
+    -9.5625,
+    6.75
+   ],
+   "ly": 12.1,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 3,
+   "pob": 318342,
+   "ctrl_n": "Solaris Xeno-Psychology Group",
+   "t": 1795185029
   }
  },
  "codice": [
@@ -28049,6 +28083,17 @@
     "min": 13.84,
     "inf": 13.84,
     "ctrl": false
+   },
+   "Hyades Sector SU-N b7-0": {
+    "ini": 1795185724,
+    "v": 14,
+    "m": 4.4,
+    "dia": "hoy",
+    "antes": 61.86,
+    "min": 59.49,
+    "inf": 59.49,
+    "ctrl": true,
+    "quien": "Sirius Special Forces"
    }
   },
   "hist": [
@@ -28328,7 +28373,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795182220
+   "t": 1795185140
   },
   "Oto": {
    "pos": [
@@ -30002,7 +30047,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795134681
+   "t": 1795185871
   },
   "Arietis Sector MN-S b4-5": {
    "pos": [
@@ -30761,7 +30806,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795126521
+   "t": 1795185282
   },
   "HIP 44811": {
    "pos": [
@@ -31221,7 +31266,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795166157
+   "t": 1795185244
   },
   "Ausan": {
    "pos": [
@@ -32068,7 +32113,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795184021
+   "t": 1795185132
   },
   "Lalande 9828": {
    "pos": [
@@ -32145,6 +32190,85 @@
     "Zemina Torval"
    ],
    "t": 1795184776
+  },
+  "HIP 44510": {
+   "pos": [
+    138.6875,
+    -9.5625,
+    6.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795185029
+  },
+  "LTT 10918": {
+   "pos": [
+    -60.53125,
+    -9.0625,
+    -73.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.0458,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795185488
+  },
+  "Tascheter Sector WE-Q a5-2": {
+   "pos": [
+    11.9375,
+    -31.1875,
+    -50.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795185687
+  },
+  "Iku-Turso": {
+   "pos": [
+    6.46875,
+    -77.90625,
+    -14.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795185808
+  },
+  "HIP 23302": {
+   "pos": [
+    -15.09375,
+    -14.25,
+    -127.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795185822
   }
  },
  "rivales": {

@@ -725,7 +725,7 @@
     "2026-11-17": 6,
     "2026-11-18": 2,
     "2026-11-19": 1,
-    "2026-11-20": 7
+    "2026-11-20": 9
    },
    "estaciones": {
     "Insula Barataria": {
@@ -2076,7 +2076,7 @@
     "2026-11-17": 16,
     "2026-11-18": 55,
     "2026-11-19": 29,
-    "2026-11-20": 22
+    "2026-11-20": 24
    },
    "zc": [
     {
@@ -2635,7 +2635,7 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795199353,
+      "t": 1795199508,
       "n": 117,
       "vende": [
        {
@@ -2724,8 +2724,8 @@
        }
       ]
      },
-     "mods": 525,
-     "mods_t": 1795199353,
+     "mods": 590,
+     "mods_t": 1795199637,
      "naves": [
       "adder",
       "asp",
@@ -2757,7 +2757,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795199353,
+     "naves_t": 1795199508,
      "atq": {
       "2026-11-18": {
        "ok": 17,
@@ -12123,7 +12123,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795198009,
+   "t": 1795199837,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12209,11 +12209,11 @@
     "2026-11-17": 71,
     "2026-11-18": 31,
     "2026-11-19": 11,
-    "2026-11-20": 3
+    "2026-11-20": 6
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795198009
+    "igual": 1795199837
    },
    "saltos": {
     "1794902400": 2,
@@ -12234,7 +12234,7 @@
     "1795035600": 1,
     "1795118400": 1,
     "1795122000": 2,
-    "1795197600": 1
+    "1795197600": 2
    },
    "rutas": {
     "2026-11-17": 20,
@@ -12552,12 +12552,12 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795198365,
+     "t": 1795200281,
      "estado": "",
      "ls": 700,
      "mid": 4404361731,
      "mer": {
-      "t": 1795198373,
+      "t": 1795200288,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -12573,7 +12573,7 @@
        "no": 0
       },
       "2026-11-20": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -13274,54 +13274,75 @@
   },
   "Lan Caihe": {
    "sys": "Lan Caihe",
-   "t": 1795032224,
+   "t": 1795200008,
    "src": "EDDN",
-   "inf": 15.82,
+   "inf": 13.74,
    "ctrl": false,
    "estado": "War",
-   "activos": [],
+   "activos": [
+    "War"
+   ],
    "pendientes": [
     "Expansion"
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 49.45,
-   "conflictos": [],
+   "segunda_inf": 48.71,
+   "conflictos": [
+    {
+     "tipo": "war",
+     "estado": "active",
+     "contra": "Lan Caihe Crimson Creative & Co",
+     "ganados": 0,
+     "perdidos": 0,
+     "en_juego": "Bierce Installation",
+     "en_juego_rival": "Cranfield Analytics Lab",
+     "dia": 1,
+     "dia_exacto": false,
+     "desde": 1795200008,
+     "fase": "disputado",
+     "juego": "GANAR = sigue · PERDER = sigue",
+     "res": [],
+     "res_desde": 1
+    }
+   ],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 49.45,
+     "inf": 48.71,
      "gov": "Corporate",
      "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Lan Caihe Crimson Creative & Co",
+     "inf": 13.74,
+     "gov": "Corporate",
+     "alg": "Independent",
      "act": [
-      "Expansion"
+      "War"
      ],
      "pend": [],
      "jug": null
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 15.82,
+     "inf": 13.74,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "War"
+     ],
      "pend": [
       "Expansion"
      ],
      "jug": null
     },
     {
-     "n": "Lan Caihe Crimson Creative & Co",
-     "inf": 12.04,
-     "gov": "Corporate",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
      "n": "Lan Caihe Liberals",
-     "inf": 7.86,
+     "inf": 7.77,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -13330,7 +13351,7 @@
     },
     {
      "n": "Lan Caihe First",
-     "inf": 6.47,
+     "inf": 6.37,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -13339,7 +13360,7 @@
     },
     {
      "n": "Lan Caihe Purple Transport Co",
-     "inf": 5.67,
+     "inf": 5.58,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -13348,7 +13369,7 @@
     },
     {
      "n": "Lan Caihe Ring",
-     "inf": 2.69,
+     "inf": 4.08,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -13373,9 +13394,9 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.260212,
+    "prog": 0.259689,
     "ref": 0,
-    "soc": 325,
+    "soc": 308,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -13384,20 +13405,30 @@
    },
    "trafico": {
     "2026-05-03": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 2
    },
    "pn": {
     "A4G-51K": {
      "n": "NOJAUS LAIVAS",
-     "t": 1795032458,
+     "t": 1795200334,
      "d": 1795032458
     }
    },
+   "tk": {
+    "firma": "144b9e37",
+    "igual": 1795200008,
+    "ult": 1795200008,
+    "desde": 1795032224,
+    "est": null
+   },
    "saltos": {
-    "1795032000": 1
+    "1795032000": 1,
+    "1795197600": 1
    },
    "rutas": {
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Stasheff Arena": {
@@ -13429,20 +13460,65 @@
      "mods_t": 1795032507
     }
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 15.82,
+   "prev_t": 1795032224,
    "hinf": [
     [
      1794326026,
      15.82
+    ],
+    [
+     1795200008,
+     13.74
     ]
    ],
-   "rach": {},
+   "rach": {
+    "Sirius Special Forces": 0,
+    "Lan Caihe Crimson Creative & Co": 1,
+    "Caballeros de Sion": 0,
+    "Lan Caihe Liberals": 0,
+    "Lan Caihe First": 0,
+    "Lan Caihe Purple Transport Co": 0,
+    "Lan Caihe Ring": 1
+   },
    "rivales": [],
-   "tk": {
-    "firma": "d366517f",
-    "igual": 1795032224
-   }
+   "tick_ult": 1795200008,
+   "tick_marg": 1398,
+   "cseg": {
+    "Lan Caihe Crimson Creative & Co": {
+     "tipo": "war",
+     "ini": 1795200008,
+     "pend": null,
+     "exacto": false,
+     "dia": 1,
+     "res": [],
+     "ref": [
+      0,
+      0
+     ],
+     "tick": 1795107129,
+     "eval": null,
+     "fase": "disputado",
+     "res0": 1,
+     "g": 0,
+     "p": 0,
+     "mio": "Bierce Installation",
+     "suyo": "Cranfield Analytics Lab"
+    }
+   },
+   "sube_cuando_baja": {
+    "n": "Lan Caihe Crimson Creative & Co",
+    "d": 1.7,
+    "baja": 2.08,
+    "t": 1795200008
+   },
+   "zc": [
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1795200334
+    }
+   ]
   },
   "Kher": {
    "sys": "Kher",
@@ -17534,50 +17610,50 @@
   },
   "Arietis Sector CQ-Y d60": {
    "sys": "Arietis Sector CQ-Y d60",
-   "t": 1794686451,
-   "src": "EDSM",
+   "t": 1795200263,
+   "src": "EDDN",
    "inf": 3.7,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 68.8,
+   "segunda_inf": 68.6,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 68.8,
+     "inf": 68.6,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Radiant Ruby Control Cooperative",
      "inf": 10.8,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Astrobiology Research Cooperative",
      "inf": 7.1,
      "gov": "Cooperative",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Aristocrats of Lhou Wangs",
@@ -17586,7 +17662,16 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
+    },
+    {
+     "n": "Wolf 186 Inc",
+     "inf": 3.9,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
     },
     {
      "n": "Caballeros de Sion",
@@ -17594,17 +17679,10 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
-     "jug": true
-    },
-    {
-     "n": "Wolf 186 Inc",
-     "inf": 3.7,
-     "gov": "Corporate",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": false
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
     }
    ],
    "ctrl_n": "Sirius Special Forces",
@@ -17624,8 +17702,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Fortified",
-    "prog": 0.113538,
-    "ref": 0,
+    "prog": 0.113911,
+    "ref": 242,
     "soc": 0,
     "pots": [
      "Li Yong-Rui",
@@ -17634,11 +17712,21 @@
     ]
    },
    "trafico": {
-    "2026-11-13": 1
+    "2026-11-13": 1,
+    "2026-11-20": 1
    },
    "tk": {
-    "firma": "5c2d612f",
-    "igual": 1794541010
+    "firma": "5ead4816",
+    "igual": 1795200263,
+    "ult": 1795200263,
+    "desde": 1794541010,
+    "est": null
+   },
+   "saltos": {
+    "1795197600": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -17647,7 +17735,19 @@
      1794541010,
      3.7
     ]
-   ]
+   ],
+   "rach": {
+    "Sirius Special Forces": 0,
+    "Radiant Ruby Control Cooperative": 0,
+    "Astrobiology Research Cooperative": 0,
+    "Aristocrats of Lhou Wangs": 0,
+    "Wolf 186 Inc": 1,
+    "Caballeros de Sion": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795200263,
+   "tick_marg": 5493,
+   "cseg": {}
   },
   "Tascheter Sector AA-Z b5": {
    "sys": "Tascheter Sector AA-Z b5",
@@ -23348,11 +23448,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795198574.7961328,
-  "msgs": 1026220,
-  "mios": 101
+  "ultimo": 1795200265.0161018,
+  "msgs": 1041617,
+  "mios": 104
  },
- "t": 1795199403.0798523,
+ "t": 1795200335.8394926,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23496,7 +23596,7 @@
    "nfac": 4,
    "pob": 190840223,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795174748
+   "t": 1795199545
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -23535,7 +23635,7 @@
    "nfac": 6,
    "pob": 1348,
    "ctrl_n": "East India Company",
-   "t": 1794880099
+   "t": 1795200112
   },
   "Trianguli Sector BH-L a8-0": {
    "pos": [
@@ -23574,7 +23674,7 @@
    "nfac": 5,
    "pob": 2805931,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795157577
+   "t": 1795199535
   },
   "LHS 1499": {
    "pos": [
@@ -24666,7 +24766,7 @@
    "nfac": 6,
    "pob": 51667,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795139506
+   "t": 1795199877
   },
   "Col 285 Sector MZ-D b13-3": {
    "pos": [
@@ -26575,9 +26675,9 @@
    "ly": 19.8,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 1638947,
+   "pob": 1638993,
    "ctrl_n": "East India Company",
-   "t": 1795024507
+   "t": 1795200281
   },
   "Col 285 Sector VF-N c7-32": {
    "pos": [
@@ -27160,9 +27260,9 @@
    "ly": 9.9,
    "junto": "Arietis Sector CQ-Y d60",
    "nfac": 4,
-   "pob": 48882719,
+   "pob": 48886904,
    "ctrl_n": "Radiant Ruby Control Cooperative",
-   "t": 1795052004
+   "t": 1795200312
   },
   "Col 285 Sector XJ-R a34-2": {
    "pos": [
@@ -28424,9 +28524,58 @@
    "pob": 198528,
    "ctrl_n": "Earth Defense Fleet",
    "t": 1795198471
+  },
+  "Trianguli Sector TF-N a7-1": {
+   "pos": [
+    24.25,
+    -31.0625,
+    -51.90625
+   ],
+   "ly": 10.3,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 114525950,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795199462
+  },
+  "LFT 415": {
+   "pos": [
+    25.8125,
+    -20.71875,
+    -51.78125
+   ],
+   "ly": 19.3,
+   "junto": "Eurus",
+   "nfac": 5,
+   "pob": 5663992,
+   "ctrl_n": "Earth Defense Fleet",
+   "t": 1795200127
+  },
+  "Arietis Sector CQ-Y d63": {
+   "pos": [
+    -36.90625,
+    -14.53125,
+    -118.3125
+   ],
+   "ly": 11.0,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 6,
+   "pob": 5990296,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795200216
   }
  },
  "codice": [
+  {
+   "sys": "LHS 1734",
+   "n": "Bacterial 08 Yttrium",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "LHS 1734 2",
+   "junto": "Eurus",
+   "ly": 11.6,
+   "t": 1795200076
+  },
   {
    "sys": "Tascheter Sector YZ-Y a3",
    "n": "IceGeysers WaterGeysers",
@@ -28716,16 +28865,6 @@
    "junto": "LP 254-40",
    "ly": 16.5,
    "t": 1795180665
-  },
-  {
-   "sys": "Oto",
-   "n": "Bacterial 10 Antimony",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "Oto AB 3 c",
-   "junto": "Eurus",
-   "ly": 18.5,
-   "t": 1795175220
   }
  ],
  "ataques": {
@@ -28799,7 +28938,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795115883
+   "t": 1795199545
   },
   "Bakuari": {
    "pos": [
@@ -30346,7 +30485,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795157577
+   "t": 1795199535
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -31082,7 +31221,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795139506
+   "t": 1795199877
   },
   "Tascheter Sector CG-X b1-4": {
    "pos": [
@@ -33562,7 +33701,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795198020
+   "t": 1795199555
   },
   "Hyades Sector DB-X d1-61": {
    "pos": [
@@ -33663,6 +33802,155 @@
     "Pranav Antal"
    ],
    "t": 1795199202
+  },
+  "Trianguli Sector TF-N a7-1": {
+   "pos": [
+    24.25,
+    -31.0625,
+    -51.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.093846,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795199462
+  },
+  "Wakawal": {
+   "pos": [
+    0.96875,
+    -2.5625,
+    -77.375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.247077,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795199565
+  },
+  "Lan Caihe": {
+   "pos": [
+    -7.15625,
+    16,
+    -119.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.259689,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795200008
+  },
+  "Vivata": {
+   "pos": [
+    17.96875,
+    -77.375,
+    -17.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.103426,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795200112
+  },
+  "LFT 415": {
+   "pos": [
+    25.8125,
+    -20.71875,
+    -51.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.262475,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795200127
+  },
+  "Arietis Sector CQ-Y d63": {
+   "pos": [
+    -36.90625,
+    -14.53125,
+    -118.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795200216
+  },
+  "Arietis Sector CQ-Y d60": {
+   "pos": [
+    -42.09375,
+    -6.40625,
+    -112.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.113911,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795200263
+  },
+  "LFT 179": {
+   "pos": [
+    13.65625,
+    -70.34375,
+    -16.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.210855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1795200281
+  },
+  "Hyades Sector VA-M b8-1": {
+   "pos": [
+    -40.25,
+    -3.59375,
+    -103.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795200312
   }
  },
  "rivales": {
@@ -33701,6 +33989,15 @@
    "motivo": "sube cuando bajamos",
    "ini": 1795179189,
    "ult": 1795179189
+  },
+  "Lan Caihe Crimson Creative & Co": {
+   "veces": 2,
+   "sis": [
+    "Lan Caihe"
+   ],
+   "motivo": "conflicto, sube cuando bajamos",
+   "ini": 1795200008,
+   "ult": 1795200008
   }
  }
 }

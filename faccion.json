@@ -150,9 +150,9 @@
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
-   "t": 1795128599,
+   "t": 1795174361,
    "src": "EDDN",
-   "inf": 43.73,
+   "inf": 43.63,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -161,12 +161,12 @@
    ],
    "recuperando": [],
    "segunda": "Wathiparian Power Corp.",
-   "segunda_inf": 20.46,
+   "segunda_inf": 20.56,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 43.73,
+     "inf": 43.63,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -177,7 +177,7 @@
     },
     {
      "n": "Wathiparian Power Corp.",
-     "inf": 20.46,
+     "inf": 20.56,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -223,7 +223,7 @@
     -84.28125
    ],
    "sis": {
-    "pob": 337105829,
+    "pob": 337232574,
     "eco": "$economy_HighTech;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -250,7 +250,8 @@
     "2026-11-11": 3,
     "2026-11-14": 2,
     "2026-11-18": 3,
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "pn": {
     "H2J-72G": {
@@ -259,19 +260,27 @@
     }
    },
    "tk": {
-    "firma": "c3896ce1",
-    "igual": 1795128599,
-    "ult": 1795128599,
-    "desde": 1795045730,
-    "est": null
+    "firma": "647ccb79",
+    "igual": 1795174361,
+    "ult": 1795174361,
+    "desde": 1795128599,
+    "est": null,
+    "vent": [
+     [
+      1795128599,
+      1795174361
+     ]
+    ]
    },
    "saltos": {
     "1795042800": 1,
-    "1795125600": 1
+    "1795125600": 1,
+    "1795172400": 1
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Verne Garden": {
@@ -380,12 +389,12 @@
     "Manuela Malasaña": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795128816,
+     "t": 1795174565,
      "estado": "",
      "ls": 1643,
      "pads": {
       "Small": 7,
-      "Medium": 13,
+      "Medium": 12,
       "Large": 5
      },
      "mid": 4310567427,
@@ -396,11 +405,15 @@
       "2026-11-19": {
        "ok": 1,
        "no": 1
+      },
+      "2026-11-20": {
+       "ok": 1,
+       "no": 0
       }
      },
      "mer": {
-      "t": 1795128824,
-      "n": 160,
+      "t": 1795174572,
+      "n": 161,
       "vende": [
        {
         "n": "alexandrite",
@@ -489,7 +502,7 @@
       ]
      },
      "mods": 939,
-     "mods_t": 1795128928,
+     "mods_t": 1795174572,
      "naves": [
       "adder",
       "anaconda",
@@ -536,11 +549,11 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795128824
+     "naves_t": 1795174572
     }
    },
-   "prev": 43.88,
-   "prev_t": 1795045730,
+   "prev": 43.73,
+   "prev_t": 1795128599,
    "hinf": [
     [
      1794227083,
@@ -561,6 +574,10 @@
     [
      1795128599,
      43.73
+    ],
+    [
+     1795174361,
+     43.63
     ]
    ],
    "rach": {
@@ -571,8 +588,11 @@
     "THE AZGHARIE": 1
    },
    "rivales": [],
-   "tick_ult": 1795128599,
-   "tick_marg": 690,
+   "tick_ult": 1795174361,
+   "tick_marg": 381,
+   "tick_prox": 1795237800,
+   "tick_disp": 381,
+   "tick_n": 0,
    "cseg": {}
   },
   "Hyades Sector SU-N b7-5": {
@@ -22370,11 +22390,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795171259.4562035,
-  "msgs": 706297,
-  "mios": 50
+  "ultimo": 1795174568.2091181,
+  "msgs": 714888,
+  "mios": 51
  },
- "t": 1795173948.1174543,
+ "t": 1795174929.5851393,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23090,7 +23110,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795173452
+   "t": 1795174919
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -27204,6 +27224,26 @@
  "codice": [
   {
    "sys": "Oto",
+   "n": "Bacterial 07 Tin",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 3 b",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795174187
+  },
+  {
+   "sys": "Oto",
+   "n": "Fumerolas 03 Tin",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "Oto AB 3 b",
+   "junto": "Eurus",
+   "ly": 18.5,
+   "t": 1795174175
+  },
+  {
+   "sys": "Oto",
    "n": "Tubus 05 K",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -27844,7 +27884,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795173452
+   "t": 1795174919
   },
   "Wolf 186": {
    "pos": [
@@ -29027,7 +29067,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795128599
+   "t": 1795174361
   },
   "Mwamen": {
    "pos": [
@@ -31029,6 +31069,22 @@
     "Zemina Torval"
    ],
    "t": 1795173561
+  },
+  "HR 3277": {
+   "pos": [
+    -33.71875,
+    95.75,
+    -129.40625
+   ],
+   "pot": "Felicia Winters",
+   "est": "Stronghold",
+   "prog": 0.250792,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795174419
   }
  },
  "rivales": {

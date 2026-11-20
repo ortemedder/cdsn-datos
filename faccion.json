@@ -22244,10 +22244,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795149865.953401,
-  "msgs": 520099,
+  "msgs": 528295,
   "mios": 43
  },
- "t": 1795150564.5700464,
+ "t": 1795151535.493801,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22521,7 +22521,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795147784
+   "t": 1795151526
   },
   "LTT 10918": {
    "pos": [
@@ -23782,7 +23782,7 @@
    "nfac": 6,
    "pob": 55206,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795122116
+   "t": 1795144700
   },
   "Kolaga": {
    "pos": [
@@ -27312,7 +27312,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795147784
+   "t": 1795151526
   },
   "LP 302-22": {
    "pos": [
@@ -28189,7 +28189,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795122116
+   "t": 1795144700
   },
   "Hyades Sector AC-K b9-6": {
    "pos": [
@@ -30058,6 +30058,22 @@
     "Li Yong-Rui"
    ],
    "t": 1795150430
+  },
+  "Yukpenon": {
+   "pos": [
+    10.40625,
+    4.0625,
+    -132.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795151521
   }
  },
  "rivales": {

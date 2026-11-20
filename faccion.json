@@ -150,7 +150,7 @@
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
-   "t": 1795174361,
+   "t": 1795187621,
    "src": "EDDN",
    "inf": 43.63,
    "ctrl": true,
@@ -251,7 +251,7 @@
     "2026-11-14": 2,
     "2026-11-18": 3,
     "2026-11-19": 2,
-    "2026-11-20": 1
+    "2026-11-20": 3
    },
    "pn": {
     "H2J-72G": {
@@ -261,7 +261,7 @@
    },
    "tk": {
     "firma": "647ccb79",
-    "igual": 1795174361,
+    "igual": 1795187621,
     "ult": 1795174361,
     "desde": 1795128599,
     "est": null,
@@ -275,12 +275,13 @@
    "saltos": {
     "1795042800": 1,
     "1795125600": 1,
-    "1795172400": 1
+    "1795172400": 1,
+    "1795186800": 2
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-19": 1,
-    "2026-11-20": 1
+    "2026-11-20": 3
    },
    "estaciones": {
     "Verne Garden": {
@@ -14711,7 +14712,8 @@
     "1794963600": 1
    },
    "rutas": {
-    "2026-11-18": 2
+    "2026-11-18": 2,
+    "2026-11-20": 2
    },
    "prev": null,
    "prev_t": null,
@@ -22822,11 +22824,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795186379.4258852,
-  "msgs": 849638,
-  "mios": 85
+  "ultimo": 1795187622.4108818,
+  "msgs": 863978,
+  "mios": 86
  },
- "t": 1795186456.4729528,
+ "t": 1795187678.2285469,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -27650,7 +27652,7 @@
    "nfac": 3,
    "pob": 2223207,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795173561
+   "t": 1795187183
   },
   "Bhumian Ku": {
    "pos": [
@@ -29640,7 +29642,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795174361
+   "t": 1795187621
   },
   "Mwamen": {
    "pos": [
@@ -30320,14 +30322,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.320431,
+   "prog": 0.320471,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795169224
+   "t": 1795187317
   },
   "Wolf 289": {
    "pos": [
@@ -31641,7 +31643,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795173561
+   "t": 1795187183
   },
   "HR 3277": {
    "pos": [
@@ -31908,7 +31910,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795179649
+   "t": 1795187673
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -32301,6 +32303,38 @@
     "Li Yong-Rui"
    ],
    "t": 1795186279
+  },
+  "Deriv-Dar": {
+   "pos": [
+    -4.46875,
+    11,
+    -82.71875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.265975,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795187161
+  },
+  "Scottii": {
+   "pos": [
+    124,
+    -116.40625,
+    -31.65625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.263981,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795187453
   }
  },
  "rivales": {

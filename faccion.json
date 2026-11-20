@@ -5381,7 +5381,8 @@
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
-    "2026-11-19": 5
+    "2026-11-19": 5,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -18471,7 +18472,8 @@
     "1794880800": 2
    },
    "rutas": {
-    "2026-11-17": 2
+    "2026-11-17": 2,
+    "2026-11-20": 1
    },
    "estaciones": {
     "Walesa Town": {
@@ -22355,10 +22357,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795160175.922724,
-  "msgs": 605420,
+  "msgs": 611626,
   "mios": 48
  },
- "t": 1795161504.7270236,
+ "t": 1795162376.4200628,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22827,7 +22829,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1795029082
+   "t": 1795162191
   },
   "Zephyrus": {
    "pos": [
@@ -23501,9 +23503,9 @@
    "ly": 19.9,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 2197318,
+   "pob": 2197354,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795135510
+   "t": 1795162233
   },
   "G 98-44": {
    "pos": [
@@ -23657,9 +23659,9 @@
    "ly": 7.5,
    "junto": "Jangore",
    "nfac": 4,
-   "pob": 159800,
+   "pob": 159837,
    "ctrl_n": "160 S.O.A.R.",
-   "t": 1795047745
+   "t": 1795162193
   },
   "LTT 11455": {
    "pos": [
@@ -24582,7 +24584,7 @@
    "nfac": 6,
    "pob": 5680814,
    "ctrl_n": "Brotherhood of Terra Mater",
-   "t": 1795067179
+   "t": 1795162366
   },
   "Col 285 Sector YJ-N b8-2": {
    "pos": [
@@ -25919,9 +25921,9 @@
    "ly": 17.8,
    "junto": "Arietis Sector CQ-Y d60",
    "nfac": 3,
-   "pob": 218804,
+   "pob": 218831,
    "ctrl_n": "160 S.O.A.R.",
-   "t": 1795036409
+   "t": 1795162254
   },
   "Cariangan": {
    "pos": [
@@ -26714,7 +26716,7 @@
    "nfac": 4,
    "pob": 47879805,
    "ctrl_n": "East India Company",
-   "t": 1795160338
+   "t": 1795161403
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -26764,9 +26766,9 @@
    "ly": 10.0,
    "junto": "Tascheter Sector CG-X b1-1",
    "nfac": 3,
-   "pob": 45594161,
+   "pob": 45623234,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795121028
+   "t": 1795162134
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -27118,6 +27120,19 @@
    "pob": 420168,
    "ctrl_n": "Galaxy Express",
    "t": 1795156817
+  },
+  "Walpi": {
+   "pos": [
+    38.21875,
+    -26.90625,
+    -47.40625
+   ],
+   "ly": 17.3,
+   "junto": "Eurus",
+   "nfac": 6,
+   "pob": 428298,
+   "ctrl_n": "Federal Interstellar Recon",
+   "t": 1795162135
   }
  },
  "codice": [
@@ -27904,7 +27919,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795160338
+   "t": 1795161403
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -28096,7 +28111,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795121028
+   "t": 1795162134
   },
   "Yin Sector ZU-Y b3": {
    "pos": [
@@ -29053,7 +29068,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795129611
+   "t": 1795161801
   },
   "BD+55 1142": {
    "pos": [
@@ -29215,7 +29230,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795133958
+   "t": 1795162070
   },
   "Tote": {
    "pos": [
@@ -29442,7 +29457,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795135510
+   "t": 1795162233
   },
   "Trianguli Sector RU-O a6-2": {
    "pos": [
@@ -30533,6 +30548,105 @@
     "Jerome Archer"
    ],
    "t": 1795161435
+  },
+  "Ausan": {
+   "pos": [
+    -49.5,
+    -12.09375,
+    -69.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.191998,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795161593
+  },
+  "Walpi": {
+   "pos": [
+    38.21875,
+    -26.90625,
+    -47.40625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.113712,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795162135
+  },
+  "BD+47 977": {
+   "pos": [
+    -42.75,
+    -1.03125,
+    -92.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.060569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795162193
+  },
+  "Ross 332": {
+   "pos": [
+    -43.625,
+    -23.15625,
+    -74.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.369995,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795162191
+  },
+  "Arietis Sector DG-X c1-14": {
+   "pos": [
+    -59.59375,
+    -4.03125,
+    -110.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795162254
+  },
+  "Caill Reddi": {
+   "pos": [
+    -61.375,
+    -21.90625,
+    -78.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.249809,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795162366
   }
  },
  "rivales": {

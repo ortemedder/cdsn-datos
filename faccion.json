@@ -22827,10 +22827,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795188849.905686,
-  "msgs": 890194,
+  "msgs": 903947,
   "mios": 87
  },
- "t": 1795189461.2605991,
+ "t": 1795190372.1777484,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -26586,9 +26586,9 @@
    "ly": 6.7,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 2194018,
+   "pob": 2194179,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795043168
+   "t": 1795190363
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -27392,9 +27392,9 @@
    "ly": 16.3,
    "junto": "Skang",
    "nfac": 5,
-   "pob": 1997458,
+   "pob": 1997504,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795126587
+   "t": 1795190173
   },
   "Baraluhet": {
    "pos": [
@@ -27798,6 +27798,19 @@
    "pob": 789923,
    "ctrl_n": "Nagii Union",
    "t": 1795188758
+  },
+  "Tascheter Sector CL-O a6-1": {
+   "pos": [
+    33.09375,
+    -34.0625,
+    -37.0625
+   ],
+   "ly": 12.2,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 219138,
+   "ctrl_n": "East India Company",
+   "t": 1795190258
   }
  },
  "codice": [
@@ -29557,7 +29570,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795126587
+   "t": 1795190173
   },
   "Trianguli Sector ZL-L a8-2": {
    "pos": [
@@ -32477,6 +32490,41 @@
     "Jerome Archer"
    ],
    "t": 1795188849
+  },
+  "Tascheter Sector CL-O a6-1": {
+   "pos": [
+    33.09375,
+    -34.0625,
+    -37.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795190258
+  },
+  "Tascheter Sector DG-O a6-2": {
+   "pos": [
+    23.8125,
+    -41.03125,
+    -39.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.139998,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795190363
   }
  },
  "rivales": {

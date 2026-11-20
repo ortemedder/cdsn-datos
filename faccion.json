@@ -10024,7 +10024,7 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 36
+    "2026-11-20": 38
    },
    "pn": {
     "V8X-11L": {
@@ -10085,7 +10085,7 @@
     "Piel City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795207898,
+     "t": 1795208629,
      "estado": "",
      "ls": 401,
      "pads": {
@@ -10095,7 +10095,7 @@
      },
      "mid": 4212382211,
      "mer": {
-      "t": 1795207912,
+      "t": 1795208649,
       "n": 366,
       "vende": [
        {
@@ -10199,7 +10199,7 @@
       }
      },
      "mods": 919,
-     "mods_t": 1795207906,
+     "mods_t": 1795208635,
      "naves": [
       "adder",
       "anaconda",
@@ -10240,7 +10240,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795207906
+     "naves_t": 1795208635
     },
     "Orbital Construction Site: Kerimov Beacon": {
      "f": "Brewer Corporation",
@@ -10300,7 +10300,7 @@
     "Orbital Construction Site: Constantine's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795208199,
+     "t": 1795209045,
      "estado": "",
      "ls": 719,
      "pads": {
@@ -10310,7 +10310,7 @@
      },
      "mid": 3965873922,
      "mer": {
-      "t": 1795208205,
+      "t": 1795209058,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -10318,7 +10318,7 @@
      },
      "atq": {
       "2026-11-20": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      }
@@ -15507,7 +15507,7 @@
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-20": 1
+    "2026-11-20": 2
    },
    "prev": null,
    "prev_t": null,
@@ -23684,10 +23684,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795207655.1391313,
-  "msgs": 1196005,
+  "msgs": 1215739,
   "mios": 126
  },
- "t": 1795208497.709668,
+ "t": 1795209189.4725132,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -23701,7 +23701,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795208429
+   "t": 1795209183
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -24052,7 +24052,7 @@
    "nfac": 4,
    "pob": 218632,
    "ctrl_n": "East India Company",
-   "t": 1795207754
+   "t": 1795209183
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -24390,7 +24390,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795208163
+   "t": 1795208853
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -24403,7 +24403,7 @@
    "nfac": 4,
    "pob": 157621723,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795194849
+   "t": 1795208711
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -24910,7 +24910,7 @@
    "nfac": 5,
    "pob": 106699712,
    "ctrl_n": "The Winged Hussars",
-   "t": 1795201614
+   "t": 1795209148
   },
   "Arietis Sector LN-S b4-5": {
    "pos": [
@@ -29168,7 +29168,7 @@
    },
    "Hyades Sector SU-N b7-0": {
     "ini": 1795185724,
-    "v": 36,
+    "v": 38,
     "m": 4.4,
     "dia": "hoy",
     "antes": 61.86,
@@ -29506,7 +29506,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795201614
+   "t": 1795209148
   },
   "LHS 1651": {
    "pos": [
@@ -29533,13 +29533,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.44472,
+   "prog": 0.444952,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795194849
+   "t": 1795208711
   },
   "Wolf 186": {
    "pos": [
@@ -29637,7 +29637,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795208429
+   "t": 1795209183
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -30430,7 +30430,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795138431
+   "t": 1795209066
   },
   "Kamuti": {
    "pos": [
@@ -30463,7 +30463,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795208163
+   "t": 1795208853
   },
   "Mandu": {
    "pos": [
@@ -31308,7 +31308,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795207754
+   "t": 1795209183
   },
   "LTT 11655": {
    "pos": [

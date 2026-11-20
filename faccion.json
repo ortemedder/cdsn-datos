@@ -22188,10 +22188,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795146180.8793843,
-  "msgs": 486374,
+  "msgs": 494274,
   "mios": 41
  },
- "t": 1795146560.8424537,
+ "t": 1795147792.2700834,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22465,7 +22465,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795120606
+   "t": 1795147784
   },
   "LTT 10918": {
    "pos": [
@@ -22894,7 +22894,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795125007
+   "t": 1795147636
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -22918,9 +22918,9 @@
    "ly": 11.8,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 3,
-   "pob": 2167238,
+   "pob": 2167310,
    "ctrl_n": "Sirius Corporation",
-   "t": 1794899862
+   "t": 1795147103
   },
   "Ross 345": {
    "pos": [
@@ -24569,9 +24569,9 @@
    "ly": 11.4,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 3173178,
+   "pob": 3174003,
    "ctrl_n": "EXO",
-   "t": 1795071129
+   "t": 1795147300
   },
   "Prom Du": {
    "pos": [
@@ -24831,7 +24831,7 @@
    "nfac": 5,
    "pob": 47349348,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795142486
+   "t": 1795147128
   },
   "Oisi": {
    "pos": [
@@ -27256,7 +27256,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795120606
+   "t": 1795147784
   },
   "LP 302-22": {
    "pos": [
@@ -28422,13 +28422,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.032569,
+   "prog": 0.032592,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795125007
+   "t": 1795147636
   },
   "Mandu": {
    "pos": [
@@ -29374,7 +29374,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795138368
+   "t": 1795147602
   },
   "Wolf 289": {
    "pos": [
@@ -29568,7 +29568,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.101815,
+   "prog": 0.101823,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -29576,7 +29576,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795142486
+   "t": 1795147128
   },
   "LP 365-24": {
    "pos": [
@@ -29869,6 +29869,55 @@
     "Zemina Torval"
    ],
    "t": 1795146556
+  },
+  "Ceti Sector DL-X b1-0": {
+   "pos": [
+    17.6875,
+    -101.25,
+    -60.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.01714,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795147103
+  },
+  "Trianguli Sector XA-N a7-1": {
+   "pos": [
+    37.28125,
+    -38.3125,
+    -47.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.271212,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795147300
+  },
+  "Hoder": {
+   "pos": [
+    -21.1875,
+    -5.25,
+    -75.3125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.040569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795147726
   }
  },
  "rivales": {

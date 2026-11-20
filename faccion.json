@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 51
+    "2026-11-20": 57
    },
    "pn": {
     "H5L-70M": {
@@ -7048,9 +7048,9 @@
     "Planetary Construction Site: Li Command Facility": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795139324,
+     "t": 1795141695,
      "estado": "",
-     "ls": 1987,
+     "ls": 1986,
      "pads": {
       "Small": 2,
       "Medium": 2,
@@ -7058,20 +7058,109 @@
      },
      "mid": 4404710403,
      "mer": {
-      "t": 1795139331,
-      "n": 6,
+      "t": 1795141702,
+      "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-20": {
-       "ok": 12,
+       "ok": 14,
        "no": 6
       }
      },
      "neg": {
       "Distance": 6
+     }
+    },
+    "Li Command Facility": {
+     "f": "Caballeros de Sion",
+     "tipo": "OnFootSettlement",
+     "t": 1795141936,
+     "estado": "",
+     "ls": 1986,
+     "pads": {
+      "Small": 2,
+      "Medium": 0,
+      "Large": 1
+     },
+     "mid": 4404710403
+    },
+    "Ishikawa's Resolve": {
+     "t": 0,
+     "mid": 4404710403,
+     "mer": {
+      "t": 1795142428,
+      "n": 366,
+      "vende": [
+       {
+        "n": "monazite",
+        "p": 378138,
+        "d": 4
+       },
+       {
+        "n": "metaalloys",
+        "p": 236035,
+        "d": 74
+       },
+       {
+        "n": "osmium",
+        "p": 203374,
+        "d": 10
+       },
+       {
+        "n": "nerveagents",
+        "p": 13895,
+        "d": 26
+       },
+       {
+        "n": "agronomictreatment",
+        "p": 13368,
+        "d": 4
+       }
+      ],
+      "alta": [
+       {
+        "n": "militarygradefabrics",
+        "p": 12352,
+        "m": 899
+       },
+       {
+        "n": "survivalequipment",
+        "p": 3688,
+        "m": 666
+       },
+       {
+        "n": "osmium",
+        "p": 203374,
+        "m": 44051
+       },
+       {
+        "n": "agronomictreatment",
+        "p": 13368,
+        "m": 3069
+       },
+       {
+        "n": "water",
+        "p": 632,
+        "m": 260
+       }
+      ],
+      "barato": [
+       {
+        "n": "scrap",
+        "p": 57,
+        "m": 276,
+        "s": 944
+       },
+       {
+        "n": "hydrogenfuel",
+        "p": 82,
+        "m": 119,
+        "s": 8999
+       }
+      ]
      }
     }
    },
@@ -22047,10 +22136,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795140431.206748,
-  "msgs": 432173,
+  "msgs": 442173,
   "mios": 36
  },
- "t": 1795141635.3492537,
+ "t": 1795142496.7254093,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22064,7 +22153,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795137313
+   "t": 1795141827
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -22805,7 +22894,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795126554
+   "t": 1795142480
   },
   "LTT 740": {
    "pos": [
@@ -24690,7 +24779,7 @@
    "nfac": 5,
    "pob": 47349348,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795084334
+   "t": 1795142486
   },
   "Oisi": {
    "pos": [
@@ -25119,7 +25208,7 @@
    "nfac": 4,
    "pob": 399213,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795122670
+   "t": 1795142421
   },
   "PLX 695": {
    "pos": [
@@ -27414,7 +27503,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.256017,
+   "prog": 0.25602,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -27422,7 +27511,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795137313
+   "t": 1795141827
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -27565,7 +27654,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795117645
+   "t": 1795141945
   },
   "Alexis Centauri": {
    "pos": [
@@ -28066,7 +28155,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795122670
+   "t": 1795142421
   },
   "Hyades Sector VP-N b7-3": {
    "pos": [
@@ -28370,7 +28459,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.373971,
+   "prog": 0.373492,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -28378,7 +28467,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795126554
+   "t": 1795142480
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -29379,6 +29468,24 @@
     "Jerome Archer"
    ],
    "t": 1795140864
+  },
+  "Leuctra": {
+   "pos": [
+    11.65625,
+    -33.40625,
+    -33.46875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.101815,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Yuri Grom",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795142486
   }
  },
  "rivales": {

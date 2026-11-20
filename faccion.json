@@ -22291,10 +22291,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795154819.7727108,
-  "msgs": 574036,
+  "msgs": 581415,
   "mios": 46
  },
- "t": 1795156930.2768173,
+ "t": 1795157580.8256714,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22514,9 +22514,9 @@
    "ly": 16.4,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 2805836,
+   "pob": 2805931,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795132480
+   "t": 1795157577
   },
   "LHS 1499": {
    "pos": [
@@ -22568,7 +22568,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795156879
+   "t": 1795157495
   },
   "LTT 10918": {
    "pos": [
@@ -24932,9 +24932,9 @@
    "ly": 19.8,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 47340143,
+   "pob": 47349348,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795156003
+   "t": 1795157915
   },
   "Oisi": {
    "pos": [
@@ -26715,7 +26715,7 @@
    "nfac": 4,
    "pob": 50237050,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795119004
+   "t": 1795157488
   },
   "Piscium Sector SD-T b3-7": {
    "pos": [
@@ -27385,7 +27385,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795156879
+   "t": 1795157495
   },
   "LP 302-22": {
    "pos": [
@@ -28068,7 +28068,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795119004
+   "t": 1795157488
   },
   "Catun": {
    "pos": [
@@ -28866,7 +28866,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795132480
+   "t": 1795157577
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -29705,7 +29705,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795156003
+   "t": 1795157915
   },
   "LP 365-24": {
    "pos": [

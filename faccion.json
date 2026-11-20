@@ -14189,15 +14189,15 @@
   },
   "Wolf 258": {
    "sys": "Wolf 258",
-   "t": 1794413402,
+   "t": 1795176478,
    "src": "EDDN",
    "inf": 11.49,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 69.96,
@@ -14209,9 +14209,7 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [
-      "Expansion"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -14219,10 +14217,10 @@
      "inf": 11.49,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -14279,23 +14277,41 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.259689,
+    "prog": 0.258641,
     "ref": 0,
-    "soc": 308,
+    "soc": 275,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
      "Li Yong-Rui"
     ]
    },
+   "trafico": {
+    "2026-11-20": 1
+   },
    "tk": {
     "firma": "418f6c21",
-    "igual": 1794413402
+    "igual": 1795176478
+   },
+   "saltos": {
+    "1795176000": 1
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-19": 1
-   }
+    "2026-11-19": 1,
+    "2026-11-20": 1
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794413402,
+     11.49
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Lyncis Sector JR-W c1-15": {
    "sys": "Lyncis Sector JR-W c1-15",
@@ -22390,11 +22406,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795174568.2091181,
-  "msgs": 725270,
-  "mios": 51
+  "ultimo": 1795176478.6395085,
+  "msgs": 734530,
+  "mios": 52
  },
- "t": 1795175550.1809287,
+ "t": 1795176691.0853055,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -27219,6 +27235,32 @@
    "pob": 2223207,
    "ctrl_n": "Beasts of Bestia",
    "t": 1795173561
+  },
+  "Bhumian Ku": {
+   "pos": [
+    -42.53125,
+    -7.03125,
+    -127.03125
+   ],
+   "ly": 14.1,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 6,
+   "pob": 4935701,
+   "ctrl_n": "Aristocrats of Lhou Wangs",
+   "t": 1795176433
+  },
+  "Tialocan": {
+   "pos": [
+    99.65625,
+    -124.5,
+    -7.71875
+   ],
+   "ly": 20.0,
+   "junto": "HIP 19292",
+   "nfac": 6,
+   "pob": 53664319,
+   "ctrl_n": "Tialocan Empire Party",
+   "t": 1795176681
   }
  },
  "codice": [
@@ -31105,6 +31147,52 @@
     "Li Yong-Rui"
    ],
    "t": 1795174419
+  },
+  "Bhumian Ku": {
+   "pos": [
+    -42.53125,
+    -7.03125,
+    -127.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.257069,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795176433
+  },
+  "Wolf 258": {
+   "pos": [
+    15.40625,
+    -0.78125,
+    -98.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795176478
+  },
+  "Tialocan": {
+   "pos": [
+    99.65625,
+    -124.5,
+    -7.71875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.312595,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795176681
   }
  },
  "rivales": {

@@ -6161,7 +6161,7 @@
     "2026-11-17": 32,
     "2026-11-18": 52,
     "2026-11-19": 127,
-    "2026-11-20": 17
+    "2026-11-20": 21
    },
    "pn": {
     "H5L-70M": {
@@ -6247,12 +6247,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795135225,
+     "t": 1795136066,
      "estado": "",
      "ls": 1062,
      "mid": 4396762115,
      "mer": {
-      "t": 1795135269,
+      "t": 1795136075,
       "n": 366,
       "vende": [
        {
@@ -6272,8 +6272,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 559388,
-        "d": 47352
+        "p": 559400,
+        "d": 47353
        },
        {
         "n": "opal",
@@ -6351,7 +6351,7 @@
        "no": 3
       },
       "2026-11-20": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      },
@@ -6404,12 +6404,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795135231,
+     "naves_t": 1795136072,
      "neg": {
       "Distance": 5
      },
      "mods": 818,
-     "mods_t": 1795135231
+     "mods_t": 1795136072
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -6997,7 +6997,7 @@
     "Planetary Construction Site: Li Command Facility": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795134859,
+     "t": 1795135697,
      "estado": "",
      "ls": 1987,
      "pads": {
@@ -7007,11 +7007,17 @@
      },
      "mid": 4404710403,
      "mer": {
-      "t": 1795134866,
+      "t": 1795135704,
       "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-20": {
+       "ok": 2,
+       "no": 0
+      }
      }
     }
    },
@@ -21877,10 +21883,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795134933.9282007,
-  "msgs": 362024,
+  "msgs": 372096,
   "mios": 34
  },
- "t": 1795135293.2114542,
+ "t": 1795136084.837375,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -21894,7 +21900,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795116650
+   "t": 1795135762
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -23023,9 +23029,9 @@
    "ly": 19.9,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 2197244,
+   "pob": 2197318,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794929987
+   "t": 1795135510
   },
   "G 98-44": {
    "pos": [
@@ -25391,7 +25397,7 @@
    "nfac": 4,
    "pob": 108717424,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795082525
+   "t": 1795135456
   },
   "Tripuru": {
    "pos": [
@@ -25714,9 +25720,9 @@
    "ly": 18.7,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 1684616,
+   "pob": 1696092,
    "ctrl_n": "East India Company",
-   "t": 1795054619
+   "t": 1795135931
   },
   "Col 285 Sector XJ-R a34-4": {
    "pos": [
@@ -25781,7 +25787,7 @@
    "nfac": 6,
    "pob": 56483,
    "ctrl_n": "East India Company",
-   "t": 1795121252
+   "t": 1795135696
   },
   "Warnates": {
    "pos": [
@@ -27125,7 +27131,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795121252
+   "t": 1795135696
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -27239,7 +27245,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795116650
+   "t": 1795135762
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -28682,7 +28688,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1795134010
+   "t": 1795135647
   },
   "LP 254-27": {
    "pos": [
@@ -28828,6 +28834,55 @@
     "Jerome Archer"
    ],
    "t": 1795134872
+  },
+  "Ceti Sector FB-X c1-26": {
+   "pos": [
+    21.875,
+    -81.75,
+    -22.375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.054186,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795135456
+  },
+  "Tascheter Sector AL-O a6-0": {
+   "pos": [
+    7.625,
+    -32.9375,
+    -41.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.077712,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795135510
+  },
+  "Trianguli Sector RU-O a6-2": {
+   "pos": [
+    17.71875,
+    -43.875,
+    -61.78125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.042283,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795135931
   }
  },
  "rivales": {

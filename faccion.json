@@ -4380,7 +4380,8 @@
     "1795096800": 1
    },
    "rutas": {
-    "2026-11-19": 2
+    "2026-11-19": 2,
+    "2026-11-20": 1
    },
    "prev": null,
    "prev_t": null,
@@ -22368,10 +22369,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795166410.7007675,
-  "msgs": 658176,
+  "msgs": 665120,
   "mios": 49
  },
- "t": 1795168412.555888,
+ "t": 1795169503.767779,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -23230,7 +23231,7 @@
    "nfac": 6,
    "pob": 141005,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795082716
+   "t": 1795168879
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -29632,7 +29633,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795165598
+   "t": 1795169224
   },
   "Wolf 289": {
    "pos": [
@@ -30800,6 +30801,58 @@
     "Pranav Antal"
    ],
    "t": 1795167735
+  },
+  "EGM 762": {
+   "pos": [
+    12.375,
+    -79.1875,
+    -3.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1795169628
+  },
+  "LTT 606": {
+   "pos": [
+    0.5625,
+    -78.125,
+    -5.28125
+   ],
+   "pot": "Denton Patreus",
+   "est": "Fortified",
+   "prog": 0.112694,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795168879
+  },
+  "Cosi": {
+   "pos": [
+    24.75,
+    -14.6875,
+    -70.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.275927,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795169259
   }
  },
  "rivales": {

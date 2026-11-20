@@ -577,9 +577,9 @@
   },
   "Hyades Sector SU-N b7-5": {
    "sys": "Hyades Sector SU-N b7-5",
-   "t": 1795082195,
+   "t": 1795126401,
    "src": "EDDN",
-   "inf": 54.65,
+   "inf": 54.95,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -588,12 +588,12 @@
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 28.07,
+   "segunda_inf": 27.87,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 54.65,
+     "inf": 54.95,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -604,18 +604,16 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 28.07,
+     "inf": 27.87,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "LTT 11648 Partners",
-     "inf": 17.28,
+     "inf": 17.18,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -659,7 +657,7 @@
     "2026-11-15": 1,
     "2026-11-17": 26,
     "2026-11-18": 11,
-    "2026-11-19": 2
+    "2026-11-19": 3
    },
    "pn": {
     "WLY-73X": {
@@ -669,10 +667,10 @@
     }
    },
    "tk": {
-    "firma": "61978291",
-    "igual": 1795082195,
-    "ult": 1795082195,
-    "desde": 1795022208,
+    "firma": "79d59143",
+    "igual": 1795126401,
+    "ult": 1795126401,
+    "desde": 1795082195,
     "est": null,
     "vent": [
      [
@@ -682,6 +680,10 @@
      [
       1795022208,
       1795082195
+     ],
+     [
+      1795082195,
+      1795126401
      ]
     ]
    },
@@ -692,7 +694,8 @@
     "1794945600": 1,
     "1794992400": 1,
     "1795021200": 1,
-    "1795078800": 1
+    "1795078800": 1,
+    "1795125600": 1
    },
    "rutas": {
     "2026-11-17": 6,
@@ -1187,8 +1190,8 @@
      }
     }
    },
-   "prev": 57.64,
-   "prev_t": 1795022208,
+   "prev": 54.65,
+   "prev_t": 1795082195,
    "hinf": [
     [
      1794335731,
@@ -1221,26 +1224,24 @@
     [
      1795082195,
      54.65
+    ],
+    [
+     1795126401,
+     54.95
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 0,
-    "Sirius Special Forces": 1,
-    "LTT 11648 Partners": 2
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
+    "LTT 11648 Partners": 0
    },
-   "rivales": [
-    {
-     "n": "LTT 11648 Partners",
-     "racha": 2,
-     "inf": 17.28,
-     "dif": -37.37
-    }
-   ],
-   "tick_ult": 1795082195,
-   "tick_marg": 499,
-   "tick_prox": 1795143870,
-   "tick_disp": 372,
-   "tick_n": 0
+   "rivales": [],
+   "tick_ult": 1795126401,
+   "tick_marg": 368,
+   "tick_prox": 1795210320,
+   "tick_disp": 40,
+   "tick_n": 0,
+   "cseg": {}
   },
   "Hyades Sector VA-M b8-3": {
    "sys": "Hyades Sector VA-M b8-3",
@@ -5042,15 +5043,15 @@
   },
   "Adjukru": {
    "sys": "Adjukru",
-   "t": 1794162781,
+   "t": 1795126347,
    "src": "EDDN",
    "inf": 64.75,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "160 S.O.A.R.",
    "segunda_inf": 13.84,
@@ -5061,11 +5062,11 @@
      "inf": 64.75,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "160 S.O.A.R.",
@@ -5076,16 +5077,18 @@
       "Expansion"
      ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Beasts of Bestia",
      "inf": 11.41,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "New Adjukru Coalition",
@@ -5094,7 +5097,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Adjukru Silver Brotherhood",
@@ -5103,7 +5106,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -5114,15 +5117,50 @@
    ],
    "sis": {
     "pob": 13870,
-    "eco": "Extraction",
-    "eco2": null,
-    "seg": "Low",
-    "gov": "Democracy",
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": "Jerome Archer",
+    "est": "Exploited",
+    "prog": 0.16114,
+    "ref": 0,
+    "soc": 0,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Pranav Antal",
+     "Zemina Torval",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-19": 1
+   },
+   "saltos": {
+    "1795125600": 1
    },
    "rutas": {
     "2026-11-19": 1
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794162781,
+     64.75
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "6a920fd6",
+    "igual": 1795126347
+   },
+   "cseg": {}
   },
   "Burr": {
    "sys": "Burr",
@@ -22149,11 +22187,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795146175.9645507,
-  "msgs": 477899,
-  "mios": 39
+  "ultimo": 1795146180.8793843,
+  "msgs": 486374,
+  "mios": 41
  },
- "t": 1795145990.1886764,
+ "t": 1795146560.8424537,
  "tick_global": 1795107129,
  "expansion": {
   "Lalande 10797": {
@@ -22474,12 +22512,12 @@
     -2.375,
     -122.28125
    ],
-   "ly": 11.1,
-   "junto": "Hyades Sector SU-N b7-0",
+   "ly": 9.8,
+   "junto": "Hyades Sector JX-T c3-11",
    "nfac": 6,
    "pob": 7515127,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794885453
+   "t": 1795126521
   },
   "Tascheter Sector BQ-Y c19": {
    "pos": [
@@ -29765,6 +29803,72 @@
     "Jerome Archer"
    ],
    "t": 1795126284
+  },
+  "Adjukru": {
+   "pos": [
+    -20.09375,
+    7.875,
+    -96.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.16114,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795126347
+  },
+  "Hyades Sector SU-N b7-5": {
+   "pos": [
+    -17.6875,
+    -1,
+    -107.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795126401
+  },
+  "Kwangwutii": {
+   "pos": [
+    -8.90625,
+    -2.375,
+    -122.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.153231,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795126521
+  },
+  "HIP 44811": {
+   "pos": [
+    132.84375,
+    -4.40625,
+    3.34375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.135998,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795146556
   }
  },
  "rivales": {

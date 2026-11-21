@@ -13846,7 +13846,10 @@
     ]
    ],
    "rach": {},
-   "rivales": []
+   "rivales": [],
+   "rutas": {
+    "2026-11-21": 1
+   }
   },
   "Parrot's Head Sector PS-T b3-3": {
    "sys": "Parrot's Head Sector PS-T b3-3",
@@ -25210,10 +25213,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795268970.285509,
-  "msgs": 1969879,
+  "msgs": 1983610,
   "mios": 176
  },
- "t": 1795270470.609645,
+ "t": 1795271712.917809,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26980,9 +26983,9 @@
    "ly": 7.8,
    "junto": "Yin Sector ZU-Y b3",
    "nfac": 3,
-   "pob": 59938269,
+   "pob": 59940018,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795138167
+   "t": 1795271470
   },
   "Hyades Sector QO-P b6-7": {
    "pos": [
@@ -27840,7 +27843,7 @@
    "nfac": 5,
    "pob": 47351990,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795245840
+   "t": 1795271537
   },
   "Oisi": {
    "pos": [
@@ -30022,9 +30025,9 @@
    "ly": 19.4,
    "junto": "Hyades Sector XV-L b8-3",
    "nfac": 3,
-   "pob": 2223207,
+   "pob": 2223380,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795217565
+   "t": 1795271630
   },
   "Bhumian Ku": {
    "pos": [
@@ -30779,9 +30782,68 @@
    "pob": 551359,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1795270464
+  },
+  "Furuhjelm II-431": {
+   "pos": [
+    -4.28125,
+    25.53125,
+    -75.96875
+   ],
+   "ly": 5.2,
+   "junto": "BD+40 1697",
+   "nfac": 5,
+   "pob": 218947,
+   "ctrl_n": "LP 254-27 Free",
+   "t": 1795270912
+  },
+  "Amemakarna": {
+   "pos": [
+    -24.125,
+    55.75,
+    -142.0625
+   ],
+   "ly": 12.3,
+   "junto": "HIP 31451",
+   "nfac": 6,
+   "pob": 2251483,
+   "ctrl_n": "Potolot Inc.",
+   "t": 1795271188
+  },
+  "Lyncis Sector FG-Y d85": {
+   "pos": [
+    -28.28125,
+    40.46875,
+    -158.5
+   ],
+   "ly": 14.5,
+   "junto": "HIP 31451",
+   "nfac": 3,
+   "pob": 860605,
+   "ctrl_n": "Nagii Union",
+   "t": 1795271233
   }
  },
  "codice": [
+  {
+   "sys": "StKM 1-626",
+   "n": "Cactoid 01 M",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "StKM 1-626 A 4 a",
+   "junto": "LP 254-40",
+   "ly": 13.1,
+   "t": 1795271342
+  },
+  {
+   "sys": "StKM 1-626",
+   "n": "Aleoids 02 M",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "StKM 1-626 A 4 a",
+   "junto": "LP 254-40",
+   "ly": 13.1,
+   "t": 1795271091
+  },
   {
    "sys": "LHS 1734",
    "n": "Bacterial 08 Yttrium",
@@ -31061,26 +31123,6 @@
    "junto": "LP 254-40",
    "ly": 16.5,
    "t": 1795180696
-  },
-  {
-   "sys": "LHS 1914",
-   "n": "Osseus 03 T",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "LHS 1914 B 2",
-   "junto": "LP 254-40",
-   "ly": 16.5,
-   "t": 1795180684
-  },
-  {
-   "sys": "LHS 1914",
-   "n": "Fungoids 01 Polonium",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "LHS 1914 B 2",
-   "junto": "LP 254-40",
-   "ly": 16.5,
-   "t": 1795180665
   }
  ],
  "ataques": {
@@ -31515,7 +31557,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795177578
+   "t": 1795271088
   },
   "BD+27 1356": {
    "pos": [
@@ -33309,7 +33351,7 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.070854,
+   "prog": 0.070814,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -33317,7 +33359,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795138167
+   "t": 1795271470
   },
   "EGM 823": {
    "pos": [
@@ -33546,7 +33588,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.10176,
+   "prog": 0.101846,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -33554,7 +33596,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795245840
+   "t": 1795271537
   },
   "LP 365-24": {
    "pos": [
@@ -34666,7 +34708,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795217565
+   "t": 1795271630
   },
   "HR 3277": {
    "pos": [
@@ -34682,7 +34724,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795269623
+   "t": 1795271353
   },
   "Bhumian Ku": {
    "pos": [
@@ -35343,7 +35385,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795265639
+   "t": 1795271682
   },
   "Scottii": {
    "pos": [
@@ -38920,6 +38962,53 @@
     "Li Yong-Rui"
    ],
    "t": 1795270464
+  },
+  "Furuhjelm II-431": {
+   "pos": [
+    -4.28125,
+    25.53125,
+    -75.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795270912
+  },
+  "Amemakarna": {
+   "pos": [
+    -24.125,
+    55.75,
+    -142.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795271188
+  },
+  "Lyncis Sector FG-Y d85": {
+   "pos": [
+    -28.28125,
+    40.46875,
+    -158.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1795271233
   }
  },
  "rivales": {

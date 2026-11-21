@@ -24165,10 +24165,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1624283,
+  "msgs": 1632906,
   "mios": 144
  },
- "t": 1795240644.4475539,
+ "t": 1795241845.3942704,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24273,7 +24273,7 @@
    "nfac": 4,
    "pob": 219721,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795199628
+   "t": 1795241840
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -24702,7 +24702,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795064242
+   "t": 1795241057
   },
   "HIP 33497": {
    "pos": [
@@ -35098,7 +35098,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795199628
+   "t": 1795241840
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -36863,6 +36863,40 @@
     "Jerome Archer"
    ],
    "t": 1795238339
+  },
+  "Decima": {
+   "pos": [
+    35.9375,
+    -34.4375,
+    -30.4375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.234229,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795241057
+  },
+  "Trante": {
+   "pos": [
+    128.875,
+    -3.5,
+    26.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.0926,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795241414
   }
  },
  "rivales": {

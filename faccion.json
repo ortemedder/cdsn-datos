@@ -6857,7 +6857,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 1
+    "2026-11-21": 5
    },
    "pn": {
     "H5L-70M": {
@@ -6956,12 +6956,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795217818,
+     "t": 1795219754,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795217921,
+      "t": 1795219840,
       "n": 366,
       "vende": [
        {
@@ -6981,8 +6981,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 549449,
-        "d": 47534
+        "p": 549473,
+        "d": 47536
        },
        {
         "n": "opal",
@@ -7062,6 +7062,10 @@
       "2026-11-20": {
        "ok": 32,
        "no": 0
+      },
+      "2026-11-21": {
+       "ok": 2,
+       "no": 0
       }
      },
      "pads": {
@@ -7114,12 +7118,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795217824,
+     "naves_t": 1795219761,
      "neg": {
       "Distance": 5
      },
      "mods": 867,
-     "mods_t": 1795217824
+     "mods_t": 1795219761
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7616,8 +7620,8 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795219285,
-      "n": 160,
+      "t": 1795219390,
+      "n": 366,
       "vende": [
        {
         "n": "musgravite",
@@ -7763,7 +7767,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      }
@@ -23938,10 +23942,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795218368.417422,
-  "msgs": 1380881,
+  "msgs": 1391756,
   "mios": 139
  },
- "t": 1795219290.1882725,
+ "t": 1795220232.7287238,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24423,7 +24427,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795218162
+   "t": 1795220047
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -24644,7 +24648,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795218477
+   "t": 1795220016
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -25643,9 +25647,9 @@
    "ly": 1.9,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 3,
-   "pob": 46998283,
+   "pob": 47088543,
    "ctrl_n": "Ukrainian Pilots Federation",
-   "t": 1794949628
+   "t": 1795219439
   },
   "LHS 1747": {
    "pos": [
@@ -25931,7 +25935,7 @@
    "nfac": 4,
    "pob": 1594558,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795165035
+   "t": 1795220095
   },
   "Loki Tan": {
    "pos": [
@@ -29181,7 +29185,7 @@
    "nfac": 6,
    "pob": 3802851,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795218825
+   "t": 1795219342
   },
   "HIP 37162": {
    "pos": [
@@ -29540,16 +29544,6 @@
  ],
  "ataques": {
   "act": {
-   "Yin Sector XJ-A c21": {
-    "ini": 1795118711,
-    "v": 5,
-    "m": 0.6,
-    "dia": "hoy",
-    "antes": 16.97,
-    "min": 13.84,
-    "inf": 13.84,
-    "ctrl": false
-   },
    "Hyades Sector SU-N b7-0": {
     "ini": 1795185724,
     "v": 39,
@@ -29573,6 +29567,20 @@
    }
   },
   "hist": [
+   {
+    "sys": "Yin Sector XJ-A c21",
+    "ini": 1795118711,
+    "fin": 1795219420,
+    "v": 5,
+    "m": 0.6,
+    "antes": 16.97,
+    "min": 13.84,
+    "inf": 13.84,
+    "dif": -3.1,
+    "res": "perdida",
+    "ctrl": false,
+    "quien": ""
+   },
    {
     "sys": "Hyades Sector DB-X d1-112",
     "ini": 1795024212,
@@ -29745,14 +29753,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233289,
+   "prog": 0.233322,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795218162
+   "t": 1795220047
   },
   "Nergal": {
    "pos": [
@@ -30851,13 +30859,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.042906,
+   "prog": 0.04846,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795218477
+   "t": 1795220016
   },
   "Mandu": {
    "pos": [
@@ -32877,7 +32885,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795165035
+   "t": 1795220095
   },
   "Yin Sector YU-Y b4": {
    "pos": [
@@ -33744,7 +33752,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795197375
+   "t": 1795219587
   },
   "StKM 1-626": {
    "pos": [
@@ -34514,7 +34522,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795213258
+   "t": 1795220133
   },
   "Lan Caihe": {
    "pos": [
@@ -35394,7 +35402,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795218825
+   "t": 1795219342
   },
   "HR 2439": {
    "pos": [
@@ -35748,7 +35756,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795219239
+   "t": 1795220128
   },
   "LTT 11503": {
    "pos": [
@@ -35830,6 +35838,20 @@
     "Jerome Archer"
    ],
    "t": 1795219081
+  },
+  "Ceti Sector CL-X b1-2": {
+   "pos": [
+    7.15625,
+    -102.28125,
+    -54.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795219439
   }
  },
  "rivales": {

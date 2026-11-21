@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 10
+    "2026-11-21": 11
    },
    "zc": [
     {
@@ -13749,7 +13749,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1794995134,
+   "t": 1795271792,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -13802,7 +13802,7 @@
     -145.28125
    ],
    "sis": {
-    "pob": 269631310,
+    "pob": 270097022,
     "eco": "$economy_Agri;",
     "eco2": "$economy_Refinery;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -13824,7 +13824,8 @@
     "2026-11-10": 2,
     "2026-11-14": 17,
     "2026-11-15": 5,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-21": 1
    },
    "pn": {
     "T9Q-5HX": {
@@ -13835,7 +13836,13 @@
    },
    "tk": {
     "firma": "7c1e5e67",
-    "igual": 1794995134
+    "igual": 1795271792
+   },
+   "saltos": {
+    "1795269600": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
    },
    "prev": null,
    "prev_t": null,
@@ -13847,9 +13854,7 @@
    ],
    "rach": {},
    "rivales": [],
-   "rutas": {
-    "2026-11-21": 1
-   }
+   "cseg": {}
   },
   "Parrot's Head Sector PS-T b3-3": {
    "sys": "Parrot's Head Sector PS-T b3-3",
@@ -24897,7 +24902,7 @@
   },
   "Yin Sector XJ-A c20": {
    "sys": "Yin Sector XJ-A c20",
-   "t": 1795260221,
+   "t": 1795272204,
    "src": "EDDN",
    "inf": 16.04,
    "ctrl": false,
@@ -24989,21 +24994,18 @@
      "Jerome Archer"
     ]
    },
-   "hinf": [
-    [
-     1795260221,
-     16.04
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
+   "trafico": {
+    "2026-11-21": 3
+   },
    "tk": {
     "firma": "9cfa3740",
-    "igual": 1795260221
+    "igual": 1795272204
    },
-   "cseg": {},
-   "trafico": {
-    "2026-11-21": 2
+   "saltos": {
+    "1795269600": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
    },
    "estaciones": {
     "Love Horizons": {
@@ -25108,7 +25110,7 @@
     "Eden City": {
      "f": "THE AZGHARIE",
      "tipo": "Coriolis",
-     "t": 1795260496,
+     "t": 1795272340,
      "estado": "",
      "ls": 14443,
      "pads": {
@@ -25118,7 +25120,7 @@
      },
      "mid": 4270899715,
      "mer": {
-      "t": 1795260502,
+      "t": 1795272347,
       "n": 134,
       "vende": [
        {
@@ -25196,7 +25198,7 @@
       ]
      },
      "mods": 155,
-     "mods_t": 1795260502,
+     "mods_t": 1795272347,
      "naves": [
       "adder",
       "cobramkiii",
@@ -25205,18 +25207,35 @@
       "sidewinder",
       "type6"
      ],
-     "naves_t": 1795260502
+     "naves_t": 1795272347,
+     "atq": {
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1795260221,
+     16.04
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795268970.285509,
-  "msgs": 1983610,
-  "mios": 176
+  "ultimo": 1795272206.1037526,
+  "msgs": 1998799,
+  "mios": 178
  },
- "t": 1795271712.917809,
+ "t": 1795272425.1796405,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25438,7 +25457,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795266674
+   "t": 1795272405
   },
   "LHS 1499": {
    "pos": [
@@ -25698,7 +25717,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795232877
+   "t": 1795271919
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -28959,9 +28978,9 @@
    "ly": 6.7,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 2194179,
+   "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795190363
+   "t": 1795271957
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -29104,7 +29123,7 @@
    "nfac": 6,
    "pob": 56483,
    "ctrl_n": "East India Company",
-   "t": 1795262998
+   "t": 1795272381
   },
   "Warnates": {
    "pos": [
@@ -30821,6 +30840,19 @@
    "pob": 860605,
    "ctrl_n": "Nagii Union",
    "t": 1795271233
+  },
+  "Kuan Yin": {
+   "pos": [
+    -20.53125,
+    61.25,
+    -140.96875
+   ],
+   "ly": 18.1,
+   "junto": "HIP 31451",
+   "nfac": 5,
+   "pob": 8755482,
+   "ctrl_n": "Potolot Inc.",
+   "t": 1795272113
   }
  },
  "codice": [
@@ -31336,14 +31368,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.233322,
+   "prog": 0.229966,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795232877
+   "t": 1795271919
   },
   "Nergal": {
    "pos": [
@@ -31508,7 +31540,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795262998
+   "t": 1795272381
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -31879,7 +31911,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795269915
+   "t": 1795271732
   },
   "LP 157-32": {
    "pos": [
@@ -32757,7 +32789,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795266674
+   "t": 1795272405
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -34639,13 +34671,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.152864,
+   "prog": 0.15293,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795268307
+   "t": 1795272218
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -35063,14 +35095,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.274859,
+   "prog": 0.274756,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795233125
+   "t": 1795272422
   },
   "Lyncis Sector CQ-Y c7": {
    "pos": [
@@ -35541,14 +35573,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.139998,
+   "prog": 0.140015,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795190363
+   "t": 1795271957
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -38568,7 +38600,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795260221
+   "t": 1795272204
   },
   "Otohiko": {
    "pos": [
@@ -39009,6 +39041,37 @@
     "Jerome Archer"
    ],
    "t": 1795271233
+  },
+  "HIP 31451": {
+   "pos": [
+    -23.46875,
+    43.875,
+    -145.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795271792
+  },
+  "Kuan Yin": {
+   "pos": [
+    -20.53125,
+    61.25,
+    -140.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795272113
   }
  },
  "rivales": {

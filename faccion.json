@@ -8396,15 +8396,15 @@
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
-   "t": 1794175553,
+   "t": 1795247933,
    "src": "EDDN",
    "inf": 63.73,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 19.54,
@@ -8415,11 +8415,11 @@
      "inf": 63.73,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Sirius Special Forces",
@@ -8428,7 +8428,7 @@
      "alg": "Federation",
      "act": [],
      "pend": [],
-     "jug": true
+     "jug": null
     },
     {
      "n": "Movement for Ariminimi Labour Union",
@@ -8437,7 +8437,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     },
     {
      "n": "Jitabed Raiders",
@@ -8446,7 +8446,7 @@
      "alg": "Independent",
      "act": [],
      "pend": [],
-     "jug": false
+     "jug": null
     }
    ],
    "ctrl_n": "Caballeros de Sion",
@@ -8456,16 +8456,49 @@
     -114.125
    ],
    "sis": {
-    "pob": 220837,
-    "eco": "Military",
-    "eco2": "Service",
-    "seg": "Low",
-    "gov": "Democracy",
+    "pob": 221112,
+    "eco": "$economy_Military;",
+    "eco2": "$economy_Service;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Democracy;",
     "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "trafico": {
+    "2026-11-21": 4
+   },
+   "saltos": {
+    "1795244400": 2
    },
    "rutas": {
     "2026-11-21": 3
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794175553,
+     63.73
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "c724721b",
+    "igual": 1795247933
+   },
+   "cseg": {}
   },
   "Ndabangluya": {
    "sys": "Ndabangluya",
@@ -24206,11 +24239,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795244750.5995467,
-  "msgs": 1676100,
-  "mios": 145
+  "ultimo": 1795247934.5322118,
+  "msgs": 1684029,
+  "mios": 146
  },
- "t": 1795247291.657449,
+ "t": 1795247952.6496918,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -29633,6 +29666,19 @@
    "pob": 2194682,
    "ctrl_n": "The Brigade",
    "t": 1795245916
+  },
+  "Tascheter Sector BV-Y b8": {
+   "pos": [
+    2,
+    -8.875,
+    -100.75
+   ],
+   "ly": 13.7,
+   "junto": "Tascheter Sector UT-A b1",
+   "nfac": 4,
+   "pob": 1998491,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795247337
   }
  },
  "codice": [
@@ -35052,7 +35098,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795204593
+   "t": 1795247419
   },
   "Lakheo": {
    "pos": [
@@ -37051,6 +37097,39 @@
     "Li Yong-Rui"
    ],
    "t": 1795245916
+  },
+  "Tascheter Sector BV-Y b8": {
+   "pos": [
+    2,
+    -8.875,
+    -100.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795247337
+  },
+  "Hyades Sector JX-T c3-13": {
+   "pos": [
+    -23.84375,
+    6.0625,
+    -114.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795247933
   }
  },
  "rivales": {

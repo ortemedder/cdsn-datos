@@ -24165,10 +24165,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1616163,
+  "msgs": 1624283,
   "mios": 144
  },
- "t": 1795240103.8052278,
+ "t": 1795240644.4475539,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26988,9 +26988,9 @@
    "ly": 16.6,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 340531742,
+   "pob": 340552845,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795212872
+   "t": 1795240460
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -29536,9 +29536,9 @@
    "ly": 5.8,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 6,
-   "pob": 250195,
+   "pob": 250206,
    "ctrl_n": "Aseveljet",
-   "t": 1795235169
+   "t": 1795240633
   },
   "Apisina": {
    "pos": [
@@ -31120,7 +31120,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.206858,
+   "prog": 0.206968,
    "pots": [
     "Denton Patreus",
     "Felicia Winters",
@@ -31128,7 +31128,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795212872
+   "t": 1795240460
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -36285,7 +36285,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795223417
+   "t": 1795240533
   },
   "Didarengu": {
    "pos": [
@@ -36715,7 +36715,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795235169
+   "t": 1795240633
   },
   "BD+33 801": {
    "pos": [

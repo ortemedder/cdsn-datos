@@ -2217,7 +2217,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 32
+    "2026-11-21": 33
    },
    "zc": [
     {
@@ -7469,7 +7469,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 199
+    "2026-11-21": 205
    },
    "pn": {
     "H5L-70M": {
@@ -7577,18 +7577,18 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795303682,
+     "t": 1795304874,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795303728,
+      "t": 1795304903,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 700735,
-        "d": 18162
+        "p": 700756,
+        "d": 18163
        },
        {
         "n": "musgravite",
@@ -7601,12 +7601,12 @@
         "d": 30771
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 449565,
         "d": 769233
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 449565,
         "d": 769233
        }
@@ -7673,7 +7673,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 61,
+       "ok": 63,
        "no": 3
       }
      },
@@ -7683,18 +7683,57 @@
       "Large": 9
      },
      "naves": [
+      "adder",
+      "anaconda",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
       "explorer_nx",
       "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
       "mediumtransport01",
-      "panthermkii"
+      "orca",
+      "panthermkii",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1795303634,
+     "naves_t": 1795304880,
      "neg": {
       "Distance": 7,
       "Offences": 1
      },
      "mods": 897,
-     "mods_t": 1795303576
+     "mods_t": 1795304880
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8817,7 +8856,7 @@
     "Orbital Construction Site: Shawl Horizons": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795303983,
+     "t": 1795304627,
      "estado": "",
      "ls": 1575,
      "pads": {
@@ -8827,11 +8866,17 @@
      },
      "mid": 3957542658,
      "mer": {
-      "t": 1795303990,
-      "n": 1,
+      "t": 1795304634,
+      "n": 4,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-21": {
+       "ok": 2,
+       "no": 0
+      }
      }
     }
    },
@@ -11290,23 +11335,23 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795217809,
+   "t": 1795304381,
    "src": "EDDN",
-   "inf": 59.49,
+   "inf": 59.88,
    "ctrl": true,
-   "estado": "None",
+   "estado": "Expansion",
    "activos": [],
    "pendientes": [
     "Expansion"
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 18.18,
+   "segunda_inf": 17.98,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 59.49,
+     "inf": 59.88,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -11317,7 +11362,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 18.18,
+     "inf": 17.98,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -11326,7 +11371,7 @@
     },
     {
      "n": "THE AZGHARIE",
-     "inf": 13.04,
+     "inf": 12.94,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -11337,7 +11382,7 @@
     },
     {
      "n": "Aristocrats of Lhou Wangs",
-     "inf": 9.29,
+     "inf": 9.19,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -11352,7 +11397,7 @@
     -120
    ],
    "sis": {
-    "pob": 102813442,
+    "pob": 103222107,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -11382,24 +11427,30 @@
     "2026-11-16": 1,
     "2026-11-17": 14,
     "2026-11-18": 3,
-    "2026-11-20": 39
+    "2026-11-20": 39,
+    "2026-11-21": 5
    },
    "pn": {
     "V8X-11L": {
-     "n": "",
-     "t": 1795207646,
+     "n": "ALATREON",
+     "t": 1795304523,
      "d": 1794919881
     },
     "V0Z-T1Q": {
      "n": "AVALON",
      "t": 1794763930
+    },
+    "TNJ-39Z": {
+     "n": "CARGO-PRIME",
+     "t": 1795304523,
+     "d": 1795304381
     }
    },
    "tk": {
-    "firma": "efd7bb88",
-    "igual": 1795217809,
-    "ult": 1795179189,
-    "desde": 1794992890,
+    "firma": "f62c872b",
+    "igual": 1795304381,
+    "ult": 1795304381,
+    "desde": 1795217809,
     "est": null,
     "vent": [
      [
@@ -11432,7 +11483,8 @@
     "1795183200": 1,
     "1795190400": 1,
     "1795194000": 1,
-    "1795201200": 1
+    "1795201200": 1,
+    "1795302000": 1
    },
    "rutas": {
     "2026-11-17": 5,
@@ -11444,7 +11496,7 @@
     "Piel City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795208629,
+     "t": 1795304908,
      "estado": "",
      "ls": 401,
      "pads": {
@@ -11454,92 +11506,74 @@
      },
      "mid": 4212382211,
      "mer": {
-      "t": 1795208649,
-      "n": 366,
+      "t": 1795305002,
+      "n": 163,
       "vende": [
+       {
+        "n": "monazite",
+        "p": 413137,
+        "d": 1798
+       },
+       {
+        "n": "iridium",
+        "p": 264786,
+        "d": 68970
+       },
+       {
+        "n": "periclasedunite",
+        "p": 264786,
+        "d": 31147
+       },
+       {
+        "n": "thortveitite",
+        "p": 264786,
+        "d": 31147
+       },
        {
         "n": "alexandrite",
         "p": 229501,
         "d": 3309
-       },
-       {
-        "n": "musgravite",
-        "p": 211369,
-        "d": 3309
-       },
-       {
-        "n": "grandidierite",
-        "p": 210452,
-        "d": 3309
-       },
-       {
-        "n": "monazite",
-        "p": 206436,
-        "d": 1795
-       },
-       {
-        "n": "metaalloys",
-        "p": 195305,
-        "d": 10704
        }
       ],
       "alta": [
        {
-        "n": "water",
-        "p": 629,
-        "m": 260
+        "n": "lepidolite",
+        "p": 5779,
+        "m": 741
        },
        {
-        "n": "algae",
-        "p": 636,
-        "m": 308
-       },
-       {
-        "n": "beer",
-        "p": 691,
-        "m": 350
-       },
-       {
-        "n": "wine",
-        "p": 773,
-        "m": 417
+        "n": "aquaponicsystems",
+        "p": 2397,
+        "m": 502
        },
        {
         "n": "ceramiccomposites",
-        "p": 710,
+        "p": 1859,
         "m": 402
+       },
+       {
+        "n": "bauxite",
+        "p": 4660,
+        "m": 1096
+       },
+       {
+        "n": "mineraloil",
+        "p": 1284,
+        "m": 416
        }
       ],
       "barato": [
        {
-        "n": "foodcartridges",
-        "p": 57,
-        "m": 252,
-        "s": 54853
-       },
-       {
         "n": "biowaste",
-        "p": 63,
+        "p": 132,
         "m": 271,
         "s": 32070
        },
        {
-        "n": "polymers",
-        "p": 108,
-        "m": 306,
-        "s": 1120794
-       },
-       {
-        "n": "explosives",
-        "p": 223,
-        "m": 483,
-        "s": 212052
-       },
-       {
-        "n": "evacuationshelter",
-        "p": 235,
-        "m": 500,
-        "s": 1122
+        "n": "foodcartridges",
+        "p": 136,
+        "m": 252,
+        "s": 54853
        }
       ]
      },
@@ -11555,10 +11589,14 @@
       "2026-11-20": {
        "ok": 7,
        "no": 0
+      },
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
       }
      },
      "mods": 919,
-     "mods_t": 1795208635,
+     "mods_t": 1795304914,
      "naves": [
       "adder",
       "anaconda",
@@ -11599,7 +11637,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795208635
+     "naves_t": 1795304914
     },
     "Orbital Construction Site: Kerimov Beacon": {
      "f": "Brewer Corporation",
@@ -11659,7 +11697,7 @@
     "Orbital Construction Site: Constantine's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795217809,
+     "t": 1795304613,
      "estado": "",
      "ls": 719,
      "pads": {
@@ -11669,8 +11707,8 @@
      },
      "mid": 3965873922,
      "mer": {
-      "t": 1795217816,
-      "n": 0,
+      "t": 1795304619,
+      "n": 8,
       "vende": [],
       "alta": [],
       "barato": []
@@ -11678,6 +11716,10 @@
      "atq": {
       "2026-11-20": {
        "ok": 5,
+       "no": 0
+      },
+      "2026-11-21": {
+       "ok": 1,
        "no": 0
       }
      }
@@ -11689,8 +11731,8 @@
     "baja": 2.37,
     "t": 1795179189
    },
-   "prev": 61.86,
-   "prev_t": 1794992890,
+   "prev": 59.49,
+   "prev_t": 1795217809,
    "hinf": [
     [
      1794331119,
@@ -11731,18 +11773,22 @@
     [
      1795179189,
      59.49
+    ],
+    [
+     1795304381,
+     59.88
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 0,
-    "Sirius Special Forces": 1,
+    "Caballeros de Sion": 1,
+    "Sirius Special Forces": 0,
     "THE AZGHARIE": 1,
     "Aristocrats of Lhou Wangs": 0
    },
    "rivales": [],
-   "tick_ult": 1795179189,
-   "tick_marg": 1552,
-   "tick_prox": 1795235820,
+   "tick_ult": 1795304381,
+   "tick_marg": 721,
+   "tick_prox": 1795408620,
    "tick_disp": 270,
    "tick_n": 0,
    "cseg": {}
@@ -16792,15 +16838,15 @@
   },
   "Hyades Sector SU-N b7-4": {
    "sys": "Hyades Sector SU-N b7-4",
-   "t": 1795221973,
+   "t": 1795304336,
    "src": "EDDN",
    "inf": 28.85,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 45.85,
@@ -16820,10 +16866,10 @@
      "inf": 28.85,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -16852,7 +16898,7 @@
     -122.0625
    ],
    "sis": {
-    "pob": 1627388,
+    "pob": 1627532,
     "eco": "$economy_Military;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -16872,10 +16918,15 @@
     ]
    },
    "trafico": {
-    "2026-11-21": 1
+    "2026-11-21": 2
+   },
+   "tk": {
+    "firma": "a89915bd",
+    "igual": 1795304336
    },
    "saltos": {
-    "1795219200": 1
+    "1795219200": 1,
+    "1795302000": 1
    },
    "rutas": {
     "2026-11-21": 3
@@ -16899,10 +16950,6 @@
     "Apadecavi Crew": 0
    },
    "rivales": [],
-   "tk": {
-    "firma": "a89915bd",
-    "igual": 1795221973
-   },
    "cseg": {}
   },
   "Ariminimi": {
@@ -20263,7 +20310,7 @@
   },
   "Hyades Sector RU-N b7-3": {
    "sys": "Hyades Sector RU-N b7-3",
-   "t": 1794537508,
+   "t": 1795304289,
    "src": "EDDN",
    "inf": 22.73,
    "ctrl": false,
@@ -20283,9 +20330,7 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [
-      "Expansion"
-     ],
+     "pend": [],
      "jug": null
     },
     {
@@ -20316,7 +20361,7 @@
     -119.875
    ],
    "sis": {
-    "pob": 2192056,
+    "pob": 2192973,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -20335,19 +20380,30 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-21": 1
+   },
+   "tk": {
+    "firma": "b28ae09b",
+    "igual": 1795304289
+   },
+   "saltos": {
+    "1795302000": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
+   },
+   "prev": null,
+   "prev_t": null,
    "hinf": [
     [
      1794537508,
      22.73
     ]
    ],
-   "tk": {
-    "firma": "b28ae09b",
-    "igual": 1794537508
-   },
-   "rutas": {
-    "2026-11-21": 1
-   }
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Arietis Sector CQ-Y d60": {
    "sys": "Arietis Sector CQ-Y d60",
@@ -27079,11 +27135,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795303682.8800316,
-  "msgs": 2672910,
-  "mios": 270
+  "ultimo": 1795304382.5175965,
+  "msgs": 2688976,
+  "mios": 273
  },
- "t": 1795304247.3970354,
+ "t": 1795305141.0484607,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28085,7 +28141,7 @@
    "nfac": 5,
    "pob": 13010,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795289175
+   "t": 1795305123
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -28449,7 +28505,7 @@
    "nfac": 6,
    "pob": 7797550,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795198122
+   "t": 1795304515
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -29632,7 +29688,7 @@
    "nfac": 6,
    "pob": 2760433,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794972591
+   "t": 1795304356
   },
   "Yaro": {
    "pos": [
@@ -30646,7 +30702,7 @@
    "nfac": 4,
    "pob": 313674,
    "ctrl_n": "East India Company",
-   "t": 1795281566
+   "t": 1795304870
   },
   "Col 285 Sector NS-J c9-17": {
    "pos": [
@@ -30828,7 +30884,7 @@
    "nfac": 3,
    "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795271957
+   "t": 1795304665
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -31894,7 +31950,7 @@
    "nfac": 3,
    "pob": 2223380,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795302159
+   "t": 1795305131
   },
   "Bhumian Ku": {
    "pos": [
@@ -32089,7 +32145,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795296992
+   "t": 1795305108
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -33293,17 +33349,6 @@
  ],
  "ataques": {
   "act": {
-   "Hyades Sector SU-N b7-0": {
-    "ini": 1795185724,
-    "v": 39,
-    "m": 4.4,
-    "dia": "hoy",
-    "antes": 61.86,
-    "min": 59.49,
-    "inf": 59.49,
-    "ctrl": true,
-    "quien": "Sirius Special Forces"
-   },
    "Menkalinan": {
     "ini": 1795214906,
     "v": 6,
@@ -33338,6 +33383,20 @@
    }
   },
   "hist": [
+   {
+    "sys": "Hyades Sector SU-N b7-0",
+    "ini": 1795185724,
+    "fin": 1795304558,
+    "v": 39,
+    "m": 4.4,
+    "antes": 61.86,
+    "min": 59.49,
+    "inf": 59.88,
+    "dif": -2.0,
+    "res": "perdida",
+    "ctrl": true,
+    "quien": "Sirius Special Forces"
+   },
    {
     "sys": "Yin Sector XJ-A c21",
     "ini": 1795118711,
@@ -33414,7 +33473,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795289175
+   "t": 1795305123
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -36896,7 +36955,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795302159
+   "t": 1795305131
   },
   "HR 3277": {
    "pos": [
@@ -37111,7 +37170,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795217809
+   "t": 1795304381
   },
   "Ethli": {
    "pos": [
@@ -37314,13 +37373,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257765,
+   "prog": 0.257768,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795198122
+   "t": 1795304515
   },
   "Lyncis Sector ZE-R b4-1": {
    "pos": [
@@ -37736,7 +37795,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795271957
+   "t": 1795304665
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -37932,7 +37991,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795296992
+   "t": 1795305108
   },
   "Eurus": {
    "pos": [
@@ -39670,7 +39729,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795221973
+   "t": 1795304336
   },
   "Girya Gu": {
    "pos": [
@@ -41535,7 +41594,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795281566
+   "t": 1795304870
   },
   "Khaima": {
    "pos": [
@@ -42523,6 +42582,38 @@
     "Jerome Archer"
    ],
    "t": 1795304242
+  },
+  "Hyades Sector RU-N b7-3": {
+   "pos": [
+    -29.28125,
+    10.03125,
+    -119.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795304289
+  },
+  "Sarugh": {
+   "pos": [
+    1.65625,
+    13.46875,
+    -120
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.263881,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795304356
   }
  },
  "rivales": {

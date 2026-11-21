@@ -20796,16 +20796,16 @@
   },
   "Hyades Sector VA-M b8-2": {
    "sys": "Hyades Sector VA-M b8-2",
-   "t": 1794885086,
+   "t": 1795267175,
    "src": "EDDN",
    "inf": 14.56,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "THE AZGHARIE",
    "segunda_inf": 44.07,
    "conflictos": [],
@@ -20815,10 +20815,10 @@
      "inf": 44.07,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -20827,7 +20827,9 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -20836,7 +20838,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -20847,7 +20851,7 @@
     -95.53125
    ],
    "sis": {
-    "pob": 4004942,
+    "pob": 4005174,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_high;",
@@ -20870,20 +20874,23 @@
    },
    "trafico": {
     "2026-11-15": 2,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-21": 1
    },
    "tk": {
     "firma": "b2890033",
-    "igual": 1794885086,
+    "igual": 1795267175,
     "ult": 1794885086,
     "desde": 1794775961,
     "est": null
    },
    "saltos": {
-    "1794884400": 1
+    "1794884400": 1,
+    "1795266000": 1
    },
    "rutas": {
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-21": 1
    },
    "prev": 14.64,
    "prev_t": 1794775961,
@@ -20904,7 +20911,8 @@
    },
    "rivales": [],
    "tick_ult": 1794885086,
-   "tick_marg": 909
+   "tick_marg": 909,
+   "cseg": {}
   },
   "Celticassag": {
    "sys": "Celticassag",
@@ -24956,11 +24964,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795263935.882245,
-  "msgs": 1902043,
-  "mios": 172
+  "ultimo": 1795267177.0798297,
+  "msgs": 1915292,
+  "mios": 173
  },
- "t": 1795266241.0253813,
+ "t": 1795267202.9660113,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25182,7 +25190,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795265988
+   "t": 1795266674
   },
   "LHS 1499": {
    "pos": [
@@ -25325,7 +25333,7 @@
    "nfac": 4,
    "pob": 218644,
    "ctrl_n": "East India Company",
-   "t": 1795265554
+   "t": 1795266334
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -26417,7 +26425,7 @@
    "nfac": 6,
    "pob": 32286,
    "ctrl_n": "Flotta Stellare",
-   "t": 1794964874
+   "t": 1795266961
   },
   "Col 285 Sector UT-W b16-4": {
    "pos": [
@@ -30487,6 +30495,19 @@
    "pob": 218560,
    "ctrl_n": "Procyon Expeditionary Consortium",
    "t": 1795266148
+  },
+  "HIP 38755": {
+   "pos": [
+    55.3125,
+    82.78125,
+    -170.5
+   ],
+   "ly": 19.3,
+   "junto": "Hyades Sector CB-W c2-3",
+   "nfac": 3,
+   "pob": 123133315,
+   "ctrl_n": "HIP 39681 Coordinated",
+   "t": 1795266921
   }
  },
  "codice": [
@@ -32423,7 +32444,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795265988
+   "t": 1795266674
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -32959,7 +32980,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795265554
+   "t": 1795266334
   },
   "LTT 11655": {
    "pos": [
@@ -34390,7 +34411,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795265968
+   "t": 1795266547
   },
   "Bhumian Ku": {
    "pos": [
@@ -37397,7 +37418,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795228753
+   "t": 1795266501
   },
   "Tascheter Sector XE-Q a5-0": {
    "pos": [
@@ -37985,7 +38006,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795262804
+   "t": 1795267195
   },
   "Lese": {
    "pos": [
@@ -38398,7 +38419,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795262847
+   "t": 1795266366
   },
   "BD+49 1658": {
    "pos": [
@@ -38430,6 +38451,55 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795266124
+  },
+  "HIP 38755": {
+   "pos": [
+    55.3125,
+    82.78125,
+    -170.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1795266921
+  },
+  "LHS 6103": {
+   "pos": [
+    8.84375,
+    6.03125,
+    -72
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.030854,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795266961
+  },
+  "Hyades Sector VA-M b8-2": {
+   "pos": [
+    -27,
+    10.90625,
+    -95.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795267175
   }
  },
  "rivales": {

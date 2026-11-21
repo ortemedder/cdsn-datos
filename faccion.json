@@ -7220,7 +7220,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795281591,
+   "t": 1795285601,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
@@ -7305,12 +7305,12 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 134
+    "2026-11-21": 138
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795281637,
+     "t": 1795285655,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -7351,7 +7351,7 @@
    },
    "tk": {
     "firma": "bfb4efd8",
-    "igual": 1795281591,
+    "igual": 1795285601,
     "ult": 1795276409,
     "desde": 1795213428,
     "est": null,
@@ -7575,7 +7575,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795285274,
+     "t": 1795285945,
      "estado": "",
      "ls": 1064,
      "pads": {
@@ -7585,7 +7585,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795284769,
+      "t": 1795285952,
       "n": 366,
       "vende": [
        {
@@ -7692,15 +7692,15 @@
        "no": 2
       },
       "2026-11-21": {
-       "ok": 8,
+       "ok": 9,
        "no": 2
       }
      },
      "neg": {
       "Distance": 10
      },
-     "mods": 767,
-     "mods_t": 1795234729,
+     "mods": 811,
+     "mods_t": 1795286010,
      "naves": [
       "adder",
       "anaconda",
@@ -8488,7 +8488,7 @@
     "Orbital Construction Site: Alcock's Inheritance": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795284989,
+     "t": 1795285601,
      "estado": "",
      "ls": 1073,
      "pads": {
@@ -8499,7 +8499,7 @@
      "mid": 3954275330,
      "atq": {
       "2026-11-21": {
-       "ok": 12,
+       "ok": 13,
        "no": 2
       }
      },
@@ -13268,7 +13268,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795283849,
+   "t": 1795285325,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -13355,11 +13355,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 26
+    "2026-11-21": 29
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795283849
+    "igual": 1795285325
    },
    "saltos": {
     "1794902400": 2,
@@ -13388,7 +13388,8 @@
     "1795248000": 2,
     "1795255200": 3,
     "1795258800": 2,
-    "1795280400": 2
+    "1795280400": 2,
+    "1795284000": 1
    },
    "rutas": {
     "2026-11-17": 20,
@@ -13707,12 +13708,12 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795284206,
+     "t": 1795285665,
      "estado": "",
      "ls": 703,
      "mid": 4404361731,
      "mer": {
-      "t": 1795284213,
+      "t": 1795285673,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -13732,7 +13733,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 9,
+       "ok": 10,
        "no": 0
       }
      },
@@ -13910,36 +13911,25 @@
   },
   "Hyades Sector QZ-N b7-3": {
    "sys": "Hyades Sector QZ-N b7-3",
-   "t": 1794388554,
+   "t": 1795283429,
    "src": "EDDN",
-   "inf": 46.31,
+   "inf": 44.07,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
-   "segunda": "Sirius Special Forces",
-   "segunda_inf": 22.85,
+   "segunda": "Hima Comms Network",
+   "segunda_inf": 23.23,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 46.31,
+     "inf": 44.07,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Sirius Special Forces",
-     "inf": 22.85,
-     "gov": "Corporate",
-     "alg": "Federation",
      "act": [],
      "pend": [
       "Expansion"
@@ -13948,7 +13938,16 @@
     },
     {
      "n": "Hima Comms Network",
-     "inf": 21.26,
+     "inf": 23.23,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Sirius Special Forces",
+     "inf": 22.23,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -13957,7 +13956,7 @@
     },
     {
      "n": "Posse of Kunuvii",
-     "inf": 9.58,
+     "inf": 10.47,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -13972,7 +13971,7 @@
     -117.21875
    ],
    "sis": {
-    "pob": 1626618,
+    "pob": 1631100,
     "eco": "$economy_Military;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -13982,8 +13981,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.153183,
-    "ref": 15,
+    "prog": 0.15314,
+    "ref": 0,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -13992,12 +13991,44 @@
     ]
    },
    "trafico": {
-    "2026-11-11": 2
+    "2026-11-11": 2,
+    "2026-11-21": 1
    },
-   "prev": null,
-   "prev_t": null,
+   "saltos": {
+    "1795280400": 1
+   },
    "rutas": {
     "2026-11-21": 2
+   },
+   "prev": 46.31,
+   "prev_t": 1794388554,
+   "hinf": [
+    [
+     1794388554,
+     46.31
+    ],
+    [
+     1795283429,
+     44.07
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Hima Comms Network": 1,
+    "Sirius Special Forces": 0,
+    "Posse of Kunuvii": 1
+   },
+   "rivales": [],
+   "tk": {
+    "firma": "d634f4cd",
+    "igual": 1795283429
+   },
+   "cseg": {},
+   "sube_cuando_baja": {
+    "n": "Hima Comms Network",
+    "d": 1.97,
+    "baja": 2.24,
+    "t": 1795283429
    }
   },
   "Koamul": {
@@ -20953,7 +20984,7 @@
   },
   "Yin Sector XJ-A c21": {
    "sys": "Yin Sector XJ-A c21",
-   "t": 1795256654,
+   "t": 1795283376,
    "src": "EDDN",
    "inf": 13.84,
    "ctrl": false,
@@ -21034,11 +21065,11 @@
     "2026-11-17": 2,
     "2026-11-18": 2,
     "2026-11-19": 5,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "tk": {
     "firma": "348d19a1",
-    "igual": 1795256654,
+    "igual": 1795283376,
     "ult": 1794926867,
     "desde": 1759845602,
     "est": null
@@ -21050,7 +21081,8 @@
     "1795082400": 1,
     "1795114800": 1,
     "1795118400": 1,
-    "1795255200": 1
+    "1795255200": 1,
+    "1795280400": 1
    },
    "rutas": {
     "2026-11-17": 1,
@@ -25874,11 +25906,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795285025.1047206,
-  "msgs": 2253619,
-  "mios": 203
+  "ultimo": 1795285601.93667,
+  "msgs": 2272275,
+  "mios": 207
  },
- "t": 1795285242.785686,
+ "t": 1795286015.8448205,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25955,9 +25987,9 @@
    "ly": 7.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 1797237,
+   "pob": 1799937,
    "ctrl_n": "East India Company",
-   "t": 1795034277
+   "t": 1795285648
   },
   "Tanmark": {
    "pos": [
@@ -26737,7 +26769,7 @@
    "nfac": 6,
    "pob": 141005,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795255235
+   "t": 1795285811
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -31600,6 +31632,19 @@
    "pob": 2698798,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795283130
+  },
+  "Ross 71": {
+   "pos": [
+    -3.375,
+    16.15625,
+    -119.96875
+   ],
+   "ly": 3.8,
+   "junto": "Lan Caihe",
+   "nfac": 5,
+   "pob": 2568476,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795284979
   }
  },
  "codice": [
@@ -32419,7 +32464,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795256654
+   "t": 1795283376
   },
   "Hyades Sector HC-U c3-21": {
    "pos": [
@@ -32658,7 +32703,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795284756
+   "t": 1795285424
   },
   "LP 157-32": {
    "pos": [
@@ -33682,7 +33727,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795284489
+   "t": 1795285033
   },
   "LHS 5116": {
    "pos": [
@@ -35368,7 +35413,7 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.112694,
+   "prog": 0.113052,
    "pots": [
     "Archon Delaine",
     "Denton Patreus",
@@ -35376,7 +35421,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795255235
+   "t": 1795285811
   },
   "Cosi": {
    "pos": [
@@ -36131,7 +36176,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795284973
+   "t": 1795283321
   },
   "Galibi": {
    "pos": [
@@ -40259,6 +40304,54 @@
     "Jerome Archer"
    ],
    "t": 1795285073
+  },
+  "Hyades Sector QZ-N b7-3": {
+   "pos": [
+    -17.09375,
+    16.5,
+    -117.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.15314,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795283429
+  },
+  "Ross 71": {
+   "pos": [
+    -3.375,
+    16.15625,
+    -119.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795284979
+  },
+  "Ceti Sector GR-V b2-5": {
+   "pos": [
+    11.59375,
+    -88,
+    -25.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.158855,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795285648
   }
  },
  "rivales": {
@@ -40324,6 +40417,15 @@
    "motivo": "sube cuando bajamos",
    "ini": 1795284115,
    "ult": 1795284115
+  },
+  "Hima Comms Network": {
+   "veces": 1,
+   "sis": [
+    "Hyades Sector QZ-N b7-3"
+   ],
+   "motivo": "sube cuando bajamos",
+   "ini": 1795283429,
+   "ult": 1795283429
   }
  }
 }

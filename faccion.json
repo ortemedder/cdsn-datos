@@ -24957,10 +24957,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795263935.882245,
-  "msgs": 1874398,
+  "msgs": 1887546,
   "mios": 172
  },
- "t": 1795264447.6831772,
+ "t": 1795265369.3977797,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25182,7 +25182,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795258943
+   "t": 1795265210
   },
   "LHS 1499": {
    "pos": [
@@ -25323,9 +25323,9 @@
    "ly": 10.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 218632,
+   "pob": 218644,
    "ctrl_n": "East India Company",
-   "t": 1795252525
+   "t": 1795264876
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -29069,7 +29069,7 @@
    "nfac": 1,
    "pob": 274586494,
    "ctrl_n": "Civitas Dei",
-   "t": 1795262494
+   "t": 1795264891
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -31532,7 +31532,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795260801
+   "t": 1795265363
   },
   "LP 157-32": {
    "pos": [
@@ -32410,7 +32410,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795258943
+   "t": 1795265210
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -32735,7 +32735,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795134328
+   "t": 1795264520
   },
   "LEHPM 1902": {
    "pos": [
@@ -32946,7 +32946,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795252525
+   "t": 1795264876
   },
   "LTT 11655": {
    "pos": [
@@ -34377,7 +34377,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795263121
+   "t": 1795264995
   },
   "Bhumian Ku": {
    "pos": [
@@ -34691,7 +34691,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795261221
+   "t": 1795265202
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -38037,7 +38037,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795262494
+   "t": 1795264891
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -38152,7 +38152,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795264439
+   "t": 1795264672
   },
   "LHS 1933": {
    "pos": [
@@ -38353,6 +38353,39 @@
     "Jerome Archer"
    ],
    "t": 1795263702
+  },
+  "Dongkum": {
+   "pos": [
+    -17.875,
+    -11.75,
+    -90.4375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Stronghold",
+   "prog": 0.27074,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795265199
+  },
+  "Moram": {
+   "pos": [
+    143.1875,
+    -13.65625,
+    0.375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.196043,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795262847
   }
  },
  "rivales": {

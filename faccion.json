@@ -16761,16 +16761,16 @@
   },
   "Mau": {
    "sys": "Mau",
-   "t": 1794779516,
+   "t": 1795238102,
    "src": "EDDN",
    "inf": 59.38,
    "ctrl": true,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "CHIMERA",
    "segunda_inf": 10.43,
    "conflictos": [],
@@ -16781,7 +16781,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -16789,7 +16791,9 @@
      "inf": 10.43,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -16856,9 +16860,9 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Exploited",
-    "prog": 0.133263,
+    "prog": 0.133712,
     "ref": 0,
-    "soc": 157,
+    "soc": 0,
     "pots": [
      "Edmund Mahon",
      "Li Yong-Rui",
@@ -16867,11 +16871,20 @@
    },
    "trafico": {
     "2026-11-14": 1,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-21": 2
    },
    "tk": {
     "firma": "ad9e72b7",
-    "igual": 1794779516
+    "igual": 1795238102
+   },
+   "saltos": {
+    "1795237200": 2
+   },
+   "rutas": {
+    "2026-11-19": 1,
+    "2026-11-20": 1,
+    "2026-11-21": 3
    },
    "prev": null,
    "prev_t": null,
@@ -16881,11 +16894,9 @@
      59.38
     ]
    ],
-   "rutas": {
-    "2026-11-19": 1,
-    "2026-11-20": 1,
-    "2026-11-21": 1
-   }
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Skang": {
    "sys": "Skang",
@@ -24153,11 +24164,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795232917.6556134,
-  "msgs": 1589759,
-  "mios": 143
+  "ultimo": 1795238104.8791332,
+  "msgs": 1598147,
+  "mios": 144
  },
- "t": 1795237301.258346,
+ "t": 1795238202.4904215,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24390,9 +24401,9 @@
    "ly": 18.9,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 3,
-   "pob": 122339689,
+   "pob": 122349137,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795233371
+   "t": 1795238155
   },
   "HIP 43660": {
    "pos": [
@@ -24431,7 +24442,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795210284
+   "t": 1795238138
   },
   "LTT 10918": {
    "pos": [
@@ -25003,7 +25014,7 @@
    "nfac": 5,
    "pob": 8144338,
    "ctrl_n": "Astrobiology Research Cooperative",
-   "t": 1795089842
+   "t": 1795237406
   },
   "LTT 606": {
    "pos": [
@@ -30013,7 +30024,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795210284
+   "t": 1795238138
   },
   "LP 302-22": {
    "pos": [
@@ -36653,13 +36664,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.666168,
+   "prog": 0.667513,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795233371
+   "t": 1795238155
   },
   "HIP 23402": {
    "pos": [
@@ -36741,6 +36752,70 @@
     "Li Yong-Rui"
    ],
    "t": 1795236949
+  },
+  "Segon": {
+   "pos": [
+    -48.96875,
+    -0.6875,
+    -96
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.258292,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795237406
+  },
+  "Karo": {
+   "pos": [
+    131.34375,
+    -12.59375,
+    0.21875
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795237943
+  },
+  "Mau": {
+   "pos": [
+    -19.875,
+    24.875,
+    -119.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.133712,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795238102
+  },
+  "GCRV 2311": {
+   "pos": [
+    -37.375,
+    -16.75,
+    -97.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.271738,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795238186
   }
  },
  "rivales": {

@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 79
+    "2026-11-21": 85
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795231386,
+     "t": 1795232631,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795231398,
+      "t": 1795232663,
       "n": 366,
       "vende": [
        {
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 28,
+       "ok": 30,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795231393,
+     "naves_t": 1795232637,
      "neg": {
       "Distance": 5
      },
      "mods": 886,
-     "mods_t": 1795231393
+     "mods_t": 1795232637
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8018,7 +8018,7 @@
     "Orbital Construction Site: Siodmak Landing": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795231785,
+     "t": 1795232321,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -8028,15 +8028,15 @@
      },
      "mid": 3953879298,
      "mer": {
-      "t": 1795231792,
-      "n": 0,
+      "t": 1795232328,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 8,
+       "ok": 10,
        "no": 0
       }
      }
@@ -15976,7 +15976,8 @@
     "1795147200": 1
    },
    "rutas": {
-    "2026-11-20": 2
+    "2026-11-20": 2,
+    "2026-11-21": 1
    },
    "prev": 5.81,
    "prev_t": 1794465933,
@@ -24139,10 +24140,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1530421,
+  "msgs": 1541133,
   "mios": 142
  },
- "t": 1795231980.8712866,
+ "t": 1795232883.643859,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24195,7 +24196,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795218413
+   "t": 1795232229
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -24624,7 +24625,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795223170
+   "t": 1795232877
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -24897,7 +24898,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795224570
+   "t": 1795232146
   },
   "LTT 740": {
    "pos": [
@@ -27471,7 +27472,7 @@
    "nfac": 3,
    "pob": 61854201,
    "ctrl_n": "The Roughnecks",
-   "t": 1795231858
+   "t": 1795232557
   },
   "Hyades Sector IC-U c3-8": {
    "pos": [
@@ -27781,9 +27782,9 @@
    "ly": 11.7,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 2016966,
+   "pob": 2021511,
    "ctrl_n": "The Dark Wheel",
-   "t": 1795038764
+   "t": 1795232647
   },
   "Tascheter Sector FB-X b1-7": {
    "pos": [
@@ -29461,6 +29462,32 @@
    "pob": 313841,
    "ctrl_n": "Civitas Dei",
    "t": 1795230827
+  },
+  "ICZ AK-Z b3": {
+   "pos": [
+    116.65625,
+    -101.25,
+    -15.6875
+   ],
+   "ly": 18.7,
+   "junto": "HIP 19292",
+   "nfac": 4,
+   "pob": 319347,
+   "ctrl_n": "Lavigny's Legion",
+   "t": 1795232604
+  },
+  "HAT 94-00572": {
+   "pos": [
+    -27.90625,
+    15,
+    -77.03125
+   ],
+   "ly": 5.3,
+   "junto": "Tascheter Sector CG-X b1-3",
+   "nfac": 5,
+   "pob": 66038,
+   "ctrl_n": "Order of Enblackenment",
+   "t": 1795232846
   }
  },
  "codice": [
@@ -29983,7 +30010,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795223170
+   "t": 1795232877
   },
   "Nergal": {
    "pos": [
@@ -31218,7 +31245,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795224570
+   "t": 1795232146
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -32328,13 +32355,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.2562,
+   "prog": 0.255307,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1794675992
+   "t": 1795232579
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -32593,7 +32620,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795218413
+   "t": 1795232229
   },
   "Onyaksas": {
    "pos": [
@@ -36451,7 +36478,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795231858
+   "t": 1795232557
   },
   "BD+30 1423": {
    "pos": [
@@ -36485,6 +36512,70 @@
     "Jerome Archer"
    ],
    "t": 1795231898
+  },
+  "ICZ AK-Z b3": {
+   "pos": [
+    116.65625,
+    -101.25,
+    -15.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795232604
+  },
+  "HIP 44745": {
+   "pos": [
+    139.78125,
+    -24.09375,
+    23.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795232647
+  },
+  "Apinayimas": {
+   "pos": [
+    -19.03125,
+    41.34375,
+    -102.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.123426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795220576
+  },
+  "HAT 94-00572": {
+   "pos": [
+    -27.90625,
+    15,
+    -77.03125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.254975,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795232846
   }
  },
  "rivales": {

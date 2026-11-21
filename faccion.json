@@ -6857,7 +6857,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 5
+    "2026-11-21": 9
    },
    "pn": {
     "H5L-70M": {
@@ -7610,7 +7610,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795219279,
+     "t": 1795220303,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -7620,7 +7620,7 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795219390,
+      "t": 1795220344,
       "n": 366,
       "vende": [
        {
@@ -7710,7 +7710,7 @@
       ]
      },
      "mods": 931,
-     "mods_t": 1795219285,
+     "mods_t": 1795220310,
      "naves": [
       "adder",
       "anaconda",
@@ -7756,7 +7756,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795219285,
+     "naves_t": 1795220310,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -7952,7 +7952,7 @@
     "Orbital Construction Site: Nixon's Folly": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795218936,
+     "t": 1795220709,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -7962,7 +7962,7 @@
      },
      "mid": 3953330690,
      "mer": {
-      "t": 1795218944,
+      "t": 1795220715,
       "n": 7,
       "vende": [],
       "alta": [],
@@ -7975,6 +7975,10 @@
       "2026-11-20": {
        "ok": 8,
        "no": 2
+      },
+      "2026-11-21": {
+       "ok": 2,
+       "no": 0
       }
      }
     }
@@ -23942,10 +23946,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795218368.417422,
-  "msgs": 1391756,
+  "msgs": 1403407,
   "mios": 139
  },
- "t": 1795220232.7287238,
+ "t": 1795220913.973264,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -27194,9 +27198,9 @@
    "ly": 8.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 397781,
+   "pob": 397829,
    "ctrl_n": "UGP 92 Purple Travel Services",
-   "t": 1795026014
+   "t": 1795196103
   },
   "Hayimstae": {
    "pos": [
@@ -29727,7 +29731,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795215271
+   "t": 1795220474
   },
   "Selniang": {
    "pos": [
@@ -31694,7 +31698,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795164441
+   "t": 1795220326
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -35852,6 +35856,38 @@
     "Li Yong-Rui"
    ],
    "t": 1795219439
+  },
+  "Feng Tanga": {
+   "pos": [
+    5.75,
+    -113.125,
+    -67.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.1354,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795220485
+  },
+  "Trianguli Sector WA-N a7-0": {
+   "pos": [
+    26.09375,
+    -43.75,
+    -52.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795196103
   }
  },
  "rivales": {

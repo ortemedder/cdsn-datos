@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 11
+    "2026-11-21": 13
    },
    "zc": [
     {
@@ -12012,15 +12012,15 @@
   },
   "Lyncis Sector XJ-R b4-0": {
    "sys": "Lyncis Sector XJ-R b4-0",
-   "t": 1794268391,
+   "t": 1795275436,
    "src": "EDDN",
    "inf": 8.79,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Leaders of Apinayimas",
    "segunda_inf": 49.75,
@@ -12049,7 +12049,9 @@
      "inf": 11.39,
      "gov": "Patronage",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -12067,10 +12069,10 @@
      "inf": 8.79,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -12090,7 +12092,7 @@
     -116.65625
    ],
    "sis": {
-    "pob": 148674,
+    "pob": 150154,
     "eco": "$economy_HighTech;",
     "eco2": "$economy_Tourism;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -12110,9 +12112,30 @@
      "Jerome Archer"
     ]
    },
+   "trafico": {
+    "2026-11-21": 2
+   },
+   "saltos": {
+    "1795273200": 1
+   },
    "rutas": {
     "2026-11-21": 1
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794268391,
+     8.79
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "7f295301",
+    "igual": 1795275436
+   },
+   "cseg": {}
   },
   "Hyades Sector UF-M b8-2": {
    "sys": "Hyades Sector UF-M b8-2",
@@ -13753,7 +13776,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1795274538,
+   "t": 1795275964,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -13829,7 +13852,7 @@
     "2026-11-14": 17,
     "2026-11-15": 5,
     "2026-11-18": 1,
-    "2026-11-21": 3
+    "2026-11-21": 4
    },
    "pn": {
     "T9Q-5HX": {
@@ -13840,14 +13863,14 @@
    },
    "tk": {
     "firma": "7c1e5e67",
-    "igual": 1795274538
+    "igual": 1795275964
    },
    "saltos": {
     "1795269600": 1,
-    "1795273200": 2
+    "1795273200": 3
    },
    "rutas": {
-    "2026-11-21": 3
+    "2026-11-21": 4
    },
    "prev": null,
    "prev_t": null,
@@ -25368,11 +25391,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795274539.8850768,
-  "msgs": 2048557,
-  "mios": 182
+  "ultimo": 1795275964.794435,
+  "msgs": 2066363,
+  "mios": 184
  },
- "t": 1795275322.97847,
+ "t": 1795276135.5949683,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25659,7 +25682,7 @@
    "nfac": 6,
    "pob": 2439873,
    "ctrl_n": "160 S.O.A.R.",
-   "t": 1795185488
+   "t": 1795275410
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -26450,9 +26473,9 @@
    "ly": 16.4,
    "junto": "HIP 37216",
    "nfac": 4,
-   "pob": 199608,
+   "pob": 199666,
    "ctrl_n": "CROSS Corp",
-   "t": 1794926523
+   "t": 1795276091
   },
   "Tascheter Sector GR-M a7-0": {
    "pos": [
@@ -26801,9 +26824,9 @@
    "ly": 18.5,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 2004194,
+   "pob": 2004236,
    "ctrl_n": "East India Company",
-   "t": 1795186247
+   "t": 1795275610
   },
   "BD+39 876": {
    "pos": [
@@ -29273,7 +29296,7 @@
    "nfac": 6,
    "pob": 2453296799,
    "ctrl_n": "The Fatherhood",
-   "t": 1795063560
+   "t": 1795275425
   },
   "Hyades Sector AC-K b9-7": {
    "pos": [
@@ -30768,7 +30791,7 @@
    "nfac": 3,
    "pob": 1597779,
    "ctrl_n": "The Fatherhood",
-   "t": 1795238339
+   "t": 1795275715
   },
   "Furuhjelm II-432": {
    "pos": [
@@ -30872,7 +30895,7 @@
    "nfac": 3,
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
-   "t": 1795262472
+   "t": 1795275104
   },
   "Tascheter Sector DG-O a6-4": {
    "pos": [
@@ -30963,7 +30986,7 @@
    "nfac": 6,
    "pob": 2251483,
    "ctrl_n": "Potolot Inc.",
-   "t": 1795274009
+   "t": 1795275382
   },
   "Lyncis Sector FG-Y d85": {
    "pos": [
@@ -30976,7 +30999,7 @@
    "nfac": 3,
    "pob": 860605,
    "ctrl_n": "Nagii Union",
-   "t": 1795274056
+   "t": 1795275428
   },
   "Kuan Yin": {
    "pos": [
@@ -32074,7 +32097,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795275117
+   "t": 1795275973
   },
   "LP 157-32": {
    "pos": [
@@ -33369,7 +33392,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795186247
+   "t": 1795275610
   },
   "Siren": {
    "pos": [
@@ -33387,7 +33410,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795274241
+   "t": 1795275929
   },
   "Ross 874": {
    "pos": [
@@ -34919,7 +34942,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795274890
+   "t": 1795275658
   },
   "Bhumian Ku": {
    "pos": [
@@ -35482,7 +35505,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795185488
+   "t": 1795275410
   },
   "Tascheter Sector WE-Q a5-2": {
    "pos": [
@@ -38296,7 +38319,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795238339
+   "t": 1795275715
   },
   "Decima": {
    "pos": [
@@ -38727,7 +38750,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795262472
+   "t": 1795275104
   },
   "Lati": {
    "pos": [
@@ -39189,7 +39212,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795274009
+   "t": 1795275382
   },
   "Lyncis Sector FG-Y d85": {
    "pos": [
@@ -39203,7 +39226,7 @@
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1795274056
+   "t": 1795275428
   },
   "HIP 31451": {
    "pos": [
@@ -39218,7 +39241,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795274538
+   "t": 1795275964
   },
   "Kuan Yin": {
    "pos": [
@@ -39317,6 +39340,55 @@
     "Jerome Archer"
    ],
    "t": 1795275300
+  },
+  "Warnates": {
+   "pos": [
+    -46.1875,
+    -4.375,
+    -67.65625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Stronghold",
+   "prog": 0.26498,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795275425
+  },
+  "Lyncis Sector XJ-R b4-0": {
+   "pos": [
+    -27.125,
+    20.28125,
+    -116.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795275436
+  },
+  "Lyncis Sector PN-T b3-4": {
+   "pos": [
+    -43.53125,
+    70.625,
+    -126.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795276091
   }
  },
  "rivales": {

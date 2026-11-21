@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 26
+    "2026-11-21": 32
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795223146,
+     "t": 1795224190,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795223292,
+      "t": 1795224326,
       "n": 366,
       "vende": [
        {
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 8,
+       "ok": 10,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795223153,
+     "naves_t": 1795224196,
      "neg": {
       "Distance": 5
      },
      "mods": 872,
-     "mods_t": 1795223153
+     "mods_t": 1795224196
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7988,7 +7988,7 @@
     "Orbital Construction Site: Lefschetz's Pride": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795223747,
+     "t": 1795224630,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -7998,15 +7998,15 @@
      },
      "mid": 3953770498,
      "mer": {
-      "t": 1795223753,
-      "n": 1,
+      "t": 1795224637,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
      }
@@ -24105,10 +24105,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1435378,
+  "msgs": 1445620,
   "mios": 142
  },
- "t": 1795223760.4322164,
+ "t": 1795224743.1645162,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24863,7 +24863,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795210328
+   "t": 1795224570
   },
   "LTT 740": {
    "pos": [
@@ -25266,7 +25266,7 @@
    "nfac": 5,
    "pob": 4328269,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795177642
+   "t": 1795224636
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -26306,7 +26306,7 @@
    "nfac": 3,
    "pob": 1481251,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795223270
+   "t": 1795224594
   },
   "Caill Reddi": {
    "pos": [
@@ -26369,9 +26369,9 @@
    "ly": 9.4,
    "junto": "Hyades Sector CB-W c2-3",
    "nfac": 4,
-   "pob": 41564598,
+   "pob": 41775709,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794959816
+   "t": 1795224381
   },
   "Hyades Sector PE-O b7-2": {
    "pos": [
@@ -26707,9 +26707,9 @@
    "ly": 15.9,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 3,
-   "pob": 209658,
+   "pob": 209877,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795012854
+   "t": 1795224600
   },
   "Jeticans": {
    "pos": [
@@ -31150,7 +31150,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.374087,
+   "prog": 0.374379,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -31158,7 +31158,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795210328
+   "t": 1795224570
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -31217,11 +31217,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.3473,
+   "prog": 0.351188,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795141148
+   "t": 1795224360
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -33374,7 +33374,7 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.259166,
+   "prog": 0.258641,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -33382,7 +33382,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1794679612
+   "t": 1795224636
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -35964,13 +35964,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.257528,
+   "prog": 0.257874,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795218268
+   "t": 1795224509
   },
   "Hyades Sector JX-T c3-19": {
    "pos": [
@@ -36093,7 +36093,7 @@
    "pots": [
     "Edmund Mahon"
    ],
-   "t": 1795223270
+   "t": 1795224594
   },
   "Col 285 Sector YJ-N b8-2": {
    "pos": [
@@ -36139,6 +36139,50 @@
     "Li Yong-Rui"
    ],
    "t": 1795223507
+  },
+  "Hyades Sector IX-R b5-0": {
+   "pos": [
+    55.03125,
+    60.59375,
+    -165
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.1304,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters"
+   ],
+   "t": 1795224381
+  },
+  "Trianguli Sector BQ-Y c15": {
+   "pos": [
+    30.5,
+    -18.4375,
+    -87.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795224600
+  },
+  "HIP 18427": {
+   "pos": [
+    125.21875,
+    -136.125,
+    -16.03125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795224301
   }
  },
  "rivales": {

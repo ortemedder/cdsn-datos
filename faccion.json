@@ -6880,7 +6880,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795213428,
+   "t": 1795276409,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
@@ -6894,7 +6894,7 @@
    ],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 7.29,
+   "segunda_inf": 6.09,
    "conflictos": [],
    "todas": [
     {
@@ -6913,7 +6913,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 7.29,
+     "inf": 6.09,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -6922,7 +6922,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 2.99,
+     "inf": 4.19,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -6939,10 +6939,10 @@
     280.59375
    ],
    "sis": {
-    "pob": 70792894,
+    "pob": 74059315,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
-    "seg": "$SYSTEM_SECURITY_low;",
+    "seg": "$SYSTEM_SECURITY_medium;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
    },
@@ -6965,17 +6965,17 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 104
+    "2026-11-21": 108
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795213548,
+     "t": 1795276657,
      "d": 1794928703
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1795213548,
+     "t": 1795276657,
      "d": 1794855069
     },
     "KBY-8QF": {
@@ -7010,11 +7010,11 @@
     }
    },
    "tk": {
-    "firma": "0acc3c3b",
-    "igual": 1795213428,
-    "ult": 1795133668,
-    "desde": 1795130564,
-    "est": 1795132116,
+    "firma": "bfb4efd8",
+    "igual": 1795276409,
+    "ult": 1795276409,
+    "desde": 1795213428,
+    "est": null,
     "vent": [
      [
       1794701228,
@@ -7039,6 +7039,10 @@
      [
       1795130564,
       1795133668
+     ],
+     [
+      1795213428,
+      1795276409
      ]
     ],
     "hist": [
@@ -7064,97 +7068,97 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795233243,
+     "t": 1795277942,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795233321,
+      "t": 1795277961,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 620462,
-        "d": 47836
+        "p": 601504,
+        "d": 48093
        },
        {
         "n": "serendibite",
-        "p": 509330,
-        "d": 47836
+        "p": 493501,
+        "d": 48093
        },
        {
         "n": "benitoite",
-        "p": 504044,
-        "d": 47836
+        "p": 487844,
+        "d": 48093
        },
        {
         "n": "grandidierite",
-        "p": 499522,
-        "d": 47544
+        "p": 484239,
+        "d": 47828
        },
        {
         "n": "opal",
-        "p": 488081,
-        "d": 19676
+        "p": 471489,
+        "d": 19781
        }
       ],
       "alta": [
        {
         "n": "militarygradefabrics",
-        "p": 5113,
+        "p": 5242,
         "m": 899
        },
        {
         "n": "osmium",
-        "p": 219071,
+        "p": 215052,
         "m": 44051
        },
        {
         "n": "platinum",
-        "p": 271616,
+        "p": 269166,
         "m": 55505
        },
        {
         "n": "bauxite",
-        "p": 4440,
+        "p": 4385,
         "m": 1096
        },
        {
         "n": "painite",
-        "p": 190565,
+        "p": 185165,
         "m": 48333
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 40,
+        "p": 44,
         "m": 271,
-        "s": 665651
+        "s": 669241
        },
        {
         "n": "polymers",
-        "p": 61,
+        "p": 66,
         "m": 306,
-        "s": 3929628
+        "s": 3950657
        },
        {
         "n": "syntheticfabrics",
-        "p": 97,
+        "p": 103,
         "m": 354,
-        "s": 26384952
+        "s": 26526138
        },
        {
         "n": "explosives",
-        "p": 199,
+        "p": 209,
         "m": 483,
-        "s": 946187
+        "s": 951250
        },
        {
         "n": "evacuationshelter",
-        "p": 211,
+        "p": 221,
         "m": 500,
-        "s": 6779
+        "s": 6815
        }
       ]
      },
@@ -7172,7 +7176,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 32,
+       "ok": 35,
        "no": 2
       }
      },
@@ -8145,6 +8149,25 @@
        "no": 0
       }
      }
+    },
+    "Orbital Construction Site: Alcock's Inheritance": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795277735,
+     "estado": "",
+     "ls": 1074,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3954275330,
+     "atq": {
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
    },
    "prev": 87.72,
@@ -8198,12 +8221,12 @@
    "rach": {
     "Caballeros de Sion": 4,
     "Natural Atese Front": 0,
-    "Wolves of Jonai": 0
+    "Wolves of Jonai": 1
    },
    "rivales": [],
-   "tick_ult": 1795132116,
-   "tick_marg": 25,
-   "tick_prox": 1795219800,
+   "tick_ult": 1795276409,
+   "tick_marg": 524,
+   "tick_prox": 1795306200,
    "tick_disp": 3,
    "tick_n": 2,
    "cseg": {}
@@ -25405,11 +25428,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795276971.740745,
-  "msgs": 2087870,
-  "mios": 186
+  "ultimo": 1795277158.101014,
+  "msgs": 2107416,
+  "mios": 187
  },
- "t": 1795277138.961208,
+ "t": 1795278041.7037916,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25447,9 +25470,9 @@
    "ly": 17.6,
    "junto": "Hyades Sector XV-L b8-3",
    "nfac": 4,
-   "pob": 65889530,
+   "pob": 65892955,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795115231
+   "t": 1795277892
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -25631,7 +25654,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795274794
+   "t": 1795277181
   },
   "LHS 1499": {
    "pos": [
@@ -25902,9 +25925,9 @@
    "ly": 17.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 216588,
+   "pob": 216633,
    "ctrl_n": "East India Company",
-   "t": 1795211480
+   "t": 1795277177
   },
   "Trianguli Sector SU-O a6-3": {
    "pos": [
@@ -27826,9 +27849,9 @@
    "ly": 19.6,
    "junto": "HIP 19292",
    "nfac": 3,
-   "pob": 198774,
+   "pob": 198787,
    "ctrl_n": "The White Templars",
-   "t": 1795224934
+   "t": 1795278039
   },
   "Tascheter Sector WE-Q a5-2": {
    "pos": [
@@ -32697,7 +32720,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795109848
+   "t": 1795277595
   },
   "Prajau": {
    "pos": [
@@ -32989,7 +33012,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795274794
+   "t": 1795277181
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -34956,7 +34979,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795276676
+   "t": 1795277719
   },
   "Bhumian Ku": {
    "pos": [
@@ -35584,7 +35607,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795274668
+   "t": 1795277614
   },
   "Galibi": {
    "pos": [
@@ -35617,7 +35640,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795271682
+   "t": 1795277227
   },
   "Scottii": {
    "pos": [
@@ -35797,7 +35820,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795211480
+   "t": 1795277177
   },
   "LP 714-58": {
    "pos": [
@@ -36846,7 +36869,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795205526
+   "t": 1795277968
   },
   "HIP 20606": {
    "pos": [
@@ -37848,7 +37871,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795224934
+   "t": 1795278039
   },
   "Pai Ho": {
    "pos": [
@@ -38764,7 +38787,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795276494
+   "t": 1795259103
   },
   "Lati": {
    "pos": [
@@ -39419,6 +39442,37 @@
     "Jerome Archer"
    ],
    "t": 1795276717
+  },
+  "Yenici": {
+   "pos": [
+    120,
+    -119.5,
+    -3.0625
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Fortified",
+   "prog": 0.153869,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795272403
+  },
+  "Tascheter Sector CL-Y d132": {
+   "pos": [
+    -25.53125,
+    -24.78125,
+    -99.8125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.296102,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795277892
   }
  },
  "rivales": {

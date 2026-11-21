@@ -17877,7 +17877,7 @@
    "pn": {
     "WZT-W5B": {
      "n": "Lexx",
-     "t": 1795268968,
+     "t": 1795269026,
      "d": 1795027888
     }
    },
@@ -17904,7 +17904,114 @@
    ],
    "rach": {},
    "rivales": [],
-   "cseg": {}
+   "cseg": {},
+   "estaciones": {
+    "Watts Settlement": {
+     "f": "Green Party of BD+27 1356",
+     "tipo": "Outpost",
+     "t": 1795269064,
+     "estado": "",
+     "ls": 14,
+     "pads": {
+      "Small": 4,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 3228347392,
+     "mer": {
+      "t": 1795269070,
+      "n": 104,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 217160,
+        "d": 60
+       },
+       {
+        "n": "monazite",
+        "p": 202292,
+        "d": 24
+       },
+       {
+        "n": "musgravite",
+        "p": 198381,
+        "d": 60
+       },
+       {
+        "n": "grandidierite",
+        "p": 197016,
+        "d": 60
+       },
+       {
+        "n": "periclasedunite",
+        "p": 189731,
+        "d": 938
+       }
+      ],
+      "alta": [
+       {
+        "n": "waterpurifiers",
+        "p": 906,
+        "m": 447
+       },
+       {
+        "n": "beer",
+        "p": 691,
+        "m": 350
+       },
+       {
+        "n": "fruitandvegetables",
+        "p": 923,
+        "m": 483
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 790,
+        "m": 418
+       },
+       {
+        "n": "mineraloil",
+        "p": 736,
+        "m": 416
+       }
+      ],
+      "barato": [
+       {
+        "n": "polymers",
+        "p": 72,
+        "m": 306,
+        "s": 10842
+       },
+       {
+        "n": "biowaste",
+        "p": 72,
+        "m": 271,
+        "s": 305
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 111,
+        "m": 354,
+        "s": 7574
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 648,
+        "m": 1375,
+        "s": 586
+       },
+       {
+        "n": "surfacestabilisers",
+        "p": 361,
+        "m": 668,
+        "s": 2800
+       }
+      ]
+     },
+     "mods": 134,
+     "mods_t": 1795269070
+    }
+   }
   },
   "Haraka": {
    "sys": "Haraka",
@@ -25103,10 +25210,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795268970.285509,
-  "msgs": 1941986,
+  "msgs": 1955538,
   "mios": 176
  },
- "t": 1795268977.7587702,
+ "t": 1795269779.618966,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25690,9 +25797,9 @@
    "ly": 10.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 217516,
+   "pob": 217543,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795231896
+   "t": 1795269471
   },
   "Tascheter Sector BV-Y b2": {
    "pos": [
@@ -27928,7 +28035,7 @@
    "nfac": 3,
    "pob": 340552845,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795258132
+   "t": 1795269679
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -30110,9 +30217,9 @@
    "ly": 18.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 59917983,
+   "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795194302
+   "t": 1795269772
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -31717,7 +31824,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795265363
+   "t": 1795269915
   },
   "LP 157-32": {
    "pos": [
@@ -32222,7 +32329,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795258132
+   "t": 1795269679
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -33215,7 +33322,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795138275
+   "t": 1795269535
   },
   "Apam Napat": {
    "pos": [
@@ -33225,14 +33332,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.320731,
+   "prog": 0.320756,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795194897
+   "t": 1795198397
   },
   "Wolf 289": {
    "pos": [
@@ -34562,7 +34669,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795268644
+   "t": 1795269623
   },
   "Bhumian Ku": {
    "pos": [
@@ -35582,7 +35689,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795194302
+   "t": 1795269772
   },
   "Eurus": {
    "pos": [
@@ -36158,7 +36265,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795231896
+   "t": 1795269471
   },
   "Strigenses": {
    "pos": [
@@ -38157,7 +38264,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795268745
+   "t": 1795269072
   },
   "Lese": {
    "pos": [
@@ -38732,6 +38839,24 @@
     "Jerome Archer"
    ],
    "t": 1795268690
+  },
+  "FK5 2550": {
+   "pos": [
+    17.1875,
+    22.65625,
+    -75.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.211426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795269276
   }
  },
  "rivales": {

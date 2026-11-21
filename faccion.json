@@ -25210,10 +25210,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795268970.285509,
-  "msgs": 1955538,
+  "msgs": 1969879,
   "mios": 176
  },
- "t": 1795269779.618966,
+ "t": 1795270470.609645,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25747,7 +25747,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795261298
+   "t": 1795270183
   },
   "HIP 33497": {
    "pos": [
@@ -26564,9 +26564,9 @@
    "ly": 17.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 199067,
+   "pob": 199077,
    "ctrl_n": "East India Company",
-   "t": 1795110066
+   "t": 1795269919
   },
   "Apadecavi": {
    "pos": [
@@ -26798,9 +26798,9 @@
    "ly": 18.8,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 398025,
+   "pob": 398047,
    "ctrl_n": "The 46th and 2nd Galactic Regiment",
-   "t": 1795182257
+   "t": 1795270442
   },
   "Lambayeque": {
    "pos": [
@@ -27500,9 +27500,9 @@
    "ly": 7.3,
    "junto": "Hyades Sector SZ-N b7-0",
    "nfac": 5,
-   "pob": 2190070,
+   "pob": 2190597,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794960350
+   "t": 1795269967
   },
   "Propus": {
    "pos": [
@@ -30766,6 +30766,19 @@
    "pob": 6093,
    "ctrl_n": "Nagii Union",
    "t": 1795268690
+  },
+  "Ebanji": {
+   "pos": [
+    -25.46875,
+    87.75,
+    -129.65625
+   ],
+   "ly": 19.7,
+   "junto": "HIP 37216",
+   "nfac": 5,
+   "pob": 551359,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1795270464
   }
  },
  "codice": [
@@ -34765,7 +34778,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795182257
+   "t": 1795270442
   },
   "LF 8 +16 41": {
    "pos": [
@@ -38063,7 +38076,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795261298
+   "t": 1795270183
   },
   "Trante": {
    "pos": [
@@ -38857,6 +38870,56 @@
     "Jerome Archer"
    ],
    "t": 1795269276
+  },
+  "Tascheter Sector OX-U b2-7": {
+   "pos": [
+    19.25,
+    -54.75,
+    -45.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795269919
+  },
+  "SPOCS 323": {
+   "pos": [
+    18.9375,
+    23.0625,
+    -107.5
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.116569,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795269967
+  },
+  "Ebanji": {
+   "pos": [
+    -25.46875,
+    87.75,
+    -129.65625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.251658,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795270464
   }
  },
  "rivales": {

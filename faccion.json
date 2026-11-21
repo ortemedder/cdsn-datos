@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 24
+    "2026-11-21": 25
    },
    "zc": [
     {
@@ -2778,7 +2778,7 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795279135,
+     "t": 1795286795,
      "estado": "",
      "ls": 2383,
      "pads": {
@@ -2788,7 +2788,7 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795279141,
+      "t": 1795286808,
       "n": 117,
       "vende": [
        {
@@ -2878,7 +2878,7 @@
       ]
      },
      "mods": 520,
-     "mods_t": 1795279141,
+     "mods_t": 1795286808,
      "naves": [
       "adder",
       "asp",
@@ -2910,7 +2910,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795279141,
+     "naves_t": 1795286808,
      "atq": {
       "2026-11-18": {
        "ok": 17,
@@ -2925,7 +2925,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      },
@@ -7220,18 +7220,17 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795285601,
+   "t": 1795287039,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
-   "estado": "Boom",
+   "estado": "Expansion",
    "activos": [
     "CivilLiberty",
-    "Boom"
-   ],
-   "pendientes": [
+    "Boom",
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
    "segunda_inf": 6.09,
@@ -7244,11 +7243,10 @@
      "alg": "Independent",
      "act": [
       "CivilLiberty",
-      "Boom"
-     ],
-     "pend": [
+      "Boom",
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -7305,7 +7303,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 138
+    "2026-11-21": 143
    },
    "pn": {
     "H5L-70M": {
@@ -7351,7 +7349,7 @@
    },
    "tk": {
     "firma": "bfb4efd8",
-    "igual": 1795285601,
+    "igual": 1795287039,
     "ult": 1795276409,
     "desde": 1795213428,
     "est": null,
@@ -7397,20 +7395,22 @@
     "1795107600": 1,
     "1795132800": 2,
     "1795140000": 2,
-    "1795212000": 2
+    "1795212000": 2,
+    "1795284000": 1
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
-    "2026-11-20": 5
+    "2026-11-20": 5,
+    "2026-11-21": 1
    },
    "estaciones": {
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795282533,
+     "t": 1795286951,
      "estado": "",
-     "ls": 1063,
+     "ls": 1064,
      "mid": 4396762115,
      "mer": {
       "t": 1795282561,
@@ -7510,7 +7510,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 42,
+       "ok": 43,
        "no": 3
       }
      },
@@ -8061,9 +8061,9 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795234220,
+     "t": 1795286313,
      "estado": "",
-     "ls": 2658,
+     "ls": 2656,
      "pads": {
       "Small": 17,
       "Medium": 18,
@@ -8071,92 +8071,92 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795234252,
+      "t": 1795286339,
       "n": 366,
       "vende": [
        {
-        "n": "musgravite",
-        "p": 530463,
-        "d": 60
-       },
-       {
-        "n": "serendibite",
-        "p": 433214,
-        "d": 60
-       },
-       {
-        "n": "grandidierite",
-        "p": 427582,
-        "d": 60
-       },
-       {
-        "n": "benitoite",
-        "p": 424825,
-        "d": 60
-       },
-       {
-        "n": "opal",
-        "p": 405270,
+        "n": "monazite",
+        "p": 715319,
         "d": 72
+       },
+       {
+        "n": "musgravite",
+        "p": 520985,
+        "d": 72
+       },
+       {
+        "n": "iridium",
+        "p": 503085,
+        "d": 23700
+       },
+       {
+        "n": "thortveitite",
+        "p": 503085,
+        "d": 1129
+       },
+       {
+        "n": "periclasedunite",
+        "p": 503085,
+        "d": 1129
        }
       ],
       "alta": [
        {
         "n": "militarygradefabrics",
-        "p": 7866,
+        "p": 13503,
         "m": 899
        },
        {
+        "n": "bauxite",
+        "p": 9506,
+        "m": 1096
+       },
+       {
         "n": "animalmonitors",
-        "p": 3329,
+        "p": 4236,
         "m": 522
        },
        {
         "n": "conductivefabrics",
-        "p": 3811,
+        "p": 4729,
         "m": 666
        },
        {
         "n": "osmium",
-        "p": 213854,
+        "p": 240248,
         "m": 44051
-       },
-       {
-        "n": "platinum",
-        "p": 268583,
-        "m": 55505
        }
       ],
       "barato": [
        {
-        "n": "biowaste",
-        "p": 40,
-        "m": 271,
-        "s": 26707
+        "n": "foodcartridges",
+        "p": 70,
+        "m": 252,
+        "s": 694070
        },
        {
-        "n": "foodcartridges",
-        "p": 47,
-        "m": 252,
-        "s": 577465
+        "n": "biowaste",
+        "p": 106,
+        "m": 271,
+        "s": 32095
        },
        {
         "n": "scrap",
-        "p": 87,
+        "p": 133,
         "m": 276,
-        "s": 138649
+        "s": 166648
+       },
+       {
+        "n": "evacuationshelter",
+        "p": 301,
+        "m": 500,
+        "s": 141
        },
        {
         "n": "basicmedicines",
-        "p": 209,
+        "p": 295,
         "m": 489,
-        "s": 59200
-       },
-       {
-        "n": "waterpurifiers",
-        "p": 197,
-        "m": 447,
-        "s": 866247
+        "s": 71016
        }
       ]
      },
@@ -8218,7 +8218,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 8,
+       "ok": 9,
        "no": 0
       }
      }
@@ -8488,7 +8488,7 @@
     "Orbital Construction Site: Alcock's Inheritance": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795285601,
+     "t": 1795286677,
      "estado": "",
      "ls": 1073,
      "pads": {
@@ -8499,7 +8499,7 @@
      "mid": 3954275330,
      "atq": {
       "2026-11-21": {
-       "ok": 13,
+       "ok": 14,
        "no": 2
       }
      },
@@ -9043,7 +9043,7 @@
     "2026-11-18": 6,
     "2026-11-19": 4,
     "2026-11-20": 4,
-    "2026-11-21": 2
+    "2026-11-21": 6
    },
    "pn": {
     "QBT-LQY": {
@@ -9110,7 +9110,7 @@
     "Melvin City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795284115,
+     "t": 1795286763,
      "estado": "",
      "ls": 690,
      "pads": {
@@ -9131,74 +9131,78 @@
       "2026-11-20": {
        "ok": 2,
        "no": 0
+      },
+      "2026-11-21": {
+       "ok": 2,
+       "no": 0
       }
      },
      "mer": {
-      "t": 1795284122,
+      "t": 1795286774,
       "n": 129,
       "vende": [
        {
-        "n": "monazite",
+        "n": "Monazite",
         "p": 394825,
         "d": 277
        },
        {
-        "n": "iridium",
+        "n": "Iridium",
         "p": 274482,
         "d": 30381
        },
        {
-        "n": "periclasedunite",
+        "n": "PericlaseDunite",
         "p": 274482,
         "d": 4533
        },
        {
-        "n": "thortveitite",
+        "n": "Thortveitite",
         "p": 274482,
         "d": 4533
        },
        {
-        "n": "alexandrite",
+        "n": "Alexandrite",
         "p": 236963,
         "d": 713
        }
       ],
       "alta": [
        {
-        "n": "lepidolite",
+        "n": "Lepidolite",
         "p": 5889,
         "m": 741
        },
        {
-        "n": "ceramiccomposites",
+        "n": "CeramicComposites",
         "p": 1906,
         "m": 402
        },
        {
-        "n": "bauxite",
+        "n": "Bauxite",
         "p": 4734,
         "m": 1096
        },
        {
-        "n": "syntheticfabrics",
+        "n": "SyntheticFabrics",
         "p": 1392,
         "m": 354
        },
        {
-        "n": "polymers",
+        "n": "Polymers",
         "p": 1197,
         "m": 306
        }
       ],
       "barato": [
        {
-        "n": "foodcartridges",
+        "n": "FoodCartridges",
         "p": 135,
         "m": 252,
         "s": 29572
        },
        {
-        "n": "biowaste",
+        "n": "Biowaste",
         "p": 146,
         "m": 271,
         "s": 5571
@@ -9206,7 +9210,7 @@
       ]
      },
      "mods": 729,
-     "mods_t": 1795284122,
+     "mods_t": 1795286770,
      "naves": [
       "anaconda",
       "asp",
@@ -9227,7 +9231,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795284122
+     "naves_t": 1795286770
     }
    },
    "prev": 64.95,
@@ -13355,7 +13359,7 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 29
+    "2026-11-21": 30
    },
    "tk": {
     "firma": "9ac237db",
@@ -13894,6 +13898,26 @@
        "ok": 1,
        "no": 0
       }
+     }
+    },
+    "Orbital Construction Site: Brady Depot": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795286230,
+     "estado": "",
+     "ls": 1334,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3956903938,
+     "mer": {
+      "t": 1795286238,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -21991,7 +22015,7 @@
   },
   "Bundhar": {
    "sys": "Bundhar",
-   "t": 1795216381,
+   "t": 1795286896,
    "src": "EDDN",
    "inf": 10.65,
    "ctrl": false,
@@ -22072,42 +22096,50 @@
    },
    "trafico": {
     "2026-11-16": 2,
-    "2026-11-20": 2
+    "2026-11-20": 2,
+    "2026-11-21": 2
    },
    "pn": {
     "Q3K-L0G": {
      "n": "F****************a",
-     "t": 1795216618,
+     "t": 1795287057,
      "d": 1795216618
     },
     "V0H-BVV": {
      "n": "P******************Y",
-     "t": 1795216618,
+     "t": 1795287057,
      "d": 1795216618
     },
     "V3B-0KX": {
      "n": "[1IF] GODS OF EGYPT",
-     "t": 1795216618,
+     "t": 1795287057,
      "d": 1795216618
     },
     "K8K-04L": {
      "n": "DUSTY NEBULA",
-     "t": 1795216618,
+     "t": 1795287057,
      "d": 1795216618
+    },
+    "TLQ-02Y": {
+     "n": "lord conqueror tncorp",
+     "t": 1795287057,
+     "d": 1795286896
     }
    },
    "tk": {
     "firma": "c94603e0",
-    "igual": 1795216381,
+    "igual": 1795286896,
     "ult": 1795216381,
     "desde": 1794846143,
     "est": null
    },
    "saltos": {
-    "1795215600": 2
+    "1795215600": 2,
+    "1795284000": 2
    },
    "rutas": {
-    "2026-11-20": 2
+    "2026-11-20": 2,
+    "2026-11-21": 2
    },
    "prev": 10.55,
    "prev_t": 1794846143,
@@ -22282,23 +22314,23 @@
   },
   "Synuefe VG-C c29-7": {
    "sys": "Synuefe VG-C c29-7",
-   "t": 1794841822,
+   "t": 1795286773,
    "src": "EDDN",
-   "inf": 18.36,
+   "inf": 18.15,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
+   "recuperando": [],
    "segunda": "Atese Camorra",
-   "segunda_inf": 64.79,
+   "segunda_inf": 65.2,
    "conflictos": [],
    "todas": [
     {
      "n": "Atese Camorra",
-     "inf": 64.79,
+     "inf": 65.2,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -22307,16 +22339,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 18.36,
+     "inf": 18.15,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
     {
      "n": "Storm Seekers",
-     "inf": 11.53,
+     "inf": 11.43,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -22325,7 +22359,7 @@
     },
     {
      "n": "Xelas Blue Clan",
-     "inf": 5.32,
+     "inf": 5.22,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -22340,7 +22374,7 @@
     203.75
    ],
    "sis": {
-    "pob": 39920530,
+    "pob": 40432952,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Extraction;",
     "seg": "$GAlAXY_MAP_INFO_state_anarchy;",
@@ -22356,22 +22390,149 @@
     "pots": []
    },
    "trafico": {
-    "2026-11-16": 8
+    "2026-11-16": 8,
+    "2026-11-21": 2
    },
    "tk": {
-    "firma": "543d374e",
-    "igual": 1794841822
+    "firma": "3a2a6fb0",
+    "igual": 1795286773,
+    "ult": 1795286773,
+    "desde": 1794841822,
+    "est": null
    },
-   "prev": null,
-   "prev_t": null,
+   "saltos": {
+    "1795284000": 1
+   },
+   "rutas": {
+    "2026-11-20": 1,
+    "2026-11-21": 1
+   },
+   "prev": 18.36,
+   "prev_t": 1794841822,
    "hinf": [
     [
      1794838763,
      18.36
+    ],
+    [
+     1795286773,
+     18.15
     ]
    ],
-   "rutas": {
-    "2026-11-20": 1
+   "rach": {
+    "Atese Camorra": 1,
+    "Caballeros de Sion": 0,
+    "Storm Seekers": 0,
+    "Xelas Blue Clan": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795286773,
+   "tick_marg": 3707,
+   "cseg": {},
+   "estaciones": {
+    "Kardos Horizons": {
+     "f": "Atese Camorra",
+     "tipo": "Coriolis",
+     "t": 1795287012,
+     "estado": "",
+     "ls": 61,
+     "pads": {
+      "Small": 8,
+      "Medium": 11,
+      "Large": 7
+     },
+     "mid": 4350178307,
+     "mer": {
+      "t": 1795287023,
+      "n": 167,
+      "vende": [
+       {
+        "n": "Alexandrite",
+        "p": 209603,
+        "d": 4583
+       },
+       {
+        "n": "Monazite",
+        "p": 196932,
+        "d": 1835
+       },
+       {
+        "n": "MetaAlloys",
+        "p": 194599,
+        "d": 1357
+       },
+       {
+        "n": "Musgravite",
+        "p": 191307,
+        "d": 4583
+       },
+       {
+        "n": "Grandidierite",
+        "p": 189989,
+        "d": 4583
+       }
+      ],
+      "alta": [
+       {
+        "n": "Water",
+        "p": 573,
+        "m": 260
+       },
+       {
+        "n": "Algae",
+        "p": 567,
+        "m": 308
+       },
+       {
+        "n": "Beer",
+        "p": 643,
+        "m": 350
+       },
+       {
+        "n": "Wine",
+        "p": 723,
+        "m": 417
+       },
+       {
+        "n": "Scrap",
+        "p": 466,
+        "m": 276
+       }
+      ],
+      "barato": [
+       {
+        "n": "FoodCartridges",
+        "p": 33,
+        "m": 252,
+        "s": 359933
+       },
+       {
+        "n": "Biowaste",
+        "p": 75,
+        "m": 271,
+        "s": 45905
+       },
+       {
+        "n": "BasicMedicines",
+        "p": 187,
+        "m": 489,
+        "s": 38707
+       },
+       {
+        "n": "Polymers",
+        "p": 131,
+        "m": 306,
+        "s": 1465307
+       },
+       {
+        "n": "SyntheticFabrics",
+        "p": 205,
+        "m": 354,
+        "s": 1073723
+       }
+      ]
+     }
+    }
    }
   },
   "HIP 101655": {
@@ -25906,11 +26067,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795285601.93667,
-  "msgs": 2272275,
-  "mios": 207
+  "ultimo": 1795287040.3240445,
+  "msgs": 2291252,
+  "mios": 210
  },
- "t": 1795286015.8448205,
+ "t": 1795287070.2056396,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26392,7 +26553,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795276513
+   "t": 1795286706
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -26626,7 +26787,7 @@
    "nfac": 4,
    "pob": 157985716,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795284350
+   "t": 1795286817
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -26665,7 +26826,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795283974
+   "t": 1795286395
   },
   "LTT 740": {
    "pos": [
@@ -26691,7 +26852,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795284369
+   "t": 1795286512
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -26782,7 +26943,7 @@
    "nfac": 4,
    "pob": 159109,
    "ctrl_n": "Civitas Dei",
-   "t": 1795276647
+   "t": 1795286681
   },
   "Tascheter Sector AA-Z b3": {
    "pos": [
@@ -26923,9 +27084,9 @@
    "ly": 18.2,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 397704,
+   "pob": 397777,
    "ctrl_n": "East India Company",
-   "t": 1795028303
+   "t": 1795286394
   },
   "Mukun": {
    "pos": [
@@ -30134,9 +30295,9 @@
    "ly": 9.5,
    "junto": "Lati",
    "nfac": 4,
-   "pob": 317948,
+   "pob": 318027,
    "ctrl_n": "Branglal Independents",
-   "t": 1795116181
+   "t": 1795287038
   },
   "Mdi": {
    "pos": [
@@ -32167,7 +32328,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795276513
+   "t": 1795286706
   },
   "Nergal": {
    "pos": [
@@ -32216,7 +32377,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795116181
+   "t": 1795287038
   },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
@@ -32348,7 +32509,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795284350
+   "t": 1795286817
   },
   "Wolf 186": {
    "pos": [
@@ -33394,7 +33555,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.374999,
+   "prog": 0.375932,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -33402,7 +33563,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795283974
+   "t": 1795286395
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -35548,7 +35709,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795285036
+   "t": 1795286949
   },
   "Bhumian Ku": {
    "pos": [
@@ -38069,7 +38230,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795216381
+   "t": 1795286896
   },
   "59 Geminorum": {
    "pos": [
@@ -39880,7 +40041,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795276647
+   "t": 1795286681
   },
   "LTT 12089": {
    "pos": [
@@ -40352,6 +40513,39 @@
     "Pranav Antal"
    ],
    "t": 1795285648
+  },
+  "Piscium Sector SD-T b3-0": {
+   "pos": [
+    -8.78125,
+    -93.71875,
+    -18.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Archon Delaine",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795286394
+  },
+  "Kanean": {
+   "pos": [
+    22.28125,
+    -22.75,
+    -86.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795286623
   }
  },
  "rivales": {

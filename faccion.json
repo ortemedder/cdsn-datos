@@ -24240,10 +24240,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795247934.5322118,
-  "msgs": 1684029,
+  "msgs": 1692253,
   "mios": 146
  },
- "t": 1795247952.6496918,
+ "t": 1795249123.6711848,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -29679,6 +29679,19 @@
    "pob": 1998491,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795247337
+  },
+  "Hyades Sector VA-M b8-0": {
+   "pos": [
+    -43.90625,
+    0.78125,
+    -104.90625
+   ],
+   "ly": 9.8,
+   "junto": "LP 158-2",
+   "nfac": 5,
+   "pob": 398759,
+   "ctrl_n": "Astrobiology Research Cooperative",
+   "t": 1795248609
   }
  },
  "codice": [
@@ -34956,14 +34969,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.247077,
+   "prog": 0.247763,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795220133
+   "t": 1795248793
   },
   "Lan Caihe": {
    "pos": [
@@ -35892,7 +35905,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795243579
+   "t": 1795249117
   },
   "Hyades Sector OT-P b6-1": {
    "pos": [
@@ -37130,6 +37143,23 @@
     "Jerome Archer"
    ],
    "t": 1795247933
+  },
+  "Hyades Sector VA-M b8-0": {
+   "pos": [
+    -43.90625,
+    0.78125,
+    -104.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795248609
   }
  },
  "rivales": {

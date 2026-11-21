@@ -2207,7 +2207,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 29
+    "2026-11-21": 30
    },
    "zc": [
     {
@@ -7293,7 +7293,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 154
+    "2026-11-21": 159
    },
    "pn": {
     "H5L-70M": {
@@ -7399,12 +7399,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795289355,
+     "t": 1795290688,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795289397,
+      "t": 1795290694,
       "n": 366,
       "vende": [
        {
@@ -7501,7 +7501,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 47,
+       "ok": 49,
        "no": 3
       }
      },
@@ -8481,7 +8481,7 @@
     "Orbital Construction Site: Houtman Reach": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795289576,
+     "t": 1795290561,
      "estado": "",
      "ls": 1073,
      "pads": {
@@ -8492,7 +8492,7 @@
      "mid": 3957070338,
      "atq": {
       "2026-11-21": {
-       "ok": 1,
+       "ok": 3,
        "no": 0
       }
      }
@@ -13356,7 +13356,7 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 39
+    "2026-11-21": 40
    },
    "tk": {
     "firma": "9ac237db",
@@ -13475,44 +13475,44 @@
     },
     "Rosebrae Vista": {
      "f": "The Guild of Sefry",
-     "tipo": "SurfaceStation",
-     "t": 1794950996,
-     "estado": "Construction",
+     "tipo": "Dodec",
+     "t": 1795290147,
+     "estado": "",
      "ls": 1812,
      "pads": {
-      "Small": 8,
-      "Medium": 13,
-      "Large": 5
+      "Small": 12,
+      "Medium": 15,
+      "Large": 7
      },
      "mid": 4404248835,
      "mer": {
-      "t": 1794951003,
+      "t": 1795290154,
       "n": 108,
       "vende": [
        {
         "n": "iridium",
         "p": 202355,
-        "d": 10024
+        "d": 99064
        },
        {
         "n": "lowtemperaturediamond",
         "p": 133528,
-        "d": 405
+        "d": 3996
        },
        {
         "n": "helium",
-        "p": 86650,
-        "d": 162
+        "p": 99378,
+        "d": 1599
        },
        {
         "n": "helium3",
-        "p": 81049,
-        "d": 162
+        "p": 92966,
+        "d": 1599
        },
        {
         "n": "painite",
         "p": 65304,
-        "d": 384
+        "d": 3795
        }
       ],
       "alta": [
@@ -13547,36 +13547,36 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 5830
+        "s": 51214
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 97968
+        "s": 966685
        },
        {
         "n": "scrap",
         "p": 64,
         "m": 276,
-        "s": 29294
-       },
-       {
-        "n": "waterpurifiers",
-        "p": 160,
-        "m": 447,
-        "s": 151177
+        "s": 257351
        },
        {
         "n": "basicmedicines",
-        "p": 198,
+        "p": 172,
         "m": 489,
-        "s": 10556
+        "s": 101062
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 161,
+        "m": 447,
+        "s": 1494128
        }
       ]
      },
-     "mods": 823,
-     "mods_t": 1794951003,
+     "mods": 922,
+     "mods_t": 1795290154,
      "naves": [
       "adder",
       "anaconda",
@@ -13587,6 +13587,7 @@
       "cobramkiii",
       "cobramkv",
       "corsair",
+      "cutter",
       "diamondback",
       "diamondbackxl",
       "dolphin",
@@ -13594,6 +13595,7 @@
       "empire_courier",
       "empire_eagle",
       "empire_trader",
+      "federation_corvette",
       "federation_dropship",
       "federation_dropship_mkii",
       "federation_gunship",
@@ -13624,9 +13626,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1794951003,
+     "naves_t": 1795290154,
      "atq": {
       "2026-11-17": {
+       "ok": 1,
+       "no": 0
+      },
+      "2026-11-21": {
        "ok": 1,
        "no": 0
       }
@@ -22230,32 +22236,32 @@
    "trafico": {
     "2026-11-16": 2,
     "2026-11-20": 2,
-    "2026-11-21": 6
+    "2026-11-21": 8
    },
    "pn": {
     "Q3K-L0G": {
      "n": "F****************a",
-     "t": 1795289485,
+     "t": 1795289857,
      "d": 1795216618
     },
     "V0H-BVV": {
      "n": "P******************Y",
-     "t": 1795289485,
+     "t": 1795289857,
      "d": 1795216618
     },
     "V3B-0KX": {
      "n": "[1IF] GODS OF EGYPT",
-     "t": 1795289485,
+     "t": 1795289857,
      "d": 1795216618
     },
     "K8K-04L": {
      "n": "DUSTY NEBULA",
-     "t": 1795289485,
+     "t": 1795289857,
      "d": 1795216618
     },
     "TLQ-02Y": {
      "n": "lord conqueror tncorp",
-     "t": 1795289485,
+     "t": 1795289857,
      "d": 1795286896
     }
    },
@@ -26307,10 +26313,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795289717.6578755,
-  "msgs": 2352096,
+  "msgs": 2371487,
   "mios": 227
  },
- "t": 1795289775.5655048,
+ "t": 1795290690.117457,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -26792,7 +26798,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795286706
+   "t": 1795290253
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -27804,9 +27810,9 @@
    "ly": 16.5,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 4,
-   "pob": 1597934,
+   "pob": 1597962,
    "ctrl_n": "Aseveljet",
-   "t": 1795200967
+   "t": 1795290321
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -27910,7 +27916,7 @@
    "nfac": 4,
    "pob": 22249,
    "ctrl_n": "Yenici Patron's Principles",
-   "t": 1795288599
+   "t": 1795290463
   },
   "Alhena": {
    "pos": [
@@ -28126,12 +28132,12 @@
     57.125,
     -115.34375
    ],
-   "ly": 18.5,
-   "junto": "Kher",
+   "ly": 16.6,
+   "junto": "HIP 33282",
    "nfac": 6,
    "pob": 12380955,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794968159
+   "t": 1795290043
   },
   "Ceti Sector KX-T b3-0": {
    "pos": [
@@ -28937,7 +28943,7 @@
    "nfac": 5,
    "pob": 47351990,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795271537
+   "t": 1795290213
   },
   "Oisi": {
    "pos": [
@@ -29236,7 +29242,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795259672
+   "t": 1795290026
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -31810,7 +31816,7 @@
    "nfac": 3,
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
-   "t": 1795289416
+   "t": 1795290682
   },
   "Tascheter Sector DG-O a6-4": {
    "pos": [
@@ -32071,6 +32077,45 @@
    "pob": 73554,
    "ctrl_n": "THE AZGHARIE",
    "t": 1795288982
+  },
+  "Col 285 Sector RZ-O c6-8": {
+   "pos": [
+    -244.25,
+    3.6875,
+    -78.90625
+   ],
+   "ly": 8.6,
+   "junto": "Col 285 Sector RZ-O c6-12",
+   "nfac": 3,
+   "pob": 786291835,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795289545
+  },
+  "Lyncis Sector JM-V b2-2": {
+   "pos": [
+    -41.78125,
+    93.3125,
+    -148.5625
+   ],
+   "ly": 15.8,
+   "junto": "HIP 37216",
+   "nfac": 4,
+   "pob": 60184541,
+   "ctrl_n": "Nagii Union",
+   "t": 1795290193
+  },
+  "Col 285 Sector IZ-D b13-1": {
+   "pos": [
+    -251.21875,
+    3.1875,
+    -67.4375
+   ],
+   "ly": 16.3,
+   "junto": "Col 285 Sector RZ-O c6-12",
+   "nfac": 4,
+   "pob": 264373,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795290109
   }
  },
  "codice": [
@@ -32604,7 +32649,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795286706
+   "t": 1795290253
   },
   "Nergal": {
    "pos": [
@@ -32619,7 +32664,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795200967
+   "t": 1795290321
   },
   "Hyades Sector IN-R b5-1": {
    "pos": [
@@ -34311,7 +34356,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795259672
+   "t": 1795290026
   },
   "NLTT 8234": {
    "pos": [
@@ -34857,7 +34902,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795271537
+   "t": 1795290213
   },
   "LP 365-24": {
    "pos": [
@@ -35985,7 +36030,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795289474
+   "t": 1795290320
   },
   "Bhumian Ku": {
    "pos": [
@@ -36953,7 +36998,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795288599
+   "t": 1795290463
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -39793,7 +39838,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795289416
+   "t": 1795290682
   },
   "Lati": {
    "pos": [
@@ -40948,6 +40993,53 @@
     "Li Yong-Rui"
    ],
    "t": 1795289374
+  },
+  "Irdlivices": {
+   "pos": [
+    -8.84375,
+    57.125,
+    -115.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.177632,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795290043
+  },
+  "Lyncis Sector JM-V b2-2": {
+   "pos": [
+    -41.78125,
+    93.3125,
+    -148.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795290193
+  },
+  "Shedi": {
+   "pos": [
+    -33.53125,
+    -19.90625,
+    -77.84375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252423,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795285595
   }
  },
  "rivales": {

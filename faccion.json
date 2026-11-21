@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 85
+    "2026-11-21": 92
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795232631,
+     "t": 1795233243,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795232663,
+      "t": 1795233321,
       "n": 366,
       "vende": [
        {
@@ -6984,8 +6984,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 499512,
-        "d": 47543
+        "p": 499522,
+        "d": 47544
        },
        {
         "n": "opal",
@@ -7067,8 +7067,8 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 30,
-       "no": 0
+       "ok": 32,
+       "no": 2
       }
      },
      "pads": {
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795232637,
+     "naves_t": 1795233250,
      "neg": {
-      "Distance": 5
+      "Distance": 7
      },
      "mods": 886,
-     "mods_t": 1795232637
+     "mods_t": 1795233250
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8018,7 +8018,7 @@
     "Orbital Construction Site: Siodmak Landing": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795232321,
+     "t": 1795232937,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -8028,7 +8028,7 @@
      },
      "mid": 3953879298,
      "mer": {
-      "t": 1795232328,
+      "t": 1795232944,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8036,7 +8036,7 @@
      },
      "atq": {
       "2026-11-21": {
-       "ok": 10,
+       "ok": 12,
        "no": 0
       }
      }
@@ -15859,7 +15859,7 @@
   },
   "Tastis": {
    "sys": "Tastis",
-   "t": 1795149864,
+   "t": 1795232912,
    "src": "EDDN",
    "inf": 9.19,
    "ctrl": false,
@@ -15963,17 +15963,19 @@
     "2025-10-09": 1,
     "2025-10-10": 1,
     "2026-11-12": 1,
-    "2026-11-20": 1
+    "2026-11-20": 1,
+    "2026-11-21": 2
    },
    "tk": {
     "firma": "deebc4a0",
-    "igual": 1795149864,
+    "igual": 1795232912,
     "ult": 1795149864,
     "desde": 1794465933,
     "est": null
    },
    "saltos": {
-    "1795147200": 1
+    "1795147200": 1,
+    "1795230000": 1
    },
    "rutas": {
     "2026-11-20": 2,
@@ -16001,7 +16003,19 @@
    "rivales": [],
    "tick_ult": 1795149864,
    "tick_marg": 5699,
-   "cseg": {}
+   "cseg": {},
+   "pn": {
+    "T6L-17W": {
+     "n": "SKARBOWKA",
+     "t": 1795233000,
+     "d": 1795233000
+    },
+    "K5G-W9K": {
+     "n": "Bush Chook",
+     "t": 1795233000,
+     "d": 1795233000
+    }
+   }
   },
   "Col 285 Sector FT-F b12-6": {
    "sys": "Col 285 Sector FT-F b12-6",
@@ -24139,11 +24153,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795223430.612014,
-  "msgs": 1541133,
-  "mios": 142
+  "ultimo": 1795232917.6556134,
+  "msgs": 1551629,
+  "mios": 143
  },
- "t": 1795232883.643859,
+ "t": 1795233545.6191792,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24376,9 +24390,9 @@
    "ly": 18.9,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 3,
-   "pob": 122320414,
+   "pob": 122339689,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795056472
+   "t": 1795233371
   },
   "HIP 43660": {
    "pos": [
@@ -24898,7 +24912,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795232146
+   "t": 1795233174
   },
   "LTT 740": {
    "pos": [
@@ -29488,6 +29502,19 @@
    "pob": 66038,
    "ctrl_n": "Order of Enblackenment",
    "t": 1795232846
+  },
+  "Tascheter Sector XE-Q a5-3": {
+   "pos": [
+    15.71875,
+    -27.34375,
+    -51.53125
+   ],
+   "ly": 16.7,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 198790,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795233040
   }
  },
  "codice": [
@@ -31245,7 +31272,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795232146
+   "t": 1795233174
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -32672,7 +32699,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795149864
+   "t": 1795232912
   },
   "HIP 33497": {
    "pos": [
@@ -33737,7 +33764,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795181610
+   "t": 1795233125
   },
   "Lyncis Sector CQ-Y c7": {
    "pos": [
@@ -36576,6 +36603,37 @@
     "Jerome Archer"
    ],
    "t": 1795232846
+  },
+  "Tascheter Sector XE-Q a5-3": {
+   "pos": [
+    15.71875,
+    -27.34375,
+    -51.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795233040
+  },
+  "LHS 1499": {
+   "pos": [
+    -41.5,
+    -18.15625,
+    -66.125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.666168,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795233371
   }
  },
  "rivales": {

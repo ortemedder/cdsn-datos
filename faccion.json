@@ -3477,7 +3477,7 @@
   },
   "Catun": {
    "sys": "Catun",
-   "t": 1795154472,
+   "t": 1795244748,
    "src": "EDDN",
    "inf": 70.68,
    "ctrl": true,
@@ -3507,10 +3507,10 @@
      "inf": 8.39,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [],
-     "pend": [
+     "act": [
       "War"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -3518,10 +3518,10 @@
      "inf": 8.39,
      "gov": "Feudal",
      "alg": "Empire",
-     "act": [],
-     "pend": [
+     "act": [
       "War"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -3598,28 +3598,29 @@
     "2026-11-17": 2,
     "2026-11-18": 25,
     "2026-11-19": 12,
-    "2026-11-20": 1
+    "2026-11-20": 1,
+    "2026-11-21": 2
    },
    "pn": {
     "T9K-6QK": {
      "n": "ROMANO FAFARD",
-     "t": 1795154472,
+     "t": 1795244766,
      "d": 1794959958
     },
     "H2T-68G": {
      "n": "LADY OLGA",
-     "t": 1795154472,
+     "t": 1795244766,
      "d": 1794959958
     },
     "WNH-W5W": {
      "n": "VODOLEY",
-     "t": 1795154472,
+     "t": 1795244766,
      "d": 1794959958
     }
    },
    "tk": {
     "firma": "32902711",
-    "igual": 1795154472,
+    "igual": 1795244748,
     "ult": 1795154472,
     "desde": 1795118977,
     "vent": [
@@ -3644,7 +3645,8 @@
     "1795100400": 2,
     "1795104000": 2,
     "1795118400": 1,
-    "1795154400": 1
+    "1795154400": 1,
+    "1795244400": 1
    },
    "rutas": {
     "2026-11-17": 4,
@@ -3657,9 +3659,9 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795105075,
+     "t": 1795245304,
      "estado": "",
-     "ls": 1815,
+     "ls": 1813,
      "pads": {
       "Small": 7,
       "Medium": 12,
@@ -3667,7 +3669,7 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795104656,
+      "t": 1795245311,
       "n": 144,
       "vende": [
        {
@@ -3757,16 +3759,31 @@
       ]
      },
      "mods": 783,
-     "mods_t": 1795105081,
+     "mods_t": 1795245311,
      "naves": [
       "anaconda",
+      "asp",
+      "cobramkiii",
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
       "explorer_nx",
+      "ferdelance",
+      "hauler",
       "lakonminer",
-      "mandalay",
-      "panthermkii",
-      "type8"
+      "mamba",
+      "mediumtransport01",
+      "orca",
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type8",
+      "viper",
+      "viper_mkiv"
      ],
-     "naves_t": 1795104741,
+     "naves_t": 1795245311,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3778,6 +3795,10 @@
       },
       "2026-11-19": {
        "ok": 9,
+       "no": 0
+      },
+      "2026-11-21": {
+       "ok": 1,
        "no": 0
       }
      }
@@ -3849,7 +3870,24 @@
    "tick_prox": 1795212960,
    "tick_disp": 127,
    "tick_n": 0,
-   "cseg": {}
+   "cseg": {},
+   "zc": [
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1795244766
+    },
+    {
+     "n": "$Warzone_PointRace_High:#index=1;",
+     "i": "High",
+     "t": 1795244766
+    },
+    {
+     "n": "$Warzone_PointRace_Med:#index=1;",
+     "i": "Med",
+     "t": 1795244766
+    }
+   ]
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
@@ -24165,11 +24203,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795238104.8791332,
-  "msgs": 1655319,
-  "mios": 144
+  "ultimo": 1795244750.5995467,
+  "msgs": 1661597,
+  "mios": 145
  },
- "t": 1795244568.0330365,
+ "t": 1795245509.5403278,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25218,12 +25256,12 @@
     9.25,
     -97.28125
    ],
-   "ly": 3.7,
-   "junto": "Adjukru",
+   "ly": 2.5,
+   "junto": "Tascheter Sector BQ-Y c18",
    "nfac": 3,
-   "pob": 50001413,
+   "pob": 50006062,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795054887
+   "t": 1795244694
   },
   "ICZ EL-Y d90": {
    "pos": [
@@ -26523,7 +26561,7 @@
    "nfac": 6,
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795244015
+   "t": 1795245502
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -30182,7 +30220,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795244015
+   "t": 1795245502
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -30734,7 +30772,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795154472
+   "t": 1795244748
   },
   "NLTT 16389": {
    "pos": [
@@ -34358,7 +34396,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795193181
+   "t": 1795244638
   },
   "Hayimstae": {
    "pos": [
@@ -36946,6 +36984,42 @@
     "Jerome Archer"
    ],
    "t": 1795244407
+  },
+  "Hyades Sector WA-M b8-5": {
+   "pos": [
+    -16.78125,
+    9.25,
+    -97.28125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.163894,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795244694
+  },
+  "Delphin": {
+   "pos": [
+    18.65625,
+    16.75,
+    -76.3125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.338261,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795244786
   }
  },
  "rivales": {

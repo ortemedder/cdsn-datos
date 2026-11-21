@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 8
+    "2026-11-21": 10
    },
    "zc": [
     {
@@ -2786,7 +2786,7 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795261203,
+      "t": 1795268619,
       "n": 117,
       "vende": [
        {
@@ -2876,12 +2876,13 @@
       ]
      },
      "mods": 520,
-     "mods_t": 1795261203,
+     "mods_t": 1795268619,
      "naves": [
       "adder",
       "asp",
       "asp_scout",
       "cobramkiii",
+      "cobramkiv",
       "cobramkv",
       "diamondback",
       "diamondbackxl",
@@ -2908,7 +2909,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795261203,
+     "naves_t": 1795268619,
      "atq": {
       "2026-11-18": {
        "ok": 17,
@@ -5458,50 +5459,23 @@
   },
   "Jangore": {
    "sys": "Jangore",
-   "t": 1794663943,
+   "t": 1795268570,
    "src": "EDDN",
-   "inf": 8.61,
+   "inf": 7.8,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 57.76,
+   "segunda_inf": 62.2,
    "conflictos": [],
    "todas": [
     {
      "n": "Beasts of Bestia",
-     "inf": 57.76,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Jangore Partnership",
-     "inf": 17.02,
-     "gov": "Confederacy",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Jangore Monarchy",
-     "inf": 10.71,
-     "gov": "Feudal",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 8.61,
+     "inf": 62.2,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -5511,8 +5485,37 @@
      "jug": null
     },
     {
+     "n": "Jangore Partnership",
+     "inf": 15.5,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Jangore Monarchy",
+     "inf": 9.0,
+     "gov": "Feudal",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 7.8,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
      "n": "Jangore Power Systems",
-     "inf": 4.9,
+     "inf": 4.5,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -5560,7 +5563,8 @@
     "2026-11-11": 6,
     "2026-11-12": 2,
     "2026-11-13": 7,
-    "2026-11-14": 3
+    "2026-11-14": 3,
+    "2026-11-21": 1
    },
    "pn": {
     "K4J-GTX": {
@@ -5573,10 +5577,10 @@
     }
    },
    "tk": {
-    "firma": "242186c2",
-    "igual": 1794663943,
-    "ult": 1794649444,
-    "desde": 1794609027,
+    "firma": "57f88e69",
+    "igual": 1795268570,
+    "ult": 1795268570,
+    "desde": 1794663943,
     "est": null,
     "vent": [
      [
@@ -5585,8 +5589,14 @@
      ]
     ]
    },
-   "prev": 8.51,
-   "prev_t": 1794609027,
+   "saltos": {
+    "1795266000": 1
+   },
+   "rutas": {
+    "2026-11-21": 3
+   },
+   "prev": 8.61,
+   "prev_t": 1794663943,
    "hinf": [
     [
      1794159039,
@@ -5607,16 +5617,27 @@
     [
      1794649444,
      8.61
+    ],
+    [
+     1795268570,
+     7.8
     ]
    ],
-   "tick_ult": 1794649444,
-   "tick_marg": 336,
-   "tick_prox": 1794715590,
+   "rach": {
+    "Beasts of Bestia": 1,
+    "Jangore Partnership": 0,
+    "Jangore Monarchy": 0,
+    "Caballeros de Sion": 0,
+    "Jangore Power Systems": 0,
+    "Jangore Blue Council": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795268570,
+   "tick_marg": 5038,
+   "tick_prox": 1795320390,
    "tick_disp": 336,
    "tick_n": 0,
-   "rutas": {
-    "2026-11-21": 1
-   }
+   "cseg": {}
   },
   "Diaguthivar": {
    "sys": "Diaguthivar",
@@ -17741,7 +17762,7 @@
   },
   "Lati": {
    "sys": "Lati",
-   "t": 1795260018,
+   "t": 1795268968,
    "src": "EDDN",
    "inf": 4.74,
    "ctrl": false,
@@ -17851,26 +17872,27 @@
    },
    "trafico": {
     "2026-11-18": 2,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "pn": {
     "WZT-W5B": {
      "n": "Lexx",
-     "t": 1795027888,
+     "t": 1795268968,
      "d": 1795027888
     }
    },
    "tk": {
     "firma": "84805fe9",
-    "igual": 1795260018
+    "igual": 1795268968
    },
    "saltos": {
     "1795024800": 1,
-    "1795258800": 1
+    "1795258800": 1,
+    "1795266000": 1
    },
    "rutas": {
     "2026-11-18": 4,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "prev": null,
    "prev_t": null,
@@ -17886,16 +17908,16 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1794848544,
+   "t": 1795268429,
    "src": "EDDN",
    "inf": 15.32,
    "ctrl": false,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Haraka Incorporated",
    "segunda_inf": 52.55,
    "conflictos": [],
@@ -17915,7 +17937,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -17993,14 +18017,21 @@
    },
    "trafico": {
     "2026-11-14": 2,
-    "2026-11-16": 3
+    "2026-11-16": 3,
+    "2026-11-21": 1
    },
    "tk": {
     "firma": "b4a055de",
-    "igual": 1794848544,
+    "igual": 1795268429,
     "ult": 1794848544,
     "desde": 1794666266,
     "est": null
+   },
+   "saltos": {
+    "1795266000": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
    },
    "prev": 15.02,
    "prev_t": 1794666266,
@@ -18014,8 +18045,118 @@
      15.32
     ]
    ],
+   "rach": {},
+   "rivales": [],
    "tick_ult": 1794848544,
-   "tick_marg": 1518
+   "tick_marg": 1518,
+   "cseg": {},
+   "estaciones": {
+    "Blackman Station": {
+     "f": "Haraka Incorporated",
+     "tipo": "Outpost",
+     "t": 1795268552,
+     "estado": "",
+     "ls": 1076,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 3228116992,
+     "mer": {
+      "t": 1795268559,
+      "n": 107,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 215295,
+        "d": 115
+       },
+       {
+        "n": "monazite",
+        "p": 201046,
+        "d": 45
+       },
+       {
+        "n": "musgravite",
+        "p": 196500,
+        "d": 115
+       },
+       {
+        "n": "grandidierite",
+        "p": 195097,
+        "d": 115
+       },
+       {
+        "n": "periclasedunite",
+        "p": 187711,
+        "d": 1092
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 717,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 751,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 791,
+        "m": 387
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 900,
+        "m": 447
+       },
+       {
+        "n": "wine",
+        "p": 834,
+        "m": 417
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 53,
+        "m": 271,
+        "s": 477
+       },
+       {
+        "n": "polymers",
+        "p": 79,
+        "m": 306,
+        "s": 20642
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 121,
+        "m": 354,
+        "s": 14417
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 667,
+        "m": 1375,
+        "s": 1120
+       },
+       {
+        "n": "conductivefabrics",
+        "p": 377,
+        "m": 666,
+        "s": 4908
+       }
+      ]
+     },
+     "mods": 158,
+     "mods_t": 1795268559
+    }
+   }
   },
   "Hima": {
    "sys": "Hima",
@@ -24961,11 +25102,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795267177.0798297,
-  "msgs": 1928819,
-  "mios": 173
+  "ultimo": 1795268970.285509,
+  "msgs": 1941986,
+  "mios": 176
  },
- "t": 1795268044.718639,
+ "t": 1795268977.7587702,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25928,7 +26069,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795213240
+   "t": 1795268333
   },
   "Lokaantii": {
    "pos": [
@@ -26472,9 +26613,9 @@
    "ly": 19.7,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 5,
-   "pob": 159245,
+   "pob": 159254,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1795172134
+   "t": 1795268166
   },
   "Arnemil": {
    "pos": [
@@ -30505,6 +30646,19 @@
    "pob": 123133315,
    "ctrl_n": "HIP 39681 Coordinated",
    "t": 1795266921
+  },
+  "Thiini": {
+   "pos": [
+    -37.03125,
+    -17.03125,
+    -117.6875
+   ],
+   "ly": 12.7,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 5,
+   "pob": 6093,
+   "ctrl_n": "Nagii Union",
+   "t": 1795268690
   }
  },
  "codice": [
@@ -32373,7 +32527,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795122349
+   "t": 1795268637
   },
   "Tascheter Sector CG-X b1-2": {
    "pos": [
@@ -34329,7 +34483,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795171976
+   "t": 1795268307
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -34345,7 +34499,7 @@
     "Aisling Duval",
     "Zemina Torval"
    ],
-   "t": 1795172134
+   "t": 1795268166
   },
   "Tascheter Sector CQ-Y c21": {
    "pos": [
@@ -34402,13 +34556,13 @@
    ],
    "pot": "Felicia Winters",
    "est": "Stronghold",
-   "prog": 0.250452,
+   "prog": 0.250514,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795266547
+   "t": 1795268644
   },
   "Bhumian Ku": {
    "pos": [
@@ -35036,7 +35190,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795268035
+   "t": 1795268832
   },
   "Galibi": {
    "pos": [
@@ -35701,14 +35855,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.267114,
+   "prog": 0.266991,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795213240
+   "t": 1795268333
   },
   "Yawala": {
    "pos": [
@@ -38003,7 +38157,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795268031
+   "t": 1795268745
   },
   "Lese": {
    "pos": [
@@ -38234,7 +38388,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795260018
+   "t": 1795268968
   },
   "Yin Sector XJ-A c20": {
    "pos": [
@@ -38316,7 +38470,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795262320
+   "t": 1795268112
   },
   "Wathiparian": {
    "pos": [
@@ -38416,7 +38570,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795266366
+   "t": 1795268642
   },
   "BD+49 1658": {
    "pos": [
@@ -38514,6 +38668,70 @@
     "Li Yong-Rui"
    ],
    "t": 1795267613
+  },
+  "Haraka": {
+   "pos": [
+    5.875,
+    16.4375,
+    -90.21875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.250784,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795268429
+  },
+  "ICZ AK-A c14": {
+   "pos": [
+    108.9375,
+    -114.375,
+    -29.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795268552
+  },
+  "Jangore": {
+   "pos": [
+    -39.1875,
+    -3.1875,
+    -86
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.058854,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795268570
+  },
+  "Thiini": {
+   "pos": [
+    -37.03125,
+    -17.03125,
+    -117.6875
+   ],
+   "pot": "Pranav Antal",
+   "est": "Exploited",
+   "prog": 0.083997,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795268690
   }
  },
  "rivales": {

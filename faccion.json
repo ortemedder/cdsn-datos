@@ -12639,7 +12639,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795256547,
+   "t": 1795257870,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12726,11 +12726,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 12
+    "2026-11-21": 14
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795256547
+    "igual": 1795257870
    },
    "saltos": {
     "1794902400": 2,
@@ -12757,14 +12757,14 @@
     "1795208400": 1,
     "1795212000": 1,
     "1795248000": 2,
-    "1795255200": 2
+    "1795255200": 3
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
     "2026-11-19": 3,
     "2026-11-20": 8,
-    "2026-11-21": 4
+    "2026-11-21": 5
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -13101,7 +13101,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      },
@@ -24317,11 +24317,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795256655.4224613,
-  "msgs": 1779327,
-  "mios": 155
+  "ultimo": 1795257872.6783268,
+  "msgs": 1789993,
+  "mios": 156
  },
- "t": 1795257269.08105,
+ "t": 1795258171.0329423,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24855,7 +24855,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795241057
+   "t": 1795257687
   },
   "HIP 33497": {
    "pos": [
@@ -25102,7 +25102,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795255834
+   "t": 1795257338
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -27143,7 +27143,7 @@
    "nfac": 3,
    "pob": 340552845,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795240460
+   "t": 1795258132
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -27429,7 +27429,7 @@
    "nfac": 5,
    "pob": 3560964,
    "ctrl_n": "Guardians of Tranquillity",
-   "t": 1795163825
+   "t": 1795257374
   },
   "Col 285 Sector RD-T a33-6": {
    "pos": [
@@ -28430,7 +28430,7 @@
    "nfac": 1,
    "pob": 274586494,
    "ctrl_n": "Civitas Dei",
-   "t": 1795253551
+   "t": 1795257439
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -29796,6 +29796,19 @@
    "pob": 33085,
    "ctrl_n": "Nagii Union",
    "t": 1795254813
+  },
+  "Col 285 Sector YZ-U b17-8": {
+   "pos": [
+    152.375,
+    -14.84375,
+    25.15625
+   ],
+   "ly": 17.7,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 198335,
+   "ctrl_n": "Skandini Imperial Society",
+   "t": 1795035756
   }
  },
  "codice": [
@@ -31359,7 +31372,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795240460
+   "t": 1795258132
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -33425,7 +33438,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795163825
+   "t": 1795257374
   },
   "Tascheter Sector CL-Y d104": {
    "pos": [
@@ -35689,7 +35702,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795205722
+   "t": 1795257366
   },
   "Alhena": {
    "pos": [
@@ -37093,7 +37106,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795241057
+   "t": 1795257687
   },
   "Trante": {
    "pos": [
@@ -37359,7 +37372,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795253551
+   "t": 1795257439
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -37443,6 +37456,38 @@
     "Jerome Archer"
    ],
    "t": 1795256107
+  },
+  "Col 285 Sector YZ-U b17-8": {
+   "pos": [
+    152.375,
+    -14.84375,
+    25.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795035756
+  },
+  "Branglal": {
+   "pos": [
+    18.90625,
+    34.28125,
+    -77.15625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.104615,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795257482
   }
  },
  "rivales": {

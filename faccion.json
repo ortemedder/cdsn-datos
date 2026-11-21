@@ -10085,11 +10085,11 @@
   },
   "LHS 5116": {
    "sys": "LHS 5116",
-   "t": 1795256241,
+   "t": 1795273440,
    "src": "EDDN",
    "inf": 8.57,
    "ctrl": false,
-   "estado": "War",
+   "estado": "None",
    "activos": [],
    "pendientes": [
     "Expansion"
@@ -10199,7 +10199,7 @@
     "2026-11-09": 1,
     "2026-11-14": 2,
     "2026-11-19": 3,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "pn": {
     "BZB-26Z": {
@@ -10210,19 +10210,20 @@
    },
    "tk": {
     "firma": "acb2e043",
-    "igual": 1795256241,
+    "igual": 1795273440,
     "ult": 1795256241,
     "desde": 1795131785,
     "est": null
    },
    "saltos": {
     "1795129200": 2,
-    "1795255200": 1
+    "1795255200": 1,
+    "1795273200": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-19": 2,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "estaciones": {
     "Britnev Dock": {
@@ -13749,7 +13750,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1795271792,
+   "t": 1795273220,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -13825,7 +13826,7 @@
     "2026-11-14": 17,
     "2026-11-15": 5,
     "2026-11-18": 1,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "pn": {
     "T9Q-5HX": {
@@ -13836,13 +13837,14 @@
    },
    "tk": {
     "firma": "7c1e5e67",
-    "igual": 1795271792
+    "igual": 1795273220
    },
    "saltos": {
-    "1795269600": 1
+    "1795269600": 1,
+    "1795273200": 1
    },
    "rutas": {
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "prev": null,
    "prev_t": null,
@@ -18023,7 +18025,7 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1795268429,
+   "t": 1795272818,
    "src": "EDDN",
    "inf": 15.32,
    "ctrl": false,
@@ -18133,43 +18135,27 @@
    "trafico": {
     "2026-11-14": 2,
     "2026-11-16": 3,
-    "2026-11-21": 1
+    "2026-11-21": 5
    },
    "tk": {
     "firma": "b4a055de",
-    "igual": 1795268429,
+    "igual": 1795272818,
     "ult": 1794848544,
     "desde": 1794666266,
     "est": null
    },
    "saltos": {
-    "1795266000": 1
+    "1795266000": 1,
+    "1795269600": 1
    },
    "rutas": {
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
-   "prev": 15.02,
-   "prev_t": 1794666266,
-   "hinf": [
-    [
-     1794418698,
-     15.02
-    ],
-    [
-     1794848544,
-     15.32
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
-   "tick_ult": 1794848544,
-   "tick_marg": 1518,
-   "cseg": {},
    "estaciones": {
     "Blackman Station": {
      "f": "Haraka Incorporated",
      "tipo": "Outpost",
-     "t": 1795268552,
+     "t": 1795272948,
      "estado": "",
      "ls": 1076,
      "pads": {
@@ -18179,7 +18165,7 @@
      },
      "mid": 3228116992,
      "mer": {
-      "t": 1795268559,
+      "t": 1795272955,
       "n": 107,
       "vende": [
        {
@@ -18269,9 +18255,157 @@
       ]
      },
      "mods": 158,
-     "mods_t": 1795268559
+     "mods_t": 1795272955,
+     "atq": {
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      }
+     }
+    },
+    "Lem Dock": {
+     "f": "Haraka Incorporated",
+     "tipo": "Outpost",
+     "t": 1795273102,
+     "estado": "",
+     "ls": 2962,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 3228117248,
+     "mer": {
+      "t": 1795273109,
+      "n": 107,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 215295,
+        "d": 73
+       },
+       {
+        "n": "monazite",
+        "p": 201046,
+        "d": 29
+       },
+       {
+        "n": "musgravite",
+        "p": 196500,
+        "d": 73
+       },
+       {
+        "n": "grandidierite",
+        "p": 195097,
+        "d": 73
+       },
+       {
+        "n": "periclasedunite",
+        "p": 187711,
+        "d": 1155
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 717,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 749,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 791,
+        "m": 387
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 900,
+        "m": 447
+       },
+       {
+        "n": "wine",
+        "p": 832,
+        "m": 417
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 53,
+        "m": 271,
+        "s": 376
+       },
+       {
+        "n": "polymers",
+        "p": 79,
+        "m": 306,
+        "s": 13042
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 121,
+        "m": 354,
+        "s": 9113
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 669,
+        "m": 1375,
+        "s": 706
+       },
+       {
+        "n": "conductivefabrics",
+        "p": 377,
+        "m": 666,
+        "s": 3099
+       }
+      ]
+     }
+    },
+    "Bulgakov Installation": {
+     "f": "Haraka Incorporated",
+     "tipo": "CraterOutpost",
+     "t": 1795273372,
+     "estado": "",
+     "ls": 1585,
+     "pads": {
+      "Small": 4,
+      "Medium": 4,
+      "Large": 4
+     },
+     "mid": 3531909888,
+     "mer": {
+      "t": 1795273379,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     },
+     "mods": 126,
+     "mods_t": 1795273379
     }
-   }
+   },
+   "prev": 15.02,
+   "prev_t": 1794666266,
+   "hinf": [
+    [
+     1794418698,
+     15.02
+    ],
+    [
+     1794848544,
+     15.32
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tick_ult": 1794848544,
+   "tick_marg": 1518,
+   "cseg": {}
   },
   "Hima": {
    "sys": "Hima",
@@ -25231,11 +25365,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795272206.1037526,
-  "msgs": 1998799,
-  "mios": 178
+  "ultimo": 1795273441.183249,
+  "msgs": 2014060,
+  "mios": 181
  },
- "t": 1795272425.1796405,
+ "t": 1795273448.044354,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25377,9 +25511,9 @@
    "ly": 11.6,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 190840223,
+   "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795255694
+   "t": 1795273182
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -25663,9 +25797,9 @@
    "ly": 15.1,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 128265,
+   "pob": 128865,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795207431
+   "t": 1795273016
   },
   "Unktock": {
    "pos": [
@@ -26105,9 +26239,9 @@
    "ly": 14.6,
    "junto": "Lati",
    "nfac": 4,
-   "pob": 159077,
+   "pob": 159109,
    "ctrl_n": "Civitas Dei",
-   "t": 1794907253
+   "t": 1795264992
   },
   "Tascheter Sector AA-Z b3": {
    "pos": [
@@ -26807,9 +26941,9 @@
    "ly": 4.9,
    "junto": "Tascheter Sector BQ-Y c27",
    "nfac": 5,
-   "pob": 138536,
+   "pob": 138740,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795118947
+   "t": 1795273375
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -27030,7 +27164,7 @@
    "nfac": 6,
    "pob": 9608908279,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795256107
+   "t": 1795265225
   },
   "BD+16 1001": {
    "pos": [
@@ -29563,9 +29697,9 @@
    "ly": 18.6,
    "junto": "Lati",
    "nfac": 5,
-   "pob": 327172,
+   "pob": 327516,
    "ctrl_n": "Civitas Dei",
-   "t": 1795149911
+   "t": 1795265038
   },
   "Ceti Sector CL-X b1-0": {
    "pos": [
@@ -29901,9 +30035,9 @@
    "ly": 17.3,
    "junto": "Lati",
    "nfac": 4,
-   "pob": 159135,
+   "pob": 159154,
    "ctrl_n": "Civitas Dei",
-   "t": 1795143790
+   "t": 1795264913
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -30826,7 +30960,7 @@
    "nfac": 6,
    "pob": 2251483,
    "ctrl_n": "Potolot Inc.",
-   "t": 1795271188
+   "t": 1795272669
   },
   "Lyncis Sector FG-Y d85": {
    "pos": [
@@ -30839,7 +30973,7 @@
    "nfac": 3,
    "pob": 860605,
    "ctrl_n": "Nagii Union",
-   "t": 1795271233
+   "t": 1795272714
   },
   "Kuan Yin": {
    "pos": [
@@ -30853,6 +30987,19 @@
    "pob": 8755482,
    "ctrl_n": "Potolot Inc.",
    "t": 1795272113
+  },
+  "LTT 12089": {
+   "pos": [
+    10.8125,
+    52.40625,
+    -98.28125
+   ],
+   "ly": 19.7,
+   "junto": "Hyades Sector TK-M b8-3",
+   "nfac": 4,
+   "pob": 2132500,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1795265165
   }
  },
  "codice": [
@@ -31242,7 +31389,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795255694
+   "t": 1795273182
   },
   "Bakuari": {
    "pos": [
@@ -31721,7 +31868,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795149911
+   "t": 1795265038
   },
   "Ceti Sector CL-X b1-0": {
    "pos": [
@@ -31976,7 +32123,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795118947
+   "t": 1795273375
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -32918,7 +33065,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795207431
+   "t": 1795273016
   },
   "Guei": {
    "pos": [
@@ -32952,7 +33099,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795256241
+   "t": 1795273440
   },
   "Kolaga": {
    "pos": [
@@ -33694,7 +33841,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795143790
+   "t": 1795264913
   },
   "Kalenile": {
    "pos": [
@@ -34756,7 +34903,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795271353
+   "t": 1795273068
   },
   "Bhumian Ku": {
    "pos": [
@@ -38499,7 +38646,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795256107
+   "t": 1795265225
   },
   "Col 285 Sector YZ-U b17-8": {
    "pos": [
@@ -38878,7 +39025,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795268429
+   "t": 1795272818
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -39026,7 +39173,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795271188
+   "t": 1795272669
   },
   "Lyncis Sector FG-Y d85": {
    "pos": [
@@ -39040,7 +39187,7 @@
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1795271233
+   "t": 1795272714
   },
   "HIP 31451": {
    "pos": [
@@ -39055,7 +39202,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795271792
+   "t": 1795273220
   },
   "Kuan Yin": {
    "pos": [
@@ -39072,6 +39219,71 @@
     "Jerome Archer"
    ],
    "t": 1795272113
+  },
+  "Hyades Sector UK-M b8-1": {
+   "pos": [
+    24.78125,
+    42.9375,
+    -96.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795264992
+  },
+  "LTT 12089": {
+   "pos": [
+    10.8125,
+    52.40625,
+    -98.28125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795265165
+  },
+  "Hunchosim": {
+   "pos": [
+    -2.75,
+    55.3125,
+    -100.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.087997,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795265322
+  },
+  "Taleo": {
+   "pos": [
+    -0.40625,
+    58.34375,
+    -100.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.127426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795265392
   }
  },
  "rivales": {

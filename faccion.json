@@ -24165,10 +24165,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1598147,
+  "msgs": 1608563,
   "mios": 144
  },
- "t": 1795238202.4904215,
+ "t": 1795238342.798438,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26494,9 +26494,9 @@
    "ly": 18.1,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 54042681,
+   "pob": 54055007,
    "ctrl_n": "Sons of Ikarus",
-   "t": 1795041392
+   "t": 1795238317
   },
   "Kwiamo": {
    "pos": [
@@ -29552,6 +29552,19 @@
    "pob": 28568,
    "ctrl_n": "CROSS Corp",
    "t": 1795236949
+  },
+  "Ross 27": {
+   "pos": [
+    -34.75,
+    -1.90625,
+    -67.40625
+   ],
+   "ly": 19.2,
+   "junto": "Jangore",
+   "nfac": 3,
+   "pob": 1597779,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795238339
   }
  },
  "codice": [
@@ -36816,6 +36829,40 @@
     "Jerome Archer"
    ],
    "t": 1795238186
+  },
+  "Trianguli Sector VF-N a7-3": {
+   "pos": [
+    39.40625,
+    -28.125,
+    -51.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.178283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795238317
+  },
+  "Ross 27": {
+   "pos": [
+    -34.75,
+    -1.90625,
+    -67.40625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.175426,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795238339
   }
  },
  "rivales": {

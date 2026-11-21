@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 92
+    "2026-11-21": 100
    },
    "pn": {
     "H5L-70M": {
@@ -7248,7 +7248,7 @@
        "no": 2
       },
       "2026-11-21": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      },
@@ -7617,9 +7617,9 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795227947,
+     "t": 1795234220,
      "estado": "",
-     "ls": 2657,
+     "ls": 2658,
      "pads": {
       "Small": 17,
       "Medium": 18,
@@ -7627,97 +7627,97 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795227954,
+      "t": 1795234252,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 557547,
+        "p": 530463,
         "d": 60
        },
        {
         "n": "serendibite",
-        "p": 455826,
+        "p": 433214,
         "d": 60
        },
        {
         "n": "grandidierite",
-        "p": 450011,
+        "p": 427582,
         "d": 60
        },
        {
         "n": "benitoite",
-        "p": 447969,
+        "p": 424825,
         "d": 60
        },
        {
         "n": "opal",
-        "p": 428971,
+        "p": 405270,
         "d": 72
        }
       ],
       "alta": [
        {
+        "n": "militarygradefabrics",
+        "p": 7866,
+        "m": 899
+       },
+       {
         "n": "animalmonitors",
-        "p": 3380,
+        "p": 3329,
         "m": 522
        },
        {
         "n": "conductivefabrics",
-        "p": 3991,
+        "p": 3811,
         "m": 666
        },
        {
-        "n": "militarygradefabrics",
-        "p": 4745,
-        "m": 899
-       },
-       {
         "n": "osmium",
-        "p": 229167,
+        "p": 213854,
         "m": 44051
        },
        {
         "n": "platinum",
-        "p": 277726,
+        "p": 268583,
         "m": 55505
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 31,
+        "p": 40,
         "m": 271,
         "s": 26707
        },
        {
         "n": "foodcartridges",
-        "p": 37,
+        "p": 47,
         "m": 252,
-        "s": 577440
+        "s": 577465
        },
        {
         "n": "scrap",
-        "p": 70,
+        "p": 87,
         "m": 276,
-        "s": 138282
+        "s": 138649
        },
        {
         "n": "basicmedicines",
-        "p": 181,
+        "p": 209,
         "m": 489,
-        "s": 59485
+        "s": 59200
        },
        {
         "n": "waterpurifiers",
-        "p": 169,
+        "p": 197,
         "m": 447,
-        "s": 866050
+        "s": 866247
        }
       ]
      },
-     "mods": 934,
-     "mods_t": 1795227954,
+     "mods": 930,
+     "mods_t": 1795234226,
      "naves": [
       "adder",
       "anaconda",
@@ -7763,7 +7763,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795227954,
+     "naves_t": 1795234226,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -7774,7 +7774,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
      }
@@ -8018,7 +8018,7 @@
     "Orbital Construction Site: Siodmak Landing": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795232937,
+     "t": 1795233891,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -8028,15 +8028,15 @@
      },
      "mid": 3953879298,
      "mer": {
-      "t": 1795232944,
-      "n": 1,
+      "t": 1795233897,
+      "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 12,
+       "ok": 14,
        "no": 0
       }
      }
@@ -24154,10 +24154,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795232917.6556134,
-  "msgs": 1551629,
+  "msgs": 1561387,
   "mios": 143
  },
- "t": 1795233545.6191792,
+ "t": 1795234667.7426522,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25783,7 +25783,7 @@
    "nfac": 5,
    "pob": 108065703,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795118661
+   "t": 1795234524
   },
   "Fimbulwinter": {
    "pos": [
@@ -28355,9 +28355,9 @@
    "ly": 19.5,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 3,
-   "pob": 66062518,
+   "pob": 66060943,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795107882
+   "t": 1795233926
   },
   "Uoluskas": {
    "pos": [
@@ -30622,7 +30622,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795118661
+   "t": 1795234524
   },
   "Tascheter Sector ZZ-Y b4": {
    "pos": [
@@ -36634,6 +36634,22 @@
     "Jerome Archer"
    ],
    "t": 1795233371
+  },
+  "HIP 23402": {
+   "pos": [
+    -7.03125,
+    -19.34375,
+    -125.90625
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.318355,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795233926
   }
  },
  "rivales": {

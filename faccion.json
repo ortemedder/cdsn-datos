@@ -13360,7 +13360,7 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 49
+    "2026-11-21": 51
    },
    "tk": {
     "firma": "9ac237db",
@@ -13967,7 +13967,7 @@
     "Fardane Point": {
      "f": "The Fatherhood",
      "tipo": "Outpost",
-     "t": 1795292634,
+     "t": 1795294641,
      "estado": "",
      "ls": 1048,
      "pads": {
@@ -13977,8 +13977,8 @@
      },
      "mid": 4404357891,
      "mer": {
-      "t": 1795292650,
-      "n": 355,
+      "t": 1795294677,
+      "n": 99,
       "vende": [
        {
         "n": "iridium",
@@ -14173,7 +14173,7 @@
     "Pivot Point": {
      "f": "The Fatherhood",
      "tipo": "CraterOutpost",
-     "t": 1795293970,
+     "t": 1795295109,
      "estado": "",
      "ls": 703,
      "pads": {
@@ -14181,7 +14181,103 @@
       "Medium": 4,
       "Large": 2
      },
-     "mid": 4404361731
+     "mid": 4404361731,
+     "atq": {
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      }
+     },
+     "mer": {
+      "t": 1795295126,
+      "n": 355,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 228819,
+        "d": 298
+       },
+       {
+        "n": "musgravite",
+        "p": 210135,
+        "d": 298
+       },
+       {
+        "n": "monazite",
+        "p": 210077,
+        "d": 116
+       },
+       {
+        "n": "grandidierite",
+        "p": 209006,
+        "d": 298
+       },
+       {
+        "n": "iridium",
+        "p": 202355,
+        "d": 510
+       }
+      ],
+      "alta": [
+       {
+        "n": "algae",
+        "p": 762,
+        "m": 308
+       },
+       {
+        "n": "beer",
+        "p": 799,
+        "m": 350
+       },
+       {
+        "n": "water",
+        "p": 564,
+        "m": 260
+       },
+       {
+        "n": "grain",
+        "p": 835,
+        "m": 387
+       },
+       {
+        "n": "syntheticmeat",
+        "p": 888,
+        "m": 415
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 1303
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 5111
+       },
+       {
+        "n": "polymers",
+        "p": 43,
+        "m": 306,
+        "s": 80159
+       },
+       {
+        "n": "ceramiccomposites",
+        "p": 77,
+        "m": 402,
+        "s": 77167
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 71,
+        "m": 354,
+        "s": 55986
+       }
+      ]
+     }
     }
    },
    "prev": null,
@@ -22487,7 +22583,7 @@
    "trafico": {
     "2026-11-16": 2,
     "2026-11-20": 2,
-    "2026-11-21": 10
+    "2026-11-21": 11
    },
    "pn": {
     "Q3K-L0G": {
@@ -26565,10 +26661,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795293868.0625384,
-  "msgs": 2448708,
+  "msgs": 2472129,
   "mios": 231
  },
- "t": 1795294206.6762564,
+ "t": 1795295149.414134,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27323,7 +27419,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795293374
+   "t": 1795295144
   },
   "LTT 740": {
    "pos": [
@@ -27726,7 +27822,7 @@
    "nfac": 5,
    "pob": 4328269,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795253811
+   "t": 1795294643
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -28909,7 +29005,7 @@
    "nfac": 5,
    "pob": 115088,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794961513
+   "t": 1795294323
   },
   "Pularungu": {
    "pos": [
@@ -29661,9 +29757,9 @@
    "ly": 16.8,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 199854,
+   "pob": 199867,
    "ctrl_n": "EXO",
-   "t": 1795214095
+   "t": 1795294993
   },
   "Jardovici": {
    "pos": [
@@ -32068,7 +32164,7 @@
    "nfac": 3,
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
-   "t": 1795292622
+   "t": 1795294398
   },
   "Tascheter Sector DG-O a6-4": {
    "pos": [
@@ -33476,7 +33572,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795292953
+   "t": 1795294879
   },
   "LP 157-32": {
    "pos": [
@@ -34175,7 +34271,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795293374
+   "t": 1795295144
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -36321,7 +36417,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795294201
+   "t": 1795294528
   },
   "Bhumian Ku": {
    "pos": [
@@ -36399,7 +36495,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795253811
+   "t": 1795294643
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -37604,7 +37700,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795198107
+   "t": 1795294487
   },
   "LP 834-42": {
    "pos": [
@@ -38729,7 +38825,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795214095
+   "t": 1795294993
   },
   "Piriti": {
    "pos": [
@@ -40129,7 +40225,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795292622
+   "t": 1795294398
   },
   "Lati": {
    "pos": [
@@ -41476,6 +41572,39 @@
     "Jerome Archer"
    ],
    "t": 1795293215
+  },
+  "Kwiamo": {
+   "pos": [
+    24.90625,
+    22.71875,
+    -122.96875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Stronghold",
+   "prog": 0.0638,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795294323
+  },
+  "Lenginang": {
+   "pos": [
+    -43,
+    95.78125,
+    -130.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795294484
   }
  },
  "rivales": {

@@ -7305,7 +7305,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 129
+    "2026-11-21": 134
    },
    "pn": {
     "H5L-70M": {
@@ -7575,7 +7575,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795284127,
+     "t": 1795285274,
      "estado": "",
      "ls": 1064,
      "pads": {
@@ -7585,7 +7585,7 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795284135,
+      "t": 1795284769,
       "n": 366,
       "vende": [
        {
@@ -7646,7 +7646,7 @@
         "n": "foodcartridges",
         "p": 93,
         "m": 252,
-        "s": 165809
+        "s": 165903
        },
        {
         "n": "biowaste",
@@ -7692,12 +7692,12 @@
        "no": 2
       },
       "2026-11-21": {
-       "ok": 6,
-       "no": 0
+       "ok": 8,
+       "no": 2
       }
      },
      "neg": {
-      "Distance": 8
+      "Distance": 10
      },
      "mods": 767,
      "mods_t": 1795234729,
@@ -8488,7 +8488,7 @@
     "Orbital Construction Site: Alcock's Inheritance": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795284364,
+     "t": 1795284989,
      "estado": "",
      "ls": 1073,
      "pads": {
@@ -8499,7 +8499,7 @@
      "mid": 3954275330,
      "atq": {
       "2026-11-21": {
-       "ok": 11,
+       "ok": 12,
        "no": 2
       }
      },
@@ -9043,47 +9043,47 @@
     "2026-11-18": 6,
     "2026-11-19": 4,
     "2026-11-20": 4,
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "pn": {
     "QBT-LQY": {
      "n": "NEOLUXX",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "X2Z-0HL": {
      "n": "SAPPHIRE",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "KBF-NTY": {
      "n": "[FIN] Vigilum Noctis",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "V7Q-8VJ": {
      "n": "SMS BLUE DANUBE",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "JHB-T6J": {
      "n": "SHINANO",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "Q0K-GQF": {
      "n": "PRYDAIN",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "GZM-0TW": {
      "n": "saphire allegiance",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795027461
     },
     "H9F-L0J": {
      "n": "[CRV] CALICO HAVEN",
-     "t": 1795133484,
+     "t": 1795284540,
      "d": 1795031350
     }
    },
@@ -13395,7 +13395,7 @@
     "2026-11-18": 9,
     "2026-11-19": 3,
     "2026-11-20": 8,
-    "2026-11-21": 9
+    "2026-11-21": 10
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -17556,7 +17556,7 @@
   },
   "Mau": {
    "sys": "Mau",
-   "t": 1795238102,
+   "t": 1795285020,
    "src": "EDDN",
    "inf": 59.38,
    "ctrl": true,
@@ -17667,19 +17667,20 @@
    "trafico": {
     "2026-11-14": 1,
     "2026-11-15": 1,
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "tk": {
     "firma": "ad9e72b7",
-    "igual": 1795238102
+    "igual": 1795285020
    },
    "saltos": {
-    "1795237200": 2
+    "1795237200": 2,
+    "1795284000": 1
    },
    "rutas": {
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-21": 3
+    "2026-11-21": 4
    },
    "prev": null,
    "prev_t": null,
@@ -25873,11 +25874,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795284117.2632751,
-  "msgs": 2236979,
-  "mios": 202
+  "ultimo": 1795285025.1047206,
+  "msgs": 2253619,
+  "mios": 203
  },
- "t": 1795284368.8725052,
+ "t": 1795285242.785686,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25930,7 +25931,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795234967
+   "t": 1795284597
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -26021,7 +26022,7 @@
    "nfac": 4,
    "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795276997
+   "t": 1795285076
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -26242,7 +26243,7 @@
    "nfac": 4,
    "pob": 218644,
    "ctrl_n": "East India Company",
-   "t": 1795280619
+   "t": 1795284551
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -26411,7 +26412,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795280984
+   "t": 1795285090
   },
   "HIP 33497": {
    "pos": [
@@ -31988,7 +31989,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795276997
+   "t": 1795285076
   },
   "Bakuari": {
    "pos": [
@@ -32657,7 +32658,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795284270
+   "t": 1795284756
   },
   "LP 157-32": {
    "pos": [
@@ -33674,14 +33675,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.166855,
+   "prog": 0.163155,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795130518
+   "t": 1795284489
   },
   "LHS 5116": {
    "pos": [
@@ -34071,7 +34072,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795280619
+   "t": 1795284551
   },
   "LTT 11655": {
    "pos": [
@@ -34466,13 +34467,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.255307,
+   "prog": 0.255849,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795232579
+   "t": 1795284712
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -34731,7 +34732,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795234967
+   "t": 1795284597
   },
   "Onyaksas": {
    "pos": [
@@ -35502,7 +35503,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795282766
+   "t": 1795285036
   },
   "Bhumian Ku": {
    "pos": [
@@ -36130,7 +36131,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795284306
+   "t": 1795284973
   },
   "Galibi": {
    "pos": [
@@ -38828,7 +38829,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795238102
+   "t": 1795285020
   },
   "GCRV 2311": {
    "pos": [
@@ -38896,7 +38897,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795280984
+   "t": 1795285090
   },
   "Trante": {
    "pos": [
@@ -40242,6 +40243,22 @@
     "Li Yong-Rui"
    ],
    "t": 1795283860
+  },
+  "Damna": {
+   "pos": [
+    -40.53125,
+    4.375,
+    -124.25
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.161538,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795285073
   }
  },
  "rivales": {

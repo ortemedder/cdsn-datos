@@ -5059,34 +5059,34 @@
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
-   "t": 1795282641,
+   "t": 1795295806,
    "src": "EDDN",
-   "inf": 54.11,
+   "inf": 53.96,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Revolutionary BD+34 1378 Future",
-   "segunda_inf": 13.28,
+   "segunda_inf": 13.27,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 54.11,
+     "inf": 53.96,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "Revolutionary BD+34 1378 Future",
-     "inf": 13.28,
+     "inf": 13.27,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -5095,7 +5095,7 @@
     },
     {
      "n": "BD+34 1378 Universal & Co",
-     "inf": 10.11,
+     "inf": 10.1,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [
@@ -5106,7 +5106,7 @@
     },
     {
      "n": "Order of Enblackenment",
-     "inf": 10.11,
+     "inf": 10.1,
      "gov": "Theocracy",
      "alg": "Independent",
      "act": [
@@ -5117,7 +5117,7 @@
     },
     {
      "n": "BD+34 1378 Natural Interstellar",
-     "inf": 5.85,
+     "inf": 5.84,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -5126,7 +5126,7 @@
     },
     {
      "n": "New BD+34 1378 Conservatives",
-     "inf": 5.55,
+     "inf": 5.74,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -5172,42 +5172,55 @@
    },
    "trafico": {
     "2026-11-20": 2,
-    "2026-11-21": 4
+    "2026-11-21": 6
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795282722
-    },
-    {
-     "n": "$Warzone_PointRace_Med:#index=1;",
-     "i": "Med",
-     "t": 1795282722
+     "t": 1795296098
     },
     {
      "n": "$Warzone_PointRace_High:#index=1;",
      "i": "High",
-     "t": 1795282722
+     "t": 1795296098
+    },
+    {
+     "n": "$Warzone_PointRace_Med:#index=1;",
+     "i": "Med",
+     "t": 1795296098
     },
     {
      "n": "$Warzone_PointRace_Low:#index=2;",
      "i": "Low",
-     "t": 1795282722
+     "t": 1795296098
     }
    ],
    "tk": {
-    "firma": "ba6f2ef4",
-    "igual": 1795282641
+    "firma": "27c75a03",
+    "igual": 1795295806,
+    "ult": 1795295806,
+    "desde": 1795282641,
+    "vent": [
+     [
+      1795282641,
+      1795295806
+     ]
+    ],
+    "hist": [
+     1795289223
+    ],
+    "est": 1795289223
    },
    "saltos": {
     "1795194000": 1,
     "1795258800": 1,
-    "1795280400": 1
+    "1795280400": 1,
+    "1795294800": 1
    },
    "rutas": {
     "2026-11-20": 1,
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "estaciones": {
     "Scortia Port": {
@@ -5501,8 +5514,8 @@
      "mods_t": 1795282964
     }
    },
-   "prev": 53.91,
-   "prev_t": 1794157166,
+   "prev": 54.11,
+   "prev_t": 1795282641,
    "hinf": [
     [
      1794157166,
@@ -5511,18 +5524,27 @@
     [
      1795194745,
      54.11
+    ],
+    [
+     1795295806,
+     53.96
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 1,
+    "Caballeros de Sion": 0,
     "Revolutionary BD+34 1378 Future": 0,
     "BD+34 1378 Universal & Co": 0,
     "Order of Enblackenment": 1,
     "BD+34 1378 Natural Interstellar": 0,
-    "New BD+34 1378 Conservatives": 0,
+    "New BD+34 1378 Conservatives": 1,
     "BD+34 1378 Gold Pirates": 0
    },
    "rivales": [],
+   "tick_ult": 1795289223,
+   "tick_marg": 109,
+   "tick_prox": 1795375590,
+   "tick_disp": 109,
+   "tick_n": 1,
    "cseg": {}
   },
   "Hyades Sector LI-S c4-15": {
@@ -7294,7 +7316,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 180
+    "2026-11-21": 182
    },
    "pn": {
     "H5L-70M": {
@@ -7507,16 +7529,17 @@
      },
      "naves": [
       "explorer_nx",
+      "federation_corvette",
       "mediumtransport01",
       "panthermkii"
      ],
-     "naves_t": 1795293819,
+     "naves_t": 1795296062,
      "neg": {
       "Distance": 7,
       "Offences": 1
      },
-     "mods": 899,
-     "mods_t": 1795293810
+     "mods": 964,
+     "mods_t": 1795296082
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -13360,7 +13383,7 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 51
+    "2026-11-21": 52
    },
    "tk": {
     "firma": "9ac237db",
@@ -13480,18 +13503,18 @@
     "Rosebrae Vista": {
      "f": "The Guild of Sefry",
      "tipo": "Dodec",
-     "t": 1795290147,
+     "t": 1795295482,
      "estado": "",
      "ls": 1812,
      "pads": {
-      "Small": 12,
-      "Medium": 15,
-      "Large": 7
+      "Small": 13,
+      "Medium": 16,
+      "Large": 8
      },
      "mid": 4404248835,
      "mer": {
-      "t": 1795291236,
-      "n": 388,
+      "t": 1795295489,
+      "n": 108,
       "vende": [
        {
         "n": "iridium",
@@ -13579,8 +13602,8 @@
        }
       ]
      },
-     "mods": 1002,
-     "mods_t": 1795290925,
+     "mods": 922,
+     "mods_t": 1795295489,
      "naves": [
       "adder",
       "anaconda",
@@ -13630,14 +13653,14 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795290154,
+     "naves_t": 1795295489,
      "atq": {
       "2026-11-17": {
        "ok": 1,
        "no": 0
       },
       "2026-11-21": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -26660,11 +26683,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795293868.0625384,
-  "msgs": 2472129,
-  "mios": 231
+  "ultimo": 1795295807.673206,
+  "msgs": 2494560,
+  "mios": 232
  },
- "t": 1795295149.414134,
+ "t": 1795296102.3889487,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27419,7 +27442,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795295144
+   "t": 1795295460
   },
   "LTT 740": {
    "pos": [
@@ -27445,7 +27468,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795288078
+   "t": 1795295948
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -27705,7 +27728,7 @@
    "nfac": 6,
    "pob": 10083939,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795208489
+   "t": 1795296099
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -29109,7 +29132,7 @@
    "nfac": 6,
    "pob": 405228172,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795214056
+   "t": 1795288043
   },
   "Ross 23": {
    "pos": [
@@ -33565,14 +33588,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.245189,
+   "prog": 0.24522,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795294879
+   "t": 1795295358
   },
   "LP 157-32": {
    "pos": [
@@ -34263,7 +34286,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.375965,
+   "prog": 0.37607,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -34271,7 +34294,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795295144
+   "t": 1795295460
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -35773,7 +35796,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.321498,
+   "prog": 0.324747,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -35781,7 +35804,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795153894
+   "t": 1795289614
   },
   "Hyades Sector PE-O b7-4": {
    "pos": [
@@ -36411,13 +36434,13 @@
    ],
    "pot": "Felicia Winters",
    "est": "Stronghold",
-   "prog": 0.251609,
+   "prog": 0.253998,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795294528
+   "t": 1795295281
   },
   "Bhumian Ku": {
    "pos": [
@@ -37488,7 +37511,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795282641
+   "t": 1795295806
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -38441,7 +38464,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795208116
+   "t": 1795296016
   },
   "Bubians": {
    "pos": [
@@ -38502,7 +38525,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795208489
+   "t": 1795296099
   },
   "Col 285 Sector LH-L c8-15": {
    "pos": [
@@ -38808,7 +38831,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795214056
+   "t": 1795288043
   },
   "Trianguli Sector SU-O a6-0": {
    "pos": [
@@ -40012,7 +40035,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795269072
+   "t": 1795295799
   },
   "Lese": {
    "pos": [
@@ -41008,7 +41031,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795281012
+   "t": 1795295868
   },
   "Nyal": {
    "pos": [
@@ -41605,6 +41628,37 @@
     "Li Yong-Rui"
    ],
    "t": 1795294484
+  },
+  "Audumasi": {
+   "pos": [
+    15.15625,
+    37.09375,
+    -158.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1795295362
+  },
+  "NLTT 14879": {
+   "pos": [
+    -31.71875,
+    14,
+    -67.5
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.122855,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795295748
   }
  },
  "rivales": {

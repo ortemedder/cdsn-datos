@@ -24165,10 +24165,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1632906,
+  "msgs": 1640573,
   "mios": 144
  },
- "t": 1795241845.3942704,
+ "t": 1795242596.0569687,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24403,7 +24403,7 @@
    "nfac": 3,
    "pob": 122349137,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795238155
+   "t": 1795242594
   },
   "HIP 43660": {
    "pos": [
@@ -33323,7 +33323,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795169628
+   "t": 1795242208
   },
   "LTT 606": {
    "pos": [
@@ -36677,13 +36677,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.667513,
+   "prog": 0.668596,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795238155
+   "t": 1795242594
   },
   "HIP 23402": {
    "pos": [

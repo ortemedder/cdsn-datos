@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 23
+    "2026-11-21": 24
    },
    "zc": [
     {
@@ -7305,7 +7305,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 126
+    "2026-11-21": 129
    },
    "pn": {
     "H5L-70M": {
@@ -7575,9 +7575,9 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795234722,
+     "t": 1795284127,
      "estado": "",
-     "ls": 1063,
+     "ls": 1064,
      "pads": {
       "Small": 4,
       "Medium": 4,
@@ -7585,92 +7585,92 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795234729,
+      "t": 1795284135,
       "n": 366,
       "vende": [
        {
+        "n": "monazite",
+        "p": 783994,
+        "d": 5670
+       },
+       {
         "n": "musgravite",
-        "p": 620462,
-        "d": 12844
+        "p": 601504,
+        "d": 13071
        },
        {
-        "n": "serendibite",
-        "p": 509330,
-        "d": 12844
+        "n": "iridium",
+        "p": 503085,
+        "d": 16087
        },
        {
-        "n": "benitoite",
-        "p": 504044,
-        "d": 12844
+        "n": "thortveitite",
+        "p": 503085,
+        "d": 209109
        },
        {
-        "n": "grandidierite",
-        "p": 502523,
-        "d": 12844
-       },
-       {
-        "n": "opal",
-        "p": 488081,
-        "d": 5570
+        "n": "periclasedunite",
+        "p": 503085,
+        "d": 209109
        }
       ],
       "alta": [
        {
-        "n": "militarygradefabrics",
-        "p": 5113,
-        "m": 899
-       },
-       {
-        "n": "osmium",
-        "p": 219067,
-        "m": 44051
-       },
-       {
-        "n": "platinum",
-        "p": 271529,
-        "m": 55505
-       },
-       {
         "n": "bauxite",
-        "p": 4440,
+        "p": 14316,
         "m": 1096
        },
        {
-        "n": "painite",
-        "p": 190565,
-        "m": 48333
+        "n": "militarygradefabrics",
+        "p": 9445,
+        "m": 899
+       },
+       {
+        "n": "lepidolite",
+        "p": 5946,
+        "m": 741
+       },
+       {
+        "n": "osmium",
+        "p": 240248,
+        "m": 44051
+       },
+       {
+        "n": "haematite",
+        "p": 9522,
+        "m": 1791
        }
       ],
       "barato": [
        {
         "n": "foodcartridges",
-        "p": 33,
+        "p": 93,
         "m": 252,
-        "s": 163120
+        "s": 165809
        },
        {
         "n": "biowaste",
-        "p": 40,
-        "m": 271,
-        "s": 183059
-       },
-       {
-        "n": "polymers",
-        "p": 61,
-        "m": 306,
-        "s": 10224844
-       },
-       {
-        "n": "ceramiccomposites",
         "p": 105,
-        "m": 402,
-        "s": 736436
+        "m": 271,
+        "s": 186293
        },
        {
-        "n": "syntheticfabrics",
-        "p": 97,
-        "m": 354,
-        "s": 7106605
+        "n": "scrap",
+        "p": 118,
+        "m": 276,
+        "s": 199533
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 723,
+        "m": 1375,
+        "s": 2879744
+       },
+       {
+        "n": "pesticides",
+        "p": 248,
+        "m": 412,
+        "s": 111421
        }
       ]
      },
@@ -7692,7 +7692,7 @@
        "no": 2
       },
       "2026-11-21": {
-       "ok": 5,
+       "ok": 6,
        "no": 0
       }
      },
@@ -8488,9 +8488,9 @@
     "Orbital Construction Site: Alcock's Inheritance": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795282976,
+     "t": 1795284364,
      "estado": "",
-     "ls": 1074,
+     "ls": 1073,
      "pads": {
       "Small": 3,
       "Medium": 11,
@@ -8499,7 +8499,7 @@
      "mid": 3954275330,
      "atq": {
       "2026-11-21": {
-       "ok": 9,
+       "ok": 11,
        "no": 2
       }
      },
@@ -8929,9 +8929,9 @@
   },
   "Ndabangluya": {
    "sys": "Ndabangluya",
-   "t": 1795133292,
+   "t": 1795284115,
    "src": "EDDN",
-   "inf": 64.95,
+   "inf": 62.08,
    "ctrl": true,
    "estado": "None",
    "activos": [],
@@ -8940,12 +8940,12 @@
    ],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 16.73,
+   "segunda_inf": 13.56,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 64.95,
+     "inf": 62.08,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -8956,7 +8956,7 @@
     },
     {
      "n": "Sirius Special Forces",
-     "inf": 16.73,
+     "inf": 13.56,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -8964,18 +8964,27 @@
      "jug": null
     },
     {
-     "n": "Ndabangluya Corp.",
-     "inf": 6.44,
-     "gov": "Corporate",
-     "alg": "Independent",
+     "n": "Ndabangluya Independents",
+     "inf": 8.22,
+     "gov": "Democracy",
+     "alg": "Federation",
      "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Natural Ndabangluya League",
-     "inf": 4.36,
+     "inf": 6.34,
      "gov": "Dictatorship",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Ndabangluya Corp.",
+     "inf": 6.14,
+     "gov": "Corporate",
      "alg": "Independent",
      "act": [],
      "pend": [],
@@ -8983,18 +8992,9 @@
     },
     {
      "n": "League of Ndabangluya Law Party",
-     "inf": 3.37,
+     "inf": 2.67,
      "gov": "Dictatorship",
      "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Ndabangluya Independents",
-     "inf": 3.17,
-     "gov": "Democracy",
-     "alg": "Federation",
      "act": [],
      "pend": [],
      "jug": null
@@ -9026,8 +9026,8 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Fortified",
-    "prog": 0.267637,
-    "ref": 1431,
+    "prog": 0.268248,
+    "ref": 1828,
     "soc": 2067,
     "pots": [
      "Aisling Duval",
@@ -9042,7 +9042,8 @@
     "2026-11-15": 1,
     "2026-11-18": 6,
     "2026-11-19": 4,
-    "2026-11-20": 4
+    "2026-11-20": 4,
+    "2026-11-21": 1
    },
    "pn": {
     "QBT-LQY": {
@@ -9087,10 +9088,10 @@
     }
    },
    "tk": {
-    "firma": "3c423245",
-    "igual": 1795133292,
-    "ult": 1795027461,
-    "desde": 1794702170,
+    "firma": "64804d2c",
+    "igual": 1795284115,
+    "ult": 1795284115,
+    "desde": 1795133292,
     "est": null
    },
    "saltos": {
@@ -9109,9 +9110,9 @@
     "Melvin City": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795137288,
+     "t": 1795284115,
      "estado": "",
-     "ls": 691,
+     "ls": 690,
      "pads": {
       "Small": 17,
       "Medium": 18,
@@ -9133,97 +9134,79 @@
       }
      },
      "mer": {
-      "t": 1795137323,
+      "t": 1795284122,
       "n": 129,
       "vende": [
        {
-        "n": "alexandrite",
-        "p": 236963,
-        "d": 713
-       },
-       {
-        "n": "musgravite",
-        "p": 218892,
-        "d": 713
-       },
-       {
-        "n": "grandidierite",
-        "p": 215387,
-        "d": 700
-       },
-       {
         "n": "monazite",
-        "p": 197413,
+        "p": 394825,
         "d": 277
        },
        {
-        "n": "serendibite",
-        "p": 191030,
+        "n": "iridium",
+        "p": 274482,
+        "d": 30381
+       },
+       {
+        "n": "periclasedunite",
+        "p": 274482,
+        "d": 4533
+       },
+       {
+        "n": "thortveitite",
+        "p": 274482,
+        "d": 4533
+       },
+       {
+        "n": "alexandrite",
+        "p": 236963,
         "d": 713
        }
       ],
       "alta": [
        {
-        "n": "water",
-        "p": 672,
-        "m": 260
+        "n": "lepidolite",
+        "p": 5889,
+        "m": 741
        },
        {
-        "n": "polymers",
-        "p": 679,
-        "m": 306
+        "n": "ceramiccomposites",
+        "p": 1906,
+        "m": 402
        },
        {
-        "n": "algae",
-        "p": 667,
-        "m": 308
+        "n": "bauxite",
+        "p": 4734,
+        "m": 1096
        },
        {
         "n": "syntheticfabrics",
-        "p": 712,
+        "p": 1392,
         "m": 354
        },
        {
-        "n": "beer",
-        "p": 697,
-        "m": 350
+        "n": "polymers",
+        "p": 1197,
+        "m": 306
        }
       ],
       "barato": [
        {
         "n": "foodcartridges",
-        "p": 53,
+        "p": 135,
         "m": 252,
-        "s": 29276
+        "s": 29572
        },
        {
         "n": "biowaste",
-        "p": 89,
+        "p": 146,
         "m": 271,
         "s": 5571
-       },
-       {
-        "n": "scrap",
-        "p": 96,
-        "m": 276,
-        "s": 90816
-       },
-       {
-        "n": "explosives",
-        "p": 213,
-        "m": 483,
-        "s": 30054
-       },
-       {
-        "n": "waterpurifiers",
-        "p": 213,
-        "m": 447,
-        "s": 448717
        }
       ]
      },
      "mods": 729,
-     "mods_t": 1795137323,
+     "mods_t": 1795284122,
      "naves": [
       "anaconda",
       "asp",
@@ -9244,11 +9227,11 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795137323
+     "naves_t": 1795284122
     }
    },
-   "prev": 64.82,
-   "prev_t": 1794702170,
+   "prev": 64.95,
+   "prev_t": 1795133292,
    "hinf": [
     [
      1794175997,
@@ -9261,21 +9244,31 @@
     [
      1795027461,
      64.95
+    ],
+    [
+     1795284115,
+     62.08
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 1,
+    "Caballeros de Sion": 0,
     "Sirius Special Forces": 0,
     "Ndabangluya Corp.": 0,
-    "Natural Ndabangluya League": 0,
+    "Natural Ndabangluya League": 1,
     "League of Ndabangluya Law Party": 0,
-    "Ndabangluya Independents": 0,
+    "Ndabangluya Independents": 1,
     "Ndabangluya Blue Organisation": 0
    },
    "rivales": [],
-   "tick_ult": 1795027461,
-   "tick_marg": 2710,
-   "cseg": {}
+   "tick_ult": 1795284115,
+   "tick_marg": 1256,
+   "cseg": {},
+   "sube_cuando_baja": {
+    "n": "Ndabangluya Independents",
+    "d": 5.05,
+    "baja": 2.87,
+    "t": 1795284115
+   }
   },
   "HIP 19292": {
    "sys": "HIP 19292",
@@ -13275,7 +13268,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795282579,
+   "t": 1795283849,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -13362,11 +13355,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 23
+    "2026-11-21": 26
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795282579
+    "igual": 1795283849
    },
    "saltos": {
     "1794902400": 2,
@@ -13395,14 +13388,14 @@
     "1795248000": 2,
     "1795255200": 3,
     "1795258800": 2,
-    "1795280400": 1
+    "1795280400": 2
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
     "2026-11-19": 3,
     "2026-11-20": 8,
-    "2026-11-21": 8
+    "2026-11-21": 9
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -13714,12 +13707,12 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795282881,
+     "t": 1795284206,
      "estado": "",
      "ls": 703,
      "mid": 4404361731,
      "mer": {
-      "t": 1795282888,
+      "t": 1795284213,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -13739,7 +13732,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 8,
+       "ok": 9,
        "no": 0
       }
      },
@@ -25880,11 +25873,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795283324.2639656,
-  "msgs": 2218526,
-  "mios": 200
+  "ultimo": 1795284117.2632751,
+  "msgs": 2236979,
+  "mios": 202
  },
- "t": 1795283464.330343,
+ "t": 1795284368.8725052,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26600,7 +26593,7 @@
    "nfac": 4,
    "pob": 157985716,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795283094
+   "t": 1795284350
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -26639,7 +26632,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795274281
+   "t": 1795283974
   },
   "LTT 740": {
    "pos": [
@@ -26665,7 +26658,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795283333
+   "t": 1795284369
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -27341,7 +27334,7 @@
    "nfac": 6,
    "pob": 32286,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795266961
+   "t": 1795283522
   },
   "Col 285 Sector UT-W b16-4": {
    "pos": [
@@ -30118,12 +30111,12 @@
     12.28125,
     -128.6875
    ],
-   "ly": 12.9,
-   "junto": "Windizetet",
+   "ly": 11.4,
+   "junto": "Lyncis Sector FG-Y d73",
    "nfac": 6,
    "pob": 1716033,
    "ctrl_n": "Aristocrats of Allowini",
-   "t": 1795109017
+   "t": 1795283472
   },
   "Yin Sector YZ-Y b5": {
    "pos": [
@@ -32309,7 +32302,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795283094
+   "t": 1795284350
   },
   "Wolf 186": {
    "pos": [
@@ -32664,7 +32657,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795283069
+   "t": 1795284270
   },
   "LP 157-32": {
    "pos": [
@@ -32916,13 +32909,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.267637,
+   "prog": 0.268248,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795133292
+   "t": 1795284115
   },
   "Arnemil": {
    "pos": [
@@ -33355,7 +33348,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.374787,
+   "prog": 0.374999,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -33363,7 +33356,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795274281
+   "t": 1795283974
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -33977,7 +33970,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795275929
+   "t": 1795283710
   },
   "Ross 874": {
    "pos": [
@@ -34197,7 +34190,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795250780
+   "t": 1795283962
   },
   "Lyncis Sector FG-Y d73": {
    "pos": [
@@ -35823,7 +35816,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795265202
+   "t": 1795283948
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -36137,7 +36130,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795282991
+   "t": 1795284306
   },
   "Galibi": {
    "pos": [
@@ -36170,7 +36163,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795281313
+   "t": 1795283485
   },
   "Scottii": {
    "pos": [
@@ -39572,14 +39565,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.030854,
+   "prog": 0.030883,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795266961
+   "t": 1795283522
   },
   "Hyades Sector VA-M b8-2": {
    "pos": [
@@ -40220,6 +40213,35 @@
     "Pranav Antal"
    ],
    "t": 1795283130
+  },
+  "Mdi": {
+   "pos": [
+    -40.46875,
+    12.28125,
+    -128.6875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.260115,
+   "pots": [
+    "Jerome Archer"
+   ],
+   "t": 1795283472
+  },
+  "Lenchis": {
+   "pos": [
+    27.8125,
+    -19.09375,
+    -99.34375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.061712,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795283860
   }
  },
  "rivales": {
@@ -40276,6 +40298,15 @@
    "motivo": "sube cuando bajamos",
    "ini": 1795262512,
    "ult": 1795262512
+  },
+  "Ndabangluya Independents": {
+   "veces": 1,
+   "sis": [
+    "Ndabangluya"
+   ],
+   "motivo": "sube cuando bajamos",
+   "ini": 1795284115,
+   "ult": 1795284115
   }
  }
 }

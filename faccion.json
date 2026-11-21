@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 7
+    "2026-11-21": 8
    },
    "zc": [
     {
@@ -5885,7 +5885,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795260956,
+   "t": 1795263049,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -6006,18 +6006,18 @@
     "2026-11-18": 39,
     "2026-11-19": 11,
     "2026-11-20": 11,
-    "2026-11-21": 8
+    "2026-11-21": 11
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Med:#index=1;",
-     "i": "Med",
-     "t": 1795261222
-    },
-    {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795261222
+     "t": 1795263293
+    },
+    {
+     "n": "$Warzone_PointRace_Med:#index=1;",
+     "i": "Med",
+     "t": 1795263293
     }
    ],
    "pn": {
@@ -6027,7 +6027,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795261222,
+     "t": 1795263293,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6037,18 +6037,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795261222,
+     "t": 1795263293,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795261222,
+     "t": 1795263293,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795260956,
+    "igual": 1795263049,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -6094,7 +6094,8 @@
     "1795179600": 1,
     "1795197600": 1,
     "1795208400": 1,
-    "1795258800": 3
+    "1795258800": 3,
+    "1795262400": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -6217,9 +6218,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795209658,
+     "t": 1795263392,
      "estado": "",
-     "ls": 3137,
+     "ls": 3135,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -6227,16 +6228,16 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795250980,
+      "t": 1795263398,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795250980,
+     "mods_t": 1795263398,
      "neg": {
-      "NoSpace": 20
+      "NoSpace": 21
      },
      "atq": {
       "2026-11-17": {
@@ -6254,6 +6255,10 @@
       "2026-11-20": {
        "ok": 5,
        "no": 0
+      },
+      "2026-11-21": {
+       "ok": 1,
+       "no": 1
       }
      }
     },
@@ -9165,6 +9170,128 @@
     "d": 3.13,
     "baja": 1.02,
     "t": 1795262512
+   },
+   "estaciones": {
+    "Kelleam City": {
+     "f": "Caballeros de Sion",
+     "tipo": "Orbis",
+     "t": 1795262702,
+     "estado": "",
+     "ls": 24,
+     "pads": {
+      "Small": 9,
+      "Medium": 12,
+      "Large": 6
+     },
+     "mid": 3228001280,
+     "mer": {
+      "t": 1795262709,
+      "n": 103,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 223905,
+        "d": 12960
+       },
+       {
+        "n": "monazite",
+        "p": 206482,
+        "d": 5018
+       },
+       {
+        "n": "musgravite",
+        "p": 205726,
+        "d": 12960
+       },
+       {
+        "n": "grandidierite",
+        "p": 204697,
+        "d": 12960
+       },
+       {
+        "n": "rhodplumsite",
+        "p": 180793,
+        "d": 10452
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 642,
+        "m": 260
+       },
+       {
+        "n": "scrap",
+        "p": 672,
+        "m": 276
+       },
+       {
+        "n": "foodcartridges",
+        "p": 577,
+        "m": 252
+       },
+       {
+        "n": "beer",
+        "p": 678,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 711,
+        "m": 387
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 51,
+        "m": 271,
+        "s": 45135
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 119,
+        "m": 354,
+        "s": 2203486
+       },
+       {
+        "n": "polymers",
+        "p": 107,
+        "m": 306,
+        "s": 223984
+       },
+       {
+        "n": "explosives",
+        "p": 232,
+        "m": 483,
+        "s": 82442
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 676,
+        "m": 1375,
+        "s": 139829
+       }
+      ]
+     },
+     "mods": 322,
+     "mods_t": 1795262747,
+     "naves": [
+      "anaconda",
+      "diamondback",
+      "diamondbackxl",
+      "explorer_nx",
+      "federation_dropship",
+      "hauler",
+      "lakonminer",
+      "python",
+      "sidewinder",
+      "type9",
+      "viper",
+      "viper_mkiv"
+     ],
+     "naves_t": 1795262709
+    }
    }
   },
   "Col 285 Sector YZ-U b17-3": {
@@ -24829,11 +24956,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795262579.3875716,
-  "msgs": 1849886,
-  "mios": 170
+  "ultimo": 1795263051.0316534,
+  "msgs": 1861684,
+  "mios": 171
  },
- "t": 1795262643.569818,
+ "t": 1795263405.88981,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -28721,7 +28848,7 @@
    "nfac": 6,
    "pob": 56483,
    "ctrl_n": "East India Company",
-   "t": 1795199396
+   "t": 1795262998
   },
   "Warnates": {
    "pos": [
@@ -30334,6 +30461,19 @@
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
    "t": 1795262472
+  },
+  "Tascheter Sector DG-O a6-4": {
+   "pos": [
+    23.78125,
+    -35.59375,
+    -44.46875
+   ],
+   "ly": 4.4,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 398263,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795262911
   }
  },
  "codice": [
@@ -31021,7 +31161,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795199396
+   "t": 1795262998
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -31828,7 +31968,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795260956
+   "t": 1795263049
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -34237,7 +34377,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795246981
+   "t": 1795263121
   },
   "Bhumian Ku": {
    "pos": [
@@ -37832,7 +37972,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795261514
+   "t": 1795262804
   },
   "Lese": {
    "pos": [
@@ -38012,7 +38152,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795260759
+   "t": 1795263137
   },
   "LHS 1933": {
    "pos": [
@@ -38181,6 +38321,22 @@
     "Jerome Archer"
    ],
    "t": 1795262577
+  },
+  "Tascheter Sector DG-O a6-4": {
+   "pos": [
+    23.78125,
+    -35.59375,
+    -44.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795262911
   }
  },
  "rivales": {

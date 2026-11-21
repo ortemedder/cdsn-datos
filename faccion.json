@@ -24165,10 +24165,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1608563,
+  "msgs": 1616163,
   "mios": 144
  },
- "t": 1795238342.798438,
+ "t": 1795240103.8052278,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24388,9 +24388,9 @@
    "ly": 16.4,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 2805931,
+   "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795199535
+   "t": 1795239709
   },
   "LHS 1499": {
    "pos": [
@@ -31501,7 +31501,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795199535
+   "t": 1795239709
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -36795,7 +36795,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795237943
+   "t": 1795239652
   },
   "Mau": {
    "pos": [

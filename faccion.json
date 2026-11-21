@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 65
+    "2026-11-21": 71
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795229046,
+     "t": 1795229671,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795229074,
+      "t": 1795229712,
       "n": 366,
       "vende": [
        {
@@ -6984,8 +6984,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 499491,
-        "d": 47541
+        "p": 499502,
+        "d": 47542
        },
        {
         "n": "opal",
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 20,
+       "ok": 22,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795229053,
+     "naves_t": 1795229677,
      "neg": {
       "Distance": 5
      },
      "mods": 886,
-     "mods_t": 1795229053
+     "mods_t": 1795229677
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8018,7 +8018,7 @@
     "Orbital Construction Site: Siodmak Landing": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795228752,
+     "t": 1795230015,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -8028,11 +8028,17 @@
      },
      "mid": 3953879298,
      "mer": {
-      "t": 1795228764,
-      "n": 0,
+      "t": 1795230021,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-21": {
+       "ok": 4,
+       "no": 0
+      }
      }
     }
    },
@@ -24133,10 +24139,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1501695,
+  "msgs": 1511425,
   "mios": 142
  },
- "t": 1795229084.3532317,
+ "t": 1795230027.022732,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24839,7 +24845,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795220016
+   "t": 1795229291
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -25515,7 +25521,7 @@
    "nfac": 3,
    "pob": 200450,
    "ctrl_n": "East India Company",
-   "t": 1795215079
+   "t": 1795229455
   },
   "Bestia": {
    "pos": [
@@ -26540,9 +26546,9 @@
    "ly": 13.6,
    "junto": "HIP 19292",
    "nfac": 5,
-   "pob": 2197585,
+   "pob": 2197618,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795144424
+   "t": 1795227411
   },
   "ICZ BF-Z b4": {
    "pos": [
@@ -31063,13 +31069,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.04846,
+   "prog": 0.048549,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795220016
+   "t": 1795229291
   },
   "Mandu": {
    "pos": [
@@ -32346,7 +32352,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795144424
+   "t": 1795227411
   },
   "HIP 19292": {
    "pos": [
@@ -33119,7 +33125,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795164730
+   "t": 1795228336
   },
   "ICZ XY-A b3": {
    "pos": [
@@ -34662,7 +34668,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795198693
+   "t": 1795229785
   },
   "Tascheter Sector BL-O a6-2": {
    "pos": [
@@ -35785,7 +35791,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795215079
+   "t": 1795229455
   },
   "BD+43 866": {
    "pos": [
@@ -36401,6 +36407,23 @@
     "Jerome Archer"
    ],
    "t": 1795228998
+  },
+  "Opila": {
+   "pos": [
+    5.46875,
+    -16.25,
+    -84.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.193851,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795229684
   }
  },
  "rivales": {

@@ -24249,10 +24249,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795250976.5516686,
-  "msgs": 1725119,
+  "msgs": 1734537,
   "mios": 148
  },
- "t": 1795252659.5447757,
+ "t": 1795253561.0442452,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24394,9 +24394,9 @@
    "ly": 11.6,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 190840223,
+   "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795234845
+   "t": 1795253417
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -24474,7 +24474,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795250312
+   "t": 1795253057
   },
   "LHS 1499": {
    "pos": [
@@ -28205,7 +28205,7 @@
    "nfac": 3,
    "pob": 4096993,
    "ctrl_n": "Black Hand of Orion",
-   "t": 1795252278
+   "t": 1795253291
   },
   "Allowini": {
    "pos": [
@@ -28359,9 +28359,9 @@
    "ly": 13.2,
    "junto": "Lati",
    "nfac": 1,
-   "pob": 274057643,
+   "pob": 274586494,
    "ctrl_n": "Civitas Dei",
-   "t": 1795101762
+   "t": 1795253551
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -29701,6 +29701,19 @@
    "pob": 398759,
    "ctrl_n": "Astrobiology Research Cooperative",
    "t": 1795248609
+  },
+  "HR 2776": {
+   "pos": [
+    -12.8125,
+    47.96875,
+    -104.5625
+   ],
+   "ly": 5.7,
+   "junto": "Kher",
+   "nfac": 6,
+   "pob": 206724,
+   "ctrl_n": "Leaders of Apinayimas",
+   "t": 1795253029
   }
  },
  "codice": [
@@ -30090,7 +30103,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795234845
+   "t": 1795253417
   },
   "Bakuari": {
    "pos": [
@@ -31637,7 +31650,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795250312
+   "t": 1795253057
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -33160,7 +33173,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795252278
+   "t": 1795253291
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -33855,7 +33868,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795224807
+   "t": 1795253266
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -35814,7 +35827,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795210576
+   "t": 1795253547
   },
   "Madngeri": {
    "pos": [
@@ -35914,7 +35927,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795249117
+   "t": 1795253140
   },
   "Hyades Sector OT-P b6-1": {
    "pos": [
@@ -37233,6 +37246,55 @@
     "Jerome Archer"
    ],
    "t": 1795252605
+  },
+  "HR 2776": {
+   "pos": [
+    -12.8125,
+    47.96875,
+    -104.5625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.254943,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795253029
+  },
+  "HIP 37170": {
+   "pos": [
+    -17.71875,
+    60,
+    -111.9375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.250864,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795253080
+  },
+  "Lalande 15290": {
+   "pos": [
+    15.53125,
+    42.46875,
+    -83.65625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.0778,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795253551
   }
  },
  "rivales": {

@@ -24165,10 +24165,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1640573,
+  "msgs": 1648801,
   "mios": 144
  },
- "t": 1795242596.0569687,
+ "t": 1795243697.2264192,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -29109,7 +29109,7 @@
    "nfac": 3,
    "pob": 522709515,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795230782
+   "t": 1795243160
   },
   "Lyncis Sector SD-T b3-5": {
    "pos": [
@@ -29408,7 +29408,7 @@
    "nfac": 6,
    "pob": 3802851,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795219342
+   "t": 1795243055
   },
   "HIP 37162": {
    "pos": [
@@ -30623,7 +30623,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795196580
+   "t": 1795243266
   },
   "LP 157-32": {
    "pos": [
@@ -34096,7 +34096,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1794674024
+   "t": 1795243661
   },
   "Galibi": {
    "pos": [
@@ -34193,7 +34193,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795230782
+   "t": 1795243160
   },
   "Hyades Sector SJ-P b6-4": {
    "pos": [
@@ -35729,7 +35729,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795219342
+   "t": 1795243055
   },
   "HR 2439": {
    "pos": [
@@ -35778,7 +35778,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795228290
+   "t": 1795243579
   },
   "Hyades Sector OT-P b6-1": {
    "pos": [
@@ -36897,6 +36897,24 @@
     "Zemina Torval"
    ],
    "t": 1795241414
+  },
+  "Clarus": {
+   "pos": [
+    -22.03125,
+    2.9375,
+    -89.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.262832,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795243665
   }
  },
  "rivales": {

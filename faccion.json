@@ -6857,7 +6857,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 18
+    "2026-11-21": 22
    },
    "pn": {
     "H5L-70M": {
@@ -6956,12 +6956,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795221612,
+     "t": 1795222217,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795221619,
+      "t": 1795222227,
       "n": 366,
       "vende": [
        {
@@ -7064,7 +7064,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 4,
+       "ok": 6,
        "no": 0
       }
      },
@@ -7118,12 +7118,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795221619,
+     "naves_t": 1795222223,
      "neg": {
       "Distance": 5
      },
      "mods": 872,
-     "mods_t": 1795221619
+     "mods_t": 1795222223
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7985,7 +7985,7 @@
     "Orbital Construction Site: Lefschetz's Pride": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795221907,
+     "t": 1795222569,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -7995,15 +7995,15 @@
      },
      "mid": 3953770498,
      "mer": {
-      "t": 1795221913,
-      "n": 1,
+      "t": 1795222575,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      }
@@ -11267,7 +11267,7 @@
   },
   "NN 3365": {
    "sys": "NN 3365",
-   "t": 1795126284,
+   "t": 1795222340,
    "src": "EDDN",
    "inf": 50.4,
    "ctrl": true,
@@ -11382,33 +11382,36 @@
    "trafico": {
     "2026-11-13": 1,
     "2026-11-15": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-21": 3
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795126291
+     "t": 1795222410
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795126291
+     "t": 1795222410
     }
    ],
    "tk": {
     "firma": "a7224626",
-    "igual": 1795126284,
+    "igual": 1795222340,
     "ult": 1794786709,
     "desde": 1794567838,
     "est": null
    },
    "saltos": {
-    "1795125600": 1
+    "1795125600": 1,
+    "1795219200": 1
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-21": 1
    },
    "prev": 49.2,
    "prev_t": 1794257274,
@@ -24002,11 +24005,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795221980.2590969,
-  "msgs": 1414745,
-  "mios": 140
+  "ultimo": 1795222341.531503,
+  "msgs": 1425471,
+  "mios": 141
  },
- "t": 1795221986.141652,
+ "t": 1795222677.905362,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -32014,7 +32017,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.012569,
+   "prog": 0.012774,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -32023,7 +32026,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795203042
+   "t": 1795222483
   },
   "MCC 488": {
    "pos": [
@@ -32300,7 +32303,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795126284
+   "t": 1795222340
   },
   "Adjukru": {
    "pos": [
@@ -35961,6 +35964,23 @@
     "Jerome Archer"
    ],
    "t": 1795221973
+  },
+  "Girya Gu": {
+   "pos": [
+    -13.625,
+    -10.625,
+    -75.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.120006,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795222588
   }
  },
  "rivales": {

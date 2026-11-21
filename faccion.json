@@ -5968,7 +5968,8 @@
     "2026-11-17": 25,
     "2026-11-18": 39,
     "2026-11-19": 11,
-    "2026-11-20": 11
+    "2026-11-20": 11,
+    "2026-11-21": 1
    },
    "zc": [
     {
@@ -6061,7 +6062,8 @@
     "2026-11-17": 9,
     "2026-11-18": 10,
     "2026-11-19": 5,
-    "2026-11-20": 6
+    "2026-11-20": 6,
+    "2026-11-21": 1
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -6187,14 +6189,14 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795209665,
+      "t": 1795250980,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795209665,
+     "mods_t": 1795250980,
      "neg": {
       "NoSpace": 20
      },
@@ -12584,7 +12586,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795249671,
+   "t": 1795250973,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12671,11 +12673,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 3
+    "2026-11-21": 6
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795249671
+    "igual": 1795250973
    },
    "saltos": {
     "1794902400": 2,
@@ -12701,7 +12703,7 @@
     "1795204800": 2,
     "1795208400": 1,
     "1795212000": 1,
-    "1795248000": 1
+    "1795248000": 2
    },
    "rutas": {
     "2026-11-17": 20,
@@ -13020,12 +13022,12 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795250017,
+     "t": 1795251349,
      "estado": "",
      "ls": 701,
      "mid": 4404361731,
      "mer": {
-      "t": 1795250024,
+      "t": 1795251356,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -13045,7 +13047,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -24246,11 +24248,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795249673.5110831,
-  "msgs": 1708001,
-  "mios": 147
+  "ultimo": 1795250976.5516686,
+  "msgs": 1715219,
+  "mios": 148
  },
- "t": 1795250906.8646796,
+ "t": 1795251478.3298476,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25031,7 +25033,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795250140
+   "t": 1795251466
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -26992,9 +26994,9 @@
    "ly": 8.4,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 47374430,
+   "pob": 47391101,
    "ctrl_n": "Kalvelis Imperial Society",
-   "t": 1795019842
+   "t": 1795250862
   },
   "Bakara": {
    "pos": [
@@ -27564,9 +27566,9 @@
    "ly": 19.7,
    "junto": "Hyades Sector LI-S c4-15",
    "nfac": 5,
-   "pob": 48067788,
+   "pob": 48073127,
    "ctrl_n": "Civitas Dei",
-   "t": 1795027927
+   "t": 1795250968
   },
   "Tascheter Sector XE-Q a5-2": {
    "pos": [
@@ -28682,9 +28684,9 @@
    "ly": 18.9,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 3,
-   "pob": 158892,
+   "pob": 158916,
    "ctrl_n": "LPV Corporation",
-   "t": 1795122437
+   "t": 1795251328
   },
   "Hyades Sector WV-L b8-2": {
    "pos": [
@@ -31078,7 +31080,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795122437
+   "t": 1795251328
   },
   "Hyades Sector WV-L b8-2": {
    "pos": [
@@ -37167,6 +37169,38 @@
     "Jerome Archer"
    ],
    "t": 1795248609
+  },
+  "Hyades Sector WF-M b8-2": {
+   "pos": [
+    31.65625,
+    27.15625,
+    -103.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.066283,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795250968
+  },
+  "Col 285 Sector YZ-U b17-4": {
+   "pos": [
+    142.1875,
+    -21.09375,
+    16.96875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795250862
   }
  },
  "rivales": {

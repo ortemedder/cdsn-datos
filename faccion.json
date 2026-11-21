@@ -3650,7 +3650,8 @@
     "2026-11-17": 4,
     "2026-11-18": 5,
     "2026-11-19": 6,
-    "2026-11-20": 1
+    "2026-11-20": 1,
+    "2026-11-21": 1
    },
    "estaciones": {
     "Gardner Orbital": {
@@ -24165,10 +24166,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795238104.8791332,
-  "msgs": 1648801,
+  "msgs": 1655319,
   "mios": 144
  },
- "t": 1795243697.2264192,
+ "t": 1795244568.0330365,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26522,7 +26523,7 @@
    "nfac": 6,
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795178106
+   "t": 1795244015
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -29565,6 +29566,19 @@
    "pob": 1597779,
    "ctrl_n": "The Fatherhood",
    "t": 1795238339
+  },
+  "Furuhjelm II-432": {
+   "pos": [
+    -5.03125,
+    26.40625,
+    -81.28125
+   ],
+   "ly": 2.9,
+   "junto": "BD+40 1697",
+   "nfac": 6,
+   "pob": 2281,
+   "ctrl_n": "THE AZGHARIE",
+   "t": 1795244407
   }
  },
  "codice": [
@@ -30168,7 +30182,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795178106
+   "t": 1795244015
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -36915,6 +36929,23 @@
     "Jerome Archer"
    ],
    "t": 1795243665
+  },
+  "Furuhjelm II-432": {
+   "pos": [
+    -5.03125,
+    26.40625,
+    -81.28125
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.10114,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795244407
   }
  },
  "rivales": {

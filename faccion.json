@@ -8462,6 +8462,9 @@
     "seg": "Low",
     "gov": "Democracy",
     "alg": "Independent"
+   },
+   "rutas": {
+    "2026-11-21": 3
    }
   },
   "Ndabangluya": {
@@ -24204,10 +24207,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795244750.5995467,
-  "msgs": 1668778,
+  "msgs": 1676100,
   "mios": 145
  },
- "t": 1795246060.4852228,
+ "t": 1795247291.657449,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24910,7 +24913,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795229291
+   "t": 1795247184
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -24999,9 +25002,9 @@
    "ly": 8.4,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 274073,
+   "pob": 274521,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795154659
+   "t": 1795247287
   },
   "Bero": {
    "pos": [
@@ -29109,7 +29112,7 @@
    "nfac": 6,
    "pob": 69238,
    "ctrl_n": "CHIMERA",
-   "t": 1795184498
+   "t": 1795246877
   },
   "Lyncis Sector WJ-R b4-1": {
    "pos": [
@@ -31251,13 +31254,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.048549,
+   "prog": 0.048609,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795229291
+   "t": 1795247184
   },
   "Mandu": {
    "pos": [
@@ -33106,7 +33109,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795154659
+   "t": 1795247287
   },
   "Renetes": {
    "pos": [
@@ -33533,7 +33536,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795246049
+   "t": 1795246981
   },
   "Bhumian Ku": {
    "pos": [
@@ -33974,7 +33977,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795184498
+   "t": 1795246877
   },
   "Lyncis Sector WJ-R b4-1": {
    "pos": [

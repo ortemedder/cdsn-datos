@@ -24957,10 +24957,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795263935.882245,
-  "msgs": 1887546,
+  "msgs": 1902043,
   "mios": 172
  },
- "t": 1795265369.3977797,
+ "t": 1795266241.0253813,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25182,7 +25182,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795265210
+   "t": 1795265988
   },
   "LHS 1499": {
    "pos": [
@@ -25325,7 +25325,7 @@
    "nfac": 4,
    "pob": 218644,
    "ctrl_n": "East India Company",
-   "t": 1795264876
+   "t": 1795265554
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -26896,9 +26896,9 @@
    "ly": 17.8,
    "junto": "HIP 19292",
    "nfac": 4,
-   "pob": 442155,
+   "pob": 442172,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795053926
+   "t": 1795266124
   },
   "Hyades Sector PE-O b7-4": {
    "pos": [
@@ -30474,6 +30474,19 @@
    "pob": 398263,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795262911
+  },
+  "BD+49 1658": {
+   "pos": [
+    -14.09375,
+    42.25,
+    -75.84375
+   ],
+   "ly": 17.8,
+   "junto": "Skang",
+   "nfac": 4,
+   "pob": 218560,
+   "ctrl_n": "Procyon Expeditionary Consortium",
+   "t": 1795266148
   }
  },
  "codice": [
@@ -32410,7 +32423,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795265210
+   "t": 1795265988
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -32946,7 +32959,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795264876
+   "t": 1795265554
   },
   "LTT 11655": {
    "pos": [
@@ -34377,7 +34390,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795264995
+   "t": 1795265968
   },
   "Bhumian Ku": {
    "pos": [
@@ -35038,7 +35051,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795249841
+   "t": 1795265639
   },
   "Scottii": {
    "pos": [
@@ -38386,6 +38399,37 @@
     "Zemina Torval"
    ],
    "t": 1795262847
+  },
+  "BD+49 1658": {
+   "pos": [
+    -14.09375,
+    42.25,
+    -75.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795266148
+  },
+  "ICZ CV-Y c17": {
+   "pos": [
+    116.78125,
+    -102.25,
+    -16.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795266124
   }
  },
  "rivales": {

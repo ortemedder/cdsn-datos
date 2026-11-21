@@ -7294,7 +7294,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 174
+    "2026-11-21": 180
    },
    "pn": {
     "H5L-70M": {
@@ -7400,44 +7400,44 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795292578,
+     "t": 1795293803,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795292717,
-      "n": 366,
+      "t": 1795293810,
+      "n": 160,
       "vende": [
        {
         "n": "monazite",
-        "p": 740788,
+        "p": 700693,
         "d": 18160
        },
        {
         "n": "musgravite",
-        "p": 589316,
+        "p": 539210,
         "d": 48093
        },
        {
         "n": "iridium",
-        "p": 492613,
+        "p": 449565,
         "d": 30771
        },
        {
-        "n": "thortveitite",
-        "p": 492613,
+        "n": "periclasedunite",
+        "p": 449565,
         "d": 769233
        },
        {
-        "n": "periclasedunite",
-        "p": 492613,
+        "n": "thortveitite",
+        "p": 449565,
         "d": 769233
        }
       ],
       "alta": [
        {
         "n": "bauxite",
-        "p": 14184,
+        "p": 13635,
         "m": 1096
        },
        {
@@ -7447,44 +7447,38 @@
        },
        {
         "n": "lepidolite",
-        "p": 5880,
+        "p": 5607,
         "m": 741
        },
        {
-        "n": "osmium",
-        "p": 235944,
-        "m": 44051
+        "n": "animalmonitors",
+        "p": 3712,
+        "m": 522
        },
        {
         "n": "haematite",
-        "p": 9454,
+        "p": 9172,
         "m": 1791
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 109,
+        "p": 112,
         "m": 271,
-        "s": 664297
+        "s": 669241
        },
        {
         "n": "evacuationshelter",
-        "p": 263,
+        "p": 282,
         "m": 500,
         "s": 6815
        },
        {
         "n": "liquidoxygen",
-        "p": 763,
+        "p": 792,
         "m": 1375,
-        "s": 2166232
-       },
-       {
-        "n": "bioreducinglichen",
-        "p": 809,
-        "m": 1178,
-        "s": 15523
+        "s": 2169433
        }
       ]
      },
@@ -7502,7 +7496,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 53,
+       "ok": 55,
        "no": 3
       }
      },
@@ -7512,57 +7506,17 @@
       "Large": 9
      },
      "naves": [
-      "adder",
-      "anaconda",
-      "asp",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
-      "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
       "explorer_nx",
-      "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
       "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "panthermkii"
      ],
-     "naves_t": 1795292585,
+     "naves_t": 1795293819,
      "neg": {
       "Distance": 7,
       "Offences": 1
      },
-     "mods": 888,
-     "mods_t": 1795292585
+     "mods": 899,
+     "mods_t": 1795293810
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8521,7 +8475,7 @@
     "Orbital Construction Site: Houtman Reach": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795291896,
+     "t": 1795293497,
      "estado": "",
      "ls": 1073,
      "pads": {
@@ -8532,9 +8486,16 @@
      "mid": 3957070338,
      "atq": {
       "2026-11-21": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
+     },
+     "mer": {
+      "t": 1795293503,
+      "n": 10,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -13399,7 +13360,7 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 46
+    "2026-11-21": 49
    },
    "tk": {
     "firma": "9ac237db",
@@ -14105,6 +14066,122 @@
        }
       ]
      }
+    },
+    "Starry Night Workshop": {
+     "f": "The Fatherhood",
+     "tipo": "Outpost",
+     "t": 1795293443,
+     "estado": "",
+     "ls": 703,
+     "pads": {
+      "Small": 2,
+      "Medium": 1,
+      "Large": 0
+     },
+     "mid": 4404151299,
+     "mer": {
+      "t": 1795293477,
+      "n": 99,
+      "vende": [
+       {
+        "n": "iridium",
+        "p": 202355,
+        "d": 6079
+       },
+       {
+        "n": "lowtemperaturediamond",
+        "p": 108009,
+        "d": 246
+       },
+       {
+        "n": "helium",
+        "p": 86650,
+        "d": 99
+       },
+       {
+        "n": "helium3",
+        "p": 81049,
+        "d": 99
+       },
+       {
+        "n": "platinum",
+        "p": 63092,
+        "d": 1177
+       }
+      ],
+      "alta": [
+       {
+        "n": "water",
+        "p": 757,
+        "m": 260
+       },
+       {
+        "n": "polymers",
+        "p": 776,
+        "m": 306
+       },
+       {
+        "n": "algae",
+        "p": 762,
+        "m": 308
+       },
+       {
+        "n": "syntheticfabrics",
+        "p": 812,
+        "m": 354
+       },
+       {
+        "n": "beer",
+        "p": 799,
+        "m": 350
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 1504
+       },
+       {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 5895
+       },
+       {
+        "n": "scrap",
+        "p": 64,
+        "m": 276,
+        "s": 15792
+       },
+       {
+        "n": "basicmedicines",
+        "p": 171,
+        "m": 489,
+        "s": 2347
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 160,
+        "m": 447,
+        "s": 90276
+       }
+      ]
+     }
+    },
+    "Pivot Point": {
+     "f": "The Fatherhood",
+     "tipo": "CraterOutpost",
+     "t": 1795293970,
+     "estado": "",
+     "ls": 703,
+     "pads": {
+      "Small": 4,
+      "Medium": 4,
+      "Large": 2
+     },
+     "mid": 4404361731
     }
    },
    "prev": null,
@@ -26045,7 +26122,7 @@
   },
   "Yin Sector XJ-A c20": {
    "sys": "Yin Sector XJ-A c20",
-   "t": 1795272204,
+   "t": 1795293866,
    "src": "EDDN",
    "inf": 16.04,
    "ctrl": false,
@@ -26138,23 +26215,24 @@
     ]
    },
    "trafico": {
-    "2026-11-21": 3
+    "2026-11-21": 5
    },
    "tk": {
     "firma": "9cfa3740",
-    "igual": 1795272204
+    "igual": 1795293866
    },
    "saltos": {
-    "1795269600": 1
+    "1795269600": 1,
+    "1795291200": 1
    },
    "rutas": {
-    "2026-11-21": 1
+    "2026-11-21": 2
    },
    "estaciones": {
     "Love Horizons": {
      "f": "THE AZGHARIE",
      "tipo": "Outpost",
-     "t": 1795260290,
+     "t": 1795293976,
      "estado": "",
      "ls": 3,
      "pads": {
@@ -26164,7 +26242,7 @@
      },
      "mid": 4271576323,
      "mer": {
-      "t": 1795260296,
+      "t": 1795293984,
       "n": 119,
       "vende": [
        {
@@ -26248,7 +26326,13 @@
       ]
      },
      "mods": 146,
-     "mods_t": 1795260296
+     "mods_t": 1795293984,
+     "atq": {
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     },
     "Eden City": {
      "f": "THE AZGHARIE",
@@ -26480,11 +26564,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795293215.6760294,
-  "msgs": 2430027,
-  "mios": 230
+  "ultimo": 1795293868.0625384,
+  "msgs": 2448708,
+  "mios": 231
  },
- "t": 1795293393.0712514,
+ "t": 1795294206.6762564,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -26628,7 +26712,7 @@
    "nfac": 4,
    "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795285076
+   "t": 1795293994
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -32257,7 +32341,7 @@
    "nfac": 3,
    "pob": 786291835,
    "ctrl_n": "The Fatherhood",
-   "t": 1795289545
+   "t": 1795293072
   },
   "Lyncis Sector JM-V b2-2": {
    "pos": [
@@ -32723,7 +32807,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795285076
+   "t": 1795293994
   },
   "Bakuari": {
    "pos": [
@@ -33533,13 +33617,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Stronghold",
-   "prog": 0.260292,
+   "prog": 0.260425,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795127810
+   "t": 1795293992
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -34150,11 +34234,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.351385,
+   "prog": 0.351812,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795277092
+   "t": 1795293562
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -36237,7 +36321,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795293339
+   "t": 1795294201
   },
   "Bhumian Ku": {
    "pos": [
@@ -37239,7 +37323,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795194300
+   "t": 1795294146
   },
   "Tascheter Sector FR-M a7-3": {
    "pos": [
@@ -39719,7 +39803,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795273788
+   "t": 1795294081
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -40081,7 +40165,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795272204
+   "t": 1795293866
   },
   "Otohiko": {
    "pos": [

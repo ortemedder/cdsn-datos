@@ -24204,10 +24204,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795244750.5995467,
-  "msgs": 1661597,
+  "msgs": 1668778,
   "mios": 145
  },
- "t": 1795245509.5403278,
+ "t": 1795246060.4852228,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -26832,9 +26832,9 @@
    "ly": 19.8,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 47340143,
+   "pob": 47351990,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795218443
+   "t": 1795245840
   },
   "Oisi": {
    "pos": [
@@ -29617,6 +29617,19 @@
    "pob": 2281,
    "ctrl_n": "THE AZGHARIE",
    "t": 1795244407
+  },
+  "Ceti Sector AV-Y c15": {
+   "pos": [
+    11.78125,
+    -93.875,
+    -57.53125
+   ],
+   "ly": 11.1,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 5,
+   "pob": 2194682,
+   "ctrl_n": "The Brigade",
+   "t": 1795245916
   }
  },
  "codice": [
@@ -32392,7 +32405,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795218443
+   "t": 1795245840
   },
   "LP 365-24": {
    "pos": [
@@ -33514,13 +33527,13 @@
    ],
    "pot": "Felicia Winters",
    "est": "Stronghold",
-   "prog": 0.250792,
+   "prog": 0.250452,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795174419
+   "t": 1795246049
   },
   "Bhumian Ku": {
    "pos": [
@@ -37020,6 +37033,21 @@
     "Jerome Archer"
    ],
    "t": 1795244786
+  },
+  "Ceti Sector AV-Y c15": {
+   "pos": [
+    11.78125,
+    -93.875,
+    -57.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795245916
   }
  },
  "rivales": {

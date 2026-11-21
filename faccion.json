@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 50
+    "2026-11-21": 58
    },
    "pn": {
     "H5L-70M": {
@@ -6964,7 +6964,7 @@
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795227464,
+      "t": 1795227539,
       "n": 366,
       "vende": [
        {
@@ -7617,7 +7617,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795220303,
+     "t": 1795227947,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -7627,97 +7627,97 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795220344,
+      "t": 1795227954,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 560932,
+        "p": 557547,
         "d": 60
        },
        {
         "n": "serendibite",
-        "p": 458653,
+        "p": 455826,
         "d": 60
        },
        {
         "n": "grandidierite",
-        "p": 452814,
+        "p": 450011,
         "d": 60
        },
        {
         "n": "benitoite",
-        "p": 450863,
+        "p": 447969,
         "d": 60
        },
        {
         "n": "opal",
-        "p": 431934,
-        "d": 57
+        "p": 428971,
+        "d": 72
        }
       ],
       "alta": [
        {
         "n": "animalmonitors",
-        "p": 3576,
+        "p": 3380,
         "m": 522
        },
        {
         "n": "conductivefabrics",
-        "p": 4013,
+        "p": 3991,
         "m": 666
        },
        {
-        "n": "osmium",
-        "p": 231074,
-        "m": 44051
-       },
-       {
         "n": "militarygradefabrics",
-        "p": 4698,
+        "p": 4745,
         "m": 899
        },
        {
+        "n": "osmium",
+        "p": 229167,
+        "m": 44051
+       },
+       {
         "n": "platinum",
-        "p": 278723,
+        "p": 277726,
         "m": 55505
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 30,
+        "p": 31,
         "m": 271,
-        "s": 26488
+        "s": 26707
        },
        {
         "n": "foodcartridges",
-        "p": 35,
+        "p": 37,
         "m": 252,
-        "s": 577414
+        "s": 577440
        },
        {
         "n": "scrap",
-        "p": 68,
+        "p": 70,
         "m": 276,
-        "s": 137543
+        "s": 138282
        },
        {
         "n": "basicmedicines",
-        "p": 177,
+        "p": 181,
         "m": 489,
-        "s": 59139
+        "s": 59485
        },
        {
         "n": "waterpurifiers",
-        "p": 166,
+        "p": 169,
         "m": 447,
-        "s": 865856
+        "s": 866050
        }
       ]
      },
-     "mods": 931,
-     "mods_t": 1795220310,
+     "mods": 934,
+     "mods_t": 1795227954,
      "naves": [
       "adder",
       "anaconda",
@@ -7763,7 +7763,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795220310,
+     "naves_t": 1795227954,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -7774,7 +7774,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 4,
+       "ok": 6,
        "no": 0
       }
      }
@@ -7992,7 +7992,7 @@
     "Orbital Construction Site: Lefschetz's Pride": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795226449,
+     "t": 1795228264,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -8002,15 +8002,15 @@
      },
      "mid": 3953770498,
      "mer": {
-      "t": 1795226456,
-      "n": 4,
+      "t": 1795228270,
+      "n": 13,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 12,
+       "ok": 14,
        "no": 0
       }
      }
@@ -24113,10 +24113,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1480904,
+  "msgs": 1491586,
   "mios": 142
  },
- "t": 1795227440.3356404,
+ "t": 1795228302.5459821,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25831,9 +25831,9 @@
    "ly": 16.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 355725,
+   "pob": 355901,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1794949809
+   "t": 1795227851
   },
   "Wolf 265": {
    "pos": [
@@ -27924,9 +27924,9 @@
    "ly": 19.9,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 1268029,
+   "pob": 1274958,
    "ctrl_n": "The Dark Wheel",
-   "t": 1795053036
+   "t": 1795227649
   },
   "Trianguli Sector RU-O a6-2": {
    "pos": [
@@ -35265,7 +35265,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795206958
+   "t": 1795227792
   },
   "BD+40 1697": {
    "pos": [
@@ -35629,13 +35629,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.193465,
+   "prog": 0.195766,
    "pots": [
     "Edmund Mahon",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795212591
+   "t": 1795228290
   },
   "Hyades Sector OT-P b6-1": {
    "pos": [
@@ -36284,6 +36284,38 @@
     "Zemina Torval"
    ],
    "t": 1795226525
+  },
+  "Col 285 Sector XJ-R a34-2": {
+   "pos": [
+    149.25,
+    -30.1875,
+    19.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795227649
+  },
+  "LHS 1747": {
+   "pos": [
+    32.0625,
+    -30,
+    -58.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795227851
   }
  },
  "rivales": {

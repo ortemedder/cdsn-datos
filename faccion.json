@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 58
+    "2026-11-21": 65
    },
    "pn": {
     "H5L-70M": {
@@ -6959,95 +6959,95 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795227430,
+     "t": 1795229046,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795227539,
+      "t": 1795229074,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 674630,
+        "p": 620462,
         "d": 47836
        },
        {
         "n": "serendibite",
-        "p": 554554,
+        "p": 509330,
         "d": 47836
        },
        {
         "n": "benitoite",
-        "p": 550333,
+        "p": 504044,
         "d": 47836
        },
        {
         "n": "grandidierite",
-        "p": 543960,
-        "d": 47540
+        "p": 499491,
+        "d": 47541
        },
        {
         "n": "opal",
-        "p": 535484,
+        "p": 488081,
         "d": 19676
        }
       ],
       "alta": [
        {
         "n": "militarygradefabrics",
-        "p": 4745,
+        "p": 5113,
         "m": 899
        },
        {
         "n": "osmium",
-        "p": 230541,
+        "p": 219071,
         "m": 44051
        },
        {
         "n": "platinum",
-        "p": 278468,
+        "p": 271616,
         "m": 55505
        },
        {
-        "n": "painite",
-        "p": 205992,
-        "m": 48333
+        "n": "bauxite",
+        "p": 4440,
+        "m": 1096
        },
        {
-        "n": "bauxite",
-        "p": 4598,
-        "m": 1096
+        "n": "painite",
+        "p": 190565,
+        "m": 48333
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 31,
+        "p": 40,
         "m": 271,
         "s": 665651
        },
        {
         "n": "polymers",
-        "p": 48,
+        "p": 61,
         "m": 306,
-        "s": 3917266
+        "s": 3929628
        },
        {
         "n": "syntheticfabrics",
-        "p": 79,
+        "p": 97,
         "m": 354,
         "s": 26384952
        },
        {
         "n": "explosives",
-        "p": 171,
+        "p": 199,
         "m": 483,
         "s": 946187
        },
        {
         "n": "evacuationshelter",
-        "p": 183,
+        "p": 211,
         "m": 500,
         "s": 6779
        }
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 18,
+       "ok": 20,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795227436,
+     "naves_t": 1795229053,
      "neg": {
       "Distance": 5
      },
-     "mods": 858,
-     "mods_t": 1795227436
+     "mods": 886,
+     "mods_t": 1795229053
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8013,6 +8013,26 @@
        "ok": 14,
        "no": 0
       }
+     }
+    },
+    "Orbital Construction Site: Siodmak Landing": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795228752,
+     "estado": "",
+     "ls": 2033,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3953879298,
+     "mer": {
+      "t": 1795228764,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -24113,10 +24133,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1491586,
+  "msgs": 1501695,
   "mios": 142
  },
- "t": 1795228302.5459821,
+ "t": 1795229084.3532317,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -27794,9 +27814,9 @@
    "ly": 12.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 448368,
+   "pob": 448416,
    "ctrl_n": "East India Company",
-   "t": 1795040211
+   "t": 1795228953
   },
   "HIP 11324": {
    "pos": [
@@ -28706,7 +28726,7 @@
    "nfac": 6,
    "pob": 9342351,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795206658
+   "t": 1795228376
   },
   "Hyades Sector QJ-P b6-2": {
    "pos": [
@@ -31471,7 +31491,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795206658
+   "t": 1795228376
   },
   "HJ 3456B": {
    "pos": [
@@ -36316,6 +36336,71 @@
     "Jerome Archer"
    ],
    "t": 1795227851
+  },
+  "Chicoana": {
+   "pos": [
+    -35,
+    -23.21875,
+    -110.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795228681
+  },
+  "Exigus": {
+   "pos": [
+    -2.625,
+    38.3125,
+    -84.125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795228753
+  },
+  "Tascheter Sector XE-Q a5-0": {
+   "pos": [
+    15.59375,
+    -34.15625,
+    -51.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795228953
+  },
+  "Caerus": {
+   "pos": [
+    13.125,
+    -27.4375,
+    -50.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.259239,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795228998
   }
  },
  "rivales": {

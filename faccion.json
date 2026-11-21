@@ -2190,7 +2190,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 6
+    "2026-11-21": 7
    },
    "zc": [
     {
@@ -2746,7 +2746,7 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795258553,
+     "t": 1795261196,
      "estado": "",
      "ls": 2383,
      "pads": {
@@ -2756,7 +2756,7 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795258560,
+      "t": 1795261203,
       "n": 117,
       "vende": [
        {
@@ -2845,8 +2845,8 @@
        }
       ]
      },
-     "mods": 584,
-     "mods_t": 1795258818,
+     "mods": 520,
+     "mods_t": 1795261203,
      "naves": [
       "adder",
       "asp",
@@ -2878,7 +2878,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795258560,
+     "naves_t": 1795261203,
      "atq": {
       "2026-11-18": {
        "ok": 17,
@@ -2893,7 +2893,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      },
@@ -5855,7 +5855,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795260686,
+   "t": 1795260956,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -5976,18 +5976,18 @@
     "2026-11-18": 39,
     "2026-11-19": 11,
     "2026-11-20": 11,
-    "2026-11-21": 3
+    "2026-11-21": 7
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795260818
+     "t": 1795261222
     },
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795260712
+     "t": 1795261222
     }
    ],
    "pn": {
@@ -5997,7 +5997,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795260712,
+     "t": 1795261222,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6007,18 +6007,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795260818,
+     "t": 1795261222,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795260712,
+     "t": 1795261222,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795260686,
+    "igual": 1795260956,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -6064,7 +6064,7 @@
     "1795179600": 1,
     "1795197600": 1,
     "1795208400": 1,
-    "1795258800": 2
+    "1795258800": 3
    },
    "rutas": {
     "2026-11-17": 9,
@@ -24742,11 +24742,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795260863.6378536,
-  "msgs": 1825532,
-  "mios": 167
+  "ultimo": 1795260957.2179532,
+  "msgs": 1837874,
+  "mios": 168
  },
- "t": 1795260878.9768524,
+ "t": 1795261781.2586832,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25280,7 +25280,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795257687
+   "t": 1795261298
   },
   "HIP 33497": {
    "pos": [
@@ -29583,7 +29583,7 @@
    "nfac": 6,
    "pob": 53664319,
    "ctrl_n": "Tialocan Empire Party",
-   "t": 1795189236
+   "t": 1795261770
   },
   "Ethli": {
    "pos": [
@@ -30246,7 +30246,7 @@
    "nfac": 3,
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
-   "t": 1795259103
+   "t": 1795261664
   }
  },
  "codice": [
@@ -31658,7 +31658,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795226359
+   "t": 1795261070
   },
   "Ceti Sector KX-T b3-0": {
    "pos": [
@@ -31741,7 +31741,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795260686
+   "t": 1795260956
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -34196,7 +34196,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795189236
+   "t": 1795261770
   },
   "ICZ GL-X b1-1": {
    "pos": [
@@ -34401,7 +34401,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795253266
+   "t": 1795261713
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -34457,14 +34457,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.252881,
+   "prog": 0.252824,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795193484
+   "t": 1795261221
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -37544,7 +37544,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795257687
+   "t": 1795261298
   },
   "Trante": {
    "pos": [
@@ -37745,7 +37745,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795254008
+   "t": 1795261514
   },
   "Lese": {
    "pos": [
@@ -37958,7 +37958,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795259103
+   "t": 1795261664
   },
   "Lati": {
    "pos": [
@@ -38010,6 +38010,38 @@
     "Jerome Archer"
    ],
    "t": 1795260617
+  },
+  "Tauerno": {
+   "pos": [
+    -45.78125,
+    4.40625,
+    -112.625
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795261166
+  },
+  "Tehuevik": {
+   "pos": [
+    -38.25,
+    83.5625,
+    -121.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Stronghold",
+   "prog": 0.11,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795261615
   }
  },
  "rivales": {

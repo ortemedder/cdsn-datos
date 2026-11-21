@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 32
+    "2026-11-21": 38
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795224190,
+     "t": 1795225084,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795224326,
+      "t": 1795225173,
       "n": 366,
       "vende": [
        {
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 10,
+       "ok": 12,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795224196,
+     "naves_t": 1795225091,
      "neg": {
       "Distance": 5
      },
-     "mods": 872,
-     "mods_t": 1795224196
+     "mods": 858,
+     "mods_t": 1795225091
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7988,7 +7988,7 @@
     "Orbital Construction Site: Lefschetz's Pride": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795224630,
+     "t": 1795225523,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -7998,7 +7998,7 @@
      },
      "mid": 3953770498,
      "mer": {
-      "t": 1795224637,
+      "t": 1795225530,
       "n": 2,
       "vende": [],
       "alta": [],
@@ -8006,7 +8006,7 @@
      },
      "atq": {
       "2026-11-21": {
-       "ok": 8,
+       "ok": 10,
        "no": 0
       }
      }
@@ -24105,10 +24105,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1445620,
+  "msgs": 1457654,
   "mios": 142
  },
- "t": 1795224743.1645162,
+ "t": 1795225625.4243472,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24122,7 +24122,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795223549
+   "t": 1795224778
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -25708,7 +25708,7 @@
    "nfac": 4,
    "pob": 22249,
    "ctrl_n": "Yenici Patron's Principles",
-   "t": 1795193951
+   "t": 1795225270
   },
   "Alhena": {
    "pos": [
@@ -26525,9 +26525,9 @@
    "ly": 19.6,
    "junto": "HIP 19292",
    "nfac": 3,
-   "pob": 198761,
+   "pob": 198774,
    "ctrl_n": "The White Templars",
-   "t": 1795070498
+   "t": 1795224934
   },
   "Tascheter Sector WE-Q a5-2": {
    "pos": [
@@ -30202,7 +30202,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795223549
+   "t": 1795224778
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -33193,7 +33193,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795169259
+   "t": 1795225371
   },
   "Ceti Sector GR-V b2-3": {
    "pos": [
@@ -33417,7 +33417,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795178155
+   "t": 1795225423
   },
   "BD+11 1163": {
    "pos": [
@@ -33547,7 +33547,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.282772,
+   "prog": 0.282781,
    "pots": [
     "Aisling Duval",
     "Denton Patreus",
@@ -33555,7 +33555,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795205281
+   "t": 1795224807
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -34268,11 +34268,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Fortified",
-   "prog": 0.26158,
+   "prog": 0.261603,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795193951
+   "t": 1795225270
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -36183,6 +36183,35 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795224301
+  },
+  "ICZ BF-Z b4": {
+   "pos": [
+    100.0625,
+    -114.25,
+    -8.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795224934
+  },
+  "Pai Ho": {
+   "pos": [
+    9.9375,
+    -94.8125,
+    -52.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795225620
   }
  },
  "rivales": {

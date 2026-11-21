@@ -10199,12 +10199,12 @@
     "2026-11-09": 1,
     "2026-11-14": 2,
     "2026-11-19": 3,
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "pn": {
     "BZB-26Z": {
      "n": "OZZY OSBOURNE",
-     "t": 1795256436,
+     "t": 1795273648,
      "d": 1795132020
     }
    },
@@ -10229,7 +10229,7 @@
     "Britnev Dock": {
      "f": "THE AZGHARIE",
      "tipo": "Orbis",
-     "t": 1795256519,
+     "t": 1795273688,
      "estado": "",
      "ls": 202632,
      "pads": {
@@ -10239,7 +10239,7 @@
      },
      "mid": 3228018688,
      "mer": {
-      "t": 1795256525,
+      "t": 1795273695,
       "n": 129,
       "vende": [
        {
@@ -10311,7 +10311,7 @@
       ]
      },
      "mods": 721,
-     "mods_t": 1795256525,
+     "mods_t": 1795273695,
      "naves": [
       "anaconda",
       "asp",
@@ -10332,10 +10332,10 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795256525,
+     "naves_t": 1795273695,
      "atq": {
       "2026-11-21": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -25366,10 +25366,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795273441.183249,
-  "msgs": 2014060,
+  "msgs": 2030276,
   "mios": 181
  },
- "t": 1795273448.044354,
+ "t": 1795274370.7586067,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25487,7 +25487,7 @@
    "nfac": 4,
    "pob": 1998023,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795255167
+   "t": 1795273972
   },
   "Dakvar": {
    "pos": [
@@ -25591,7 +25591,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795272405
+   "t": 1795273721
   },
   "LHS 1499": {
    "pos": [
@@ -25799,7 +25799,7 @@
    "nfac": 4,
    "pob": 128865,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795273016
+   "t": 1795274275
   },
   "Unktock": {
    "pos": [
@@ -25851,7 +25851,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795271919
+   "t": 1795273683
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -26124,7 +26124,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795256719
+   "t": 1795274281
   },
   "LTT 740": {
    "pos": [
@@ -28423,9 +28423,9 @@
    "ly": 17.5,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 399213,
+   "pob": 399319,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795142421
+   "t": 1795273693
   },
   "PLX 695": {
    "pos": [
@@ -29998,7 +29998,7 @@
    "nfac": 5,
    "pob": 963861,
    "ctrl_n": "Civitas Dei",
-   "t": 1795260641
+   "t": 1795274039
   },
   "Yin Sector ZU-Y b4": {
    "pos": [
@@ -30947,7 +30947,7 @@
    "nfac": 5,
    "pob": 218947,
    "ctrl_n": "LP 254-27 Free",
-   "t": 1795270912
+   "t": 1795273913
   },
   "Amemakarna": {
    "pos": [
@@ -30960,7 +30960,7 @@
    "nfac": 6,
    "pob": 2251483,
    "ctrl_n": "Potolot Inc.",
-   "t": 1795272669
+   "t": 1795274009
   },
   "Lyncis Sector FG-Y d85": {
    "pos": [
@@ -30973,7 +30973,7 @@
    "nfac": 3,
    "pob": 860605,
    "ctrl_n": "Nagii Union",
-   "t": 1795272714
+   "t": 1795274056
   },
   "Kuan Yin": {
    "pos": [
@@ -31522,7 +31522,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795271919
+   "t": 1795273683
   },
   "Nergal": {
    "pos": [
@@ -32445,7 +32445,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795142421
+   "t": 1795273693
   },
   "Hyades Sector VP-N b7-3": {
    "pos": [
@@ -32757,7 +32757,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795256719
+   "t": 1795274281
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -32936,7 +32936,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795272405
+   "t": 1795273721
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -33065,7 +33065,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795273016
+   "t": 1795274275
   },
   "Guei": {
    "pos": [
@@ -33371,7 +33371,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795260555
+   "t": 1795274241
   },
   "Ross 874": {
    "pos": [
@@ -33389,7 +33389,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795260641
+   "t": 1795274039
   },
   "Ceti Sector FB-X c1-26": {
    "pos": [
@@ -33566,14 +33566,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.320756,
+   "prog": 0.321406,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795198397
+   "t": 1795274363
   },
   "Wolf 289": {
    "pos": [
@@ -33935,7 +33935,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795255167
+   "t": 1795273972
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -34903,7 +34903,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795273068
+   "t": 1795274362
   },
   "Bhumian Ku": {
    "pos": [
@@ -38385,7 +38385,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795267447
+   "t": 1795273788
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -39157,7 +39157,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795270912
+   "t": 1795273913
   },
   "Amemakarna": {
    "pos": [
@@ -39173,7 +39173,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795272669
+   "t": 1795274009
   },
   "Lyncis Sector FG-Y d85": {
    "pos": [
@@ -39187,7 +39187,7 @@
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1795272714
+   "t": 1795274056
   },
   "HIP 31451": {
    "pos": [

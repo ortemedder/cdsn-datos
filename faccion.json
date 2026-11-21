@@ -24249,10 +24249,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795250976.5516686,
-  "msgs": 1715219,
+  "msgs": 1725119,
   "mios": 148
  },
- "t": 1795251478.3298476,
+ "t": 1795252659.5447757,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24617,7 +24617,7 @@
    "nfac": 4,
    "pob": 218632,
    "ctrl_n": "East India Company",
-   "t": 1795212748
+   "t": 1795252525
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -28205,7 +28205,7 @@
    "nfac": 3,
    "pob": 4096993,
    "ctrl_n": "Black Hand of Orion",
-   "t": 1795250130
+   "t": 1795252278
   },
   "Allowini": {
    "pos": [
@@ -32173,7 +32173,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795212748
+   "t": 1795252525
   },
   "LTT 11655": {
    "pos": [
@@ -33160,7 +33160,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795250130
+   "t": 1795252278
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -35736,7 +35736,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795210123
+   "t": 1795252655
   },
   "Njungum": {
    "pos": [
@@ -37201,6 +37201,38 @@
     "Zemina Torval"
    ],
    "t": 1795250862
+  },
+  "Naren": {
+   "pos": [
+    -47.46875,
+    -18.78125,
+    -114.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.254466,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795195849
+  },
+  "Lese": {
+   "pos": [
+    -23.46875,
+    42.15625,
+    -98.875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795252605
   }
  },
  "rivales": {

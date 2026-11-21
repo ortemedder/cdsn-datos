@@ -5172,7 +5172,7 @@
    },
    "trafico": {
     "2026-11-20": 2,
-    "2026-11-21": 6
+    "2026-11-21": 7
    },
    "zc": [
     {
@@ -13294,7 +13294,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795288633,
+   "t": 1795296668,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -13383,11 +13383,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 52
+    "2026-11-21": 54
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795288633
+    "igual": 1795296668
    },
    "saltos": {
     "1794902400": 2,
@@ -13418,14 +13418,15 @@
     "1795258800": 2,
     "1795280400": 2,
     "1795284000": 2,
-    "1795287600": 1
+    "1795287600": 1,
+    "1795294800": 1
    },
    "rutas": {
     "2026-11-17": 20,
     "2026-11-18": 9,
     "2026-11-19": 3,
     "2026-11-20": 8,
-    "2026-11-21": 12
+    "2026-11-21": 13
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -13964,7 +13965,7 @@
     "Orbital Construction Site: Creighton Vista": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795292213,
+     "t": 1795296980,
      "estado": "",
      "ls": 1334,
      "pads": {
@@ -13974,15 +13975,15 @@
      },
      "mid": 3956903938,
      "mer": {
-      "t": 1795292220,
-      "n": 2,
+      "t": 1795296988,
+      "n": 4,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      }
@@ -21157,42 +21158,24 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1795107643,
+   "t": 1795297012,
    "src": "EDDN",
-   "inf": 12.12,
+   "inf": 12.71,
    "ctrl": false,
-   "estado": "Boom",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Wolves of Jonai",
-   "segunda_inf": 55.21,
+   "segunda_inf": 52.95,
    "conflictos": [],
    "todas": [
     {
      "n": "Wolves of Jonai",
-     "inf": 55.21,
+     "inf": 52.95,
      "gov": "Dictatorship",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Natural Atese Front",
-     "inf": 23.55,
-     "gov": "Dictatorship",
-     "alg": "Empire",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 12.12,
-     "gov": "Democracy",
      "alg": "Independent",
      "act": [],
      "pend": [
@@ -21201,8 +21184,28 @@
      "jug": null
     },
     {
+     "n": "Natural Atese Front",
+     "inf": 24.72,
+     "gov": "Dictatorship",
+     "alg": "Empire",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 12.71,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "Atese Labour",
-     "inf": 9.12,
+     "inf": 9.61,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -21217,7 +21220,7 @@
     291.75
    ],
    "sis": {
-    "pob": 77562172,
+    "pob": 79009617,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -21236,20 +21239,21 @@
     "2026-11-14": 11,
     "2026-11-15": 12,
     "2026-11-16": 29,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-21": 12
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1795107643,
+     "t": 1795297012,
      "d": 1795106312
     }
    },
    "tk": {
-    "firma": "82837543",
-    "igual": 1795107643,
-    "ult": 1795106312,
-    "desde": 1794866694,
+    "firma": "004f5d62",
+    "igual": 1795297012,
+    "ult": 1795296181,
+    "desde": 1795107643,
     "vent": [
      [
       1794701554,
@@ -21259,10 +21263,14 @@
     "est": null
    },
    "saltos": {
-    "1795104000": 1
+    "1795104000": 1,
+    "1795294800": 2
    },
-   "prev": 10.42,
-   "prev_t": 1794866694,
+   "rutas": {
+    "2026-11-21": 2
+   },
+   "prev": 12.12,
+   "prev_t": 1795107643,
    "hinf": [
     [
      1794695209,
@@ -21279,20 +21287,38 @@
     [
      1795106312,
      12.12
+    ],
+    [
+     1795296181,
+     12.71
     ]
    ],
    "rach": {
     "Wolves of Jonai": 0,
-    "Natural Atese Front": 1,
-    "Caballeros de Sion": 1,
-    "Atese Labour": 1
+    "Natural Atese Front": 2,
+    "Caballeros de Sion": 2,
+    "Atese Labour": 2
    },
-   "rivales": [],
-   "tick_ult": 1795106312,
-   "tick_marg": 1996,
-   "tick_prox": 1795161270,
+   "rivales": [
+    {
+     "n": "Natural Atese Front",
+     "racha": 2,
+     "inf": 24.72,
+     "dif": 12.01
+    },
+    {
+     "n": "Atese Labour",
+     "racha": 2,
+     "inf": 9.61,
+     "dif": -3.1
+    }
+   ],
+   "tick_ult": 1795296181,
+   "tick_marg": 1571,
+   "tick_prox": 1795334070,
    "tick_disp": 462,
-   "tick_n": 0
+   "tick_n": 0,
+   "cseg": {}
   },
   "Lyncis Sector FG-Y d93": {
    "sys": "Lyncis Sector FG-Y d93",
@@ -22606,7 +22632,7 @@
    "trafico": {
     "2026-11-16": 2,
     "2026-11-20": 2,
-    "2026-11-21": 11
+    "2026-11-21": 12
    },
    "pn": {
     "Q3K-L0G": {
@@ -22655,7 +22681,7 @@
     "Leibniz Depot": {
      "f": "Sirius Special Forces",
      "tipo": "Outpost",
-     "t": 1795292673,
+     "t": 1795296965,
      "estado": "",
      "ls": 333,
      "pads": {
@@ -22665,7 +22691,7 @@
      },
      "mid": 3227702272,
      "mer": {
-      "t": 1795292682,
+      "t": 1795296975,
       "n": 353,
       "vende": [
        {
@@ -22734,9 +22760,12 @@
      "mods_t": 1795292680,
      "atq": {
       "2026-11-21": {
-       "ok": 4,
-       "no": 0
+       "ok": 6,
+       "no": 8
       }
+     },
+     "neg": {
+      "NoSpace": 8
      }
     }
    },
@@ -26683,11 +26712,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795295807.673206,
-  "msgs": 2494560,
-  "mios": 232
+  "ultimo": 1795297014.0736346,
+  "msgs": 2514196,
+  "mios": 241
  },
- "t": 1795296102.3889487,
+ "t": 1795297016.7179866,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27182,7 +27211,7 @@
    "nfac": 4,
    "pob": 216633,
    "ctrl_n": "East India Company",
-   "t": 1795277177
+   "t": 1795296356
   },
   "Trianguli Sector SU-O a6-3": {
    "pos": [
@@ -27336,9 +27365,9 @@
    "ly": 18.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 65928340,
+   "pob": 65929346,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795167735
+   "t": 1795296375
   },
   "Khaima": {
    "pos": [
@@ -27442,7 +27471,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795295460
+   "t": 1795296855
   },
   "LTT 740": {
    "pos": [
@@ -29444,7 +29473,7 @@
    "nfac": 5,
    "pob": 8347,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795215517
+   "t": 1795296796
   },
   "Col 285 Sector RD-T a33-5": {
    "pos": [
@@ -31693,7 +31722,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795269772
+   "t": 1795296992
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -33595,7 +33624,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795295358
+   "t": 1795296381
   },
   "LP 157-32": {
    "pos": [
@@ -34066,7 +34095,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795210233
+   "t": 1795296431
   },
   "Tascheter Sector ZZ-P a5-6": {
    "pos": [
@@ -34294,7 +34323,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795295460
+   "t": 1795296855
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -35242,7 +35271,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795215517
+   "t": 1795296796
   },
   "Kareneri": {
    "pos": [
@@ -36277,7 +36306,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795167735
+   "t": 1795296375
   },
   "EGM 762": {
    "pos": [
@@ -37281,7 +37310,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795277177
+   "t": 1795296356
   },
   "LP 714-58": {
    "pos": [
@@ -37460,7 +37489,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795269772
+   "t": 1795296992
   },
   "Eurus": {
    "pos": [

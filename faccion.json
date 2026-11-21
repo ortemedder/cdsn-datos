@@ -5885,7 +5885,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795263049,
+   "t": 1795263934,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -6006,18 +6006,18 @@
     "2026-11-18": 39,
     "2026-11-19": 11,
     "2026-11-20": 11,
-    "2026-11-21": 11
+    "2026-11-21": 14
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Low:#index=1;",
-     "i": "Low",
-     "t": 1795263293
-    },
-    {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795263293
+     "t": 1795264204
+    },
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1795264204
     }
    ],
    "pn": {
@@ -6027,7 +6027,7 @@
     },
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795263293,
+     "t": 1795264204,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6037,18 +6037,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795263293,
+     "t": 1795264204,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795263293,
+     "t": 1795264204,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795263049,
+    "igual": 1795263934,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -6095,14 +6095,14 @@
     "1795197600": 1,
     "1795208400": 1,
     "1795258800": 3,
-    "1795262400": 1
+    "1795262400": 2
    },
    "rutas": {
     "2026-11-17": 9,
     "2026-11-18": 10,
     "2026-11-19": 5,
     "2026-11-20": 6,
-    "2026-11-21": 4
+    "2026-11-21": 5
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -24956,11 +24956,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795263051.0316534,
-  "msgs": 1861684,
-  "mios": 171
+  "ultimo": 1795263935.882245,
+  "msgs": 1874398,
+  "mios": 172
  },
- "t": 1795263405.88981,
+ "t": 1795264447.6831772,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25310,9 +25310,9 @@
    "ly": 18.8,
    "junto": "Jangore",
    "nfac": 5,
-   "pob": 437484,
+   "pob": 437628,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1794885568
+   "t": 1795263702
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -31968,7 +31968,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795263049
+   "t": 1795263934
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -35885,7 +35885,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.255243,
+   "prog": 0.260555,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -35893,7 +35893,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795249319
+   "t": 1795263888
   },
   "Lakheo": {
    "pos": [
@@ -38152,7 +38152,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795263137
+   "t": 1795264439
   },
   "LHS 1933": {
    "pos": [
@@ -38337,6 +38337,22 @@
     "Jerome Archer"
    ],
    "t": 1795262911
+  },
+  "Ross 568": {
+   "pos": [
+    -48.84375,
+    9.5,
+    -76.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795263702
   }
  },
  "rivales": {

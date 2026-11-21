@@ -2220,7 +2220,7 @@
     "2026-11-18": 55,
     "2026-11-19": 29,
     "2026-11-20": 46,
-    "2026-11-21": 18
+    "2026-11-21": 19
    },
    "zc": [
     {
@@ -6126,7 +6126,7 @@
     "2026-11-18": 10,
     "2026-11-19": 5,
     "2026-11-20": 6,
-    "2026-11-21": 6
+    "2026-11-21": 7
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -6968,7 +6968,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 118
+    "2026-11-21": 120
    },
    "pn": {
     "H5L-70M": {
@@ -7071,97 +7071,91 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795279956,
+     "t": 1795280894,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795279962,
+      "t": 1795281135,
       "n": 366,
       "vende": [
+       {
+        "n": "monazite",
+        "p": 750443,
+        "d": 18156
+       },
        {
         "n": "musgravite",
         "p": 601504,
         "d": 48093
        },
        {
-        "n": "serendibite",
-        "p": 493501,
-        "d": 48093
+        "n": "iridium",
+        "p": 503085,
+        "d": 30771
        },
        {
-        "n": "benitoite",
-        "p": 487844,
-        "d": 48093
+        "n": "thortveitite",
+        "p": 503085,
+        "d": 769233
        },
        {
-        "n": "grandidierite",
-        "p": 484239,
-        "d": 47828
-       },
-       {
-        "n": "opal",
-        "p": 471489,
-        "d": 19781
+        "n": "periclasedunite",
+        "p": 503085,
+        "d": 769233
        }
       ],
       "alta": [
        {
-        "n": "militarygradefabrics",
-        "p": 5242,
-        "m": 899
-       },
-       {
-        "n": "osmium",
-        "p": 215052,
-        "m": 44051
-       },
-       {
-        "n": "platinum",
-        "p": 269166,
-        "m": 55505
-       },
-       {
         "n": "bauxite",
-        "p": 4385,
+        "p": 14316,
         "m": 1096
        },
        {
-        "n": "painite",
-        "p": 185165,
-        "m": 48333
+        "n": "militarygradefabrics",
+        "p": 9445,
+        "m": 899
+       },
+       {
+        "n": "lepidolite",
+        "p": 5946,
+        "m": 741
+       },
+       {
+        "n": "osmium",
+        "p": 240248,
+        "m": 44051
+       },
+       {
+        "n": "haematite",
+        "p": 9522,
+        "m": 1791
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 44,
+        "p": 107,
         "m": 271,
         "s": 669241
        },
        {
-        "n": "polymers",
-        "p": 66,
-        "m": 306,
-        "s": 3950657
-       },
-       {
-        "n": "syntheticfabrics",
-        "p": 103,
-        "m": 354,
-        "s": 26526138
-       },
-       {
-        "n": "explosives",
-        "p": 209,
-        "m": 483,
-        "s": 951250
-       },
-       {
         "n": "evacuationshelter",
-        "p": 221,
+        "p": 258,
         "m": 500,
         "s": 6815
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 755,
+        "m": 1375,
+        "s": 2169433
+       },
+       {
+        "n": "bioreducinglichen",
+        "p": 802,
+        "m": 1178,
+        "s": 15523
        }
       ]
      },
@@ -7179,7 +7173,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 39,
+       "ok": 40,
        "no": 3
       }
      },
@@ -13069,7 +13063,7 @@
     "2026-11-18": 9,
     "2026-11-19": 3,
     "2026-11-20": 8,
-    "2026-11-21": 7
+    "2026-11-21": 8
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -18099,11 +18093,11 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1795272818,
+   "t": 1795281511,
    "src": "EDDN",
    "inf": 15.32,
    "ctrl": false,
-   "estado": "None",
+   "estado": "War",
    "activos": [],
    "pendientes": [
     "Expansion"
@@ -18209,21 +18203,22 @@
    "trafico": {
     "2026-11-14": 2,
     "2026-11-16": 3,
-    "2026-11-21": 5
+    "2026-11-21": 6
    },
    "tk": {
     "firma": "b4a055de",
-    "igual": 1795272818,
+    "igual": 1795281511,
     "ult": 1794848544,
     "desde": 1794666266,
     "est": null
    },
    "saltos": {
     "1795266000": 1,
-    "1795269600": 1
+    "1795269600": 1,
+    "1795280400": 1
    },
    "rutas": {
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "estaciones": {
     "Blackman Station": {
@@ -25443,11 +25438,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795280208.1095006,
-  "msgs": 2163059,
-  "mios": 190
+  "ultimo": 1795281512.2969291,
+  "msgs": 2182736,
+  "mios": 191
  },
- "t": 1795280631.8080528,
+ "t": 1795281585.6306086,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25745,9 +25740,9 @@
    "ly": 4.9,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 3,
-   "pob": 372720,
+   "pob": 373325,
    "ctrl_n": "Ukrainian Pilots Federation",
-   "t": 1795116357
+   "t": 1795281156
   },
   "Col 285 Sector RY-W b16-4": {
    "pos": [
@@ -25981,7 +25976,7 @@
    "nfac": 6,
    "pob": 260986,
    "ctrl_n": "East India Company",
-   "t": 1795270183
+   "t": 1795280984
   },
   "HIP 33497": {
    "pos": [
@@ -26228,7 +26223,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795260809
+   "t": 1795281282
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -26995,7 +26990,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795116823
+   "t": 1795281515
   },
   "Alpha Doradus": {
    "pos": [
@@ -28046,9 +28041,9 @@
    "ly": 15.9,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 3,
-   "pob": 209877,
+   "pob": 209985,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795224600
+   "t": 1795281039
   },
   "Jeticans": {
    "pos": [
@@ -29010,7 +29005,7 @@
    "nfac": 4,
    "pob": 313674,
    "ctrl_n": "East India Company",
-   "t": 1795108535
+   "t": 1795281566
   },
   "Col 285 Sector NS-J c9-17": {
    "pos": [
@@ -30737,9 +30732,9 @@
    "ly": 15.3,
    "junto": "Windizetet",
    "nfac": 3,
-   "pob": 66216980,
+   "pob": 66217105,
    "ctrl_n": "Nagii Union",
-   "t": 1795219081
+   "t": 1795281107
   },
   "LTT 11519": {
    "pos": [
@@ -31130,6 +31125,19 @@
    "pob": 158054,
    "ctrl_n": "Dedwender Life Interstellar",
    "t": 1795280514
+  },
+  "Tascheter Sector ZU-Y c23": {
+   "pos": [
+    -6.15625,
+    21.96875,
+    -73.625
+   ],
+   "ly": 7.1,
+   "junto": "BD+40 1697",
+   "nfac": 5,
+   "pob": 1210003,
+   "ctrl_n": "Order of Enblackenment",
+   "t": 1795280856
   }
  },
  "codice": [
@@ -31866,7 +31874,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795271088
+   "t": 1795281015
   },
   "BD+27 1356": {
    "pos": [
@@ -31913,7 +31921,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795116357
+   "t": 1795281156
   },
   "Lalande 10797": {
    "pos": [
@@ -33335,7 +33343,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.244308,
+   "prog": 0.244035,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -33343,7 +33351,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795116823
+   "t": 1795281515
   },
   "Nogatas": {
    "pos": [
@@ -33391,7 +33399,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795280619
+   "t": 1795281576
   },
   "LEHPM 1902": {
    "pos": [
@@ -35027,13 +35035,13 @@
    ],
    "pot": "Felicia Winters",
    "est": "Stronghold",
-   "prog": 0.250514,
+   "prog": 0.251609,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795280085
+   "t": 1795281368
   },
   "Bhumian Ku": {
    "pos": [
@@ -35694,7 +35702,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795277227
+   "t": 1795281313
   },
   "Scottii": {
    "pos": [
@@ -36596,7 +36604,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795202801
+   "t": 1795281307
   },
   "BD+16 1001": {
    "pos": [
@@ -37725,11 +37733,11 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.295309,
+   "prog": 0.464081,
    "pots": [
     "Jerome Archer"
    ],
-   "t": 1795219081
+   "t": 1795281107
   },
   "Ceti Sector CL-X b1-2": {
    "pos": [
@@ -37897,7 +37905,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795224600
+   "t": 1795281039
   },
   "HIP 18427": {
    "pos": [
@@ -38427,7 +38435,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795270183
+   "t": 1795280984
   },
   "Trante": {
    "pos": [
@@ -39155,7 +39163,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795272818
+   "t": 1795281511
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -39591,6 +39599,72 @@
     "Li Yong-Rui"
    ],
    "t": 1795280514
+  },
+  "Tascheter Sector ZU-Y c23": {
+   "pos": [
+    -6.15625,
+    21.96875,
+    -73.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795280856
+  },
+  "Sussche": {
+   "pos": [
+    -45.78125,
+    -17,
+    -90.28125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795281012
+  },
+  "Nyal": {
+   "pos": [
+    -18.28125,
+    -11.65625,
+    -104.40625
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795281464
+  },
+  "Cariangan": {
+   "pos": [
+    1.1875,
+    -93.21875,
+    -40.15625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795281566
   }
  },
  "rivales": {

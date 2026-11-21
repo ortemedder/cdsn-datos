@@ -5537,7 +5537,10 @@
    "tick_marg": 336,
    "tick_prox": 1794715590,
    "tick_disp": 336,
-   "tick_n": 0
+   "tick_n": 0,
+   "rutas": {
+    "2026-11-21": 1
+   }
   },
   "Diaguthivar": {
    "sys": "Diaguthivar",
@@ -6857,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 22
+    "2026-11-21": 26
    },
    "pn": {
     "H5L-70M": {
@@ -6956,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795222217,
+     "t": 1795223146,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795222227,
+      "t": 1795223292,
       "n": 366,
       "vende": [
        {
@@ -6981,8 +6984,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 543925,
-        "d": 47537
+        "p": 543937,
+        "d": 47538
        },
        {
         "n": "opal",
@@ -7064,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
      },
@@ -7118,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795222223,
+     "naves_t": 1795223153,
      "neg": {
       "Distance": 5
      },
      "mods": 872,
-     "mods_t": 1795222223
+     "mods_t": 1795223153
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7985,7 +7988,7 @@
     "Orbital Construction Site: Lefschetz's Pride": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795222569,
+     "t": 1795223747,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -7995,15 +7998,15 @@
      },
      "mid": 3953770498,
      "mer": {
-      "t": 1795222575,
-      "n": 2,
+      "t": 1795223753,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 4,
+       "ok": 6,
        "no": 0
       }
      }
@@ -24001,15 +24004,111 @@
     "igual": 1795183928
    },
    "cseg": {}
+  },
+  "Col 285 Sector HE-E b13-4": {
+   "sys": "Col 285 Sector HE-E b13-4",
+   "t": 1795223425,
+   "src": "EDDN",
+   "inf": 15.92,
+   "ctrl": false,
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
+    "Expansion"
+   ],
+   "recuperando": [],
+   "segunda": "Canonn",
+   "segunda_inf": 54.15,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Canonn",
+     "inf": 54.15,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Alchemy Den",
+     "inf": 21.62,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 15.92,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Gang of Undalibaluf",
+     "inf": 8.31,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Canonn",
+   "pos": [
+    -242.28125,
+    21.875,
+    -80.625
+   ],
+   "sis": {
+    "pob": 389300,
+    "eco": "$economy_Industrial;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Cooperative;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": null,
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": []
+   },
+   "hinf": [
+    [
+     1795223425,
+     15.92
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "4db76290",
+    "igual": 1795223425
+   },
+   "cseg": {},
+   "trafico": {
+    "2026-11-21": 1
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795222341.531503,
-  "msgs": 1425471,
-  "mios": 141
+  "ultimo": 1795223430.612014,
+  "msgs": 1435378,
+  "mios": 142
  },
- "t": 1795222677.905362,
+ "t": 1795223760.4322164,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24023,7 +24122,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795217046
+   "t": 1795223549
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -24491,7 +24590,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795221441
+   "t": 1795223170
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -25999,7 +26098,7 @@
    "nfac": 4,
    "pob": 1594558,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795220095
+   "t": 1795223698
   },
   "Loki Tan": {
    "pos": [
@@ -26205,9 +26304,9 @@
    "ly": 12.7,
    "junto": "Hyades Sector CB-W c2-3",
    "nfac": 3,
-   "pob": 1476149,
+   "pob": 1481251,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794958063
+   "t": 1795223270
   },
   "Caill Reddi": {
    "pos": [
@@ -26231,9 +26330,9 @@
    "ly": 19.6,
    "junto": "Hyades Sector CB-W c2-3",
    "nfac": 3,
-   "pob": 48866273,
+   "pob": 48893674,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1794982346
+   "t": 1795223395
   },
   "Col 285 Sector YL-J b10-1": {
    "pos": [
@@ -29807,7 +29906,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795114841
+   "t": 1795223438
   },
   "Zephyrus": {
    "pos": [
@@ -29824,7 +29923,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795221441
+   "t": 1795223170
   },
   "Nergal": {
    "pos": [
@@ -30095,7 +30194,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.256414,
+   "prog": 0.25653,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -30103,7 +30202,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795217046
+   "t": 1795223549
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -32949,7 +33048,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795220095
+   "t": 1795223698
   },
   "Yin Sector YU-Y b4": {
    "pos": [
@@ -35981,6 +36080,65 @@
     "Jerome Archer"
    ],
    "t": 1795222588
+  },
+  "Col 285 Sector YJ-N b8-1": {
+   "pos": [
+    66,
+    65.71875,
+    -178.34375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.136923,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1795223270
+  },
+  "Col 285 Sector YJ-N b8-2": {
+   "pos": [
+    70.40625,
+    64.8125,
+    -185
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.163385,
+   "pots": [
+    "Edmund Mahon"
+   ],
+   "t": 1795223395
+  },
+  "Buriges": {
+   "pos": [
+    110.34375,
+    -118.375,
+    -26.03125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.300024,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795223417
+  },
+  "Didarengu": {
+   "pos": [
+    27.375,
+    18.1875,
+    -89.46875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Fortified",
+   "prog": 0.259312,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795223507
   }
  },
  "rivales": {

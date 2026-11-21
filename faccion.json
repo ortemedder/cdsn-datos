@@ -9839,23 +9839,23 @@
   },
   "LHS 5116": {
    "sys": "LHS 5116",
-   "t": 1795131785,
+   "t": 1795256241,
    "src": "EDDN",
    "inf": 8.57,
    "ctrl": false,
-   "estado": "None",
+   "estado": "War",
    "activos": [],
    "pendientes": [
     "Expansion"
    ],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 63.05,
+   "segunda_inf": 63.15,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 63.05,
+     "inf": 63.15,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -9866,7 +9866,7 @@
     },
     {
      "n": "BD+34 1378 Universal & Co",
-     "inf": 15.14,
+     "inf": 15.04,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -9938,8 +9938,8 @@
    "pp": {
     "pot": "Aisling Duval",
     "est": "Exploited",
-    "prog": 0.243998,
-    "ref": 0,
+    "prog": 0.244121,
+    "ref": 43,
     "soc": 0,
     "pots": [
      "Aisling Duval",
@@ -9952,56 +9952,37 @@
     "2026-04-11": 1,
     "2026-11-09": 1,
     "2026-11-14": 2,
-    "2026-11-19": 3
+    "2026-11-19": 3,
+    "2026-11-21": 1
    },
    "pn": {
     "BZB-26Z": {
      "n": "OZZY OSBOURNE",
-     "t": 1795132020,
+     "t": 1795256436,
      "d": 1795132020
     }
    },
    "tk": {
-    "firma": "b2b74a87",
-    "igual": 1795131785,
-    "ult": 1795131785,
-    "desde": 1794663733,
+    "firma": "acb2e043",
+    "igual": 1795256241,
+    "ult": 1795256241,
+    "desde": 1795131785,
     "est": null
    },
    "saltos": {
-    "1795129200": 2
+    "1795129200": 2,
+    "1795255200": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-19": 2,
     "2026-11-21": 1
    },
-   "prev": null,
-   "prev_t": null,
-   "hinf": [
-    [
-     1794237767,
-     8.57
-    ]
-   ],
-   "rach": {
-    "THE AZGHARIE": 1,
-    "BD+34 1378 Universal & Co": 1,
-    "Caballeros de Sion": 0,
-    "LHS 5116 Nationalists": 0,
-    "LHS 5116 Industry": 0,
-    "Drug Empire of LHS 5116": 0,
-    "Regulatory State of LHS 5116": 0
-   },
-   "rivales": [],
-   "tick_ult": 1795131785,
-   "tick_marg": 3900,
-   "cseg": {},
    "estaciones": {
     "Britnev Dock": {
      "f": "THE AZGHARIE",
      "tipo": "Orbis",
-     "t": 1795132144,
+     "t": 1795256519,
      "estado": "",
      "ls": 202632,
      "pads": {
@@ -10011,71 +9992,71 @@
      },
      "mid": 3228018688,
      "mer": {
-      "t": 1795132155,
+      "t": 1795256525,
       "n": 129,
       "vende": [
        {
-        "n": "Monazite",
+        "n": "monazite",
         "p": 435386,
         "d": 384
        },
        {
-        "n": "Iridium",
+        "n": "iridium",
         "p": 279330,
         "d": 42166
        },
        {
-        "n": "PericlaseDunite",
+        "n": "periclasedunite",
         "p": 279330,
         "d": 6291
        },
        {
-        "n": "Thortveitite",
+        "n": "thortveitite",
         "p": 279330,
         "d": 6291
        },
        {
-        "n": "Alexandrite",
+        "n": "alexandrite",
         "p": 240694,
         "d": 990
        }
       ],
       "alta": [
        {
-        "n": "Lepidolite",
+        "n": "lepidolite",
         "p": 5944,
         "m": 741
        },
        {
-        "n": "CeramicComposites",
+        "n": "ceramiccomposites",
         "p": 1930,
         "m": 402
        },
        {
-        "n": "Bauxite",
+        "n": "bauxite",
         "p": 4771,
         "m": 1096
        },
        {
-        "n": "SyntheticFabrics",
+        "n": "syntheticfabrics",
         "p": 1409,
         "m": 354
        },
        {
-        "n": "Polymers",
+        "n": "polymers",
         "p": 1212,
         "m": 306
        }
       ],
       "barato": [
        {
-        "n": "Biowaste",
+        "n": "biowaste",
         "p": 104,
         "m": 271,
         "s": 15495
        },
        {
-        "n": "FoodCartridges",
+        "n": "foodcartridges",
         "p": 122,
         "m": 252,
         "s": 411016
@@ -10083,7 +10064,7 @@
       ]
      },
      "mods": 721,
-     "mods_t": 1795132152,
+     "mods_t": 1795256525,
      "naves": [
       "anaconda",
       "asp",
@@ -10104,9 +10085,43 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795132152
+     "naves_t": 1795256525,
+     "atq": {
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794237767,
+     8.57
+    ]
+   ],
+   "rach": {
+    "THE AZGHARIE": 2,
+    "BD+34 1378 Universal & Co": 0,
+    "Caballeros de Sion": 0,
+    "LHS 5116 Nationalists": 0,
+    "LHS 5116 Industry": 0,
+    "Drug Empire of LHS 5116": 0,
+    "Regulatory State of LHS 5116": 0
+   },
+   "rivales": [
+    {
+     "n": "THE AZGHARIE",
+     "racha": 2,
+     "inf": 63.15,
+     "dif": 54.58
+    }
+   ],
+   "tick_ult": 1795256241,
+   "tick_marg": 1037,
+   "cseg": {}
   },
   "Ceti Sector CL-X b1-1": {
    "sys": "Ceti Sector CL-X b1-1",
@@ -12624,7 +12639,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795255387,
+   "t": 1795256547,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12711,11 +12726,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 9
+    "2026-11-21": 12
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795255387
+    "igual": 1795256547
    },
    "saltos": {
     "1794902400": 2,
@@ -12742,7 +12757,7 @@
     "1795208400": 1,
     "1795212000": 1,
     "1795248000": 2,
-    "1795255200": 1
+    "1795255200": 2
    },
    "rutas": {
     "2026-11-17": 20,
@@ -13061,12 +13076,12 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795255731,
+     "t": 1795257205,
      "estado": "",
-     "ls": 701,
+     "ls": 702,
      "mid": 4404361731,
      "mer": {
-      "t": 1795255739,
+      "t": 1795257212,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -13086,7 +13101,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      },
@@ -19813,7 +19828,7 @@
   },
   "Yin Sector XJ-A c21": {
    "sys": "Yin Sector XJ-A c21",
-   "t": 1795118481,
+   "t": 1795256654,
    "src": "EDDN",
    "inf": 13.84,
    "ctrl": false,
@@ -19868,7 +19883,7 @@
     -92.75
    ],
    "sis": {
-    "pob": 57753403,
+    "pob": 57908556,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -19893,11 +19908,12 @@
     "2026-10-30": 1,
     "2026-11-17": 2,
     "2026-11-18": 2,
-    "2026-11-19": 5
+    "2026-11-19": 5,
+    "2026-11-21": 1
    },
    "tk": {
     "firma": "348d19a1",
-    "igual": 1795118481,
+    "igual": 1795256654,
     "ult": 1794926867,
     "desde": 1759845602,
     "est": null
@@ -19908,13 +19924,14 @@
     "1795032000": 1,
     "1795082400": 1,
     "1795114800": 1,
-    "1795118400": 1
+    "1795118400": 1,
+    "1795255200": 1
    },
    "rutas": {
     "2026-11-17": 1,
     "2026-11-18": 1,
     "2026-11-19": 3,
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "estaciones": {
     "X Terminal": {
@@ -24300,11 +24317,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795256062.5070755,
-  "msgs": 1769305,
-  "mios": 152
+  "ultimo": 1795256655.4224613,
+  "msgs": 1779327,
+  "mios": 155
  },
- "t": 1795256326.8002486,
+ "t": 1795257269.08105,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24526,7 +24543,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795256246
+   "t": 1795256981
   },
   "LHS 1499": {
    "pos": [
@@ -25007,7 +25024,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795249395
+   "t": 1795256612
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -25059,7 +25076,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795233174
+   "t": 1795256719
   },
   "LTT 740": {
    "pos": [
@@ -29765,7 +29782,7 @@
    "nfac": 6,
    "pob": 206724,
    "ctrl_n": "Leaders of Apinayimas",
-   "t": 1795255299
+   "t": 1795256578
   },
   "Amijara": {
    "pos": [
@@ -30598,7 +30615,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795118481
+   "t": 1795256654
   },
   "Hyades Sector HC-U c3-21": {
    "pos": [
@@ -30837,7 +30854,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795250323
+   "t": 1795257019
   },
   "LP 157-32": {
    "pos": [
@@ -31400,13 +31417,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.048797,
+   "prog": 0.0491,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795249395
+   "t": 1795256612
   },
   "Mandu": {
    "pos": [
@@ -31528,7 +31545,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.374379,
+   "prog": 0.374787,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -31536,7 +31553,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795233174
+   "t": 1795256719
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -31715,7 +31732,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795256246
+   "t": 1795256981
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -31871,14 +31888,14 @@
    ],
    "pot": "Aisling Duval",
    "est": "Exploited",
-   "prog": 0.243998,
+   "prog": 0.244121,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795131785
+   "t": 1795256241
   },
   "Kolaga": {
    "pos": [
@@ -35814,7 +35831,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795256180
+   "t": 1795257258
   },
   "Njungum": {
    "pos": [
@@ -37293,7 +37310,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795256107
+   "t": 1795257209
   },
   "HR 2776": {
    "pos": [
@@ -37303,13 +37320,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.254943,
+   "prog": 0.255285,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795255299
+   "t": 1795256578
   },
   "HIP 37170": {
    "pos": [
@@ -37325,7 +37342,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795255372
+   "t": 1795256630
   },
   "Lalande 15290": {
    "pos": [

@@ -4,43 +4,23 @@
  "sistemas": {
   "Pirawoth": {
    "sys": "Pirawoth",
-   "t": 1794662223,
+   "t": 1795262577,
    "src": "EDDN",
-   "inf": 70.2,
+   "inf": 69.79,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Beasts of Bestia",
-   "segunda_inf": 10.0,
+   "segunda_inf": 10.87,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 70.2,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Beasts of Bestia",
-     "inf": 10.0,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "THE AZGHARIE",
-     "inf": 8.2,
+     "inf": 69.79,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -50,8 +30,30 @@
      "jug": null
     },
     {
+     "n": "Beasts of Bestia",
+     "inf": 10.87,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "THE AZGHARIE",
+     "inf": 7.88,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "Pirawoth Republic Party",
-     "inf": 5.6,
+     "inf": 5.28,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -60,7 +62,7 @@
     },
     {
      "n": "Pirawoth Nobles",
-     "inf": 3.5,
+     "inf": 3.69,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -103,8 +105,8 @@
    "pp": {
     "pot": "Edmund Mahon",
     "est": "Exploited",
-    "prog": 0.031997,
-    "ref": 0,
+    "prog": 0.037249,
+    "ref": 238,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -115,16 +117,31 @@
    },
    "trafico": {
     "2026-11-10": 5,
-    "2026-11-14": 1
+    "2026-11-14": 1,
+    "2026-11-21": 2
    },
    "pn": {
     "JZF-T7W": {
      "n": "(LSC)odysseum-prospect",
-     "t": 1794662392
+     "t": 1795262584,
+     "d": 1795262584
     }
    },
-   "prev": 68.2,
-   "prev_t": 1794588039,
+   "tk": {
+    "firma": "c8c8afe2",
+    "igual": 1795262577,
+    "ult": 1795262577,
+    "desde": 1794662223,
+    "est": null
+   },
+   "saltos": {
+    "1795262400": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
+   },
+   "prev": 70.2,
+   "prev_t": 1794662223,
    "hinf": [
     [
      1794135035,
@@ -141,12 +158,25 @@
     [
      1794662223,
      70.2
+    ],
+    [
+     1795262577,
+     69.79
     ]
    ],
-   "tk": {
-    "firma": "32e20d9a",
-    "igual": 1794662223
-   }
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Beasts of Bestia": 1,
+    "THE AZGHARIE": 0,
+    "Pirawoth Republic Party": 0,
+    "Pirawoth Nobles": 1,
+    "Pirawoth Purple Advanced Group": 0,
+    "Pirawoth Purple Boys": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795262577,
+   "tick_marg": 5002,
+   "cseg": {}
   },
   "Tascheter Sector CG-X b1-2": {
    "sys": "Tascheter Sector CG-X b1-2",
@@ -5976,7 +6006,7 @@
     "2026-11-18": 39,
     "2026-11-19": 11,
     "2026-11-20": 11,
-    "2026-11-21": 7
+    "2026-11-21": 8
    },
    "zc": [
     {
@@ -8980,52 +9010,56 @@
   },
   "Wathiparian": {
    "sys": "Wathiparian",
-   "t": 1794174644,
+   "t": 1795262512,
    "src": "EDDN",
-   "inf": 41.87,
+   "inf": 40.85,
    "ctrl": true,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
-   "segunda": "Wathiparian Power Corp.",
-   "segunda_inf": 18.82,
+   "segunda": "Wathiparian Crimson Major Group",
+   "segunda_inf": 18.11,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 41.87,
+     "inf": 40.85,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Wathiparian Crimson Major Group",
+     "inf": 18.11,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [
+      "Election"
      ],
      "pend": [],
      "jug": null
     },
     {
      "n": "Wathiparian Power Corp.",
-     "inf": 18.82,
+     "inf": 18.11,
      "gov": "Corporate",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Election"
+     ],
      "pend": [],
      "jug": null
     },
     {
-     "n": "Wathiparian Crimson Major Group",
-     "inf": 14.98,
-     "gov": "Corporate",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Wathiparian Defence Party",
-     "inf": 9.75,
+     "n": "Wathiparian Dominion",
+     "inf": 9.25,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -9033,8 +9067,8 @@
      "jug": null
     },
     {
-     "n": "Wathiparian Dominion",
-     "inf": 9.46,
+     "n": "Wathiparian Defence Party",
+     "inf": 8.66,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -9043,7 +9077,7 @@
     },
     {
      "n": "New Wathiparian Progressive Party",
-     "inf": 5.12,
+     "inf": 5.02,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -9068,7 +9102,7 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Fortified",
-    "prog": 0.122769,
+    "prog": 0.123077,
     "ref": 0,
     "soc": 0,
     "pots": [
@@ -9078,6 +9112,59 @@
      "Zemina Torval",
      "Jerome Archer"
     ]
+   },
+   "trafico": {
+    "2026-11-21": 2
+   },
+   "pn": {
+    "VNX-85Y": {
+     "n": "USSR 64IAK PEPELYAEV",
+     "t": 1795262632,
+     "d": 1795262512
+    },
+    "Q8G-2QJ": {
+     "n": "*CDSN* SALOMON",
+     "t": 1795262632,
+     "d": 1795262512
+    }
+   },
+   "saltos": {
+    "1795262400": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
+   },
+   "prev": 41.87,
+   "prev_t": 1794174644,
+   "hinf": [
+    [
+     1794174644,
+     41.87
+    ],
+    [
+     1795262512,
+     40.85
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Wathiparian Crimson Major Group": 1,
+    "Wathiparian Power Corp.": 0,
+    "Wathiparian Dominion": 0,
+    "Wathiparian Defence Party": 0,
+    "New Wathiparian Progressive Party": 0
+   },
+   "rivales": [],
+   "tk": {
+    "firma": "6401eeea",
+    "igual": 1795262512
+   },
+   "cseg": {},
+   "sube_cuando_baja": {
+    "n": "Wathiparian Crimson Major Group",
+    "d": 3.13,
+    "baja": 1.02,
+    "t": 1795262512
    }
   },
   "Col 285 Sector YZ-U b17-3": {
@@ -24742,11 +24829,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795260957.2179532,
-  "msgs": 1837874,
-  "mios": 168
+  "ultimo": 1795262579.3875716,
+  "msgs": 1849886,
+  "mios": 170
  },
- "t": 1795261781.2586832,
+ "t": 1795262643.569818,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25462,7 +25549,7 @@
    "nfac": 4,
    "pob": 157985716,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795250335
+   "t": 1795262279
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -28855,7 +28942,7 @@
    "nfac": 1,
    "pob": 274586494,
    "ctrl_n": "Civitas Dei",
-   "t": 1795260061
+   "t": 1795262494
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -30246,7 +30333,7 @@
    "nfac": 3,
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
-   "t": 1795261664
+   "t": 1795262472
   }
  },
  "codice": [
@@ -30944,13 +31031,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.493829,
+   "prog": 0.496323,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795250335
+   "t": 1795262279
   },
   "Wolf 186": {
    "pos": [
@@ -31891,7 +31978,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795129037
+   "t": 1795109848
   },
   "Prajau": {
    "pos": [
@@ -37810,7 +37897,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795260061
+   "t": 1795262494
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -37958,7 +38045,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795261664
+   "t": 1795262472
   },
   "Lati": {
    "pos": [
@@ -38041,7 +38128,59 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795261615
+   "t": 1795262427
+  },
+  "Thiin": {
+   "pos": [
+    8.75,
+    18.84375,
+    -71.75
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Fortified",
+   "prog": 0.143077,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795262320
+  },
+  "Wathiparian": {
+   "pos": [
+    -22.46875,
+    13.78125,
+    -93.34375
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.123077,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795262512
+  },
+  "Pirawoth": {
+   "pos": [
+    -19.375,
+    -0.03125,
+    -95.1875
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.037249,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795262577
   }
  },
  "rivales": {
@@ -38089,6 +38228,15 @@
    "motivo": "conflicto, sube cuando bajamos",
    "ini": 1795200008,
    "ult": 1795200008
+  },
+  "Wathiparian Crimson Major Group": {
+   "veces": 1,
+   "sis": [
+    "Wathiparian"
+   ],
+   "motivo": "sube cuando bajamos",
+   "ini": 1795262512,
+   "ult": 1795262512
   }
  }
 }

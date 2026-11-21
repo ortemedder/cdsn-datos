@@ -6102,7 +6102,7 @@
     "2026-11-18": 10,
     "2026-11-19": 5,
     "2026-11-20": 6,
-    "2026-11-21": 5
+    "2026-11-21": 6
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -20391,7 +20391,7 @@
   },
   "Hyades Sector RZ-N b7-0": {
    "sys": "Hyades Sector RZ-N b7-0",
-   "t": 1794883065,
+   "t": 1795194182,
    "src": "EDSM",
    "inf": 0,
    "ctrl": false,
@@ -20400,23 +20400,21 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 76.23,
+   "segunda_inf": 75.83,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 76.23,
+     "inf": 75.83,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": true
     },
     {
      "n": "Bundhar Group",
-     "inf": 17.22,
+     "inf": 17.62,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -20428,9 +20426,7 @@
      "inf": 6.55,
      "gov": "Cooperative",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": true
     }
@@ -20666,8 +20662,8 @@
     ]
    ],
    "rach": {
-    "Sirius Special Forces": 1,
-    "Bundhar Group": 0,
+    "Sirius Special Forces": 0,
+    "Bundhar Group": 1,
     "Astrobiology Research Cooperative": 0
    },
    "rivales": [],
@@ -20675,7 +20671,8 @@
    "tick_marg": 510,
    "tick_prox": 1760154150,
    "tick_disp": 510,
-   "tick_n": 0
+   "tick_n": 0,
+   "cseg": {}
   },
   "Torenai": {
    "sys": "Torenai",
@@ -24965,10 +24962,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795267177.0798297,
-  "msgs": 1915292,
+  "msgs": 1928819,
   "mios": 173
  },
- "t": 1795267202.9660113,
+ "t": 1795268044.718639,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25877,9 +25874,9 @@
    "ly": 11.4,
    "junto": "Jangore",
    "nfac": 6,
-   "pob": 2198904,
+   "pob": 2198957,
    "ctrl_n": "The Fatherhood",
-   "t": 1795168077
+   "t": 1795267959
   },
   "Arietis Sector JS-S b4-5": {
    "pos": [
@@ -29181,7 +29178,7 @@
    "nfac": 5,
    "pob": 18578114,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795108036
+   "t": 1795267613
   },
   "Yin Sector ZZ-Y b0": {
    "pos": [
@@ -29478,9 +29475,9 @@
    "ly": 9.3,
    "junto": "BD+40 1697",
    "nfac": 6,
-   "pob": 199938,
+   "pob": 199957,
    "ctrl_n": "Civitas Dei",
-   "t": 1795109958
+   "t": 1795267959
   },
   "Ceti Sector KX-T b3-4": {
    "pos": [
@@ -30939,14 +30936,14 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.260083,
+   "prog": 0.261758,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795114501
+   "t": 1795267711
   },
   "LFT 361": {
    "pos": [
@@ -32185,7 +32182,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795109958
+   "t": 1795267959
   },
   "Ceti Sector KX-T b3-4": {
    "pos": [
@@ -34215,7 +34212,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795168077
+   "t": 1795267959
   },
   "Lorden": {
    "pos": [
@@ -35039,7 +35036,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795259576
+   "t": 1795268035
   },
   "Galibi": {
    "pos": [
@@ -37893,7 +37890,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795249689
+   "t": 1795267447
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -38006,7 +38003,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795267195
+   "t": 1795268031
   },
   "Lese": {
    "pos": [
@@ -38500,6 +38497,23 @@
     "Jerome Archer"
    ],
    "t": 1795267175
+  },
+  "Uoluskas": {
+   "pos": [
+    27.375,
+    15.53125,
+    -94.28125
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.279069,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795267613
   }
  },
  "rivales": {

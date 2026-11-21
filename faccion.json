@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 71
+    "2026-11-21": 75
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795229671,
+     "t": 1795230440,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795229712,
+      "t": 1795230490,
       "n": 366,
       "vende": [
        {
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 22,
+       "ok": 24,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795229677,
+     "naves_t": 1795230446,
      "neg": {
       "Distance": 5
      },
      "mods": 886,
-     "mods_t": 1795229677
+     "mods_t": 1795230446
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8018,7 +8018,7 @@
     "Orbital Construction Site: Siodmak Landing": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795230015,
+     "t": 1795231028,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -8028,15 +8028,15 @@
      },
      "mid": 3953879298,
      "mer": {
-      "t": 1795230021,
-      "n": 1,
+      "t": 1795231034,
+      "n": 3,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 4,
+       "ok": 6,
        "no": 0
       }
      }
@@ -24139,10 +24139,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1511425,
+  "msgs": 1520626,
   "mios": 142
  },
- "t": 1795230027.022732,
+ "t": 1795231039.209251,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -27469,9 +27469,9 @@
    "ly": 18.5,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 61849412,
+   "pob": 61854201,
    "ctrl_n": "The Roughnecks",
-   "t": 1795028436
+   "t": 1795231035
   },
   "Hyades Sector IC-U c3-8": {
    "pos": [
@@ -29031,7 +29031,7 @@
    "nfac": 3,
    "pob": 2133082,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795183272
+   "t": 1795230152
   },
   "Mbeguenchu": {
    "pos": [
@@ -29083,7 +29083,7 @@
    "nfac": 3,
    "pob": 522709515,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795188419
+   "t": 1795230782
   },
   "Lyncis Sector SD-T b3-5": {
    "pos": [
@@ -29448,6 +29448,19 @@
    "pob": 53494,
    "ctrl_n": "EXO",
    "t": 1795226525
+  },
+  "BD+30 1423": {
+   "pos": [
+    9.28125,
+    21.25,
+    -68.8125
+   ],
+   "ly": 19.5,
+   "junto": "LP 254-40",
+   "nfac": 4,
+   "pob": 313841,
+   "ctrl_n": "Civitas Dei",
+   "t": 1795230827
   }
  },
  "codice": [
@@ -33743,7 +33756,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795183272
+   "t": 1795230152
   },
   "Apadecavi": {
    "pos": [
@@ -34076,7 +34089,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795188419
+   "t": 1795230782
   },
   "Hyades Sector SJ-P b6-4": {
    "pos": [
@@ -36424,6 +36437,38 @@
     "Zemina Torval"
    ],
    "t": 1795229684
+  },
+  "Tascheter Sector XE-Q a5-2": {
+   "pos": [
+    15.28125,
+    -25.90625,
+    -52.96875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.275404,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795231035
+  },
+  "BD+30 1423": {
+   "pos": [
+    9.28125,
+    21.25,
+    -68.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795230827
   }
  },
  "rivales": {

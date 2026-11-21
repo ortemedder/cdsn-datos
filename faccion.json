@@ -6857,7 +6857,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 9
+    "2026-11-21": 18
    },
    "pn": {
     "H5L-70M": {
@@ -6956,97 +6956,97 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795219754,
+     "t": 1795221612,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795219840,
+      "t": 1795221619,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 681400,
+        "p": 674630,
         "d": 47836
        },
        {
         "n": "serendibite",
-        "p": 560208,
+        "p": 554554,
         "d": 47836
        },
        {
         "n": "benitoite",
-        "p": 556120,
+        "p": 550333,
         "d": 47836
        },
        {
         "n": "grandidierite",
-        "p": 549473,
-        "d": 47536
+        "p": 543925,
+        "d": 47537
        },
        {
         "n": "opal",
-        "p": 541409,
-        "d": 19290
+        "p": 535484,
+        "d": 19676
        }
       ],
       "alta": [
        {
-        "n": "animalmonitors",
-        "p": 2833,
-        "m": 522
-       },
-       {
-        "n": "osmium",
-        "p": 231971,
-        "m": 44051
-       },
-       {
         "n": "militarygradefabrics",
-        "p": 4698,
+        "p": 4745,
         "m": 899
        },
        {
+        "n": "osmium",
+        "p": 230541,
+        "m": 44051
+       },
+       {
         "n": "platinum",
-        "p": 279347,
+        "p": 278468,
         "m": 55505
        },
        {
         "n": "painite",
-        "p": 207922,
+        "p": 205992,
         "m": 48333
+       },
+       {
+        "n": "bauxite",
+        "p": 4598,
+        "m": 1096
        }
       ],
       "barato": [
        {
         "n": "biowaste",
-        "p": 30,
+        "p": 31,
         "m": 271,
-        "s": 660302
+        "s": 665651
        },
        {
         "n": "polymers",
-        "p": 47,
+        "p": 48,
         "m": 306,
         "s": 3917266
        },
        {
-        "n": "algae",
-        "p": 65,
-        "m": 308,
-        "s": 217560
-       },
-       {
         "n": "syntheticfabrics",
-        "p": 76,
+        "p": 79,
         "m": 354,
         "s": 26384952
        },
        {
-        "n": "water",
-        "p": 68,
-        "m": 260,
-        "s": 2090016
+        "n": "explosives",
+        "p": 171,
+        "m": 483,
+        "s": 946187
+       },
+       {
+        "n": "evacuationshelter",
+        "p": 183,
+        "m": 500,
+        "s": 6779
        }
       ]
      },
@@ -7064,7 +7064,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      },
@@ -7118,12 +7118,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795219761,
+     "naves_t": 1795221619,
      "neg": {
       "Distance": 5
      },
-     "mods": 867,
-     "mods_t": 1795219761
+     "mods": 872,
+     "mods_t": 1795221619
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7976,6 +7976,32 @@
        "ok": 8,
        "no": 2
       },
+      "2026-11-21": {
+       "ok": 2,
+       "no": 0
+      }
+     }
+    },
+    "Orbital Construction Site: Lefschetz's Pride": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795221907,
+     "estado": "",
+     "ls": 1986,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3953770498,
+     "mer": {
+      "t": 1795221913,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     },
+     "atq": {
       "2026-11-21": {
        "ok": 2,
        "no": 0
@@ -15034,25 +15060,34 @@
   },
   "Hyades Sector SU-N b7-4": {
    "sys": "Hyades Sector SU-N b7-4",
-   "t": 1794410806,
+   "t": 1795221973,
    "src": "EDDN",
-   "inf": 28.56,
+   "inf": 28.85,
    "ctrl": false,
-   "estado": "Expansion",
-   "activos": [
+   "estado": "None",
+   "activos": [],
+   "pendientes": [
     "Expansion"
    ],
-   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
-   "segunda_inf": 46.05,
+   "segunda_inf": 45.85,
    "conflictos": [],
    "todas": [
     {
      "n": "Sirius Special Forces",
-     "inf": 46.05,
+     "inf": 45.85,
      "gov": "Corporate",
      "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 28.85,
+     "gov": "Democracy",
+     "alg": "Independent",
      "act": [],
      "pend": [
       "Expansion"
@@ -15060,19 +15095,8 @@
      "jug": null
     },
     {
-     "n": "Caballeros de Sion",
-     "inf": 28.56,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
-     "pend": [],
-     "jug": null
-    },
-    {
      "n": "League of Apadecavi Order",
-     "inf": 16.4,
+     "inf": 16.3,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -15096,7 +15120,7 @@
     -122.0625
    ],
    "sis": {
-    "pob": 1626174,
+    "pob": 1627388,
     "eco": "$economy_Military;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -15114,7 +15138,40 @@
      "Li Yong-Rui",
      "Jerome Archer"
     ]
-   }
+   },
+   "trafico": {
+    "2026-11-21": 1
+   },
+   "saltos": {
+    "1795219200": 1
+   },
+   "rutas": {
+    "2026-11-21": 2
+   },
+   "prev": 28.56,
+   "prev_t": 1794410806,
+   "hinf": [
+    [
+     1794410806,
+     28.56
+    ],
+    [
+     1795221973,
+     28.85
+    ]
+   ],
+   "rach": {
+    "Sirius Special Forces": 0,
+    "Caballeros de Sion": 1,
+    "League of Apadecavi Order": 0,
+    "Apadecavi Crew": 0
+   },
+   "rivales": [],
+   "tk": {
+    "firma": "a89915bd",
+    "igual": 1795221973
+   },
+   "cseg": {}
   },
   "Ariminimi": {
    "sys": "Ariminimi",
@@ -23945,11 +24002,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795218368.417422,
-  "msgs": 1403407,
-  "mios": 139
+  "ultimo": 1795221980.2590969,
+  "msgs": 1414745,
+  "mios": 140
  },
- "t": 1795220913.973264,
+ "t": 1795221986.141652,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24431,7 +24488,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795220047
+   "t": 1795221441
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -29764,7 +29821,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795220047
+   "t": 1795221441
   },
   "Nergal": {
    "pos": [
@@ -31698,7 +31755,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795220326
+   "t": 1795221937
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -35760,7 +35817,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795220128
+   "t": 1795221572
   },
   "LTT 11503": {
    "pos": [
@@ -35888,6 +35945,22 @@
     "Jerome Archer"
    ],
    "t": 1795196103
+  },
+  "Hyades Sector SU-N b7-4": {
+   "pos": [
+    -19.15625,
+    4.21875,
+    -122.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795221973
   }
  },
  "rivales": {

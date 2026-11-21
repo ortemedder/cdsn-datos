@@ -4659,16 +4659,16 @@
   },
   "LP 254-40": {
    "sys": "LP 254-40",
-   "t": 1794778976,
+   "t": 1795302316,
    "src": "EDDN",
    "inf": 11.3,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
+   "recuperando": [],
    "segunda": "LP 254-40 Co",
    "segunda_inf": 63.13,
    "conflictos": [],
@@ -4687,7 +4687,9 @@
      "inf": 11.3,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -4754,9 +4756,9 @@
    "pp": {
     "pot": "Edmund Mahon",
     "est": "Exploited",
-    "prog": 0.273309,
+    "prog": 0.271738,
     "ref": 0,
-    "soc": 741,
+    "soc": 691,
     "pots": [
      "Aisling Duval",
      "Edmund Mahon",
@@ -4766,7 +4768,18 @@
    },
    "trafico": {
     "2026-11-11": 1,
-    "2026-11-15": 2
+    "2026-11-15": 2,
+    "2026-11-21": 1
+   },
+   "tk": {
+    "firma": "372304bb",
+    "igual": 1795302316
+   },
+   "saltos": {
+    "1795302000": 1
+   },
+   "rutas": {
+    "2026-11-21": 1
    },
    "prev": null,
    "prev_t": null,
@@ -4776,10 +4789,9 @@
      11.3
     ]
    ],
-   "tk": {
-    "firma": "372304bb",
-    "igual": 1794778976
-   }
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
@@ -6271,7 +6283,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795301261,
+   "t": 1795302083,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -6392,24 +6404,24 @@
     "2026-11-18": 39,
     "2026-11-19": 11,
     "2026-11-20": 11,
-    "2026-11-21": 27
+    "2026-11-21": 31
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795301261
+     "t": 1795302083
     },
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795301261
+     "t": 1795302083
     }
    ],
    "pn": {
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795301261,
+     "t": 1795302083,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6419,18 +6431,18 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795301261,
+     "t": 1795302083,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795301261,
+     "t": 1795302083,
      "d": 1795166553
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795301261,
+    "igual": 1795302083,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -6603,7 +6615,7 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795299249,
+     "t": 1795302083,
      "estado": "",
      "ls": 3133,
      "pads": {
@@ -6620,7 +6632,7 @@
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795299256,
+     "mods_t": 1795302089,
      "neg": {
       "NoSpace": 21
      },
@@ -6642,7 +6654,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 5,
+       "ok": 6,
        "no": 1
       }
      }
@@ -7244,7 +7256,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795300440,
+   "t": 1795302320,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
@@ -7327,12 +7339,12 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 186
+    "2026-11-21": 191
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795300613,
+     "t": 1795302320,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -7373,7 +7385,7 @@
    },
    "tk": {
     "firma": "bfb4efd8",
-    "igual": 1795300440,
+    "igual": 1795302320,
     "ult": 1795276409,
     "desde": 1795213428,
     "est": null,
@@ -7422,13 +7434,14 @@
     "1795212000": 2,
     "1795284000": 1,
     "1795287600": 1,
-    "1795298400": 2
+    "1795298400": 3,
+    "1795302000": 1
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
     "2026-11-20": 5,
-    "2026-11-21": 3
+    "2026-11-21": 5
    },
    "estaciones": {
     "Vanaheim": {
@@ -8042,7 +8055,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795292976,
+     "t": 1795301881,
      "estado": "",
      "ls": 2656,
      "pads": {
@@ -8052,97 +8065,97 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795292983,
-      "n": 366,
+      "t": 1795301888,
+      "n": 160,
       "vende": [
        {
         "n": "monazite",
-        "p": 709937,
+        "p": 687814,
         "d": 72
        },
        {
         "n": "musgravite",
-        "p": 514890,
+        "p": 489837,
         "d": 72
        },
        {
         "n": "iridium",
-        "p": 492613,
+        "p": 449565,
         "d": 23700
        },
        {
-        "n": "thortveitite",
-        "p": 492613,
+        "n": "periclasedunite",
+        "p": 449565,
         "d": 1129
        },
        {
-        "n": "periclasedunite",
-        "p": 492613,
+        "n": "thortveitite",
+        "p": 449565,
         "d": 1129
        }
       ],
       "alta": [
        {
         "n": "militarygradefabrics",
-        "p": 13366,
+        "p": 12813,
         "m": 899
        },
        {
         "n": "bauxite",
-        "p": 9422,
+        "p": 9074,
         "m": 1096
        },
        {
         "n": "animalmonitors",
-        "p": 4178,
+        "p": 3940,
         "m": 522
        },
        {
         "n": "conductivefabrics",
-        "p": 4673,
+        "p": 4440,
         "m": 666
        },
        {
         "n": "osmium",
-        "p": 235944,
+        "p": 218248,
         "m": 44051
        }
       ],
       "barato": [
        {
         "n": "foodcartridges",
-        "p": 72,
+        "p": 81,
         "m": 252,
-        "s": 693274
+        "s": 694095
        },
        {
         "n": "biowaste",
-        "p": 122,
+        "p": 111,
         "m": 271,
-        "s": 27149
+        "s": 32095
        },
        {
         "n": "scrap",
-        "p": 136,
+        "p": 148,
         "m": 276,
-        "s": 166648
+        "s": 167086
        },
        {
         "n": "basicmedicines",
-        "p": 304,
+        "p": 314,
         "m": 489,
-        "s": 69940
+        "s": 70597
        },
        {
         "n": "onionheadc",
-        "p": 2834,
+        "p": 2893,
         "m": 4286,
-        "s": 46872
+        "s": 49158
        }
       ]
      },
-     "mods": 932,
-     "mods_t": 1795292983,
+     "mods": 933,
+     "mods_t": 1795301888,
      "naves": [
       "adder",
       "anaconda",
@@ -8188,7 +8201,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795292983,
+     "naves_t": 1795301888,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -8199,7 +8212,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 13,
+       "ok": 14,
        "no": 0
       }
      }
@@ -8491,7 +8504,7 @@
     "Lordnelson's Inheritance": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795300659,
+     "t": 1795302153,
      "estado": "",
      "ls": 87195,
      "pads": {
@@ -8545,18 +8558,18 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795300666,
+     "naves_t": 1795302160,
      "mods": 930,
-     "mods_t": 1795300666,
+     "mods_t": 1795302160,
      "atq": {
       "2026-11-21": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
      "mer": {
-      "t": 1795300666,
-      "n": 160,
+      "t": 1795302183,
+      "n": 366,
       "vende": [
        {
         "n": "monazite",
@@ -23337,7 +23350,7 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1795300761,
+   "t": 1795302373,
    "src": "EDDN",
    "inf": 57.0,
    "ctrl": true,
@@ -23416,18 +23429,18 @@
     "2026-11-18": 4,
     "2026-11-19": 1,
     "2026-11-20": 4,
-    "2026-11-21": 13
+    "2026-11-21": 14
    },
    "pn": {
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1795300971,
+     "t": 1795302373,
      "d": 1795008025
     }
    },
    "tk": {
     "firma": "633c2542",
-    "igual": 1795300761,
+    "igual": 1795302373,
     "ult": 1795287296,
     "desde": 1795133056,
     "est": null
@@ -23438,12 +23451,13 @@
     "1795132800": 2,
     "1795284000": 1,
     "1795294800": 1,
-    "1795298400": 2
+    "1795298400": 2,
+    "1795302000": 2
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 2,
-    "2026-11-21": 2
+    "2026-11-21": 4
    },
    "estaciones": {
     "Lavoisier Settlement": {
@@ -26911,11 +26925,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795301263.6421044,
-  "msgs": 2620651,
-  "mios": 261
+  "ultimo": 1795302374.1269608,
+  "msgs": 2639783,
+  "mios": 267
  },
- "t": 1795301336.429668,
+ "t": 1795302380.5715427,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27059,7 +27073,7 @@
    "nfac": 4,
    "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795293994
+   "t": 1795301665
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -27189,7 +27203,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795297077
+   "t": 1795300779
   },
   "LTT 10918": {
    "pos": [
@@ -29891,9 +29905,9 @@
    "ly": 11.2,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 49694642,
+   "pob": 49705515,
    "ctrl_n": "East India Company",
-   "t": 1795008995
+   "t": 1795290243
   },
   "Col 285 Sector RD-T a33-4": {
    "pos": [
@@ -31726,7 +31740,7 @@
    "nfac": 3,
    "pob": 2223380,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795280389
+   "t": 1795302159
   },
   "Bhumian Ku": {
    "pos": [
@@ -32415,7 +32429,7 @@
    "nfac": 3,
    "pob": 1625864,
    "ctrl_n": "CROSS Corp",
-   "t": 1795294398
+   "t": 1795301617
   },
   "Tascheter Sector DG-O a6-4": {
    "pos": [
@@ -33146,7 +33160,7 @@
    },
    "HIP 101655": {
     "ini": 1795298533,
-    "v": 12,
+    "v": 13,
     "m": 1.3,
     "dia": "hoy",
     "antes": 59.9,
@@ -33217,7 +33231,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795293994
+   "t": 1795301665
   },
   "Bakuari": {
    "pos": [
@@ -33300,7 +33314,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795297077
+   "t": 1795300779
   },
   "LP 302-22": {
    "pos": [
@@ -34322,7 +34336,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795301261
+   "t": 1795302083
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -36715,7 +36729,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795280389
+   "t": 1795302159
   },
   "HR 3277": {
    "pos": [
@@ -40213,7 +40227,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795294081
+   "t": 1795301955
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -40539,7 +40553,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795294398
+   "t": 1795301617
   },
   "Lati": {
    "pos": [
@@ -40622,7 +40636,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795262427
+   "t": 1795301571
   },
   "Thiin": {
    "pos": [
@@ -42191,6 +42205,57 @@
     "Jerome Archer"
    ],
    "t": 1795301319
+  },
+  "Tascheter Sector DG-O a6-1": {
+   "pos": [
+    22.28125,
+    -43.40625,
+    -36.1875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.123426,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795290243
+  },
+  "Khwar": {
+   "pos": [
+    -58.46875,
+    -11.9375,
+    -116.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795291251
+  },
+  "LP 254-40": {
+   "pos": [
+    1.5625,
+    23.9375,
+    -86.5625
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.271738,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795302316
   }
  },
  "rivales": {

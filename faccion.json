@@ -2084,7 +2084,7 @@
   },
   "Hyades Sector DB-X d1-112": {
    "sys": "Hyades Sector DB-X d1-112",
-   "t": 1795204528,
+   "t": 1795253794,
    "src": "EDDN",
    "inf": 12.28,
    "ctrl": false,
@@ -2160,7 +2160,7 @@
     -114.78125
    ],
    "sis": {
-    "pob": 61777850,
+    "pob": 61779460,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -2170,8 +2170,8 @@
    "pp": {
     "pot": "Li Yong-Rui",
     "est": "Stronghold",
-    "prog": 0.258897,
-    "ref": 3513,
+    "prog": 0.2589,
+    "ref": 3516,
     "soc": 1416,
     "pots": [
      "Aisling Duval",
@@ -2189,7 +2189,8 @@
     "2026-11-17": 16,
     "2026-11-18": 55,
     "2026-11-19": 29,
-    "2026-11-20": 46
+    "2026-11-20": 46,
+    "2026-11-21": 1
    },
    "zc": [
     {
@@ -2694,7 +2695,7 @@
    },
    "tk": {
     "firma": "7ff3f008",
-    "igual": 1795204528,
+    "igual": 1795253794,
     "ult": 1794886163,
     "desde": 1794844632,
     "est": null,
@@ -14370,16 +14371,16 @@
   },
   "Hyades Sector UP-N b7-6": {
    "sys": "Hyades Sector UP-N b7-6",
-   "t": 1794702685,
+   "t": 1795252773,
    "src": "EDDN",
    "inf": 44.97,
    "ctrl": true,
    "estado": "None",
    "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "pendientes": [
     "Expansion"
    ],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 25.72,
    "conflictos": [],
@@ -14390,7 +14391,9 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -14398,9 +14401,7 @@
      "inf": 25.72,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -14430,7 +14431,7 @@
     -110.9375
    ],
    "sis": {
-    "pob": 1356919,
+    "pob": 1374712,
     "eco": "$economy_Military;",
     "eco2": "$economy_None;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -14454,11 +14455,15 @@
    "trafico": {
     "2026-11-11": 1,
     "2026-11-14": 1,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-21": 1
    },
    "tk": {
     "firma": "6aeb24fc",
-    "igual": 1794702685
+    "igual": 1795252773
+   },
+   "saltos": {
+    "1795251600": 1
    },
    "prev": null,
    "prev_t": null,
@@ -14467,7 +14472,10 @@
      1794434560,
      44.97
     ]
-   ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Tascheter Sector CG-X b1-1": {
    "sys": "Tascheter Sector CG-X b1-1",
@@ -24248,11 +24256,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795250976.5516686,
-  "msgs": 1734537,
-  "mios": 148
+  "ultimo": 1795254256.7928014,
+  "msgs": 1746581,
+  "mios": 150
  },
- "t": 1795253561.0442452,
+ "t": 1795254552.514637,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25148,9 +25156,9 @@
    "ly": 9.9,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 3,
-   "pob": 141670486,
+   "pob": 141674110,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795225713
+   "t": 1795254128
   },
   "Hyades Sector XV-L b8-6": {
    "pos": [
@@ -25410,7 +25418,7 @@
    "nfac": 5,
    "pob": 4328269,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795224636
+   "t": 1795253811
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -26097,9 +26105,9 @@
    "ly": 7.8,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 1487578,
+   "pob": 1492351,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795097902
+   "t": 1795252822
   },
   "BD+11 1163": {
    "pos": [
@@ -30327,13 +30335,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.258897,
+   "prog": 0.2589,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795204528
+   "t": 1795253794
   },
   "Oto": {
    "pos": [
@@ -31530,11 +31538,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.351188,
+   "prog": 0.351233,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795224360
+   "t": 1795254542
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -33695,7 +33703,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795224636
+   "t": 1795253811
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -35749,7 +35757,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795252655
+   "t": 1795253937
   },
   "Njungum": {
    "pos": [
@@ -36541,7 +36549,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795225713
+   "t": 1795254128
   },
   "UGP 92": {
    "pos": [
@@ -37223,13 +37231,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.254466,
+   "prog": 0.256432,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795195849
+   "t": 1795254008
   },
   "Lese": {
    "pos": [
@@ -37245,7 +37253,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795252605
+   "t": 1795253838
   },
   "HR 2776": {
    "pos": [
@@ -37295,6 +37303,39 @@
     "Jerome Archer"
    ],
    "t": 1795253551
+  },
+  "Hyades Sector UP-N b7-6": {
+   "pos": [
+    -14.875,
+    -9.59375,
+    -110.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795252773
+  },
+  "Tascheter Sector AA-Z b4": {
+   "pos": [
+    29.9375,
+    -3.8125,
+    -92.34375
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.059997,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795252822
   }
  },
  "rivales": {

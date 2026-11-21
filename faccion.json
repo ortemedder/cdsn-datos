@@ -12109,6 +12109,9 @@
      "Pranav Antal",
      "Jerome Archer"
     ]
+   },
+   "rutas": {
+    "2026-11-21": 1
    }
   },
   "Hyades Sector UF-M b8-2": {
@@ -13750,7 +13753,7 @@
   },
   "HIP 31451": {
    "sys": "HIP 31451",
-   "t": 1795273220,
+   "t": 1795274538,
    "src": "EDDN",
    "inf": 66.33,
    "ctrl": true,
@@ -13826,7 +13829,7 @@
     "2026-11-14": 17,
     "2026-11-15": 5,
     "2026-11-18": 1,
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "pn": {
     "T9Q-5HX": {
@@ -13837,14 +13840,14 @@
    },
    "tk": {
     "firma": "7c1e5e67",
-    "igual": 1795273220
+    "igual": 1795274538
    },
    "saltos": {
     "1795269600": 1,
-    "1795273200": 1
+    "1795273200": 2
    },
    "rutas": {
-    "2026-11-21": 2
+    "2026-11-21": 3
    },
    "prev": null,
    "prev_t": null,
@@ -25365,11 +25368,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795273441.183249,
-  "msgs": 2030276,
-  "mios": 181
+  "ultimo": 1795274539.8850768,
+  "msgs": 2048557,
+  "mios": 182
  },
- "t": 1795274370.7586067,
+ "t": 1795275322.97847,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25591,7 +25594,7 @@
    "nfac": 5,
    "pob": 2806022,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795273721
+   "t": 1795274794
   },
   "LHS 1499": {
    "pos": [
@@ -25799,7 +25802,7 @@
    "nfac": 4,
    "pob": 128865,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795274275
+   "t": 1795275320
   },
   "Unktock": {
    "pos": [
@@ -25927,9 +25930,9 @@
    "ly": 19.0,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 3,
-   "pob": 3994115,
+   "pob": 3996500,
    "ctrl_n": "Imperial Enforcement Division",
-   "t": 1795144149
+   "t": 1795275182
   },
   "Ceti Sector EW-V b2-4": {
    "pos": [
@@ -31000,6 +31003,19 @@
    "pob": 2132500,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1795265165
+  },
+  "Arietis Sector CQ-Y d58": {
+   "pos": [
+    -36,
+    -10.8125,
+    -112.6875
+   ],
+   "ly": 7.5,
+   "junto": "Arietis Sector CQ-Y d60",
+   "nfac": 3,
+   "pob": 2194435,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795275300
   }
  },
  "codice": [
@@ -32058,7 +32074,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795271732
+   "t": 1795275117
   },
   "LP 157-32": {
    "pos": [
@@ -32936,7 +32952,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795273721
+   "t": 1795274794
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -33065,7 +33081,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795274275
+   "t": 1795275320
   },
   "Guei": {
    "pos": [
@@ -33890,7 +33906,7 @@
     "Felicia Winters",
     "Zemina Torval"
    ],
-   "t": 1795144149
+   "t": 1795275182
   },
   "HIP 17820": {
    "pos": [
@@ -34903,7 +34919,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795274362
+   "t": 1795274890
   },
   "Bhumian Ku": {
    "pos": [
@@ -35531,7 +35547,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795268832
+   "t": 1795274668
   },
   "Galibi": {
    "pos": [
@@ -37456,7 +37472,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795216849
+   "t": 1795274868
   },
   "PLX 695": {
    "pos": [
@@ -38811,7 +38827,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795268112
+   "t": 1795274482
   },
   "Wathiparian": {
    "pos": [
@@ -39202,7 +39218,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795273220
+   "t": 1795274538
   },
   "Kuan Yin": {
    "pos": [
@@ -39284,6 +39300,23 @@
     "Jerome Archer"
    ],
    "t": 1795265392
+  },
+  "Arietis Sector CQ-Y d58": {
+   "pos": [
+    -36,
+    -10.8125,
+    -112.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.094283,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795275300
   }
  },
  "rivales": {

@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 100
+    "2026-11-21": 104
    },
    "pn": {
     "H5L-70M": {
@@ -7131,7 +7131,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795227104,
+     "t": 1795234722,
      "estado": "",
      "ls": 1063,
      "pads": {
@@ -7141,90 +7141,90 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795227125,
+      "t": 1795234729,
       "n": 366,
       "vende": [
        {
         "n": "musgravite",
-        "p": 674630,
+        "p": 620462,
         "d": 12844
        },
        {
         "n": "serendibite",
-        "p": 554554,
+        "p": 509330,
         "d": 12844
        },
        {
         "n": "benitoite",
-        "p": 550333,
+        "p": 504044,
         "d": 12844
        },
        {
         "n": "grandidierite",
-        "p": 547380,
+        "p": 502523,
         "d": 12844
        },
        {
         "n": "opal",
-        "p": 535484,
+        "p": 488081,
         "d": 5570
        }
       ],
       "alta": [
        {
         "n": "militarygradefabrics",
-        "p": 4745,
+        "p": 5113,
         "m": 899
        },
        {
         "n": "osmium",
-        "p": 230540,
+        "p": 219067,
         "m": 44051
        },
        {
         "n": "platinum",
-        "p": 278355,
+        "p": 271529,
         "m": 55505
        },
        {
-        "n": "painite",
-        "p": 205992,
-        "m": 48333
+        "n": "bauxite",
+        "p": 4440,
+        "m": 1096
        },
        {
-        "n": "bauxite",
-        "p": 4598,
-        "m": 1096
+        "n": "painite",
+        "p": 190565,
+        "m": 48333
        }
       ],
       "barato": [
        {
+        "n": "foodcartridges",
+        "p": 33,
+        "m": 252,
+        "s": 163120
+       },
+       {
         "n": "biowaste",
-        "p": 31,
+        "p": 40,
         "m": 271,
         "s": 183059
        },
        {
-        "n": "foodcartridges",
-        "p": 33,
-        "m": 252,
-        "s": 162816
-       },
-       {
         "n": "polymers",
-        "p": 48,
+        "p": 61,
         "m": 306,
-        "s": 10161335
+        "s": 10224844
        },
        {
         "n": "ceramiccomposites",
-        "p": 85,
+        "p": 105,
         "m": 402,
         "s": 736436
        },
        {
         "n": "syntheticfabrics",
-        "p": 79,
+        "p": 97,
         "m": 354,
         "s": 7106605
        }
@@ -7255,13 +7255,14 @@
      "neg": {
       "Distance": 8
      },
-     "mods": 765,
-     "mods_t": 1795227111,
+     "mods": 767,
+     "mods_t": 1795234729,
      "naves": [
       "adder",
       "anaconda",
       "asp",
       "asp_scout",
+      "belugaliner",
       "cobramkiii",
       "cobramkv",
       "diamondback",
@@ -7274,10 +7275,9 @@
       "ferdelance",
       "hauler",
       "independant_trader",
-      "krait_light",
-      "krait_mkii",
       "lakonminer",
       "mediumtransport01",
+      "orca",
       "panthermkii",
       "python",
       "python_nx",
@@ -7291,7 +7291,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795227111
+     "naves_t": 1795234729
     },
     "Shvets Works": {
      "f": "Caballeros de Sion",
@@ -8018,7 +8018,7 @@
     "Orbital Construction Site: Siodmak Landing": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795233891,
+     "t": 1795235051,
      "estado": "",
      "ls": 2033,
      "pads": {
@@ -8028,7 +8028,7 @@
      },
      "mid": 3953879298,
      "mer": {
-      "t": 1795233897,
+      "t": 1795235058,
       "n": 0,
       "vende": [],
       "alta": [],
@@ -8036,7 +8036,7 @@
      },
      "atq": {
       "2026-11-21": {
-       "ok": 14,
+       "ok": 16,
        "no": 0
       }
      }
@@ -24154,10 +24154,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795232917.6556134,
-  "msgs": 1561387,
+  "msgs": 1570583,
   "mios": 143
  },
- "t": 1795234667.7426522,
+ "t": 1795235199.0766468,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24210,7 +24210,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795232229
+   "t": 1795234967
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -24275,7 +24275,7 @@
    "nfac": 4,
    "pob": 1998072,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795144575
+   "t": 1795235189
   },
   "Dakvar": {
    "pos": [
@@ -24301,7 +24301,7 @@
    "nfac": 4,
    "pob": 190840223,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795216723
+   "t": 1795234845
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -28773,7 +28773,7 @@
    "nfac": 6,
    "pob": 2672176,
    "ctrl_n": "HIP 19327 Blue State Solutions",
-   "t": 1795132926
+   "t": 1795234968
   },
   "Ross 874": {
    "pos": [
@@ -29515,6 +29515,19 @@
    "pob": 198790,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795233040
+  },
+  "Hyades Sector AC-K b9-5": {
+   "pos": [
+    -47.0625,
+    -14.09375,
+    -84.375
+   ],
+   "ly": 5.8,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 6,
+   "pob": 250195,
+   "ctrl_n": "Aseveljet",
+   "t": 1795235169
   }
  },
  "codice": [
@@ -29897,14 +29910,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.177706,
+   "prog": 0.177712,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795041686
+   "t": 1795234845
   },
   "Bakuari": {
    "pos": [
@@ -31658,11 +31671,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.255742,
+   "prog": 0.259263,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795132926
+   "t": 1795234968
   },
   "Ariameni": {
    "pos": [
@@ -32450,7 +32463,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795144575
+   "t": 1795235189
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -32647,7 +32660,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795232229
+   "t": 1795234967
   },
   "Onyaksas": {
    "pos": [
@@ -36650,6 +36663,22 @@
     "Pranav Antal"
    ],
    "t": 1795233926
+  },
+  "Hyades Sector AC-K b9-5": {
+   "pos": [
+    -47.0625,
+    -14.09375,
+    -84.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795235169
   }
  },
  "rivales": {

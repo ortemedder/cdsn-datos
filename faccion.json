@@ -4865,7 +4865,7 @@
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
-   "t": 1795194745,
+   "t": 1795259974,
    "src": "EDDN",
    "inf": 54.11,
    "ctrl": true,
@@ -4977,41 +4977,9 @@
     ]
    },
    "trafico": {
-    "2026-11-20": 2
+    "2026-11-20": 2,
+    "2026-11-21": 1
    },
-   "saltos": {
-    "1795194000": 1
-   },
-   "rutas": {
-    "2026-11-20": 1
-   },
-   "prev": 53.91,
-   "prev_t": 1794157166,
-   "hinf": [
-    [
-     1794157166,
-     53.91
-    ],
-    [
-     1795194745,
-     54.11
-    ]
-   ],
-   "rach": {
-    "Caballeros de Sion": 1,
-    "Revolutionary BD+34 1378 Future": 0,
-    "BD+34 1378 Universal & Co": 0,
-    "Order of Enblackenment": 1,
-    "BD+34 1378 Natural Interstellar": 0,
-    "New BD+34 1378 Conservatives": 0,
-    "BD+34 1378 Gold Pirates": 0
-   },
-   "rivales": [],
-   "tk": {
-    "firma": "ba6f2ef4",
-    "igual": 1795194745
-   },
-   "cseg": {},
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
@@ -5034,6 +5002,17 @@
      "t": 1795195121
     }
    ],
+   "tk": {
+    "firma": "ba6f2ef4",
+    "igual": 1795259974
+   },
+   "saltos": {
+    "1795194000": 1,
+    "1795258800": 1
+   },
+   "rutas": {
+    "2026-11-20": 1
+   },
    "estaciones": {
     "Scortia Port": {
      "f": "Caballeros de Sion",
@@ -5152,7 +5131,30 @@
      ],
      "naves_t": 1795195182
     }
-   }
+   },
+   "prev": 53.91,
+   "prev_t": 1794157166,
+   "hinf": [
+    [
+     1794157166,
+     53.91
+    ],
+    [
+     1795194745,
+     54.11
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 1,
+    "Revolutionary BD+34 1378 Future": 0,
+    "BD+34 1378 Universal & Co": 0,
+    "Order of Enblackenment": 1,
+    "BD+34 1378 Natural Interstellar": 0,
+    "New BD+34 1378 Conservatives": 0,
+    "BD+34 1378 Gold Pirates": 0
+   },
+   "rivales": [],
+   "cseg": {}
   },
   "Hyades Sector LI-S c4-15": {
    "sys": "Hyades Sector LI-S c4-15",
@@ -12641,7 +12643,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795257870,
+   "t": 1795259250,
    "src": "EDDN",
    "inf": 20.0,
    "ctrl": false,
@@ -12728,11 +12730,11 @@
     "2026-11-18": 31,
     "2026-11-19": 11,
     "2026-11-20": 24,
-    "2026-11-21": 14
+    "2026-11-21": 17
    },
    "tk": {
     "firma": "9ac237db",
-    "igual": 1795257870
+    "igual": 1795259250
    },
    "saltos": {
     "1794902400": 2,
@@ -12759,7 +12761,8 @@
     "1795208400": 1,
     "1795212000": 1,
     "1795248000": 2,
-    "1795255200": 3
+    "1795255200": 3,
+    "1795258800": 1
    },
    "rutas": {
     "2026-11-17": 20,
@@ -13078,13 +13081,13 @@
     "Planetary Construction Site: Pivot Point": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795258251,
+     "t": 1795259717,
      "estado": "",
      "ls": 702,
      "mid": 4404361731,
      "mer": {
-      "t": 1795258258,
-      "n": 1,
+      "t": 1795259724,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
@@ -13103,7 +13106,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 5,
+       "ok": 6,
        "no": 0
       }
      },
@@ -13804,7 +13807,7 @@
   },
   "Lan Caihe": {
    "sys": "Lan Caihe",
-   "t": 1795201908,
+   "t": 1795259094,
    "src": "EDDN",
    "inf": 13.74,
    "ctrl": false,
@@ -13936,25 +13939,26 @@
    "trafico": {
     "2026-05-03": 1,
     "2026-11-18": 1,
-    "2026-11-20": 9
+    "2026-11-20": 9,
+    "2026-11-21": 1
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795202373
+     "t": 1795259337
     }
    ],
    "pn": {
     "A4G-51K": {
      "n": "NOJAUS LAIVAS",
-     "t": 1795202373,
+     "t": 1795259337,
      "d": 1795032458
     }
    },
    "tk": {
     "firma": "144b9e37",
-    "igual": 1795201908,
+    "igual": 1795259094,
     "ult": 1795200008,
     "desde": 1795032224,
     "est": null
@@ -13962,7 +13966,8 @@
    "saltos": {
     "1795032000": 1,
     "1795197600": 1,
-    "1795201200": 1
+    "1795201200": 1,
+    "1795258800": 1
    },
    "rutas": {
     "2026-11-18": 1,
@@ -13973,9 +13978,9 @@
     "Stasheff Arena": {
      "f": "Sirius Special Forces",
      "tipo": "CraterOutpost",
-     "t": 1795200847,
+     "t": 1795259544,
      "estado": "",
-     "ls": 182624,
+     "ls": 182623,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -13990,17 +13995,21 @@
       "2026-11-20": {
        "ok": 2,
        "no": 5
+      },
+      "2026-11-21": {
+       "ok": 1,
+       "no": 0
       }
      },
      "mer": {
-      "t": 1795032507,
+      "t": 1795259551,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
-     "mods": 136,
-     "mods_t": 1795200519,
+     "mods": 79,
+     "mods_t": 1795259551,
      "neg": {
       "NoSpace": 5
      }
@@ -17048,7 +17057,7 @@
   },
   "Skang": {
    "sys": "Skang",
-   "t": 1795193944,
+   "t": 1795259974,
    "src": "EDDN",
    "inf": 3.6,
    "ctrl": false,
@@ -17059,12 +17068,12 @@
    ],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 53.7,
+   "segunda_inf": 53.45,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 53.7,
+     "inf": 53.45,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -17074,30 +17083,26 @@
      "jug": null
     },
     {
-     "n": "Revolutionary Furuhjelm II-432 Alliance",
-     "inf": 12.6,
-     "gov": "Confederacy",
-     "alg": "Federation",
-     "act": [
-      "War"
-     ],
+     "n": "Skang Group",
+     "inf": 14.51,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
-     "n": "Skang Group",
-     "inf": 12.6,
-     "gov": "Corporate",
-     "alg": "Independent",
-     "act": [
-      "War"
-     ],
+     "n": "Revolutionary Furuhjelm II-432 Alliance",
+     "inf": 10.51,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "New Skang Progressive Party",
-     "inf": 10.2,
+     "inf": 10.11,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -17106,7 +17111,7 @@
     },
     {
      "n": "Order of Enblackenment",
-     "inf": 6.3,
+     "inf": 6.81,
      "gov": "Theocracy",
      "alg": "Independent",
      "act": [],
@@ -17163,44 +17168,9 @@
    },
    "trafico": {
     "2026-11-18": 1,
-    "2026-11-20": 2
+    "2026-11-20": 2,
+    "2026-11-21": 1
    },
-   "tk": {
-    "firma": "cdca5bf1",
-    "igual": 1795193944,
-    "ult": 1795040322,
-    "desde": 1794496026,
-    "est": null
-   },
-   "saltos": {
-    "1795039200": 1,
-    "1795190400": 1
-   },
-   "rutas": {
-    "2026-11-18": 1,
-    "2026-11-20": 1
-   },
-   "prev": null,
-   "prev_t": null,
-   "hinf": [
-    [
-     1794496026,
-     3.6
-    ]
-   ],
-   "rach": {
-    "Flotta Stellare": 0,
-    "Revolutionary Furuhjelm II-432 Alliance": 1,
-    "Skang Group": 0,
-    "New Skang Progressive Party": 0,
-    "Order of Enblackenment": 0,
-    "Caballeros de Sion": 0,
-    "Skang Posse": 0
-   },
-   "rivales": [],
-   "tick_ult": 1795040322,
-   "tick_marg": 4535,
-   "cseg": {},
    "zc": [
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
@@ -17218,6 +17188,29 @@
      "t": 1795194221
     }
    ],
+   "tk": {
+    "firma": "ac4d978d",
+    "igual": 1795259974,
+    "ult": 1795259974,
+    "desde": 1795193944,
+    "est": null,
+    "vent": [
+     [
+      1795193944,
+      1795259974
+     ]
+    ]
+   },
+   "saltos": {
+    "1795039200": 1,
+    "1795190400": 1,
+    "1795258800": 1
+   },
+   "rutas": {
+    "2026-11-18": 1,
+    "2026-11-20": 1,
+    "2026-11-21": 1
+   },
    "estaciones": {
     "Midgley Settlement": {
      "f": "Revolutionary Furuhjelm II-432 Alliance",
@@ -17324,7 +17317,31 @@
      "mods": 158,
      "mods_t": 1795194278
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794496026,
+     3.6
+    ]
+   ],
+   "rach": {
+    "Flotta Stellare": 0,
+    "Revolutionary Furuhjelm II-432 Alliance": 0,
+    "Skang Group": 1,
+    "New Skang Progressive Party": 0,
+    "Order of Enblackenment": 1,
+    "Caballeros de Sion": 0,
+    "Skang Posse": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795259974,
+   "tick_marg": 550,
+   "tick_prox": 1795313340,
+   "tick_disp": 550,
+   "tick_n": 0,
+   "cseg": {}
   },
   "Lyncis Sector WO-R b4-3": {
    "sys": "Lyncis Sector WO-R b4-3",
@@ -24321,11 +24338,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795258556.2332935,
-  "msgs": 1802028,
-  "mios": 157
+  "ultimo": 1795259976.5962605,
+  "msgs": 1814820,
+  "mios": 161
  },
- "t": 1795258982.5649943,
+ "t": 1795259975.3586543,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -24339,7 +24356,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795224778
+   "t": 1795259404
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -25106,7 +25123,7 @@
    "nfac": 3,
    "pob": 175364556,
    "ctrl_n": "The Fatherhood",
-   "t": 1795258489
+   "t": 1795259867
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -25379,7 +25396,7 @@
    "nfac": 3,
    "pob": 50006062,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795244694
+   "t": 1795259931
   },
   "ICZ EL-Y d90": {
    "pos": [
@@ -27251,7 +27268,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795236750
+   "t": 1795259672
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -27977,9 +27994,9 @@
    "ly": 18.7,
    "junto": "Ryujingit",
    "nfac": 4,
-   "pob": 157355,
+   "pob": 157384,
    "ctrl_n": "Empire Corsairs",
-   "t": 1795195257
+   "t": 1795259479
   },
   "Tascheter Sector WE-Q a5-1": {
    "pos": [
@@ -28278,7 +28295,7 @@
    "nfac": 3,
    "pob": 4096993,
    "ctrl_n": "Black Hand of Orion",
-   "t": 1795253291
+   "t": 1795259957
   },
   "Allowini": {
    "pos": [
@@ -28889,7 +28906,7 @@
    "nfac": 5,
    "pob": 7484,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795128899
+   "t": 1795259421
   },
   "Lyncis Sector JM-W d1-143": {
    "pos": [
@@ -29813,6 +29830,19 @@
    "pob": 198335,
    "ctrl_n": "Skandini Imperial Society",
    "t": 1795035756
+  },
+  "Lyncis Sector RY-R b4-0": {
+   "pos": [
+    -41.3125,
+    75.4375,
+    -122.71875
+   ],
+   "ly": 17.2,
+   "junto": "HIP 37216",
+   "nfac": 3,
+   "pob": 1625864,
+   "ctrl_n": "CROSS Corp",
+   "t": 1795259103
   }
  },
  "codice": [
@@ -30614,7 +30644,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795224778
+   "t": 1795259404
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -30871,7 +30901,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795258513
+   "t": 1795259216
   },
   "LP 157-32": {
    "pos": [
@@ -31733,7 +31763,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795128899
+   "t": 1795259421
   },
   "Ceti Sector GR-V b2-1": {
    "pos": [
@@ -32042,7 +32072,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795236750
+   "t": 1795259672
   },
   "NLTT 8234": {
    "pos": [
@@ -33272,7 +33302,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795253291
+   "t": 1795259957
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -34344,7 +34374,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795250899
+   "t": 1795259576
   },
   "Galibi": {
    "pos": [
@@ -34670,7 +34700,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795193944
+   "t": 1795259974
   },
   "Lambayeque": {
    "pos": [
@@ -34787,7 +34817,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795194745
+   "t": 1795259974
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -34820,7 +34850,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795195257
+   "t": 1795259479
   },
   "Chan Mina": {
    "pos": [
@@ -35113,7 +35143,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795201908
+   "t": 1795259094
   },
   "Vivata": {
    "pos": [
@@ -37180,7 +37210,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795244694
+   "t": 1795259931
   },
   "Delphin": {
    "pos": [
@@ -37509,6 +37539,22 @@
     "Jerome Archer"
    ],
    "t": 1795258559
+  },
+  "Lyncis Sector RY-R b4-0": {
+   "pos": [
+    -41.3125,
+    75.4375,
+    -122.71875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795259103
   }
  },
  "rivales": {

@@ -6860,7 +6860,7 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 38
+    "2026-11-21": 42
    },
    "pn": {
     "H5L-70M": {
@@ -6959,12 +6959,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795225084,
+     "t": 1795225823,
      "estado": "",
      "ls": 1063,
      "mid": 4396762115,
      "mer": {
-      "t": 1795225173,
+      "t": 1795225839,
       "n": 366,
       "vende": [
        {
@@ -6984,8 +6984,8 @@
        },
        {
         "n": "grandidierite",
-        "p": 543937,
-        "d": 47538
+        "p": 543948,
+        "d": 47539
        },
        {
         "n": "opal",
@@ -7067,7 +7067,7 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 12,
+       "ok": 14,
        "no": 0
       }
      },
@@ -7121,12 +7121,12 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795225091,
+     "naves_t": 1795225830,
      "neg": {
       "Distance": 5
      },
      "mods": 858,
-     "mods_t": 1795225091
+     "mods_t": 1795225830
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -7988,7 +7988,7 @@
     "Orbital Construction Site: Lefschetz's Pride": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795225523,
+     "t": 1795226449,
      "estado": "",
      "ls": 1986,
      "pads": {
@@ -7998,15 +7998,15 @@
      },
      "mid": 3953770498,
      "mer": {
-      "t": 1795225530,
-      "n": 2,
+      "t": 1795226456,
+      "n": 4,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
-       "ok": 10,
+       "ok": 12,
        "no": 0
       }
      }
@@ -24105,10 +24105,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795223430.612014,
-  "msgs": 1457654,
+  "msgs": 1469946,
   "mios": 142
  },
- "t": 1795225625.4243472,
+ "t": 1795226538.0878563,
  "tick_global": 1795198623,
  "expansion": {
   "Lalande 10797": {
@@ -25004,9 +25004,9 @@
    "ly": 9.9,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 3,
-   "pob": 141655518,
+   "pob": 141670486,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1794907352
+   "t": 1795225713
   },
   "Hyades Sector XV-L b8-6": {
    "pos": [
@@ -26020,7 +26020,7 @@
    "nfac": 5,
    "pob": 97392,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795033579
+   "t": 1795225865
   },
   "Hyades Sector UA-M b8-4": {
    "pos": [
@@ -26475,7 +26475,7 @@
    "nfac": 4,
    "pob": 3174003,
    "ctrl_n": "EXO",
-   "t": 1795199261
+   "t": 1795225809
   },
   "Prom Du": {
    "pos": [
@@ -27580,7 +27580,7 @@
    "nfac": 4,
    "pob": 2000220,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795127429
+   "t": 1795226316
   },
   "LP 365-24": {
    "pos": [
@@ -28464,7 +28464,7 @@
    "nfac": 3,
    "pob": 149851083,
    "ctrl_n": "Canonn",
-   "t": 1795214067
+   "t": 1795226298
   },
   "HIP 116221": {
    "pos": [
@@ -29401,6 +29401,19 @@
    "pob": 66216980,
    "ctrl_n": "Nagii Union",
    "t": 1795219081
+  },
+  "LTT 11519": {
+   "pos": [
+    -6.65625,
+    -16.78125,
+    -81.6875
+   ],
+   "ly": 18.5,
+   "junto": "SPOCS 253",
+   "nfac": 6,
+   "pob": 53494,
+   "ctrl_n": "EXO",
+   "t": 1795226525
   }
  },
  "codice": [
@@ -29783,14 +29796,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Exploited",
-   "prog": 0.177712,
+   "prog": 0.177706,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795216723
+   "t": 1795041686
   },
   "Bakuari": {
    "pos": [
@@ -30299,7 +30312,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795214067
+   "t": 1795226298
   },
   "Ceti Sector CL-X b1-3": {
    "pos": [
@@ -30701,7 +30714,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795197556
+   "t": 1795226301
   },
   "Ndabangluya": {
    "pos": [
@@ -30812,7 +30825,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795122550
+   "t": 1795226359
   },
   "Ceti Sector KX-T b3-0": {
    "pos": [
@@ -31192,7 +31205,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795127429
+   "t": 1795226316
   },
   "LP 941-16": {
    "pos": [
@@ -31772,7 +31785,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795134930
+   "t": 1795225891
   },
   "Ross 874": {
    "pos": [
@@ -32500,7 +32513,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795199261
+   "t": 1795225809
   },
   "Hoder": {
    "pos": [
@@ -35970,7 +35983,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795224509
+   "t": 1795226260
   },
   "Hyades Sector JX-T c3-19": {
    "pos": [
@@ -36212,6 +36225,57 @@
     "Li Yong-Rui"
    ],
    "t": 1795225620
+  },
+  "Tascheter Sector AA-Z b0": {
+   "pos": [
+    26.3125,
+    3.71875,
+    -93.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.15314,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795225713
+  },
+  "UGP 92": {
+   "pos": [
+    34.78125,
+    -44.46875,
+    -62.8125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Fortified",
+   "prog": 0.12,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795225865
+  },
+  "LTT 11519": {
+   "pos": [
+    -6.65625,
+    -16.78125,
+    -81.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795226525
   }
  },
  "rivales": {

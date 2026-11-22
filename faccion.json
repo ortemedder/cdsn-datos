@@ -27730,7 +27730,7 @@
   },
   "Pegasi Sector YU-X b1-2": {
    "sys": "Pegasi Sector YU-X b1-2",
-   "t": 1795329676,
+   "t": 1795349156,
    "src": "EDDN",
    "inf": 10.11,
    "ctrl": false,
@@ -27816,27 +27816,24 @@
      "Pranav Antal"
     ]
    },
-   "hinf": [
-    [
-     1795329676,
-     10.11
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
+   "trafico": {
+    "2026-11-22": 4
+   },
    "tk": {
     "firma": "3c1be4ac",
-    "igual": 1795329676
+    "igual": 1795349156
    },
-   "cseg": {},
-   "trafico": {
-    "2026-11-22": 3
+   "saltos": {
+    "1795348800": 1
+   },
+   "rutas": {
+    "2026-11-22": 1
    },
    "estaciones": {
     "Mangold Gateway": {
      "f": "Guardians of Harmony",
      "tipo": "Coriolis",
-     "t": 1795330018,
+     "t": 1795349353,
      "estado": "",
      "ls": 184,
      "pads": {
@@ -27846,8 +27843,8 @@
      },
      "mid": 4227106051,
      "mer": {
-      "t": 1795330033,
-      "n": 369,
+      "t": 1795349360,
+      "n": 53,
       "vende": [
        {
         "n": "palladium",
@@ -27860,19 +27857,19 @@
         "d": 1
        },
        {
+        "n": "hostage",
+        "p": 34804,
+        "d": 67
+       },
+       {
         "n": "silver",
         "p": 32562,
         "d": 1
        },
        {
-        "n": "bertrandite",
-        "p": 15741,
-        "d": 1
-       },
-       {
-        "n": "gallite",
-        "p": 9834,
-        "d": 1
+        "n": "usscargoblackbox",
+        "p": 31256,
+        "d": 67
        }
       ],
       "alta": [
@@ -27897,9 +27894,9 @@
         "m": 387
        },
        {
-        "n": "syntheticmeat",
+        "n": "wine",
         "p": 887,
-        "m": 415
+        "m": 417
        }
       ],
       "barato": [
@@ -27924,27 +27921,45 @@
       ]
      },
      "mods": 146,
-     "mods_t": 1795330025,
+     "mods_t": 1795349360,
      "naves": [
       "adder",
       "cobramkiii",
+      "cobramkiv",
       "eagle",
       "hauler",
       "sidewinder",
       "type6"
      ],
-     "naves_t": 1795330025
+     "naves_t": 1795349360,
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1795329676,
+     10.11
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795347712.1780791,
-  "msgs": 3221496,
-  "mios": 311
+  "ultimo": 1795349365.980168,
+  "msgs": 3234852,
+  "mios": 312
  },
- "t": 1795348469.029148,
+ "t": 1795349381.035313,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28049,7 +28064,7 @@
    "nfac": 4,
    "pob": 219742,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795345270
+   "t": 1795348935
   },
   "Tascheter Sector FR-M a7-2": {
    "pos": [
@@ -28088,7 +28103,7 @@
    "nfac": 4,
    "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795340995
+   "t": 1795348649
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -28517,7 +28532,7 @@
    "nfac": 3,
    "pob": 318438,
    "ctrl_n": "East India Company",
-   "t": 1795347668
+   "t": 1795348573
   },
   "LTT 751": {
    "pos": [
@@ -28725,7 +28740,7 @@
    "nfac": 3,
    "pob": 175759852,
    "ctrl_n": "The Fatherhood",
-   "t": 1795347092
+   "t": 1795348643
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -28894,7 +28909,7 @@
    "nfac": 5,
    "pob": 3082441,
    "ctrl_n": "East India Company",
-   "t": 1795348367
+   "t": 1795349013
   },
   "LP 834-42": {
    "pos": [
@@ -33936,9 +33951,9 @@
    "ly": 3.7,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 4,
-   "pob": 248521,
+   "pob": 248537,
    "ctrl_n": "Clan of Nidarijedi",
-   "t": 1795314660
+   "t": 1795348997
   },
   "Ceti Sector AV-Y c17": {
    "pos": [
@@ -34578,7 +34593,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795340995
+   "t": 1795348649
   },
   "Bakuari": {
    "pos": [
@@ -34627,7 +34642,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795335688
+   "t": 1795348815
   },
   "LFT 361": {
    "pos": [
@@ -35213,7 +35228,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795347668
+   "t": 1795348573
   },
   "Crowfor": {
    "pos": [
@@ -36515,7 +36530,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795283710
+   "t": 1795348587
   },
   "Ross 874": {
    "pos": [
@@ -39677,7 +39692,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795345270
+   "t": 1795348935
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -39860,7 +39875,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795348367
+   "t": 1795349013
   },
   "Col 285 Sector VJ-R a34-2": {
    "pos": [
@@ -43976,7 +43991,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1795314660
+   "t": 1795348997
   },
   "Loki Tan": {
    "pos": [
@@ -44526,6 +44541,20 @@
     "Li Yong-Rui"
    ],
    "t": 1795347650
+  },
+  "Pegasi Sector YU-X b1-2": {
+   "pos": [
+    -196.40625,
+    -58.5,
+    -71.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1795349156
   }
  },
  "rivales": {

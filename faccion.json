@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 11
+    "2026-11-22": 12
    },
    "zc": [
     {
@@ -18824,23 +18824,72 @@
   },
   "Skang": {
    "sys": "Skang",
-   "t": 1795259974,
+   "t": 1795333815,
    "src": "EDDN",
-   "inf": 3.6,
+   "inf": 3.5,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 53.45,
+   "segunda_inf": 53.3,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 53.45,
+     "inf": 53.3,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Skang Group",
+     "inf": 14.2,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "New Skang Progressive Party",
+     "inf": 10.1,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Election"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Furuhjelm II-432 Alliance",
+     "inf": 10.1,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Election"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Order of Enblackenment",
+     "inf": 6.7,
+     "gov": "Theocracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 3.5,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -18850,55 +18899,8 @@
      "jug": null
     },
     {
-     "n": "Skang Group",
-     "inf": 14.51,
-     "gov": "Corporate",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Revolutionary Furuhjelm II-432 Alliance",
-     "inf": 10.51,
-     "gov": "Confederacy",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "New Skang Progressive Party",
-     "inf": 10.11,
-     "gov": "Democracy",
-     "alg": "Federation",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Order of Enblackenment",
-     "inf": 6.81,
-     "gov": "Theocracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [],
-     "jug": null
-    },
-    {
-     "n": "Caballeros de Sion",
-     "inf": 3.6,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion"
-     ],
-     "jug": null
-    },
-    {
      "n": "Skang Posse",
-     "inf": 1.0,
+     "inf": 2.1,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -18936,7 +18938,8 @@
    "trafico": {
     "2026-11-18": 1,
     "2026-11-20": 2,
-    "2026-11-21": 2
+    "2026-11-21": 2,
+    "2026-11-22": 1
    },
    "zc": [
     {
@@ -18956,10 +18959,10 @@
     }
    ],
    "tk": {
-    "firma": "ac4d978d",
-    "igual": 1795259974,
-    "ult": 1795259974,
-    "desde": 1795193944,
+    "firma": "0f85bd5b",
+    "igual": 1795333815,
+    "ult": 1795333815,
+    "desde": 1795259974,
     "est": null,
     "vent": [
      [
@@ -18971,7 +18974,8 @@
    "saltos": {
     "1795039200": 1,
     "1795190400": 1,
-    "1795258800": 1
+    "1795258800": 1,
+    "1795330800": 1
    },
    "rutas": {
     "2026-11-18": 1,
@@ -19164,27 +19168,31 @@
      }
     }
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 3.6,
+   "prev_t": 1795259974,
    "hinf": [
     [
      1794496026,
      3.6
+    ],
+    [
+     1795333815,
+     3.5
     ]
    ],
    "rach": {
     "Flotta Stellare": 0,
     "Revolutionary Furuhjelm II-432 Alliance": 0,
-    "Skang Group": 1,
+    "Skang Group": 0,
     "New Skang Progressive Party": 0,
-    "Order of Enblackenment": 1,
+    "Order of Enblackenment": 0,
     "Caballeros de Sion": 0,
-    "Skang Posse": 0
+    "Skang Posse": 1
    },
    "rivales": [],
-   "tick_ult": 1795259974,
-   "tick_marg": 550,
-   "tick_prox": 1795313340,
+   "tick_ult": 1795333815,
+   "tick_marg": 615,
+   "tick_prox": 1795399740,
    "tick_disp": 550,
    "tick_n": 0,
    "cseg": {}
@@ -27643,11 +27651,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795332281.8217208,
-  "msgs": 3015031,
-  "mios": 287
+  "ultimo": 1795333817.2399714,
+  "msgs": 3023239,
+  "mios": 288
  },
- "t": 1795333053.1533768,
+ "t": 1795333985.47051,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27661,7 +27669,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795319496
+   "t": 1795333467
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -27763,9 +27771,9 @@
    "ly": 15.8,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 1998023,
+   "pob": 1998050,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795323724
+   "t": 1795333311
   },
   "Dakvar": {
    "pos": [
@@ -33353,9 +33361,9 @@
    "ly": 15.5,
    "junto": "BD+40 1697",
    "nfac": 5,
-   "pob": 398783,
+   "pob": 398797,
    "ctrl_n": "Civitas Dei",
-   "t": 1795282924
+   "t": 1795333975
   },
   "HIP 24133": {
    "pos": [
@@ -33759,6 +33767,19 @@
    "pob": 43459219,
    "ctrl_n": "Grid Jet State Holdings",
    "t": 1795332635
+  },
+  "Yin Sector YZ-Y b6": {
+   "pos": [
+    -1.1875,
+    45.59375,
+    -72.25
+   ],
+   "ly": 19.7,
+   "junto": "Skang",
+   "nfac": 4,
+   "pob": 321473,
+   "ctrl_n": "Maya Free",
+   "t": 1795333747
   }
  },
  "codice": [
@@ -34589,7 +34610,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795319496
+   "t": 1795333467
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -36678,7 +36699,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795323724
+   "t": 1795333311
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -37646,7 +37667,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795299633
+   "t": 1795333768
   },
   "Bhumian Ku": {
    "pos": [
@@ -38600,7 +38621,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795259974
+   "t": 1795333815
   },
   "Lambayeque": {
    "pos": [
@@ -38995,7 +39016,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795199202
+   "t": 1795333503
   },
   "Trianguli Sector TF-N a7-1": {
    "pos": [
@@ -42341,7 +42362,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795282924
+   "t": 1795333975
   },
   "HIP 24133": {
    "pos": [
@@ -42655,7 +42676,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795285595
+   "t": 1795333452
   },
   "Tougeirs": {
    "pos": [
@@ -42833,7 +42854,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795312309
+   "t": 1795333714
   },
   "Audumasi": {
    "pos": [
@@ -43799,6 +43820,67 @@
     "Pranav Antal"
    ],
    "t": 1795332430
+  },
+  "Bommatsuri": {
+   "pos": [
+    10.03125,
+    -104.3125,
+    -55.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.103997,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795333175
+  },
+  "Nauacan": {
+   "pos": [
+    22.25,
+    -101.03125,
+    -56.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.115997,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795333227
+  },
+  "Brigh": {
+   "pos": [
+    149.96875,
+    -9.625,
+    9.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795333363
+  },
+  "Yin Sector YZ-Y b6": {
+   "pos": [
+    -1.1875,
+    45.59375,
+    -72.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795333747
   }
  },
  "rivales": {

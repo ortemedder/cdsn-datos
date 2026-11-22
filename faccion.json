@@ -9257,7 +9257,7 @@
   },
   "Ryujingit": {
    "sys": "Ryujingit",
-   "t": 1795347650,
+   "t": 1795362061,
    "src": "EDDN",
    "inf": 8.67,
    "ctrl": false,
@@ -9368,23 +9368,24 @@
     "2026-11-15": 1,
     "2026-11-16": 2,
     "2026-11-19": 1,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "tk": {
     "firma": "8781b73b",
-    "igual": 1795347650,
+    "igual": 1795362061,
     "ult": 1795347650,
     "desde": 1795096518,
     "est": null
    },
    "saltos": {
     "1795093200": 1,
-    "1795345200": 1
+    "1795345200": 1,
+    "1795359600": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-19": 1,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "prev": 8.76,
    "prev_t": 1794331233,
@@ -28057,11 +28058,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795360386.0692961,
-  "msgs": 3459153,
-  "mios": 331
+  "ultimo": 1795362072.6118915,
+  "msgs": 3479669,
+  "mios": 332
  },
- "t": 1795361057.5217319,
+ "t": 1795362059.6383014,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28205,7 +28206,7 @@
    "nfac": 4,
    "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795360043
+   "t": 1795361305
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -33000,9 +33001,9 @@
    "ly": 13.5,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 3,
-   "pob": 522709515,
+   "pob": 522937436,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795243160
+   "t": 1795361643
   },
   "Lyncis Sector SD-T b3-5": {
    "pos": [
@@ -34355,6 +34356,19 @@
    "pob": 1412825,
    "ctrl_n": "The Dark Wheel",
    "t": 1795361028
+  },
+  "Tascheter Sector CL-Y d133": {
+   "pos": [
+    -20.0625,
+    -18.15625,
+    -98.875
+   ],
+   "ly": 14.8,
+   "junto": "Hyades Sector XV-L b8-3",
+   "nfac": 4,
+   "pob": 218882,
+   "ctrl_n": "The Fatherhood",
+   "t": 1795361185
   }
  },
  "codice": [
@@ -34773,7 +34787,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795360043
+   "t": 1795361305
   },
   "Bakuari": {
    "pos": [
@@ -38949,7 +38963,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795243160
+   "t": 1795361643
   },
   "Hyades Sector SJ-P b6-4": {
    "pos": [
@@ -42016,7 +42030,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795356089
+   "t": 1795362047
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -42979,7 +42993,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795285073
+   "t": 1795362005
   },
   "Hyades Sector QZ-N b7-3": {
    "pos": [
@@ -44702,7 +44716,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795347650
+   "t": 1795362061
   },
   "Pegasi Sector YU-X b1-2": {
    "pos": [
@@ -44969,6 +44983,23 @@
     "Zemina Torval"
    ],
    "t": 1795361028
+  },
+  "Tascheter Sector CL-Y d133": {
+   "pos": [
+    -20.0625,
+    -18.15625,
+    -98.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795361185
   }
  },
  "rivales": {

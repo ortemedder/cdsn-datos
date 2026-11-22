@@ -27381,10 +27381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795316739.9215107,
-  "msgs": 2911203,
+  "msgs": 2919945,
   "mios": 282
  },
- "t": 1795322280.158349,
+ "t": 1795323091.2598367,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28139,7 +28139,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795317188
+   "t": 1795323082
   },
   "LTT 740": {
    "pos": [
@@ -28815,7 +28815,7 @@
    "nfac": 4,
    "pob": 2004236,
    "ctrl_n": "East India Company",
-   "t": 1795288289
+   "t": 1795322631
   },
   "BD+39 876": {
    "pos": [
@@ -34388,23 +34388,6 @@
    ],
    "t": 1795117746
   },
-  "Crucis Sector HB-X b1-5": {
-   "pos": [
-    123.21875,
-    -3.625,
-    25.5625
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "A. Lavigny-Duval",
-    "Aisling Duval",
-    "Felicia Winters",
-    "Zemina Torval"
-   ],
-   "t": 1795201495
-  },
   "HIP 116221": {
    "pos": [
     -170.46875,
@@ -35157,7 +35140,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.380534,
+   "prog": 0.381657,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -35165,7 +35148,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795317188
+   "t": 1795323082
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -35733,7 +35716,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795288289
+   "t": 1795322631
   },
   "Siren": {
    "pos": [

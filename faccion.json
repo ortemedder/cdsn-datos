@@ -27381,10 +27381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795316739.9215107,
-  "msgs": 2857601,
+  "msgs": 2869435,
   "mios": 282
  },
- "t": 1795317565.3886468,
+ "t": 1795318186.084526,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27463,7 +27463,7 @@
    "nfac": 4,
    "pob": 1799937,
    "ctrl_n": "East India Company",
-   "t": 1795288158
+   "t": 1795318092
   },
   "Tanmark": {
    "pos": [
@@ -30011,7 +30011,7 @@
    "nfac": 5,
    "pob": 47351990,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795311776
+   "t": 1795318172
   },
   "Oisi": {
    "pos": [
@@ -36155,7 +36155,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795311776
+   "t": 1795318172
   },
   "LP 365-24": {
    "pos": [
@@ -42086,7 +42086,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795288158
+   "t": 1795318092
   },
   "Piscium Sector SD-T b3-0": {
    "pos": [
@@ -43262,6 +43262,22 @@
     "Jerome Archer"
    ],
    "t": 1795316860
+  },
+  "BD-22 286": {
+   "pos": [
+    4.1875,
+    -92.125,
+    -21.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.108569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795317998
   }
  },
  "rivales": {

@@ -1661,7 +1661,7 @@
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
-   "t": 1795295460,
+   "t": 1795372858,
    "src": "EDDN",
    "inf": 12.14,
    "ctrl": false,
@@ -1672,12 +1672,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 49.45,
+   "segunda_inf": 49.15,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 49.45,
+     "inf": 49.15,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -1686,7 +1686,7 @@
     },
     {
      "n": "SPOCS 253 Free",
-     "inf": 14.53,
+     "inf": 14.73,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -1705,18 +1705,18 @@
      "jug": null
     },
     {
-     "n": "SPOCS 253 Constitution Party",
-     "inf": 8.36,
-     "gov": "Dictatorship",
+     "n": "SPOCS 253 Central Company",
+     "inf": 8.46,
+     "gov": "Corporate",
      "alg": "Independent",
      "act": [],
      "pend": [],
      "jug": null
     },
     {
-     "n": "SPOCS 253 Central Company",
+     "n": "SPOCS 253 Constitution Party",
      "inf": 8.26,
-     "gov": "Corporate",
+     "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
      "pend": [],
@@ -1758,9 +1758,9 @@
    "pp": {
     "pot": "Zemina Torval",
     "est": "Fortified",
-    "prog": 0.155077,
+    "prog": 0.155066,
     "ref": 0,
-    "soc": 0,
+    "soc": 7,
     "pots": [
      "Edmund Mahon",
      "Li Yong-Rui",
@@ -1774,24 +1774,26 @@
     "2026-11-15": 3,
     "2026-11-16": 1,
     "2026-11-18": 3,
-    "2026-11-21": 1
+    "2026-11-21": 1,
+    "2026-11-22": 1
    },
    "tk": {
-    "firma": "9ffb9790",
-    "igual": 1795295460,
-    "ult": 1795295460,
-    "desde": 1795040275,
+    "firma": "404b39d1",
+    "igual": 1795372858,
+    "ult": 1795372858,
+    "desde": 1795295460,
     "est": null
    },
    "saltos": {
     "1795039200": 1,
-    "1795294800": 1
+    "1795294800": 1,
+    "1795370400": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 1,
     "2026-11-21": 2,
-    "2026-11-22": 1
+    "2026-11-22": 3
    },
    "estaciones": {
     "Blish Point": {
@@ -1894,16 +1896,16 @@
    ],
    "rach": {
     "Flotta Stellare": 0,
-    "SPOCS 253 Free": 0,
+    "SPOCS 253 Free": 1,
     "Caballeros de Sion": 0,
     "SPOCS 253 Constitution Party": 0,
-    "SPOCS 253 Central Company": 0,
+    "SPOCS 253 Central Company": 1,
     "SPOCS 253 Federal Industry": 0,
     "SPOCS 253 Crew": 0
    },
    "rivales": [],
-   "tick_ult": 1795295460,
-   "tick_marg": 2126,
+   "tick_ult": 1795372858,
+   "tick_marg": 644,
    "cseg": {}
   },
   "BD+47 1236": {
@@ -3022,16 +3024,17 @@
      "ini": 1795115144,
      "pend": null,
      "exacto": false,
-     "dia": 4,
+     "dia": 5,
      "res": [
-      "G"
+      "G",
+      "?"
      ],
      "ref": [
       3,
       0
      ],
-     "tick": 1795285722,
-     "eval": 1795285722,
+     "tick": 1795360524,
+     "eval": 1795360524,
      "fase": "a_un_dia",
      "res0": 2,
      "g": 4,
@@ -7604,7 +7607,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 107
+    "2026-11-22": 113
    },
    "pn": {
     "H5L-70M": {
@@ -8346,7 +8349,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795371463,
+     "t": 1795372259,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -8356,7 +8359,7 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795371929,
+      "t": 1795372420,
       "n": 366,
       "vende": [
        {
@@ -8439,8 +8442,8 @@
        }
       ]
      },
-     "mods": 996,
-     "mods_t": 1795371894,
+     "mods": 932,
+     "mods_t": 1795372265,
      "naves": [
       "federation_corvette",
       "python_nx",
@@ -8462,7 +8465,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 9,
+       "ok": 11,
        "no": 0
       }
      }
@@ -12027,7 +12030,7 @@
      "perdidos": 1,
      "en_juego": "Wrangel Vision",
      "en_juego_rival": "",
-     "dia": 4,
+     "dia": 5,
      "dia_exacto": false,
      "desde": 1795122168,
      "fase": "derrota",
@@ -12156,16 +12159,17 @@
      "ini": 1795122168,
      "pend": null,
      "exacto": false,
-     "dia": 4,
+     "dia": 5,
      "res": [
+      "?",
       "?"
      ],
      "ref": [
       0,
       1
      ],
-     "tick": 1795285722,
-     "eval": 1795285722,
+     "tick": 1795360524,
+     "eval": 1795360524,
      "fase": "derrota",
      "res0": 2,
      "g": 0,
@@ -15631,7 +15635,7 @@
      "perdidos": 0,
      "en_juego": "Bierce Installation",
      "en_juego_rival": "Cranfield Analytics Lab",
-     "dia": 2,
+     "dia": 3,
      "dia_exacto": false,
      "desde": 1795200008,
      "fase": "disputado",
@@ -15925,14 +15929,16 @@
      "ini": 1795200008,
      "pend": null,
      "exacto": false,
-     "dia": 2,
-     "res": [],
+     "dia": 3,
+     "res": [
+      "?"
+     ],
      "ref": [
       0,
       0
      ],
-     "tick": 1795285722,
-     "eval": 1795285722,
+     "tick": 1795360524,
+     "eval": 1795360524,
      "fase": "disputado",
      "res0": 1,
      "g": 0,
@@ -16341,7 +16347,10 @@
    ],
    "rach": {},
    "rivales": [],
-   "cseg": {}
+   "cseg": {},
+   "rutas": {
+    "2026-11-22": 1
+   }
   },
   "Tascheter Sector CG-X b1-1": {
    "sys": "Tascheter Sector CG-X b1-1",
@@ -28070,12 +28079,12 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795370864.998324,
-  "msgs": 3719609,
-  "mios": 360
+  "ultimo": 1795372861.3150837,
+  "msgs": 3740608,
+  "mios": 361
  },
- "t": 1795371931.65695,
- "tick_global": 1795285722,
+ "t": 1795372864.4992006,
+ "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
    "pos": [
@@ -28127,7 +28136,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795308481
+   "t": 1795372412
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -28829,7 +28838,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795366778
+   "t": 1795372748
   },
   "LTT 740": {
    "pos": [
@@ -29646,9 +29655,9 @@
    "ly": 4.9,
    "junto": "Tascheter Sector BQ-Y c27",
    "nfac": 5,
-   "pob": 138740,
+   "pob": 138944,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795273375
+   "t": 1795372913
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -29906,9 +29915,9 @@
    "ly": 18.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 75096952,
+   "pob": 75100275,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795168409
+   "t": 1795372060
   },
   "Tascheter Sector AA-Z b4": {
    "pos": [
@@ -31429,7 +31438,7 @@
    "nfac": 6,
    "pob": 910547,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795317402
+   "t": 1795372256
   },
   "Crucis Sector HB-X b1-5": {
    "pos": [
@@ -31947,9 +31956,9 @@
    "ly": 17.8,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 4,
-   "pob": 2162908,
+   "pob": 2163595,
    "ctrl_n": "East India Company",
-   "t": 1795318765
+   "t": 1795372336
   },
   "LHS 1651": {
    "pos": [
@@ -35568,7 +35577,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795273375
+   "t": 1795372913
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -35866,13 +35875,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.046371,
+   "prog": 0.056117,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795168409
+   "t": 1795372060
   },
   "Tascheter Sector FR-M a7-1": {
    "pos": [
@@ -36194,7 +36203,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.381866,
+   "prog": 0.381861,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -36202,7 +36211,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795366778
+   "t": 1795372748
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -37549,7 +37558,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795308481
+   "t": 1795372412
   },
   "Onyaksas": {
    "pos": [
@@ -39908,13 +39917,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.256718,
+   "prog": 0.257966,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795317402
+   "t": 1795372256
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -40752,12 +40761,12 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.25475,
+   "prog": 0.254753,
    "pots": [
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795215206
+   "t": 1795372238
   },
   "HIP 37162": {
    "pos": [
@@ -43489,7 +43498,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795369698
+   "t": 1795372307
   },
   "Audumasi": {
    "pos": [
@@ -43627,14 +43636,14 @@
    ],
    "pot": "Zemina Torval",
    "est": "Fortified",
-   "prog": 0.155077,
+   "prog": 0.155066,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795295460
+   "t": 1795372858
   },
   "Yin Sector YZ-Y b3": {
    "pos": [
@@ -44295,7 +44304,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795318765
+   "t": 1795372336
   },
   "Ceti Sector AV-Y c17": {
    "pos": [
@@ -45238,6 +45247,41 @@
     "Zemina Torval"
    ],
    "t": 1795370612
+  },
+  "EGM 762": {
+   "pos": [
+    12.375,
+    -79.1875,
+    -3.59375
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.258641,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Yuri Grom",
+    "Zemina Torval"
+   ],
+   "t": 1795371683
+  },
+  "Chicoana": {
+   "pos": [
+    -35,
+    -23.21875,
+    -110.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795372773
   }
  },
  "rivales": {

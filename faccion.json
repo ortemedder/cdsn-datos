@@ -4941,23 +4941,23 @@
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
-   "t": 1795282314,
+   "t": 1795323750,
    "src": "EDDN",
-   "inf": 14.84,
+   "inf": 13.2,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "LP 254-40 Co",
-   "segunda_inf": 48.65,
+   "segunda_inf": 43.2,
    "conflictos": [],
    "todas": [
     {
      "n": "LP 254-40 Co",
-     "inf": 48.65,
+     "inf": 43.2,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -4966,7 +4966,7 @@
     },
     {
      "n": "LP 254-27 Free",
-     "inf": 19.26,
+     "inf": 18.2,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -4975,18 +4975,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 14.84,
-     "gov": "Democracy",
-     "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion"
-     ],
-     "jug": null
-    },
-    {
-     "n": "THE AZGHARIE",
-     "inf": 10.83,
+     "inf": 13.2,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -4996,8 +4985,32 @@
      "jug": null
     },
     {
+     "n": "THE AZGHARIE",
+     "inf": 9.3,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [
+      "Election"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Flotta Stellare",
+     "inf": 9.3,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [
+      "Election"
+     ],
+     "jug": null
+    },
+    {
      "n": "Haraka Incorporated",
-     "inf": 6.42,
+     "inf": 6.8,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -5039,33 +5052,34 @@
     "2026-11-14": 2,
     "2026-11-15": 1,
     "2026-11-19": 2,
-    "2026-11-21": 3
+    "2026-11-21": 3,
+    "2026-11-22": 1
    },
    "tk": {
-    "firma": "b61f7c67",
-    "igual": 1795282314
+    "firma": "ae8379ce",
+    "igual": 1795323750,
+    "ult": 1795323750,
+    "desde": 1795282314,
+    "vent": [
+     [
+      1795282314,
+      1795323750
+     ]
+    ],
+    "est": null
    },
    "saltos": {
     "1795093200": 1,
     "1795096800": 1,
-    "1795280400": 1
+    "1795280400": 1,
+    "1795323600": 1
    },
    "rutas": {
     "2026-11-19": 2,
     "2026-11-20": 2,
-    "2026-11-21": 1
+    "2026-11-21": 1,
+    "2026-11-22": 1
    },
-   "prev": null,
-   "prev_t": null,
-   "hinf": [
-    [
-     1794381591,
-     14.84
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
-   "cseg": {},
    "estaciones": {
     "Kimura City": {
      "f": "LP 254-40 Co",
@@ -5223,7 +5237,34 @@
       "barato": []
      }
     }
-   }
+   },
+   "prev": 14.84,
+   "prev_t": 1795282314,
+   "hinf": [
+    [
+     1794381591,
+     14.84
+    ],
+    [
+     1795323750,
+     13.2
+    ]
+   ],
+   "rach": {
+    "LP 254-40 Co": 0,
+    "LP 254-27 Free": 0,
+    "Caballeros de Sion": 0,
+    "THE AZGHARIE": 0,
+    "Flotta Stellare": 0,
+    "Haraka Incorporated": 1
+   },
+   "rivales": [],
+   "tick_ult": 1795323750,
+   "tick_marg": 345,
+   "tick_prox": 1795389360,
+   "tick_disp": 345,
+   "tick_n": 0,
+   "cseg": {}
   },
   "BD+34 1378": {
    "sys": "BD+34 1378",
@@ -27380,11 +27421,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795316739.9215107,
-  "msgs": 2919945,
-  "mios": 282
+  "ultimo": 1795323751.170488,
+  "msgs": 2928602,
+  "mios": 283
  },
- "t": 1795323091.2598367,
+ "t": 1795323752.3771613,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27502,7 +27543,7 @@
    "nfac": 4,
    "pob": 1998023,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795297316
+   "t": 1795323724
   },
   "Dakvar": {
    "pos": [
@@ -31129,7 +31170,7 @@
    "nfac": 3,
    "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795321622
+   "t": 1795323323
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -33129,9 +33170,9 @@
    "ly": 12.1,
    "junto": "Kalenile",
    "nfac": 3,
-   "pob": 83755887,
+   "pob": 84053437,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795288477
+   "t": 1795323704
   },
   "Cemplatui": {
    "pos": [
@@ -33379,6 +33420,19 @@
    "pob": 248521,
    "ctrl_n": "Clan of Nidarijedi",
    "t": 1795314660
+  },
+  "Ceti Sector AV-Y c17": {
+   "pos": [
+    14.09375,
+    -74.625,
+    -25.96875
+   ],
+   "ly": 17.4,
+   "junto": "Epsilon Sculptoris",
+   "nfac": 3,
+   "pob": 2182830,
+   "ctrl_n": "East India Company",
+   "t": 1795323052
   }
  },
  "codice": [
@@ -36298,7 +36352,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795297316
+   "t": 1795323724
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -38090,7 +38144,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795321622
+   "t": 1795323323
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -39206,7 +39260,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795227792
+   "t": 1795323009
   },
   "BD+40 1697": {
    "pos": [
@@ -41925,7 +41979,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795282314
+   "t": 1795323750
   },
   "9 Aurigae": {
    "pos": [
@@ -42182,7 +42236,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795288477
+   "t": 1795323704
   },
   "Purungkat": {
    "pos": [
@@ -43277,6 +43331,23 @@
     "Pranav Antal"
    ],
    "t": 1795318765
+  },
+  "Ceti Sector AV-Y c17": {
+   "pos": [
+    14.09375,
+    -74.625,
+    -25.96875
+   ],
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.143998,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795323052
   }
  },
  "rivales": {

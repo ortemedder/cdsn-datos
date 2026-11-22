@@ -3951,7 +3951,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1795347707,
+   "t": 1795351683,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -4021,8 +4021,8 @@
    "pp": {
     "pot": "Pranav Antal",
     "est": "Exploited",
-    "prog": 0.263881,
-    "ref": 0,
+    "prog": 0.264066,
+    "ref": 65,
     "soc": 441,
     "pots": [
      "Denton Patreus",
@@ -4042,11 +4042,11 @@
     "2026-11-17": 1,
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-22": 5
+    "2026-11-22": 6
    },
    "tk": {
     "firma": "60db3419",
-    "igual": 1795347707,
+    "igual": 1795351683,
     "ult": 1794922802,
     "desde": 1794866949,
     "est": null,
@@ -4062,19 +4062,20 @@
     "1794920400": 1,
     "1795118400": 1,
     "1795168800": 1,
-    "1795345200": 2
+    "1795345200": 2,
+    "1795348800": 1
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 2
+    "2026-11-22": 3
    },
    "estaciones": {
     "Kinsey Town": {
      "f": "Guardians of Tranquillity",
      "tipo": "Coriolis",
-     "t": 1795348201,
+     "t": 1795351816,
      "estado": "",
      "ls": 14,
      "pads": {
@@ -4085,7 +4086,7 @@
      "mid": 4213231363,
      "atq": {
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -13994,7 +13995,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 25
+    "2026-11-22": 26
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14985,6 +14986,26 @@
      },
      "neg": {
       "Distance": 2
+     }
+    },
+    "Planetary Construction Site: Perets Outpost": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795351377,
+     "estado": "",
+     "ls": 49936,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4405282307,
+     "mer": {
+      "t": 1795351384,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -27735,7 +27756,7 @@
   },
   "Pegasi Sector YU-X b1-2": {
    "sys": "Pegasi Sector YU-X b1-2",
-   "t": 1795349156,
+   "t": 1795351307,
    "src": "EDDN",
    "inf": 10.11,
    "ctrl": false,
@@ -27822,23 +27843,23 @@
     ]
    },
    "trafico": {
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "tk": {
     "firma": "3c1be4ac",
-    "igual": 1795349156
+    "igual": 1795351307
    },
    "saltos": {
-    "1795348800": 1
+    "1795348800": 2
    },
    "rutas": {
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "estaciones": {
     "Mangold Gateway": {
      "f": "Guardians of Harmony",
      "tipo": "Coriolis",
-     "t": 1795349353,
+     "t": 1795351502,
      "estado": "",
      "ls": 184,
      "pads": {
@@ -27848,7 +27869,7 @@
      },
      "mid": 4227106051,
      "mer": {
-      "t": 1795349360,
+      "t": 1795351509,
       "n": 53,
       "vende": [
        {
@@ -27926,7 +27947,7 @@
       ]
      },
      "mods": 146,
-     "mods_t": 1795349360,
+     "mods_t": 1795351509,
      "naves": [
       "adder",
       "cobramkiii",
@@ -27936,10 +27957,10 @@
       "sidewinder",
       "type6"
      ],
-     "naves_t": 1795349360,
+     "naves_t": 1795351509,
      "atq": {
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -27960,11 +27981,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795349853.6084857,
-  "msgs": 3264709,
-  "mios": 313
+  "ultimo": 1795351690.084691,
+  "msgs": 3279392,
+  "mios": 315
  },
- "t": 1795351194.9984667,
+ "t": 1795351826.9339194,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28745,7 +28766,7 @@
    "nfac": 3,
    "pob": 175759852,
    "ctrl_n": "The Fatherhood",
-   "t": 1795348643
+   "t": 1795351707
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -32489,7 +32510,7 @@
    "nfac": 3,
    "pob": 2047728,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1795348385
+   "t": 1795351578
   },
   "Col 285 Sector RD-T a33-3": {
    "pos": [
@@ -35469,13 +35490,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Exploited",
-   "prog": 0.263881,
+   "prog": 0.264066,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795347707
+   "t": 1795351683
   },
   "StKM 1-442": {
    "pos": [
@@ -35885,7 +35906,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795348385
+   "t": 1795351578
   },
   "Col 285 Sector YZ-U b17-3": {
    "pos": [
@@ -38067,7 +38088,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795347246
+   "t": 1795351768
   },
   "Bhumian Ku": {
    "pos": [
@@ -43254,7 +43275,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795350448
+   "t": 1795351707
   },
   "Audumasi": {
    "pos": [
@@ -44559,7 +44580,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795349156
+   "t": 1795351307
   },
   "Tascheter Sector HM-M a7-1": {
    "pos": [

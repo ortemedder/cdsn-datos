@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 10
+    "2026-11-22": 11
    },
    "zc": [
     {
@@ -27636,10 +27636,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795329677.7812877,
-  "msgs": 2988683,
+  "msgs": 2997441,
   "mios": 286
  },
- "t": 1795330279.8803275,
+ "t": 1795331310.9973345,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28797,7 +28797,7 @@
    "nfac": 5,
    "pob": 4328269,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795294643
+   "t": 1795330516
   },
   "Hyades Sector QU-N b7-1": {
    "pos": [
@@ -31254,7 +31254,7 @@
    "nfac": 6,
    "pob": 7217090,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795202162
+   "t": 1795331301
   },
   "Capa": {
    "pos": [
@@ -33712,6 +33712,19 @@
    "pob": 14269201,
    "ctrl_n": "Guardians of Harmony",
    "t": 1795330235
+  },
+  "HIP 117184": {
+   "pos": [
+    -194.21875,
+    -77.6875,
+    -71.34375
+   ],
+   "ly": 19.3,
+   "junto": "Pegasi Sector YU-X b1-2",
+   "nfac": 3,
+   "pob": 121603950,
+   "ctrl_n": "Guardians of Harmony",
+   "t": 1795330959
   }
  },
  "codice": [
@@ -37677,7 +37690,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795294643
+   "t": 1795330516
   },
   "Tascheter Sector GR-M a7-1": {
    "pos": [
@@ -39125,13 +39138,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Fortified",
-   "prog": 0.25472,
+   "prog": 0.251529,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795202162
+   "t": 1795331301
   },
   "Tascheter Sector AA-Z b3": {
    "pos": [

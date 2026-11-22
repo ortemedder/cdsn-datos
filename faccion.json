@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 18
+    "2026-11-22": 19
    },
    "zc": [
     {
@@ -3956,7 +3956,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1795354086,
+   "t": 1795355047,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -4047,11 +4047,11 @@
     "2026-11-17": 1,
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-22": 9
+    "2026-11-22": 12
    },
    "tk": {
     "firma": "60db3419",
-    "igual": 1795354086,
+    "igual": 1795355047,
     "ult": 1794922802,
     "desde": 1794866949,
     "est": null,
@@ -4069,19 +4069,19 @@
     "1795168800": 1,
     "1795345200": 2,
     "1795348800": 1,
-    "1795352400": 2
+    "1795352400": 3
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 5
+    "2026-11-22": 6
    },
    "estaciones": {
     "Kinsey Town": {
      "f": "Guardians of Tranquillity",
      "tipo": "Coriolis",
-     "t": 1795354145,
+     "t": 1795355382,
      "estado": "",
      "ls": 14,
      "pads": {
@@ -4092,7 +4092,7 @@
      "mid": 4213231363,
      "atq": {
       "2026-11-22": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      }
@@ -12221,36 +12221,25 @@
   },
   "Parrot's Head Sector DQ-Y c9": {
    "sys": "Parrot's Head Sector DQ-Y c9",
-   "t": 1794994630,
+   "t": 1795355625,
    "src": "EDDN",
-   "inf": 49.8,
+   "inf": 50.2,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "The Fatherhood",
-   "segunda_inf": 39.3,
+   "segunda_inf": 39.0,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 49.8,
+     "inf": 50.2,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
-      "Expansion"
-     ],
-     "jug": null
-    },
-    {
-     "n": "The Fatherhood",
-     "inf": 39.3,
-     "gov": "Democracy",
-     "alg": "Federation",
      "act": [
       "Expansion"
      ],
@@ -12258,12 +12247,25 @@
      "jug": null
     },
     {
+     "n": "The Fatherhood",
+     "inf": 39.0,
+     "gov": "Democracy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
      "n": "The Dukes of Mikunn",
-     "inf": 10.9,
+     "inf": 10.8,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     }
    ],
@@ -12274,7 +12276,7 @@
     960.875
    ],
    "sis": {
-    "pob": 4382083,
+    "pob": 4402251,
     "eco": "$economy_Industrial;",
     "eco2": "$economy_Extraction;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -12295,7 +12297,8 @@
     "2026-11-15": 9,
     "2026-11-16": 15,
     "2026-11-17": 4,
-    "2026-11-18": 7
+    "2026-11-18": 7,
+    "2026-11-22": 2
    },
    "pn": {
     "H2J-72G": {
@@ -12304,19 +12307,21 @@
     }
    },
    "tk": {
-    "firma": "acd93d60",
-    "igual": 1794994630,
-    "ult": 1794934637,
-    "desde": 1794855731,
+    "firma": "e7624403",
+    "igual": 1795355625,
+    "ult": 1795355625,
+    "desde": 1794994630,
     "est": null
    },
    "saltos": {
     "1794931200": 1,
-    "1794992400": 2
+    "1794992400": 2,
+    "1795352400": 1
    },
    "rutas": {
     "2026-11-17": 2,
-    "2026-11-18": 2
+    "2026-11-18": 2,
+    "2026-11-22": 2
    },
    "estaciones": {
     "Adama Botanical Biosphere": {
@@ -12652,8 +12657,8 @@
      }
     }
    },
-   "prev": 48.4,
-   "prev_t": 1794855731,
+   "prev": 49.8,
+   "prev_t": 1794994630,
    "hinf": [
     [
      1794322561,
@@ -12662,16 +12667,21 @@
     [
      1794934637,
      49.8
+    ],
+    [
+     1795355625,
+     50.2
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 1,
+    "Caballeros de Sion": 2,
     "The Fatherhood": 0,
     "The Dukes of Mikunn": 0
    },
    "rivales": [],
-   "tick_ult": 1794934637,
-   "tick_marg": 657
+   "tick_ult": 1795355625,
+   "tick_marg": 3008,
+   "cseg": {}
   },
   "NN 3365": {
    "sys": "NN 3365",
@@ -14001,7 +14011,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 30
+    "2026-11-22": 34
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14414,7 +14424,7 @@
     "Dawnswatch": {
      "f": "The Fatherhood",
      "tipo": "Coriolis",
-     "t": 1795354424,
+     "t": 1795355273,
      "estado": "",
      "ls": 49820,
      "pads": {
@@ -14424,7 +14434,7 @@
      },
      "mid": 4402758403,
      "mer": {
-      "t": 1795354435,
+      "t": 1795355284,
       "n": 355,
       "vende": [
        {
@@ -14514,7 +14524,7 @@
       ]
      },
      "mods": 903,
-     "mods_t": 1795354431,
+     "mods_t": 1795355280,
      "naves": [
       "adder",
       "anaconda",
@@ -14556,7 +14566,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795354431,
+     "naves_t": 1795355280,
      "atq": {
       "2026-11-18": {
        "ok": 1,
@@ -14567,7 +14577,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 3,
+       "ok": 4,
        "no": 1
       }
      },
@@ -15010,6 +15020,32 @@
      "mer": {
       "t": 1795351384,
       "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
+    },
+    "Planetary Construction Site: Port Guargrad": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795354936,
+     "estado": "",
+     "ls": 49936,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4405282307,
+     "mer": {
+      "t": 1795354944,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
@@ -27995,11 +28031,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795354206.3986504,
-  "msgs": 3325749,
-  "mios": 321
+  "ultimo": 1795355627.7084281,
+  "msgs": 3343119,
+  "mios": 323
  },
- "t": 1795354604.4070475,
+ "t": 1795355708.0521483,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28154,9 +28190,9 @@
    "ly": 17.6,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 1558064,
+   "pob": 1559135,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795200447
+   "t": 1795355452
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -28780,7 +28816,7 @@
    "nfac": 3,
    "pob": 175759852,
    "ctrl_n": "The Fatherhood",
-   "t": 1795351707
+   "t": 1795354901
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -29625,7 +29661,7 @@
    "nfac": 5,
    "pob": 108070982,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795291099
+   "t": 1795355507
   },
   "Fimbulwinter": {
    "pos": [
@@ -35360,7 +35396,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795291099
+   "t": 1795355507
   },
   "Tascheter Sector ZZ-Y b4": {
    "pos": [
@@ -35426,7 +35462,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795350676
+   "t": 1795355350
   },
   "Hyades Sector IC-U c3-8": {
    "pos": [
@@ -35536,7 +35572,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795354086
+   "t": 1795355047
   },
   "StKM 1-442": {
    "pos": [
@@ -39757,7 +39793,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795200447
+   "t": 1795355452
   },
   "Esuvit": {
    "pos": [
@@ -41918,7 +41954,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795301617
+   "t": 1795270919
   },
   "Lati": {
    "pos": [
@@ -43297,7 +43333,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795351707
+   "t": 1795354964
   },
   "Audumasi": {
    "pos": [
@@ -43425,7 +43461,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795298214
+   "t": 1795354769
   },
   "SPOCS 253": {
    "pos": [
@@ -44668,6 +44704,21 @@
     "Zemina Torval"
    ],
    "t": 1795353312
+  },
+  "Tailla": {
+   "pos": [
+    -50.40625,
+    79.6875,
+    -132.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795355077
   }
  },
  "rivales": {

@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 15
+    "2026-11-22": 16
    },
    "zc": [
     {
@@ -3951,7 +3951,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1795346547,
+   "t": 1795347707,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -4042,11 +4042,11 @@
     "2026-11-17": 1,
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-22": 2
+    "2026-11-22": 5
    },
    "tk": {
     "firma": "60db3419",
-    "igual": 1795346547,
+    "igual": 1795347707,
     "ult": 1794922802,
     "desde": 1794866949,
     "est": null,
@@ -4062,13 +4062,34 @@
     "1794920400": 1,
     "1795118400": 1,
     "1795168800": 1,
-    "1795345200": 1
+    "1795345200": 2
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 1
+    "2026-11-22": 2
+   },
+   "estaciones": {
+    "Kinsey Town": {
+     "f": "Guardians of Tranquillity",
+     "tipo": "Coriolis",
+     "t": 1795348201,
+     "estado": "",
+     "ls": 14,
+     "pads": {
+      "Small": 6,
+      "Medium": 11,
+      "Large": 4
+     },
+     "mid": 4213231363,
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
+    }
    },
    "prev": null,
    "prev_t": null,
@@ -4090,22 +4111,7 @@
    "tick_prox": 1794981240,
    "tick_disp": 465,
    "tick_n": 0,
-   "cseg": {},
-   "estaciones": {
-    "Kinsey Town": {
-     "f": "Guardians of Tranquillity",
-     "tipo": "Coriolis",
-     "t": 1795346735,
-     "estado": "",
-     "ls": 14,
-     "pads": {
-      "Small": 6,
-      "Medium": 11,
-      "Large": 4
-     },
-     "mid": 4213231363
-    }
-   }
+   "cseg": {}
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -9241,34 +9247,32 @@
   },
   "Ryujingit": {
    "sys": "Ryujingit",
-   "t": 1795096518,
+   "t": 1795347650,
    "src": "EDDN",
    "inf": 8.67,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Flotta Stellare",
-   "segunda_inf": 58.17,
+   "segunda_inf": 58.03,
    "conflictos": [],
    "todas": [
     {
      "n": "Flotta Stellare",
-     "inf": 58.17,
+     "inf": 58.03,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Ryujingit Confederation",
-     "inf": 13.65,
+     "inf": 13.76,
      "gov": "Confederacy",
      "alg": "Federation",
      "act": [],
@@ -9280,15 +9284,15 @@
      "inf": 8.67,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "Lords of Ryujingit",
-     "inf": 6.57,
+     "inf": 6.58,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -9306,7 +9310,7 @@
     },
     {
      "n": "Blue Allied Partners",
-     "inf": 4.58,
+     "inf": 4.59,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -9353,14 +9357,19 @@
     "2026-11-10": 1,
     "2026-11-15": 1,
     "2026-11-16": 2,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-22": 1
    },
    "tk": {
-    "firma": "5026b8eb",
-    "igual": 1795096518
+    "firma": "8781b73b",
+    "igual": 1795347650,
+    "ult": 1795347650,
+    "desde": 1795096518,
+    "est": null
    },
    "saltos": {
-    "1795093200": 1
+    "1795093200": 1,
+    "1795345200": 1
    },
    "rutas": {
     "2026-11-18": 1,
@@ -9383,8 +9392,19 @@
      8.67
     ]
    ],
-   "rach": {},
-   "rivales": []
+   "rach": {
+    "Flotta Stellare": 0,
+    "Ryujingit Confederation": 1,
+    "Caballeros de Sion": 0,
+    "Lords of Ryujingit": 0,
+    "Bero Confederation": 0,
+    "Blue Allied Partners": 0,
+    "Ryujingit Silver Hand Gang": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795347650,
+   "tick_marg": 2092,
+   "cseg": {}
   },
   "Hyades Sector JX-T c3-13": {
    "sys": "Hyades Sector JX-T c3-13",
@@ -13883,7 +13903,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795346004,
+   "t": 1795347684,
    "src": "EDDN",
    "inf": 19.4,
    "ctrl": false,
@@ -13973,11 +13993,11 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 18
+    "2026-11-22": 21
    },
    "tk": {
     "firma": "07fff6cc",
-    "igual": 1795346004,
+    "igual": 1795347684,
     "ult": 1795337888,
     "desde": 1795296668,
     "vent": [
@@ -14020,7 +14040,7 @@
     "1795287600": 1,
     "1795294800": 1,
     "1795341600": 2,
-    "1795345200": 1
+    "1795345200": 2
    },
    "rutas": {
     "2026-11-17": 20,
@@ -14939,20 +14959,20 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795346997,
+     "t": 1795348451,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795347004,
-      "n": 0,
+      "t": 1795348458,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 7,
+       "ok": 8,
        "no": 2
       }
      },
@@ -27920,11 +27940,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795346551.1801438,
-  "msgs": 3207149,
-  "mios": 308
+  "ultimo": 1795347712.1780791,
+  "msgs": 3221496,
+  "mios": 311
  },
- "t": 1795347556.569589,
+ "t": 1795348469.029148,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28497,7 +28517,7 @@
    "nfac": 3,
    "pob": 318438,
    "ctrl_n": "East India Company",
-   "t": 1795347128
+   "t": 1795347668
   },
   "LTT 751": {
    "pos": [
@@ -28874,7 +28894,7 @@
    "nfac": 5,
    "pob": 3082441,
    "ctrl_n": "East India Company",
-   "t": 1795276426
+   "t": 1795348367
   },
   "LP 834-42": {
    "pos": [
@@ -30850,7 +30870,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795290026
+   "t": 1795348273
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -32449,7 +32469,7 @@
    "nfac": 3,
    "pob": 2047728,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1795347006
+   "t": 1795348385
   },
   "Col 285 Sector RD-T a33-3": {
    "pos": [
@@ -35193,7 +35213,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795347128
+   "t": 1795347668
   },
   "Crowfor": {
    "pos": [
@@ -35435,7 +35455,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795346547
+   "t": 1795347707
   },
   "StKM 1-442": {
    "pos": [
@@ -35845,7 +35865,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795347006
+   "t": 1795348385
   },
   "Col 285 Sector YZ-U b17-3": {
    "pos": [
@@ -36367,7 +36387,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795290026
+   "t": 1795348273
   },
   "NLTT 8234": {
    "pos": [
@@ -36748,7 +36768,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795218075
+   "t": 1795347652
   },
   "Mandra": {
    "pos": [
@@ -37357,7 +37377,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795337883
+   "t": 1795348388
   },
   "Trianguli Sector FM-V b2-7": {
    "pos": [
@@ -38341,7 +38361,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795283948
+   "t": 1795348042
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -39834,13 +39854,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.259057,
+   "prog": 0.25908,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795276426
+   "t": 1795348367
   },
   "Col 285 Sector VJ-R a34-2": {
    "pos": [
@@ -44490,6 +44510,22 @@
     "Li Yong-Rui"
    ],
    "t": 1795347549
+  },
+  "Ryujingit": {
+   "pos": [
+    18.75,
+    -2.21875,
+    -86.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795347650
   }
  },
  "rivales": {

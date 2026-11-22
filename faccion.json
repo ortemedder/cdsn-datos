@@ -7470,12 +7470,12 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 5
+    "2026-11-22": 17
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795305911,
+     "t": 1795306091,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -7579,12 +7579,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795305705,
+     "t": 1795306358,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795305727,
+      "t": 1795306371,
       "n": 366,
       "vende": [
        {
@@ -7603,12 +7603,12 @@
         "d": 30771
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 449565,
         "d": 769233
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 449565,
         "d": 769233
        }
@@ -7677,6 +7677,10 @@
       "2026-11-21": {
        "ok": 65,
        "no": 5
+      },
+      "2026-11-22": {
+       "ok": 2,
+       "no": 0
       }
      },
      "pads": {
@@ -7729,13 +7733,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795305485,
+     "naves_t": 1795306365,
      "neg": {
       "Distance": 9,
       "Offences": 1
      },
      "mods": 897,
-     "mods_t": 1795305485
+     "mods_t": 1795306365
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8675,11 +8679,11 @@
     "Lordnelson's Inheritance": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795303254,
+     "t": 1795306799,
      "estado": "",
      "ls": 87195,
      "pads": {
-      "Small": 13,
+      "Small": 14,
       "Medium": 15,
       "Large": 8
      },
@@ -8687,10 +8691,12 @@
      "naves": [
       "adder",
       "anaconda",
+      "anacondamkii",
       "asp",
       "asp_scout",
       "belugaliner",
       "cobramkiii",
+      "cobramkiv",
       "cobramkv",
       "corsair",
       "diamondback",
@@ -8729,18 +8735,22 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795303260,
+     "naves_t": 1795306805,
      "mods": 930,
-     "mods_t": 1795303260,
+     "mods_t": 1795306805,
      "atq": {
       "2026-11-21": {
        "ok": 6,
        "no": 0
+      },
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
       }
      },
      "mer": {
-      "t": 1795303260,
-      "n": 160,
+      "t": 1795306872,
+      "n": 366,
       "vende": [
        {
         "n": "monazite",
@@ -8858,7 +8868,7 @@
     "Orbital Construction Site: Shawl Horizons": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795305239,
+     "t": 1795306725,
      "estado": "",
      "ls": 1575,
      "pads": {
@@ -8868,8 +8878,8 @@
      },
      "mid": 3957542658,
      "mer": {
-      "t": 1795305245,
-      "n": 2,
+      "t": 1795306732,
+      "n": 4,
       "vende": [],
       "alta": [],
       "barato": []
@@ -8880,10 +8890,43 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      }
+    },
+    "Orbital Construction Site: Riemann Relay": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795306267,
+     "estado": "",
+     "ls": 1990,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3957536514,
+     "mer": {
+      "t": 1795306274,
+      "n": 0,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     }
+    },
+    "Orbital Construction Site: Payne-Scott Point": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795306894,
+     "estado": "",
+     "ls": 1572,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3957544962
     }
    },
    "prev": 87.72,
@@ -11341,11 +11384,11 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795304381,
+   "t": 1795306397,
    "src": "EDDN",
    "inf": 59.88,
    "ctrl": true,
-   "estado": "Expansion",
+   "estado": "None",
    "activos": [],
    "pendientes": [
     "Expansion"
@@ -11434,12 +11477,13 @@
     "2026-11-17": 14,
     "2026-11-18": 3,
     "2026-11-20": 39,
-    "2026-11-21": 5
+    "2026-11-21": 5,
+    "2026-11-22": 3
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1795304523,
+     "t": 1795306543,
      "d": 1794919881
     },
     "V0Z-T1Q": {
@@ -11448,13 +11492,13 @@
     },
     "TNJ-39Z": {
      "n": "CARGO-PRIME",
-     "t": 1795304523,
+     "t": 1795306543,
      "d": 1795304381
     }
    },
    "tk": {
     "firma": "f62c872b",
-    "igual": 1795304381,
+    "igual": 1795306397,
     "ult": 1795304381,
     "desde": 1795217809,
     "est": null,
@@ -11490,13 +11534,15 @@
     "1795190400": 1,
     "1795194000": 1,
     "1795201200": 1,
-    "1795302000": 1
+    "1795302000": 1,
+    "1795305600": 1
    },
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
     "2026-11-20": 9,
-    "2026-11-21": 1
+    "2026-11-21": 1,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Piel City": {
@@ -11703,7 +11749,7 @@
     "Orbital Construction Site: Constantine's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795304613,
+     "t": 1795306635,
      "estado": "",
      "ls": 719,
      "pads": {
@@ -11713,8 +11759,8 @@
      },
      "mid": 3965873922,
      "mer": {
-      "t": 1795304619,
-      "n": 8,
+      "t": 1795306641,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
@@ -11725,6 +11771,10 @@
        "no": 0
       },
       "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      },
+      "2026-11-22": {
        "ok": 1,
        "no": 0
       }
@@ -27141,11 +27191,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795305912.472935,
-  "msgs": 2706023,
-  "mios": 276
+  "ultimo": 1795306398.4546123,
+  "msgs": 2720081,
+  "mios": 277
  },
- "t": 1795306044.6766565,
+ "t": 1795306959.0375245,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28511,7 +28561,7 @@
    "nfac": 6,
    "pob": 7797550,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795304515
+   "t": 1795306202
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -29029,9 +29079,9 @@
    "ly": 4.5,
    "junto": "Hyades Sector UP-N b7-6",
    "nfac": 5,
-   "pob": 154950,
+   "pob": 155114,
    "ctrl_n": "The Freedom Flotilla",
-   "t": 1794992827
+   "t": 1795306350
   },
   "Ceti Sector EW-V b2-5": {
    "pos": [
@@ -29109,7 +29159,7 @@
    "nfac": 6,
    "pob": 6910144,
    "ctrl_n": "Bakara Empire Party",
-   "t": 1795193786
+   "t": 1795306392
   },
   "Col 285 Sector AH-J b10-5": {
    "pos": [
@@ -29967,7 +30017,7 @@
    "nfac": 3,
    "pob": 340552845,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795269679
+   "t": 1795306954
   },
   "Col 285 Sector TD-T a33-1": {
    "pos": [
@@ -30823,9 +30873,9 @@
    "ly": 12.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 448416,
+   "pob": 448440,
    "ctrl_n": "East India Company",
-   "t": 1795228953
+   "t": 1795306120
   },
   "HIP 11324": {
    "pos": [
@@ -32515,7 +32565,7 @@
    "nfac": 6,
    "pob": 250206,
    "ctrl_n": "Aseveljet",
-   "t": 1795240633
+   "t": 1795306923
   },
   "Apisina": {
    "pos": [
@@ -34654,7 +34704,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795269679
+   "t": 1795306954
   },
   "ICZ CF-Z b4": {
    "pos": [
@@ -35547,7 +35597,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795300985
+   "t": 1795306205
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -35729,7 +35779,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795193786
+   "t": 1795306392
   },
   "Jeticans": {
    "pos": [
@@ -37193,7 +37243,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795304381
+   "t": 1795306397
   },
   "Ethli": {
    "pos": [
@@ -37402,7 +37452,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795304515
+   "t": 1795306202
   },
   "Lyncis Sector ZE-R b4-1": {
    "pos": [
@@ -37655,7 +37705,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795300845
+   "t": 1795306415
   },
   "Scottii": {
    "pos": [
@@ -39547,7 +39597,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795274868
+   "t": 1795306108
   },
   "PLX 695": {
    "pos": [
@@ -40017,7 +40067,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795228953
+   "t": 1795306120
   },
   "Caerus": {
    "pos": [
@@ -40224,7 +40274,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795240633
+   "t": 1795306923
   },
   "BD+33 801": {
    "pos": [
@@ -40786,7 +40836,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795258559
+   "t": 1795306834
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -42669,6 +42719,40 @@
     "Jerome Archer"
    ],
    "t": 1795305446
+  },
+  "Alkondra": {
+   "pos": [
+    0.03125,
+    17.5625,
+    -144.53125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.124,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795306250
+  },
+  "LHS 1719": {
+   "pos": [
+    -18.8125,
+    -9.15625,
+    -108.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795306350
   }
  },
  "rivales": {

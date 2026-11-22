@@ -19707,12 +19707,12 @@
    "trafico": {
     "2026-11-18": 2,
     "2026-11-21": 4,
-    "2026-11-22": 2
+    "2026-11-22": 3
    },
    "pn": {
     "WZT-W5B": {
      "n": "Lexx",
-     "t": 1795276978,
+     "t": 1795358499,
      "d": 1795027888
     }
    },
@@ -19746,7 +19746,7 @@
     "Watts Settlement": {
      "f": "Green Party of BD+27 1356",
      "tipo": "Outpost",
-     "t": 1795269064,
+     "t": 1795358547,
      "estado": "",
      "ls": 14,
      "pads": {
@@ -19756,7 +19756,7 @@
      },
      "mid": 3228347392,
      "mer": {
-      "t": 1795269070,
+      "t": 1795358554,
       "n": 104,
       "vende": [
        {
@@ -19846,7 +19846,13 @@
       ]
      },
      "mods": 134,
-     "mods_t": 1795269070
+     "mods_t": 1795358554,
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     },
     "Quaglia Camp": {
      "f": "Lati One",
@@ -19893,7 +19899,7 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1795357309,
+   "t": 1795358685,
    "src": "EDDN",
    "inf": 15.48,
    "ctrl": false,
@@ -20004,11 +20010,11 @@
     "2026-11-14": 2,
     "2026-11-16": 3,
     "2026-11-21": 9,
-    "2026-11-22": 6
+    "2026-11-22": 8
    },
    "tk": {
     "firma": "498033e1",
-    "igual": 1795357309,
+    "igual": 1795358685,
     "ult": 1795336415,
     "desde": 1795283323,
     "est": null,
@@ -20025,11 +20031,11 @@
     "1795280400": 3,
     "1795334400": 1,
     "1795341600": 1,
-    "1795356000": 1
+    "1795356000": 2
    },
    "rutas": {
     "2026-11-21": 5,
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "estaciones": {
     "Blackman Station": {
@@ -20146,7 +20152,7 @@
     "Lem Dock": {
      "f": "Haraka Incorporated",
      "tipo": "Outpost",
-     "t": 1795344595,
+     "t": 1795358842,
      "estado": "",
      "ls": 2962,
      "pads": {
@@ -20156,7 +20162,7 @@
      },
      "mid": 3228117248,
      "mer": {
-      "t": 1795344602,
+      "t": 1795358850,
       "n": 107,
       "vende": [
        {
@@ -20251,7 +20257,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -28048,11 +28054,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795358427.4536867,
-  "msgs": 3399434,
-  "mios": 328
+  "ultimo": 1795358686.5991,
+  "msgs": 3418666,
+  "mios": 329
  },
- "t": 1795358428.8952487,
+ "t": 1795359352.291017,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28066,7 +28072,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795356446
+   "t": 1795358751
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -29132,7 +29138,7 @@
    "nfac": 4,
    "pob": 199680,
    "ctrl_n": "CROSS Corp",
-   "t": 1795356315
+   "t": 1795359034
   },
   "Tascheter Sector GR-M a7-0": {
    "pos": [
@@ -29509,7 +29515,7 @@
    "nfac": 6,
    "pob": 32286,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795283522
+   "t": 1795359345
   },
   "Col 285 Sector UT-W b16-4": {
    "pos": [
@@ -30406,7 +30412,7 @@
    "nfac": 6,
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795347048
+   "t": 1795358986
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -30898,9 +30904,9 @@
    "ly": 12.3,
    "junto": "HIP 37216",
    "nfac": 3,
-   "pob": 761158999,
+   "pob": 761735422,
    "ctrl_n": "Nagii Union",
-   "t": 1795007908
+   "t": 1795359324
   },
   "HIP 35163": {
    "pos": [
@@ -32577,7 +32583,7 @@
    "nfac": 3,
    "pob": 2047728,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1795355975
+   "t": 1795359121
   },
   "Col 285 Sector RD-T a33-3": {
    "pos": [
@@ -34952,7 +34958,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795347048
+   "t": 1795358986
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -35150,7 +35156,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795356446
+   "t": 1795358751
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -36025,7 +36031,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795355975
+   "t": 1795359121
   },
   "Col 285 Sector YZ-U b17-3": {
    "pos": [
@@ -38189,7 +38195,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795357822
+   "t": 1795359270
   },
   "Bhumian Ku": {
    "pos": [
@@ -38850,7 +38856,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795346593
+   "t": 1795358958
   },
   "Scottii": {
    "pos": [
@@ -42252,14 +42258,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.030883,
+   "prog": 0.030897,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795283522
+   "t": 1795359345
   },
   "Hyades Sector VA-M b8-2": {
    "pos": [
@@ -42311,7 +42317,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795357309
+   "t": 1795358685
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -42635,7 +42641,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795356315
+   "t": 1795359034
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -44054,7 +44060,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795310575
+   "t": 1795358702
   },
   "LTT 11383": {
    "pos": [
@@ -44839,6 +44845,21 @@
     "Jerome Archer"
    ],
    "t": 1795357464
+  },
+  "Lyncis Sector IM-V b2-3": {
+   "pos": [
+    -47.09375,
+    88.15625,
+    -146.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795359324
   }
  },
  "rivales": {

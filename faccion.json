@@ -6608,24 +6608,24 @@
     "2026-11-19": 11,
     "2026-11-20": 11,
     "2026-11-21": 31,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "zc": [
     {
-     "n": "$Warzone_PointRace_Low:#index=1;",
-     "i": "Low",
-     "t": 1795302083
-    },
-    {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795302083
+     "t": 1795335879
+    },
+    {
+     "n": "$Warzone_PointRace_Low:#index=1;",
+     "i": "Low",
+     "t": 1795335879
     }
    ],
    "pn": {
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795302083,
+     "t": 1795335879,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6635,12 +6635,12 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795302083,
+     "t": 1795335879,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795302083,
+     "t": 1795335879,
      "d": 1795166553
     }
    },
@@ -6820,9 +6820,9 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795302083,
+     "t": 1795335979,
      "estado": "",
-     "ls": 3133,
+     "ls": 3132,
      "pads": {
       "Small": 4,
       "Medium": 2,
@@ -6830,16 +6830,16 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795299256,
+      "t": 1795335986,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795302089,
+     "mods_t": 1795335986,
      "neg": {
-      "NoSpace": 21
+      "NoSpace": 22
      },
      "atq": {
       "2026-11-17": {
@@ -6860,6 +6860,10 @@
       },
       "2026-11-21": {
        "ok": 6,
+       "no": 1
+      },
+      "2026-11-22": {
+       "ok": 1,
        "no": 1
       }
      }
@@ -27674,10 +27678,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795335733.9485416,
-  "msgs": 3043848,
+  "msgs": 3052133,
   "mios": 292
  },
- "t": 1795335738.690964,
+ "t": 1795336610.632225,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -30304,7 +30308,7 @@
    "nfac": 5,
    "pob": 47363710,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795332241
+   "t": 1795336211
   },
   "Oisi": {
    "pos": [
@@ -31368,9 +31372,9 @@
    "ly": 18.4,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 5,
-   "pob": 274911967,
+   "pob": 275210057,
    "ctrl_n": "BFNF Solutions",
-   "t": 1795062941
+   "t": 1795335954
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -31927,9 +31931,9 @@
    "ly": 16.5,
    "junto": "Skang",
    "nfac": 4,
-   "pob": 1998402,
+   "pob": 1998488,
    "ctrl_n": "Maya Free",
-   "t": 1795109650
+   "t": 1795336278
   },
   "Yin Sector UT-A b1": {
    "pos": [
@@ -33815,6 +33819,19 @@
    "pob": 51444502,
    "ctrl_n": "Guardians of Harmony",
    "t": 1795334387
+  },
+  "Ceti Sector FG-X b1-3": {
+   "pos": [
+    21.09375,
+    -107.5,
+    -46.46875
+   ],
+   "ly": 15.5,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 3,
+   "pob": 1997495,
+   "ctrl_n": "East India Company",
+   "t": 1795336004
   }
  },
  "codice": [
@@ -35888,14 +35905,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.163155,
+   "prog": 0.163052,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795285033
+   "t": 1795336146
   },
   "LHS 5116": {
    "pos": [
@@ -36574,7 +36591,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795332241
+   "t": 1795336211
   },
   "LP 365-24": {
    "pos": [
@@ -37702,7 +37719,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795333768
+   "t": 1795336607
   },
   "Bhumian Ku": {
    "pos": [
@@ -40255,7 +40272,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795306108
+   "t": 1795336205
   },
   "PLX 695": {
    "pos": [
@@ -43963,6 +43980,52 @@
     "Jerome Archer"
    ],
    "t": 1795334832
+  },
+  "HIP 11324": {
+   "pos": [
+    18.84375,
+    -115.4375,
+    -44.75
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.253926,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795335954
+  },
+  "Ceti Sector FG-X b1-3": {
+   "pos": [
+    21.09375,
+    -107.5,
+    -46.46875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795336004
+  },
+  "Yin Sector YZ-Y b5": {
+   "pos": [
+    -0.15625,
+    41.9375,
+    -74.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795336278
   }
  },
  "rivales": {

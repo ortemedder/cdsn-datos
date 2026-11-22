@@ -27422,10 +27422,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795323751.170488,
-  "msgs": 2928602,
+  "msgs": 2937121,
   "mios": 283
  },
- "t": 1795323752.3771613,
+ "t": 1795324703.2323701,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -33433,6 +33433,19 @@
    "pob": 2182830,
    "ctrl_n": "East India Company",
    "t": 1795323052
+  },
+  "Hyades Sector YG-K b9-4": {
+   "pos": [
+    -58.375,
+    1.34375,
+    -83.78125
+   ],
+   "ly": 15.1,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 3,
+   "pob": 1599410,
+   "ctrl_n": "Astrobiology Research Cooperative",
+   "t": 1795232698
   }
  },
  "codice": [
@@ -41700,7 +41713,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795302664
+   "t": 1795324183
   },
   "Arietis Sector CQ-Y d58": {
    "pos": [
@@ -43348,6 +43361,22 @@
     "Zemina Torval"
    ],
    "t": 1795323052
+  },
+  "Hyades Sector YG-K b9-4": {
+   "pos": [
+    -58.375,
+    1.34375,
+    -83.78125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795232698
   }
  },
  "rivales": {

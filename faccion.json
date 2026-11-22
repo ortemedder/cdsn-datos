@@ -7604,12 +7604,12 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 98
+    "2026-11-22": 102
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795369910,
+     "t": 1795370302,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -8346,7 +8346,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795369752,
+     "t": 1795370378,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -8356,7 +8356,7 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795369820,
+      "t": 1795370412,
       "n": 366,
       "vende": [
        {
@@ -8459,7 +8459,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 6,
+       "ok": 7,
        "no": 0
       }
      }
@@ -8751,13 +8751,13 @@
     "Lordnelson's Inheritance": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795310570,
+     "t": 1795370840,
      "estado": "",
-     "ls": 87196,
+     "ls": 87197,
      "pads": {
       "Small": 13,
       "Medium": 15,
-      "Large": 8
+      "Large": 7
      },
      "mid": 4403213059,
      "naves": [
@@ -8814,97 +8814,97 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      },
      "mer": {
-      "t": 1795310629,
+      "t": 1795370918,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 728984,
-        "d": 845
-       },
-       {
-        "n": "musgravite",
-        "p": 539210,
-        "d": 1980
+        "p": 694006,
+        "d": 846
        },
        {
         "n": "iridium",
-        "p": 449565,
-        "d": 2697
+        "p": 415533,
+        "d": 2699
        },
        {
         "n": "periclasedunite",
-        "p": 449565,
-        "d": 31657
+        "p": 415533,
+        "d": 31701
        },
        {
         "n": "thortveitite",
-        "p": 449565,
-        "d": 31657
+        "p": 415533,
+        "d": 31701
+       },
+       {
+        "n": "musgravite",
+        "p": 370074,
+        "d": 1982
        }
       ],
       "alta": [
        {
         "n": "bauxite",
-        "p": 13635,
+        "p": 13203,
         "m": 1096
        },
        {
-        "n": "militarygradefabrics",
-        "p": 8329,
-        "m": 899
-       },
-       {
         "n": "lepidolite",
-        "p": 5607,
+        "p": 5392,
         "m": 741
        },
        {
-        "n": "animalmonitors",
-        "p": 3940,
-        "m": 522
+        "n": "haematite",
+        "p": 8948,
+        "m": 1791
        },
        {
-        "n": "haematite",
-        "p": 9172,
-        "m": 1791
+        "n": "rutile",
+        "p": 9916,
+        "m": 2023
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 2196,
+        "m": 502
        }
       ],
       "barato": [
        {
         "n": "water",
-        "p": 49,
+        "p": 60,
         "m": 260,
-        "s": 1257498
+        "s": 757947
        },
        {
         "n": "algae",
-        "p": 70,
+        "p": 95,
         "m": 308,
-        "s": 3006627
-       },
-       {
-        "n": "foodcartridges",
-        "p": 112,
-        "m": 252,
-        "s": 24912
+        "s": 1759465
        },
        {
         "n": "biowaste",
-        "p": 127,
+        "p": 120,
         "m": 271,
-        "s": 383311
+        "s": 219460
        },
        {
-        "n": "grain",
-        "p": 207,
-        "m": 387,
-        "s": 3109773
+        "n": "foodcartridges",
+        "p": 121,
+        "m": 252,
+        "s": 14039
+       },
+       {
+        "n": "leather",
+        "p": 252,
+        "m": 423,
+        "s": 47528
        }
       ]
      }
@@ -19853,7 +19853,7 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1795358685,
+   "t": 1795370864,
    "src": "EDDN",
    "inf": 15.48,
    "ctrl": false,
@@ -19964,11 +19964,11 @@
     "2026-11-14": 2,
     "2026-11-16": 3,
     "2026-11-21": 9,
-    "2026-11-22": 9
+    "2026-11-22": 10
    },
    "tk": {
     "firma": "498033e1",
-    "igual": 1795358685,
+    "igual": 1795370864,
     "ult": 1795336415,
     "desde": 1795283323,
     "est": null,
@@ -19985,11 +19985,12 @@
     "1795280400": 3,
     "1795334400": 1,
     "1795341600": 1,
-    "1795356000": 3
+    "1795356000": 3,
+    "1795370400": 1
    },
    "rutas": {
     "2026-11-21": 5,
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "estaciones": {
     "Blackman Station": {
@@ -28066,11 +28067,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795369753.3769233,
-  "msgs": 3676230,
-  "mios": 359
+  "ultimo": 1795370864.998324,
+  "msgs": 3698223,
+  "mios": 360
  },
- "t": 1795370135.9888897,
+ "t": 1795371059.5210252,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28539,7 +28540,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1795369490
+   "t": 1795370211
   },
   "Zephyrus": {
    "pos": [
@@ -28745,9 +28746,9 @@
    "ly": 13.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 2633918,
+   "pob": 2634011,
    "ctrl_n": "East India Company",
-   "t": 1795304007
+   "t": 1795370524
   },
   "Maiden": {
    "pos": [
@@ -29538,9 +29539,9 @@
    "ly": 9.4,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 399333,
+   "pob": 399393,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1794944549
+   "t": 1795370612
   },
   "Trianguli Sector RU-O a6-0": {
    "pos": [
@@ -29618,7 +29619,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795369014
+   "t": 1795370868
   },
   "Alpha Doradus": {
    "pos": [
@@ -30827,7 +30828,7 @@
    "nfac": 5,
    "pob": 8347,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795314724
+   "t": 1795371054
   },
   "Col 285 Sector RD-T a33-5": {
    "pos": [
@@ -30996,7 +30997,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795370124
+   "t": 1795370970
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -33414,7 +33415,7 @@
    "nfac": 5,
    "pob": 66038,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795232846
+   "t": 1795370436
   },
   "Tascheter Sector XE-Q a5-3": {
    "pos": [
@@ -36640,7 +36641,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795369014
+   "t": 1795370868
   },
   "Nogatas": {
    "pos": [
@@ -36656,7 +36657,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795370124
+   "t": 1795370970
   },
   "NLTT 8234": {
    "pos": [
@@ -36688,7 +36689,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795301294
+   "t": 1795370909
   },
   "LEHPM 1902": {
    "pos": [
@@ -37114,11 +37115,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Fortified",
-   "prog": 0.201538,
+   "prog": 0.201672,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795314724
+   "t": 1795371054
   },
   "Kareneri": {
    "pos": [
@@ -37992,7 +37993,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795369490
+   "t": 1795370211
   },
   "Arietis Sector DG-X c1-14": {
    "pos": [
@@ -38203,7 +38204,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795304007
+   "t": 1795370524
   },
   "Ininohima": {
    "pos": [
@@ -38298,7 +38299,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795369994
+   "t": 1795370914
   },
   "Bhumian Ku": {
    "pos": [
@@ -41465,7 +41466,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795232846
+   "t": 1795370436
   },
   "Tascheter Sector XE-Q a5-3": {
    "pos": [
@@ -42420,7 +42421,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795357309
+   "t": 1795370864
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -45204,6 +45205,36 @@
     "Jerome Archer"
    ],
    "t": 1795369538
+  },
+  "Guitaiku": {
+   "pos": [
+    -49.84375,
+    -13.5625,
+    -95.4375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.186281,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795370499
+  },
+  "Col 285 Sector UT-W b16-4": {
+   "pos": [
+    138.375,
+    -10.84375,
+    9.15625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795370612
   }
  },
  "rivales": {

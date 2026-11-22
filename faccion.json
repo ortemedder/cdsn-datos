@@ -7604,7 +7604,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 102
+    "2026-11-22": 107
    },
    "pn": {
     "H5L-70M": {
@@ -8346,7 +8346,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795370378,
+     "t": 1795371463,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -8356,7 +8356,7 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795370412,
+      "t": 1795371929,
       "n": 366,
       "vende": [
        {
@@ -8370,12 +8370,12 @@
         "d": 25804
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 415533,
         "d": 1230
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 415533,
         "d": 1230
        },
@@ -8439,12 +8439,15 @@
        }
       ]
      },
-     "mods": 932,
-     "mods_t": 1795368594,
+     "mods": 996,
+     "mods_t": 1795371894,
      "naves": [
-      "federation_corvette"
+      "federation_corvette",
+      "python_nx",
+      "smallcombat01_nx",
+      "type9_military"
      ],
-     "naves_t": 1795369790,
+     "naves_t": 1795371483,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -8459,7 +8462,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 7,
+       "ok": 9,
        "no": 0
       }
      }
@@ -28068,10 +28071,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795370864.998324,
-  "msgs": 3698223,
+  "msgs": 3719609,
   "mios": 360
  },
- "t": 1795371059.5210252,
+ "t": 1795371931.65695,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28163,7 +28166,7 @@
    "nfac": 6,
    "pob": 5061479,
    "ctrl_n": "East India Company",
-   "t": 1795297974
+   "t": 1795370331
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -28434,9 +28437,9 @@
    "ly": 10.9,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 218644,
+   "pob": 218654,
    "ctrl_n": "East India Company",
-   "t": 1795299581
+   "t": 1795371358
   },
   "Hyades Sector YG-K b9-3": {
    "pos": [
@@ -29619,7 +29622,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795370868
+   "t": 1795371639
   },
   "Alpha Doradus": {
    "pos": [
@@ -34195,7 +34198,7 @@
    "nfac": 4,
    "pob": 321473,
    "ctrl_n": "Maya Free",
-   "t": 1795333747
+   "t": 1795371226
   },
   "Pegasi Sector ZU-X b1-2": {
    "pos": [
@@ -36641,7 +36644,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795370868
+   "t": 1795371639
   },
   "Nogatas": {
    "pos": [
@@ -36886,7 +36889,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795299581
+   "t": 1795371358
   },
   "LTT 11655": {
    "pos": [
@@ -36919,7 +36922,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795297974
+   "t": 1795370331
   },
   "Nebthet": {
    "pos": [
@@ -38293,13 +38296,13 @@
    ],
    "pot": "Felicia Winters",
    "est": "Stronghold",
-   "prog": 0.254018,
+   "prog": 0.25468,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795370914
+   "t": 1795371545
   },
   "Bhumian Ku": {
    "pos": [
@@ -44495,7 +44498,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795333747
+   "t": 1795371226
   },
   "Pegasi Sector ZU-X b1-2": {
    "pos": [

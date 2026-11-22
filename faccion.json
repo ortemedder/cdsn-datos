@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 14
+    "2026-11-22": 15
    },
    "zc": [
     {
@@ -13938,7 +13938,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 5
+    "2026-11-22": 6
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14897,20 +14897,20 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795339155,
+     "t": 1795340542,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795339162,
-      "n": 11,
+      "t": 1795340549,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      },
@@ -27734,10 +27734,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795339039.457466,
-  "msgs": 3093921,
+  "msgs": 3106315,
   "mios": 295
  },
- "t": 1795340347.803271,
+ "t": 1795341269.8622644,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27751,7 +27751,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795337681
+   "t": 1795340700
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -27879,9 +27879,9 @@
    "ly": 11.6,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 191061723,
+   "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795314022
+   "t": 1795340995
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -29959,9 +29959,9 @@
    "ly": 19.6,
    "junto": "Hyades Sector CB-W c2-3",
    "nfac": 3,
-   "pob": 48893674,
+   "pob": 48920440,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795223395
+   "t": 1795340920
   },
   "Col 285 Sector YL-J b10-1": {
    "pos": [
@@ -30143,7 +30143,7 @@
    "nfac": 5,
    "pob": 2197618,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795227411
+   "t": 1795340594
   },
   "ICZ BF-Z b4": {
    "pos": [
@@ -31365,7 +31365,7 @@
    "nfac": 6,
    "pob": 1578211,
    "ctrl_n": "Elite Defense Force",
-   "t": 1795037900
+   "t": 1795340841
   },
   "HIP 44745": {
    "pos": [
@@ -33901,6 +33901,19 @@
    "pob": 160567,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1795338329
+  },
+  "GCRV 5084": {
+   "pos": [
+    8.78125,
+    42.90625,
+    -93.21875
+   ],
+   "ly": 11.4,
+   "junto": "Hyades Sector TK-M b8-3",
+   "nfac": 3,
+   "pob": 59935049,
+   "ctrl_n": "Flat Galaxy Society",
+   "t": 1795341263
   }
  },
  "codice": [
@@ -34319,7 +34332,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795314022
+   "t": 1795340995
   },
   "Bakuari": {
    "pos": [
@@ -34731,7 +34744,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795337681
+   "t": 1795340700
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -36789,7 +36802,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795227411
+   "t": 1795340594
   },
   "HIP 19292": {
    "pos": [
@@ -40591,7 +40604,7 @@
    "pots": [
     "Edmund Mahon"
    ],
-   "t": 1795223395
+   "t": 1795340920
   },
   "Buriges": {
    "pos": [
@@ -44158,6 +44171,38 @@
     "Jerome Archer"
    ],
    "t": 1795339048
+  },
+  "Capa": {
+   "pos": [
+    60.75,
+    48.65625,
+    -174.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters"
+   ],
+   "t": 1795340841
+  },
+  "GCRV 5084": {
+   "pos": [
+    8.78125,
+    42.90625,
+    -93.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.104615,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795341263
   }
  },
  "rivales": {

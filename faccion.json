@@ -7916,7 +7916,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 205
+    "2026-11-22": 208
    },
    "pn": {
     "H5L-70M": {
@@ -8029,7 +8029,7 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795388218,
+     "t": 1795388914,
      "estado": "",
      "ls": 1065,
      "mid": 4396762115,
@@ -8141,7 +8141,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 45,
+       "ok": 46,
        "no": 3
       }
      },
@@ -8151,57 +8151,18 @@
       "Large": 9
      },
      "naves": [
-      "adder",
-      "anaconda",
-      "asp",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
-      "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
       "explorer_nx",
-      "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
       "mediumtransport01",
-      "orca",
       "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "type8"
      ],
-     "naves_t": 1795386244,
+     "naves_t": 1795388969,
      "neg": {
       "Distance": 10,
       "Offences": 3
      },
-     "mods": 908,
-     "mods_t": 1795386244
+     "mods": 940,
+     "mods_t": 1795388984
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -9578,7 +9539,7 @@
     "Planetary Construction Site: Clothier Synthetics Base": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795387958,
+     "t": 1795388682,
      "estado": "",
      "ls": 2665,
      "pads": {
@@ -9586,7 +9547,13 @@
       "Medium": 2,
       "Large": 1
      },
-     "mid": 4405427715
+     "mid": 4405427715,
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
    },
    "sube_cuando_baja": {
@@ -16745,6 +16712,7 @@
     "2026-03-05": 1,
     "2026-03-07": 1,
     "2026-03-14": 1,
+    "2026-03-20": 1,
     "2026-11-13": 2,
     "2026-11-15": 2,
     "2026-11-17": 3,
@@ -16763,6 +16731,7 @@
     "1772902800": 1,
     "1773475200": 1,
     "1773478800": 1,
+    "1773982800": 1,
     "1794945600": 1,
     "1795374000": 1
    },
@@ -16922,6 +16891,10 @@
       },
       "2026-03-14": {
        "ok": 2,
+       "no": 0
+      },
+      "2026-03-20": {
+       "ok": 1,
        "no": 0
       },
       "2026-11-22": {
@@ -24326,6 +24299,7 @@
     ]
    },
    "trafico": {
+    "2026-03-19": 1,
     "2026-11-16": 8,
     "2026-11-18": 2,
     "2026-11-19": 2,
@@ -24339,6 +24313,7 @@
     "est": null
    },
    "saltos": {
+    "1773918000": 1,
     "1795042800": 1,
     "1795154400": 1
    },
@@ -29513,11 +29488,11 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795387920.198057,
-  "msgs": 4109313,
+  "msgs": 4125733,
   "mios": 387,
   "descartados": 1
  },
- "t": 1795388278.2000039,
+ "t": 1795388990.6412685,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -32144,7 +32119,7 @@
    "nfac": 5,
    "pob": 47363710,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795365149
+   "t": 1795388587
   },
   "Oisi": {
    "pos": [
@@ -32987,9 +32962,9 @@
    "ly": 13.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 2000220,
+   "pob": 2000277,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795226316
+   "t": 1795388788
   },
   "LP 365-24": {
    "pos": [
@@ -37805,7 +37780,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795226316
+   "t": 1795388788
   },
   "LP 941-16": {
    "pos": [
@@ -38710,7 +38685,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795365149
+   "t": 1795388587
   },
   "LP 365-24": {
    "pos": [
@@ -39168,7 +39143,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795348388
+   "t": 1795388600
   },
   "Trianguli Sector FM-V b2-7": {
    "pos": [
@@ -39218,22 +39193,6 @@
     "Li Yong-Rui"
    ],
    "t": 1795374091
-  },
-  "Celticassag": {
-   "pos": [
-    -20.4375,
-    42.75,
-    -124.0625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.091426,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795154770
   },
   "Windizetet": {
    "pos": [
@@ -39412,24 +39371,6 @@
     "Li Yong-Rui"
    ],
    "t": 1795247287
-  },
-  "Renetes": {
-   "pos": [
-    -14.09375,
-    -8.875,
-    -88.5625
-   ],
-   "pot": "Zemina Torval",
-   "est": "Exploited",
-   "prog": 0.226855,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795160969
   },
   "LFT 446": {
    "pos": [
@@ -43063,23 +43004,6 @@
    ],
    "t": 1795238317
   },
-  "Ross 27": {
-   "pos": [
-    -34.75,
-    -1.90625,
-    -67.40625
-   ],
-   "pot": "Jerome Archer",
-   "est": "Exploited",
-   "prog": 0.175426,
-   "pots": [
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795356480
-  },
   "Decima": {
    "pos": [
     35.9375,
@@ -44177,21 +44101,6 @@
     "Li Yong-Rui"
    ],
    "t": 1795280467
-  },
-  "Hyades Sector PE-O b7-1": {
-   "pos": [
-    13.9375,
-    41.1875,
-    -105.09375
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795280514
   },
   "Tascheter Sector ZU-Y c23": {
    "pos": [
@@ -47158,70 +47067,6 @@
     "Li Yong-Rui"
    ],
    "t": 1795387838
-  },
-  "Hyades Sector UF-M b8-0": {
-   "pos": [
-    -23.65625,
-    17.40625,
-    -103
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1773803396
-  },
-  "Kamuti": {
-   "pos": [
-    -38.5625,
-    27.65625,
-    -104.53125
-   ],
-   "pot": "Pranav Antal",
-   "est": "Exploited",
-   "prog": 0.109809,
-   "pots": [
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1773803442
-  },
-  "SPOCS 323": {
-   "pos": [
-    18.9375,
-    23.0625,
-    -107.5
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.112569,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Felicia Winters",
-    "Li Yong-Rui"
-   ],
-   "t": 1773804130
-  },
-  "Loki Tan": {
-   "pos": [
-    32.375,
-    28.34375,
-    -109.375
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.170855,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Felicia Winters",
-    "Li Yong-Rui"
-   ],
-   "t": 1773804184
   }
  },
  "rivales": {

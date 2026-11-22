@@ -4042,7 +4042,7 @@
     "2026-11-17": 1,
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "tk": {
     "firma": "60db3419",
@@ -4090,7 +4090,22 @@
    "tick_prox": 1794981240,
    "tick_disp": 465,
    "tick_n": 0,
-   "cseg": {}
+   "cseg": {},
+   "estaciones": {
+    "Kinsey Town": {
+     "f": "Guardians of Tranquillity",
+     "tipo": "Coriolis",
+     "t": 1795346735,
+     "estado": "",
+     "ls": 14,
+     "pads": {
+      "Small": 6,
+      "Medium": 11,
+      "Large": 4
+     },
+     "mid": 4213231363
+    }
+   }
   },
   "Tascheter Sector YZ-Y b6": {
    "sys": "Tascheter Sector YZ-Y b6",
@@ -9349,7 +9364,8 @@
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-22": 1
    },
    "prev": 8.76,
    "prev_t": 1794331233,
@@ -13957,7 +13973,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 17
+    "2026-11-22": 18
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14012,7 +14028,7 @@
     "2026-11-19": 3,
     "2026-11-20": 8,
     "2026-11-21": 13,
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -14923,21 +14939,21 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795345355,
+     "t": 1795346997,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795345362,
-      "n": 2,
+      "t": 1795347004,
+      "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 6,
-       "no": 1
+       "ok": 7,
+       "no": 2
       }
      },
      "pads": {
@@ -14946,7 +14962,7 @@
       "Large": 0
      },
      "neg": {
-      "Distance": 1
+      "Distance": 2
      }
     }
    },
@@ -27905,10 +27921,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795346551.1801438,
-  "msgs": 3193914,
+  "msgs": 3207149,
   "mios": 308
  },
- "t": 1795346683.630674,
+ "t": 1795347556.569589,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27922,7 +27938,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795340700
+   "t": 1795347247
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28481,7 +28497,7 @@
    "nfac": 3,
    "pob": 318438,
    "ctrl_n": "East India Company",
-   "t": 1795346406
+   "t": 1795347128
   },
   "LTT 751": {
    "pos": [
@@ -28689,7 +28705,7 @@
    "nfac": 3,
    "pob": 175759852,
    "ctrl_n": "The Fatherhood",
-   "t": 1795345463
+   "t": 1795347092
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -28999,9 +29015,9 @@
    "ly": 12.6,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 123811004,
+   "pob": 124060101,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795300304
+   "t": 1795346718
   },
   "Col 285 Sector UX-H b11-1": {
    "pos": [
@@ -31131,9 +31147,9 @@
    "ly": 19.0,
    "junto": "Col 285 Sector RZ-O c6-12",
    "nfac": 3,
-   "pob": 183534347,
+   "pob": 184505718,
    "ctrl_n": "Canonn",
-   "t": 1795040215
+   "t": 1795346796
   },
   "BD+18 1160": {
    "pos": [
@@ -31287,9 +31303,9 @@
    "ly": 13.2,
    "junto": "BD+27 881",
    "nfac": 3,
-   "pob": 1247692,
+   "pob": 1273388,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795030808
+   "t": 1795347549
   },
   "HIP 48376": {
    "pos": [
@@ -32433,7 +32449,7 @@
    "nfac": 3,
    "pob": 2047728,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1795345753
+   "t": 1795347006
   },
   "Col 285 Sector RD-T a33-3": {
    "pos": [
@@ -33601,9 +33617,9 @@
    "ly": 7.1,
    "junto": "BD+40 1697",
    "nfac": 5,
-   "pob": 1210003,
+   "pob": 1217523,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795280856
+   "t": 1795346912
   },
   "Yin Sector XJ-A c18": {
    "pos": [
@@ -34111,6 +34127,19 @@
    "pob": 41259617,
    "ctrl_n": "Democrats of Promba",
    "t": 1795342445
+  },
+  "ICZ GL-X b1-4": {
+   "pos": [
+    124.03125,
+    -114.90625,
+    3.59375
+   ],
+   "ly": 19.4,
+   "junto": "HIP 19292",
+   "nfac": 4,
+   "pob": 159116,
+   "ctrl_n": "Union Cosmos",
+   "t": 1795347071
   }
  },
  "codice": [
@@ -34868,7 +34897,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.13714,
+   "prog": 0.137429,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -34876,7 +34905,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795281015
+   "t": 1795347077
   },
   "BD+27 1356": {
    "pos": [
@@ -34941,7 +34970,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795340700
+   "t": 1795347247
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35164,7 +35193,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795346406
+   "t": 1795347128
   },
   "Crowfor": {
    "pos": [
@@ -35816,7 +35845,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795345753
+   "t": 1795347006
   },
   "Col 285 Sector YZ-U b17-3": {
    "pos": [
@@ -37998,7 +38027,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795343613
+   "t": 1795347246
   },
   "Bhumian Ku": {
    "pos": [
@@ -39184,7 +39213,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795196214
+   "t": 1795347345
   },
   "Tirnitz": {
    "pos": [
@@ -42573,7 +42602,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795280856
+   "t": 1795346912
   },
   "Sussche": {
    "pos": [
@@ -43185,7 +43214,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795346488
+   "t": 1795347167
   },
   "Audumasi": {
    "pos": [
@@ -43418,14 +43447,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.163889,
+   "prog": 0.165078,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795300304
+   "t": 1795346718
   },
   "LHS 1758": {
    "pos": [
@@ -44431,6 +44460,36 @@
     "Nakato Kaine"
    ],
    "t": 1795342445
+  },
+  "ICZ GL-X b1-4": {
+   "pos": [
+    124.03125,
+    -114.90625,
+    3.59375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795347071
+  },
+  "Hyades Sector UU-N b7-2": {
+   "pos": [
+    16.6875,
+    0.21875,
+    -124
+   ],
+   "pot": "Aisling Duval",
+   "est": "Exploited",
+   "prog": 0.235426,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795347549
   }
  },
  "rivales": {

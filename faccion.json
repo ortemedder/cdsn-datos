@@ -20826,7 +20826,8 @@
     ]
    ],
    "rutas": {
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-22": 2
    }
   },
   "Hyades Sector CB-W c2-3": {
@@ -27636,10 +27637,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795329677.7812877,
-  "msgs": 2997441,
+  "msgs": 3006325,
   "mios": 286
  },
- "t": 1795331310.9973345,
+ "t": 1795332251.9439232,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -29005,7 +29006,7 @@
    "nfac": 6,
    "pob": 7797550,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795306202
+   "t": 1795331913
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -30264,9 +30265,9 @@
    "ly": 19.8,
    "junto": "Eurus",
    "nfac": 5,
-   "pob": 47351990,
+   "pob": 47363710,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795318172
+   "t": 1795332241
   },
   "Oisi": {
    "pos": [
@@ -31772,9 +31773,9 @@
    "ly": 12.5,
    "junto": "Col 285 Sector KE-E b13-0",
    "nfac": 3,
-   "pob": 658974244,
+   "pob": 659515620,
    "ctrl_n": "Canonn",
-   "t": 1795292269
+   "t": 1795332248
   },
   "LHS 6127": {
    "pos": [
@@ -33711,7 +33712,7 @@
    "nfac": 4,
    "pob": 14269201,
    "ctrl_n": "Guardians of Harmony",
-   "t": 1795330235
+   "t": 1795331486
   },
   "HIP 117184": {
    "pos": [
@@ -36484,7 +36485,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795318172
+   "t": 1795332241
   },
   "LP 365-24": {
    "pos": [
@@ -38020,7 +38021,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795306202
+   "t": 1795331913
   },
   "Lyncis Sector ZE-R b4-1": {
    "pos": [
@@ -42700,7 +42701,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795292269
+   "t": 1795332248
   },
   "Arietis Sector JS-S b4-5": {
    "pos": [
@@ -43732,7 +43733,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795330235
+   "t": 1795331486
   }
  },
  "rivales": {

@@ -25129,15 +25129,15 @@
   },
   "Hyades Sector RZ-N b7-5": {
    "sys": "Hyades Sector RZ-N b7-5",
-   "t": 1795106267,
+   "t": 1795380330,
    "src": "EDDN",
    "inf": 7.31,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 61.62,
@@ -25148,10 +25148,10 @@
      "inf": 61.62,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
+     "act": [],
+     "pend": [
       "Expansion"
      ],
-     "pend": [],
      "jug": null
     },
     {
@@ -25160,7 +25160,9 @@
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
@@ -25177,10 +25179,10 @@
      "inf": 7.31,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     }
    ],
@@ -25191,7 +25193,7 @@
     -117.6875
    ],
    "sis": {
-    "pob": 1598454,
+    "pob": 1598511,
     "eco": "$economy_Military;",
     "eco2": "$economy_Agri;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -25213,11 +25215,12 @@
    "trafico": {
     "2026-11-17": 1,
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-22": 2
    },
    "tk": {
     "firma": "84980ad0",
-    "igual": 1795106267,
+    "igual": 1795380330,
     "ult": 1795106267,
     "desde": 1795019054,
     "est": null
@@ -25225,17 +25228,19 @@
    "saltos": {
     "1794884400": 1,
     "1795017600": 1,
-    "1795104000": 1
+    "1795104000": 1,
+    "1795377600": 2
    },
    "rutas": {
     "2026-11-18": 1,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-22": 2
    },
    "estaciones": {
     "Anthean Station": {
      "f": "Sirius Special Forces",
      "tipo": "Coriolis",
-     "t": 1795019150,
+     "t": 1795380460,
      "estado": "",
      "ls": 4,
      "pads": {
@@ -25243,7 +25248,118 @@
       "Medium": 9,
       "Large": 7
      },
-     "mid": 4217307907
+     "mid": 4217307907,
+     "atq": {
+      "2026-11-22": {
+       "ok": 2,
+       "no": 0
+      }
+     },
+     "mer": {
+      "t": 1795380471,
+      "n": 72,
+      "vende": [
+       {
+        "n": "MetaAlloys",
+        "p": 196892,
+        "d": 2274
+       },
+       {
+        "n": "Tritium",
+        "p": 54056,
+        "d": 948
+       },
+       {
+        "n": "Osmium",
+        "p": 52386,
+        "d": 2653
+       },
+       {
+        "n": "Hostage",
+        "p": 35440,
+        "d": 494
+       },
+       {
+        "n": "USSCargoBlackBox",
+        "p": 31945,
+        "d": 570
+       }
+      ],
+      "alta": [
+       {
+        "n": "FoodCartridges",
+        "p": 766,
+        "m": 252
+       },
+       {
+        "n": "Biowaste",
+        "p": 761,
+        "m": 271
+       },
+       {
+        "n": "Polymers",
+        "p": 775,
+        "m": 306
+       },
+       {
+        "n": "Pesticides",
+        "p": 914,
+        "m": 412
+       },
+       {
+        "n": "WaterPurifiers",
+        "p": 945,
+        "m": 447
+       }
+      ],
+      "barato": [
+       {
+        "n": "Water",
+        "p": 14,
+        "m": 260,
+        "s": 38051
+       },
+       {
+        "n": "Algae",
+        "p": 28,
+        "m": 308,
+        "s": 64791
+       },
+       {
+        "n": "Leather",
+        "p": 64,
+        "m": 423,
+        "s": 1895
+       },
+       {
+        "n": "MineralOil",
+        "p": 78,
+        "m": 416,
+        "s": 1643
+       },
+       {
+        "n": "Scrap",
+        "p": 64,
+        "m": 276,
+        "s": 100131
+       }
+      ]
+     },
+     "mods": 183,
+     "mods_t": 1795380466,
+     "naves": [
+      "adder",
+      "cobramkiii",
+      "eagle",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "hauler",
+      "sidewinder",
+      "type6"
+     ],
+     "naves_t": 1795380466
     }
    },
    "prev": null,
@@ -25262,7 +25378,8 @@
    },
    "rivales": [],
    "tick_ult": 1795106267,
-   "tick_marg": 726
+   "tick_marg": 726,
+   "cseg": {}
   },
   "Hyades Sector RZ-N b7-3": {
    "sys": "Hyades Sector RZ-N b7-3",
@@ -28513,11 +28630,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795379901.7351453,
-  "msgs": 3917862,
-  "mios": 372
+  "ultimo": 1795380332.0456169,
+  "msgs": 3942362,
+  "mios": 373
  },
- "t": 1795380137.5355556,
+ "t": 1795380992.2748065,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -28960,7 +29077,7 @@
    "nfac": 5,
    "pob": 5089334,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795378048
+   "t": 1795380666
   },
   "Synuefe TL-C c29-5": {
    "pos": [
@@ -29883,7 +30000,7 @@
    "nfac": 6,
    "pob": 7797550,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795331913
+   "t": 1795380614
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -30141,9 +30258,9 @@
    "ly": 14.8,
    "junto": "HIP 19292",
    "nfac": 5,
-   "pob": 108070982,
+   "pob": 108076211,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795359788
+   "t": 1795380657
   },
   "Fimbulwinter": {
    "pos": [
@@ -31571,9 +31688,9 @@
    "ly": 17.5,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 399319,
+   "pob": 399342,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795273693
+   "t": 1795380177
   },
   "PLX 695": {
    "pos": [
@@ -31714,9 +31831,9 @@
    "ly": 15.2,
    "junto": "Tascheter Sector AA-Z b5",
    "nfac": 4,
-   "pob": 200928,
+   "pob": 200970,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795024059
+   "t": 1795380207
   },
   "LFT 179": {
    "pos": [
@@ -31755,7 +31872,7 @@
    "nfac": 5,
    "pob": 44330,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795378064
+   "t": 1795380451
   },
   "Trianguli Sector WA-N a7-0": {
    "pos": [
@@ -32119,7 +32236,7 @@
    "nfac": 4,
    "pob": 191135532,
    "ctrl_n": "Chapterhouse of Inquisition",
-   "t": 1795380039
+   "t": 1795380969
   },
   "Lakheo": {
    "pos": [
@@ -33716,9 +33833,9 @@
    "ly": 14.2,
    "junto": "HIP 19292",
    "nfac": 3,
-   "pob": 318600,
+   "pob": 318655,
    "ctrl_n": "The Order of Mobius",
-   "t": 1795365558
+   "t": 1795380242
   },
   "Col 285 Sector IM-L c8-19": {
    "pos": [
@@ -34589,7 +34706,7 @@
    "nfac": 4,
    "pob": 14269201,
    "ctrl_n": "Guardians of Harmony",
-   "t": 1795377567
+   "t": 1795380537
   },
   "HIP 117184": {
    "pos": [
@@ -34704,9 +34821,9 @@
    "ly": 11.3,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 1597553,
+   "pob": 1597586,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795342129
+   "t": 1795380634
   },
   "Col 285 Sector SK-J b24-3": {
    "pos": [
@@ -34954,6 +35071,32 @@
    "pob": 1799850248,
    "ctrl_n": "A.T.L.A.S",
    "t": 1795379913
+  },
+  "Trianguli Sector BH-L a8-1": {
+   "pos": [
+    35.46875,
+    -44.875,
+    -40.5625
+   ],
+   "ly": 12.2,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 203868,
+   "ctrl_n": "Shenetserii Confederation",
+   "t": 1795380396
+  },
+  "Col 285 Sector QE-P c6-14": {
+   "pos": [
+    -223.1875,
+    20.625,
+    -86.0625
+   ],
+   "ly": 19.9,
+   "junto": "Col 285 Sector HE-E b13-4",
+   "nfac": 4,
+   "pob": 390046,
+   "ctrl_n": "Canonn",
+   "t": 1795380824
   }
  },
  "codice": [
@@ -35956,7 +36099,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795117685
+   "t": 1795380846
   },
   "Aonga": {
    "pos": [
@@ -36037,7 +36180,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795379913
+   "t": 1795380985
   },
   "LP 157-32": {
    "pos": [
@@ -36086,7 +36229,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795359788
+   "t": 1795380657
   },
   "Tascheter Sector ZZ-Y b4": {
    "pos": [
@@ -36184,7 +36327,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795378670
+   "t": 1795380237
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -36424,7 +36567,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795273693
+   "t": 1795380177
   },
   "Hyades Sector VP-N b7-3": {
    "pos": [
@@ -38100,7 +38243,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795156923
+   "t": 1795380877
   },
   "Koamul": {
    "pos": [
@@ -39150,7 +39293,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795359958
+   "t": 1795380348
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -39238,13 +39381,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257768,
+   "prog": 0.257877,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795331913
+   "t": 1795380614
   },
   "Lyncis Sector ZE-R b4-1": {
    "pos": [
@@ -40696,7 +40839,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795378048
+   "t": 1795380666
   },
   "Xuanebuth": {
    "pos": [
@@ -40726,7 +40869,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795277968
+   "t": 1795380524
   },
   "HIP 20606": {
    "pos": [
@@ -40951,7 +41094,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795365558
+   "t": 1795380242
   },
   "Ba Jonandja": {
    "pos": [
@@ -40961,14 +41104,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.220786,
+   "prog": 0.220763,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795299708
+   "t": 1795380166
   },
   "Njungum": {
    "pos": [
@@ -41389,7 +41532,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795358167
+   "t": 1795380931
   },
   "PLX 695": {
    "pos": [
@@ -41649,11 +41792,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.300024,
+   "prog": 0.299887,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795240533
+   "t": 1795380924
   },
   "Didarengu": {
    "pos": [
@@ -42621,14 +42764,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.238346,
+   "prog": 0.237,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795367532
+   "t": 1795380857
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -42744,7 +42887,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795299764
+   "t": 1795380508
   },
   "Wathiparian": {
    "pos": [
@@ -43345,7 +43488,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795378064
+   "t": 1795380451
   },
   "Hyades Sector IX-T c3-27": {
    "pos": [
@@ -44939,7 +45082,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795377567
+   "t": 1795380537
   },
   "Tascheter Sector AA-Z b5": {
    "pos": [
@@ -45237,7 +45380,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795342129
+   "t": 1795380634
   },
   "Col 285 Sector SK-J b24-3": {
    "pos": [
@@ -46029,7 +46172,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795378559
+   "t": 1795380838
   },
   "Pongkala": {
    "pos": [
@@ -46123,7 +46266,56 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795380039
+   "t": 1795380969
+  },
+  "Tascheter Sector FG-X b1-6": {
+   "pos": [
+    36.71875,
+    3.5625,
+    -84.5
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795380207
+  },
+  "Hyades Sector RZ-N b7-5": {
+   "pos": [
+    -0.78125,
+    18.1875,
+    -117.6875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.067997,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795380330
+  },
+  "Trianguli Sector BH-L a8-1": {
+   "pos": [
+    35.46875,
+    -44.875,
+    -40.5625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795380396
   }
  },
  "rivales": {

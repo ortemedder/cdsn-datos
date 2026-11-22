@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 5
+    "2026-11-22": 6
    },
    "zc": [
     {
@@ -27422,10 +27422,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795323751.170488,
-  "msgs": 2944848,
+  "msgs": 2953322,
   "mios": 283
  },
- "t": 1795325924.375221,
+ "t": 1795326765.3503633,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28061,9 +28061,9 @@
    "ly": 17.7,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 1384798,
+   "pob": 1411887,
    "ctrl_n": "The Dark Wheel",
-   "t": 1794895838
+   "t": 1795326706
   },
   "LTT 882": {
    "pos": [
@@ -28128,7 +28128,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795307728
+   "t": 1795325970
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -31532,9 +31532,9 @@
    "ly": 13.2,
    "junto": "Lati",
    "nfac": 1,
-   "pob": 274586494,
+   "pob": 274845753,
    "ctrl_n": "Civitas Dei",
-   "t": 1795316690
+   "t": 1795325960
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -33459,6 +33459,19 @@
    "pob": 1795535,
    "ctrl_n": "HIP 67527 Inc",
    "t": 1795325914
+  },
+  "LTT 11648": {
+   "pos": [
+    -11.0625,
+    0.03125,
+    -109.875
+   ],
+   "ly": 3.5,
+   "junto": "Diaguthivar",
+   "nfac": 6,
+   "pob": 4072727,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795325987
   }
  },
  "codice": [
@@ -35092,13 +35105,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.049937,
+   "prog": 0.05262,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795307728
+   "t": 1795325970
   },
   "Mandu": {
    "pos": [
@@ -40999,14 +41012,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.0778,
+   "prog": 0.078862,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795316690
+   "t": 1795325960
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -43404,6 +43417,39 @@
     "Nakato Kaine"
    ],
    "t": 1795325914
+  },
+  "LTT 11648": {
+   "pos": [
+    -11.0625,
+    0.03125,
+    -109.875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.119692,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795325987
+  },
+  "Col 285 Sector VJ-R a34-0": {
+   "pos": [
+    129.84375,
+    -30.9375,
+    21.375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795326706
   }
  },
  "rivales": {

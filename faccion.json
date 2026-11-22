@@ -7470,7 +7470,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 17
+    "2026-11-22": 27
    },
    "pn": {
     "H5L-70M": {
@@ -7579,12 +7579,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795306358,
+     "t": 1795307802,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795306371,
+      "t": 1795307809,
       "n": 366,
       "vende": [
        {
@@ -7603,12 +7603,12 @@
         "d": 30771
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 449565,
         "d": 769233
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 449565,
         "d": 769233
        }
@@ -7679,7 +7679,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 2,
+       "ok": 6,
        "no": 0
       }
      },
@@ -7733,13 +7733,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795306365,
+     "naves_t": 1795307808,
      "neg": {
       "Distance": 9,
       "Offences": 1
      },
      "mods": 897,
-     "mods_t": 1795306365
+     "mods_t": 1795307808
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8898,7 +8898,7 @@
     "Orbital Construction Site: Riemann Relay": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795306267,
+     "t": 1795307852,
      "estado": "",
      "ls": 1990,
      "pads": {
@@ -8908,17 +8908,23 @@
      },
      "mid": 3957536514,
      "mer": {
-      "t": 1795306274,
-      "n": 0,
+      "t": 1795307859,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
      }
     },
     "Orbital Construction Site: Payne-Scott Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795306894,
+     "t": 1795307469,
      "estado": "",
      "ls": 1572,
      "pads": {
@@ -8926,7 +8932,23 @@
       "Medium": 11,
       "Large": 0
      },
-     "mid": 3957544962
+     "mid": 3957544962,
+     "neg": {
+      "Distance": 2
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 2,
+       "no": 2
+      }
+     },
+     "mer": {
+      "t": 1795307476,
+      "n": 2,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     }
     }
    },
    "prev": 87.72,
@@ -11478,7 +11500,7 @@
     "2026-11-18": 3,
     "2026-11-20": 39,
     "2026-11-21": 5,
-    "2026-11-22": 3
+    "2026-11-22": 5
    },
    "pn": {
     "V8X-11L": {
@@ -27192,10 +27214,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795306398.4546123,
-  "msgs": 2720081,
+  "msgs": 2732781,
   "mios": 277
  },
- "t": 1795306959.0375245,
+ "t": 1795307863.3030176,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27430,7 +27452,7 @@
    "nfac": 3,
    "pob": 122349137,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795299198
+   "t": 1795307275
   },
   "HIP 43660": {
    "pos": [
@@ -27677,7 +27699,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795292442
+   "t": 1795307432
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -27898,7 +27920,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795292334
+   "t": 1795307728
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -28442,9 +28464,9 @@
    "ly": 5.7,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 198753,
+   "pob": 198792,
    "ctrl_n": "East India Company",
-   "t": 1795019817
+   "t": 1795307160
   },
   "Parrot's Head Sector EQ-Y c7": {
    "pos": [
@@ -28717,7 +28739,7 @@
    "nfac": 6,
    "pob": 55206,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795144700
+   "t": 1795306966
   },
   "Kolaga": {
    "pos": [
@@ -28910,9 +28932,9 @@
    "ly": 16.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 355901,
+   "pob": 355958,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795227851
+   "t": 1795307111
   },
   "Wolf 265": {
    "pos": [
@@ -29625,9 +29647,9 @@
    "ly": 16.9,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 618850,
+   "pob": 618932,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795195508
+   "t": 1795307648
   },
   "HIP 35755": {
    "pos": [
@@ -29861,7 +29883,7 @@
    "nfac": 6,
    "pob": 750493,
    "ctrl_n": "Chapterhouse of Inquisition",
-   "t": 1795205438
+   "t": 1795307383
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -30940,7 +30962,7 @@
    "nfac": 3,
    "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795305587
+   "t": 1795307837
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -31913,9 +31935,9 @@
    "ly": 16.7,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 390784,
+   "pob": 390889,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795155476
+   "t": 1795307703
   },
   "Ceti Sector FG-X b1-5": {
    "pos": [
@@ -32201,7 +32223,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795306038
+   "t": 1795307398
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -33116,6 +33138,26 @@
  },
  "codice": [
   {
+   "sys": "Algol",
+   "n": "Fumarole SilicateVapourGeysers",
+   "cat": "Biology",
+   "sub": "Geology and Anomalies",
+   "cuerpo": "Algol A 1",
+   "junto": "Hyades Sector AC-K b9-6",
+   "ly": 14.7,
+   "t": 1795307826
+  },
+  {
+   "sys": "Xuanebuth",
+   "n": "Standard Water Worlds",
+   "cat": "StellarBodies",
+   "sub": "Terrestrials",
+   "cuerpo": "",
+   "junto": "HIP 19292",
+   "ly": 11.2,
+   "t": 1795307453
+  },
+  {
    "sys": "Ocelete",
    "n": "Standard Metal Rich No Atmos",
    "cat": "StellarBodies",
@@ -33394,26 +33436,6 @@
    "junto": "LP 254-40",
    "ly": 16.5,
    "t": 1795181235
-  },
-  {
-   "sys": "LHS 1914",
-   "n": "Tussocks 12 T",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "LHS 1914 B 3",
-   "junto": "LP 254-40",
-   "ly": 16.5,
-   "t": 1795181188
-  },
-  {
-   "sys": "LHS 1914",
-   "n": "Stratum 07 T",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "LHS 1914 B 3",
-   "junto": "LP 254-40",
-   "ly": 16.5,
-   "t": 1795181180
   }
  ],
  "ataques": {
@@ -33656,14 +33678,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.229966,
+   "prog": 0.229975,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795292442
+   "t": 1795307432
   },
   "Nergal": {
    "pos": [
@@ -34473,7 +34495,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795144700
+   "t": 1795306966
   },
   "Hyades Sector AC-K b9-6": {
    "pos": [
@@ -34768,7 +34790,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795292334
+   "t": 1795307728
   },
   "Mandu": {
    "pos": [
@@ -34957,11 +34979,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.351812,
+   "prog": 0.35238,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795293562
+   "t": 1795307366
   },
   "Col 285 Sector YZ-U b17-2": {
    "pos": [
@@ -35597,7 +35619,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795306205
+   "t": 1795307724
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -36008,13 +36030,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.255849,
+   "prog": 0.257458,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795284712
+   "t": 1795307352
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -36485,7 +36507,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795155476
+   "t": 1795307703
   },
   "Ditia": {
    "pos": [
@@ -37622,7 +37644,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795195508
+   "t": 1795307648
   },
   "Iku-Turso": {
    "pos": [
@@ -37861,14 +37883,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.140015,
+   "prog": 0.140032,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795305587
+   "t": 1795307837
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -38064,7 +38086,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795306038
+   "t": 1795307398
   },
   "Eurus": {
    "pos": [
@@ -38918,7 +38940,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795205438
+   "t": 1795307383
   },
   "Chonost": {
    "pos": [
@@ -40034,7 +40056,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795227851
+   "t": 1795307111
   },
   "Exigus": {
    "pos": [
@@ -40236,13 +40258,13 @@
    ],
    "pot": "Jerome Archer",
    "est": "Exploited",
-   "prog": 0.680171,
+   "prog": 0.684905,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795299198
+   "t": 1795307275
   },
   "HIP 23402": {
    "pos": [
@@ -42753,6 +42775,37 @@
     "Jerome Archer"
    ],
    "t": 1795306350
+  },
+  "BD-09 956": {
+   "pos": [
+    23.84375,
+    -34.65625,
+    -48.53125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795307160
+  },
+  "Shokwa": {
+   "pos": [
+    15.15625,
+    -33.125,
+    -41.0625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.252678,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795307210
   }
  },
  "rivales": {

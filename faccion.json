@@ -7378,32 +7378,34 @@
   },
   "Makum": {
    "sys": "Makum",
-   "t": 1795041290,
+   "t": 1795378545,
    "src": "EDDN",
-   "inf": 4.29,
+   "inf": 4.2,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Flat Galaxy Society",
-   "segunda_inf": 70.96,
+   "segunda_inf": 71.63,
    "conflictos": [],
    "todas": [
     {
      "n": "Flat Galaxy Society",
-     "inf": 70.96,
+     "inf": 71.63,
      "gov": "Democracy",
      "alg": "Alliance",
      "act": [],
-     "pend": [],
+     "pend": [
+      "Expansion"
+     ],
      "jug": null
     },
     {
      "n": "Makum Group",
-     "inf": 7.88,
+     "inf": 7.69,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -7412,7 +7414,7 @@
     },
     {
      "n": "Makum Solutions",
-     "inf": 7.58,
+     "inf": 7.39,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -7421,7 +7423,7 @@
     },
     {
      "n": "Makum for Equality",
-     "inf": 4.39,
+     "inf": 4.3,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -7430,18 +7432,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 4.29,
+     "inf": 4.2,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "Makum Defence Force",
-     "inf": 3.89,
+     "inf": 3.8,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -7488,25 +7490,28 @@
     "2026-11-12": 1,
     "2026-11-14": 1,
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-22": 2
    },
    "tk": {
-    "firma": "918e4530",
-    "igual": 1795041290,
-    "ult": 1794956061,
-    "desde": 1794679786,
+    "firma": "d57c4eb0",
+    "igual": 1795378545,
+    "ult": 1795378545,
+    "desde": 1795041290,
     "est": null
    },
    "saltos": {
     "1794952800": 1,
-    "1795039200": 1
+    "1795039200": 1,
+    "1795377600": 1
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-18": 1
+    "2026-11-18": 1,
+    "2026-11-22": 1
    },
-   "prev": 3.69,
-   "prev_t": 1794679786,
+   "prev": 4.29,
+   "prev_t": 1795041290,
    "hinf": [
     [
      1794487559,
@@ -7515,20 +7520,119 @@
     [
      1794956061,
      4.29
+    ],
+    [
+     1795378545,
+     4.2
     ]
    ],
    "rach": {
-    "Flat Galaxy Society": 0,
+    "Flat Galaxy Society": 1,
     "Makum Group": 0,
-    "Makum Solutions": 1,
+    "Makum Solutions": 0,
     "Makum for Equality": 0,
     "Caballeros de Sion": 1,
     "Makum Defence Force": 0,
     "Makum Silver Gang": 0
    },
    "rivales": [],
-   "tick_ult": 1794956061,
-   "tick_marg": 2302
+   "tick_ult": 1795378545,
+   "tick_marg": 2810,
+   "cseg": {},
+   "estaciones": {
+    "Pytheas Terminal": {
+     "f": "Flat Galaxy Society",
+     "tipo": "Orbis",
+     "t": 1795378742,
+     "estado": "",
+     "ls": 203,
+     "pads": {
+      "Small": 6,
+      "Medium": 11,
+      "Large": 4
+     },
+     "mid": 3227640064,
+     "mer": {
+      "t": 1795378748,
+      "n": 51,
+      "vende": [
+       {
+        "n": "alexandrite",
+        "p": 245669,
+        "d": 4094
+       },
+       {
+        "n": "musgravite",
+        "p": 227669,
+        "d": 4094
+       },
+       {
+        "n": "grandidierite",
+        "p": 227079,
+        "d": 4094
+       },
+       {
+        "n": "monazite",
+        "p": 221015,
+        "d": 4094
+       },
+       {
+        "n": "serendibite",
+        "p": 198827,
+        "d": 4094
+       }
+      ],
+      "alta": [
+       {
+        "n": "foodcartridges",
+        "p": 700,
+        "m": 252
+       },
+       {
+        "n": "syntheticmeat",
+        "p": 815,
+        "m": 415
+       },
+       {
+        "n": "beer",
+        "p": 687,
+        "m": 350
+       },
+       {
+        "n": "waterpurifiers",
+        "p": 870,
+        "m": 447
+       },
+       {
+        "n": "basicmedicines",
+        "p": 887,
+        "m": 489
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 74,
+        "m": 271,
+        "s": 37556
+       }
+      ]
+     },
+     "mods": 129,
+     "mods_t": 1795378748,
+     "naves": [
+      "cobramkv",
+      "diamondback",
+      "diamondbackxl",
+      "explorer_nx",
+      "mediumtransport01",
+      "orca",
+      "python",
+      "sidewinder"
+     ],
+     "naves_t": 1795378748
+    }
+   }
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
@@ -7616,7 +7720,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 155
+    "2026-11-22": 161
    },
    "pn": {
     "H5L-70M": {
@@ -9104,7 +9208,7 @@
     "Planetary Construction Site: Sosa Industrial": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795378019,
+     "t": 1795378721,
      "estado": "",
      "ls": 2661,
      "pads": {
@@ -9114,15 +9218,15 @@
      },
      "mid": 4405368323,
      "mer": {
-      "t": 1795378026,
-      "n": 10,
+      "t": 1795378728,
+      "n": 3,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 10,
+       "ok": 12,
        "no": 0
       }
      }
@@ -9257,6 +9361,26 @@
       "vulture"
      ],
      "naves_t": 1795376817
+    },
+    "Planetary Construction Site: Blaes Chemical Works": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795379199,
+     "estado": "",
+     "ls": 2659,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 1
+     },
+     "mid": 4405392387,
+     "mer": {
+      "t": 1795379205,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     }
     }
    },
    "sube_cuando_baja": {
@@ -10202,15 +10326,15 @@
   },
   "Wathiparian": {
    "sys": "Wathiparian",
-   "t": 1795262512,
+   "t": 1795378648,
    "src": "EDDN",
-   "inf": 40.85,
+   "inf": 39.67,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Wathiparian Crimson Major Group",
    "segunda_inf": 18.11,
@@ -10218,13 +10342,13 @@
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 40.85,
+     "inf": 39.67,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -10251,7 +10375,7 @@
     },
     {
      "n": "Wathiparian Dominion",
-     "inf": 9.25,
+     "inf": 9.15,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -10260,7 +10384,7 @@
     },
     {
      "n": "Wathiparian Defence Party",
-     "inf": 8.66,
+     "inf": 8.46,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -10269,7 +10393,7 @@
     },
     {
      "n": "New Wathiparian Progressive Party",
-     "inf": 5.02,
+     "inf": 6.5,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -10306,64 +10430,41 @@
     ]
    },
    "trafico": {
-    "2026-11-21": 2
+    "2026-11-21": 2,
+    "2026-11-22": 2
    },
    "pn": {
     "VNX-85Y": {
      "n": "USSR 64IAK PEPELYAEV",
-     "t": 1795262632,
+     "t": 1795378744,
      "d": 1795262512
     },
     "Q8G-2QJ": {
      "n": "*CDSN* SALOMON",
-     "t": 1795262632,
+     "t": 1795378744,
      "d": 1795262512
     }
    },
+   "tk": {
+    "firma": "29cb5820",
+    "igual": 1795378648,
+    "ult": 1795378648,
+    "desde": 1795262512,
+    "est": null
+   },
    "saltos": {
-    "1795262400": 1
+    "1795262400": 1,
+    "1795377600": 1
    },
    "rutas": {
     "2026-11-21": 1,
     "2026-11-22": 1
    },
-   "prev": 41.87,
-   "prev_t": 1794174644,
-   "hinf": [
-    [
-     1794174644,
-     41.87
-    ],
-    [
-     1795262512,
-     40.85
-    ]
-   ],
-   "rach": {
-    "Caballeros de Sion": 0,
-    "Wathiparian Crimson Major Group": 1,
-    "Wathiparian Power Corp.": 0,
-    "Wathiparian Dominion": 0,
-    "Wathiparian Defence Party": 0,
-    "New Wathiparian Progressive Party": 0
-   },
-   "rivales": [],
-   "tk": {
-    "firma": "6401eeea",
-    "igual": 1795262512
-   },
-   "cseg": {},
-   "sube_cuando_baja": {
-    "n": "Wathiparian Crimson Major Group",
-    "d": 3.13,
-    "baja": 1.02,
-    "t": 1795262512
-   },
    "estaciones": {
     "Kelleam City": {
      "f": "Caballeros de Sion",
      "tipo": "Orbis",
-     "t": 1795262702,
+     "t": 1795378861,
      "estado": "",
      "ls": 24,
      "pads": {
@@ -10478,9 +10579,49 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795262709
+     "naves_t": 1795262709,
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
-   }
+   },
+   "sube_cuando_baja": {
+    "n": "New Wathiparian Progressive Party",
+    "d": 1.48,
+    "baja": 1.18,
+    "t": 1795378648
+   },
+   "prev": 40.85,
+   "prev_t": 1795262512,
+   "hinf": [
+    [
+     1794174644,
+     41.87
+    ],
+    [
+     1795262512,
+     40.85
+    ],
+    [
+     1795378648,
+     39.67
+    ]
+   ],
+   "rach": {
+    "Caballeros de Sion": 0,
+    "Wathiparian Crimson Major Group": 1,
+    "Wathiparian Power Corp.": 0,
+    "Wathiparian Dominion": 0,
+    "Wathiparian Defence Party": 0,
+    "New Wathiparian Progressive Party": 1
+   },
+   "rivales": [],
+   "tick_ult": 1795378648,
+   "tick_marg": 967,
+   "cseg": {}
   },
   "Col 285 Sector YZ-U b17-3": {
    "sys": "Col 285 Sector YZ-U b17-3",
@@ -28349,11 +28490,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795377123.0521526,
-  "msgs": 3871309,
-  "mios": 368
+  "ultimo": 1795378650.1513593,
+  "msgs": 3892409,
+  "mios": 370
  },
- "t": 1795378328.658242,
+ "t": 1795379213.1572158,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -29316,7 +29457,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795377974
+   "t": 1795378546
   },
   "Lokaantii": {
    "pos": [
@@ -29849,7 +29990,7 @@
    "nfac": 4,
    "pob": 1597988,
    "ctrl_n": "Aseveljet",
-   "t": 1795377935
+   "t": 1795378513
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -31279,7 +31420,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795370970
+   "t": 1795379059
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -32824,9 +32965,9 @@
    "ly": 4.2,
    "junto": "BD+27 881",
    "nfac": 3,
-   "pob": 2045977,
+   "pob": 2047212,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795123207
+   "t": 1795378352
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -32969,7 +33110,7 @@
    "nfac": 6,
    "pob": 2672176,
    "ctrl_n": "HIP 19327 Blue State Solutions",
-   "t": 1795364985
+   "t": 1795378525
   },
   "Ross 874": {
    "pos": [
@@ -34751,6 +34892,32 @@
    "pob": 1996693,
    "ctrl_n": "Movement for LHS 20 Liberals",
    "t": 1795378070
+  },
+  "HIP 18944": {
+   "pos": [
+    109.625,
+    -116.5625,
+    -17.6875
+   ],
+   "ly": 9.6,
+   "junto": "HIP 19292",
+   "nfac": 4,
+   "pob": 2486554,
+   "ctrl_n": "Odins Group",
+   "t": 1795378532
+  },
+  "Pongkala": {
+   "pos": [
+    -35.90625,
+    41.6875,
+    -116.46875
+   ],
+   "ly": 17.2,
+   "junto": "Runab",
+   "nfac": 6,
+   "pob": 10088429,
+   "ctrl_n": "CHIMERA",
+   "t": 1795378949
   }
  },
  "codice": [
@@ -35330,7 +35497,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795377935
+   "t": 1795378513
   },
   "Hyades Sector IN-R b5-1": {
    "pos": [
@@ -35834,7 +36001,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795373879
+   "t": 1795379171
   },
   "LP 157-32": {
    "pos": [
@@ -35981,7 +36148,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795367627
+   "t": 1795378670
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -36252,7 +36419,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795123207
+   "t": 1795378352
   },
   "Burr": {
    "pos": [
@@ -36909,7 +37076,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795364985
+   "t": 1795378525
   },
   "Ariameni": {
    "pos": [
@@ -36991,7 +37158,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795370970
+   "t": 1795379059
   },
   "NLTT 8234": {
    "pos": [
@@ -37615,13 +37782,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257458,
+   "prog": 0.257559,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795307352
+   "t": 1795379051
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -38633,7 +38800,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795378318
+   "t": 1795378482
   },
   "Bhumian Ku": {
    "pos": [
@@ -39933,7 +40100,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795377974
+   "t": 1795378546
   },
   "Yawala": {
    "pos": [
@@ -40758,14 +40925,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.215689,
+   "prog": 0.220786,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795276956
+   "t": 1795299708
   },
   "Njungum": {
    "pos": [
@@ -41540,7 +41707,7 @@
     "Denton Patreus",
     "Li Yong-Rui"
    ],
-   "t": 1795225620
+   "t": 1795379190
   },
   "Tascheter Sector AA-Z b0": {
    "pos": [
@@ -42559,7 +42726,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795262512
+   "t": 1795378648
   },
   "Pirawoth": {
    "pos": [
@@ -44355,7 +44522,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795307210
+   "t": 1795378851
   },
   "Ghimr": {
    "pos": [
@@ -45783,6 +45950,83 @@
     "Jerome Archer"
    ],
    "t": 1795378070
+  },
+  "HIP 18944": {
+   "pos": [
+    109.625,
+    -116.5625,
+    -17.6875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795378532
+  },
+  "Makum": {
+   "pos": [
+    18.4375,
+    33,
+    -121.9375
+   ],
+   "pot": "Edmund Mahon",
+   "est": "Exploited",
+   "prog": 0.245712,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795378545
+  },
+  "LTT 1391": {
+   "pos": [
+    7.0625,
+    -96.03125,
+    -68.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795378559
+  },
+  "Pongkala": {
+   "pos": [
+    -35.90625,
+    41.6875,
+    -116.46875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.255498,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795378949
+  },
+  "Sairre": {
+   "pos": [
+    -21.21875,
+    37.375,
+    -82.84375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795299223
   }
  },
  "rivales": {
@@ -45876,6 +46120,15 @@
    "motivo": "sube cuando bajamos",
    "ini": 1795334964,
    "ult": 1795334964
+  },
+  "New Wathiparian Progressive Party": {
+   "veces": 1,
+   "sis": [
+    "Wathiparian"
+   ],
+   "motivo": "sube cuando bajamos",
+   "ini": 1795378648,
+   "ult": 1795378648
   }
  }
 }

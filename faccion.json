@@ -13938,7 +13938,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 8
+    "2026-11-22": 9
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14901,20 +14901,20 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795340542,
+     "t": 1795342461,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795340549,
-      "n": 2,
+      "t": 1795342467,
+      "n": 4,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 2,
+       "ok": 3,
        "no": 0
       }
      },
@@ -18900,7 +18900,7 @@
   },
   "Skang": {
    "sys": "Skang",
-   "t": 1795333815,
+   "t": 1795341892,
    "src": "EDDN",
    "inf": 3.5,
    "ctrl": false,
@@ -19015,7 +19015,7 @@
     "2026-11-18": 1,
     "2026-11-20": 2,
     "2026-11-21": 2,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "zc": [
     {
@@ -19036,7 +19036,7 @@
    ],
    "tk": {
     "firma": "0f85bd5b",
-    "igual": 1795333815,
+    "igual": 1795341892,
     "ult": 1795333815,
     "desde": 1795259974,
     "est": null,
@@ -19051,7 +19051,8 @@
     "1795039200": 1,
     "1795190400": 1,
     "1795258800": 1,
-    "1795330800": 1
+    "1795330800": 1,
+    "1795341600": 1
    },
    "rutas": {
     "2026-11-18": 1,
@@ -19371,23 +19372,23 @@
   },
   "Lati": {
    "sys": "Lati",
-   "t": 1795276970,
+   "t": 1795342614,
    "src": "EDDN",
-   "inf": 4.74,
+   "inf": 5.82,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Green Party of BD+27 1356",
-   "segunda_inf": 42.94,
+   "segunda_inf": 41.76,
    "conflictos": [],
    "todas": [
     {
      "n": "Green Party of BD+27 1356",
-     "inf": 42.94,
+     "inf": 41.76,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -19396,7 +19397,7 @@
     },
     {
      "n": "Lati One",
-     "inf": 20.73,
+     "inf": 20.14,
      "gov": "Cooperative",
      "alg": "Independent",
      "act": [],
@@ -19405,7 +19406,7 @@
     },
     {
      "n": "BD+24 1451 Major Corporation",
-     "inf": 13.13,
+     "inf": 14.31,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -19414,7 +19415,7 @@
     },
     {
      "n": "Lati Silver General Interstellar",
-     "inf": 11.15,
+     "inf": 10.86,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -19423,7 +19424,7 @@
     },
     {
      "n": "Aristocrats of Lati",
-     "inf": 6.32,
+     "inf": 6.12,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -19432,13 +19433,13 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 4.74,
+     "inf": 5.82,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -19481,7 +19482,8 @@
    },
    "trafico": {
     "2026-11-18": 2,
-    "2026-11-21": 4
+    "2026-11-21": 4,
+    "2026-11-22": 1
    },
    "pn": {
     "WZT-W5B": {
@@ -19491,18 +19493,29 @@
     }
    },
    "tk": {
-    "firma": "84805fe9",
-    "igual": 1795276970
+    "firma": "7a815c83",
+    "igual": 1795342614,
+    "ult": 1795342614,
+    "desde": 1795276970,
+    "vent": [
+     [
+      1795276970,
+      1795342614
+     ]
+    ],
+    "est": null
    },
    "saltos": {
     "1795024800": 1,
     "1795258800": 1,
     "1795266000": 1,
-    "1795276800": 1
+    "1795276800": 1,
+    "1795341600": 1
    },
    "rutas": {
     "2026-11-18": 4,
-    "2026-11-21": 3
+    "2026-11-21": 3,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Watts Settlement": {
@@ -19624,16 +19637,33 @@
      "mid": 3228347648
     }
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 4.74,
+   "prev_t": 1795276970,
    "hinf": [
     [
      1794513568,
      4.74
+    ],
+    [
+     1795342614,
+     5.82
     ]
    ],
-   "rach": {},
+   "rach": {
+    "Green Party of BD+27 1356": 0,
+    "Lati One": 0,
+    "BD+24 1451 Major Corporation": 1,
+    "Lati Silver General Interstellar": 0,
+    "Aristocrats of Lati": 0,
+    "Caballeros de Sion": 1,
+    "Lati Gold Brotherhood": 0
+   },
    "rivales": [],
+   "tick_ult": 1795342614,
+   "tick_marg": 547,
+   "tick_prox": 1795396140,
+   "tick_disp": 547,
+   "tick_n": 0,
    "cseg": {}
   },
   "Haraka": {
@@ -27760,11 +27790,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795341415.2943275,
-  "msgs": 3119536,
-  "mios": 296
+  "ultimo": 1795342860.9900942,
+  "msgs": 3133537,
+  "mios": 298
  },
- "t": 1795342131.8054512,
+ "t": 1795342863.4734714,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28543,9 +28573,9 @@
    "ly": 17.6,
    "junto": "Parrot's Head Sector DQ-Y c23",
    "nfac": 3,
-   "pob": 175364556,
+   "pob": 175759852,
    "ctrl_n": "The Fatherhood",
-   "t": 1795295948
+   "t": 1795342567
   },
   "Tascheter Sector AA-Z b2": {
    "pos": [
@@ -29559,7 +29589,7 @@
    "nfac": 6,
    "pob": 9608908279,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795280561
+   "t": 1795341834
   },
   "BD+16 1001": {
    "pos": [
@@ -31260,9 +31290,9 @@
    "ly": 15.6,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 109415085,
+   "pob": 109759889,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795329214
+   "t": 1795342734
   },
   "Tripuru": {
    "pos": [
@@ -32274,9 +32304,9 @@
    "ly": 9.3,
    "junto": "BD+40 1697",
    "nfac": 6,
-   "pob": 199957,
+   "pob": 199966,
    "ctrl_n": "Civitas Dei",
-   "t": 1795291189
+   "t": 1795341954
   },
   "Ceti Sector KX-T b3-4": {
    "pos": [
@@ -32315,7 +32345,7 @@
    "nfac": 5,
    "pob": 1997550,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795340325
+   "t": 1795342215
   },
   "Baraluhet": {
    "pos": [
@@ -33069,7 +33099,7 @@
    "nfac": 6,
    "pob": 53494,
    "ctrl_n": "EXO",
-   "t": 1795226525
+   "t": 1795342490
   },
   "BD+30 1423": {
    "pos": [
@@ -33954,9 +33984,32 @@
    "pob": 1597553,
    "ctrl_n": "Movement for LHS 20 Liberals",
    "t": 1795342129
+  },
+  "Col 285 Sector SK-J b24-3": {
+   "pos": [
+    141.1875,
+    59.90625,
+    167.53125
+   ],
+   "ly": 19.6,
+   "junto": "Col 285 Sector TK-J b24-1",
+   "nfac": 4,
+   "pob": 41259617,
+   "ctrl_n": "Democrats of Promba",
+   "t": 1795342445
   }
  },
  "codice": [
+  {
+   "sys": "Lati",
+   "n": "TRF Water Worlds",
+   "cat": "StellarBodies",
+   "sub": "Terrestrials",
+   "cuerpo": "",
+   "junto": "Lati",
+   "ly": 0.0,
+   "t": 1795342620
+  },
   {
    "sys": "Tascheter Sector DG-O a6-1",
    "n": "Y Type",
@@ -34246,16 +34299,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795183280
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Cactoid 01 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 g",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795183178
   }
  ],
  "ataques": {
@@ -35643,7 +35686,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795291189
+   "t": 1795341954
   },
   "Ceti Sector KX-T b3-4": {
    "pos": [
@@ -35739,7 +35782,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795340325
+   "t": 1795342215
   },
   "Trianguli Sector ZL-L a8-2": {
    "pos": [
@@ -36344,7 +36387,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795329214
+   "t": 1795342734
   },
   "Tascheter Sector AL-O a6-0": {
    "pos": [
@@ -38795,7 +38838,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795333815
+   "t": 1795341892
   },
   "Lambayeque": {
    "pos": [
@@ -40799,7 +40842,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795226525
+   "t": 1795342490
   },
   "Col 285 Sector XJ-R a34-2": {
    "pos": [
@@ -41584,7 +41627,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795280561
+   "t": 1795341834
   },
   "Col 285 Sector YZ-U b17-8": {
    "pos": [
@@ -41667,7 +41710,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795276970
+   "t": 1795342614
   },
   "Yin Sector XJ-A c20": {
    "pos": [
@@ -44260,6 +44303,20 @@
     "Jerome Archer"
    ],
    "t": 1795342129
+  },
+  "Col 285 Sector SK-J b24-3": {
+   "pos": [
+    141.1875,
+    59.90625,
+    167.53125
+   ],
+   "pot": "Nakato Kaine",
+   "est": "Exploited",
+   "prog": 0.032569,
+   "pots": [
+    "Nakato Kaine"
+   ],
+   "t": 1795342445
   }
  },
  "rivales": {

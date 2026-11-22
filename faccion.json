@@ -27678,10 +27678,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795335733.9485416,
-  "msgs": 3052133,
+  "msgs": 3060031,
   "mios": 292
  },
- "t": 1795336610.632225,
+ "t": 1795337191.4829998,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27695,7 +27695,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795333467
+   "t": 1795336906
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -30308,7 +30308,7 @@
    "nfac": 5,
    "pob": 47363710,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795336211
+   "t": 1795336917
   },
   "Oisi": {
    "pos": [
@@ -33205,9 +33205,9 @@
    "ly": 17.8,
    "junto": "Skang",
    "nfac": 4,
-   "pob": 218560,
+   "pob": 218576,
    "ctrl_n": "Procyon Expeditionary Consortium",
-   "t": 1795266148
+   "t": 1795337185
   },
   "HIP 38755": {
    "pos": [
@@ -34662,7 +34662,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795333467
+   "t": 1795336906
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -36591,7 +36591,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795336211
+   "t": 1795336917
   },
   "LP 365-24": {
    "pos": [
@@ -41744,7 +41744,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795266148
+   "t": 1795337185
   },
   "ICZ CV-Y c17": {
    "pos": [
@@ -42906,7 +42906,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795333714
+   "t": 1795336780
   },
   "Audumasi": {
    "pos": [

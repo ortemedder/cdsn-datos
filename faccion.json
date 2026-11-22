@@ -7471,7 +7471,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 39
+    "2026-11-22": 45
    },
    "pn": {
     "H5L-70M": {
@@ -8231,9 +8231,9 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795301881,
+     "t": 1795309777,
      "estado": "",
-     "ls": 2656,
+     "ls": 2657,
      "pads": {
       "Small": 17,
       "Medium": 18,
@@ -8241,8 +8241,8 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795301888,
-      "n": 160,
+      "t": 1795309939,
+      "n": 366,
       "vende": [
        {
         "n": "monazite",
@@ -8331,7 +8331,7 @@
       ]
      },
      "mods": 933,
-     "mods_t": 1795301888,
+     "mods_t": 1795309784,
      "naves": [
       "adder",
       "anaconda",
@@ -8377,7 +8377,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795301888,
+     "naves_t": 1795309784,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -8389,6 +8389,10 @@
       },
       "2026-11-21": {
        "ok": 15,
+       "no": 0
+      },
+      "2026-11-22": {
+       "ok": 2,
        "no": 0
       }
      }
@@ -8680,11 +8684,11 @@
     "Lordnelson's Inheritance": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795306799,
+     "t": 1795310570,
      "estado": "",
-     "ls": 87195,
+     "ls": 87196,
      "pads": {
-      "Small": 14,
+      "Small": 13,
       "Medium": 15,
       "Large": 8
      },
@@ -8745,7 +8749,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 1,
+       "ok": 3,
        "no": 0
       }
      },
@@ -27231,10 +27235,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795309225.2207203,
-  "msgs": 2757901,
+  "msgs": 2769987,
   "mios": 280
  },
- "t": 1795309639.9179187,
+ "t": 1795310572.199587,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27248,7 +27252,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795299837
+   "t": 1795310025
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -27521,7 +27525,7 @@
    "nfac": 6,
    "pob": 2439873,
    "ctrl_n": "160 S.O.A.R.",
-   "t": 1795275410
+   "t": 1795310237
   },
   "Ceti Sector AV-Y c22": {
    "pos": [
@@ -27989,7 +27993,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795296855
+   "t": 1795310436
   },
   "LTT 740": {
    "pos": [
@@ -30002,9 +30006,9 @@
    "ly": 16.8,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 4,
-   "pob": 10134146,
+   "pob": 10417775,
    "ctrl_n": "Movement for Njemari Independents",
-   "t": 1794992436
+   "t": 1795310452
   },
   "Hyades Sector YG-K b9-7": {
    "pos": [
@@ -31523,9 +31527,9 @@
    "ly": 15.1,
    "junto": "Torenai",
    "nfac": 4,
-   "pob": 185703609,
+   "pob": 185792371,
    "ctrl_n": "Axiom of Ishtar",
-   "t": 1795153034
+   "t": 1795309863
   },
   "Col 285 Sector UT-W b16-3": {
    "pos": [
@@ -32240,7 +32244,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795309116
+   "t": 1795310057
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -32851,7 +32855,7 @@
    "nfac": 5,
    "pob": 8755482,
    "ctrl_n": "Potolot Inc.",
-   "t": 1795272113
+   "t": 1795310483
   },
   "LTT 12089": {
    "pos": [
@@ -33772,7 +33776,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795153034
+   "t": 1795309863
   },
   "Yin Sector ZZ-Y b0": {
    "pos": [
@@ -34012,7 +34016,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.25653,
+   "prog": 0.257725,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -34020,7 +34024,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795299837
+   "t": 1795310025
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -34968,7 +34972,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.37607,
+   "prog": 0.376272,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -34976,7 +34980,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795296855
+   "t": 1795310436
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -36335,7 +36339,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795211623
+   "t": 1795309969
   },
   "Hyades Sector RZ-N b7-1": {
    "pos": [
@@ -37685,7 +37689,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795275410
+   "t": 1795310237
   },
   "Tascheter Sector WE-Q a5-2": {
    "pos": [
@@ -38134,7 +38138,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.156569,
+   "prog": 0.158615,
    "pots": [
     "Aisling Duval",
     "Denton Patreus",
@@ -38142,7 +38146,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795309116
+   "t": 1795310057
   },
   "Eurus": {
    "pos": [
@@ -41437,7 +41441,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795272113
+   "t": 1795310483
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -42941,6 +42945,22 @@
     "Jerome Archer"
    ],
    "t": 1795308957
+  },
+  "Col 285 Sector RD-T a33-5": {
+   "pos": [
+    131.09375,
+    -29.875,
+    11.625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795310452
   }
  },
  "rivales": {

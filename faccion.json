@@ -3688,7 +3688,7 @@
     "2026-11-19": 12,
     "2026-11-20": 1,
     "2026-11-21": 2,
-    "2026-11-22": 5
+    "2026-11-22": 7
    },
    "zc": [
     {
@@ -3773,7 +3773,7 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795338641,
+     "t": 1795382086,
      "estado": "",
      "ls": 1812,
      "pads": {
@@ -3783,12 +3783,12 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795338647,
-      "n": 144,
+      "t": 1795382101,
+      "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 429572,
+        "p": 425635,
         "d": 2633
        },
        {
@@ -3808,7 +3808,7 @@
        },
        {
         "n": "alexandrite",
-        "p": 236342,
+        "p": 234449,
         "d": 927
        }
       ],
@@ -3855,7 +3855,7 @@
       ]
      },
      "mods": 783,
-     "mods_t": 1795338647,
+     "mods_t": 1795382093,
      "naves": [
       "anaconda",
       "asp",
@@ -3879,7 +3879,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795338647,
+     "naves_t": 1795382093,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3898,7 +3898,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -4095,7 +4095,7 @@
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 8
+    "2026-11-22": 10
    },
    "estaciones": {
     "Kinsey Town": {
@@ -6545,7 +6545,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795373939,
+   "t": 1795382094,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -6645,8 +6645,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Stronghold",
-    "prog": 0.096323,
-    "ref": 56523,
+    "prog": 0.10019,
+    "ref": 60390,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -6667,24 +6667,24 @@
     "2026-11-19": 11,
     "2026-11-20": 11,
     "2026-11-21": 31,
-    "2026-11-22": 9
+    "2026-11-22": 11
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795374080
+     "t": 1795382278
     },
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795374080
+     "t": 1795382278
     }
    ],
    "pn": {
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795374080,
+     "t": 1795382278,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6694,23 +6694,23 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795374080,
+     "t": 1795382278,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795374080,
+     "t": 1795382278,
      "d": 1795166553
     },
     "X9B-69N": {
      "n": "CDSN el tito berni",
-     "t": 1795374080,
+     "t": 1795382278,
      "d": 1795364285
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795373939,
+    "igual": 1795382094,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -6764,7 +6764,8 @@
     "1795334400": 1,
     "1795341600": 1,
     "1795363200": 1,
-    "1795370400": 1
+    "1795370400": 1,
+    "1795381200": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -6772,7 +6773,7 @@
     "2026-11-19": 5,
     "2026-11-20": 6,
     "2026-11-21": 11,
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -6888,7 +6889,7 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795374215,
+     "t": 1795382369,
      "estado": "",
      "ls": 3130,
      "pads": {
@@ -6898,16 +6899,16 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795374222,
+      "t": 1795382382,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795374222,
+     "mods_t": 1795382382,
      "neg": {
-      "NoSpace": 47
+      "NoSpace": 52
      },
      "atq": {
       "2026-11-17": {
@@ -6931,8 +6932,8 @@
        "no": 1
       },
       "2026-11-22": {
-       "ok": 4,
-       "no": 26
+       "ok": 5,
+       "no": 31
       }
      }
     },
@@ -7721,7 +7722,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 163
+    "2026-11-22": 171
    },
    "pn": {
     "H5L-70M": {
@@ -7730,8 +7731,8 @@
      "d": 1794928703
     },
     "KBL-37L": {
-     "n": "EPICUS FUROR *CDSN*",
-     "t": 1795367288,
+     "n": "",
+     "t": 1795382381,
      "d": 1794855069
     },
     "KBY-8QF": {
@@ -7834,18 +7835,18 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795379494,
+     "t": 1795382792,
      "estado": "",
-     "ls": 1064,
+     "ls": 1065,
      "mid": 4396762115,
      "mer": {
-      "t": 1795379508,
+      "t": 1795382840,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 669435,
-        "d": 17415
+        "p": 669454,
+        "d": 17416
        },
        {
         "n": "iridium",
@@ -7946,7 +7947,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 38,
+       "ok": 40,
        "no": 3
       }
      },
@@ -8000,13 +8001,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795379500,
+     "naves_t": 1795382798,
      "neg": {
       "Distance": 10,
       "Offences": 3
      },
      "mods": 908,
-     "mods_t": 1795379500
+     "mods_t": 1795382798
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -9366,7 +9367,7 @@
     "Planetary Construction Site: Blaes Chemical Works": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795379199,
+     "t": 1795382457,
      "estado": "",
      "ls": 2659,
      "pads": {
@@ -9376,11 +9377,17 @@
      },
      "mid": 4405392387,
      "mer": {
-      "t": 1795379205,
+      "t": 1795382469,
       "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 2,
+       "no": 0
+      }
      }
     }
    },
@@ -16490,6 +16497,7 @@
     ]
    },
    "trafico": {
+    "2026-02-23": 1,
     "2026-11-13": 2,
     "2026-11-15": 2,
     "2026-11-17": 3,
@@ -16500,6 +16508,7 @@
     "igual": 1795375749
    },
    "saltos": {
+    "1771887600": 1,
     "1794945600": 1,
     "1795374000": 1
    },
@@ -16635,6 +16644,10 @@
      ],
      "naves_t": 1794948536,
      "atq": {
+      "2026-02-23": {
+       "ok": 1,
+       "no": 0
+      },
       "2026-11-22": {
        "ok": 1,
        "no": 0
@@ -16762,7 +16775,7 @@
    "rivales": [],
    "cseg": {},
    "rutas": {
-    "2026-11-22": 1
+    "2026-11-22": 2
    }
   },
   "Tascheter Sector CG-X b1-1": {
@@ -16851,6 +16864,7 @@
     ]
    },
    "trafico": {
+    "2026-02-23": 1,
     "2026-11-15": 2,
     "2026-11-21": 2
    },
@@ -16862,6 +16876,7 @@
     "est": null
    },
    "saltos": {
+    "1771844400": 1,
     "1795291200": 2
    },
    "rutas": {
@@ -28630,11 +28645,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795380332.0456169,
-  "msgs": 3966096,
-  "mios": 373
+  "ultimo": 1795382095.86993,
+  "msgs": 3987849,
+  "mios": 374
  },
- "t": 1795381915.2422175,
+ "t": 1795382851.1066544,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -29218,9 +29233,9 @@
    "ly": 10.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 217543,
+   "pob": 217570,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795314111
+   "t": 1795382208
   },
   "Tascheter Sector BV-Y b2": {
    "pos": [
@@ -30234,7 +30249,7 @@
    "nfac": 4,
    "pob": 22249,
    "ctrl_n": "Yenici Patron's Principles",
-   "t": 1795290463
+   "t": 1795382155
   },
   "Alhena": {
    "pos": [
@@ -31116,9 +31131,9 @@
    "ly": 14.7,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 4,
-   "pob": 1572479,
+   "pob": 1573878,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1794969948
+   "t": 1795382308
   },
   "Col 285 Sector TD-T a33-7": {
    "pos": [
@@ -31300,7 +31315,7 @@
    "nfac": 6,
    "pob": 750493,
    "ctrl_n": "Chapterhouse of Inquisition",
-   "t": 1795379256
+   "t": 1795382539
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -31807,7 +31822,7 @@
    "nfac": 4,
    "pob": 1597755,
    "ctrl_n": "Civitas Dei",
-   "t": 1795334832
+   "t": 1795382010
   },
   "Tascheter Sector XO-A b6": {
    "pos": [
@@ -32611,9 +32626,9 @@
    "ly": 8.0,
    "junto": "Hyades Sector XV-L b8-3",
    "nfac": 4,
-   "pob": 438622,
+   "pob": 438670,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795086757
+   "t": 1795382575
   },
   "Lalande 9828": {
    "pos": [
@@ -33027,9 +33042,9 @@
    "ly": 10.0,
    "junto": "Tascheter Sector CG-X b1-1",
    "nfac": 3,
-   "pob": 45623234,
+   "pob": 45680364,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795162134
+   "t": 1795382437
   },
   "Trianguli Sector BG-X b1-5": {
    "pos": [
@@ -35110,6 +35125,19 @@
    "pob": 2413545,
    "ctrl_n": "The 10th Legion",
    "t": 1795381742
+  },
+  "Piscium Sector TT-Z a3": {
+   "pos": [
+    -47.59375,
+    -28.34375,
+    -80.34375
+   ],
+   "ly": 19.3,
+   "junto": "Hyades Sector AC-K b9-6",
+   "nfac": 3,
+   "pob": 599172,
+   "ctrl_n": "Armada",
+   "t": 1795382555
   }
  },
  "codice": [
@@ -36211,7 +36239,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795162134
+   "t": 1795382437
   },
   "Yin Sector ZU-Y b3": {
    "pos": [
@@ -36334,13 +36362,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Stronghold",
-   "prog": 0.26044,
+   "prog": 0.260443,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795381031
+   "t": 1795382799
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -36621,7 +36649,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.096323,
+   "prog": 0.10019,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -36629,7 +36657,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795373939
+   "t": 1795382094
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -37453,7 +37481,7 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.238284,
+   "prog": 0.238146,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -37461,7 +37489,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795367448
+   "t": 1795382376
   },
   "Ross 874": {
    "pos": [
@@ -37497,22 +37525,6 @@
     "Zemina Torval"
    ],
    "t": 1795342734
-  },
-  "Tascheter Sector AL-O a6-0": {
-   "pos": [
-    7.625,
-    -32.9375,
-    -41.78125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.077712,
-   "pots": [
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795162233
   },
   "Trianguli Sector RU-O a6-2": {
    "pos": [
@@ -37611,24 +37623,6 @@
     "Li Yong-Rui"
    ],
    "t": 1795292854
-  },
-  "Ceto": {
-   "pos": [
-    -2.71875,
-    16.875,
-    -78.3125
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.070814,
-   "pots": [
-    "Edmund Mahon",
-    "Felicia Winters",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795292497
   },
   "EGM 823": {
    "pos": [
@@ -39314,14 +39308,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.27478,
+   "prog": 0.27469,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795366078
+   "t": 1795382024
   },
   "Lyncis Sector CQ-Y c7": {
    "pos": [
@@ -39596,14 +39590,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.254298,
+   "prog": 0.253838,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795377406
+   "t": 1795382707
   },
   "Galibi": {
    "pos": [
@@ -39939,11 +39933,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Fortified",
-   "prog": 0.261546,
+   "prog": 0.261969,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795290463
+   "t": 1795382155
   },
   "Hyades Sector RZ-N b7-0": {
    "pos": [
@@ -40571,7 +40565,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795314111
+   "t": 1795382208
   },
   "Strigenses": {
    "pos": [
@@ -40845,11 +40839,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.305901,
+   "prog": 0.306235,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795379256
+   "t": 1795382539
   },
   "Chonost": {
    "pos": [
@@ -40915,7 +40909,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795323009
+   "t": 1795382851
   },
   "BD+40 1697": {
    "pos": [
@@ -41279,13 +41273,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Stronghold",
-   "prog": 0.195853,
+   "prog": 0.196198,
    "pots": [
     "Edmund Mahon",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795287487
+   "t": 1795382067
   },
   "Hyades Sector OT-P b6-1": {
    "pos": [
@@ -41431,22 +41425,6 @@
     "Zemina Torval"
    ],
    "t": 1795372238
-  },
-  "HIP 37162": {
-   "pos": [
-    -8.9375,
-    59.5,
-    -116.375
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Fortified",
-   "prog": 0.144615,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795215625
   },
   "Tascheter Sector ZZ-Y b3": {
    "pos": [
@@ -42110,23 +42088,6 @@
    ],
    "t": 1795376111
   },
-  "Apinayimas": {
-   "pos": [
-    -19.03125,
-    41.34375,
-    -102.875
-   ],
-   "pot": "Jerome Archer",
-   "est": "Exploited",
-   "prog": 0.123426,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795220576
-  },
   "HAT 94-00572": {
    "pos": [
     -27.90625,
@@ -42570,7 +42531,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795311784
+   "t": 1795382332
   },
   "Lese": {
    "pos": [
@@ -43654,24 +43615,6 @@
    ],
    "t": 1795360141
   },
-  "Yin Sector XJ-A c18": {
-   "pos": [
-    -10.46875,
-    35.53125,
-    -70.75
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Edmund Mahon",
-    "Felicia Winters",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795369734
-  },
   "HIP 24133": {
    "pos": [
     -15.3125,
@@ -44112,24 +44055,6 @@
     "Li Yong-Rui"
    ],
    "t": 1795293211
-  },
-  "Tascheter Sector CG-X b1-1": {
-   "pos": [
-    -23.6875,
-    9.53125,
-    -78.875
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.033809,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795293215
   },
   "Kwiamo": {
    "pos": [
@@ -44889,23 +44814,6 @@
    ],
    "t": 1795348997
   },
-  "Loki Tan": {
-   "pos": [
-    32.375,
-    28.34375,
-    -109.375
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.170283,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Felicia Winters",
-    "Li Yong-Rui"
-   ],
-   "t": 1795335248
-  },
   "Hyades Sector NT-P b6-4": {
    "pos": [
     -1.46875,
@@ -45218,7 +45126,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795334832
+   "t": 1795382010
   },
   "HIP 11324": {
    "pos": [
@@ -46012,22 +45920,6 @@
    ],
    "t": 1795375661
   },
-  "Kher": {
-   "pos": [
-    -11.5,
-    42.4375,
-    -104.40625
-   ],
-   "pot": "Jerome Archer",
-   "est": "Fortified",
-   "prog": 0.250902,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795375749
-  },
   "LTT 11926": {
    "pos": [
     -35.15625,
@@ -46343,6 +46235,71 @@
     "Zemina Torval"
    ],
    "t": 1795381847
+  },
+  "Ulangin": {
+   "pos": [
+    -47.25,
+    -17.875,
+    -118.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795382012
+  },
+  "Ceti Sector DL-X b1-5": {
+   "pos": [
+    18.59375,
+    -94.75,
+    -49.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795382308
+  },
+  "Tascheter Sector CL-Y d135": {
+   "pos": [
+    -28.03125,
+    -11.15625,
+    -92.03125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795382575
+  },
+  "Piscium Sector TT-Z a3": {
+   "pos": [
+    -47.59375,
+    -28.34375,
+    -80.34375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795382555
   }
  },
  "rivales": {

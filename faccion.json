@@ -6537,7 +6537,7 @@
   },
   "Burr": {
    "sys": "Burr",
-   "t": 1795364285,
+   "t": 1795373939,
    "src": "EDDN",
    "inf": 41.04,
    "ctrl": true,
@@ -6637,8 +6637,8 @@
    "pp": {
     "pot": "Jerome Archer",
     "est": "Stronghold",
-    "prog": 0.092855,
-    "ref": 53055,
+    "prog": 0.096323,
+    "ref": 56523,
     "soc": 0,
     "pots": [
      "Edmund Mahon",
@@ -6659,24 +6659,24 @@
     "2026-11-19": 11,
     "2026-11-20": 11,
     "2026-11-21": 31,
-    "2026-11-22": 7
+    "2026-11-22": 9
    },
    "zc": [
     {
      "n": "$Warzone_PointRace_Med:#index=1;",
      "i": "Med",
-     "t": 1795364433
+     "t": 1795374080
     },
     {
      "n": "$Warzone_PointRace_Low:#index=1;",
      "i": "Low",
-     "t": 1795364433
+     "t": 1795374080
     }
    ],
    "pn": {
     "JZH-G9M": {
      "n": "CDSN ADVANCED FC ORTEM",
-     "t": 1795364433,
+     "t": 1795374080,
      "d": 1794888452
     },
     "BBF-G3Z": {
@@ -6686,23 +6686,23 @@
     },
     "YZH-B6Z": {
      "n": "CDSN PROVIDENCIA",
-     "t": 1795364433,
+     "t": 1795374080,
      "d": 1795025641
     },
     "K9V-87Y": {
      "n": "cdsn galerna",
-     "t": 1795364433,
+     "t": 1795374080,
      "d": 1795166553
     },
     "X9B-69N": {
      "n": "CDSN el tito berni",
-     "t": 1795364433,
+     "t": 1795374080,
      "d": 1795364285
     }
    },
    "tk": {
     "firma": "6a0cf33b",
-    "igual": 1795364285,
+    "igual": 1795373939,
     "ult": 1794989674,
     "desde": 1794956913,
     "vent": [
@@ -6755,7 +6755,8 @@
     "1795298400": 1,
     "1795334400": 1,
     "1795341600": 1,
-    "1795363200": 1
+    "1795363200": 1,
+    "1795370400": 1
    },
    "rutas": {
     "2026-11-17": 9,
@@ -6763,7 +6764,7 @@
     "2026-11-19": 5,
     "2026-11-20": 6,
     "2026-11-21": 11,
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -6879,7 +6880,7 @@
     "Cook Silo": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795364555,
+     "t": 1795374215,
      "estado": "",
      "ls": 3130,
      "pads": {
@@ -6889,16 +6890,16 @@
      },
      "mid": 3531454464,
      "mer": {
-      "t": 1795364567,
+      "t": 1795374222,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 124,
-     "mods_t": 1795364567,
+     "mods_t": 1795374222,
      "neg": {
-      "NoSpace": 44
+      "NoSpace": 47
      },
      "atq": {
       "2026-11-17": {
@@ -6922,8 +6923,8 @@
        "no": 1
       },
       "2026-11-22": {
-       "ok": 3,
-       "no": 23
+       "ok": 4,
+       "no": 26
       }
      }
     },
@@ -7608,7 +7609,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 121
+    "2026-11-22": 127
    },
    "pn": {
     "H5L-70M": {
@@ -7721,18 +7722,18 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795373176,
+     "t": 1795374492,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795373227,
+      "t": 1795374520,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 669396,
-        "d": 17413
+        "p": 669415,
+        "d": 17414
        },
        {
         "n": "iridium",
@@ -7833,7 +7834,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 30,
+       "ok": 32,
        "no": 3
       }
      },
@@ -7843,18 +7844,57 @@
       "Large": 9
      },
      "naves": [
+      "adder",
+      "anaconda",
+      "asp",
+      "asp_scout",
+      "belugaliner",
+      "cobramkiii",
+      "cobramkv",
+      "corsair",
+      "diamondback",
+      "diamondbackxl",
+      "dolphin",
+      "eagle",
       "explorer_nx",
+      "federation_corvette",
+      "federation_dropship",
+      "federation_dropship_mkii",
+      "federation_gunship",
+      "ferdelance",
+      "hauler",
+      "independant_trader",
+      "krait_light",
+      "krait_mkii",
+      "lakonminer",
+      "mamba",
+      "mandalay",
       "mediumtransport01",
+      "orca",
       "panthermkii",
-      "type8"
+      "python",
+      "python_nx",
+      "sidewinder",
+      "smallcombat01_nx",
+      "type6",
+      "type7",
+      "type8",
+      "type9",
+      "type9_military",
+      "typex",
+      "typex_2",
+      "typex_3",
+      "viper",
+      "viper_mkiv",
+      "vulture"
      ],
-     "naves_t": 1795373205,
+     "naves_t": 1795374498,
      "neg": {
       "Distance": 10,
       "Offences": 3
      },
-     "mods": 902,
-     "mods_t": 1795373183
+     "mods": 897,
+     "mods_t": 1795374498
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -9030,7 +9070,7 @@
     "Planetary Construction Site: Sosa Industrial": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795373616,
+     "t": 1795374234,
      "estado": "",
      "ls": 2661,
      "pads": {
@@ -9040,15 +9080,15 @@
      },
      "mid": 4405368323,
      "mer": {
-      "t": 1795373622,
-      "n": 1,
+      "t": 1795374241,
+      "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      }
@@ -28106,11 +28146,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795373803.9548693,
-  "msgs": 3761406,
-  "mios": 362
+  "ultimo": 1795373940.6280942,
+  "msgs": 3781389,
+  "mios": 363
  },
- "t": 1795373817.9472854,
+ "t": 1795374692.6545072,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -28124,7 +28164,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795369809
+   "t": 1795374682
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28163,7 +28203,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795372412
+   "t": 1795374184
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -28579,7 +28619,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1795370211
+   "t": 1795374048
   },
   "Zephyrus": {
    "pos": [
@@ -28930,7 +28970,7 @@
    "nfac": 3,
    "pob": 28638809,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795369198
+   "t": 1795374654
   },
   "Dewikum": {
    "pos": [
@@ -29164,7 +29204,7 @@
    "nfac": 3,
    "pob": 50006062,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795259931
+   "t": 1795374244
   },
   "ICZ EL-Y d90": {
    "pos": [
@@ -30059,9 +30099,9 @@
    "ly": 13.9,
    "junto": "Satvaneka",
    "nfac": 3,
-   "pob": 203521,
+   "pob": 203552,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795154702
+   "t": 1795374091
   },
   "Mandra": {
    "pos": [
@@ -30397,9 +30437,9 @@
    "ly": 7.3,
    "junto": "Hyades Sector SZ-N b7-0",
    "nfac": 5,
-   "pob": 2190597,
+   "pob": 2190724,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795269967
+   "t": 1795374595
   },
   "Propus": {
    "pos": [
@@ -31385,9 +31425,9 @@
    "ly": 12.1,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 430676,
+   "pob": 431098,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795026407
+   "t": 1795374619
   },
   "Trianguli Sector RZ-O a6-2": {
    "pos": [
@@ -35291,7 +35331,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257764,
+   "prog": 0.258038,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -35299,7 +35339,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795369809
+   "t": 1795374682
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35539,7 +35579,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795360896
+   "t": 1795373879
   },
   "LP 157-32": {
    "pos": [
@@ -35967,7 +36007,7 @@
    ],
    "pot": "Jerome Archer",
    "est": "Stronghold",
-   "prog": 0.092855,
+   "prog": 0.096323,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -35975,7 +36015,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795364285
+   "t": 1795373939
   },
   "Tascheter Sector CG-O a6-1": {
    "pos": [
@@ -37585,7 +37625,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795372412
+   "t": 1795374184
   },
   "Onyaksas": {
    "pos": [
@@ -37735,7 +37775,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795154702
+   "t": 1795374091
   },
   "Celticassag": {
    "pos": [
@@ -38026,13 +38066,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.370207,
+   "prog": 0.370355,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795370211
+   "t": 1795374048
   },
   "Arietis Sector DG-X c1-14": {
    "pos": [
@@ -38991,7 +39031,7 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.265975,
+   "prog": 0.265689,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -38999,7 +39039,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795369027
+   "t": 1795374424
   },
   "Scottii": {
    "pos": [
@@ -41794,7 +41834,7 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.163894,
+   "prog": 0.170611,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
@@ -41802,7 +41842,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795259931
+   "t": 1795374244
   },
   "Delphin": {
    "pos": [
@@ -42559,7 +42599,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795269967
+   "t": 1795374595
   },
   "Ebanji": {
    "pos": [
@@ -44094,7 +44134,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795369198
+   "t": 1795374654
   },
   "44 Kappa Aurigae": {
    "pos": [
@@ -45309,6 +45349,37 @@
     "Zemina Torval"
    ],
    "t": 1795372773
+  },
+  "Orgeleu": {
+   "pos": [
+    120.15625,
+    -123.15625,
+    -20.75
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.256024,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795374597
+  },
+  "Trianguli Sector BH-L a8-2": {
+   "pos": [
+    36.9375,
+    -43.21875,
+    -42.40625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795374619
   }
  },
  "rivales": {

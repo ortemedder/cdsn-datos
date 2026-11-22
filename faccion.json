@@ -4722,7 +4722,7 @@
   },
   "LP 254-40": {
    "sys": "LP 254-40",
-   "t": 1795334889,
+   "t": 1795373802,
    "src": "EDDN",
    "inf": 11.3,
    "ctrl": false,
@@ -4833,19 +4833,20 @@
     "2026-11-11": 1,
     "2026-11-15": 2,
     "2026-11-21": 2,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "tk": {
     "firma": "372304bb",
-    "igual": 1795334889
+    "igual": 1795373802
    },
    "saltos": {
     "1795302000": 1,
-    "1795334400": 1
+    "1795334400": 1,
+    "1795370400": 1
    },
    "rutas": {
     "2026-11-21": 1,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "estaciones": {
     "Jacobi Dock": {
@@ -7607,7 +7608,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 113
+    "2026-11-22": 121
    },
    "pn": {
     "H5L-70M": {
@@ -7720,18 +7721,18 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795368146,
+     "t": 1795373176,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795368169,
+      "t": 1795373227,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 669376,
-        "d": 17412
+        "p": 669396,
+        "d": 17413
        },
        {
         "n": "iridium",
@@ -7739,12 +7740,12 @@
         "d": 29471
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 415533,
         "d": 736734
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 415533,
         "d": 736734
        },
@@ -7832,7 +7833,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 26,
+       "ok": 30,
        "no": 3
       }
      },
@@ -7843,17 +7844,17 @@
      },
      "naves": [
       "explorer_nx",
-      "federation_corvette",
       "mediumtransport01",
-      "panthermkii"
+      "panthermkii",
+      "type8"
      ],
-     "naves_t": 1795368155,
+     "naves_t": 1795373205,
      "neg": {
       "Distance": 10,
       "Offences": 3
      },
-     "mods": 900,
-     "mods_t": 1795368153
+     "mods": 902,
+     "mods_t": 1795373183
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -9024,6 +9025,32 @@
       "vende": [],
       "alta": [],
       "barato": []
+     }
+    },
+    "Planetary Construction Site: Sosa Industrial": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795373616,
+     "estado": "",
+     "ls": 2661,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 3
+     },
+     "mid": 4405368323,
+     "mer": {
+      "t": 1795373622,
+      "n": 1,
+      "vende": [],
+      "alta": [],
+      "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 2,
+       "no": 0
+      }
      }
     }
    },
@@ -28079,11 +28106,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795372861.3150837,
-  "msgs": 3740608,
-  "mios": 361
+  "ultimo": 1795373803.9548693,
+  "msgs": 3761406,
+  "mios": 362
  },
- "t": 1795372864.4992006,
+ "t": 1795373817.9472854,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -29577,9 +29604,9 @@
    "ly": 16.5,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 4,
-   "pob": 1597962,
+   "pob": 1597988,
    "ctrl_n": "Aseveljet",
-   "t": 1795290321
+   "t": 1795373810
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -31438,7 +31465,7 @@
    "nfac": 6,
    "pob": 910547,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795372256
+   "t": 1795373351
   },
   "Crucis Sector HB-X b1-5": {
    "pos": [
@@ -35008,7 +35035,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795290321
+   "t": 1795373810
   },
   "Hyades Sector IN-R b5-1": {
    "pos": [
@@ -38150,7 +38177,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795366063
+   "t": 1795373230
   },
   "LTT 882": {
    "pos": [
@@ -38939,7 +38966,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795368459
+   "t": 1795373403
   },
   "Galibi": {
    "pos": [
@@ -39923,7 +39950,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795372256
+   "t": 1795373351
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -40539,7 +40566,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795299022
+   "t": 1795373708
   },
   "Trianguli Sector SU-O a6-5": {
    "pos": [
@@ -41414,7 +41441,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795231898
+   "t": 1795373358
   },
   "ICZ AK-Z b3": {
    "pos": [
@@ -43821,7 +43848,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795334889
+   "t": 1795373802
   },
   "Yin Sector UT-A b1": {
    "pos": [

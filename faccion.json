@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 19
+    "2026-11-22": 20
    },
    "zc": [
     {
@@ -19596,7 +19596,7 @@
   },
   "Lati": {
    "sys": "Lati",
-   "t": 1795342614,
+   "t": 1795358426,
    "src": "EDDN",
    "inf": 5.82,
    "ctrl": false,
@@ -19707,7 +19707,7 @@
    "trafico": {
     "2026-11-18": 2,
     "2026-11-21": 4,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "pn": {
     "WZT-W5B": {
@@ -19718,7 +19718,7 @@
    },
    "tk": {
     "firma": "7a815c83",
-    "igual": 1795342614,
+    "igual": 1795358426,
     "ult": 1795342614,
     "desde": 1795276970,
     "vent": [
@@ -19734,12 +19734,13 @@
     "1795258800": 1,
     "1795266000": 1,
     "1795276800": 1,
-    "1795341600": 1
+    "1795341600": 1,
+    "1795356000": 1
    },
    "rutas": {
     "2026-11-18": 4,
     "2026-11-21": 3,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "estaciones": {
     "Watts Settlement": {
@@ -20003,7 +20004,7 @@
     "2026-11-14": 2,
     "2026-11-16": 3,
     "2026-11-21": 9,
-    "2026-11-22": 4
+    "2026-11-22": 6
    },
    "tk": {
     "firma": "498033e1",
@@ -20258,9 +20259,9 @@
     "Bulgakov Installation": {
      "f": "Haraka Incorporated",
      "tipo": "CraterOutpost",
-     "t": 1795273372,
+     "t": 1795357645,
      "estado": "",
-     "ls": 1585,
+     "ls": 1584,
      "pads": {
       "Small": 4,
       "Medium": 4,
@@ -20268,14 +20269,20 @@
      },
      "mid": 3531909888,
      "mer": {
-      "t": 1795273379,
+      "t": 1795357652,
       "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "mods": 126,
-     "mods_t": 1795273379
+     "mods_t": 1795357652,
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     }
     }
    },
    "prev": 15.32,
@@ -27814,7 +27821,7 @@
   },
   "Pegasi Sector YU-X b1-2": {
    "sys": "Pegasi Sector YU-X b1-2",
-   "t": 1795357007,
+   "t": 1795358039,
    "src": "EDDN",
    "inf": 10.11,
    "ctrl": false,
@@ -27901,25 +27908,25 @@
     ]
    },
    "trafico": {
-    "2026-11-22": 7
+    "2026-11-22": 8
    },
    "tk": {
     "firma": "3c1be4ac",
-    "igual": 1795357007
+    "igual": 1795358039
    },
    "saltos": {
     "1795348800": 2,
     "1795352400": 1,
-    "1795356000": 1
+    "1795356000": 2
    },
    "rutas": {
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "estaciones": {
     "Mangold Gateway": {
      "f": "Guardians of Harmony",
      "tipo": "Coriolis",
-     "t": 1795357204,
+     "t": 1795358188,
      "estado": "",
      "ls": 184,
      "pads": {
@@ -27929,8 +27936,8 @@
      },
      "mid": 4227106051,
      "mer": {
-      "t": 1795357211,
-      "n": 53,
+      "t": 1795358195,
+      "n": 54,
       "vende": [
        {
         "n": "palladium",
@@ -28007,7 +28014,7 @@
       ]
      },
      "mods": 146,
-     "mods_t": 1795357211,
+     "mods_t": 1795358195,
      "naves": [
       "adder",
       "cobramkiii",
@@ -28017,10 +28024,10 @@
       "sidewinder",
       "type6"
      ],
-     "naves_t": 1795357211,
+     "naves_t": 1795358195,
      "atq": {
       "2026-11-22": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      }
@@ -28041,11 +28048,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795357311.1374452,
-  "msgs": 3379383,
-  "mios": 326
+  "ultimo": 1795358427.4536867,
+  "msgs": 3399434,
+  "mios": 328
  },
- "t": 1795357545.596561,
+ "t": 1795358428.8952487,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28527,7 +28534,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795307432
+   "t": 1795355409
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -28800,7 +28807,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795351055
+   "t": 1795352421
   },
   "LTT 740": {
    "pos": [
@@ -31346,9 +31353,9 @@
    "ly": 9.7,
    "junto": "Hyades Sector RZ-N b7-3",
    "nfac": 4,
-   "pob": 47914359,
+   "pob": 47916667,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795316575
+   "t": 1795357651
   },
   "Hyades Sector WF-M b8-2": {
    "pos": [
@@ -33597,7 +33604,7 @@
    "nfac": 5,
    "pob": 6093,
    "ctrl_n": "Nagii Union",
-   "t": 1795268690
+   "t": 1795355149
   },
   "Ebanji": {
    "pos": [
@@ -34831,7 +34838,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795220474
+   "t": 1795358269
   },
   "Selniang": {
    "pos": [
@@ -34864,7 +34871,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795307432
+   "t": 1795355409
   },
   "Nergal": {
    "pos": [
@@ -36082,7 +36089,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795351055
+   "t": 1795352421
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -36604,7 +36611,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795356705
+   "t": 1795357587
   },
   "Arietis Sector MN-S b4-5": {
    "pos": [
@@ -38150,7 +38157,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795357539
+   "t": 1795355627
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -38182,7 +38189,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795353741
+   "t": 1795357822
   },
   "Bhumian Ku": {
    "pos": [
@@ -39368,7 +39375,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795347345
+   "t": 1795358403
   },
   "Tirnitz": {
    "pos": [
@@ -40735,7 +40742,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795336205
+   "t": 1795358167
   },
   "PLX 695": {
    "pos": [
@@ -41656,7 +41663,7 @@
    ],
    "pot": "Aisling Duval",
    "est": "Exploited",
-   "prog": 0.338261,
+   "prog": 0.338358,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -41664,7 +41671,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795301955
+   "t": 1795357929
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -41974,7 +41981,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795306834
+   "t": 1795357655
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -42008,7 +42015,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795342614
+   "t": 1795358426
   },
   "Yin Sector XJ-A c20": {
    "pos": [
@@ -42073,7 +42080,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795301571
+   "t": 1795357791
   },
   "Thiin": {
    "pos": [
@@ -42351,7 +42358,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795268690
+   "t": 1795355149
   },
   "FK5 2550": {
    "pos": [
@@ -43840,7 +43847,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795305202
+   "t": 1795355203
   },
   "Tascheter Sector OX-U b2-3": {
    "pos": [
@@ -44138,13 +44145,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.063426,
+   "prog": 0.063552,
    "pots": [
     "Edmund Mahon",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795316575
+   "t": 1795357651
   },
   "Mirongkomi": {
    "pos": [
@@ -44674,7 +44681,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795357007
+   "t": 1795358039
   },
   "Tascheter Sector HM-M a7-1": {
    "pos": [
@@ -44754,7 +44761,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795357337
+   "t": 1795358417
   },
   "Bunuson": {
    "pos": [
@@ -44815,7 +44822,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795357289
+   "t": 1795358349
   },
   "Tascheter Sector BL-O a6-1": {
    "pos": [

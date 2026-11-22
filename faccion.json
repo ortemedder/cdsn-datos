@@ -13903,7 +13903,7 @@
   },
   "Parrot's Head Sector DQ-Y c23": {
    "sys": "Parrot's Head Sector DQ-Y c23",
-   "t": 1795347684,
+   "t": 1795349851,
    "src": "EDDN",
    "inf": 19.4,
    "ctrl": false,
@@ -13993,11 +13993,11 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 21
+    "2026-11-22": 22
    },
    "tk": {
     "firma": "07fff6cc",
-    "igual": 1795347684,
+    "igual": 1795349851,
     "ult": 1795337888,
     "desde": 1795296668,
     "vent": [
@@ -14040,7 +14040,8 @@
     "1795287600": 1,
     "1795294800": 1,
     "1795341600": 2,
-    "1795345200": 2
+    "1795345200": 2,
+    "1795348800": 1
    },
    "rutas": {
     "2026-11-17": 20,
@@ -14048,7 +14049,7 @@
     "2026-11-19": 3,
     "2026-11-20": 8,
     "2026-11-21": 13,
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "estaciones": {
     "Planetary Construction Site: Leighton's Forge": {
@@ -27955,11 +27956,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795349365.980168,
-  "msgs": 3234852,
-  "mios": 312
+  "ultimo": 1795349853.6084857,
+  "msgs": 3249546,
+  "mios": 313
  },
- "t": 1795349381.035313,
+ "t": 1795349982.3009486,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28103,7 +28104,7 @@
    "nfac": 4,
    "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795348649
+   "t": 1795349697
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -28454,7 +28455,7 @@
    "nfac": 4,
    "pob": 216633,
    "ctrl_n": "East India Company",
-   "t": 1795296356
+   "t": 1795349780
   },
   "Trianguli Sector SU-O a6-3": {
    "pos": [
@@ -29052,7 +29053,7 @@
    "nfac": 3,
    "pob": 124060101,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795346718
+   "t": 1795349977
   },
   "Col 285 Sector UX-H b11-1": {
    "pos": [
@@ -31702,9 +31703,9 @@
    "ly": 6.7,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 2194258,
+   "pob": 2194336,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795323323
+   "t": 1795349658
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -34593,7 +34594,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795348649
+   "t": 1795349697
   },
   "Bakuari": {
    "pos": [
@@ -38313,7 +38314,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795261713
+   "t": 1795349432
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -38886,7 +38887,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795323323
+   "t": 1795349658
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -38903,7 +38904,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795296356
+   "t": 1795349780
   },
   "LP 714-58": {
    "pos": [
@@ -43489,7 +43490,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795346718
+   "t": 1795349977
   },
   "LHS 1758": {
    "pos": [

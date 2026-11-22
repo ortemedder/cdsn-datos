@@ -6756,7 +6756,7 @@
     "2026-11-19": 5,
     "2026-11-20": 6,
     "2026-11-21": 11,
-    "2026-11-22": 2
+    "2026-11-22": 3
    },
    "estaciones": {
     "Barreau Mining Facility": {
@@ -7517,7 +7517,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795364631,
+   "t": 1795365344,
    "src": "EDDN",
    "inf": 85.83,
    "ctrl": true,
@@ -7601,17 +7601,17 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 75
+    "2026-11-22": 78
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795364742,
+     "t": 1795365482,
      "d": 1794928703
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1795364742,
+     "t": 1795365482,
      "d": 1794855069
     },
     "KBY-8QF": {
@@ -7647,7 +7647,7 @@
    },
    "tk": {
     "firma": "942adff6",
-    "igual": 1795364631,
+    "igual": 1795365344,
     "ult": 1795358443,
     "desde": 1795305911,
     "est": null,
@@ -7700,25 +7700,25 @@
     "1795302000": 4,
     "1795305600": 1,
     "1795359600": 2,
-    "1795363200": 3
+    "1795363200": 4
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
     "2026-11-20": 5,
     "2026-11-21": 7,
-    "2026-11-22": 5
+    "2026-11-22": 7
    },
    "estaciones": {
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795364022,
+     "t": 1795365539,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795364205,
+      "t": 1795365552,
       "n": 366,
       "vende": [
        {
@@ -7825,7 +7825,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 19,
+       "ok": 20,
        "no": 3
       }
      },
@@ -24140,7 +24140,7 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1795364323,
+   "t": 1795365644,
    "src": "EDDN",
    "inf": 59.06,
    "ctrl": true,
@@ -24220,7 +24220,7 @@
     "2026-11-19": 1,
     "2026-11-20": 4,
     "2026-11-21": 17,
-    "2026-11-22": 8
+    "2026-11-22": 12
    },
    "pn": {
     "KBL-37L": {
@@ -24231,7 +24231,7 @@
    },
    "tk": {
     "firma": "e01c9425",
-    "igual": 1795364323,
+    "igual": 1795365644,
     "ult": 1795361087,
     "desde": 1795302373,
     "est": null,
@@ -24251,13 +24251,13 @@
     "1795298400": 4,
     "1795302000": 4,
     "1795359600": 3,
-    "1795363200": 2
+    "1795363200": 4
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 2,
     "2026-11-21": 4,
-    "2026-11-22": 4
+    "2026-11-22": 8
    },
    "estaciones": {
     "Lavoisier Settlement": {
@@ -24428,7 +24428,7 @@
     "Orbital Construction Site: Poisson Platform": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795364553,
+     "t": 1795365262,
      "estado": "",
      "ls": 3687,
      "pads": {
@@ -24439,7 +24439,7 @@
      "mid": 3957935874,
      "atq": {
       "2026-11-22": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      }
@@ -28102,11 +28102,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795364643.890509,
-  "msgs": 3542829,
-  "mios": 346
+  "ultimo": 1795365669.1825185,
+  "msgs": 3563256,
+  "mios": 349
  },
- "t": 1795364762.1543524,
+ "t": 1795365676.5118515,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28237,7 +28237,7 @@
    "nfac": 5,
    "pob": 161723,
    "ctrl_n": "East India Company",
-   "t": 1795362779
+   "t": 1795365186
   },
   "LHS 1734": {
    "pos": [
@@ -28588,7 +28588,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795355409
+   "t": 1795365171
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -28651,9 +28651,9 @@
    "ly": 18.4,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 3500537630,
+   "pob": 3501340034,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795310982
+   "t": 1795365271
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -30733,7 +30733,7 @@
    "nfac": 5,
    "pob": 47363710,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795336917
+   "t": 1795365149
   },
   "Oisi": {
    "pos": [
@@ -30772,7 +30772,7 @@
    "nfac": 6,
    "pob": 750493,
    "ctrl_n": "Chapterhouse of Inquisition",
-   "t": 1795359575
+   "t": 1795365544
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -32722,7 +32722,7 @@
    "nfac": 6,
    "pob": 2672176,
    "ctrl_n": "HIP 19327 Blue State Solutions",
-   "t": 1795364686
+   "t": 1795364985
   },
   "Ross 874": {
    "pos": [
@@ -33307,7 +33307,7 @@
    "nfac": 3,
    "pob": 318600,
    "ctrl_n": "The Order of Mobius",
-   "t": 1795209557
+   "t": 1795365558
   },
   "Col 285 Sector IM-L c8-19": {
    "pos": [
@@ -34373,7 +34373,7 @@
    "nfac": 4,
    "pob": 159161,
    "ctrl_n": "Turmati Exchange",
-   "t": 1795357464
+   "t": 1795364827
   },
   "BD+54 886": {
    "pos": [
@@ -34426,6 +34426,19 @@
    "pob": 438377,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795363640
+  },
+  "Tascheter Sector BV-Y b4": {
+   "pos": [
+    -1.28125,
+    -11.625,
+    -99.3125
+   ],
+   "ly": 14.1,
+   "junto": "Tascheter Sector UT-A b1",
+   "nfac": 3,
+   "pob": 2014293,
+   "ctrl_n": "THE AZGHARIE",
+   "t": 1795364818
   }
  },
  "codice": [
@@ -34980,7 +34993,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795355409
+   "t": 1795365171
   },
   "Nergal": {
    "pos": [
@@ -36574,7 +36587,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795364686
+   "t": 1795364985
   },
   "Ariameni": {
    "pos": [
@@ -37180,7 +37193,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.10212,
+   "prog": 0.102129,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -37188,7 +37201,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795336917
+   "t": 1795365149
   },
   "LP 365-24": {
    "pos": [
@@ -37613,7 +37626,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795310982
+   "t": 1795365271
   },
   "Yukpenon": {
    "pos": [
@@ -38298,7 +38311,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795363783
+   "t": 1795365181
   },
   "Bhumian Ku": {
    "pos": [
@@ -40172,7 +40185,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795359575
+   "t": 1795365544
   },
   "Chonost": {
    "pos": [
@@ -40413,7 +40426,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795209557
+   "t": 1795365558
   },
   "Ba Jonandja": {
    "pos": [
@@ -42090,7 +42103,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795362047
+   "t": 1795365140
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -43485,7 +43498,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795354964
+   "t": 1795365153
   },
   "Audumasi": {
    "pos": [
@@ -44947,7 +44960,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795357464
+   "t": 1795364827
   },
   "Lyncis Sector IM-V b2-3": {
    "pos": [
@@ -45107,7 +45120,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795362779
+   "t": 1795365186
   },
   "Bingongina": {
    "pos": [
@@ -45173,6 +45186,23 @@
     "Zemina Torval"
    ],
    "t": 1795364757
+  },
+  "Tascheter Sector BV-Y b4": {
+   "pos": [
+    -1.28125,
+    -11.625,
+    -99.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Zemina Torval"
+   ],
+   "t": 1795364818
   }
  },
  "rivales": {

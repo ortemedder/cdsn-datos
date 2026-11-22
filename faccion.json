@@ -2774,7 +2774,8 @@
     "2026-11-18": 18,
     "2026-11-19": 11,
     "2026-11-20": 8,
-    "2026-11-21": 5
+    "2026-11-21": 5,
+    "2026-11-22": 2
    },
    "estaciones": {
     "Judge Reach": {
@@ -27246,15 +27247,124 @@
    "rach": {},
    "rivales": [],
    "cseg": {}
+  },
+  "Hyades Sector VF-M b8-4": {
+   "sys": "Hyades Sector VF-M b8-4",
+   "t": 1795314194,
+   "src": "EDDN",
+   "inf": 7.01,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Flotta Stellare",
+   "segunda_inf": 55.66,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Flotta Stellare",
+     "inf": 55.66,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "CivilUnrest"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Tastis Company",
+     "inf": 17.52,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Revolutionary Furuhjelm II-432 Alliance",
+     "inf": 9.91,
+     "gov": "Confederacy",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Flat Galaxy Society",
+     "inf": 9.91,
+     "gov": "Democracy",
+     "alg": "Alliance",
+     "act": [],
+     "pend": [
+      "Expansion"
+     ],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 7.01,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Flotta Stellare",
+   "pos": [
+    0.3125,
+    32.5625,
+    -95.25
+   ],
+   "sis": {
+    "pob": 206084,
+    "eco": "$economy_HighTech;",
+    "eco2": "$economy_Agri;",
+    "seg": "$SYSTEM_SECURITY_medium;",
+    "gov": "$government_Democracy;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Aisling Duval",
+     "Edmund Mahon",
+     "Li Yong-Rui",
+     "Jerome Archer"
+    ]
+   },
+   "hinf": [
+    [
+     1795314194,
+     7.01
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "5b1498bd",
+    "igual": 1795314194
+   },
+   "cseg": {}
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795309225.2207203,
-  "msgs": 2815045,
-  "mios": 280
+  "ultimo": 1795314195.7456193,
+  "msgs": 2825780,
+  "mios": 281
  },
- "t": 1795314120.451265,
+ "t": 1795315011.6200044,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -30011,7 +30121,7 @@
    "nfac": 5,
    "pob": 8347,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795296796
+   "t": 1795314724
   },
   "Col 285 Sector RD-T a33-5": {
    "pos": [
@@ -33236,9 +33346,32 @@
    "pob": 6264580,
    "ctrl_n": "Children of the Sun",
    "t": 1795311675
+  },
+  "Ceti Sector CL-X b1-4": {
+   "pos": [
+    11.90625,
+    -103.875,
+    -53.90625
+   ],
+   "ly": 3.7,
+   "junto": "Ceti Sector CL-X b1-1",
+   "nfac": 4,
+   "pob": 248521,
+   "ctrl_n": "Clan of Nidarijedi",
+   "t": 1795314660
   }
  },
  "codice": [
+  {
+   "sys": "GCRV 3034",
+   "n": "Cactoid 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "GCRV 3034 8 a",
+   "junto": "Hyades Sector UP-N b7-6",
+   "ly": 14.0,
+   "t": 1795314718
+  },
   {
    "sys": "GCRV 3034",
    "n": "Bacterial 01 G",
@@ -33528,16 +33661,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795181953
-  },
-  {
-   "sys": "LHS 1914",
-   "n": "Cactoid 01 T",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "LHS 1914 B 3",
-   "junto": "LP 254-40",
-   "ly": 16.5,
-   "t": 1795181295
   }
  ],
  "ataques": {
@@ -35970,7 +36093,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795296796
+   "t": 1795314724
   },
   "Kareneri": {
    "pos": [
@@ -43066,6 +43189,38 @@
     "Li Yong-Rui"
    ],
    "t": 1795311986
+  },
+  "Hyades Sector VF-M b8-4": {
+   "pos": [
+    0.3125,
+    32.5625,
+    -95.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795314194
+  },
+  "Ceti Sector CL-X b1-4": {
+   "pos": [
+    11.90625,
+    -103.875,
+    -53.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795314660
   }
  },
  "rivales": {

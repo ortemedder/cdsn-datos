@@ -27422,10 +27422,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795323751.170488,
-  "msgs": 2953322,
+  "msgs": 2961552,
   "mios": 283
  },
- "t": 1795326765.3503633,
+ "t": 1795327446.1349838,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -33472,6 +33472,19 @@
    "pob": 4072727,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795325987
+  },
+  "Kugaybaks": {
+   "pos": [
+    -23.84375,
+    1.375,
+    -141.8125
+   ],
+   "ly": 18.2,
+   "junto": "Hyades Sector JX-T c3-11",
+   "nfac": 5,
+   "pob": 12462,
+   "ctrl_n": "Nagii Union",
+   "t": 1795327281
   }
  },
  "codice": [
@@ -42642,7 +42655,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795298071
+   "t": 1795327418
   },
   "Furuhjelm III-674": {
    "pos": [
@@ -43450,6 +43463,22 @@
     "Zemina Torval"
    ],
    "t": 1795326706
+  },
+  "Kugaybaks": {
+   "pos": [
+    -23.84375,
+    1.375,
+    -141.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795327281
   }
  },
  "rivales": {

@@ -12298,7 +12298,7 @@
     "2026-11-16": 15,
     "2026-11-17": 4,
     "2026-11-18": 7,
-    "2026-11-22": 2
+    "2026-11-22": 4
    },
    "pn": {
     "H2J-72G": {
@@ -12509,102 +12509,96 @@
     "Trujillo Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1794994980,
+     "t": 1795355967,
      "estado": "",
-     "ls": 1484,
+     "ls": 1485,
      "pads": {
-      "Small": 8,
-      "Medium": 13,
-      "Large": 7
+      "Small": 10,
+      "Medium": 11,
+      "Large": 6
      },
      "mid": 4334980867,
      "mer": {
-      "t": 1794995389,
+      "t": 1795356318,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 234302,
-        "d": 1335
+        "p": 468604,
+        "d": 1339
+       },
+       {
+        "n": "iridium",
+        "p": 311649,
+        "d": 79093
+       },
+       {
+        "n": "thortveitite",
+        "p": 311649,
+        "d": 1615
+       },
+       {
+        "n": "periclasedunite",
+        "p": 311649,
+        "d": 1615
        },
        {
         "n": "alexandrite",
         "p": 224155,
         "d": 102
-       },
-       {
-        "n": "musgravite",
-        "p": 205433,
-        "d": 102
-       },
-       {
-        "n": "rhodplumsite",
-        "p": 205056,
-        "d": 492
-       },
-       {
-        "n": "grandidierite",
-        "p": 204210,
-        "d": 102
        }
       ],
       "alta": [
        {
-        "n": "water",
-        "p": 639,
-        "m": 260
+        "n": "ceramiccomposites",
+        "p": 2087,
+        "m": 402
        },
        {
-        "n": "polymers",
-        "p": 741,
-        "m": 306
-       },
-       {
-        "n": "beer",
-        "p": 775,
-        "m": 350
+        "n": "lepidolite",
+        "p": 3317,
+        "m": 741
        },
        {
         "n": "syntheticfabrics",
-        "p": 780,
+        "p": 1524,
         "m": 354
        },
        {
-        "n": "algae",
-        "p": 669,
-        "m": 308
+        "n": "polymers",
+        "p": 1313,
+        "m": 306
+       },
+       {
+        "n": "mineraloil",
+        "p": 1442,
+        "m": 416
        }
       ],
       "barato": [
        {
         "n": "foodcartridges",
-        "p": 33,
+        "p": 111,
         "m": 252,
-        "s": 440447
-       },
-       {
-        "n": "heliostaticfurnaces",
-        "p": 92,
-        "m": 418,
-        "s": 35943
+        "s": 441569
        },
        {
         "n": "biowaste",
-        "p": 70,
+        "p": 140,
         "m": 271,
-        "s": 34912
+        "s": 34810
+       },
+       {
+        "n": "heliostaticfurnaces",
+        "p": 262,
+        "m": 418,
+        "s": 36014
        },
        {
         "n": "scrap",
-        "p": 72,
+        "p": 191,
         "m": 276,
-        "s": 138627
-       },
-       {
-        "n": "syntheticmeat",
-        "p": 122,
-        "m": 415,
-        "s": 171508
+        "s": 138902
        }
       ]
      },
@@ -12651,6 +12645,10 @@
      "naves_t": 1794994989,
      "atq": {
       "2026-11-18": {
+       "ok": 1,
+       "no": 0
+      },
+      "2026-11-22": {
        "ok": 1,
        "no": 0
       }
@@ -14011,7 +14009,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 34
+    "2026-11-22": 36
    },
    "tk": {
     "firma": "07fff6cc",
@@ -15034,7 +15032,7 @@
     "Planetary Construction Site: Port Guargrad": {
      "f": "Brewer Corporation",
      "tipo": "PlanetaryConstructionDepot",
-     "t": 1795354936,
+     "t": 1795356005,
      "estado": "",
      "ls": 49936,
      "pads": {
@@ -15044,11 +15042,17 @@
      },
      "mid": 4405282307,
      "mer": {
-      "t": 1795354944,
-      "n": 2,
+      "t": 1795356012,
+      "n": 9,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
      }
     }
    },
@@ -28032,10 +28036,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795355627.7084281,
-  "msgs": 3343119,
+  "msgs": 3361101,
   "mios": 323
  },
- "t": 1795355708.0521483,
+ "t": 1795356641.5995088,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28049,7 +28053,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795350941
+   "t": 1795356446
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28257,7 +28261,7 @@
    "nfac": 5,
    "pob": 2806113,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795353947
+   "t": 1795356323
   },
   "LHS 1499": {
    "pos": [
@@ -28465,7 +28469,7 @@
    "nfac": 4,
    "pob": 129463,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795354597
+   "t": 1795356588
   },
   "Unktock": {
    "pos": [
@@ -28998,7 +29002,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795268333
+   "t": 1795356388
   },
   "Lokaantii": {
    "pos": [
@@ -29113,9 +29117,9 @@
    "ly": 16.4,
    "junto": "HIP 37216",
    "nfac": 4,
-   "pob": 199666,
+   "pob": 199680,
    "ctrl_n": "CROSS Corp",
-   "t": 1795276091
+   "t": 1795356315
   },
   "Tascheter Sector GR-M a7-0": {
    "pos": [
@@ -29973,7 +29977,7 @@
    "nfac": 4,
    "pob": 442172,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795266124
+   "t": 1795355916
   },
   "Hyades Sector PE-O b7-4": {
    "pos": [
@@ -31180,9 +31184,9 @@
    "ly": 11.5,
    "junto": "HIP 19292",
    "nfac": 4,
-   "pob": 401503,
+   "pob": 401538,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795209433
+   "t": 1795356392
   },
   "Masses": {
    "pos": [
@@ -32560,7 +32564,7 @@
    "nfac": 3,
    "pob": 2047728,
    "ctrl_n": "Imperial Self Defense Force",
-   "t": 1795354314
+   "t": 1795355975
   },
   "Col 285 Sector RD-T a33-3": {
    "pos": [
@@ -32846,7 +32850,7 @@
    "nfac": 3,
    "pob": 2223549,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795353383
+   "t": 1795356513
   },
   "Bhumian Ku": {
    "pos": [
@@ -33429,9 +33433,9 @@
    "ly": 19.2,
    "junto": "Jangore",
    "nfac": 3,
-   "pob": 1597779,
+   "pob": 1597808,
    "ctrl_n": "The Fatherhood",
-   "t": 1795275715
+   "t": 1795356480
   },
   "Furuhjelm II-432": {
    "pos": [
@@ -35099,7 +35103,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257725,
+   "prog": 0.257728,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -35107,7 +35111,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795319496
+   "t": 1795356446
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35347,7 +35351,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795343721
+   "t": 1795356638
   },
   "LP 157-32": {
    "pos": [
@@ -35982,7 +35986,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795354314
+   "t": 1795355975
   },
   "Col 285 Sector YZ-U b17-3": {
    "pos": [
@@ -36211,7 +36215,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795353947
+   "t": 1795356323
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -36340,7 +36344,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795354597
+   "t": 1795356588
   },
   "Guei": {
    "pos": [
@@ -36462,7 +36466,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.263651,
+   "prog": 0.263997,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -36470,7 +36474,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795298159
+   "t": 1795356357
   },
   "Tote": {
    "pos": [
@@ -36568,7 +36572,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795185871
+   "t": 1795355814
   },
   "Arietis Sector MN-S b4-5": {
    "pos": [
@@ -38130,7 +38134,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795353383
+   "t": 1795356513
   },
   "HR 3277": {
    "pos": [
@@ -39439,14 +39443,14 @@
    ],
    "pot": "Jerome Archer",
    "est": "Fortified",
-   "prog": 0.266991,
+   "prog": 0.266995,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795268333
+   "t": 1795356388
   },
   "Yawala": {
    "pos": [
@@ -39709,7 +39713,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795281307
+   "t": 1795356226
   },
   "BD+16 1001": {
    "pos": [
@@ -41523,7 +41527,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795275715
+   "t": 1795356480
   },
   "Decima": {
    "pos": [
@@ -42185,7 +42189,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795266124
+   "t": 1795355916
   },
   "HIP 38755": {
    "pos": [
@@ -42592,7 +42596,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795276091
+   "t": 1795356315
   },
   "Hyades Sector YG-K b9-5": {
    "pos": [
@@ -44719,6 +44723,34 @@
     "Li Yong-Rui"
    ],
    "t": 1795355077
+  },
+  "Bunuson": {
+   "pos": [
+    111.90625,
+    -104.90625,
+    -16.09375
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Stronghold",
+   "prog": 0.353902,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795356211
+  },
+  "ICZ EQ-Y c22": {
+   "pos": [
+    113.4375,
+    -111.90625,
+    -21.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795356392
   }
  },
  "rivales": {

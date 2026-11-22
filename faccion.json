@@ -15782,7 +15782,7 @@
     "2026-11-15": 5,
     "2026-11-18": 1,
     "2026-11-21": 7,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "pn": {
     "T9Q-5HX": {
@@ -28631,10 +28631,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795380332.0456169,
-  "msgs": 3942362,
+  "msgs": 3966096,
   "mios": 373
  },
- "t": 1795380992.2748065,
+ "t": 1795381915.2422175,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -29103,7 +29103,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1795375972
+   "t": 1795381801
   },
   "Zephyrus": {
    "pos": [
@@ -29623,7 +29623,7 @@
    "nfac": 6,
    "pob": 631208592,
    "ctrl_n": "Solaris Xeno-Psychology Group",
-   "t": 1795088180
+   "t": 1795381847
   },
   "Bakuari": {
    "pos": [
@@ -30988,7 +30988,7 @@
    "nfac": 6,
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795358986
+   "t": 1795381275
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -31872,7 +31872,7 @@
    "nfac": 5,
    "pob": 44330,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795380451
+   "t": 1795381890
   },
   "Trianguli Sector WA-N a7-0": {
    "pos": [
@@ -32418,7 +32418,7 @@
    "nfac": 3,
    "pob": 412112,
    "ctrl_n": "Ukrainian Pilots Federation",
-   "t": 1795379759
+   "t": 1795381691
   },
   "Hyades Sector VA-M b8-1": {
    "pos": [
@@ -32429,9 +32429,9 @@
    "ly": 9.9,
    "junto": "Arietis Sector CQ-Y d60",
    "nfac": 4,
-   "pob": 48886904,
+   "pob": 48890999,
    "ctrl_n": "Radiant Ruby Control Cooperative",
-   "t": 1795202983
+   "t": 1795381832
   },
   "Col 285 Sector XJ-R a34-2": {
    "pos": [
@@ -33185,7 +33185,7 @@
    "nfac": 5,
    "pob": 1997595,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795379603
+   "t": 1795381384
   },
   "Baraluhet": {
    "pos": [
@@ -33638,9 +33638,9 @@
    "ly": 18.1,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 59919110,
+   "pob": 59920220,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795310057
+   "t": 1795381308
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -34043,7 +34043,7 @@
    "nfac": 6,
    "pob": 2281,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795359596
+   "t": 1795381429
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -34368,7 +34368,7 @@
    "nfac": 5,
    "pob": 2568476,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795316897
+   "t": 1795381180
   },
   "Hyades Sector PO-P b6-1": {
    "pos": [
@@ -35097,6 +35097,19 @@
    "pob": 390046,
    "ctrl_n": "Canonn",
    "t": 1795380824
+  },
+  "HIP 18802": {
+   "pos": [
+    118.5625,
+    -118.78125,
+    -3.8125
+   ],
+   "ly": 10.4,
+   "junto": "HIP 19292",
+   "nfac": 3,
+   "pob": 2413545,
+   "ctrl_n": "The 10th Legion",
+   "t": 1795381742
   }
  },
  "codice": [
@@ -35742,7 +35755,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795358986
+   "t": 1795381275
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -36321,13 +36334,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Stronghold",
-   "prog": 0.260431,
+   "prog": 0.26044,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795380237
+   "t": 1795381031
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -36718,23 +36731,6 @@
    ],
    "t": 1795287699
   },
-  "Kamuti": {
-   "pos": [
-    -38.5625,
-    27.65625,
-    -104.53125
-   ],
-   "pot": "Pranav Antal",
-   "est": "Exploited",
-   "prog": 0.1233,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795124670
-  },
   "Wo 9203": {
    "pos": [
     11,
@@ -36895,7 +36891,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795379603
+   "t": 1795381384
   },
   "Trianguli Sector ZL-L a8-2": {
    "pos": [
@@ -38667,13 +38663,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.370721,
+   "prog": 0.37243,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795375972
+   "t": 1795381801
   },
   "Arietis Sector DG-X c1-14": {
    "pos": [
@@ -39293,7 +39289,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795380348
+   "t": 1795381726
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -39640,7 +39636,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795374814
+   "t": 1795381681
   },
   "Scottii": {
    "pos": [
@@ -39991,7 +39987,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.158615,
+   "prog": 0.159126,
    "pots": [
     "Aisling Duval",
     "Denton Patreus",
@@ -39999,7 +39995,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795310057
+   "t": 1795381308
   },
   "Eurus": {
    "pos": [
@@ -40477,7 +40473,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795202983
+   "t": 1795381832
   },
   "Bota Ili": {
    "pos": [
@@ -41403,7 +41399,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795215015
+   "t": 1795381891
   },
   "Tascheter Sector ZZ-P a5-0": {
    "pos": [
@@ -42425,7 +42421,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795359596
+   "t": 1795381429
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -43482,13 +43478,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Exploited",
-   "prog": 0.267678,
+   "prog": 0.267969,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795380451
+   "t": 1795381890
   },
   "Hyades Sector IX-T c3-27": {
    "pos": [
@@ -43760,13 +43756,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.256024,
+   "prog": 0.256144,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795316897
+   "t": 1795381180
   },
   "Ceti Sector GR-V b2-5": {
    "pos": [
@@ -44229,7 +44225,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795379759
+   "t": 1795381691
   },
   "Ocelete": {
    "pos": [
@@ -46316,6 +46312,37 @@
     "Jerome Archer"
    ],
    "t": 1795380396
+  },
+  "HIP 18802": {
+   "pos": [
+    118.5625,
+    -118.78125,
+    -3.8125
+   ],
+   "pot": "A. Lavigny-Duval",
+   "est": "Exploited",
+   "prog": 0.047997,
+   "pots": [
+    "A. Lavigny-Duval"
+   ],
+   "t": 1795381742
+  },
+  "Any Na": {
+   "pos": [
+    125.65625,
+    -1.71875,
+    14.09375
+   ],
+   "pot": "Zemina Torval",
+   "est": "Fortified",
+   "prog": 0.163385,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Felicia Winters",
+    "Zemina Torval"
+   ],
+   "t": 1795381847
   }
  },
  "rivales": {

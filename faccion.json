@@ -7520,7 +7520,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795367165,
+   "t": 1795367899,
    "src": "EDDN",
    "inf": 85.83,
    "ctrl": true,
@@ -7604,12 +7604,12 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 86
+    "2026-11-22": 92
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795367288,
+     "t": 1795368041,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -7650,7 +7650,7 @@
    },
    "tk": {
     "firma": "942adff6",
-    "igual": 1795367165,
+    "igual": 1795367899,
     "ult": 1795358443,
     "desde": 1795305911,
     "est": null,
@@ -7704,110 +7704,110 @@
     "1795305600": 1,
     "1795359600": 2,
     "1795363200": 6,
-    "1795366800": 2
+    "1795366800": 4
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
     "2026-11-20": 5,
     "2026-11-21": 7,
-    "2026-11-22": 14
+    "2026-11-22": 17
    },
    "estaciones": {
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795367369,
+     "t": 1795368146,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795367384,
+      "t": 1795368169,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 701134,
-        "d": 18283
-       },
-       {
-        "n": "musgravite",
-        "p": 539210,
-        "d": 48364
+        "p": 669376,
+        "d": 17412
        },
        {
         "n": "iridium",
-        "p": 449565,
-        "d": 30945
+        "p": 415533,
+        "d": 29471
        },
        {
         "n": "periclasedunite",
-        "p": 449565,
-        "d": 773571
+        "p": 415533,
+        "d": 736734
        },
        {
         "n": "thortveitite",
-        "p": 449565,
-        "d": 773571
+        "p": 415533,
+        "d": 736734
+       },
+       {
+        "n": "musgravite",
+        "p": 370074,
+        "d": 46061
        }
       ],
       "alta": [
        {
         "n": "bauxite",
-        "p": 13635,
+        "p": 13203,
         "m": 1096
        },
        {
-        "n": "militarygradefabrics",
-        "p": 9445,
-        "m": 899
-       },
-       {
         "n": "lepidolite",
-        "p": 5607,
+        "p": 5392,
         "m": 741
        },
        {
-        "n": "animalmonitors",
-        "p": 3902,
-        "m": 522
+        "n": "haematite",
+        "p": 8948,
+        "m": 1791
        },
        {
-        "n": "haematite",
-        "p": 9172,
-        "m": 1791
+        "n": "rutile",
+        "p": 9916,
+        "m": 2023
+       },
+       {
+        "n": "aquaponicsystems",
+        "p": 2196,
+        "m": 502
        }
       ],
       "barato": [
        {
         "n": "water",
-        "p": 70,
+        "p": 67,
         "m": 260,
-        "s": 2238709
+        "s": 1252705
        },
        {
         "n": "algae",
-        "p": 109,
+        "p": 113,
         "m": 308,
-        "s": 357513
-       },
-       {
-        "n": "biowaste",
-        "p": 129,
-        "m": 271,
-        "s": 783447
+        "s": 193898
        },
        {
         "n": "leather",
-        "p": 216,
+        "p": 220,
         "m": 423,
-        "s": 298582
+        "s": 159665
        },
        {
-        "n": "evacuationshelter",
-        "p": 282,
-        "m": 500,
-        "s": 6854
+        "n": "biowaste",
+        "p": 142,
+        "m": 271,
+        "s": 416373
+       },
+       {
+        "n": "liquidoxygen",
+        "p": 895,
+        "m": 1375,
+        "s": 1162721
        }
       ]
      },
@@ -7829,7 +7829,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 24,
+       "ok": 26,
        "no": 3
       }
      },
@@ -7839,57 +7839,18 @@
       "Large": 9
      },
      "naves": [
-      "adder",
-      "anaconda",
-      "asp",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
-      "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
       "explorer_nx",
       "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
       "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "panthermkii"
      ],
-     "naves_t": 1795367376,
+     "naves_t": 1795368155,
      "neg": {
       "Distance": 10,
       "Offences": 3
      },
      "mods": 900,
-     "mods_t": 1795367376
+     "mods_t": 1795368153
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -24183,7 +24144,7 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1795366838,
+   "t": 1795367556,
    "src": "EDDN",
    "inf": 59.06,
    "ctrl": true,
@@ -24263,18 +24224,18 @@
     "2026-11-19": 1,
     "2026-11-20": 4,
     "2026-11-21": 17,
-    "2026-11-22": 17
+    "2026-11-22": 22
    },
    "pn": {
     "KBL-37L": {
-     "n": "EPICUS FUROR *CDSN*",
-     "t": 1795302557,
+     "n": "",
+     "t": 1795367707,
      "d": 1795008025
     }
    },
    "tk": {
     "firma": "e01c9425",
-    "igual": 1795366838,
+    "igual": 1795367556,
     "ult": 1795361087,
     "desde": 1795302373,
     "est": null,
@@ -24295,13 +24256,13 @@
     "1795302000": 4,
     "1795359600": 3,
     "1795363200": 5,
-    "1795366800": 1
+    "1795366800": 3
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 2,
     "2026-11-21": 4,
-    "2026-11-22": 10
+    "2026-11-22": 12
    },
    "estaciones": {
     "Lavoisier Settlement": {
@@ -24472,7 +24433,7 @@
     "Orbital Construction Site: Poisson Platform": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795367094,
+     "t": 1795367783,
      "estado": "",
      "ls": 3688,
      "pads": {
@@ -24483,13 +24444,13 @@
      "mid": 3957935874,
      "atq": {
       "2026-11-22": {
-       "ok": 7,
+       "ok": 9,
        "no": 0
       }
      },
      "mer": {
-      "t": 1795367101,
-      "n": 0,
+      "t": 1795367790,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
@@ -28153,11 +28114,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795367189.4129674,
-  "msgs": 3607297,
-  "mios": 356
+  "ultimo": 1795367900.696771,
+  "msgs": 3631553,
+  "mios": 358
  },
- "t": 1795367455.4983711,
+ "t": 1795368359.8189318,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28171,7 +28132,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795360311
+   "t": 1795367729
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28301,7 +28262,7 @@
    "nfac": 4,
    "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795365706
+   "t": 1795367552
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -28418,7 +28379,7 @@
    "nfac": 6,
    "pob": 26663,
    "ctrl_n": "East India Company",
-   "t": 1795302808
+   "t": 1795367842
   },
   "Hajangai": {
    "pos": [
@@ -28873,7 +28834,7 @@
    "nfac": 4,
    "pob": 158348563,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795366874
+   "t": 1795368237
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -33917,7 +33878,7 @@
    "nfac": 6,
    "pob": 73554,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795362613
+   "t": 1795367968
   },
   "Col 285 Sector RZ-O c6-8": {
    "pos": [
@@ -34921,7 +34882,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795365706
+   "t": 1795367552
   },
   "Bakuari": {
    "pos": [
@@ -35235,7 +35196,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795366874
+   "t": 1795368237
   },
   "Wolf 186": {
    "pos": [
@@ -35333,7 +35294,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795360311
+   "t": 1795367729
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35720,7 +35681,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795362100
+   "t": 1795367627
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -36794,7 +36755,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795357587
+   "t": 1795367768
   },
   "Arietis Sector MN-S b4-5": {
    "pos": [
@@ -37060,7 +37021,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795367474
+   "t": 1795367848
   },
   "Wolf 289": {
    "pos": [
@@ -38372,7 +38333,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795367048
+   "t": 1795367925
   },
   "Bhumian Ku": {
    "pos": [
@@ -42157,14 +42118,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.239692,
+   "prog": 0.238346,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795366500
+   "t": 1795367532
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -42559,7 +42520,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795269276
+   "t": 1795367800
   },
   "Tascheter Sector OX-U b2-7": {
    "pos": [
@@ -43319,7 +43280,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795362613
+   "t": 1795367968
   },
   "Snotricopa": {
    "pos": [
@@ -43917,24 +43878,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795302808
-  },
-  "Tascheter Sector BQ-Y c19": {
-   "pos": [
-    -4.875,
-    -9.53125,
-    -98.4375
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Zemina Torval"
-   ],
-   "t": 1795303328
+   "t": 1795367842
   },
   "Forsha": {
    "pos": [
@@ -45264,6 +45208,21 @@
     "Zemina Torval"
    ],
    "t": 1795364818
+  },
+  "HIP 45096": {
+   "pos": [
+    133.40625,
+    -10.9375,
+    11.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795368351
   }
  },
  "rivales": {

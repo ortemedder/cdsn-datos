@@ -1420,23 +1420,23 @@
   },
   "Menkalinan": {
    "sys": "Menkalinan",
-   "t": 1795213714,
+   "t": 1795362180,
    "src": "EDDN",
-   "inf": 11.31,
+   "inf": 12.5,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 62.46,
+   "segunda_inf": 61.6,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 62.46,
+     "inf": 61.6,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -1447,7 +1447,7 @@
     },
     {
      "n": "Democrats of Condharwal",
-     "inf": 13.51,
+     "inf": 13.3,
      "gov": "Democracy",
      "alg": "Federation",
      "act": [],
@@ -1456,18 +1456,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 11.31,
+     "inf": 12.5,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "League of Lalande 10797 Front",
-     "inf": 9.71,
+     "inf": 9.6,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -1491,7 +1491,7 @@
     -77.84375
    ],
    "sis": {
-    "pob": 65936488,
+    "pob": 65938254,
     "eco": "$economy_Military;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -1517,7 +1517,8 @@
     "2026-11-11": 1,
     "2026-11-14": 1,
     "2026-11-15": 9,
-    "2026-11-20": 6
+    "2026-11-20": 6,
+    "2026-11-22": 1
    },
    "pn": {
     "BLX-69Z": {
@@ -1526,46 +1527,25 @@
     },
     "H6K-7UZ": {
      "n": "Atlas Mining Corp.",
-     "t": 1795214665,
+     "t": 1795362189,
      "d": 1795214665
     }
    },
    "tk": {
-    "firma": "b46d0f2e",
-    "igual": 1795213714,
-    "ult": 1795213714,
-    "desde": 1794772660,
+    "firma": "5e978914",
+    "igual": 1795362180,
+    "ult": 1795362180,
+    "desde": 1795213714,
     "est": null
    },
    "saltos": {
-    "1795212000": 1
+    "1795212000": 1,
+    "1795359600": 1
    },
    "rutas": {
-    "2026-11-20": 1
+    "2026-11-20": 1,
+    "2026-11-22": 1
    },
-   "prev": 12.84,
-   "prev_t": 1794157712,
-   "hinf": [
-    [
-     1794157712,
-     12.84
-    ],
-    [
-     1794413495,
-     11.32
-    ]
-   ],
-   "rach": {
-    "THE AZGHARIE": 0,
-    "Democrats of Condharwal": 1,
-    "Caballeros de Sion": 0,
-    "League of Lalande 10797 Front": 0,
-    "Condharwal Purple Partnership": 0
-   },
-   "rivales": [],
-   "tick_ult": 1795213714,
-   "tick_marg": 3675,
-   "cseg": {},
    "estaciones": {
     "Pascale Forever": {
      "f": "THE AZGHARIE",
@@ -1650,7 +1630,34 @@
      ],
      "naves_t": 1795214424
     }
-   }
+   },
+   "prev": 11.31,
+   "prev_t": 1795213714,
+   "hinf": [
+    [
+     1794157712,
+     12.84
+    ],
+    [
+     1794413495,
+     11.32
+    ],
+    [
+     1795362180,
+     12.5
+    ]
+   ],
+   "rach": {
+    "THE AZGHARIE": 0,
+    "Democrats of Condharwal": 0,
+    "Caballeros de Sion": 1,
+    "League of Lalande 10797 Front": 0,
+    "Condharwal Purple Partnership": 0
+   },
+   "rivales": [],
+   "tick_ult": 1795362180,
+   "tick_marg": 1237,
+   "cseg": {}
   },
   "SPOCS 253": {
    "sys": "SPOCS 253",
@@ -2219,7 +2226,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 20
+    "2026-11-22": 21
    },
    "zc": [
     {
@@ -7504,9 +7511,9 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795305911,
+   "t": 1795362654,
    "src": "EDDN",
-   "inf": 89.72,
+   "inf": 85.83,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -7517,12 +7524,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 6.09,
+   "segunda_inf": 8.38,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 89.72,
+     "inf": 85.83,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -7535,7 +7542,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 6.09,
+     "inf": 8.38,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -7544,7 +7551,7 @@
     },
     {
      "n": "Wolves of Jonai",
-     "inf": 4.19,
+     "inf": 5.79,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -7561,10 +7568,10 @@
     280.59375
    ],
    "sis": {
-    "pob": 74059315,
+    "pob": 77180876,
     "eco": "$economy_Refinery;",
     "eco2": "$economy_Agri;",
-    "seg": "$SYSTEM_SECURITY_medium;",
+    "seg": "$SYSTEM_SECURITY_high;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
    },
@@ -7588,17 +7595,17 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 65
+    "2026-11-22": 68
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795306091,
+     "t": 1795362780,
      "d": 1794928703
     },
     "KBL-37L": {
      "n": "EPICUS FUROR *CDSN*",
-     "t": 1795276657,
+     "t": 1795362780,
      "d": 1794855069
     },
     "KBY-8QF": {
@@ -7633,16 +7640,12 @@
     }
    },
    "tk": {
-    "firma": "bfb4efd8",
-    "igual": 1795305911,
-    "ult": 1795276409,
-    "desde": 1795213428,
+    "firma": "942adff6",
+    "igual": 1795362654,
+    "ult": 1795358443,
+    "desde": 1795305911,
     "est": null,
     "vent": [
-     [
-      1794701228,
-      1794702030
-     ],
      [
       1794766064,
       1794796745
@@ -7666,6 +7669,10 @@
      [
       1795213428,
       1795276409
+     ],
+     [
+      1795305911,
+      1795358443
      ]
     ],
     "hist": [
@@ -7685,50 +7692,52 @@
     "1795287600": 1,
     "1795298400": 6,
     "1795302000": 4,
-    "1795305600": 1
+    "1795305600": 1,
+    "1795359600": 2
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
     "2026-11-20": 5,
-    "2026-11-21": 7
+    "2026-11-21": 7,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795313825,
+     "t": 1795362835,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795313922,
+      "t": 1795362841,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 700798,
-        "d": 18165
+        "p": 701092,
+        "d": 18281
        },
        {
         "n": "musgravite",
         "p": 539210,
-        "d": 48093
+        "d": 48364
        },
        {
         "n": "iridium",
         "p": 449565,
-        "d": 30771
+        "d": 30945
        },
        {
         "n": "thortveitite",
         "p": 449565,
-        "d": 769233
+        "d": 773571
        },
        {
         "n": "periclasedunite",
         "p": 449565,
-        "d": 769233
+        "d": 773571
        }
       ],
       "alta": [
@@ -7763,31 +7772,31 @@
         "n": "water",
         "p": 70,
         "m": 260,
-        "s": 2226155
+        "s": 2237600
        },
        {
         "n": "algae",
         "p": 109,
         "m": 308,
-        "s": 355483
+        "s": 357513
        },
        {
         "n": "biowaste",
         "p": 129,
         "m": 271,
-        "s": 779003
+        "s": 783447
        },
        {
         "n": "leather",
         "p": 216,
         "m": 423,
-        "s": 296906
+        "s": 298582
        },
        {
         "n": "evacuationshelter",
         "p": 282,
         "m": 500,
-        "s": 6815
+        "s": 6854
        }
       ]
      },
@@ -7809,7 +7818,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 13,
+       "ok": 15,
        "no": 2
       }
      },
@@ -7819,51 +7828,12 @@
       "Large": 9
      },
      "naves": [
-      "adder",
-      "anaconda",
-      "asp",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
-      "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
       "explorer_nx",
       "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
       "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "panthermkii"
      ],
-     "naves_t": 1795313831,
+     "naves_t": 1795362114,
      "neg": {
       "Distance": 9,
       "Offences": 3
@@ -9088,8 +9058,14 @@
      }
     }
    },
-   "prev": 87.72,
-   "prev_t": 1795130564,
+   "sube_cuando_baja": {
+    "n": "Natural Atese Front",
+    "d": 2.29,
+    "baja": 3.89,
+    "t": 1795358443
+   },
+   "prev": 89.72,
+   "prev_t": 1795305911,
    "hinf": [
     [
      1794353391,
@@ -9134,18 +9110,29 @@
     [
      1795133668,
      89.72
+    ],
+    [
+     1795358443,
+     85.83
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 4,
-    "Natural Atese Front": 0,
-    "Wolves of Jonai": 1
+    "Caballeros de Sion": 0,
+    "Natural Atese Front": 1,
+    "Wolves of Jonai": 2
    },
-   "rivales": [],
-   "tick_ult": 1795276409,
-   "tick_marg": 524,
-   "tick_prox": 1795306200,
-   "tick_disp": 3,
+   "rivales": [
+    {
+     "n": "Wolves of Jonai",
+     "racha": 2,
+     "inf": 5.79,
+     "dif": -80.04
+    }
+   ],
+   "tick_ult": 1795358443,
+   "tick_marg": 437,
+   "tick_prox": 1795392540,
+   "tick_disp": 4,
    "tick_n": 2,
    "cseg": {}
   },
@@ -22127,9 +22114,9 @@
   },
   "HIP 101673": {
    "sys": "HIP 101673",
-   "t": 1795298093,
+   "t": 1795360561,
    "src": "EDDN",
-   "inf": 12.71,
+   "inf": 13.31,
    "ctrl": false,
    "estado": "Expansion",
    "activos": [
@@ -22138,12 +22125,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Wolves of Jonai",
-   "segunda_inf": 52.95,
+   "segunda_inf": 50.65,
    "conflictos": [],
    "todas": [
     {
      "n": "Wolves of Jonai",
-     "inf": 52.95,
+     "inf": 50.65,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -22154,7 +22141,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 24.72,
+     "inf": 25.93,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -22163,7 +22150,7 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 12.71,
+     "inf": 13.31,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -22174,7 +22161,7 @@
     },
     {
      "n": "Atese Labour",
-     "inf": 9.61,
+     "inf": 10.11,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -22189,7 +22176,7 @@
     291.75
    ],
    "sis": {
-    "pob": 79009617,
+    "pob": 79735945,
     "eco": "$economy_Extraction;",
     "eco2": "$economy_Industrial;",
     "seg": "$SYSTEM_SECURITY_medium;",
@@ -22209,37 +22196,43 @@
     "2026-11-15": 12,
     "2026-11-16": 29,
     "2026-11-19": 1,
-    "2026-11-21": 21
+    "2026-11-21": 21,
+    "2026-11-22": 1
    },
    "pn": {
     "W1N-G3V": {
      "n": "TERENCE MCKENNA",
-     "t": 1795298093,
+     "t": 1795360746,
      "d": 1795106312
     }
    },
    "tk": {
-    "firma": "004f5d62",
-    "igual": 1795298093,
-    "ult": 1795296181,
-    "desde": 1795107643,
+    "firma": "1c997ebd",
+    "igual": 1795360561,
+    "ult": 1795360561,
+    "desde": 1795298093,
     "vent": [
      [
       1794701554,
       1794757101
+     ],
+     [
+      1795298093,
+      1795360561
      ]
     ],
     "est": null
    },
    "saltos": {
     "1795104000": 1,
-    "1795294800": 2
+    "1795294800": 2,
+    "1795359600": 1
    },
    "rutas": {
     "2026-11-21": 2
    },
-   "prev": 12.12,
-   "prev_t": 1795107643,
+   "prev": 12.71,
+   "prev_t": 1795298093,
    "hinf": [
     [
      1794695209,
@@ -22260,32 +22253,36 @@
     [
      1795296181,
      12.71
+    ],
+    [
+     1795360561,
+     13.31
     ]
    ],
    "rach": {
     "Wolves of Jonai": 0,
-    "Natural Atese Front": 2,
-    "Caballeros de Sion": 2,
-    "Atese Labour": 2
+    "Natural Atese Front": 3,
+    "Caballeros de Sion": 3,
+    "Atese Labour": 3
    },
    "rivales": [
     {
      "n": "Natural Atese Front",
-     "racha": 2,
-     "inf": 24.72,
-     "dif": 12.01
+     "racha": 3,
+     "inf": 25.93,
+     "dif": 12.62
     },
     {
      "n": "Atese Labour",
-     "racha": 2,
-     "inf": 9.61,
-     "dif": -3.1
+     "racha": 3,
+     "inf": 10.11,
+     "dif": -3.2
     }
    ],
-   "tick_ult": 1795296181,
-   "tick_marg": 1571,
-   "tick_prox": 1795334070,
-   "tick_disp": 462,
+   "tick_ult": 1795360561,
+   "tick_marg": 520,
+   "tick_prox": 1795419810,
+   "tick_disp": 451,
    "tick_n": 0,
    "cseg": {}
   },
@@ -24136,9 +24133,9 @@
   },
   "HIP 101655": {
    "sys": "HIP 101655",
-   "t": 1795302373,
+   "t": 1795362931,
    "src": "EDDN",
-   "inf": 57.0,
+   "inf": 59.06,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
@@ -24147,12 +24144,12 @@
    "pendientes": [],
    "recuperando": [],
    "segunda": "Natural Atese Front",
-   "segunda_inf": 21.8,
+   "segunda_inf": 22.92,
    "conflictos": [],
    "todas": [
     {
      "n": "Caballeros de Sion",
-     "inf": 57.0,
+     "inf": 59.06,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -24163,7 +24160,7 @@
     },
     {
      "n": "Natural Atese Front",
-     "inf": 21.8,
+     "inf": 22.92,
      "gov": "Dictatorship",
      "alg": "Empire",
      "act": [],
@@ -24172,7 +24169,7 @@
     },
     {
      "n": "Atese Labour",
-     "inf": 14.7,
+     "inf": 12.91,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [],
@@ -24181,7 +24178,7 @@
     },
     {
      "n": "Atese Camorra",
-     "inf": 6.5,
+     "inf": 5.11,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -24196,9 +24193,9 @@
     291.34375
    ],
    "sis": {
-    "pob": 315743,
+    "pob": 380019,
     "eco": "$economy_Extraction;",
-    "eco2": "$economy_Industrial;",
+    "eco2": "$economy_HighTech;",
     "seg": "$SYSTEM_SECURITY_low;",
     "gov": "$government_Democracy;",
     "alg": "Independent"
@@ -24215,7 +24212,8 @@
     "2026-11-18": 4,
     "2026-11-19": 1,
     "2026-11-20": 4,
-    "2026-11-21": 17
+    "2026-11-21": 17,
+    "2026-11-22": 3
    },
    "pn": {
     "KBL-37L": {
@@ -24225,11 +24223,17 @@
     }
    },
    "tk": {
-    "firma": "633c2542",
-    "igual": 1795302373,
-    "ult": 1795287296,
-    "desde": 1795133056,
-    "est": null
+    "firma": "e01c9425",
+    "igual": 1795362931,
+    "ult": 1795361087,
+    "desde": 1795302373,
+    "est": null,
+    "vent": [
+     [
+      1795302373,
+      1795361087
+     ]
+    ]
    },
    "saltos": {
     "1795006800": 1,
@@ -24238,20 +24242,22 @@
     "1795284000": 1,
     "1795294800": 2,
     "1795298400": 4,
-    "1795302000": 4
+    "1795302000": 4,
+    "1795359600": 3
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 2,
-    "2026-11-21": 4
+    "2026-11-21": 4,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Lavoisier Settlement": {
      "f": "Caballeros de Sion",
      "tipo": "AsteroidBase",
-     "t": 1795302618,
+     "t": 1795361275,
      "estado": "",
-     "ls": 3694,
+     "ls": 3687,
      "pads": {
       "Small": 4,
       "Medium": 8,
@@ -24391,6 +24397,10 @@
       "2026-11-21": {
        "ok": 7,
        "no": 0
+      },
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
       }
      }
     },
@@ -24406,6 +24416,19 @@
       "Large": 0
      },
      "mid": 3962938626
+    },
+    "Orbital Construction Site: Poisson Platform": {
+     "f": "Brewer Corporation",
+     "tipo": "SpaceConstructionDepot",
+     "t": 1795362581,
+     "estado": "",
+     "ls": 3687,
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
+     },
+     "mid": 3957935874
     }
    },
    "sube_cuando_baja": {
@@ -24414,8 +24437,8 @@
     "baja": 2.9,
     "t": 1795287296
    },
-   "prev": 59.9,
-   "prev_t": 1795133056,
+   "prev": 57.0,
+   "prev_t": 1795302373,
    "hinf": [
     [
      1794845358,
@@ -24428,24 +24451,31 @@
     [
      1795287296,
      57.0
+    ],
+    [
+     1795361087,
+     59.06
     ]
    ],
    "rach": {
-    "Caballeros de Sion": 0,
-    "Natural Atese Front": 2,
-    "Atese Labour": 1,
+    "Caballeros de Sion": 1,
+    "Natural Atese Front": 3,
+    "Atese Labour": 0,
     "Atese Camorra": 0
    },
    "rivales": [
     {
      "n": "Natural Atese Front",
-     "racha": 2,
-     "inf": 21.8,
-     "dif": -35.2
+     "racha": 3,
+     "inf": 22.92,
+     "dif": -36.14
     }
    ],
-   "tick_ult": 1795287296,
-   "tick_marg": 1285,
+   "tick_ult": 1795361087,
+   "tick_marg": 489,
+   "tick_prox": 1795418100,
+   "tick_disp": 489,
+   "tick_n": 0,
    "cseg": {}
   },
   "Col 285 Sector TK-J b24-1": {
@@ -28058,11 +28088,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795362072.6118915,
-  "msgs": 3479669,
-  "mios": 332
+  "ultimo": 1795362950.5156,
+  "msgs": 3501178,
+  "mios": 340
  },
- "t": 1795362059.6383014,
+ "t": 1795362954.1135452,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28193,7 +28223,7 @@
    "nfac": 5,
    "pob": 161723,
    "ctrl_n": "East India Company",
-   "t": 1795109379
+   "t": 1795361159
   },
   "LHS 1734": {
    "pos": [
@@ -28206,7 +28236,7 @@
    "nfac": 4,
    "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795361305
+   "t": 1795362110
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -28336,7 +28366,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795351064
+   "t": 1795362695
   },
   "LTT 10918": {
    "pos": [
@@ -28412,9 +28442,9 @@
    "ly": 18.8,
    "junto": "Jangore",
    "nfac": 5,
-   "pob": 437628,
+   "pob": 437656,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795263702
+   "t": 1795362378
   },
   "Ceti Sector KX-T b3-3": {
    "pos": [
@@ -28531,7 +28561,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1795162191
+   "t": 1795362729
   },
   "Zephyrus": {
    "pos": [
@@ -28778,7 +28808,7 @@
    "nfac": 4,
    "pob": 158348563,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795344109
+   "t": 1795362541
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -29610,7 +29640,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795281515
+   "t": 1795362561
   },
   "Alpha Doradus": {
    "pos": [
@@ -32546,9 +32576,9 @@
    "ly": 18.8,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 398218,
+   "pob": 398238,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795310893
+   "t": 1795362095
   },
   "Tascheter Sector ZZ-P a5-6": {
    "pos": [
@@ -33822,7 +33852,7 @@
    "nfac": 6,
    "pob": 73554,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795321898
+   "t": 1795362613
   },
   "Col 285 Sector RZ-O c6-8": {
    "pos": [
@@ -34685,20 +34715,23 @@
     "inf": 57.52,
     "ctrl": true,
     "quien": "Ndabangluya Independents"
-   },
-   "HIP 101655": {
-    "ini": 1795298533,
-    "v": 17,
-    "m": 1.3,
-    "dia": "hoy",
-    "antes": 59.9,
-    "min": 57.0,
-    "inf": 57.0,
-    "ctrl": true,
-    "quien": "Natural Atese Front"
    }
   },
   "hist": [
+   {
+    "sys": "HIP 101655",
+    "ini": 1795298533,
+    "fin": 1795362592,
+    "v": 17,
+    "m": 1.3,
+    "antes": 59.9,
+    "min": 57.0,
+    "inf": 59.06,
+    "dif": -0.8,
+    "res": "perdida",
+    "ctrl": true,
+    "quien": "Natural Atese Front"
+   },
    {
     "sys": "Menkalinan",
     "ini": 1795214906,
@@ -34787,7 +34820,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795361305
+   "t": 1795362110
   },
   "Bakuari": {
    "pos": [
@@ -34862,7 +34895,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Fortified",
-   "prog": 0.268515,
+   "prog": 0.268529,
    "pots": [
     "Felicia Winters",
     "Li Yong-Rui",
@@ -34870,7 +34903,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795351064
+   "t": 1795362695
   },
   "LP 302-22": {
    "pos": [
@@ -35095,13 +35128,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Fortified",
-   "prog": 0.496952,
+   "prog": 0.533363,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795344109
+   "t": 1795362541
   },
   "Wolf 186": {
    "pos": [
@@ -35580,13 +35613,13 @@
    ],
    "pot": "Aisling Duval",
    "est": "Stronghold",
-   "prog": 0.260425,
+   "prog": 0.260431,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795293992
+   "t": 1795362100
   },
   "Ceti Sector GR-V b2-4": {
    "pos": [
@@ -35892,7 +35925,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795310893
+   "t": 1795362095
   },
   "Gautama": {
    "pos": [
@@ -36580,7 +36613,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795281515
+   "t": 1795362561
   },
   "Nogatas": {
    "pos": [
@@ -37932,7 +37965,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795162191
+   "t": 1795362729
   },
   "Arietis Sector DG-X c1-14": {
    "pos": [
@@ -38866,7 +38899,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795357323
+   "t": 1795362699
   },
   "Galibi": {
    "pos": [
@@ -39521,7 +39554,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795294487
+   "t": 1795362646
   },
   "LP 834-42": {
    "pos": [
@@ -40582,7 +40615,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795213714
+   "t": 1795362180
   },
   "Binar": {
    "pos": [
@@ -42213,7 +42246,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795263702
+   "t": 1795362378
   },
   "Dongkum": {
    "pos": [
@@ -43185,7 +43218,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795321898
+   "t": 1795362613
   },
   "Snotricopa": {
    "pos": [
@@ -45000,6 +45033,54 @@
     "Zemina Torval"
    ],
    "t": 1795361185
+  },
+  "Naiti": {
+   "pos": [
+    24.5,
+    -13.65625,
+    -76.625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.048569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795362205
+  },
+  "Khamoori": {
+   "pos": [
+    -50,
+    86.84375,
+    -131.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795362555
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.282212,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795361159
   }
  },
  "rivales": {
@@ -45076,13 +45157,14 @@
    "ult": 1795283429
   },
   "Natural Atese Front": {
-   "veces": 1,
+   "veces": 2,
    "sis": [
-    "HIP 101655"
+    "HIP 101655",
+    "Swoilz HE-D c1-13"
    ],
    "motivo": "sube cuando bajamos",
    "ini": 1795287296,
-   "ult": 1795287296
+   "ult": 1795358443
   },
   "League of Ndabangluya Law Party": {
    "veces": 1,

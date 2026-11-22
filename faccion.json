@@ -7472,7 +7472,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 51
+    "2026-11-22": 57
    },
    "pn": {
     "H5L-70M": {
@@ -7746,7 +7746,7 @@
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
      "tipo": "CraterOutpost",
-     "t": 1795292241,
+     "t": 1795312411,
      "estado": "",
      "ls": 1064,
      "pads": {
@@ -7756,39 +7756,39 @@
      },
      "mid": 4401867267,
      "mer": {
-      "t": 1795292260,
+      "t": 1795312431,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 773230,
-        "d": 5670
+        "p": 728984,
+        "d": 5718
        },
        {
         "n": "musgravite",
-        "p": 589316,
+        "p": 539210,
         "d": 13071
        },
        {
         "n": "iridium",
-        "p": 492613,
+        "p": 449565,
         "d": 16087
        },
        {
-        "n": "thortveitite",
-        "p": 492613,
+        "n": "periclasedunite",
+        "p": 449565,
         "d": 209109
        },
        {
-        "n": "periclasedunite",
-        "p": 492613,
+        "n": "thortveitite",
+        "p": 449565,
         "d": 209109
        }
       ],
       "alta": [
        {
         "n": "bauxite",
-        "p": 14184,
+        "p": 13635,
         "m": 1096
        },
        {
@@ -7798,48 +7798,48 @@
        },
        {
         "n": "lepidolite",
-        "p": 5880,
+        "p": 5607,
         "m": 741
        },
        {
-        "n": "osmium",
-        "p": 235944,
-        "m": 44051
+        "n": "animalmonitors",
+        "p": 3848,
+        "m": 522
        },
        {
         "n": "haematite",
-        "p": 9454,
+        "p": 9172,
         "m": 1791
        }
       ],
       "barato": [
        {
         "n": "foodcartridges",
-        "p": 92,
+        "p": 87,
         "m": 252,
-        "s": 165205
+        "s": 166313
        },
        {
         "n": "biowaste",
-        "p": 109,
+        "p": 110,
         "m": 271,
-        "s": 181347
+        "s": 186293
        },
        {
         "n": "scrap",
-        "p": 121,
+        "p": 132,
         "m": 276,
-        "s": 199533
+        "s": 247040
        },
        {
         "n": "liquidoxygen",
-        "p": 732,
+        "p": 763,
         "m": 1375,
-        "s": 2876543
+        "s": 2879744
        },
        {
         "n": "pesticides",
-        "p": 251,
+        "p": 263,
         "m": 412,
         "s": 111421
        }
@@ -7874,16 +7874,16 @@
      "neg": {
       "Distance": 10
      },
-     "mods": 795,
-     "mods_t": 1795292376,
+     "mods": 771,
+     "mods_t": 1795312417,
      "naves": [
       "adder",
       "anaconda",
-      "asp",
       "asp_scout",
       "belugaliner",
       "cobramkiii",
       "cobramkv",
+      "corsair",
       "diamondback",
       "diamondbackxl",
       "dolphin",
@@ -7906,11 +7906,12 @@
       "type7",
       "type8",
       "type9",
+      "type9_military",
       "viper",
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795234729
+     "naves_t": 1795312417
     },
     "Shvets Works": {
      "f": "Caballeros de Sion",
@@ -8876,7 +8877,7 @@
     "Orbital Construction Site: Shawl Horizons": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795311738,
+     "t": 1795312992,
      "estado": "",
      "ls": 1575,
      "pads": {
@@ -8886,8 +8887,8 @@
      },
      "mid": 3957542658,
      "mer": {
-      "t": 1795311745,
-      "n": 8,
+      "t": 1795312998,
+      "n": 3,
       "vende": [],
       "alta": [],
       "barato": []
@@ -8898,7 +8899,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 6,
+       "ok": 8,
        "no": 0
       }
      }
@@ -8932,7 +8933,7 @@
     "Orbital Construction Site: Payne-Scott Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795312059,
+     "t": 1795313224,
      "estado": "",
      "ls": 1572,
      "pads": {
@@ -8946,13 +8947,13 @@
      },
      "atq": {
       "2026-11-22": {
-       "ok": 10,
+       "ok": 12,
        "no": 2
       }
      },
      "mer": {
-      "t": 1795312066,
-      "n": 8,
+      "t": 1795313230,
+      "n": 3,
       "vende": [],
       "alta": [],
       "barato": []
@@ -27238,10 +27239,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795309225.2207203,
-  "msgs": 2793684,
+  "msgs": 2805187,
   "mios": 280
  },
- "t": 1795312376.0899515,
+ "t": 1795313238.0815995,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -35808,7 +35809,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795269535
+   "t": 1795312813
   },
   "Apam Napat": {
    "pos": [
@@ -35818,14 +35819,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Stronghold",
-   "prog": 0.322088,
+   "prog": 0.32234,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795301275
+   "t": 1795312970
   },
   "Wolf 289": {
    "pos": [
@@ -37076,7 +37077,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795272218
+   "t": 1795312561
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [

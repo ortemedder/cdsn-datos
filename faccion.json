@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 9
+    "2026-11-22": 10
    },
    "zc": [
     {
@@ -27422,15 +27422,224 @@
     "igual": 1795314194
    },
    "cseg": {}
+  },
+  "Pegasi Sector YU-X b1-2": {
+   "sys": "Pegasi Sector YU-X b1-2",
+   "t": 1795329676,
+   "src": "EDDN",
+   "inf": 10.11,
+   "ctrl": false,
+   "estado": "Expansion",
+   "activos": [
+    "Expansion"
+   ],
+   "pendientes": [],
+   "recuperando": [],
+   "segunda": "Guardians of Harmony",
+   "segunda_inf": 57.66,
+   "conflictos": [],
+   "todas": [
+    {
+     "n": "Guardians of Harmony",
+     "inf": 57.66,
+     "gov": "Communism",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Mu Kin Co-op",
+     "inf": 18.42,
+     "gov": "Cooperative",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Caballeros de Sion",
+     "inf": 10.11,
+     "gov": "Democracy",
+     "alg": "Independent",
+     "act": [
+      "Expansion"
+     ],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Grid Jet State Holdings",
+     "inf": 9.61,
+     "gov": "Corporate",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
+     "n": "Attada Posse",
+     "inf": 4.2,
+     "gov": "Anarchy",
+     "alg": "Independent",
+     "act": [],
+     "pend": [],
+     "jug": null
+    }
+   ],
+   "ctrl_n": "Guardians of Harmony",
+   "pos": [
+    -196.40625,
+    -58.5,
+    -71.09375
+   ],
+   "sis": {
+    "pob": 1996544,
+    "eco": "$economy_Extraction;",
+    "eco2": "$economy_None;",
+    "seg": "$SYSTEM_SECURITY_low;",
+    "gov": "$government_Communism;",
+    "alg": "Independent"
+   },
+   "pp": {
+    "pot": null,
+    "est": "Unoccupied",
+    "prog": null,
+    "ref": null,
+    "soc": null,
+    "pots": [
+     "Pranav Antal"
+    ]
+   },
+   "hinf": [
+    [
+     1795329676,
+     10.11
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "tk": {
+    "firma": "3c1be4ac",
+    "igual": 1795329676
+   },
+   "cseg": {},
+   "trafico": {
+    "2026-11-22": 3
+   },
+   "estaciones": {
+    "Mangold Gateway": {
+     "f": "Guardians of Harmony",
+     "tipo": "Coriolis",
+     "t": 1795330018,
+     "estado": "",
+     "ls": 184,
+     "pads": {
+      "Small": 10,
+      "Medium": 12,
+      "Large": 7
+     },
+     "mid": 4227106051,
+     "mer": {
+      "t": 1795330033,
+      "n": 369,
+      "vende": [
+       {
+        "n": "palladium",
+        "p": 46481,
+        "d": 1
+       },
+       {
+        "n": "gold",
+        "p": 43330,
+        "d": 1
+       },
+       {
+        "n": "silver",
+        "p": 32562,
+        "d": 1
+       },
+       {
+        "n": "bertrandite",
+        "p": 15741,
+        "d": 1
+       },
+       {
+        "n": "gallite",
+        "p": 9834,
+        "d": 1
+       }
+      ],
+      "alta": [
+       {
+        "n": "foodcartridges",
+        "p": 766,
+        "m": 252
+       },
+       {
+        "n": "water",
+        "p": 756,
+        "m": 260
+       },
+       {
+        "n": "beer",
+        "p": 798,
+        "m": 350
+       },
+       {
+        "n": "grain",
+        "p": 834,
+        "m": 387
+       },
+       {
+        "n": "syntheticmeat",
+        "p": 887,
+        "m": 415
+       }
+      ],
+      "barato": [
+       {
+        "n": "biowaste",
+        "p": 28,
+        "m": 271,
+        "s": 9125
+       },
+       {
+        "n": "lepidolite",
+        "p": 385,
+        "m": 741,
+        "s": 201694
+       },
+       {
+        "n": "bauxite",
+        "p": 664,
+        "m": 1096,
+        "s": 3469
+       }
+      ]
+     },
+     "mods": 146,
+     "mods_t": 1795330025,
+     "naves": [
+      "adder",
+      "cobramkiii",
+      "eagle",
+      "hauler",
+      "sidewinder",
+      "type6"
+     ],
+     "naves_t": 1795330025
+    }
+   }
   }
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795329491.8987973,
-  "msgs": 2978539,
-  "mios": 285
+  "ultimo": 1795329677.7812877,
+  "msgs": 2988683,
+  "mios": 286
  },
- "t": 1795329497.7290602,
+ "t": 1795330279.8803275,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28185,7 +28394,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795325555
+   "t": 1795330259
   },
   "LTT 740": {
    "pos": [
@@ -30408,7 +30617,7 @@
    "nfac": 4,
    "pob": 49705515,
    "ctrl_n": "East India Company",
-   "t": 1795290243
+   "t": 1795329839
   },
   "Col 285 Sector RD-T a33-4": {
    "pos": [
@@ -30926,9 +31135,9 @@
    "ly": 15.6,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 108717424,
+   "pob": 109415085,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795135456
+   "t": 1795329214
   },
   "Tripuru": {
    "pos": [
@@ -33490,9 +33699,32 @@
    "pob": 12462,
    "ctrl_n": "Nagii Union",
    "t": 1795327281
+  },
+  "Pegasi Sector AQ-X b1-7": {
+   "pos": [
+    -196.5625,
+    -65.84375,
+    -69.875
+   ],
+   "ly": 7.4,
+   "junto": "Pegasi Sector YU-X b1-2",
+   "nfac": 4,
+   "pob": 14269201,
+   "ctrl_n": "Guardians of Harmony",
+   "t": 1795330235
   }
  },
  "codice": [
+  {
+   "sys": "Tascheter Sector DG-O a6-1",
+   "n": "Y Type",
+   "cat": "StellarBodies",
+   "sub": "Stars",
+   "cuerpo": "",
+   "junto": "Eurus",
+   "ly": 11.2,
+   "t": 1795329845
+  },
   {
    "sys": "GCRV 3034",
    "n": "Osseus 01 G",
@@ -33782,16 +34014,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795183178
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Tussocks 11 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 g",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795183140
   }
  ],
  "ataques": {
@@ -35251,7 +35473,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.381657,
+   "prog": 0.381973,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -35259,7 +35481,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795325555
+   "t": 1795330259
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -35880,7 +36102,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795135456
+   "t": 1795329214
   },
   "Tascheter Sector AL-O a6-0": {
    "pos": [
@@ -42854,7 +43076,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795290243
+   "t": 1795329839
   },
   "Khwar": {
    "pos": [
@@ -43484,6 +43706,20 @@
     "Jerome Archer"
    ],
    "t": 1795327281
+  },
+  "Pegasi Sector AQ-X b1-7": {
+   "pos": [
+    -196.5625,
+    -65.84375,
+    -69.875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1795330235
   }
  },
  "rivales": {

@@ -1783,7 +1783,8 @@
    "rutas": {
     "2026-11-18": 1,
     "2026-11-20": 1,
-    "2026-11-21": 2
+    "2026-11-21": 2,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Blish Point": {
@@ -7470,7 +7471,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 34
+    "2026-11-22": 39
    },
    "pn": {
     "H5L-70M": {
@@ -7579,18 +7580,18 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795308345,
+     "t": 1795308956,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795308353,
+      "t": 1795308976,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 700756,
-        "d": 18163
+        "p": 700777,
+        "d": 18164
        },
        {
         "n": "musgravite",
@@ -7679,8 +7680,8 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 9,
-       "no": 0
+       "ok": 11,
+       "no": 2
       }
      },
      "pads": {
@@ -7733,13 +7734,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795308352,
+     "naves_t": 1795308963,
      "neg": {
       "Distance": 9,
-      "Offences": 1
+      "Offences": 3
      },
      "mods": 897,
-     "mods_t": 1795308352
+     "mods_t": 1795308963
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8898,7 +8899,7 @@
     "Orbital Construction Site: Riemann Relay": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795307852,
+     "t": 1795308851,
      "estado": "",
      "ls": 1990,
      "pads": {
@@ -8908,7 +8909,7 @@
      },
      "mid": 3957536514,
      "mer": {
-      "t": 1795307859,
+      "t": 1795308857,
       "n": 1,
       "vende": [],
       "alta": [],
@@ -8924,7 +8925,7 @@
     "Orbital Construction Site: Payne-Scott Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795308615,
+     "t": 1795309412,
      "estado": "",
      "ls": 1572,
      "pads": {
@@ -8938,13 +8939,13 @@
      },
      "atq": {
       "2026-11-22": {
-       "ok": 6,
+       "ok": 8,
        "no": 2
       }
      },
      "mer": {
-      "t": 1795308621,
-      "n": 2,
+      "t": 1795309419,
+      "n": 0,
       "vende": [],
       "alta": [],
       "barato": []
@@ -10890,23 +10891,23 @@
   },
   "LHS 5116": {
    "sys": "LHS 5116",
-   "t": 1795283048,
+   "t": 1795309218,
    "src": "EDDN",
-   "inf": 8.57,
+   "inf": 9.25,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "THE AZGHARIE",
-   "segunda_inf": 63.15,
+   "segunda_inf": 62.29,
    "conflictos": [],
    "todas": [
     {
      "n": "THE AZGHARIE",
-     "inf": 63.15,
+     "inf": 62.29,
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
@@ -10917,7 +10918,7 @@
     },
     {
      "n": "BD+34 1378 Universal & Co",
-     "inf": 15.04,
+     "inf": 14.63,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -10926,18 +10927,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 8.57,
+     "inf": 9.25,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
      "n": "LHS 5116 Nationalists",
-     "inf": 6.97,
+     "inf": 6.57,
      "gov": "Dictatorship",
      "alg": "Independent",
      "act": [],
@@ -10946,7 +10947,7 @@
     },
     {
      "n": "LHS 5116 Industry",
-     "inf": 2.99,
+     "inf": 4.08,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -10955,7 +10956,7 @@
     },
     {
      "n": "Drug Empire of LHS 5116",
-     "inf": 2.29,
+     "inf": 2.19,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -11004,32 +11005,41 @@
     "2026-11-09": 1,
     "2026-11-14": 2,
     "2026-11-19": 3,
-    "2026-11-21": 6
+    "2026-11-21": 6,
+    "2026-11-22": 1
    },
    "pn": {
     "BZB-26Z": {
      "n": "OZZY OSBOURNE",
-     "t": 1795283201,
+     "t": 1795309231,
      "d": 1795132020
     }
    },
    "tk": {
-    "firma": "acb2e043",
-    "igual": 1795283048,
-    "ult": 1795256241,
-    "desde": 1795131785,
-    "est": null
+    "firma": "0196086d",
+    "igual": 1795309218,
+    "ult": 1795309218,
+    "desde": 1795283048,
+    "est": null,
+    "vent": [
+     [
+      1795283048,
+      1795309218
+     ]
+    ]
    },
    "saltos": {
     "1795129200": 2,
     "1795255200": 1,
     "1795273200": 1,
-    "1795280400": 1
+    "1795280400": 1,
+    "1795309200": 1
    },
    "rutas": {
     "2026-11-18": 1,
     "2026-11-19": 2,
-    "2026-11-21": 3
+    "2026-11-21": 3,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Britnev Dock": {
@@ -11147,33 +11157,33 @@
      }
     }
    },
-   "prev": null,
-   "prev_t": null,
+   "prev": 8.57,
+   "prev_t": 1795283048,
    "hinf": [
     [
      1794237767,
      8.57
+    ],
+    [
+     1795309218,
+     9.25
     ]
    ],
    "rach": {
-    "THE AZGHARIE": 2,
+    "THE AZGHARIE": 0,
     "BD+34 1378 Universal & Co": 0,
-    "Caballeros de Sion": 0,
+    "Caballeros de Sion": 1,
     "LHS 5116 Nationalists": 0,
-    "LHS 5116 Industry": 0,
+    "LHS 5116 Industry": 1,
     "Drug Empire of LHS 5116": 0,
     "Regulatory State of LHS 5116": 0
    },
-   "rivales": [
-    {
-     "n": "THE AZGHARIE",
-     "racha": 2,
-     "inf": 63.15,
-     "dif": 54.58
-    }
-   ],
-   "tick_ult": 1795256241,
-   "tick_marg": 1037,
+   "rivales": [],
+   "tick_ult": 1795309218,
+   "tick_marg": 218,
+   "tick_prox": 1795382520,
+   "tick_disp": 218,
+   "tick_n": 0,
    "cseg": {}
   },
   "Ceti Sector CL-X b1-1": {
@@ -12828,7 +12838,10 @@
    "tick_marg": 394,
    "tick_prox": 1794886950,
    "tick_disp": 394,
-   "tick_n": 0
+   "tick_n": 0,
+   "rutas": {
+    "2026-11-22": 1
+   }
   },
   "Lyncis Sector XJ-R b4-0": {
    "sys": "Lyncis Sector XJ-R b4-0",
@@ -19579,7 +19592,8 @@
     "1795280400": 3
    },
    "rutas": {
-    "2026-11-21": 5
+    "2026-11-21": 5,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Blackman Station": {
@@ -27216,11 +27230,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795308039.8174865,
-  "msgs": 2745502,
-  "mios": 279
+  "ultimo": 1795309225.2207203,
+  "msgs": 2757901,
+  "mios": 280
  },
- "t": 1795308666.7204359,
+ "t": 1795309639.9179187,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28038,9 +28052,9 @@
    "ly": 11.0,
    "junto": "Hyades Sector SZ-N b7-0",
    "nfac": 3,
-   "pob": 28138903,
+   "pob": 28472152,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795021404
+   "t": 1795308880
   },
   "Dewikum": {
    "pos": [
@@ -31901,7 +31915,7 @@
    "nfac": 4,
    "pob": 220238,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795298001
+   "t": 1795309455
   },
   "Lyncis Sector TD-T b3-1": {
    "pos": [
@@ -32226,7 +32240,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795308246
+   "t": 1795309116
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -33137,6 +33151,45 @@
    "pob": 157943,
    "ctrl_n": "The Roughnecks",
    "t": 1795305446
+  },
+  "44 Kappa Aurigae": {
+   "pos": [
+    9.40625,
+    20.09375,
+    -175.59375
+   ],
+   "ly": 19.5,
+   "junto": "Hyades Sector DW-V c2-14",
+   "nfac": 3,
+   "pob": 219017,
+   "ctrl_n": "Independence Separatist Fleet",
+   "t": 1795308924
+  },
+  "Trianguli Sector UF-N a7-2": {
+   "pos": [
+    29.46875,
+    -29.71875,
+    -49.25
+   ],
+   "ly": 10.6,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 41902922,
+   "ctrl_n": "Black Dawn Mercenaries",
+   "t": 1795308959
+  },
+  "Tascheter Sector ZZ-P a5-2": {
+   "pos": [
+    17.125,
+    -36.625,
+    -48.125
+   ],
+   "ly": 9.6,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 47581390,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795308957
   }
  },
  "codice": [
@@ -35265,7 +35318,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795283048
+   "t": 1795309218
   },
   "Kolaga": {
    "pos": [
@@ -36118,7 +36171,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795298001
+   "t": 1795309455
   },
   "Lyncis Sector TD-T b3-1": {
    "pos": [
@@ -37069,7 +37122,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795300645
+   "t": 1795303153
   },
   "Bhumian Ku": {
    "pos": [
@@ -38089,7 +38142,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795308246
+   "t": 1795309116
   },
   "Eurus": {
    "pos": [
@@ -42826,6 +42879,68 @@
     "Zemina Torval"
    ],
    "t": 1795308538
+  },
+  "Hyades Sector UU-N b7-4": {
+   "pos": [
+    26.46875,
+    13.59375,
+    -108.75
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.107686,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795308880
+  },
+  "44 Kappa Aurigae": {
+   "pos": [
+    9.40625,
+    20.09375,
+    -175.59375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.034712,
+   "pots": [
+    "Li Yong-Rui"
+   ],
+   "t": 1795308924
+  },
+  "Trianguli Sector UF-N a7-2": {
+   "pos": [
+    29.46875,
+    -29.71875,
+    -49.25
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.095426,
+   "pots": [
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795308959
+  },
+  "Tascheter Sector ZZ-P a5-2": {
+   "pos": [
+    17.125,
+    -36.625,
+    -48.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.248655,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795308957
   }
  },
  "rivales": {

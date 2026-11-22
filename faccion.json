@@ -8696,12 +8696,10 @@
      "naves": [
       "adder",
       "anaconda",
-      "anacondamkii",
       "asp",
       "asp_scout",
       "belugaliner",
       "cobramkiii",
-      "cobramkiv",
       "cobramkv",
       "corsair",
       "diamondback",
@@ -8740,9 +8738,9 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795306805,
+     "naves_t": 1795310576,
      "mods": 930,
-     "mods_t": 1795306805,
+     "mods_t": 1795310576,
      "atq": {
       "2026-11-21": {
        "ok": 6,
@@ -8754,7 +8752,7 @@
       }
      },
      "mer": {
-      "t": 1795306872,
+      "t": 1795310629,
       "n": 366,
       "vende": [
        {
@@ -27235,10 +27233,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795309225.2207203,
-  "msgs": 2769987,
+  "msgs": 2781828,
   "mios": 280
  },
- "t": 1795310572.199587,
+ "t": 1795311363.2884908,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27785,7 +27783,7 @@
    "nfac": 3,
    "pob": 3500537630,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795305395
+   "t": 1795310982
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -31722,9 +31720,9 @@
    "ly": 18.8,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 398198,
+   "pob": 398218,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795123341
+   "t": 1795310893
   },
   "Tascheter Sector ZZ-P a5-6": {
    "pos": [
@@ -33194,6 +33192,19 @@
    "pob": 47581390,
    "ctrl_n": "Sirius Special Forces",
    "t": 1795308957
+  },
+  "HR 2339": {
+   "pos": [
+    17.4375,
+    21.03125,
+    -148.3125
+   ],
+   "ly": 16.8,
+   "junto": "Hyades Sector DW-V c2-14",
+   "nfac": 4,
+   "pob": 213331,
+   "ctrl_n": "Guambia Progressive Party",
+   "t": 1795311354
   }
  },
  "codice": [
@@ -34734,7 +34745,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795123341
+   "t": 1795310893
   },
   "Gautama": {
    "pos": [
@@ -36423,7 +36434,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795305395
+   "t": 1795310982
   },
   "Yukpenon": {
    "pos": [
@@ -42961,6 +42972,37 @@
     "Zemina Torval"
    ],
    "t": 1795310452
+  },
+  "HR 2339": {
+   "pos": [
+    17.4375,
+    21.03125,
+    -148.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795311354
+  },
+  "Acokwa": {
+   "pos": [
+    -52.59375,
+    -2.90625,
+    -92.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.264926,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795310575
   }
  },
  "rivales": {

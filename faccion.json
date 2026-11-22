@@ -7470,7 +7470,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 27
+    "2026-11-22": 34
    },
    "pn": {
     "H5L-70M": {
@@ -7579,12 +7579,12 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795307802,
+     "t": 1795308345,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795307809,
+      "t": 1795308353,
       "n": 366,
       "vende": [
        {
@@ -7603,12 +7603,12 @@
         "d": 30771
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 449565,
         "d": 769233
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 449565,
         "d": 769233
        }
@@ -7679,7 +7679,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 6,
+       "ok": 9,
        "no": 0
       }
      },
@@ -7733,13 +7733,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795307808,
+     "naves_t": 1795308352,
      "neg": {
       "Distance": 9,
       "Offences": 1
      },
      "mods": 897,
-     "mods_t": 1795307808
+     "mods_t": 1795308352
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8916,7 +8916,7 @@
      },
      "atq": {
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -8924,7 +8924,7 @@
     "Orbital Construction Site: Payne-Scott Point": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795307469,
+     "t": 1795308615,
      "estado": "",
      "ls": 1572,
      "pads": {
@@ -8938,12 +8938,12 @@
      },
      "atq": {
       "2026-11-22": {
-       "ok": 2,
+       "ok": 6,
        "no": 2
       }
      },
      "mer": {
-      "t": 1795307476,
+      "t": 1795308621,
       "n": 2,
       "vende": [],
       "alta": [],
@@ -11406,15 +11406,15 @@
   },
   "Hyades Sector SU-N b7-0": {
    "sys": "Hyades Sector SU-N b7-0",
-   "t": 1795306397,
+   "t": 1795308038,
    "src": "EDDN",
    "inf": 59.88,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 17.98,
@@ -11425,10 +11425,10 @@
      "inf": 59.88,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -11500,12 +11500,12 @@
     "2026-11-18": 3,
     "2026-11-20": 39,
     "2026-11-21": 5,
-    "2026-11-22": 5
+    "2026-11-22": 6
    },
    "pn": {
     "V8X-11L": {
      "n": "ALATREON",
-     "t": 1795306543,
+     "t": 1795308142,
      "d": 1794919881
     },
     "V0Z-T1Q": {
@@ -11514,13 +11514,13 @@
     },
     "TNJ-39Z": {
      "n": "CARGO-PRIME",
-     "t": 1795306543,
+     "t": 1795308142,
      "d": 1795304381
     }
    },
    "tk": {
     "firma": "f62c872b",
-    "igual": 1795306397,
+    "igual": 1795308038,
     "ult": 1795304381,
     "desde": 1795217809,
     "est": null,
@@ -11557,14 +11557,14 @@
     "1795194000": 1,
     "1795201200": 1,
     "1795302000": 1,
-    "1795305600": 1
+    "1795305600": 2
    },
    "rutas": {
     "2026-11-17": 5,
     "2026-11-18": 1,
     "2026-11-20": 9,
     "2026-11-21": 1,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "estaciones": {
     "Piel City": {
@@ -16916,7 +16916,7 @@
   },
   "Hyades Sector SU-N b7-4": {
    "sys": "Hyades Sector SU-N b7-4",
-   "t": 1795304336,
+   "t": 1795307995,
    "src": "EDDN",
    "inf": 28.85,
    "ctrl": false,
@@ -16996,18 +16996,21 @@
     ]
    },
    "trafico": {
-    "2026-11-21": 2
+    "2026-11-21": 2,
+    "2026-11-22": 1
    },
    "tk": {
     "firma": "a89915bd",
-    "igual": 1795304336
+    "igual": 1795307995
    },
    "saltos": {
     "1795219200": 1,
-    "1795302000": 1
+    "1795302000": 1,
+    "1795305600": 1
    },
    "rutas": {
-    "2026-11-21": 3
+    "2026-11-21": 3,
+    "2026-11-22": 1
    },
    "prev": 28.56,
    "prev_t": 1794410806,
@@ -27213,11 +27216,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795306398.4546123,
-  "msgs": 2732781,
-  "mios": 277
+  "ultimo": 1795308039.8174865,
+  "msgs": 2745502,
+  "mios": 279
  },
- "t": 1795307863.3030176,
+ "t": 1795308666.7204359,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27270,7 +27273,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795305767
+   "t": 1795308481
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -29090,7 +29093,7 @@
    "nfac": 6,
    "pob": 4217328,
    "ctrl_n": "East India Company",
-   "t": 1795058962
+   "t": 1795308538
   },
   "LHS 1719": {
    "pos": [
@@ -30962,7 +30965,7 @@
    "nfac": 3,
    "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795307837
+   "t": 1795308659
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -32223,7 +32226,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795307398
+   "t": 1795308246
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -33145,7 +33148,7 @@
    "cuerpo": "Algol A 1",
    "junto": "Hyades Sector AC-K b9-6",
    "ly": 14.7,
-   "t": 1795307826
+   "t": 1795307830
   },
   {
    "sys": "Xuanebuth",
@@ -36295,7 +36298,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795305767
+   "t": 1795308481
   },
   "Onyaksas": {
    "pos": [
@@ -37265,7 +37268,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795306397
+   "t": 1795308038
   },
   "Ethli": {
    "pos": [
@@ -37890,7 +37893,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795307837
+   "t": 1795308659
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -38086,7 +38089,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795307398
+   "t": 1795308246
   },
   "Eurus": {
    "pos": [
@@ -39824,7 +39827,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795304336
+   "t": 1795307995
   },
   "Girya Gu": {
    "pos": [
@@ -42806,6 +42809,23 @@
     "Jerome Archer"
    ],
    "t": 1795307210
+  },
+  "Ghimr": {
+   "pos": [
+    17.28125,
+    -80.53125,
+    -20.5
+   ],
+   "pot": "Denton Patreus",
+   "est": "Exploited",
+   "prog": 0.251832,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval"
+   ],
+   "t": 1795308538
   }
  },
  "rivales": {

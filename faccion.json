@@ -27381,10 +27381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795316739.9215107,
-  "msgs": 2900277,
+  "msgs": 2911203,
   "mios": 282
  },
- "t": 1795321048.869273,
+ "t": 1795322280.158349,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -30674,7 +30674,7 @@
    "nfac": 3,
    "pob": 145902,
    "ctrl_n": "Sons of Ikarus",
-   "t": 1795303249
+   "t": 1795321602
   },
   "Hyades Sector NT-P b6-4": {
    "pos": [
@@ -31129,7 +31129,7 @@
    "nfac": 3,
    "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795308659
+   "t": 1795321622
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -33144,7 +33144,7 @@
    "nfac": 6,
    "pob": 73554,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795288982
+   "t": 1795321898
   },
   "Col 285 Sector RZ-O c6-8": {
    "pos": [
@@ -33862,7 +33862,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795114641
+   "t": 1795322275
   },
   "Hajangai": {
    "pos": [
@@ -38100,14 +38100,14 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.140032,
+   "prog": 0.140432,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795308659
+   "t": 1795321622
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -38997,7 +38997,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795303249
+   "t": 1795321602
   },
   "Hyades Sector XV-L b8-3": {
    "pos": [
@@ -42230,7 +42230,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795288982
+   "t": 1795321898
   },
   "Snotricopa": {
    "pos": [

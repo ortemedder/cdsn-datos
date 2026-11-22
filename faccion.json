@@ -7472,7 +7472,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 57
+    "2026-11-22": 65
    },
    "pn": {
     "H5L-70M": {
@@ -7581,18 +7581,18 @@
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795308956,
+     "t": 1795313825,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795308976,
+      "t": 1795313922,
       "n": 366,
       "vende": [
        {
         "n": "monazite",
-        "p": 700777,
-        "d": 18164
+        "p": 700798,
+        "d": 18165
        },
        {
         "n": "musgravite",
@@ -7605,12 +7605,12 @@
         "d": 30771
        },
        {
-        "n": "periclasedunite",
+        "n": "thortveitite",
         "p": 449565,
         "d": 769233
        },
        {
-        "n": "thortveitite",
+        "n": "periclasedunite",
         "p": 449565,
         "d": 769233
        }
@@ -7633,7 +7633,7 @@
        },
        {
         "n": "animalmonitors",
-        "p": 3712,
+        "p": 3902,
         "m": 522
        },
        {
@@ -7644,22 +7644,34 @@
       ],
       "barato": [
        {
+        "n": "water",
+        "p": 70,
+        "m": 260,
+        "s": 2226155
+       },
+       {
+        "n": "algae",
+        "p": 109,
+        "m": 308,
+        "s": 355483
+       },
+       {
         "n": "biowaste",
-        "p": 112,
+        "p": 129,
         "m": 271,
-        "s": 669241
+        "s": 779003
+       },
+       {
+        "n": "leather",
+        "p": 216,
+        "m": 423,
+        "s": 296906
        },
        {
         "n": "evacuationshelter",
         "p": 282,
         "m": 500,
         "s": 6815
-       },
-       {
-        "n": "liquidoxygen",
-        "p": 792,
-        "m": 1375,
-        "s": 2169433
        }
       ]
      },
@@ -7681,7 +7693,7 @@
        "no": 5
       },
       "2026-11-22": {
-       "ok": 11,
+       "ok": 13,
        "no": 2
       }
      },
@@ -7735,13 +7747,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795308963,
+     "naves_t": 1795313831,
      "neg": {
       "Distance": 9,
       "Offences": 3
      },
-     "mods": 897,
-     "mods_t": 1795308963
+     "mods": 900,
+     "mods_t": 1795313831
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -27239,10 +27251,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795309225.2207203,
-  "msgs": 2805187,
+  "msgs": 2815045,
   "mios": 280
  },
- "t": 1795313238.0815995,
+ "t": 1795314120.451265,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27386,7 +27398,7 @@
    "nfac": 4,
    "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795311834
+   "t": 1795314022
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -27828,7 +27840,7 @@
    "nfac": 4,
    "pob": 217543,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795269471
+   "t": 1795314111
   },
   "Tascheter Sector BV-Y b2": {
    "pos": [
@@ -29115,7 +29127,7 @@
    "nfac": 6,
    "pob": 4217328,
    "ctrl_n": "East India Company",
-   "t": 1795308538
+   "t": 1795313594
   },
   "LHS 1719": {
    "pos": [
@@ -33228,6 +33240,16 @@
  },
  "codice": [
   {
+   "sys": "GCRV 3034",
+   "n": "Bacterial 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "GCRV 3034 8 a",
+   "junto": "Hyades Sector UP-N b7-6",
+   "ly": 14.0,
+   "t": 1795313959
+  },
+  {
    "sys": "Algol",
    "n": "Fumarole SilicateVapourGeysers",
    "cat": "Biology",
@@ -33516,16 +33538,6 @@
    "junto": "LP 254-40",
    "ly": 16.5,
    "t": 1795181295
-  },
-  {
-   "sys": "LHS 1914",
-   "n": "Bacterial 01 T",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "LHS 1914 B 3",
-   "junto": "LP 254-40",
-   "ly": 16.5,
-   "t": 1795181235
   }
  ],
  "ataques": {
@@ -33642,7 +33654,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795311834
+   "t": 1795314022
   },
   "Bakuari": {
    "pos": [
@@ -35524,13 +35536,13 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.259689,
+   "prog": 0.259761,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795134597
+   "t": 1795313615
   },
   "CD-25 636": {
    "pos": [
@@ -38752,7 +38764,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795269471
+   "t": 1795314111
   },
   "Strigenses": {
    "pos": [
@@ -42905,14 +42917,14 @@
    ],
    "pot": "Denton Patreus",
    "est": "Exploited",
-   "prog": 0.251832,
+   "prog": 0.252389,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795308538
+   "t": 1795313594
   },
   "Hyades Sector UU-N b7-4": {
    "pos": [

@@ -13938,7 +13938,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 6
+    "2026-11-22": 8
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14768,7 +14768,7 @@
     "Pivot Point": {
      "f": "The Fatherhood",
      "tipo": "CraterOutpost",
-     "t": 1795300147,
+     "t": 1795341436,
      "estado": "",
      "ls": 704,
      "pads": {
@@ -14781,36 +14781,40 @@
       "2026-11-21": {
        "ok": 5,
        "no": 0
+      },
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
       }
      },
      "mer": {
-      "t": 1795300157,
+      "t": 1795341557,
       "n": 355,
       "vende": [
        {
         "n": "alexandrite",
-        "p": 228819,
-        "d": 298
-       },
-       {
-        "n": "musgravite",
-        "p": 210135,
-        "d": 298
-       },
-       {
-        "n": "monazite",
-        "p": 210077,
-        "d": 116
+        "p": 274894,
+        "d": 1029
        },
        {
         "n": "grandidierite",
-        "p": 209006,
-        "d": 298
+        "p": 257135,
+        "d": 1029
        },
        {
-        "n": "iridium",
-        "p": 202355,
-        "d": 510
+        "n": "musgravite",
+        "p": 257135,
+        "d": 1029
+       },
+       {
+        "n": "monazite",
+        "p": 240530,
+        "d": 423
+       },
+       {
+        "n": "serendibite",
+        "p": 225004,
+        "d": 1029
        }
       ],
       "alta": [
@@ -14835,9 +14839,9 @@
         "m": 387
        },
        {
-        "n": "syntheticmeat",
+        "n": "wine",
         "p": 888,
-        "m": 415
+        "m": 417
        }
       ],
       "barato": [
@@ -14845,31 +14849,31 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 1303
+        "s": 4645
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 5111
+        "s": 17703
        },
        {
         "n": "polymers",
         "p": 43,
         "m": 306,
-        "s": 80159
+        "s": 277350
        },
        {
         "n": "ceramiccomposites",
         "p": 77,
         "m": 402,
-        "s": 77167
+        "s": 267201
        },
        {
         "n": "syntheticfabrics",
         "p": 71,
         "m": 354,
-        "s": 55986
+        "s": 193712
        }
       ]
      }
@@ -19634,23 +19638,23 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1795283323,
+   "t": 1795336415,
    "src": "EDDN",
-   "inf": 15.32,
+   "inf": 15.48,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "Haraka Incorporated",
-   "segunda_inf": 52.55,
+   "segunda_inf": 53.35,
    "conflictos": [],
    "todas": [
     {
      "n": "Haraka Incorporated",
-     "inf": 52.55,
+     "inf": 53.35,
      "gov": "Corporate",
      "alg": "Independent",
      "act": [],
@@ -19659,27 +19663,18 @@
     },
     {
      "n": "Caballeros de Sion",
-     "inf": 15.32,
+     "inf": 15.48,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
-     "jug": null
-    },
-    {
-     "n": "StKM 1-626 Blue Comms & Co",
-     "inf": 9.91,
-     "gov": "Corporate",
-     "alg": "Independent",
-     "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "BD+34 1378 Universal & Co",
-     "inf": 8.11,
+     "inf": 9.39,
      "gov": "Corporate",
      "alg": "Federation",
      "act": [],
@@ -19687,17 +19682,17 @@
      "jug": null
     },
     {
-     "n": "GCRV 4654 Security Corp",
-     "inf": 6.51,
+     "n": "StKM 1-626 Blue Comms & Co",
+     "inf": 8.39,
      "gov": "Corporate",
-     "alg": "Federation",
+     "alg": "Independent",
      "act": [],
      "pend": [],
      "jug": null
     },
     {
      "n": "Aristocrats of Haraka",
-     "inf": 5.41,
+     "inf": 5.99,
      "gov": "Feudal",
      "alg": "Independent",
      "act": [],
@@ -19705,8 +19700,17 @@
      "jug": null
     },
     {
+     "n": "GCRV 4654 Security Corp",
+     "inf": 5.49,
+     "gov": "Corporate",
+     "alg": "Federation",
+     "act": [],
+     "pend": [],
+     "jug": null
+    },
+    {
      "n": "Society of Haraka",
-     "inf": 2.2,
+     "inf": 1.9,
      "gov": "Anarchy",
      "alg": "Independent",
      "act": [],
@@ -19744,19 +19748,27 @@
    "trafico": {
     "2026-11-14": 2,
     "2026-11-16": 3,
-    "2026-11-21": 9
+    "2026-11-21": 9,
+    "2026-11-22": 1
    },
    "tk": {
-    "firma": "b4a055de",
-    "igual": 1795283323,
-    "ult": 1794848544,
-    "desde": 1794666266,
-    "est": null
+    "firma": "498033e1",
+    "igual": 1795336415,
+    "ult": 1795336415,
+    "desde": 1795283323,
+    "est": null,
+    "vent": [
+     [
+      1795283323,
+      1795336415
+     ]
+    ]
    },
    "saltos": {
     "1795266000": 1,
     "1795269600": 1,
-    "1795280400": 3
+    "1795280400": 3,
+    "1795334400": 1
    },
    "rutas": {
     "2026-11-21": 5,
@@ -20006,8 +20018,8 @@
      "mods_t": 1795273379
     }
    },
-   "prev": 15.02,
-   "prev_t": 1794666266,
+   "prev": 15.32,
+   "prev_t": 1795283323,
    "hinf": [
     [
      1794418698,
@@ -20016,12 +20028,27 @@
     [
      1794848544,
      15.32
+    ],
+    [
+     1795336415,
+     15.48
     ]
    ],
-   "rach": {},
+   "rach": {
+    "Haraka Incorporated": 1,
+    "Caballeros de Sion": 1,
+    "BD+34 1378 Universal & Co": 1,
+    "StKM 1-626 Blue Comms & Co": 0,
+    "Aristocrats of Haraka": 1,
+    "GCRV 4654 Security Corp": 0,
+    "Society of Haraka": 0
+   },
    "rivales": [],
-   "tick_ult": 1794848544,
-   "tick_marg": 1518,
+   "tick_ult": 1795336415,
+   "tick_marg": 442,
+   "tick_prox": 1795396200,
+   "tick_disp": 442,
+   "tick_n": 0,
    "cseg": {}
   },
   "Hima": {
@@ -27733,11 +27760,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795339039.457466,
-  "msgs": 3106315,
-  "mios": 295
+  "ultimo": 1795341415.2943275,
+  "msgs": 3119536,
+  "mios": 296
  },
- "t": 1795341269.8622644,
+ "t": 1795342131.8054512,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28596,7 +28623,7 @@
    "nfac": 6,
    "pob": 141005,
    "ctrl_n": "G.O.M. Collective",
-   "t": 1795285811
+   "t": 1795341675
   },
   "Hyades Sector UK-M b8-1": {
    "pos": [
@@ -31300,7 +31327,7 @@
    "nfac": 4,
    "pob": 313674,
    "ctrl_n": "East India Company",
-   "t": 1795304870
+   "t": 1795341874
   },
   "Col 285 Sector NS-J c9-17": {
    "pos": [
@@ -33914,6 +33941,19 @@
    "pob": 59935049,
    "ctrl_n": "Flat Galaxy Society",
    "t": 1795341263
+  },
+  "Tascheter Sector DG-O a6-0": {
+   "pos": [
+    16.65625,
+    -44.71875,
+    -42.9375
+   ],
+   "ly": 11.3,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 1597553,
+   "ctrl_n": "Movement for LHS 20 Liberals",
+   "t": 1795342129
   }
  },
  "codice": [
@@ -37656,7 +37696,7 @@
     "Yuri Grom",
     "Zemina Torval"
    ],
-   "t": 1795255327
+   "t": 1795341774
   },
   "LTT 606": {
    "pos": [
@@ -37674,7 +37714,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795285811
+   "t": 1795341675
   },
   "Cosi": {
    "pos": [
@@ -41923,7 +41963,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795283323
+   "t": 1795336415
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -42424,7 +42464,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795304870
+   "t": 1795341874
   },
   "Khaima": {
    "pos": [
@@ -44203,6 +44243,23 @@
     "Jerome Archer"
    ],
    "t": 1795341263
+  },
+  "Tascheter Sector DG-O a6-0": {
+   "pos": [
+    16.65625,
+    -44.71875,
+    -42.9375
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.046283,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795342129
   }
  },
  "rivales": {

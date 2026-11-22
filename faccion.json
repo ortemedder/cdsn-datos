@@ -20730,16 +20730,16 @@
   },
   "Tascheter Sector AA-Z b5": {
    "sys": "Tascheter Sector AA-Z b5",
-   "t": 1794750155,
+   "t": 1795332280,
    "src": "EDDN",
    "inf": 16.12,
    "ctrl": false,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [],
-   "recuperando": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
+   "recuperando": [],
    "segunda": "Sirius Special Forces",
    "segunda_inf": 55.12,
    "conflictos": [],
@@ -20749,9 +20749,7 @@
      "inf": 55.12,
      "gov": "Corporate",
      "alg": "Federation",
-     "act": [
-      "Expansion"
-     ],
+     "act": [],
      "pend": [],
      "jug": null
     },
@@ -20769,7 +20767,9 @@
      "inf": 16.12,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
+     "act": [
+      "Expansion"
+     ],
      "pend": [],
      "jug": null
     },
@@ -20790,7 +20790,7 @@
     -87.4375
    ],
    "sis": {
-    "pob": 199125,
+    "pob": 199174,
     "eco": "$economy_HighTech;",
     "eco2": "$economy_Colony;",
     "seg": "$SYSTEM_SECURITY_low;",
@@ -20811,11 +20811,19 @@
    },
    "trafico": {
     "2026-11-14": 2,
-    "2026-11-15": 1
+    "2026-11-15": 1,
+    "2026-11-22": 2
    },
    "tk": {
     "firma": "c12f671c",
-    "igual": 1794750155
+    "igual": 1795332280
+   },
+   "saltos": {
+    "1795330800": 2
+   },
+   "rutas": {
+    "2026-11-19": 1,
+    "2026-11-22": 2
    },
    "prev": null,
    "prev_t": null,
@@ -20825,10 +20833,9 @@
      16.12
     ]
    ],
-   "rutas": {
-    "2026-11-19": 1,
-    "2026-11-22": 2
-   }
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Hyades Sector CB-W c2-3": {
    "sys": "Hyades Sector CB-W c2-3",
@@ -27636,11 +27643,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795329677.7812877,
-  "msgs": 3006325,
-  "mios": 286
+  "ultimo": 1795332281.8217208,
+  "msgs": 3015031,
+  "mios": 287
  },
- "t": 1795332251.9439232,
+ "t": 1795333053.1533768,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -30889,9 +30896,9 @@
    "ly": 8.3,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 397829,
+   "pob": 397875,
    "ctrl_n": "UGP 92 Purple Travel Services",
-   "t": 1795196103
+   "t": 1795333016
   },
   "Hayimstae": {
    "pos": [
@@ -33712,7 +33719,7 @@
    "nfac": 4,
    "pob": 14269201,
    "ctrl_n": "Guardians of Harmony",
-   "t": 1795331486
+   "t": 1795333043
   },
   "HIP 117184": {
    "pos": [
@@ -33726,6 +33733,32 @@
    "pob": 121603950,
    "ctrl_n": "Guardians of Harmony",
    "t": 1795330959
+  },
+  "HIP 23259": {
+   "pos": [
+    -4.65625,
+    -21.375,
+    -122.5625
+   ],
+   "ly": 19.5,
+   "junto": "Hyades Sector UP-N b7-6",
+   "nfac": 6,
+   "pob": 6846527,
+   "ctrl_n": "Sirius Special Forces",
+   "t": 1795332430
+  },
+  "Pegasi Sector YU-X b1-0": {
+   "pos": [
+    -196.9375,
+    -59.40625,
+    -74.71875
+   ],
+   "ly": 3.8,
+   "junto": "Pegasi Sector YU-X b1-2",
+   "nfac": 3,
+   "pob": 43459219,
+   "ctrl_n": "Grid Jet State Holdings",
+   "t": 1795332635
   }
  },
  "codice": [
@@ -40355,7 +40388,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795196103
+   "t": 1795333016
   },
   "Hyades Sector SU-N b7-4": {
    "pos": [
@@ -43733,7 +43766,39 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795331486
+   "t": 1795333043
+  },
+  "Tascheter Sector AA-Z b5": {
+   "pos": [
+    23.875,
+    -4,
+    -87.4375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795332280
+  },
+  "HIP 23259": {
+   "pos": [
+    -4.65625,
+    -21.375,
+    -122.5625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.137538,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795332430
   }
  },
  "rivales": {

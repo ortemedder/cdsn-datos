@@ -7604,7 +7604,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 92
+    "2026-11-22": 94
    },
    "pn": {
     "H5L-70M": {
@@ -8346,7 +8346,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795309777,
+     "t": 1795368587,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -8356,97 +8356,91 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795309939,
-      "n": 366,
+      "t": 1795368594,
+      "n": 160,
       "vende": [
        {
         "n": "monazite",
-        "p": 687814,
-        "d": 72
-       },
-       {
-        "n": "musgravite",
-        "p": 489837,
-        "d": 72
+        "p": 670325,
+        "d": 78
        },
        {
         "n": "iridium",
-        "p": 449565,
-        "d": 23700
+        "p": 415533,
+        "d": 25804
        },
        {
         "n": "periclasedunite",
-        "p": 449565,
-        "d": 1129
+        "p": 415533,
+        "d": 1230
        },
        {
         "n": "thortveitite",
-        "p": 449565,
-        "d": 1129
+        "p": 415533,
+        "d": 1230
+       },
+       {
+        "n": "musgravite",
+        "p": 348172,
+        "d": 78
        }
       ],
       "alta": [
        {
-        "n": "militarygradefabrics",
-        "p": 12813,
-        "m": 899
-       },
-       {
         "n": "bauxite",
-        "p": 9074,
+        "p": 8847,
         "m": 1096
        },
        {
-        "n": "animalmonitors",
-        "p": 3940,
-        "m": 522
+        "n": "militarygradefabrics",
+        "p": 4124,
+        "m": 899
        },
        {
-        "n": "conductivefabrics",
-        "p": 4440,
-        "m": 666
+        "n": "aquaponicsystems",
+        "p": 2196,
+        "m": 502
        },
        {
-        "n": "osmium",
-        "p": 218248,
-        "m": 44051
+        "n": "ceramiccomposites",
+        "p": 1694,
+        "m": 402
+       },
+       {
+        "n": "lepidolite",
+        "p": 3048,
+        "m": 741
        }
       ],
       "barato": [
        {
         "n": "foodcartridges",
-        "p": 81,
+        "p": 110,
         "m": 252,
-        "s": 694095
+        "s": 425276
        },
        {
         "n": "biowaste",
-        "p": 111,
+        "p": 140,
         "m": 271,
-        "s": 32095
-       },
-       {
-        "n": "scrap",
-        "p": 148,
-        "m": 276,
-        "s": 167086
-       },
-       {
-        "n": "basicmedicines",
-        "p": 314,
-        "m": 489,
-        "s": 70597
+        "s": 22696
        },
        {
         "n": "onionheadc",
-        "p": 2893,
+        "p": 2845,
         "m": 4286,
-        "s": 49158
+        "s": 35807
+       },
+       {
+        "n": "scrap",
+        "p": 192,
+        "m": 276,
+        "s": 106632
        }
       ]
      },
-     "mods": 933,
-     "mods_t": 1795309784,
+     "mods": 932,
+     "mods_t": 1795368594,
      "naves": [
       "adder",
       "anaconda",
@@ -8492,7 +8486,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795309784,
+     "naves_t": 1795368594,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -8507,7 +8501,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 2,
+       "ok": 4,
        "no": 0
       }
      }
@@ -28115,10 +28109,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795367900.696771,
-  "msgs": 3631553,
+  "msgs": 3652486,
   "mios": 358
  },
- "t": 1795368359.8189318,
+ "t": 1795369262.4616134,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28665,7 +28659,7 @@
    "nfac": 3,
    "pob": 3501340034,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795365271
+   "t": 1795368456
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -28936,9 +28930,9 @@
    "ly": 11.0,
    "junto": "Hyades Sector SZ-N b7-0",
    "nfac": 3,
-   "pob": 28472152,
+   "pob": 28638809,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795308880
+   "t": 1795369198
   },
   "Dewikum": {
    "pos": [
@@ -29666,7 +29660,7 @@
    "nfac": 6,
    "pob": 15927631,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795362561
+   "t": 1795369014
   },
   "Alpha Doradus": {
    "pos": [
@@ -30784,7 +30778,7 @@
    "nfac": 6,
    "pob": 750493,
    "ctrl_n": "Chapterhouse of Inquisition",
-   "t": 1795365900
+   "t": 1795368970
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -30795,9 +30789,9 @@
    "ly": 19.7,
    "junto": "Epsilon Sculptoris",
    "nfac": 3,
-   "pob": 1584758,
+   "pob": 1585153,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795184538
+   "t": 1795369253
   },
   "Trianguli Sector SU-O a6-2": {
    "pos": [
@@ -36315,7 +36309,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795184538
+   "t": 1795369253
   },
   "Breksta": {
    "pos": [
@@ -36675,7 +36669,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795362561
+   "t": 1795369014
   },
   "Nogatas": {
    "pos": [
@@ -37648,7 +37642,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795365271
+   "t": 1795368456
   },
   "Yukpenon": {
    "pos": [
@@ -38333,7 +38327,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795367925
+   "t": 1795368806
   },
   "Bhumian Ku": {
    "pos": [
@@ -38954,14 +38948,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Exploited",
-   "prog": 0.254975,
+   "prog": 0.254504,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795363936
+   "t": 1795368459
   },
   "Galibi": {
    "pos": [
@@ -38994,7 +38988,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795366784
+   "t": 1795369027
   },
   "Scottii": {
    "pos": [
@@ -40207,7 +40201,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795365900
+   "t": 1795368970
   },
   "Chonost": {
    "pos": [
@@ -43520,7 +43514,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795366084
+   "t": 1795368723
   },
   "Audumasi": {
    "pos": [
@@ -44089,7 +44083,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795308880
+   "t": 1795369198
   },
   "44 Kappa Aurigae": {
    "pos": [

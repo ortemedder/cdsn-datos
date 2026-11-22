@@ -3670,7 +3670,7 @@
     "2026-11-19": 12,
     "2026-11-20": 1,
     "2026-11-21": 2,
-    "2026-11-22": 1
+    "2026-11-22": 2
    },
    "zc": [
     {
@@ -3749,9 +3749,9 @@
     "Gardner Orbital": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795245304,
+     "t": 1795338641,
      "estado": "",
-     "ls": 1813,
+     "ls": 1812,
      "pads": {
       "Small": 7,
       "Medium": 12,
@@ -3759,97 +3759,79 @@
      },
      "mid": 3227674624,
      "mer": {
-      "t": 1795245311,
+      "t": 1795338647,
       "n": 144,
       "vende": [
+       {
+        "n": "monazite",
+        "p": 429572,
+        "d": 2633
+       },
+       {
+        "n": "iridium",
+        "p": 273674,
+        "d": 59302
+       },
+       {
+        "n": "periclasedunite",
+        "p": 273674,
+        "d": 8848
+       },
+       {
+        "n": "thortveitite",
+        "p": 273674,
+        "d": 8848
+       },
        {
         "n": "alexandrite",
         "p": 236342,
         "d": 927
-       },
-       {
-        "n": "musgravite",
-        "p": 218265,
-        "d": 927
-       },
-       {
-        "n": "grandidierite",
-        "p": 217487,
-        "d": 927
-       },
-       {
-        "n": "monazite",
-        "p": 214786,
-        "d": 2633
-       },
-       {
-        "n": "metaalloys",
-        "p": 195547,
-        "d": 18174
        }
       ],
       "alta": [
        {
-        "n": "foodcartridges",
-        "p": 679,
-        "m": 252
+        "n": "lepidolite",
+        "p": 5880,
+        "m": 741
        },
        {
-        "n": "water",
-        "p": 670,
-        "m": 260
+        "n": "ceramiccomposites",
+        "p": 1902,
+        "m": 402
        },
        {
-        "n": "beer",
-        "p": 706,
-        "m": 350
+        "n": "bauxite",
+        "p": 4728,
+        "m": 1096
        },
        {
-        "n": "grain",
-        "p": 741,
-        "m": 387
+        "n": "mineraloil",
+        "p": 1314,
+        "m": 416
        },
        {
         "n": "waterpurifiers",
-        "p": 842,
+        "p": 1261,
         "m": 447
        }
       ],
       "barato": [
        {
-        "n": "polymers",
-        "p": 69,
-        "m": 306,
-        "s": 223006
-       },
-       {
-        "n": "syntheticfabrics",
-        "p": 107,
-        "m": 354,
-        "s": 159703
-       },
-       {
         "n": "biowaste",
-        "p": 90,
+        "p": 147,
         "m": 271,
         "s": 12489
        },
        {
-        "n": "aquaponicsystems",
-        "p": 192,
-        "m": 502,
-        "s": 39216
-       },
-       {
-        "n": "syntheticmeat",
-        "p": 170,
-        "m": 415,
-        "s": 58598
+        "n": "liquidoxygen",
+        "p": 851,
+        "m": 1375,
+        "s": 12674
        }
       ]
      },
      "mods": 783,
-     "mods_t": 1795245311,
+     "mods_t": 1795338647,
      "naves": [
       "anaconda",
       "asp",
@@ -3873,7 +3855,7 @@
       "viper",
       "viper_mkiv"
      ],
-     "naves_t": 1795245311,
+     "naves_t": 1795338647,
      "atq": {
       "2026-11-17": {
        "ok": 1,
@@ -3888,6 +3870,10 @@
        "no": 0
       },
       "2026-11-21": {
+       "ok": 1,
+       "no": 0
+      },
+      "2026-11-22": {
        "ok": 1,
        "no": 0
       }
@@ -13952,7 +13938,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14911,16 +14897,27 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795337888,
+     "t": 1795339155,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795337896,
-      "n": 0,
+      "t": 1795339162,
+      "n": 11,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 1,
+       "no": 0
+      }
+     },
+     "pads": {
+      "Small": 3,
+      "Medium": 11,
+      "Large": 0
      }
     }
    },
@@ -25979,15 +25976,15 @@
   },
   "HIP 33282": {
    "sys": "HIP 33282",
-   "t": 1795044967,
+   "t": 1795339048,
    "src": "EDDN",
    "inf": 32.08,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "HIP 33282 Commodities",
    "segunda_inf": 23.69,
@@ -25998,10 +25995,10 @@
      "inf": 32.08,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -26085,20 +26082,19 @@
      "Jerome Archer"
     ]
    },
-   "hinf": [
-    [
-     1795044967,
-     32.08
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
+   "trafico": {
+    "2026-11-18": 2,
+    "2026-11-22": 1
+   },
    "tk": {
     "firma": "eb8689bc",
-    "igual": 1795044967
+    "igual": 1795339048
    },
-   "trafico": {
-    "2026-11-18": 2
+   "saltos": {
+    "1795338000": 1
+   },
+   "rutas": {
+    "2026-11-22": 1
    },
    "estaciones": {
     "d'Eyncourt Dock": {
@@ -26206,7 +26202,18 @@
      "mods": 376,
      "mods_t": 1795045333
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1795044967,
+     32.08
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Hyades Sector ND-S c4-15": {
    "sys": "Hyades Sector ND-S c4-15",
@@ -27726,11 +27733,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795337920.7604434,
-  "msgs": 3071384,
-  "mios": 294
+  "ultimo": 1795339039.457466,
+  "msgs": 3082106,
+  "mios": 295
  },
- "t": 1795338494.161046,
+ "t": 1795339266.3354754,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -31813,7 +31820,7 @@
    "nfac": 6,
    "pob": 2148169968,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795095866
+   "t": 1795339003
   },
   "Arietis Sector QT-Q b5-4": {
    "pos": [
@@ -32281,7 +32288,7 @@
    "nfac": 5,
    "pob": 1997550,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795280274
+   "t": 1795339252
   },
   "Baraluhet": {
    "pos": [
@@ -35679,7 +35686,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795280274
+   "t": 1795339252
   },
   "Trianguli Sector ZL-L a8-2": {
    "pos": [
@@ -39530,7 +39537,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795203702
+   "t": 1795338784
   },
   "Satvaneka": {
    "pos": [
@@ -44104,6 +44111,53 @@
     "Li Yong-Rui"
    ],
    "t": 1795338329
+  },
+  "Ross 409": {
+   "pos": [
+    -3.1875,
+    -3.15625,
+    -121.21875
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Fortified",
+   "prog": 0.180009,
+   "pots": [
+    "Aisling Duval",
+    "Li Yong-Rui"
+   ],
+   "t": 1795339003
+  },
+  "BD+44 1710": {
+   "pos": [
+    -4.71875,
+    44.09375,
+    -71.1875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.019426,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795339004
+  },
+  "HIP 33282": {
+   "pos": [
+    -16.59375,
+    45.15625,
+    -123.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.156569,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795339048
   }
  },
  "rivales": {

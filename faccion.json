@@ -7386,7 +7386,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795303682,
+   "t": 1795305911,
    "src": "EDDN",
    "inf": 89.72,
    "ctrl": true,
@@ -7469,12 +7469,13 @@
     "2026-11-18": 52,
     "2026-11-19": 127,
     "2026-11-20": 139,
-    "2026-11-21": 205
+    "2026-11-21": 209,
+    "2026-11-22": 5
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795303804,
+     "t": 1795305911,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -7515,7 +7516,7 @@
    },
    "tk": {
     "firma": "bfb4efd8",
-    "igual": 1795303682,
+    "igual": 1795305911,
     "ult": 1795276409,
     "desde": 1795213428,
     "est": null,
@@ -7565,24 +7566,25 @@
     "1795284000": 1,
     "1795287600": 1,
     "1795298400": 6,
-    "1795302000": 4
+    "1795302000": 4,
+    "1795305600": 1
    },
    "rutas": {
     "2026-11-17": 2,
     "2026-11-18": 2,
     "2026-11-20": 5,
-    "2026-11-21": 6
+    "2026-11-21": 7
    },
    "estaciones": {
     "Vanaheim": {
      "f": "Caballeros de Sion",
      "tipo": "Dodec",
-     "t": 1795304874,
+     "t": 1795305705,
      "estado": "",
      "ls": 1064,
      "mid": 4396762115,
      "mer": {
-      "t": 1795304903,
+      "t": 1795305727,
       "n": 366,
       "vende": [
        {
@@ -7673,8 +7675,8 @@
        "no": 0
       },
       "2026-11-21": {
-       "ok": 63,
-       "no": 3
+       "ok": 65,
+       "no": 5
       }
      },
      "pads": {
@@ -7727,13 +7729,13 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795304880,
+     "naves_t": 1795305485,
      "neg": {
-      "Distance": 7,
+      "Distance": 9,
       "Offences": 1
      },
      "mods": 897,
-     "mods_t": 1795304880
+     "mods_t": 1795305485
     },
     "Millidge Refinery": {
      "f": "Caballeros de Sion",
@@ -8856,7 +8858,7 @@
     "Orbital Construction Site: Shawl Horizons": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795304627,
+     "t": 1795305239,
      "estado": "",
      "ls": 1575,
      "pads": {
@@ -8866,14 +8868,18 @@
      },
      "mid": 3957542658,
      "mer": {
-      "t": 1795304634,
-      "n": 4,
+      "t": 1795305245,
+      "n": 2,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-21": {
+       "ok": 4,
+       "no": 0
+      },
+      "2026-11-22": {
        "ok": 2,
        "no": 0
       }
@@ -27135,11 +27141,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795304382.5175965,
-  "msgs": 2688976,
-  "mios": 273
+  "ultimo": 1795305912.472935,
+  "msgs": 2706023,
+  "mios": 276
  },
- "t": 1795305141.0484607,
+ "t": 1795306044.6766565,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27192,7 +27198,7 @@
    "nfac": 3,
    "pob": 239284,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795298577
+   "t": 1795305767
   },
   "Hyades Sector MD-S c4-21": {
    "pos": [
@@ -27283,7 +27289,7 @@
    "nfac": 4,
    "pob": 191061723,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795301665
+   "t": 1795305426
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -27684,9 +27690,9 @@
    "ly": 18.4,
    "junto": "Makum",
    "nfac": 3,
-   "pob": 3499728416,
+   "pob": 3500537630,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795215318
+   "t": 1795305395
   },
   "Crucis Sector HB-X b1-6": {
    "pos": [
@@ -27855,7 +27861,7 @@
    "nfac": 4,
    "pob": 157985716,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795302474
+   "t": 1795305592
   },
   "Ceti Sector DL-X b1-0": {
    "pos": [
@@ -28674,7 +28680,7 @@
    "nfac": 6,
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
-   "t": 1795211766
+   "t": 1795305709
   },
   "Tote": {
    "pos": [
@@ -30884,7 +30890,7 @@
    "nfac": 3,
    "pob": 2194258,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795304665
+   "t": 1795305587
   },
   "Lyncis Sector UY-S b3-1": {
    "pos": [
@@ -32145,7 +32151,7 @@
    "nfac": 4,
    "pob": 59919110,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795305108
+   "t": 1795306038
   },
   "Tascheter Sector UT-R a4-1": {
    "pos": [
@@ -33043,6 +33049,19 @@
    "pob": 14284,
    "ctrl_n": "CHIMERA",
    "t": 1795303381
+  },
+  "Tascheter Sector OX-U b2-3": {
+   "pos": [
+    15.75,
+    -46.5,
+    -56.3125
+   ],
+   "ly": 16.5,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 157943,
+   "ctrl_n": "The Roughnecks",
+   "t": 1795305446
   }
  },
  "codice": [
@@ -33349,16 +33368,6 @@
  ],
  "ataques": {
   "act": {
-   "Menkalinan": {
-    "ini": 1795214906,
-    "v": 6,
-    "m": 1.4,
-    "dia": "hoy",
-    "antes": 12.84,
-    "min": 11.31,
-    "inf": 11.31,
-    "ctrl": false
-   },
    "Ndabangluya": {
     "ini": 1795287986,
     "v": 15,
@@ -33383,6 +33392,20 @@
    }
   },
   "hist": [
+   {
+    "sys": "Menkalinan",
+    "ini": 1795214906,
+    "fin": 1795305763,
+    "v": 6,
+    "m": 1.4,
+    "antes": 12.84,
+    "min": 11.31,
+    "inf": 11.31,
+    "dif": -1.5,
+    "res": "perdida",
+    "ctrl": false,
+    "quien": ""
+   },
    {
     "sys": "Hyades Sector SU-N b7-0",
     "ini": 1795185724,
@@ -33457,7 +33480,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795301665
+   "t": 1795305426
   },
   "Bakuari": {
    "pos": [
@@ -33771,7 +33794,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795302474
+   "t": 1795305592
   },
   "Wolf 186": {
    "pos": [
@@ -34126,7 +34149,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795300141
+   "t": 1795305460
   },
   "LP 157-32": {
    "pos": [
@@ -35177,7 +35200,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.368928,
+   "prog": 0.369124,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -35185,7 +35208,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795211766
+   "t": 1795305709
   },
   "Hyades Sector QJ-P b6-2": {
    "pos": [
@@ -36200,7 +36223,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795298577
+   "t": 1795305767
   },
   "Onyaksas": {
    "pos": [
@@ -36262,13 +36285,13 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Fortified",
-   "prog": 0.252678,
+   "prog": 0.252845,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795215318
+   "t": 1795305395
   },
   "Yukpenon": {
    "pos": [
@@ -37795,7 +37818,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795304665
+   "t": 1795305587
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -37847,7 +37870,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795244638
+   "t": 1795305445
   },
   "Hayimstae": {
    "pos": [
@@ -37973,7 +37996,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795294146
+   "t": 1795305489
   },
   "Tascheter Sector FR-M a7-3": {
    "pos": [
@@ -37991,7 +38014,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795305108
+   "t": 1795306038
   },
   "Eurus": {
    "pos": [
@@ -40956,7 +40979,7 @@
    ],
    "pot": "Zemina Torval",
    "est": "Stronghold",
-   "prog": 0.27074,
+   "prog": 0.27077,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -40964,7 +40987,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795265199
+   "t": 1795305538
   },
   "Moram": {
    "pos": [
@@ -42614,6 +42637,38 @@
     "Li Yong-Rui"
    ],
    "t": 1795304356
+  },
+  "Gliese 3299": {
+   "pos": [
+    -34.46875,
+    -10.9375,
+    -116.125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.085712,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795305202
+  },
+  "Tascheter Sector OX-U b2-3": {
+   "pos": [
+    15.75,
+    -46.5,
+    -56.3125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795305446
   }
  },
  "rivales": {

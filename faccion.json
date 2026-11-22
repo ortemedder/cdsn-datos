@@ -1,5 +1,5 @@
 {
- "ver": "v10",
+ "ver": "v11",
  "faccion": "Caballeros de Sion",
  "sistemas": {
   "Pirawoth": {
@@ -29488,10 +29488,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 0,
-  "msgs": 1163,
+  "msgs": 1105,
   "mios": 0
  },
- "t": 1795389616.2759545,
+ "t": 0,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {

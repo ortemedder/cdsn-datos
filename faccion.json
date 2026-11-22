@@ -7827,7 +7827,7 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795376030,
+   "t": 1795387329,
    "src": "EDDN",
    "inf": 85.83,
    "ctrl": true,
@@ -7911,7 +7911,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 195
+    "2026-11-22": 201
    },
    "pn": {
     "H5L-70M": {
@@ -7957,7 +7957,7 @@
    },
    "tk": {
     "firma": "942adff6",
-    "igual": 1795376030,
+    "igual": 1795387329,
     "ult": 1795358443,
     "desde": 1795305911,
     "est": null,
@@ -9545,9 +9545,29 @@
      },
      "atq": {
       "2026-11-22": {
-       "ok": 8,
+       "ok": 10,
        "no": 0
       }
+     }
+    },
+    "Planetary Construction Site: Walachnia Manufacturing Exchange": {
+     "f": "Brewer Corporation",
+     "tipo": "PlanetaryConstructionDepot",
+     "t": 1795386741,
+     "estado": "",
+     "ls": 2659,
+     "pads": {
+      "Small": 2,
+      "Medium": 2,
+      "Large": 1
+     },
+     "mid": 4405392387,
+     "mer": {
+      "t": 1795386748,
+      "n": 5,
+      "vende": [],
+      "alta": [],
+      "barato": []
      }
     }
    },
@@ -14451,9 +14471,11 @@
     ]
    },
    "trafico": {
+    "2026-03-14": 1,
     "2026-11-22": 1
    },
    "saltos": {
+    "1773486000": 1,
     "1795381200": 1
    },
    "rutas": {
@@ -16699,6 +16721,7 @@
     "2026-03-03": 1,
     "2026-03-05": 1,
     "2026-03-07": 1,
+    "2026-03-14": 1,
     "2026-11-13": 2,
     "2026-11-15": 2,
     "2026-11-17": 3,
@@ -16715,11 +16738,14 @@
     "1772575200": 1,
     "1772726400": 1,
     "1772902800": 1,
+    "1773475200": 1,
+    "1773478800": 1,
     "1794945600": 1,
     "1795374000": 1
    },
    "rutas": {
     "2026-03-13": 1,
+    "2026-03-14": 1,
     "2026-11-17": 1,
     "2026-11-22": 1
    },
@@ -16869,6 +16895,10 @@
       },
       "2026-03-07": {
        "ok": 1,
+       "no": 0
+      },
+      "2026-03-14": {
+       "ok": 2,
        "no": 0
       },
       "2026-11-22": {
@@ -29346,12 +29376,12 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795385805.0134146,
-  "msgs": 4072990,
-  "mios": 382,
+  "ultimo": 1795387330.5644083,
+  "msgs": 4092029,
+  "mios": 383,
   "descartados": 1
  },
- "t": 1795386470.0245733,
+ "t": 1795387333.6483877,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -29365,7 +29395,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795384367
+   "t": 1795387072
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -29443,7 +29473,7 @@
    "nfac": 6,
    "pob": 5061479,
    "ctrl_n": "East India Company",
-   "t": 1795370331
+   "t": 1795386866
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -29482,7 +29512,7 @@
    "nfac": 5,
    "pob": 161723,
    "ctrl_n": "East India Company",
-   "t": 1795365186
+   "t": 1795386816
   },
   "LHS 1734": {
    "pos": [
@@ -29573,7 +29603,7 @@
    "nfac": 5,
    "pob": 2806113,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795375945
+   "t": 1795387035
   },
   "LHS 1499": {
    "pos": [
@@ -30821,7 +30851,7 @@
    "nfac": 4,
    "pob": 399393,
    "ctrl_n": "Liberals of Panorua",
-   "t": 1795370612
+   "t": 1795386675
   },
   "Trianguli Sector RU-O a6-0": {
    "pos": [
@@ -30886,7 +30916,7 @@
    "nfac": 6,
    "pob": 4855062,
    "ctrl_n": "The Fatherhood",
-   "t": 1795305709
+   "t": 1795387210
   },
   "Tote": {
    "pos": [
@@ -31443,9 +31473,9 @@
    "ly": 14.2,
    "junto": "Tascheter Sector CG-X b1-3",
    "nfac": 4,
-   "pob": 1998014,
+   "pob": 1998079,
    "ctrl_n": "The Fatherhood",
-   "t": 1795165081
+   "t": 1795387238
   },
   "Hyades Sector SZ-N b7-4": {
    "pos": [
@@ -34760,7 +34790,7 @@
    "nfac": 6,
    "pob": 2281,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795381429
+   "t": 1795386783
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -34862,9 +34892,9 @@
    "ly": 4.4,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 398263,
+   "pob": 398283,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795262911
+   "t": 1795387064
   },
   "BD+49 1658": {
    "pos": [
@@ -35866,19 +35896,6 @@
    "pob": 154797,
    "ctrl_n": "Leaders of Apinayimas",
    "t": 1795385346
-  },
-  "Trianguli Sector QZ-O a6-4": {
-   "pos": [
-    25.84375,
-    -29.375,
-    -57.71875
-   ],
-   "ly": 15.4,
-   "junto": "Eurus",
-   "nfac": 3,
-   "pob": 740782,
-   "ctrl_n": "Earth Defense Fleet",
-   "t": 1773447634
   }
  },
  "codice": [
@@ -36722,7 +36739,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795384367
+   "t": 1795387072
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -36955,14 +36972,14 @@
    ],
    "pot": "Edmund Mahon",
    "est": "Stronghold",
-   "prog": 0.24522,
+   "prog": 0.24525,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795380985
+   "t": 1795387266
   },
   "LP 157-32": {
    "pos": [
@@ -37791,7 +37808,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795375945
+   "t": 1795387035
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -37964,7 +37981,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.369124,
+   "prog": 0.373516,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
@@ -37972,7 +37989,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795305709
+   "t": 1795387210
   },
   "Hyades Sector QJ-P b6-2": {
    "pos": [
@@ -38330,7 +38347,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795370331
+   "t": 1795386866
   },
   "Nebthet": {
    "pos": [
@@ -39470,7 +39487,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795165081
+   "t": 1795387238
   },
   "Gyvatices": {
    "pos": [
@@ -43037,7 +43054,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795381429
+   "t": 1795386783
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -43533,7 +43550,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795262911
+   "t": 1795387064
   },
   "Ross 568": {
    "pos": [
@@ -46297,7 +46314,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795365186
+   "t": 1795386816
   },
   "Bingongina": {
    "pos": [
@@ -46440,7 +46457,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795370612
+   "t": 1795386675
   },
   "EGM 762": {
    "pos": [
@@ -46903,23 +46920,6 @@
    ],
    "t": 1795385802
   },
-  "BD+47 1285": {
-   "pos": [
-    -22.6875,
-    27.28125,
-    -98.59375
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795384192
-  },
   "Bestakas": {
    "pos": [
     -34.71875,
@@ -47066,20 +47066,22 @@
    ],
    "t": 1795385682
   },
-  "Trianguli Sector QZ-O a6-4": {
+  "Yax Balam": {
    "pos": [
-    25.84375,
-    -29.375,
-    -57.71875
+    -23.53125,
+    -22.5625,
+    -95.34375
    ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
+   "pot": "Zemina Torval",
+   "est": "Exploited",
+   "prog": 0.251832,
    "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
     "Li Yong-Rui",
-    "Jerome Archer"
+    "Zemina Torval"
    ],
-   "t": 1773447634
+   "t": 1795387144
   }
  },
  "rivales": {

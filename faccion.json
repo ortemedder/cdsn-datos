@@ -2785,7 +2785,7 @@
     "2026-11-19": 11,
     "2026-11-20": 8,
     "2026-11-21": 5,
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "estaciones": {
     "Judge Reach": {
@@ -4687,7 +4687,7 @@
   },
   "LP 254-40": {
    "sys": "LP 254-40",
-   "t": 1795302316,
+   "t": 1795334889,
    "src": "EDDN",
    "inf": 11.3,
    "ctrl": false,
@@ -4797,29 +4797,21 @@
    "trafico": {
     "2026-11-11": 1,
     "2026-11-15": 2,
-    "2026-11-21": 2
+    "2026-11-21": 2,
+    "2026-11-22": 1
    },
    "tk": {
     "firma": "372304bb",
-    "igual": 1795302316
+    "igual": 1795334889
    },
    "saltos": {
-    "1795302000": 1
+    "1795302000": 1,
+    "1795334400": 1
    },
    "rutas": {
-    "2026-11-21": 1
+    "2026-11-21": 1,
+    "2026-11-22": 1
    },
-   "prev": null,
-   "prev_t": null,
-   "hinf": [
-    [
-     1794365590,
-     11.3
-    ]
-   ],
-   "rach": {},
-   "rivales": [],
-   "cseg": {},
    "estaciones": {
     "Jacobi Dock": {
      "f": "LP 254-40 Co",
@@ -4942,7 +4934,18 @@
      ],
      "naves_t": 1795302488
     }
-   }
+   },
+   "prev": null,
+   "prev_t": null,
+   "hinf": [
+    [
+     1794365590,
+     11.3
+    ]
+   ],
+   "rach": {},
+   "rivales": [],
+   "cseg": {}
   },
   "Yin Sector WO-A b1": {
    "sys": "Yin Sector WO-A b1",
@@ -9639,7 +9642,8 @@
     "2026-11-18": 4,
     "2026-11-19": 4,
     "2026-11-20": 4,
-    "2026-11-21": 6
+    "2026-11-21": 6,
+    "2026-11-22": 1
    },
    "estaciones": {
     "Melvin City": {
@@ -27651,11 +27655,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795333817.2399714,
-  "msgs": 3023239,
-  "mios": 288
+  "ultimo": 1795334898.3781407,
+  "msgs": 3033896,
+  "mios": 289
  },
- "t": 1795333985.47051,
+ "t": 1795334906.9591198,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28280,7 +28284,7 @@
    "nfac": 5,
    "pob": 16424,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1794927302
+   "t": 1795334439
   },
   "Col 285 Sector VJ-R a34-0": {
    "pos": [
@@ -30826,9 +30830,9 @@
    "ly": 14.5,
    "junto": "BD+40 1697",
    "nfac": 4,
-   "pob": 1597633,
+   "pob": 1597755,
    "ctrl_n": "Civitas Dei",
-   "t": 1795022347
+   "t": 1795334832
   },
   "Tascheter Sector XO-A b6": {
    "pos": [
@@ -31996,9 +32000,9 @@
    "ly": 17.0,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 4,
-   "pob": 47879805,
+   "pob": 47881998,
    "ctrl_n": "East India Company",
-   "t": 1795162437
+   "t": 1795334090
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -33727,7 +33731,7 @@
    "nfac": 4,
    "pob": 14269201,
    "ctrl_n": "Guardians of Harmony",
-   "t": 1795333043
+   "t": 1795334820
   },
   "HIP 117184": {
    "pos": [
@@ -33780,6 +33784,19 @@
    "pob": 321473,
    "ctrl_n": "Maya Free",
    "t": 1795333747
+  },
+  "Pegasi Sector ZU-X b1-2": {
+   "pos": [
+    -184.125,
+    -61.34375,
+    -69.8125
+   ],
+   "ly": 12.7,
+   "junto": "Pegasi Sector YU-X b1-2",
+   "nfac": 4,
+   "pob": 51444502,
+   "ctrl_n": "Guardians of Harmony",
+   "t": 1795334387
   }
  },
  "codice": [
@@ -34693,7 +34710,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795162437
+   "t": 1795334090
   },
   "Col 285 Sector MZ-D b13-2": {
    "pos": [
@@ -43177,7 +43194,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795302316
+   "t": 1795334889
   },
   "Yin Sector UT-A b1": {
    "pos": [
@@ -43787,7 +43804,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795333043
+   "t": 1795334820
   },
   "Tascheter Sector AA-Z b5": {
    "pos": [
@@ -43881,6 +43898,53 @@
     "Jerome Archer"
    ],
    "t": 1795333747
+  },
+  "Pegasi Sector ZU-X b1-2": {
+   "pos": [
+    -184.125,
+    -61.34375,
+    -69.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Pranav Antal"
+   ],
+   "t": 1795334387
+  },
+  "Wolf 152": {
+   "pos": [
+    -41.125,
+    -15.125,
+    -71.78125
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.234284,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795334439
+  },
+  "NLTT 17993": {
+   "pos": [
+    -0.4375,
+    31.0625,
+    -69.21875
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795334832
   }
  },
  "rivales": {

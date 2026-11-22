@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "zc": [
     {
@@ -27381,10 +27381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795316739.9215107,
-  "msgs": 2869435,
+  "msgs": 2881459,
   "mios": 282
  },
- "t": 1795318186.084526,
+ "t": 1795319577.5734208,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27398,7 +27398,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795310025
+   "t": 1795319496
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -27619,7 +27619,7 @@
    "nfac": 3,
    "pob": 122349137,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795307275
+   "t": 1795318901
   },
   "HIP 43660": {
    "pos": [
@@ -31257,9 +31257,9 @@
    "ly": 17.8,
    "junto": "Ceti Sector CL-X b1-1",
    "nfac": 4,
-   "pob": 2160802,
+   "pob": 2162908,
    "ctrl_n": "East India Company",
-   "t": 1795062864
+   "t": 1795318765
   },
   "LHS 1651": {
    "pos": [
@@ -31493,7 +31493,7 @@
    "nfac": 1,
    "pob": 274586494,
    "ctrl_n": "Civitas Dei",
-   "t": 1795264891
+   "t": 1795316690
   },
   "Lyncis Sector FG-Y d90": {
    "pos": [
@@ -33384,6 +33384,16 @@
  "codice": [
   {
    "sys": "GCRV 3034",
+   "n": "Osseus 01 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "GCRV 3034 8 a",
+   "junto": "Hyades Sector UP-N b7-6",
+   "ly": 14.0,
+   "t": 1795319271
+  },
+  {
+   "sys": "GCRV 3034",
    "n": "Shrubs 02 G",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -33671,16 +33681,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795183140
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Osseus 06 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 e",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182320
   }
  ],
  "ataques": {
@@ -34209,7 +34209,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795310025
+   "t": 1795319496
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -40481,7 +40481,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795307275
+   "t": 1795318901
   },
   "HIP 23402": {
    "pos": [
@@ -40943,7 +40943,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795264891
+   "t": 1795316690
   },
   "Hyades Sector UP-N b7-6": {
    "pos": [
@@ -43278,6 +43278,22 @@
     "Pranav Antal"
    ],
    "t": 1795317998
+  },
+  "Ceti Sector HR-V b2-0": {
+   "pos": [
+    18.625,
+    -101.0625,
+    -40.0625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Pranav Antal"
+   ],
+   "t": 1795318765
   }
  },
  "rivales": {

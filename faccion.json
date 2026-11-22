@@ -2226,7 +2226,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 22
+    "2026-11-22": 23
    },
    "zc": [
     {
@@ -7520,18 +7520,19 @@
   },
   "Swoilz HE-D c1-13": {
    "sys": "Swoilz HE-D c1-13",
-   "t": 1795367899,
+   "t": 1795369752,
    "src": "EDDN",
    "inf": 85.83,
    "ctrl": true,
    "estado": "Expansion",
    "activos": [
-    "CivilLiberty",
     "Boom",
     "Expansion"
    ],
    "pendientes": [],
-   "recuperando": [],
+   "recuperando": [
+    "CivilLiberty"
+   ],
    "segunda": "Natural Atese Front",
    "segunda_inf": 8.38,
    "conflictos": [],
@@ -7542,7 +7543,6 @@
      "gov": "Democracy",
      "alg": "Independent",
      "act": [
-      "CivilLiberty",
       "Boom",
       "Expansion"
      ],
@@ -7604,12 +7604,12 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 94
+    "2026-11-22": 98
    },
    "pn": {
     "H5L-70M": {
      "n": "[CDSN] Folkvangr",
-     "t": 1795368041,
+     "t": 1795369910,
      "d": 1794928703
     },
     "KBL-37L": {
@@ -7650,7 +7650,7 @@
    },
    "tk": {
     "firma": "942adff6",
-    "igual": 1795367899,
+    "igual": 1795369752,
     "ult": 1795358443,
     "desde": 1795305911,
     "est": null,
@@ -8346,7 +8346,7 @@
     "Tanaka Enterprise": {
      "f": "Caballeros de Sion",
      "tipo": "Coriolis",
-     "t": 1795368587,
+     "t": 1795369752,
      "estado": "",
      "ls": 2657,
      "pads": {
@@ -8356,8 +8356,8 @@
      },
      "mid": 4404481539,
      "mer": {
-      "t": 1795368594,
-      "n": 160,
+      "t": 1795369820,
+      "n": 366,
       "vende": [
        {
         "n": "monazite",
@@ -8442,51 +8442,9 @@
      "mods": 932,
      "mods_t": 1795368594,
      "naves": [
-      "adder",
-      "anaconda",
-      "asp",
-      "asp_scout",
-      "belugaliner",
-      "cobramkiii",
-      "cobramkv",
-      "corsair",
-      "diamondback",
-      "diamondbackxl",
-      "dolphin",
-      "eagle",
-      "explorer_nx",
-      "federation_corvette",
-      "federation_dropship",
-      "federation_dropship_mkii",
-      "federation_gunship",
-      "ferdelance",
-      "hauler",
-      "independant_trader",
-      "krait_light",
-      "krait_mkii",
-      "lakonminer",
-      "mamba",
-      "mandalay",
-      "mediumtransport01",
-      "orca",
-      "panthermkii",
-      "python",
-      "python_nx",
-      "sidewinder",
-      "smallcombat01_nx",
-      "type6",
-      "type7",
-      "type8",
-      "type9",
-      "type9_military",
-      "typex",
-      "typex_2",
-      "typex_3",
-      "viper",
-      "viper_mkiv",
-      "vulture"
+      "federation_corvette"
      ],
-     "naves_t": 1795368594,
+     "naves_t": 1795369790,
      "atq": {
       "2026-11-19": {
        "ok": 4,
@@ -8501,7 +8459,7 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 4,
+       "ok": 6,
        "no": 0
       }
      }
@@ -28108,11 +28066,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795367900.696771,
-  "msgs": 3652486,
-  "mios": 358
+  "ultimo": 1795369753.3769233,
+  "msgs": 3676230,
+  "mios": 359
  },
- "t": 1795369262.4616134,
+ "t": 1795370135.9888897,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28126,7 +28084,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795367729
+   "t": 1795369809
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28581,7 +28539,7 @@
    "nfac": 6,
    "pob": 5221374,
    "ctrl_n": "Armada",
-   "t": 1795364271
+   "t": 1795369490
   },
   "Zephyrus": {
    "pos": [
@@ -28594,7 +28552,7 @@
    "nfac": 4,
    "pob": 80201,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795367354
+   "t": 1795369637
   },
   "Tascheter Sector IM-M a7-1": {
    "pos": [
@@ -29075,7 +29033,7 @@
    "nfac": 6,
    "pob": 9913425,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795356388
+   "t": 1795369561
   },
   "Lokaantii": {
    "pos": [
@@ -30100,9 +30058,9 @@
    "ly": 11.2,
    "junto": "Menkalinan",
    "nfac": 4,
-   "pob": 1594640,
+   "pob": 1594722,
    "ctrl_n": "Blood Brothers from Alrai",
-   "t": 1795300796
+   "t": 1795369386
   },
   "Loki Tan": {
    "pos": [
@@ -31038,7 +30996,7 @@
    "nfac": 6,
    "pob": 6518204,
    "ctrl_n": "East India Company",
-   "t": 1795348273
+   "t": 1795370124
   },
   "Trianguli Sector VF-N a7-1": {
    "pos": [
@@ -33820,7 +33778,7 @@
    "nfac": 5,
    "pob": 398797,
    "ctrl_n": "Civitas Dei",
-   "t": 1795333975
+   "t": 1795369734
   },
   "HIP 24133": {
    "pos": [
@@ -34445,6 +34403,19 @@
    "pob": 2014293,
    "ctrl_n": "THE AZGHARIE",
    "t": 1795364818
+  },
+  "Waikino": {
+   "pos": [
+    -9.875,
+    45.53125,
+    -140.9375
+   ],
+   "ly": 14.4,
+   "junto": "HIP 31451",
+   "nfac": 6,
+   "pob": 238169,
+   "ctrl_n": "Claws of the West",
+   "t": 1795369538
   }
  },
  "codice": [
@@ -34925,7 +34896,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795352290
+   "t": 1795369399
   },
   "LFT 361": {
    "pos": [
@@ -35009,7 +34980,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795367354
+   "t": 1795369637
   },
   "Nergal": {
    "pos": [
@@ -35288,7 +35259,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795367729
+   "t": 1795369809
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -36685,7 +36656,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795348273
+   "t": 1795370124
   },
   "NLTT 8234": {
    "pos": [
@@ -38015,13 +37986,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.369995,
+   "prog": 0.370207,
    "pots": [
     "Li Yong-Rui",
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795364271
+   "t": 1795369490
   },
   "Arietis Sector DG-X c1-14": {
    "pos": [
@@ -38089,7 +38060,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795300796
+   "t": 1795369386
   },
   "Yin Sector YU-Y b4": {
    "pos": [
@@ -38327,7 +38298,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795368806
+   "t": 1795369994
   },
   "Bhumian Ku": {
    "pos": [
@@ -39627,7 +39598,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795356388
+   "t": 1795369561
   },
   "Yawala": {
    "pos": [
@@ -43022,7 +42993,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795333975
+   "t": 1795369734
   },
   "HIP 24133": {
    "pos": [
@@ -43514,7 +43485,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795368723
+   "t": 1795369698
   },
   "Audumasi": {
    "pos": [
@@ -45217,6 +45188,22 @@
     "Zemina Torval"
    ],
    "t": 1795368351
+  },
+  "Waikino": {
+   "pos": [
+    -9.875,
+    45.53125,
+    -140.9375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Edmund Mahon",
+    "Li Yong-Rui",
+    "Jerome Archer"
+   ],
+   "t": 1795369538
   }
  },
  "rivales": {

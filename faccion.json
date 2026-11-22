@@ -4074,7 +4074,7 @@
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 3
+    "2026-11-22": 5
    },
    "estaciones": {
     "Kinsey Town": {
@@ -14000,7 +14000,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 27
+    "2026-11-22": 28
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14968,20 +14968,20 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795350602,
+     "t": 1795353229,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795350609,
-      "n": 2,
+      "t": 1795353242,
+      "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
      },
      "atq": {
       "2026-11-22": {
-       "ok": 9,
+       "ok": 10,
        "no": 2
       }
      },
@@ -27994,10 +27994,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795353037.2893925,
-  "msgs": 3295432,
+  "msgs": 3309812,
   "mios": 318
  },
- "t": 1795352969.2303317,
+ "t": 1795353921.8617685,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28217,9 +28217,9 @@
    "ly": 16.4,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 2806022,
+   "pob": 2806113,
    "ctrl_n": "Verne Partners LLP",
-   "t": 1795303854
+   "t": 1795353252
   },
   "LHS 1499": {
    "pos": [
@@ -28425,9 +28425,9 @@
    "ly": 15.1,
    "junto": "Epsilon Sculptoris",
    "nfac": 4,
-   "pob": 128865,
+   "pob": 129463,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795275320
+   "t": 1795353477
   },
   "Unktock": {
    "pos": [
@@ -28700,7 +28700,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795352717
+   "t": 1795353389
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -32806,9 +32806,9 @@
    "ly": 19.4,
    "junto": "Hyades Sector XV-L b8-3",
    "nfac": 3,
-   "pob": 2223380,
+   "pob": 2223549,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795305131
+   "t": 1795353383
   },
   "Bhumian Ku": {
    "pos": [
@@ -35061,7 +35061,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257728,
+   "prog": 0.257725,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -35069,7 +35069,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795350941
+   "t": 1795319496
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35878,7 +35878,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795352717
+   "t": 1795353389
   },
   "Mandu": {
    "pos": [
@@ -36173,7 +36173,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795303854
+   "t": 1795353252
   },
   "Tascheter Sector ZZ-Y b1": {
    "pos": [
@@ -36302,7 +36302,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795275320
+   "t": 1795353477
   },
   "Guei": {
    "pos": [
@@ -38092,7 +38092,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795305131
+   "t": 1795353383
   },
   "HR 3277": {
    "pos": [
@@ -38108,7 +38108,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795351768
+   "t": 1795353741
   },
   "Bhumian Ku": {
    "pos": [
@@ -43408,7 +43408,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795298903
+   "t": 1795353688
   },
   "LTT 17686": {
    "pos": [
@@ -44650,6 +44650,22 @@
     "Felicia Winters"
    ],
    "t": 1795352391
+  },
+  "Col 285 Sector TT-W b16-8": {
+   "pos": [
+    125.6875,
+    -15.0625,
+    10.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795353312
   }
  },
  "rivales": {

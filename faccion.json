@@ -3956,7 +3956,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1795355047,
+   "t": 1795357088,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -4026,8 +4026,8 @@
    "pp": {
     "pot": "Pranav Antal",
     "est": "Exploited",
-    "prog": 0.264066,
-    "ref": 65,
+    "prog": 0.264209,
+    "ref": 115,
     "soc": 441,
     "pots": [
      "Denton Patreus",
@@ -4047,11 +4047,11 @@
     "2026-11-17": 1,
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-22": 12
+    "2026-11-22": 13
    },
    "tk": {
     "firma": "60db3419",
-    "igual": 1795355047,
+    "igual": 1795357088,
     "ult": 1794922802,
     "desde": 1794866949,
     "est": null,
@@ -4069,19 +4069,20 @@
     "1795168800": 1,
     "1795345200": 2,
     "1795348800": 1,
-    "1795352400": 3
+    "1795352400": 3,
+    "1795356000": 1
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 6
+    "2026-11-22": 7
    },
    "estaciones": {
     "Kinsey Town": {
      "f": "Guardians of Tranquillity",
      "tipo": "Coriolis",
-     "t": 1795355382,
+     "t": 1795357233,
      "estado": "",
      "ls": 14,
      "pads": {
@@ -4092,7 +4093,7 @@
      "mid": 4213231363,
      "atq": {
       "2026-11-22": {
-       "ok": 4,
+       "ok": 5,
        "no": 0
       }
      }
@@ -12298,7 +12299,7 @@
     "2026-11-16": 15,
     "2026-11-17": 4,
     "2026-11-18": 7,
-    "2026-11-22": 4
+    "2026-11-22": 5
    },
    "pn": {
     "H2J-72G": {
@@ -12602,8 +12603,8 @@
        }
       ]
      },
-     "mods": 668,
-     "mods_t": 1794994989,
+     "mods": 733,
+     "mods_t": 1795357001,
      "naves": [
       "adder",
       "anaconda",
@@ -14009,7 +14010,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 36
+    "2026-11-22": 38
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14844,7 +14845,7 @@
     "Pivot Point": {
      "f": "The Fatherhood",
      "tipo": "CraterOutpost",
-     "t": 1795341436,
+     "t": 1795356787,
      "estado": "",
      "ls": 704,
      "pads": {
@@ -14859,38 +14860,38 @@
        "no": 0
       },
       "2026-11-22": {
-       "ok": 1,
-       "no": 0
+       "ok": 2,
+       "no": 1
       }
      },
      "mer": {
-      "t": 1795341557,
+      "t": 1795356826,
       "n": 355,
       "vende": [
        {
         "n": "alexandrite",
         "p": 274894,
-        "d": 1029
+        "d": 1044
        },
        {
         "n": "grandidierite",
         "p": 257135,
-        "d": 1029
+        "d": 1044
        },
        {
         "n": "musgravite",
         "p": 257135,
-        "d": 1029
+        "d": 1044
        },
        {
         "n": "monazite",
         "p": 240530,
-        "d": 423
+        "d": 438
        },
        {
         "n": "serendibite",
         "p": 225004,
-        "d": 1029
+        "d": 1044
        }
       ],
       "alta": [
@@ -14906,7 +14907,7 @@
        },
        {
         "n": "water",
-        "p": 564,
+        "p": 565,
         "m": 260
        },
        {
@@ -14925,13 +14926,13 @@
         "n": "biowaste",
         "p": 28,
         "m": 271,
-        "s": 4645
+        "s": 4485
        },
        {
         "n": "foodcartridges",
         "p": 33,
         "m": 252,
-        "s": 17703
+        "s": 17585
        },
        {
         "n": "polymers",
@@ -14952,6 +14953,9 @@
         "s": 193712
        }
       ]
+     },
+     "neg": {
+      "Distance": 1
      }
     },
     "Orbital Construction Site: Sonnenfeld Town": {
@@ -19888,7 +19892,7 @@
   },
   "Haraka": {
    "sys": "Haraka",
-   "t": 1795344459,
+   "t": 1795357309,
    "src": "EDDN",
    "inf": 15.48,
    "ctrl": false,
@@ -19999,11 +20003,11 @@
     "2026-11-14": 2,
     "2026-11-16": 3,
     "2026-11-21": 9,
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "tk": {
     "firma": "498033e1",
-    "igual": 1795344459,
+    "igual": 1795357309,
     "ult": 1795336415,
     "desde": 1795283323,
     "est": null,
@@ -20019,11 +20023,12 @@
     "1795269600": 1,
     "1795280400": 3,
     "1795334400": 1,
-    "1795341600": 1
+    "1795341600": 1,
+    "1795356000": 1
    },
    "rutas": {
     "2026-11-21": 5,
-    "2026-11-22": 2
+    "2026-11-22": 3
    },
    "estaciones": {
     "Blackman Station": {
@@ -27809,7 +27814,7 @@
   },
   "Pegasi Sector YU-X b1-2": {
    "sys": "Pegasi Sector YU-X b1-2",
-   "t": 1795353996,
+   "t": 1795357007,
    "src": "EDDN",
    "inf": 10.11,
    "ctrl": false,
@@ -27896,24 +27901,25 @@
     ]
    },
    "trafico": {
-    "2026-11-22": 6
+    "2026-11-22": 7
    },
    "tk": {
     "firma": "3c1be4ac",
-    "igual": 1795353996
+    "igual": 1795357007
    },
    "saltos": {
     "1795348800": 2,
-    "1795352400": 1
+    "1795352400": 1,
+    "1795356000": 1
    },
    "rutas": {
-    "2026-11-22": 3
+    "2026-11-22": 4
    },
    "estaciones": {
     "Mangold Gateway": {
      "f": "Guardians of Harmony",
      "tipo": "Coriolis",
-     "t": 1795354201,
+     "t": 1795357204,
      "estado": "",
      "ls": 184,
      "pads": {
@@ -27923,7 +27929,7 @@
      },
      "mid": 4227106051,
      "mer": {
-      "t": 1795354208,
+      "t": 1795357211,
       "n": 53,
       "vende": [
        {
@@ -28001,7 +28007,7 @@
       ]
      },
      "mods": 146,
-     "mods_t": 1795354208,
+     "mods_t": 1795357211,
      "naves": [
       "adder",
       "cobramkiii",
@@ -28011,10 +28017,10 @@
       "sidewinder",
       "type6"
      ],
-     "naves_t": 1795354208,
+     "naves_t": 1795357211,
      "atq": {
       "2026-11-22": {
-       "ok": 3,
+       "ok": 4,
        "no": 0
       }
      }
@@ -28035,11 +28041,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795355627.7084281,
-  "msgs": 3361101,
-  "mios": 323
+  "ultimo": 1795357311.1374452,
+  "msgs": 3379383,
+  "mios": 326
  },
- "t": 1795356641.5995088,
+ "t": 1795357545.596561,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28157,7 +28163,7 @@
    "nfac": 4,
    "pob": 1998050,
    "ctrl_n": "Movement for LHS 20 Liberals",
-   "t": 1795333311
+   "t": 1795356818
   },
   "Dakvar": {
    "pos": [
@@ -30443,9 +30449,9 @@
    "ly": 13.6,
    "junto": "HIP 19292",
    "nfac": 5,
-   "pob": 2197618,
+   "pob": 2197650,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795340594
+   "t": 1795356951
   },
   "ICZ BF-Z b4": {
    "pos": [
@@ -30588,7 +30594,7 @@
    "nfac": 6,
    "pob": 2760433,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795304356
+   "t": 1795357512
   },
   "Yaro": {
    "pos": [
@@ -32835,9 +32841,9 @@
    "ly": 10.5,
    "junto": "Eurus",
    "nfac": 3,
-   "pob": 1996659,
+   "pob": 1996769,
    "ctrl_n": "Earth Defense Fleet",
-   "t": 1795173388
+   "t": 1795357539
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -34281,6 +34287,32 @@
    "pob": 194099029,
    "ctrl_n": "Elite Defense Force",
    "t": 1795352391
+  },
+  "Trianguli Sector ZL-L a8-1": {
+   "pos": [
+    38.96875,
+    -32.71875,
+    -43.90625
+   ],
+   "ly": 14.5,
+   "junto": "Eurus",
+   "nfac": 3,
+   "pob": 49917159,
+   "ctrl_n": "Hakili Federal Group",
+   "t": 1795357058
+  },
+  "Tascheter Sector BL-O a6-1": {
+   "pos": [
+    22.65625,
+    -33.96875,
+    -38.90625
+   ],
+   "ly": 9.2,
+   "junto": "Eurus",
+   "nfac": 4,
+   "pob": 159161,
+   "ctrl_n": "Turmati Exchange",
+   "t": 1795357464
   }
  },
  "codice": [
@@ -35570,13 +35602,13 @@
    ],
    "pot": "Pranav Antal",
    "est": "Exploited",
-   "prog": 0.264066,
+   "prog": 0.264209,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795355047
+   "t": 1795357088
   },
   "StKM 1-442": {
    "pos": [
@@ -36572,7 +36604,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795355814
+   "t": 1795356705
   },
   "Arietis Sector MN-S b4-5": {
    "pos": [
@@ -37169,7 +37201,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795340594
+   "t": 1795356951
   },
   "HIP 19292": {
    "pos": [
@@ -37200,7 +37232,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795333311
+   "t": 1795356818
   },
   "Tascheter Sector FR-M a7-0": {
    "pos": [
@@ -38118,7 +38150,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795173388
+   "t": 1795357539
   },
   "Tascheter Sector YZ-Y a3": {
    "pos": [
@@ -38778,7 +38810,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795344686
+   "t": 1795357323
   },
   "Galibi": {
    "pos": [
@@ -42272,7 +42304,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795344459
+   "t": 1795357309
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -43450,7 +43482,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795353688
+   "t": 1795356901
   },
   "LTT 17686": {
    "pos": [
@@ -43792,7 +43824,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795304356
+   "t": 1795357512
   },
   "Gliese 3299": {
    "pos": [
@@ -44642,7 +44674,7 @@
    "pots": [
     "Pranav Antal"
    ],
-   "t": 1795353996
+   "t": 1795357007
   },
   "Tascheter Sector HM-M a7-1": {
    "pos": [
@@ -44722,7 +44754,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795355077
+   "t": 1795357337
   },
   "Bunuson": {
    "pos": [
@@ -44751,6 +44783,55 @@
     "A. Lavigny-Duval"
    ],
    "t": 1795356392
+  },
+  "Trianguli Sector ZL-L a8-1": {
+   "pos": [
+    38.96875,
+    -32.71875,
+    -43.90625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.142283,
+   "pots": [
+    "Denton Patreus",
+    "Felicia Winters",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795357058
+  },
+  "Cerrero": {
+   "pos": [
+    -45.375,
+    80.21875,
+    -125.65625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Felicia Winters",
+    "Li Yong-Rui"
+   ],
+   "t": 1795357289
+  },
+  "Tascheter Sector BL-O a6-1": {
+   "pos": [
+    22.65625,
+    -33.96875,
+    -38.90625
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795357464
   }
  },
  "rivales": {

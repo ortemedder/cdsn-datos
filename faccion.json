@@ -18902,15 +18902,15 @@
   },
   "Mau": {
    "sys": "Mau",
-   "t": 1795285020,
+   "t": 1795349993,
    "src": "EDDN",
    "inf": 59.38,
    "ctrl": true,
-   "estado": "None",
-   "activos": [],
-   "pendientes": [
+   "estado": "Expansion",
+   "activos": [
     "Expansion"
    ],
+   "pendientes": [],
    "recuperando": [],
    "segunda": "CHIMERA",
    "segunda_inf": 10.43,
@@ -18921,10 +18921,10 @@
      "inf": 59.38,
      "gov": "Democracy",
      "alg": "Independent",
-     "act": [],
-     "pend": [
+     "act": [
       "Expansion"
      ],
+     "pend": [],
      "jug": null
     },
     {
@@ -19013,15 +19013,17 @@
    "trafico": {
     "2026-11-14": 1,
     "2026-11-15": 1,
-    "2026-11-21": 3
+    "2026-11-21": 3,
+    "2026-11-22": 1
    },
    "tk": {
     "firma": "ad9e72b7",
-    "igual": 1795285020
+    "igual": 1795349993
    },
    "saltos": {
     "1795237200": 2,
-    "1795284000": 1
+    "1795284000": 1,
+    "1795348800": 1
    },
    "rutas": {
     "2026-11-19": 1,
@@ -28055,11 +28057,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795359803.8998778,
-  "msgs": 3439172,
-  "mios": 330
+  "ultimo": 1795360386.0692961,
+  "msgs": 3459153,
+  "mios": 331
  },
- "t": 1795360175.2256153,
+ "t": 1795361057.5217319,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28073,7 +28075,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795360153
+   "t": 1795360311
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28476,7 +28478,7 @@
    "nfac": 6,
    "pob": 3455292694,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795282319
+   "t": 1795360141
   },
   "HJ 3456B": {
    "pos": [
@@ -28968,9 +28970,9 @@
    "ly": 11.4,
    "junto": "Jangore",
    "nfac": 6,
-   "pob": 2198957,
+   "pob": 2199010,
    "ctrl_n": "The Fatherhood",
-   "t": 1795267959
+   "t": 1795349200
   },
   "Arietis Sector JS-S b4-5": {
    "pos": [
@@ -29737,7 +29739,7 @@
    "nfac": 6,
    "pob": 4787137,
    "ctrl_n": "Bommatsuri Emperor's Grace",
-   "t": 1794949570
+   "t": 1795360875
   },
   "Tascheter Sector DG-O a6-3": {
    "pos": [
@@ -31167,7 +31169,7 @@
    "nfac": 5,
    "pob": 3560964,
    "ctrl_n": "Guardians of Tranquillity",
-   "t": 1795257374
+   "t": 1795360722
   },
   "Col 285 Sector RD-T a33-6": {
    "pos": [
@@ -31323,7 +31325,7 @@
    "nfac": 6,
    "pob": 2130909,
    "ctrl_n": "Leviathan Scout Regiment",
-   "t": 1795193648
+   "t": 1795355664
   },
   "Trianguli Sector BH-L a8-2": {
    "pos": [
@@ -31477,9 +31479,9 @@
    "ly": 11.2,
    "junto": "Hyades Sector AC-K b9-6",
    "nfac": 2,
-   "pob": 2194305,
+   "pob": 2194608,
    "ctrl_n": "Quebecois Patriots",
-   "t": 1795032605
+   "t": 1795360078
   },
   "Arietis Sector QT-Q b5-5": {
    "pos": [
@@ -32335,9 +32337,9 @@
    "ly": 9.5,
    "junto": "Makum",
    "nfac": 4,
-   "pob": 314213,
+   "pob": 314402,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795086724
+   "t": 1795360727
   },
   "Hyades Sector IN-R b5-1": {
    "pos": [
@@ -33271,9 +33273,9 @@
    "ly": 19.3,
    "junto": "Col 285 Sector YZ-U b17-3",
    "nfac": 5,
-   "pob": 198781,
+   "pob": 198808,
    "ctrl_n": "Astral Dynamics, LLC",
-   "t": 1795210122
+   "t": 1795361056
   },
   "Trianguli Sector SU-O a6-5": {
    "pos": [
@@ -33754,7 +33756,7 @@
    "nfac": 5,
    "pob": 1217523,
    "ctrl_n": "Order of Enblackenment",
-   "t": 1795346912
+   "t": 1795360884
   },
   "Yin Sector XJ-A c18": {
    "pos": [
@@ -34327,6 +34329,32 @@
    "pob": 159161,
    "ctrl_n": "Turmati Exchange",
    "t": 1795357464
+  },
+  "BD+54 886": {
+   "pos": [
+    -43.8125,
+    20.84375,
+    -98.96875
+   ],
+   "ly": 11.1,
+   "junto": "Elivagar",
+   "nfac": 3,
+   "pob": 111321540,
+   "ctrl_n": "CHIMERA",
+   "t": 1795360778
+  },
+  "Col 285 Sector YZ-U b17-7": {
+   "pos": [
+    135.40625,
+    -23.625,
+    31.25
+   ],
+   "ly": 16.4,
+   "junto": "Col 285 Sector YZ-U b17-3",
+   "nfac": 4,
+   "pob": 1412825,
+   "ctrl_n": "The Dark Wheel",
+   "t": 1795361028
   }
  },
  "codice": [
@@ -35157,7 +35185,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795360153
+   "t": 1795360311
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35397,7 +35425,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795356274
+   "t": 1795360896
   },
   "LP 157-32": {
    "pos": [
@@ -36062,7 +36090,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795125846
+   "t": 1795349286
   },
   "Col 285 Sector RD-T a33-3": {
    "pos": [
@@ -37940,7 +37968,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795257374
+   "t": 1795360722
   },
   "Tascheter Sector CL-Y d104": {
    "pos": [
@@ -38018,7 +38046,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795267959
+   "t": 1795349200
   },
   "Lorden": {
    "pos": [
@@ -39089,7 +39117,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795193648
+   "t": 1795355664
   },
   "Hyades Sector JX-T c3-23": {
    "pos": [
@@ -40376,7 +40404,7 @@
     "A. Lavigny-Duval",
     "Zemina Torval"
    ],
-   "t": 1795210122
+   "t": 1795361056
   },
   "Holo": {
    "pos": [
@@ -41522,7 +41550,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795285020
+   "t": 1795349993
   },
   "GCRV 2311": {
    "pos": [
@@ -42771,7 +42799,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795346912
+   "t": 1795360884
   },
   "Sussche": {
    "pos": [
@@ -42873,7 +42901,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795282319
+   "t": 1795360141
   },
   "Yin Sector XJ-A c18": {
    "pos": [
@@ -44861,6 +44889,86 @@
     "Li Yong-Rui"
    ],
    "t": 1795359324
+  },
+  "Wolf 218": {
+   "pos": [
+    -39.40625,
+    -9.5,
+    -74.09375
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Li Yong-Rui",
+    "Pranav Antal",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795360078
+  },
+  "Hyades Sector SZ-N b7-1": {
+   "pos": [
+    16.09375,
+    24,
+    -123.75
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795360727
+  },
+  "BD+54 886": {
+   "pos": [
+    -43.8125,
+    20.84375,
+    -98.96875
+   ],
+   "pot": "Jerome Archer",
+   "est": "Exploited",
+   "prog": 0.006854,
+   "pots": [
+    "Edmund Mahon",
+    "Pranav Antal",
+    "Jerome Archer"
+   ],
+   "t": 1795360778
+  },
+  "Nidarijedi": {
+   "pos": [
+    13.65625,
+    -104.90625,
+    -47.65625
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.100569,
+   "pots": [
+    "Denton Patreus",
+    "Li Yong-Rui"
+   ],
+   "t": 1795360875
+  },
+  "Col 285 Sector YZ-U b17-7": {
+   "pos": [
+    135.40625,
+    -23.625,
+    31.25
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "A. Lavigny-Duval",
+    "Aisling Duval",
+    "Zemina Torval"
+   ],
+   "t": 1795361028
   }
  },
  "rivales": {

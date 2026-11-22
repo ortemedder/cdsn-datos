@@ -3956,7 +3956,7 @@
   },
   "Epsilon Sculptoris": {
    "sys": "Epsilon Sculptoris",
-   "t": 1795357088,
+   "t": 1795359798,
    "src": "EDDN",
    "inf": 10.61,
    "ctrl": false,
@@ -4047,11 +4047,11 @@
     "2026-11-17": 1,
     "2026-11-19": 1,
     "2026-11-20": 1,
-    "2026-11-22": 13
+    "2026-11-22": 14
    },
    "tk": {
     "firma": "60db3419",
-    "igual": 1795357088,
+    "igual": 1795359798,
     "ult": 1794922802,
     "desde": 1794866949,
     "est": null,
@@ -4070,19 +4070,20 @@
     "1795345200": 2,
     "1795348800": 1,
     "1795352400": 3,
-    "1795356000": 1
+    "1795356000": 1,
+    "1795359600": 1
    },
    "rutas": {
     "2026-11-17": 3,
     "2026-11-19": 2,
     "2026-11-20": 3,
-    "2026-11-22": 7
+    "2026-11-22": 8
    },
    "estaciones": {
     "Kinsey Town": {
      "f": "Guardians of Tranquillity",
      "tipo": "Coriolis",
-     "t": 1795357233,
+     "t": 1795359934,
      "estado": "",
      "ls": 14,
      "pads": {
@@ -4093,7 +4094,7 @@
      "mid": 4213231363,
      "atq": {
       "2026-11-22": {
-       "ok": 5,
+       "ok": 6,
        "no": 0
       }
      }
@@ -20010,7 +20011,7 @@
     "2026-11-14": 2,
     "2026-11-16": 3,
     "2026-11-21": 9,
-    "2026-11-22": 8
+    "2026-11-22": 9
    },
    "tk": {
     "firma": "498033e1",
@@ -20031,7 +20032,7 @@
     "1795280400": 3,
     "1795334400": 1,
     "1795341600": 1,
-    "1795356000": 2
+    "1795356000": 3
    },
    "rutas": {
     "2026-11-21": 5,
@@ -20285,7 +20286,7 @@
      "mods_t": 1795357652,
      "atq": {
       "2026-11-22": {
-       "ok": 1,
+       "ok": 2,
        "no": 0
       }
      }
@@ -28054,11 +28055,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795358686.5991,
-  "msgs": 3418666,
-  "mios": 329
+  "ultimo": 1795359803.8998778,
+  "msgs": 3439172,
+  "mios": 330
  },
- "t": 1795359352.291017,
+ "t": 1795360175.2256153,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28072,7 +28073,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795358751
+   "t": 1795360153
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28202,7 +28203,7 @@
    "nfac": 4,
    "pob": 191283667,
    "ctrl_n": "C.E.A. Psychiatric Institutions Ltd.",
-   "t": 1795349697
+   "t": 1795360043
   },
   "Trianguli Sector QZ-O a6-0": {
    "pos": [
@@ -28488,7 +28489,7 @@
    "nfac": 4,
    "pob": 129463,
    "ctrl_n": "Radius Group Inc",
-   "t": 1795356588
+   "t": 1795359539
   },
   "Unktock": {
    "pos": [
@@ -29684,7 +29685,7 @@
    "nfac": 5,
    "pob": 108070982,
    "ctrl_n": "Lavigny's Legion",
-   "t": 1795355507
+   "t": 1795359788
   },
   "Fimbulwinter": {
    "pos": [
@@ -30724,7 +30725,7 @@
    "nfac": 6,
    "pob": 750493,
    "ctrl_n": "Chapterhouse of Inquisition",
-   "t": 1795307383
+   "t": 1795359575
   },
   "Ceti Sector PD-S b4-3": {
    "pos": [
@@ -32869,7 +32870,7 @@
    "nfac": 3,
    "pob": 2223549,
    "ctrl_n": "Beasts of Bestia",
-   "t": 1795356513
+   "t": 1795359464
   },
   "Bhumian Ku": {
    "pos": [
@@ -33467,7 +33468,7 @@
    "nfac": 6,
    "pob": 2281,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795244407
+   "t": 1795359596
   },
   "Ceti Sector AV-Y c15": {
    "pos": [
@@ -34330,6 +34331,16 @@
  },
  "codice": [
   {
+   "sys": "LHS 1734",
+   "n": "DC Type",
+   "cat": "StellarBodies",
+   "sub": "Stars",
+   "cuerpo": "",
+   "junto": "Eurus",
+   "ly": 11.6,
+   "t": 1795360049
+  },
+  {
    "sys": "Lati",
    "n": "TRF Water Worlds",
    "cat": "StellarBodies",
@@ -34618,16 +34629,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795183327
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Shrubs 02 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 g",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795183280
   }
  ],
  "ataques": {
@@ -34744,7 +34745,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795349697
+   "t": 1795360043
   },
   "Bakuari": {
    "pos": [
@@ -35148,7 +35149,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257728,
+   "prog": 0.257764,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -35156,7 +35157,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795358751
+   "t": 1795360153
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35396,7 +35397,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795356638
+   "t": 1795356274
   },
   "LP 157-32": {
    "pos": [
@@ -35445,7 +35446,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795355507
+   "t": 1795359788
   },
   "Tascheter Sector ZZ-Y b4": {
    "pos": [
@@ -35621,7 +35622,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795357088
+   "t": 1795359798
   },
   "StKM 1-442": {
    "pos": [
@@ -36389,7 +36390,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795356588
+   "t": 1795359539
   },
   "Guei": {
    "pos": [
@@ -38179,7 +38180,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795356513
+   "t": 1795359464
   },
   "HR 3277": {
    "pos": [
@@ -38509,7 +38510,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795348042
+   "t": 1795359958
   },
   "Col 285 Sector SD-T a33-2": {
    "pos": [
@@ -38541,7 +38542,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795292047
+   "t": 1795359604
   },
   "Lyncis Sector CQ-Y c7": {
    "pos": [
@@ -40065,11 +40066,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Exploited",
-   "prog": 0.304752,
+   "prog": 0.305118,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795307383
+   "t": 1795359575
   },
   "Chonost": {
    "pos": [
@@ -41641,7 +41642,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795244407
+   "t": 1795359596
   },
   "Hyades Sector WA-M b8-5": {
    "pos": [
@@ -41987,7 +41988,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795357655
+   "t": 1795356089
   },
   "Lyncis Sector RY-R b4-0": {
    "pos": [
@@ -42317,7 +42318,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795358685
+   "t": 1795357309
   },
   "ICZ AK-A c14": {
    "pos": [
@@ -43557,7 +43558,7 @@
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795298961
+   "t": 1795359969
   },
   "Pulaha": {
    "pos": [
@@ -44777,11 +44778,11 @@
    ],
    "pot": "A. Lavigny-Duval",
    "est": "Stronghold",
-   "prog": 0.353902,
+   "prog": 0.354295,
    "pots": [
     "A. Lavigny-Duval"
    ],
-   "t": 1795356211
+   "t": 1795359394
   },
   "ICZ EQ-Y c22": {
    "pos": [

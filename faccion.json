@@ -27381,10 +27381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795316739.9215107,
-  "msgs": 2890106,
+  "msgs": 2900277,
   "mios": 282
  },
- "t": 1795319977.951654,
+ "t": 1795321048.869273,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -31231,9 +31231,9 @@
    "ly": 12.3,
    "junto": "Epsilon Sculptoris",
    "nfac": 5,
-   "pob": 159841,
+   "pob": 159849,
    "ctrl_n": "East India Company",
-   "t": 1795207704
+   "t": 1795321041
   },
   "Lyncis Sector JR-W c1-12": {
    "pos": [
@@ -37878,7 +37878,7 @@
     "Pranav Antal",
     "Zemina Torval"
    ],
-   "t": 1795207704
+   "t": 1795321041
   },
   "HIP 23302": {
    "pos": [

@@ -27422,10 +27422,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795323751.170488,
-  "msgs": 2937121,
+  "msgs": 2944848,
   "mios": 283
  },
- "t": 1795324703.2323701,
+ "t": 1795325924.375221,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28180,7 +28180,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795323082
+   "t": 1795325555
   },
   "LTT 740": {
    "pos": [
@@ -33446,6 +33446,19 @@
    "pob": 1599410,
    "ctrl_n": "Astrobiology Research Cooperative",
    "t": 1795232698
+  },
+  "Col 285 Sector RP-J b24-2": {
+   "pos": [
+    155.53125,
+    87.46875,
+    163.8125
+   ],
+   "ly": 17.3,
+   "junto": "Col 285 Sector TK-J b24-1",
+   "nfac": 4,
+   "pob": 1795535,
+   "ctrl_n": "HIP 67527 Inc",
+   "t": 1795325914
   }
  },
  "codice": [
@@ -35215,7 +35228,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795323082
+   "t": 1795325555
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -37333,7 +37346,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795312368
+   "t": 1795299633
   },
   "Bhumian Ku": {
    "pos": [
@@ -39528,7 +39541,7 @@
     "Aisling Duval",
     "Li Yong-Rui"
    ],
-   "t": 1795210224
+   "t": 1795325408
   },
   "Wawal": {
    "pos": [
@@ -43377,6 +43390,20 @@
     "Jerome Archer"
    ],
    "t": 1795232698
+  },
+  "Col 285 Sector RP-J b24-2": {
+   "pos": [
+    155.53125,
+    87.46875,
+    163.8125
+   ],
+   "pot": null,
+   "est": "Unoccupied",
+   "prog": null,
+   "pots": [
+    "Nakato Kaine"
+   ],
+   "t": 1795325914
   }
  },
  "rivales": {

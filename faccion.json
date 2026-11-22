@@ -2219,7 +2219,7 @@
     "2026-11-19": 29,
     "2026-11-20": 46,
     "2026-11-21": 33,
-    "2026-11-22": 2
+    "2026-11-22": 4
    },
    "zc": [
     {
@@ -2786,9 +2786,9 @@
     "Judge Reach": {
      "f": "Sirius Special Forces",
      "tipo": "AsteroidBase",
-     "t": 1795286795,
+     "t": 1795316927,
      "estado": "",
-     "ls": 2383,
+     "ls": 2384,
      "pads": {
       "Small": 4,
       "Medium": 8,
@@ -2796,7 +2796,7 @@
      },
      "mid": 4210756355,
      "mer": {
-      "t": 1795286808,
+      "t": 1795316934,
       "n": 117,
       "vende": [
        {
@@ -2807,7 +2807,7 @@
        {
         "n": "metaalloys",
         "p": 195547,
-        "d": 41107
+        "d": 41108
        },
        {
         "n": "rhodplumsite",
@@ -2857,13 +2857,13 @@
         "n": "water",
         "p": 28,
         "m": 260,
-        "s": 235827
+        "s": 235829
        },
        {
         "n": "algae",
         "p": 46,
         "m": 308,
-        "s": 476954
+        "s": 476957
        },
        {
         "n": "leather",
@@ -2875,18 +2875,18 @@
         "n": "mineraloil",
         "p": 116,
         "m": 416,
-        "s": 87495
+        "s": 87496
        },
        {
         "n": "heliostaticfurnaces",
         "p": 122,
         "m": 418,
-        "s": 131951
+        "s": 131952
        }
       ]
      },
-     "mods": 520,
-     "mods_t": 1795286808,
+     "mods": 548,
+     "mods_t": 1795317560,
      "naves": [
       "adder",
       "asp",
@@ -2918,7 +2918,7 @@
       "viper_mkiv",
       "vulture"
      ],
-     "naves_t": 1795286808,
+     "naves_t": 1795316934,
      "atq": {
       "2026-11-18": {
        "ok": 17,
@@ -27381,10 +27381,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795316739.9215107,
-  "msgs": 2847788,
+  "msgs": 2857601,
   "mios": 282
  },
- "t": 1795316884.0135624,
+ "t": 1795317565.3886468,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -28139,7 +28139,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795310436
+   "t": 1795317188
   },
   "LTT 740": {
    "pos": [
@@ -30739,7 +30739,7 @@
    "nfac": 6,
    "pob": 910547,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795202184
+   "t": 1795317402
   },
   "Crucis Sector HB-X b1-5": {
    "pos": [
@@ -33118,7 +33118,7 @@
    "nfac": 5,
    "pob": 2568476,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795288817
+   "t": 1795316897
   },
   "Hyades Sector PO-P b6-1": {
    "pos": [
@@ -33382,6 +33382,16 @@
   }
  },
  "codice": [
+  {
+   "sys": "GCRV 3034",
+   "n": "Shrubs 02 G",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "GCRV 3034 8 a",
+   "junto": "Hyades Sector UP-N b7-6",
+   "ly": 14.0,
+   "t": 1795316975
+  },
   {
    "sys": "GCRV 3034",
    "n": "Tussocks 11 G",
@@ -33671,16 +33681,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795182320
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Clypeus 01 G",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 e",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795182224
   }
  ],
  "ataques": {
@@ -35157,7 +35157,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.376272,
+   "prog": 0.380534,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -35165,7 +35165,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795310436
+   "t": 1795317188
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -38889,13 +38889,13 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.256546,
+   "prog": 0.256718,
    "pots": [
     "Aisling Duval",
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795202184
+   "t": 1795317402
   },
   "Tau-6 Eridani": {
    "pos": [
@@ -42070,7 +42070,7 @@
     "Edmund Mahon",
     "Li Yong-Rui"
    ],
-   "t": 1795288817
+   "t": 1795316897
   },
   "Ceti Sector GR-V b2-5": {
    "pos": [

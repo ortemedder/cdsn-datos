@@ -27361,10 +27361,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795314195.7456193,
-  "msgs": 2825780,
+  "msgs": 2837036,
   "mios": 281
  },
- "t": 1795315011.6200044,
+ "t": 1795315922.4939718,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -32238,9 +32238,9 @@
    "ly": 18.1,
    "junto": "HIP 37216",
    "nfac": 4,
-   "pob": 68637930,
+   "pob": 68639109,
    "ctrl_n": "People's Agarahma Progressive Party",
-   "t": 1795181742
+   "t": 1795315840
   },
   "GCRV 2971": {
    "pos": [
@@ -33364,6 +33364,16 @@
  "codice": [
   {
    "sys": "GCRV 3034",
+   "n": "Fungoids 02 Tin",
+   "cat": "Biology",
+   "sub": "Organic Structures",
+   "cuerpo": "GCRV 3034 8 a",
+   "junto": "Hyades Sector UP-N b7-6",
+   "ly": 14.0,
+   "t": 1795315921
+  },
+  {
+   "sys": "GCRV 3034",
    "n": "Cactoid 01 G",
    "cat": "Biology",
    "sub": "Organic Structures",
@@ -33651,16 +33661,6 @@
    "junto": "Haraka",
    "ly": 12.6,
    "t": 1795182206
-  },
-  {
-   "sys": "HIP 28774",
-   "n": "Fungoids 02 Molybdenum",
-   "cat": "Biology",
-   "sub": "Organic Structures",
-   "cuerpo": "HIP 28774 AB 10 e",
-   "junto": "Haraka",
-   "ly": 12.6,
-   "t": 1795181953
   }
  ],
  "ataques": {
@@ -37212,7 +37212,7 @@
     "Li Yong-Rui",
     "Pranav Antal"
    ],
-   "t": 1795312561
+   "t": 1795315207
   },
   "Col 285 Sector RY-W b16-1": {
    "pos": [
@@ -37651,7 +37651,7 @@
    "pots": [
     "Li Yong-Rui"
    ],
-   "t": 1795181742
+   "t": 1795315840
   },
   "GCRV 4259": {
    "pos": [

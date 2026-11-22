@@ -4677,7 +4677,8 @@
     "1795042800": 2
    },
    "rutas": {
-    "2026-11-18": 2
+    "2026-11-18": 2,
+    "2026-11-22": 1
    },
    "prev": null,
    "prev_t": null,
@@ -13993,7 +13994,7 @@
     "2026-11-19": 11,
     "2026-11-20": 24,
     "2026-11-21": 66,
-    "2026-11-22": 22
+    "2026-11-22": 25
    },
    "tk": {
     "firma": "07fff6cc",
@@ -14960,12 +14961,12 @@
     "Orbital Construction Site: The Naughty Nymph": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795348451,
+     "t": 1795350602,
      "estado": "",
      "ls": 51493,
      "mid": 3957743618,
      "mer": {
-      "t": 1795348458,
+      "t": 1795350609,
       "n": 2,
       "vende": [],
       "alta": [],
@@ -14973,7 +14974,7 @@
      },
      "atq": {
       "2026-11-22": {
-       "ok": 8,
+       "ok": 9,
        "no": 2
       }
      },
@@ -21870,7 +21871,8 @@
     "2026-11-17": 1,
     "2026-11-18": 1,
     "2026-11-20": 1,
-    "2026-11-21": 2
+    "2026-11-21": 2,
+    "2026-11-22": 1
    },
    "prev": null,
    "prev_t": null,
@@ -23151,7 +23153,8 @@
    },
    "rutas": {
     "2026-11-17": 1,
-    "2026-11-21": 1
+    "2026-11-21": 1,
+    "2026-11-22": 1
    },
    "prev": 14.64,
    "prev_t": 1794775961,
@@ -24931,7 +24934,8 @@
     "1795204800": 1
    },
    "rutas": {
-    "2026-11-20": 1
+    "2026-11-20": 1,
+    "2026-11-22": 1
    },
    "prev": null,
    "prev_t": null,
@@ -27957,10 +27961,10 @@
  "eddn": {
   "ok": true,
   "ultimo": 1795349853.6084857,
-  "msgs": 3249546,
+  "msgs": 3264709,
   "mios": 313
  },
- "t": 1795349982.3009486,
+ "t": 1795351194.9984667,
  "tick_global": 1795285722,
  "expansion": {
   "Lalande 10797": {
@@ -27974,7 +27978,7 @@
    "nfac": 6,
    "pob": 3999768496,
    "ctrl_n": "THE AZGHARIE",
-   "t": 1795347247
+   "t": 1795350941
   },
   "Col 285 Sector TD-T a33-3": {
    "pos": [
@@ -28234,7 +28238,7 @@
    "nfac": 6,
    "pob": 3268274824,
    "ctrl_n": "The Fatherhood",
-   "t": 1795300779
+   "t": 1795351064
   },
   "LTT 10918": {
    "pos": [
@@ -28715,7 +28719,7 @@
    "nfac": 6,
    "pob": 13023029,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795330259
+   "t": 1795351055
   },
   "LTT 740": {
    "pos": [
@@ -30208,9 +30212,9 @@
    "ly": 17.8,
    "junto": "Eurus",
    "nfac": 4,
-   "pob": 207115,
+   "pob": 207208,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795026540
+   "t": 1795350362
   },
   "Hyades Sector IX-R b5-0": {
    "pos": [
@@ -30314,7 +30318,7 @@
    "nfac": 6,
    "pob": 4432008,
    "ctrl_n": "Flotta Stellare",
-   "t": 1795245502
+   "t": 1795347048
   },
   "Trianguli Sector XA-N a7-1": {
    "pos": [
@@ -33265,7 +33269,7 @@
    "nfac": 6,
    "pob": 53494,
    "ctrl_n": "EXO",
-   "t": 1795342490
+   "t": 1795350744
   },
   "BD+30 1423": {
    "pos": [
@@ -34677,7 +34681,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795300779
+   "t": 1795351064
   },
   "LP 302-22": {
    "pos": [
@@ -34808,7 +34812,7 @@
     "Li Yong-Rui",
     "Jerome Archer"
    ],
-   "t": 1795245502
+   "t": 1795347048
   },
   "Hyades Sector DB-X d1-112": {
    "pos": [
@@ -34998,7 +35002,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.257725,
+   "prog": 0.257728,
    "pots": [
     "Edmund Mahon",
     "Felicia Winters",
@@ -35006,7 +35010,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795347247
+   "t": 1795350941
   },
   "Yin Sector XJ-A c21": {
    "pos": [
@@ -35361,7 +35365,7 @@
     "Pranav Antal",
     "Jerome Archer"
    ],
-   "t": 1795254902
+   "t": 1795350676
   },
   "Hyades Sector IC-U c3-8": {
    "pos": [
@@ -35937,7 +35941,7 @@
    ],
    "pot": "Li Yong-Rui",
    "est": "Stronghold",
-   "prog": 0.381973,
+   "prog": 0.381866,
    "pots": [
     "Aisling Duval",
     "Li Yong-Rui",
@@ -35945,7 +35949,7 @@
     "Zemina Torval",
     "Jerome Archer"
    ],
-   "t": 1795330259
+   "t": 1795351055
   },
   "Yin Sector XZ-Y b2": {
    "pos": [
@@ -41021,7 +41025,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795342490
+   "t": 1795350744
   },
   "Col 285 Sector XJ-R a34-2": {
    "pos": [
@@ -41118,7 +41122,7 @@
     "Li Yong-Rui",
     "Zemina Torval"
    ],
-   "t": 1795298286
+   "t": 1795350797
   },
   "Tascheter Sector XE-Q a5-2": {
    "pos": [
@@ -43250,7 +43254,7 @@
     "Felicia Winters",
     "Li Yong-Rui"
    ],
-   "t": 1795347167
+   "t": 1795350448
   },
   "Audumasi": {
    "pos": [
@@ -44556,6 +44560,40 @@
     "Pranav Antal"
    ],
    "t": 1795349156
+  },
+  "Tascheter Sector HM-M a7-1": {
+   "pos": [
+    16.875,
+    -43.75,
+    -31.3125
+   ],
+   "pot": "Li Yong-Rui",
+   "est": "Exploited",
+   "prog": 0.014897,
+   "pots": [
+    "Aisling Duval",
+    "Denton Patreus",
+    "Li Yong-Rui",
+    "Zemina Torval",
+    "Jerome Archer"
+   ],
+   "t": 1795350362
+  },
+  "BD+20 1018": {
+   "pos": [
+    12,
+    -10.28125,
+    -108.6875
+   ],
+   "pot": "Aisling Duval",
+   "est": "Stronghold",
+   "prog": 0.211286,
+   "pots": [
+    "Aisling Duval",
+    "Edmund Mahon",
+    "Li Yong-Rui"
+   ],
+   "t": 1795350935
   }
  },
  "rivales": {

@@ -1,0 +1,14 @@
+# NOTICIA FIJA DE LA CRÓNICA DE SION
+# Sale arriba del todo en la pestaña Crónica de la web, hasta que la quites.
+#
+# Cómo se escribe:
+#  - Las líneas que empiezan por # no salen (son estas instrucciones).
+#  - La primera línea sin # es el TITULAR. Las siguientes, el texto.
+#  - Para poner una palabra en negrita: **así**
+#  - Para poner varias noticias fijas, sepáralas con una línea que tenga solo ---
+#  - Para quitarla, borra todo lo que no empiece por #.
+#
+# Ejemplo (quita las # de las tres líneas de abajo para probarlo):
+# Convocatoria de defensa en Lan Caihe
+# El sábado a las 21:00 nos vemos en **Lan Caihe** para las zonas de conflicto.
+# — Almirante Ortem Ed Der

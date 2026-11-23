@@ -1,5 +1,5 @@
 {
- "ver": "v11.1",
+ "ver": "v11.2",
  "faccion": "Caballeros de Sion",
  "sistemas": {
   "Pirawoth": {
@@ -8112,7 +8112,7 @@
     "2026-11-19": 127,
     "2026-11-20": 139,
     "2026-11-21": 209,
-    "2026-11-22": 221
+    "2026-11-22": 223
    },
    "pn": {
     "H5L-70M": {
@@ -8339,6 +8339,10 @@
       "2026-11-22": {
        "ok": 49,
        "no": 3
+      },
+      "2026-11-23": {
+       "ok": 2,
+       "no": 2
       }
      },
      "pads": {
@@ -8393,7 +8397,7 @@
      ],
      "naves_t": 1795391526,
      "neg": {
-      "Distance": 10,
+      "Distance": 12,
       "Offences": 3
      },
      "mods": 901,
@@ -9854,7 +9858,7 @@
     "Orbital Construction Site: Cseszneky's Progress": {
      "f": "Brewer Corporation",
      "tipo": "SpaceConstructionDepot",
-     "t": 1795391293,
+     "t": 1795391857,
      "estado": "",
      "serv": 11,
      "eco": "Colony",
@@ -9867,11 +9871,17 @@
      "mid": 3954291202,
      "obra": "Cseszneky's Progress",
      "mer": {
-      "t": 1795391299,
+      "t": 1795391864,
       "n": 1,
       "vende": [],
       "alta": [],
       "barato": []
+     },
+     "atq": {
+      "2026-11-22": {
+       "ok": 2,
+       "no": 0
+      }
      }
     }
    },
@@ -30095,11 +30105,11 @@
  },
  "eddn": {
   "ok": true,
-  "ultimo": 1795391476.5706396,
-  "msgs": 16067,
-  "mios": 2
+  "ultimo": 0,
+  "msgs": 907,
+  "mios": 0
  },
- "t": 1795391785.82164,
+ "t": 1795392006.3099234,
  "tick_global": 1795360524,
  "expansion": {
   "Lalande 10797": {
@@ -30802,7 +30812,7 @@
    "nfac": 5,
    "pob": 31982,
    "ctrl_n": "Flat Galaxy Society",
-   "t": 1795390916
+   "t": 1795391943
   },
   "Ceti Sector KX-T b3-2": {
    "pos": [
@@ -36678,7 +36688,7 @@
    "nfac": 3,
    "pob": 389407,
    "ctrl_n": "Sirius Special Forces",
-   "t": 1795390974
+   "t": 1795391821
   },
   "Rutena": {
    "pos": [
@@ -37106,6 +37116,30 @@
    }
   ]
  },
+ "conflictos_hist": [
+  {
+   "sys": "Hyades Sector DB-X d1-112",
+   "contra": "Bundhar Group",
+   "tipo": "war",
+   "ini": 1795115144,
+   "fin": 1795391038,
+   "dias": 5,
+   "dia_exacto": false,
+   "g": 4,
+   "p": 0,
+   "res": "ganado",
+   "res_dias": [
+    "G",
+    "?"
+   ],
+   "res_desde": 2,
+   "en_juego": "Byron Legacy",
+   "en_juego_rival": "",
+   "ctrl": false,
+   "inf_antes": 15.28,
+   "inf_despues": 15.28
+  }
+ ],
  "rivales": {
   "Bundhar Group": {
    "veces": 1,
@@ -37480,7 +37514,7 @@
     }
    ],
    "ret": [],
-   "t": 1795390207
+   "t": 1795391973
   },
   "Ceti Sector DQ-Y c17": {
    "pos": [
@@ -37548,7 +37582,7 @@
     }
    ],
    "ret": [],
-   "t": 1795390326
+   "t": 1795391928
   },
   "Fimbulwinter": {
    "pos": [
@@ -37814,7 +37848,7 @@
     }
    ],
    "ret": [],
-   "t": 1795390916
+   "t": 1795391943
   },
   "Orgelal": {
    "pos": [
@@ -37903,7 +37937,7 @@
     }
    ],
    "ret": [],
-   "t": 1795390974
+   "t": 1795391821
   },
   "BD+31 630": {
    "pos": [
@@ -38564,346 +38598,148 @@
    ],
    "ret": [],
    "t": 1795391783
+  },
+  "ICZ CQ-Y d120": {
+   "pos": [
+    113.21875,
+    -92.3125,
+    -9.34375
+   ],
+   "ly": 28.3,
+   "junto": "HIP 19292",
+   "propio": false,
+   "nfac": 3,
+   "exp": [
+    {
+     "n": "Lavigny's Legion",
+     "inf": 63.6,
+     "est": "pend",
+     "obj": []
+    }
+   ],
+   "ret": [],
+   "t": 1795391893
+  },
+  "Hyades Sector OE-O b7-0": {
+   "pos": [
+    -7.5,
+    51.6875,
+    -109.21875
+   ],
+   "ly": 11.2,
+   "junto": "Kher",
+   "propio": false,
+   "nfac": 6,
+   "exp": [
+    {
+     "n": "Flat Galaxy Society",
+     "inf": 39.8,
+     "est": "act",
+     "obj": [
+      [
+       "Lyncis Sector WO-R b4-3",
+       17.5
+      ]
+     ]
+    }
+   ],
+   "ret": [],
+   "t": 1774787190
+  },
+  "Kitae": {
+   "pos": [
+    -13.5,
+    24.75,
+    -56.46875
+   ],
+   "ly": 23.6,
+   "junto": "Menkalinan",
+   "propio": false,
+   "nfac": 6,
+   "exp": [
+    {
+     "n": "Civitas Dei",
+     "inf": 60.7,
+     "est": "pend",
+     "obj": []
+    },
+    {
+     "n": "Blood Brothers from Alrai",
+     "inf": 16.0,
+     "est": "pend",
+     "obj": []
+    }
+   ],
+   "ret": [],
+   "t": 1774810691
+  },
+  "Dakvar": {
+   "pos": [
+    5.96875,
+    -81.4375,
+    -31.71875
+   ],
+   "ly": 15.7,
+   "junto": "Epsilon Sculptoris",
+   "propio": false,
+   "nfac": 5,
+   "exp": [
+    {
+     "n": "East India Company",
+     "inf": 72.4,
+     "est": "act",
+     "obj": []
+    }
+   ],
+   "ret": [],
+   "t": 1774821524
+  },
+  "LP 121-41": {
+   "pos": [
+    -15.59375,
+    21.0625,
+    -56.875
+   ],
+   "ly": 21.7,
+   "junto": "Menkalinan",
+   "propio": false,
+   "nfac": 7,
+   "exp": [
+    {
+     "n": "Civitas Dei",
+     "inf": 30.2,
+     "est": "act",
+     "obj": []
+    },
+    {
+     "n": "Earth Defense Fleet",
+     "inf": 53.3,
+     "est": "act",
+     "obj": []
+    }
+   ],
+   "ret": [],
+   "t": 1795391993
   }
  },
  "thargoides": {},
  "zona": {
-  "Tascheter Sector DG-O a6-0": {
+  "Dakvar": {
    "pos": [
-    16.65625,
-    -44.71875,
-    -42.9375
+    5.96875,
+    -81.4375,
+    -31.71875
    ],
    "pot": "Li Yong-Rui",
    "est": "Exploited",
-   "prog": 0.046283,
+   "prog": 0.269118,
    "pots": [
     "Denton Patreus",
     "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795390872
-  },
-  "Wo 9203": {
-   "pos": [
-    11,
-    7.8125,
-    -135.25
-   ],
-   "pot": "Edmund Mahon",
-   "est": "Exploited",
-   "prog": 0.056749,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795390916
-  },
-  "Tascheter Sector DG-O a6-3": {
-   "pos": [
-    20.15625,
-    -44.0625,
-    -40.8125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.085049,
-   "pots": [
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795390919
-  },
-  "Hyades Sector RZ-N b7-4": {
-   "pos": [
-    12.125,
-    21.4375,
-    -116.3125
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795390974
-  },
-  "Tascheter Sector DG-O a6-1": {
-   "pos": [
-    22.28125,
-    -43.40625,
-    -36.1875
-   ],
-   "pot": "Zemina Torval",
-   "est": "Exploited",
-   "prog": 0.123426,
-   "pots": [
-    "Aisling Duval",
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795390971
-  },
-  "Shenetserii": {
-   "pos": [
-    15.21875,
-    -44.3125,
-    -33.4375
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.283638,
-   "pots": [
-    "Aisling Duval",
-    "Denton Patreus",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795391020
-  },
-  "Hyades Sector DB-X d1-112": {
-   "pos": [
-    9.28125,
-    15.40625,
-    -114.78125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Stronghold",
-   "prog": 0.258906,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795391038
-  },
-  "Tascheter Sector IM-M a7-1": {
-   "pos": [
-    27.6875,
-    -38.875,
-    -28.5625
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Aisling Duval",
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795391121
-  },
-  "BD-00 632": {
-   "pos": [
-    9.46875,
-    -36.34375,
-    -48.625
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Fortified",
-   "prog": 0.25822,
-   "pots": [
-    "Li Yong-Rui",
-    "Zemina Torval",
-    "Jerome Archer"
-   ],
-   "t": 1795391193
-  },
-  "Lyncis Sector JR-W c1-19": {
-   "pos": [
-    -14.125,
-    53.6875,
-    -109.6875
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795391308
-  },
-  "Rutena": {
-   "pos": [
-    -46.46875,
-    35.375,
-    -105.84375
-   ],
-   "pot": "Jerome Archer",
-   "est": "Fortified",
-   "prog": 0.126289,
-   "pots": [
-    "Li Yong-Rui",
     "Pranav Antal",
-    "Jerome Archer"
+    "Zemina Torval"
    ],
-   "t": 1795391412
-  },
-  "HR 2776": {
-   "pos": [
-    -12.8125,
-    47.96875,
-    -104.5625
-   ],
-   "pot": "Jerome Archer",
-   "est": "Fortified",
-   "prog": 0.264735,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795391370
-  },
-  "Hyades Sector SZ-N b7-0": {
-   "pos": [
-    15.9375,
-    16.65625,
-    -109.3125
-   ],
-   "pot": "Aisling Duval",
-   "est": "Exploited",
-   "prog": 0.217141,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795391475
-  },
-  "Apinayimas": {
-   "pos": [
-    -19.03125,
-    41.34375,
-    -102.875
-   ],
-   "pot": "Jerome Archer",
-   "est": "Exploited",
-   "prog": 0.123426,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795391451
-  },
-  "Hyades Sector SK-M b8-3": {
-   "pos": [
-    -21.34375,
-    37.34375,
-    -96.125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.09876,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795391562
-  },
-  "Awonai": {
-   "pos": [
-    -2.46875,
-    41.3125,
-    -96.25
-   ],
-   "pot": "Jerome Archer",
-   "est": "Exploited",
-   "prog": 0.244678,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Jerome Archer"
-   ],
-   "t": 1795391613
-  },
-  "Lyncis Sector WJ-R b4-1": {
-   "pos": [
-    -54.3125,
-    18.90625,
-    -116.59375
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795391693
-  },
-  "Ba Jonandja": {
-   "pos": [
-    -18.53125,
-    36.09375,
-    -91.78125
-   ],
-   "pot": "Li Yong-Rui",
-   "est": "Exploited",
-   "prog": 0.220763,
-   "pots": [
-    "Edmund Mahon",
-    "Li Yong-Rui",
-    "Pranav Antal",
-    "Jerome Archer"
-   ],
-   "t": 1795391616
-  },
-  "Hyades Sector IC-U c3-8": {
-   "pos": [
-    18.40625,
-    20.28125,
-    -128.5
-   ],
-   "pot": null,
-   "est": "Unoccupied",
-   "prog": null,
-   "pots": [
-    "Aisling Duval",
-    "Edmund Mahon",
-    "Li Yong-Rui"
-   ],
-   "t": 1795391783
+   "t": 1774821524
   }
- },
- "conflictos_hist": [
-  {
-   "sys": "Hyades Sector DB-X d1-112",
-   "contra": "Bundhar Group",
-   "tipo": "war",
-   "ini": 1795115144,
-   "fin": 1795391038,
-   "dias": 5,
-   "dia_exacto": false,
-   "g": 4,
-   "p": 0,
-   "res": "ganado",
-   "res_dias": [
-    "G",
-    "?"
-   ],
-   "res_desde": 2,
-   "en_juego": "Byron Legacy",
-   "en_juego_rival": "",
-   "ctrl": false,
-   "inf_antes": 15.28,
-   "inf_despues": 15.28
-  }
- ]
+ }
 }

@@ -5,7 +5,9 @@
   "envio": "C",
   "dias_libres": [],
   "modelo": "sonnet",
-  "prueba": ["haiku", "sonnet", "opus"],
+  "prueba": [
+    "sonnet"
+  ],
   "esfuerzo": "medium",
   "tope_tokens": 200000,
   "max_salida": 12000

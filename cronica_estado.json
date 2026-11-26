@@ -1,0 +1,13 @@
+{
+ "fecha": "2026-11-27",
+ "batch": "msgbatch_015gv42egTmTgayYLgDhSDtK",
+ "enviado": 1795736005,
+ "modelos": [
+  "haiku",
+  "sonnet",
+  "opus"
+ ],
+ "publicar_t": 1795736005,
+ "tokens_aprox": 47189,
+ "motivo": "modo C: 14/69 sistemas al día"
+}

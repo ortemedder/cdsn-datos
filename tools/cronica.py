@@ -4,7 +4,7 @@
 #   python3 tools/cronica.py            -> modo normal: envía el lote cuando toca y recoge el parte cuando está listo
 #   python3 tools/cronica.py local      -> solo prepara los datos y dice cuánto ocupan (sin API, gratis)
 #   python3 tools/cronica.py contar     -> cuenta los tokens exactos con la API (gratis) y lo guarda en cronica_medida.json
-#   python3 tools/cronica.py forzar     -> envía ya, sin mirar hora ni día libre (para probar)
+#   python3 tools/cronica.py forzar     -> envía ya, sin mirar hora ni día libre, y se publica en cuanto llega (para probar)
 # Resultado: cronica_ia.json (la web lo enseña a la hora de publicar). Estado interno: cronica_estado.json.
 import json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
@@ -375,7 +375,7 @@ def main():
     cuerpo = {"requests": [{"custom_id": m, "params": params(m, texto, cfg)} for m in modelos]}
     b = json.loads(api("POST", "/messages/batches", cuerpo))
     est = {"fecha": hoy, "batch": b["id"], "enviado": int(time.time()), "modelos": modelos,
-           "publicar_t": int(pub.timestamp()) if ahora < pub else int(time.time()), "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
+           "publicar_t": int(time.time()) if modo == "forzar" or ahora >= pub else int(pub.timestamp()),   # forzar: se ve en cuanto llega "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
     print(f"Lote enviado: {b['id']} ({', '.join(modelos)})")

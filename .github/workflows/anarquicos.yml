@@ -1,0 +1,32 @@
+# Anárquicos cerca de los sistemas de CDSN: una vez al día (y a mano desde la pestaña Actions)
+name: anarquicos
+on:
+  schedule:
+    - cron: "17 5 * * *"     # 05:17 UTC (06:17 en Madrid)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: anarquicos
+jobs:
+  calcular:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Calcular anarquicos.json
+        run: python3 tools/anarquicos.py
+      - name: Subir
+        run: |
+          git config user.name "cdsn-anarquicos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add anarquicos.json
+          git diff --cached --quiet && { echo "Sin cambios"; exit 0; }
+          git commit -q -m "Anárquicos $(date -u +%d/%m/%Y)"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 10))
+          done
+          exit 1

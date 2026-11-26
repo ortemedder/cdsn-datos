@@ -1,14 +1,16 @@
 {
  "fecha": "2026-11-27",
- "batch": "msgbatch_015gv42egTmTgayYLgDhSDtK",
- "enviado": 1795736005,
+ "batch": "msgbatch_01AZuMmhyZZq7uNfq6vYKJSy",
+ "enviado": 1795737367,
  "modelos": [
-  "haiku",
-  "sonnet",
-  "opus"
+  "sonnet"
  ],
- "publicar_t": 1795736005,
- "tokens_aprox": 47189,
- "motivo": "modo C: 14/69 sistemas al día",
- "recogido": 1795736440
+ "publicar_t": 1795737367,
+ "info": {
+  "tick": 1795708720,
+  "al_dia": 14,
+  "ctrl": 69
+ },
+ "tokens_aprox": 47192,
+ "motivo": "modo C: 14/69 sistemas al día"
 }

@@ -295,7 +295,7 @@ def toca_enviar(cfg, info, ahora):
     return bool(listo or ahora >= tarde), f"modo C: {info['al_dia']}/{info['ctrl']} sistemas al día"
 
 
-def guardar_parte(res, modelo, est, cfg, nombres):
+def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
     C = lee("cronica_ia.json", {"ver": VER, "partes": []})
     m = res["message"]
     txt = "".join(b.get("text", "") for b in m.get("content", []) if b.get("type") == "text")
@@ -306,9 +306,10 @@ def guardar_parte(res, modelo, est, cfg, nombres):
         p = lee_json_modelo(txt)
     except Exception:
         p = {"titular": "Parte del día", "entradilla": txt[:3000], "puntos": [], "hacer": [], "oportunidad": ""}
+    inf = est.get("info") or info_ahora or {"tick": 0, "al_dia": None, "ctrl": None}
     citados = set(re.findall(r"\[\[(.+?)\]\]", json.dumps(p, ensure_ascii=False)))
     p.update({"fecha": est["fecha"], "publicar_t": est["publicar_t"], "modelo": modelo, "id_modelo": MODELOS[modelo],
-              "tick": est["info"]["tick"], "al_dia": est["info"]["al_dia"], "ctrl": est["info"]["ctrl"],
+              "tick": inf["tick"], "al_dia": inf["al_dia"], "ctrl": inf["ctrl"],
               "tokens_in": tin, "tokens_out": tout, "coste": coste(modelo, tin, tout),
               "dudosos": sorted(c for c in citados if c not in nombres), "t": int(time.time())})
     C["partes"] = [x for x in C["partes"] if not (x.get("fecha") == est["fecha"] and x.get("modelo") == modelo)] + [p]
@@ -358,7 +359,7 @@ def main():
                     continue
                 r = json.loads(linea)
                 if r["result"]["type"] == "succeeded":
-                    guardar_parte(r["result"], r["custom_id"], est, cfg, nombres)
+                    guardar_parte(r["result"], r["custom_id"], est, cfg, nombres, info)
                 else:
                     print(f"  {r['custom_id']}: {r['result']['type']} {json.dumps(r['result'])[:300]}")
             est["recogido"] = int(time.time())
@@ -375,7 +376,8 @@ def main():
     cuerpo = {"requests": [{"custom_id": m, "params": params(m, texto, cfg)} for m in modelos]}
     b = json.loads(api("POST", "/messages/batches", cuerpo))
     est = {"fecha": hoy, "batch": b["id"], "enviado": int(time.time()), "modelos": modelos,
-           "publicar_t": int(time.time()) if modo == "forzar" or ahora >= pub else int(pub.timestamp()),   # forzar: se ve en cuanto llega "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
+           "publicar_t": int(time.time()) if modo == "forzar" or ahora >= pub else int(pub.timestamp()),
+           "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},   # forzar: se publica en cuanto llega
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
     print(f"Lote enviado: {b['id']} ({', '.join(modelos)})")

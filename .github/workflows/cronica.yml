@@ -31,7 +31,7 @@ jobs:
         run: |
           git config user.name "cdsn-cronica"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cronica_ia.json cronica_estado.json cronica_medida.json 2>/dev/null || true
+          for f in cronica_ia.json cronica_estado.json cronica_medida.json; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet && { echo "Sin cambios"; exit 0; }
           git commit -q -m "Parte del día $(date -u +%d/%m/%Y)"
           for i in 1 2 3 4 5; do

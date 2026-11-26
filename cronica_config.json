@@ -1,0 +1,12 @@
+{
+  "_ayuda": "Ajustes del Parte del día (IA). activo: false lo apaga del todo. publicar: hora de España. envio: A (12:00 fija), B (16 h tras el tick) o C (80 % de los sistemas al día tras el tick, 14:00 como tarde). dias_libres: lunes martes miercoles jueves viernes sabado domingo. modelo: haiku, sonnet u opus. prueba: lista de modelos para comparar (vacía = solo el modelo). esfuerzo: sin, low, medium, high (cuánto piensa). tope_tokens: máximo de datos.",
+  "activo": true,
+  "publicar": "15:00",
+  "envio": "C",
+  "dias_libres": [],
+  "modelo": "sonnet",
+  "prueba": ["haiku", "sonnet", "opus"],
+  "esfuerzo": "medium",
+  "tope_tokens": 200000,
+  "max_salida": 12000
+}

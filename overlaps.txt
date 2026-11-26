@@ -1,0 +1,45 @@
+# Overlaps de hotspots (edtools.cc Miner's Tool, CMDR VicTic) - mineral | sistema | anillo | quien lo encontro
+Platinum | Omicron Capricorni B | B1 ring A | CMDR Nexdemise
+Platinum | Col 285 Sector KM-V d2-106 | 5 ring A | CMDR Churly
+Platinum | HIP 59425 | 2 ring A | CMDR Nexdemise
+Platinum | Synuefe XU-N c23-19 | 1 ring A | CMDR Nexdemise
+Platinum | Synuefe ZZ-X c17-17 | 2 ring A | CMDR Nexdemise
+Platinum | Synuefe XR-H d11-45 | 1 ring B | CMDR Nexdemise
+Platinum | IC 2602 Sector ZU-Y d103 | ABC3 ring A | CMDR Nexdemise
+Platinum | Wregoe TA-E d12-25 | 4 ring A | CMDR Nexdemise
+Platinum | HIP 22352 | 7 ring A | CMDR Nexdemise
+Platinum | HIP 1550 | B4 ring A | /u/Jasper_lit
+Platinum | Musca Dark Region IR-W d1-88 | 3 ring A |
+Platinum | IC 2602 Sector SD-T c3-2 | A11 ring A | /u/bkoefender
+Platinum | Synuefe UB-B d14-24 | 5 ring A | CMDR Nexdemise
+Platinum | Swoilz UF-V d3-51 | 10 ring A | CMDR Nexdemise
+Platinum | HIP 36225 | 1 ring A | CMDR Nexdemise
+Platinum | HIP 8465 | AB6 ring B | CMDR Nexdemise
+Platinum | Parrot's Head Sector EL-Y d83 | 1 ring A triple | CMDR Nexdemise
+Platinum | Eol Prou SS-T d3-1762 | 1A | CMDR Tharrn
+Platinum | Eol Prou IW-W e1-291 | 8A | CMDR Fuchsov
+Painite | GCRV 1568 | AB1 ring A | /u/red_yvonne
+Painite | Hyades Sector DB-X d1-112 | 2 ring A | /u/xomm
+Painite | HR 8461 | 6 ring A | /u/Polish_Dan
+Painite | Col 285 Sector UZ-P d5-90 | A6A | CMDR artemwaynes
+Painite | Col 285 Sector WP-E c12-17 | 1 ring A | CMDR Lukeforce
+Painite | HR 4296 | 5 ring A | CMDR Nexdemise
+Painite | HR 4197 | 1A | CMDR Harven Sr.
+Painite | Col 285 Sector KD-R c5-12 | 1 ring A | CMDR Nexdemise
+Painite | HIP 74258 | A1A | CMDR Syynax
+Painite | HIP 17519 | 1 ring A | CMDR Nexdemise
+Painite | Col 285 Sector AQ-X d1-47 | 5 ring A | CMDR Nexdemise
+Painite | Synuefe UZ-X c17-10 | 1 ring A | CMDR Nexdemise
+Painite | Pleiades Sector DB-O b6-2 | 5 ring A | CMDR Nexdemise
+Painite | IC 2602 Sector ZU-Y d103 | ABC3 ring A | CMDR Nexdemise
+Painite | HIP 22352 | 7 ring A | CMDR Nexdemise
+Painite | HIP 26582 | AB1 ring A | CMDR Nexdemise
+Painite | CG Andromedae | 8 ring B | CMDR Nexdemise
+Painite | Swoilz UF-V d3-51 | 10 ring A | CMDR Nexdemise
+Painite | Praea Euq JA-A d92 | A6 ring A | CMDR Nexdemise
+Painite | Puppis Dark Region B Sector BA-A d62 | B14 ring A triple | CMDR Nexdemise
+Painite | Eol Prou IW-W e1-2942 | 10 ring A | CMDR Fuchsov
+Painite | Eol Prou RS-T d3-451 | 4 ring A | CMDR Fuchsov
+LTD | Col 285 Sector CC-K a38-2 | 1 ring B | /u/_Kirre_
+LTD | HIP 4351 | 10 ring A | CMDR Mitro735
+LTD | Swoilz PK-R b20-0 | 1 ring B | CMDR ThatEnglishGent

@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-# anarquicos.py v1.0 - sistemas anarquicos cerca de los sistemas que controla CDSN
+# anarquicos.py v1.1 - sistemas anarquicos cerca de los sistemas que controla CDSN
 # Lo ejecuta GitHub Actions una vez al dia (.github/workflows/anarquicos.yml).
 # Lee faccion.json (sistemas con ctrl=True), pregunta a EDSM los sistemas a <= RADIO ly
 # y guarda anarquicos.json. La web (cdsn-web, pestaña Anarquías) solo lee ese archivo.
 # Version previa a Law & Disorder (9/12/2026): ya cuenta el gobierno nuevo «Criminal».
+# v1.1: overlaps de mineria (overlaps.txt, fijo) con coordenadas de EDSM (solo la primera vez)
+#       y, para cada sistema donde esta CDSN, los overlaps a <= RADIO_OVL ly (para la resistencia de la web).
 import json, math, os, sys, time, urllib.parse, urllib.request
 
 RADIO = 30                     # ly (si se desmadra, 20)
 GOBIERNOS = ("anarchy", "criminal")   # Law & Disorder cambia Anarquía habitada por Criminal
+RADIO_OVL = 20                 # ly: overlap «cerca» para la resistencia
 DIAS_NUEVO = 7                 # «NUEVO» durante 7 dias desde que aparece
 PAUSA = 1.5                    # segundos entre peticiones a EDSM
 API = "https://www.edsm.net"
@@ -20,7 +23,7 @@ PAD_L = {"coriolis starport", "orbis starport", "ocellus starport", "asteroid ba
 
 
 def pide(ruta, params, intentos=4):
-    url = API + ruta + "?" + urllib.parse.urlencode(params)
+    url = API + ruta + "?" + urllib.parse.urlencode(params, doseq=True)
     for i in range(intentos):
         try:
             r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60)
@@ -100,14 +103,51 @@ def main():
         a["primero"] = (primero_antes.get(n) or 0) if n in primero_antes else (ahora if antes else 0)
         a["min"] = min(a["cerca"].values())
 
+    # ---- overlaps de mineria ----
+    pos_antes = {o["sys"]: o.get("pos") for o in antes.get("overlaps", [])}
+    ovl = []
+    try:
+        for l in open(os.path.join(RAIZ, "overlaps.txt"), encoding="utf-8"):
+            if l.strip() and not l.startswith("#"):
+                c = [x.strip() for x in l.split("|")] + ["", "", "", ""]
+                ovl.append({"m": c[0], "sys": c[1], "anillo": c[2], "quien": c[3], "pos": pos_antes.get(c[1])})
+    except FileNotFoundError:
+        pass
+    conocidas = {n: s.get("pos") for n, s in fac.get("sistemas", {}).items() if s.get("pos")}
+    for k in ("vecinos", "zona", "expansion"):
+        for n, v in (fac.get(k) or {}).items():
+            if v.get("pos"):
+                conocidas.setdefault(n, v["pos"])
+    for o in ovl:
+        if not o["pos"] and o["sys"] in conocidas:
+            o["pos"] = conocidas[o["sys"]]
+    faltan = sorted({o["sys"] for o in ovl if not o["pos"]})
+    for i in range(0, len(faltan), 20):
+        r = pide("/api-v1/systems", [("systemName[]", x) for x in faltan[i:i + 20]] + [("showCoordinates", 1)])
+        for x in r if isinstance(r, list) else []:
+            if x.get("coords"):
+                for o in ovl:
+                    if o["sys"].lower() == x["name"].lower():
+                        o["pos"] = [x["coords"]["x"], x["coords"]["y"], x["coords"]["z"]]
+    ovl_cerca = {}
+    for n, s in fac.get("sistemas", {}).items():
+        if not s.get("pos") or s.get("fuera"):
+            continue
+        l = sorted(([o["sys"], o["m"], round(dist(o["pos"], s["pos"]), 1)] for o in ovl if o["pos"]
+                    and dist(o["pos"], s["pos"]) <= RADIO_OVL), key=lambda t: t[2])
+        if l:
+            ovl_cerca[n] = l
+    print(f"overlaps: {len(ovl)} ({sum(1 for o in ovl if o['pos'])} con coordenadas), {len(ovl_cerca)} sistemas de CDSN con alguno cerca")
+
     lista = {n: sorted(([an, a["cerca"][n]] for an, a in anq.items() if n in a["cerca"]),
                        key=lambda t: t[1]) for n in nuestros}
     salida = {
-        "ver": "a1.0", "t": ahora, "radio": RADIO, "fuente": "EDSM",
+        "ver": "a1.1", "t": ahora, "radio": RADIO, "fuente": "EDSM",
         "nota": "Versión previa a Law & Disorder (Crimen y castigo, 9/12/2026)",
         "primera_vez": not antes, "dias_nuevo": DIAS_NUEVO,
         "nuestros": {n: {"pos": s["pos"], "anq": lista[n]} for n, s in nuestros.items()},
-        "anarquicos": anq, "errores": errores}
+        "anarquicos": anq, "errores": errores,
+        "radio_ovl": RADIO_OVL, "overlaps": ovl, "ovl_cerca": ovl_cerca}
     if len(errores) > len(nuestros) // 2 and antes:
         print("Demasiados errores de EDSM: se deja el archivo de ayer", file=sys.stderr)
         return 1

@@ -1,0 +1,20 @@
+# Sistemas IMPRESCINDIBLES de CDSN (lo edita el almirante a mano)
+# Un sistema por línea, con su nombre exacto. Las líneas con # no cuentan.
+# Van por niveles: [nivel 1] = los más importantes. Se pueden añadir [nivel 2], [nivel 3]...
+# La web les pone ◆ (nivel 1) o ◇ (otros niveles) y vigila con más cuidado los de nivel 1.
+# El parte de la IA los pone primero.
+
+[nivel 1]
+Adjukru
+Benapus
+Burr
+Catun
+Chuntal
+Elivagar
+Kunuvii
+Lu Pardan
+Mau
+Ndabangluya
+Pirawoth
+Prajau
+Wathiparian

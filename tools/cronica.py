@@ -90,6 +90,34 @@ def preparar(F, H, A, tope):
         return sum(v for k, v in tr.items() if k >= (hoy - timedelta(days=dias)).strftime("%Y-%m-%d"))
 
     partes = {}
+    # --- imprescindibles (imprescindibles.txt, a mano) e historicos (heredados de arquitectos.txt) ---
+    niv, n_act = {}, 1
+    try:
+        with open(ruta("imprescindibles.txt"), encoding="utf-8") as f:
+            for l in f:
+                x = l.strip()
+                m = re.match(r"^\[\s*nivel\s*(\d+)\s*\]$", x, re.I)
+                if m:
+                    n_act = int(m.group(1))
+                elif x and not x.startswith("#"):
+                    niv[x.lower()] = n_act
+    except OSError:
+        pass
+    her = set()
+    try:
+        with open(ruta("arquitectos.txt"), encoding="utf-8") as f:
+            for l in f:
+                if "=" in l and not l.lstrip().startswith("#") and re.match(r"\s*heredad", l.split("=", 1)[1], re.I):
+                    her.add(l.split("=", 1)[0].strip().lower())
+    except OSError:
+        pass
+    Li = []
+    for v in sorted(set(niv.values())):
+        ns = [S(n) for n in sis if niv.get(n.lower()) == v]
+        if ns:
+            Li.append(f"nivel {v}: " + ", ".join(ns))
+    Li.append("históricos (anteriores a la colonización): " + (", ".join(S(n) for n in sis if n.lower() in her) or "-"))
+    partes["SISTEMAS IMPRESCINDIBLES (los elige el almirante; nivel 1 = los más importantes) E HISTÓRICOS"] = Li
     # --- nuestros sistemas ---
     L = ["#sis|ctrl|inf|antes|dif|2ª|inf2ª|nfac|estados(act/pend/recup)|pob|economía|seg|Powerplay(pot,est,ref,soc)|"
          "visitas(hoy,7d,30d)|portanaves48h|est.CDSN|dato(h tras tick)|hist.inf(últimos)"]
@@ -230,6 +258,8 @@ Reglas:
 - Mira tendencias (varios días), no solo el último cambio.
 - Lo que hagan los comandantes antes del próximo tick cuenta para ese tick: si algo es urgente, di cuánto queda.
 - Prioriza: primero lo que puede costarnos un sistema, después oportunidades.
+- Los sistemas IMPRESCINDIBLES (sobre todo los de nivel 1) son los que el almirante no quiere perder: cualquier peligro en ellos \
+va antes que el resto, aunque sea pequeño, y dilo. Los HISTÓRICOS también pesan más que un sistema cualquiera.
 
 Responde SOLO con un objeto JSON válido, sin texto antes ni después, con esta forma:
 {{"titular": "frase corta", "entradilla": "2-3 frases con lo esencial del día",

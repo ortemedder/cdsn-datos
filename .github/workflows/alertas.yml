@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "cdsn-alertas"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add alertas.json
+          git add alertas.json noticias_extra.json
           git diff --cached --quiet && { echo "Sin cambios"; exit 0; }
           git commit -q -m "Alertas $(date -u +%d/%m/%Y\ %H:%M)"
           for i in 1 2 3 4 5; do

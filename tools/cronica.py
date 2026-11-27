@@ -327,7 +327,8 @@ def preparar(F, H, A, tope):
     # --- noticias de las últimas 48 h (incluye el resumen diario de las 21:00) ---
     # agrupadas como en la web: «Expansión activo» de cada sistema -> una linea al dia; «Elecciones/Guerra activo» fuera
     # si ya esta la noticia del conflicto; vecindario -> una linea al dia (el detalle ya va en VECINOS)
-    N0 = [(x[0], re.sub(r"\*\*", "", str(x[1])), x[2]) for x in (F.get("noticias") or []) if x[0] > ahora - 172800 and x[2] != "escucha"]
+    NX = (lee("noticias_extra.json", {}) or {}).get("noticias") or []     # a1.1: sistemas nuevos / perdidos (tools/alertas.py)
+    N0 = [(x[0], re.sub(r"\*\*", "", str(x[1])), x[2]) for x in (F.get("noticias") or []) + NX if x[0] > ahora - 172800 and x[2] != "escucha"]
     conf = [(t, x) for t, x, sec in N0 if sec == "conflictos" and re.match(r"^(✉|⚔)", x)]
     N1, G, V = [], {}, {}
     for t, txt, sec in N0:

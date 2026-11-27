@@ -8,7 +8,7 @@
 import json, os, re, sys, time, urllib.request
 from datetime import datetime, timedelta, timezone
 
-VER = "a1.0"
+VER = "a1.1"
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FAC = "Caballeros de Sion"
 DIAS_CONF = 7
@@ -392,8 +392,35 @@ def calcula(F, A):
     return out
 
 
+def sistemas_nuevos(F):
+    """a1.1: compara los sistemas de CDSN con los de la vez anterior y apunta noticias en noticias_extra.json
+    (🎉 sistema nuevo, con su arquitecto si se sabe; 📉 sistema perdido). La web y el parte las juntan con las del escucha."""
+    E = lee("noticias_extra.json", {}) or {}
+    ahora = {n for n, s in (F.get("sistemas") or {}).items() if not s.get("fuera")}
+    antes = set(E.get("conocidos") or [])
+    N = E.get("noticias") or []
+    if antes and ahora:
+        niv, arq, miem = cargar_listas()
+        for n in sorted(ahora - antes):
+            a = arq.get(n.lower(), "")
+            a = "" if re.match(r"heredad|coloniza", a, re.I) else a
+            c = miem.get(a.lower(), "") if a else ""
+            N.append([int(NOW), f"🎉 **{n}**: nuevo sistema para Caballeros de Sion"
+                      + (f" · arquitecto **{c}** (CDSN) · ¡enhorabuena!" if c else f" · arquitecto {a}" if a else ""),
+                      "expansion", 0, n, ""])
+        for n in sorted(antes - ahora):
+            N.append([int(NOW), f"📉 **{n}**: Caballeros de Sion ya no está en este sistema", "conflictos", 1, n, ""])
+    E = {"ver": VER, "t": int(NOW), "conocidos": sorted(ahora) or sorted(antes), "noticias": N[-80:]}
+    with open(ruta("noticias_extra.json"), "w", encoding="utf-8") as f:
+        json.dump(E, f, ensure_ascii=False, separators=(",", ":"))
+    return len(ahora - antes) if antes else 0
+
+
 def main():
     F = lee("faccion.json", {}) or {}
+    nn = sistemas_nuevos(F)
+    if nn:
+        print(f"{nn} sistemas nuevos de CDSN")
     out = calcula(F, lee("anarquicos.json", {}) or {})
     res = {"ver": VER, "t": int(NOW), "dato_t": F.get("t"), "n": len(out),
            "graves": sum(1 for x in out.values() if x["niv"] == 2), "avisos": sum(1 for x in out.values() if x["niv"] == 1),

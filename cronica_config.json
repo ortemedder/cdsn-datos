@@ -9,6 +9,6 @@
   "prueba": [],
   "esfuerzo": "medium",
   "tope_tokens": 200000,
-  "max_salida": 12000,
+  "max_salida": 24000,
   "espera_min": 30
 }

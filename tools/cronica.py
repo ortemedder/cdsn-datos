@@ -402,6 +402,7 @@ no se van nunca. Si una se va, queda hueco y puede entrar otra por expansión.
 
 Reglas:
 - Español de España, claro y directo, para jugadores. Nada de relleno.
+- No pongas los códigos #N ni @N entre paréntesis detrás del nombre: escribe solo el nombre.
 - Cada cifra y cada nombre que escribas tiene que estar en los datos. No te corrijas dentro del texto: si dudas, no lo pongas.
 - Mira la antigüedad de los datos: de un sistema con DATOS VIEJOS (más de 2 días) no saques conclusiones ni des su estado como \
 actual; di que hace falta que alguien pase por él con EDMC para saber cómo está.
@@ -522,7 +523,10 @@ def traducir(o, ds, df):
     """Cambia los #N (sistemas, como [[Nombre]]) y @N (facciones) que se le escapen a la IA."""
     if isinstance(o, str):
         o = re.sub(r"(?<![\w\[])#(\d+)", lambda m: f"[[{ds[int(m.group(1)) - 1]}]]" if 0 < int(m.group(1)) <= len(ds) else m.group(0), o)
-        return re.sub(r"(?<!\w)@(\d+)", lambda m: df[int(m.group(1)) - 1] if 0 < int(m.group(1)) <= len(df) else m.group(0), o)
+        o = re.sub(r"(?<!\w)@(\d+)", lambda m: df[int(m.group(1)) - 1] if 0 < int(m.group(1)) <= len(df) else m.group(0), o)
+        # c1.2: la IA a veces pone el código entre paréntesis tras el nombre: «[[Burr]] (#52, nivel 1)» -> «[[Burr]] (nivel 1)»
+        o = re.sub(r"\[\[([^\]]+)\]\] \(\[\[\1\]\]\)", r"[[\1]]", o)
+        return re.sub(r"\[\[([^\]]+)\]\] \(\[\[\1\]\], ", r"[[\1]] (", o)
     if isinstance(o, list):
         return [traducir(x, ds, df) for x in o]
     if isinstance(o, dict):

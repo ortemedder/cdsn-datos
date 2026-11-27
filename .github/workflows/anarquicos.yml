@@ -1,6 +1,11 @@
 # Anárquicos cerca de los sistemas de CDSN: una vez al día (y a mano desde la pestaña Actions)
+# 27/11/2026: GitHub nunca ha lanzado el reloj (schedule) aquí, así que también se lanza cuando el escucha
+# sube faccion.json; solo calcula si anarquicos.json no es de hoy y ya son las 06:00 en España.
 name: anarquicos
 on:
+  push:
+    branches: [main]
+    paths: [faccion.json]
   schedule:
     - cron: "17 5 * * *"     # 05:17 UTC (06:17 en Madrid)
   workflow_dispatch:
@@ -16,9 +21,22 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+      - name: Mirar si hace falta
+        id: mira
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, datetime, zoneinfo
+          Z = zoneinfo.ZoneInfo("Europe/Madrid"); ahora = datetime.datetime.now(Z)
+          try: t = json.load(open("anarquicos.json")).get("t", 0)
+          except Exception: t = 0
+          hecho = datetime.datetime.fromtimestamp(t, Z).date() == ahora.date() or ahora.hour < 6
+          print("saltar=" + ("si" if hecho and "${{ github.event_name }}" == "push" else "no"))
+          PY
       - name: Calcular anarquicos.json
+        if: steps.mira.outputs.saltar != 'si'
         run: python3 tools/anarquicos.py
       - name: Subir
+        if: steps.mira.outputs.saltar != 'si'
         run: |
           git config user.name "cdsn-anarquicos"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

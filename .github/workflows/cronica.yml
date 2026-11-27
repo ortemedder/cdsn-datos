@@ -1,8 +1,13 @@
 # Parte del día (IA): cada hora de 06 a 14 UTC (desde las 07:00–08:00 de España, en invierno y en verano).
 # Con «envio» F envía a la hora fija de «enviar» (08:00) y espera en el mismo trabajo a que llegue el parte.
 # El script decide si toca enviar el lote o recoger el parte (cronica_config.json). También a mano desde Actions.
+# 27/11/2026: GitHub nunca ha lanzado el reloj (schedule) en este repositorio, así que también se lanza
+# cada vez que el escucha sube faccion.json (cada 15 min); si el parte de hoy ya está, termina en segundos.
 name: cronica
 on:
+  push:
+    branches: [main]
+    paths: [faccion.json]
   schedule:
     - cron: "7 6-14 * * *"
   workflow_dispatch:
@@ -24,11 +29,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+      - name: Mirar si hace falta
+        id: mira
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, datetime, zoneinfo
+          hoy = datetime.datetime.now(zoneinfo.ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
+          try: e = json.load(open("cronica_estado.json")) or {}
+          except Exception: e = {}
+          hecho = e.get("fecha") == hoy and e.get("recogido")
+          print("saltar=" + ("si" if hecho and "${{ github.event_name }}" != "workflow_dispatch" else "no"))
+          PY
       - name: Parte del día
+        if: steps.mira.outputs.saltar != 'si'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 tools/cronica.py "${{ github.event.inputs.modo || 'auto' }}"
       - name: Subir
+        if: steps.mira.outputs.saltar != 'si'
         run: |
           git config user.name "cdsn-cronica"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

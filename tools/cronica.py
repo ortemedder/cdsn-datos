@@ -137,6 +137,56 @@ def preparar(F, H, A, tope):
                       + (f" (la más cercana {FA(E[0][0])} a {E[0][1]:.1f} al)" if E else ""))
     if Lh:
         partes["HUECOS EN HISTÓRICOS/IMPRESCINDIBLES (otra facción se retira: puede entrar una de fuera y quitarnos influencia)"] = Lh
+    # sistemas de CMDRs de CDSN: el arquitecto es miembro (miembros.txt de cdsn-web); el arquitecto no cambia nunca
+    miem = {}
+    try:
+        with urllib.request.urlopen("https://raw.githubusercontent.com/ortemedder/cdsn-web/main/miembros.txt", timeout=20) as r:
+            for l in r.read().decode("utf-8").splitlines():
+                if l.strip() and not l.strip().startswith("#"):
+                    miem[l.strip().lower()] = l.strip()
+    except Exception:
+        pass
+    cmdr = {}
+    try:
+        with open(ruta("arquitectos.txt"), encoding="utf-8") as f:
+            for l in f:
+                if "=" in l and not l.lstrip().startswith("#"):
+                    a, b = [x.strip() for x in l.split("=", 1)]
+                    if b.lower() in miem:
+                        cmdr[a.lower()] = miem[b.lower()]
+    except OSError:
+        pass
+    Lc = [f"{S(n)}: {cmdr[n.lower()]}" for n in sis if n.lower() in cmdr]
+    if Lc:
+        partes["SISTEMAS DE CMDRS DE CDSN (su arquitecto es del escuadrón: si su sistema está en peligro, «avisar a» ese CMDR)"] = Lc
+    # grupos de prioridad: 1 imprescindibles nivel 1, 2 nivel 2..., 20 CMDRs de CDSN, 50 historicos, 99 resto
+    def grupo(n):
+        return niv.get(n.lower()) or (20 if n.lower() in cmdr else 50 if n.lower() in her else 99)
+    # tareas obligatorias: lo que se puede perder hoy (el script las añade al «hacer» si la IA se las salta)
+    OB = []
+    for n, s_ in sis.items():
+        for c in s_.get("conflictos") or []:
+            if c.get("fase") in ("decisivo", "derrota", "sin_remedio"):
+                el = c.get("tipo") == "election"
+                OB.append((n, ("misiones, comercio con beneficio y datos de exploración en estaciones de CDSN (sin violencia)" if el
+                               else "zonas de conflicto y misiones de combate a favor de CDSN")
+                           + f" · {'elecciones' if el else 'guerra'} contra {c.get('contra')}, "
+                           + ("día decisivo" if c.get("fase") == "decisivo" else "vamos perdiendo")
+                           + (f", en juego {c.get('en_juego')}" if c.get("en_juego") else "")))
+        mio = next((x for x in s_.get("todas") or [] if x.get("n") == F.get("faccion", "Caballeros de Sion")), {})
+        if "Retreat" in (mio.get("act") or []) + (mio.get("pend") or []):
+            OB.append((n, "subir influencia ya: misiones de CDSN, comercio con beneficio y datos de exploración · CDSN en retirada"))
+    for n, a in ((F.get("ataques") or {}).get("act") or {}).items():
+        if n in sis:
+            OB.append((n, f"subir influencia: misiones de CDSN, comercio con beneficio y datos de exploración · posible ataque"
+                          + (f" de {a.get('quien')}" if a.get("quien") else "")))
+    for n, s_ in sis.items():
+        if (n.lower() in niv or n.lower() in her) and any(x.get("n") != F.get("faccion", "Caballeros de Sion") and "Retreat" in (x.get("act") or []) + (x.get("pend") or []) for x in s_.get("todas") or []):
+            OB.append((n, "mantener la influencia de CDSN alta para que la facción que entre lo haga lo más baja posible · hueco: otra facción se retira"))
+    OB.sort(key=lambda t: grupo(t[0]))
+    OB = [(n, t + (f" · avisar a {cmdr[n.lower()]}" if n.lower() in cmdr else "")) for n, t in OB]
+    if OB:
+        partes["TAREAS OBLIGATORIAS (tienen que salir en «hacer», en este orden)"] = [f"{S(n)}: {t}" for n, t in OB]
     # --- nuestros sistemas ---
     L = ["#sis|ctrl|inf|antes|dif|2ª|inf2ª|nfac|estados(act/pend/recup)|pob|economía|seg|Powerplay(pot,est,ref,soc)|"
          "visitas(hoy,7d,30d)|portanaves48h|est.CDSN|dato(h tras tick)|hist.inf(últimos)"]
@@ -276,7 +326,7 @@ def preparar(F, H, A, tope):
         while len(texto) / 3.2 > tope and k in partes and len(partes[k]) > 5:
             partes[k] = partes[k][:len(partes[k]) * 3 // 4] + [f"... (recortado por tamaño)"]
             texto = montar(partes)
-    return texto, {"al_dia": len(al_dia), "ctrl": len(ctrl), "tick": tg, "car": len(texto),
+    return texto, {"al_dia": len(al_dia), "ctrl": len(ctrl), "tick": tg, "car": len(texto), "oblig": OB,
                    "tokens_aprox": int(len(texto) / 3.2), "nombres": list(S.d),
                    "dic_s": [n for n, _ in sorted(S.d.items(), key=lambda t: t[1])],
                    "dic_f": [n for n, _ in sorted(FA.d.items(), key=lambda t: t[1])]}
@@ -290,8 +340,20 @@ Te paso los datos del BGS que recoge nuestro escucha de EDDN. Los sistemas van c
 diccionarios para saber sus nombres. En tu respuesta escribe SIEMPRE los nombres reales, nunca #N ni @N, y pon cada nombre de \
 SISTEMA entre dobles corchetes, por ejemplo [[Ndabangluya]] (las facciones sin corchetes).
 
+Reglas del BGS (cúmplelas al razonar; no las expliques):
+- El control de un sistema SOLO cambia con un conflicto (guerra, guerra civil o elecciones). Que otra facción tenga más \
+influencia NO nos quita el sistema por sí solo.
+- Un conflicto empieza cuando dos facciones quedan a menos de 5 puntos de influencia. Si una facción nos adelanta de golpe \
+sin pasar por esa franja, no hay conflicto y seguimos controlando el sistema.
+- Guerra y guerra civil: se gana con combate (zonas de conflicto, misiones de combate). Elecciones: SIN violencia (misiones, \
+comercio con beneficio, datos de exploración). Gana el conflicto quien gane 4 días; se pierde la estación «en juego».
+- Una facción por debajo del 2,5 % puede entrar en retirada y salir del sistema; las nativas (llevan el nombre del sistema) \
+no se van nunca. Si una se va, queda hueco y puede entrar otra por expansión.
+- Subir influencia de CDSN: misiones para CDSN, comercio con beneficio, bonos y datos de exploración en estaciones de CDSN.
+
 Reglas:
 - Español de España, claro y directo, para jugadores. Nada de relleno.
+- Cada cifra y cada nombre que escribas tiene que estar en los datos. No te corrijas dentro del texto: si dudas, no lo pongas.
 - No inventes nada: si un dato no está, no lo supongas. Si los datos del tick están incompletos, dilo.
 - Distingue lo que es un peligro real de lo que no (p. ej. Powerplay, o una bajada pequeña en un sistema con mucha ventaja).
 - Mira tendencias (varios días), no solo el último cambio.
@@ -304,7 +366,9 @@ otra facción se retira (HUECOS), avisa del riesgo de que entre una facción de 
 Responde SOLO con un objeto JSON válido, sin texto antes ni después, con esta forma:
 {{"titular": "frase corta", "entradilla": "2-3 frases con lo esencial del día",
  "puntos": [{{"titulo": "...", "texto": "..."}}],      (3 a 5 puntos clave)
- "hacer": ["acción concreta para hoy", "..."],         (2 a 5 acciones, la más importante primero)
+ "hacer": ["[[Sistema]] · qué hacer · por qué", "..."], (máximo 5; primero las TAREAS OBLIGATORIAS en su orden; luego por \
+grupos: imprescindibles nivel 1, nivel 2, sistemas de CMDRs de CDSN, históricos y el resto; nada de «revisar» o «visitar»: di \
+la actividad concreta (combate, misiones, comercio, exploración); si el sistema es de un CMDR de CDSN, añade «avisar a NOMBRE»)
  "oportunidad": "una oportunidad para crecer o ayudar a CDSN",
  "riesgo": "bajo" | "medio" | "alto"}}"""
 
@@ -438,6 +502,12 @@ def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
         if not isinstance(p, dict):
             p = {"titular": "", "entradilla": "", "puntos": [], "hacer": [], "oportunidad": ""}
         p = traducir(p, est.get("dic_s") or [], est.get("dic_f") or [])
+        if not mot:                                   # tareas obligatorias que la IA se haya saltado: van delante
+            H = [str(h) for h in (p.get("hacer") or [])]
+            falta = [f"[[{n}]] · {t}" for n, t in (est.get("oblig") or []) if not any(n in h for h in H)]
+            if falta:
+                p["hacer"] = falta + H
+                p["anadidas"] = len(falta)
         if mot:
             p.update({"roto": True, "motivo": mot, "bruto": txt[:1500]})
     citados = set(re.findall(r"\[\[(.+?)\]\]", json.dumps(p, ensure_ascii=False)))
@@ -521,7 +591,7 @@ def main():
            "publicar_t": int(time.time()) if al_llegar or ahora >= pub else int(pub.timestamp()),
            "al_llegar": al_llegar, "auto": modo != "forzar",
            "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
-           "dic_s": info["dic_s"], "dic_f": info["dic_f"],
+           "dic_s": info["dic_s"], "dic_f": info["dic_f"], "oblig": info.get("oblig") or [],
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
     print(f"Lote enviado: {b['id']} ({', '.join(modelos)})")

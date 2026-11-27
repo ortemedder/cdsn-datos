@@ -37,7 +37,8 @@ jobs:
           hoy = datetime.datetime.now(zoneinfo.ZoneInfo("Europe/Madrid")).strftime("%Y-%m-%d")
           try: e = json.load(open("cronica_estado.json")) or {}
           except Exception: e = {}
-          hecho = e.get("fecha") == hoy and e.get("recogido")
+          import time   # c1.2: un parte por tick: solo se salta si hubo parte hace menos de 8 h (el script decide el resto)
+          hecho = bool(e.get("recogido")) and time.time() - (e.get("enviado") or 0) < 8 * 3600
           print("saltar=" + ("si" if hecho and "${{ github.event_name }}" != "workflow_dispatch" else "no"))
           PY
       - name: Parte del día

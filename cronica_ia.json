@@ -1,6 +1,1 @@
-{
- "ver": "c1.0",
- "partes": [],
- "modelo": "haiku",
- "t": 1795737703
-}
+{"ver":"c1.1","partes":[{"titular":"","entradilla":"","puntos":[],"hacer":[],"oportunidad":"","roto":true,"motivo":"cortado (llegó al límite de salida)","bruto":"","fecha":"2026-11-27","publicar_t":1795775486,"modelo":"haiku","id_modelo":"claude-haiku-5-5","anio":1,"numero":1,"tick":1795708720,"al_dia":15,"ctrl":69,"tokens_in":100184,"tokens_out":12000,"coste":0.04,"dudosos":[],"t":1795775486}],"modelo":"haiku","t":1795775486,"inicio":"2026-11-27"}

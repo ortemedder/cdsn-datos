@@ -585,6 +585,14 @@ def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
     if est.get("auto") and not C.get("inicio"):
         C["inicio"] = est["fecha"]                  # N.º 1 = primer parte automático (no las pruebas forzadas)
     anio, num = numeracion(C, est["fecha"])
+    if num is not None:                             # c1.2: N.º por parte (AM y PM llevan cada uno el suyo); si se rehace, conserva el suyo
+        igual = next((x for x in C["partes"] if x.get("fecha") == est["fecha"] and x.get("modelo") == modelo
+                      and x.get("edicion", "") == est.get("edicion", "") and x.get("numero")), None)
+        if igual:
+            num = igual["numero"]
+        else:
+            C["n"] = max([C.get("n") or 0] + [x.get("numero") or 0 for x in C["partes"]]) + 1
+            num = C["n"]
     pub_t = int(time.time()) if est.get("al_llegar") else est["publicar_t"]
     citados_h = set(re.findall(r"\[\[(.+?)\]\]", " ".join(map(str, p.get("hacer") or []))))
     p["foto"] = {n: v for n, v in (est.get("foto") or {}).items() if n in citados_h}   # para el seguimiento del próximo parte

@@ -1,14 +1,16 @@
 {
-  "_ayuda": "Ajustes del Parte del día (IA). activo: false lo apaga del todo. envio: F = hora fija («enviar», hora de España); también A/B/C (antiguos). publicar: «al_llegar» (en cuanto llega) o una hora «HH:MM». dias_libres: lunes martes miercoles jueves viernes sabado domingo. modelo: haiku, sonnet u opus. prueba: lista de modelos para comparar (vacía = solo el modelo). esfuerzo: sin, low, medium, high. tope_tokens: máximo de datos. espera_min: minutos que espera al lote tras enviarlo.",
+  "_ayuda": "Ajustes del Parte (IA). activo: false lo apaga. envio: T = un parte por tick (SITREP PM «horas_tras_tick» después del tick; SITREP AM a la hora «respaldo» si no hubo parte en 20 h; nunca dos con menos de 8 h); F = hora fija «enviar». publicar: «al_llegar» o «HH:MM». dias_libres: lunes... domingo. modelo: haiku, sonnet u opus. prueba: modelos para comparar. esfuerzo: auto (medio si hay algo crítico, bajo si no), sin, low, medium, high. tope_tokens: máximo de datos. espera_min: minutos que espera al lote.",
   "activo": true,
-  "envio": "F",
+  "envio": "T",
   "enviar": "08:00",
   "publicar": "al_llegar",
   "dias_libres": [],
   "modelo": "haiku",
   "prueba": [],
-  "esfuerzo": "medium",
+  "esfuerzo": "auto",
   "tope_tokens": 200000,
   "max_salida": 24000,
-  "espera_min": 30
+  "espera_min": 30,
+  "horas_tras_tick": 2,
+  "respaldo": "08:00"
 }

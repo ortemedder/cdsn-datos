@@ -10,11 +10,14 @@
 #   enviar, espera en el mismo trabajo hasta ~30 min a que el lote termine. Traduce los #N/@N que se le escapen a la IA.
 #   Marca los partes rotos («roto» + motivo + texto en bruto) y los perdidos (error de la API), sin reintentar.
 #   Numeración del periódico: AÑO (año galáctico - 3311) y N.º continuo desde el primer parte automático («inicio»).
+# c1.2 (27/11/2026): un parte por tick («envio": "T"): SITREP PM 2 h después del tick; si a las 08:00 no hay parte en
+#   20 h, SITREP AM; nunca dos con menos de 8 h. Antigüedad de los datos (no concluir con datos de más de 2 días),
+#   sistemas tranquilos en una línea, esfuerzo «auto» (medio si hay algo crítico, bajo si no) y seguimiento del parte anterior.
 import json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-VER = "c1.1"
+VER = "c1.2"
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 MAD = ZoneInfo("Europe/Madrid")
@@ -187,10 +190,53 @@ def preparar(F, H, A, tope):
     OB = [(n, t + (f" · avisar a {cmdr[n.lower()]}" if n.lower() in cmdr else "")) for n, t in OB]
     if OB:
         partes["TAREAS OBLIGATORIAS (tienen que salir en «hacer», en este orden)"] = [f"{S(n)}: {t}" for n, t in OB]
+    # --- c1.2: antigüedad de los datos y sistemas tranquilos (una línea) ---
+    edad = {n: (ahora - (s_.get("t") or 0)) / 86400 for n, s_ in sis.items()}
+    obn = {n for n, _ in OB}
+    atk = set(((F.get("ataques") or {}).get("act") or {}))
+    def tranquilo(n):
+        s_ = sis[n]
+        if n in obn or n in atk or s_.get("conflictos") or niv.get(n.lower()) or n.lower() in cmdr:
+            return False
+        mio = next((x for x in s_.get("todas") or [] if x.get("n") == F.get("faccion", "Caballeros de Sion")), {})
+        if "Retreat" in (mio.get("act") or []) + (mio.get("pend") or []) or (s_.get("inf") or 0) < 5:
+            return False
+        dif = abs((s_.get("inf") or 0) - (s_.get("prev") or s_.get("inf") or 0))
+        vent = (s_.get("inf") or 0) - (s_.get("segunda_inf") or 0)
+        return dif < 2 and (not s_.get("ctrl") or vent >= 20)
+    TQ = {n for n in sis if tranquilo(n)}
+    viejos = [n for n in sis if edad[n] > 2 and (sis[n].get("ctrl") or niv.get(n.lower()) or n.lower() in cmdr or n.lower() in her)]
+    partes["DATOS VIEJOS (más de 2 días sin datos nuevos: NO saques conclusiones de ellos; pide que alguien pase con EDMC)"] = [
+        f"{S(n)}: {edad[n]:.0f} días" for n in sorted(viejos, key=lambda n: -edad[n])] or ["ninguno"]
+    partes["SISTEMAS TRANQUILOS (sin conflicto, ventaja de 20+ puntos o sin control, cambio < 2 puntos): #sis inf dif edad(días)"] = [
+        " ".join(f"{S(n)} {r1(sis[n].get('inf'))} {r1((sis[n].get('inf') or 0) - (sis[n].get('prev') or sis[n].get('inf') or 0))} "
+                 f"{edad[n]:.0f}d" for n in sorted(TQ, key=lambda n: int(S(n)[1:])))] if TQ else ["ninguno"]
+    # --- c1.2: seguimiento del parte anterior ---
+    Cp = lee("cronica_ia.json", {"partes": []})
+    prev = sorted([x for x in Cp.get("partes") or [] if x.get("t") and x["t"] < ahora - 6 * 3600 and not x.get("roto")
+                   and not x.get("perdido")], key=lambda x: x["t"])
+    if prev:
+        pa = prev[-1]
+        Ls = []
+        th = " ".join(map(str, pa.get("hacer") or []))
+        nh = re.findall(r"\[\[(.+?)\]\]", th) or [n for n in sorted(sis, key=len, reverse=True) if n in th]
+        for n in dict.fromkeys(nh):
+            if n not in sis:
+                continue
+            s_, f0 = sis[n], (pa.get("foto") or {}).get(n)
+            d0 = datetime.fromtimestamp(pa["t"], MAD).strftime("%Y-%m-%d")
+            v = sum(c for k, c in (s_.get("trafico") or {}).items() if k >= d0)
+            ve = (s_.get("inf") or 0) - (s_.get("segunda_inf") or 0)
+            Ls.append(f"{S(n)}: " + (f"{r1(f0[0])} → {r1(s_.get('inf'))} ({r1((s_.get('inf') or 0) - f0[0])}), ventaja {r1(f0[1])} → {r1(ve)}"
+                                    if f0 else f"ahora {r1(s_.get('inf'))}, ventaja {r1(ve)}")
+                      + f" · {v} visitas desde el parte · dato de hace {edad[n]:.0f} días")
+        partes[f"SEGUIMIENTO DEL PARTE ANTERIOR ({datetime.fromtimestamp(pa['t'], MAD):%d/%m %H:%M}): lo que se pidió y qué ha pasado"] = Ls or ["sin datos"]
     # --- nuestros sistemas ---
     L = ["#sis|ctrl|inf|antes|dif|2ª|inf2ª|nfac|estados(act/pend/recup)|pob|economía|seg|Powerplay(pot,est,ref,soc)|"
-         "visitas(hoy,7d,30d)|portanaves48h|est.CDSN|dato(h tras tick)|hist.inf(últimos)"]
+         "visitas(hoy,7d,30d)|portanaves48h|est.CDSN|edad(días)|hist.inf(últimos)"]
     for n in sorted(sis, key=lambda n: int(S(n)[1:])):
+        if n in TQ:
+            continue
         s = sis[n]
         sx = s.get("sis") or {}
         pp = s.get("pp") or {}
@@ -198,7 +244,7 @@ def preparar(F, H, A, tope):
         pn48 = sum(1 for v in (s.get("pn") or {}).values() if (v.get("t") or 0) > ahora - 172800)
         prop = sum(1 for e in (s.get("estaciones") or {}).values() if e.get("f") == F.get("faccion"))
         hi = ",".join(r1(v) for _, v in (s.get("hinf") or [])[-6:])
-        dato = f"{((s.get('t') or 0) - tg) / 3600:+.0f}" if s.get("t") else "-"
+        dato = f"{edad[n]:.1f}" if s.get("t") else "-"
         dif = (s.get("inf") or 0) - (s.get("prev") or s.get("inf") or 0) if s.get("inf") is not None else None
         L.append("|".join(map(str, [
             S(n), "C" if s.get("ctrl") else "", r1(s.get("inf")), r1(s.get("prev")), r1(dif) if dif else "0",
@@ -209,8 +255,10 @@ def preparar(F, H, A, tope):
             pn48, prop, dato, hi])))
     partes["NUESTROS SISTEMAS (C = controlado por CDSN)"] = L
     # --- facciones de cada sistema ---
-    L = ["#sis: @facción inf% gobierno [estados activos] ..."]
+    L = ["#sis: @facción inf% gobierno [estados activos] ... (los tranquilos no van)"]
     for n in sorted(sis, key=lambda n: int(S(n)[1:])):
+        if n in TQ:
+            continue
         fs = sis[n].get("todas") or []
         L.append(S(n) + ": " + "; ".join(
             f"{FA(f.get('n'))} {r1(f.get('inf'))} {f.get('gov') or ''}{(' [' + ','.join(f.get('act') or []) + ']') if f.get('act') else ''}"
@@ -275,7 +323,7 @@ def preparar(F, H, A, tope):
     # --- historial de rivales (últimos puntos) ---
     L = []
     for n, fs in ((H or {}).get("rivales") or {}).items():
-        if n in sis:
+        if n in sis and n not in TQ:
             L.append(S(n) + ": " + "; ".join(f"{FA(f)} " + ",".join(r1(v) for _, v in p[-5:]) for f, p in fs.items()))
     partes["HISTORIAL DE INFLUENCIA DE LAS OTRAS FACCIONES (últimos puntos, del más viejo al más nuevo)"] = L or ["sin datos"]
     # --- noticias de las últimas 48 h (incluye el resumen diario de las 21:00) ---
@@ -326,7 +374,9 @@ def preparar(F, H, A, tope):
         while len(texto) / 3.2 > tope and k in partes and len(partes[k]) > 5:
             partes[k] = partes[k][:len(partes[k]) * 3 // 4] + [f"... (recortado por tamaño)"]
             texto = montar(partes)
-    return texto, {"al_dia": len(al_dia), "ctrl": len(ctrl), "tick": tg, "car": len(texto), "oblig": OB,
+    foto = {n: [round(s_.get("inf") or 0, 2), round((s_.get("inf") or 0) - (s_.get("segunda_inf") or 0), 2)] for n, s_ in sis.items()}
+    return texto, {"al_dia": len(al_dia), "ctrl": len(ctrl), "tick": tg, "car": len(texto), "oblig": OB, "critico": bool(OB),
+                   "foto": foto,
                    "tokens_aprox": int(len(texto) / 3.2), "nombres": list(S.d),
                    "dic_s": [n for n, _ in sorted(S.d.items(), key=lambda t: t[1])],
                    "dic_f": [n for n, _ in sorted(FA.d.items(), key=lambda t: t[1])]}
@@ -354,6 +404,11 @@ no se van nunca. Si una se va, queda hueco y puede entrar otra por expansión.
 Reglas:
 - Español de España, claro y directo, para jugadores. Nada de relleno.
 - Cada cifra y cada nombre que escribas tiene que estar en los datos. No te corrijas dentro del texto: si dudas, no lo pongas.
+- Mira la antigüedad de los datos: de un sistema con DATOS VIEJOS (más de 2 días) no saques conclusiones ni des su estado como \
+actual; di que hace falta que alguien pase por él con EDMC para saber cómo está.
+- Si hay SEGUIMIENTO DEL PARTE ANTERIOR, empieza la entradilla o un punto valorando en una frase si lo que se pidió ha servido \
+(reconoce lo que mejora, insiste en lo que sigue igual o peor, y si algo no mejora tras dos partes, propón otra forma).
+- Es el {edicion}: tenlo en cuenta en el tono (por la mañana, datos de la noche; por la tarde, recién pasado el tick).
 - No inventes nada: si un dato no está, no lo supongas. Si los datos del tick están incompletos, dilo.
 - Distingue lo que es un peligro real de lo que no (p. ej. Powerplay, o una bajada pequeña en un sistema con mucha ventaja).
 - Mira tendencias (varios días), no solo el último cambio.
@@ -391,13 +446,17 @@ def api(metodo, camino, cuerpo=None, url=None):
         raise SystemExit(f"Error de la API {e.code}: {e.read().decode('utf-8', 'replace')[:500]}")
 
 
-def params(modelo, texto, cfg):
+def params(modelo, texto, cfg, critico=True, edicion="PM"):
+    nombre = "SITREP AM, el parte matutino" if edicion == "AM" else "SITREP PM, el parte vespertino"
     p = {"model": MODELOS[modelo], "max_tokens": int(cfg.get("max_salida", 12000)),
-         "system": INSTRUCCIONES.format(publicar=cfg.get("publicar", "15:00")),
+         "system": INSTRUCCIONES.format(publicar=cfg.get("publicar", "15:00"), edicion=nombre),
          "messages": [{"role": "user", "content": texto}]}
-    if cfg.get("esfuerzo", "medium") != "sin":
+    ef = cfg.get("esfuerzo", "medium")
+    if ef == "auto":                                    # c1.2: medio si hay algo crítico, bajo si el día está tranquilo
+        ef = "medium" if critico else "low"
+    if ef != "sin":
         p["thinking"] = {"type": "adaptive"}
-        p["output_config"] = {"effort": cfg.get("esfuerzo", "medium")}
+        p["output_config"] = {"effort": ef}
     return p
 
 
@@ -427,6 +486,20 @@ def toca_enviar(cfg, info, ahora):
     if DIAS[ahora.weekday()] in [d.lower().replace("é", "e") for d in cfg.get("dias_libres") or []]:
         return False, "hoy es día libre"
     modo = cfg.get("envio", "F").upper()
+    if modo == "T":                             # c1.2: un parte por tick
+        ult, ult_t, tg = info.get("ult_tick") or 0, info.get("ult_t") or 0, info["tick"] or 0
+        h_tras = float(cfg.get("horas_tras_tick", 2))
+        if ahora.timestamp() - ult_t < 8 * 3600:
+            return False, "hace menos de 8 h del último parte"
+        if tg > ult and ahora.timestamp() >= tg + h_tras * 3600:
+            info["edicion"] = "PM"
+            return True, f"SITREP PM: {h_tras:g} h después del tick de las {datetime.fromtimestamp(tg, MAD):%H:%M}"
+        if ahora >= hora_hoy(ahora, cfg.get("respaldo", "08:00")) and ahora.timestamp() - ult_t >= 20 * 3600:
+            info["edicion"] = "AM"
+            return True, f"SITREP AM: a las {cfg.get('respaldo', '08:00')} sin parte en 20 h"
+        if tg > ult:
+            return False, f"tick de las {datetime.fromtimestamp(tg, MAD):%H:%M} detectado: el parte sale {h_tras:g} h después"
+        return False, "esperando al próximo tick"
     if modo == "F":                             # c1.1: hora fija de envío
         h = hora_hoy(ahora, cfg.get("enviar", "08:00"))
         return ahora >= h, f"envío fijo a las {cfg.get('enviar', '08:00')} ({info['al_dia']}/{info['ctrl']} sistemas con dato nuevo)"
@@ -515,12 +588,16 @@ def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
         C["inicio"] = est["fecha"]                  # N.º 1 = primer parte automático (no las pruebas forzadas)
     anio, num = numeracion(C, est["fecha"])
     pub_t = int(time.time()) if est.get("al_llegar") else est["publicar_t"]
+    citados_h = set(re.findall(r"\[\[(.+?)\]\]", " ".join(map(str, p.get("hacer") or []))))
+    p["foto"] = {n: v for n, v in (est.get("foto") or {}).items() if n in citados_h}   # para el seguimiento del próximo parte
+    p["edicion"] = est.get("edicion", "")
     p.update({"fecha": est["fecha"], "publicar_t": pub_t, "modelo": modelo, "id_modelo": MODELOS[modelo],
               "anio": anio, "numero": num,
               "tick": inf["tick"], "al_dia": inf["al_dia"], "ctrl": inf["ctrl"],
               "tokens_in": tin, "tokens_out": tout, "coste": coste(modelo, tin, tout),
               "dudosos": sorted(c for c in citados if c not in nombres), "t": int(time.time())})
-    C["partes"] = [x for x in C["partes"] if not (x.get("fecha") == est["fecha"] and x.get("modelo") == modelo)] + [p]
+    C["partes"] = [x for x in C["partes"] if not (x.get("fecha") == est["fecha"] and x.get("modelo") == modelo
+                                                  and x.get("edicion", "") == p["edicion"])] + [p]
     lim = (datetime.now(MAD) - timedelta(days=GUARDA_DIAS)).strftime("%Y-%m-%d")
     C["partes"] = [x for x in C["partes"] if x.get("fecha", "") >= lim]
     C.update({"ver": VER, "modelo": cfg.get("modelo"), "t": int(time.time())})
@@ -576,7 +653,8 @@ def main():
     if est.get("batch") and not est.get("recogido"):
         recoger(est)
         return
-    if est.get("fecha") == hoy and modo != "forzar":
+    info["ult_tick"], info["ult_t"] = est.get("tick_parte") or 0, est.get("enviado") or 0
+    if est.get("fecha") == hoy and modo != "forzar" and cfg.get("envio", "F").upper() != "T":
         print("El parte de hoy ya se envió")
         return
     si, motivo = toca_enviar(cfg, info, ahora)
@@ -585,13 +663,15 @@ def main():
         return
     al_llegar = modo == "forzar" or not re.match(r"^\d\d:\d\d$", str(cfg.get("publicar", "")))
     pub = ahora if al_llegar else hora_hoy(ahora, cfg["publicar"])
-    cuerpo = {"requests": [{"custom_id": m, "params": params(m, texto, cfg)} for m in modelos]}
+    ed = info.get("edicion") or ("AM" if ahora.hour < 14 else "PM")
+    cuerpo = {"requests": [{"custom_id": m, "params": params(m, texto, cfg, info.get("critico", True), ed)} for m in modelos]}
     b = json.loads(api("POST", "/messages/batches", cuerpo))
     est = {"fecha": hoy, "batch": b["id"], "enviado": int(time.time()), "modelos": modelos,
            "publicar_t": int(time.time()) if al_llegar or ahora >= pub else int(pub.timestamp()),
            "al_llegar": al_llegar, "auto": modo != "forzar",
            "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
            "dic_s": info["dic_s"], "dic_f": info["dic_f"], "oblig": info.get("oblig") or [],
+           "edicion": ed, "tick_parte": info["tick"], "foto": info.get("foto") or {},
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
     print(f"Lote enviado: {b['id']} ({', '.join(modelos)})")

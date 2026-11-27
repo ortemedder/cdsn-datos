@@ -118,6 +118,25 @@ def preparar(F, H, A, tope):
             Li.append(f"nivel {v}: " + ", ".join(ns))
     Li.append("históricos (anteriores a la colonización): " + (", ".join(S(n) for n in sis if n.lower() in her) or "-"))
     partes["SISTEMAS IMPRESCINDIBLES (los elige el almirante; nivel 1 = los más importantes) E HISTÓRICOS"] = Li
+    # huecos: otra faccion en retirada en un historico o imprescindible -> puede entrar una faccion de fuera
+    amz = {}
+    for desde, v in (F.get("vecinos") or {}).items():
+        for e in v.get("exp") or []:
+            for n, ly in e.get("obj") or []:
+                if n not in amz or e["n"] not in amz[n] or ly < amz[n][e["n"]]:
+                    amz.setdefault(n, {})[e["n"]] = ly
+    Lh = []
+    for n, s_ in sis.items():
+        if n.lower() not in niv and n.lower() not in her:
+            continue
+        ret = [x["n"] for x in s_.get("todas") or [] if x.get("n") != F.get("faccion", "Caballeros de Sion")
+               and "Retreat" in (x.get("act") or []) + (x.get("pend") or [])]
+        if ret:
+            E = sorted((amz.get(n) or {}).items(), key=lambda t: t[1])
+            Lh.append(f"{S(n)}: se retira {', '.join(FA(r) for r in ret)} · {len(E)} facciones en expansión pueden llegar"
+                      + (f" (la más cercana {FA(E[0][0])} a {E[0][1]:.1f} al)" if E else ""))
+    if Lh:
+        partes["HUECOS EN HISTÓRICOS/IMPRESCINDIBLES (otra facción se retira: puede entrar una de fuera y quitarnos influencia)"] = Lh
     # --- nuestros sistemas ---
     L = ["#sis|ctrl|inf|antes|dif|2ª|inf2ª|nfac|estados(act/pend/recup)|pob|economía|seg|Powerplay(pot,est,ref,soc)|"
          "visitas(hoy,7d,30d)|portanaves48h|est.CDSN|dato(h tras tick)|hist.inf(últimos)"]
@@ -259,7 +278,8 @@ Reglas:
 - Lo que hagan los comandantes antes del próximo tick cuenta para ese tick: si algo es urgente, di cuánto queda.
 - Prioriza: primero lo que puede costarnos un sistema, después oportunidades.
 - Los sistemas IMPRESCINDIBLES (sobre todo los de nivel 1) son los que el almirante no quiere perder: cualquier peligro en ellos \
-va antes que el resto, aunque sea pequeño, y dilo. Los HISTÓRICOS también pesan más que un sistema cualquiera.
+va antes que el resto, aunque sea pequeño, y dilo. Los HISTÓRICOS también pesan más que un sistema cualquiera. Si en uno de ellos \
+otra facción se retira (HUECOS), avisa del riesgo de que entre una facción de fuera, sobre todo si hay expansiones cerca.
 
 Responde SOLO con un objeto JSON válido, sin texto antes ni después, con esta forma:
 {{"titular": "frase corta", "entradilla": "2-3 frases con lo esencial del día",

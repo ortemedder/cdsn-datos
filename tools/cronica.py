@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-# cronica.py v1.0 - «Parte del día» de Caballeros de Sion escrito por la IA (API de Claude, Batch API)
+# cronica.py v1.1 - «Parte del día» de Caballeros de Sion escrito por la IA (API de Claude, Batch API)
 # Lo ejecuta GitHub Actions cada hora por la mañana (.github/workflows/cronica.yml). Ajustes en cronica_config.json.
 #   python3 tools/cronica.py            -> modo normal: envía el lote cuando toca y recoge el parte cuando está listo
 #   python3 tools/cronica.py local      -> solo prepara los datos y dice cuánto ocupan (sin API, gratis)
 #   python3 tools/cronica.py contar     -> cuenta los tokens exactos con la API (gratis) y lo guarda en cronica_medida.json
 #   python3 tools/cronica.py forzar     -> envía ya, sin mirar hora ni día libre, y se publica en cuanto llega (para probar)
 # Resultado: cronica_ia.json (la web lo enseña a la hora de publicar). Estado interno: cronica_estado.json.
+# c1.1 (27/11/2026): envío fijo («envio": "F", hora «enviar») y publicación al llegar («publicar": "al_llegar"): tras
+#   enviar, espera en el mismo trabajo hasta ~30 min a que el lote termine. Traduce los #N/@N que se le escapen a la IA.
+#   Marca los partes rotos («roto» + motivo + texto en bruto) y los perdidos (error de la API), sin reintentar.
+#   Numeración del periódico: AÑO (año galáctico - 3311) y N.º continuo desde el primer parte automático («inicio»).
 import json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-VER = "c1.0"
+VER = "c1.1"
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 MAD = ZoneInfo("Europe/Madrid")
@@ -191,7 +195,8 @@ def preparar(F, H, A, tope):
         cab = (f"DATOS DE CABALLEROS DE SION (CDSN) · generados {hoy:%d/%m/%Y %H:%M} (hora de España)\n"
                f"Último tick global: {datetime.fromtimestamp(tg, MAD):%d/%m %H:%M} · siguiente tick hacia "
                f"{datetime.fromtimestamp(tg + 86400, MAD):%d/%m %H:%M}\n"
-               f"Sistemas controlados al día tras el tick: {len(al_dia)} de {len(ctrl)}\n")
+               f"Sistemas controlados por CDSN: {len(ctrl)}. De ellos, con dato nuevo recibido después del último tick: {len(al_dia)} "
+               f"(los demás aún no los ha visitado nadie que suba datos; su información es de antes del tick)\n")
         cuerpo = "\n\n".join(f"== {k} ==\n" + "\n".join(v) for k, v in p.items())
         return cab + "\n== DICCIONARIO DE SISTEMAS ==\n" + S.lista() + "\n\n== DICCIONARIO DE FACCIONES ==\n" + FA.lista() + "\n\n" + cuerpo
 
@@ -205,7 +210,9 @@ def preparar(F, H, A, tope):
             partes[k] = partes[k][:len(partes[k]) * 3 // 4] + [f"... (recortado por tamaño)"]
             texto = montar(partes)
     return texto, {"al_dia": len(al_dia), "ctrl": len(ctrl), "tick": tg, "car": len(texto),
-                   "tokens_aprox": int(len(texto) / 3.2), "nombres": list(S.d)}
+                   "tokens_aprox": int(len(texto) / 3.2), "nombres": list(S.d),
+                   "dic_s": [n for n, _ in sorted(S.d.items(), key=lambda t: t[1])],
+                   "dic_f": [n for n, _ in sorted(FA.d.items(), key=lambda t: t[1])]}
 
 
 INSTRUCCIONES = """Eres el oficial de inteligencia de Caballeros de Sion (CDSN), una facción menor del juego Elite Dangerous dirigida por \
@@ -276,16 +283,23 @@ def lee_json_modelo(txt):
 # ---------------------------------------------------------------------------------------------------
 # 3) Cuándo enviar y recoger
 # ---------------------------------------------------------------------------------------------------
+def hora_hoy(ahora, hhmm):
+    return datetime.combine(ahora.date(), datetime.strptime(hhmm, "%H:%M").time(), MAD)
+
+
 def toca_enviar(cfg, info, ahora):
     if not cfg.get("activo", True):
         return False, "desactivado en cronica_config.json"
     if DIAS[ahora.weekday()] in [d.lower().replace("é", "e") for d in cfg.get("dias_libres") or []]:
         return False, "hoy es día libre"
-    pub = datetime.combine(ahora.date(), datetime.strptime(cfg.get("publicar", "15:00"), "%H:%M").time(), MAD)
+    modo = cfg.get("envio", "F").upper()
+    if modo == "F":                             # c1.1: hora fija de envío
+        h = hora_hoy(ahora, cfg.get("enviar", "08:00"))
+        return ahora >= h, f"envío fijo a las {cfg.get('enviar', '08:00')} ({info['al_dia']}/{info['ctrl']} sistemas con dato nuevo)"
+    pub = hora_hoy(ahora, cfg.get("publicar") if re.match(r"^\d\d:\d\d$", str(cfg.get("publicar"))) else "15:00")
     tarde = pub - timedelta(hours=1)            # como muy tarde 1 h antes de publicar
     if ahora >= pub:
         return False, "ya pasó la hora de publicar"
-    modo = cfg.get("envio", "C").upper()
     if modo == "A":
         return ahora >= pub - timedelta(hours=3), "modo A: 3 h antes de publicar"
     if modo == "B":
@@ -295,20 +309,74 @@ def toca_enviar(cfg, info, ahora):
     return bool(listo or ahora >= tarde), f"modo C: {info['al_dia']}/{info['ctrl']} sistemas al día"
 
 
+BASURA = re.compile(r"perd[oó]n|me he liado|lo siento|^\s*\{|\"titular\"", re.I)
+
+
+def traducir(o, ds, df):
+    """Cambia los #N (sistemas, como [[Nombre]]) y @N (facciones) que se le escapen a la IA."""
+    if isinstance(o, str):
+        o = re.sub(r"(?<![\w\[])#(\d+)", lambda m: f"[[{ds[int(m.group(1)) - 1]}]]" if 0 < int(m.group(1)) <= len(ds) else m.group(0), o)
+        return re.sub(r"(?<!\w)@(\d+)", lambda m: df[int(m.group(1)) - 1] if 0 < int(m.group(1)) <= len(df) else m.group(0), o)
+    if isinstance(o, list):
+        return [traducir(x, ds, df) for x in o]
+    if isinstance(o, dict):
+        return {k: traducir(v, ds, df) for k, v in o.items()}
+    return o
+
+
+def roto(p, m):
+    """Motivo por el que el parte no vale (vacío = está bien). No se reintenta: la web lo enseña como interceptado."""
+    if m.get("stop_reason") == "max_tokens":
+        return "cortado (llegó al límite de salida)"
+    if not isinstance(p, dict):
+        return "no es un JSON válido"
+    if not str(p.get("titular") or "").strip() or not str(p.get("entradilla") or "").strip():
+        return "falta el titular o la entradilla"
+    if len(p.get("puntos") or []) < 2 or len(p.get("hacer") or []) < 1:
+        return "faltan puntos clave o acciones"
+    if BASURA.search(str(p.get("titular"))) or BASURA.search(str(p.get("entradilla"))[:200]):
+        return "texto con basura (borradores, disculpas o JSON dentro)"
+    return ""
+
+
+def numeracion(C, fecha):
+    """AÑO (año galáctico - 3311: 3312 = año 1) y N.º continuo desde el primer parte automático."""
+    ini = C.get("inicio")
+    if not ini:
+        return None, None
+    d = datetime.strptime(fecha, "%Y-%m-%d")
+    return d.year + 1286 - 3311, (d - datetime.strptime(ini, "%Y-%m-%d")).days + 1
+
+
 def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
     C = lee("cronica_ia.json", {"ver": VER, "partes": []})
-    m = res["message"]
-    txt = "".join(b.get("text", "") for b in m.get("content", []) if b.get("type") == "text")
-    u = m.get("usage", {})
-    tin = u.get("input_tokens", 0) + u.get("cache_read_input_tokens", 0) + u.get("cache_creation_input_tokens", 0)
-    tout = u.get("output_tokens", 0)
-    try:
-        p = lee_json_modelo(txt)
-    except Exception:
-        p = {"titular": "Parte del día", "entradilla": txt[:3000], "puntos": [], "hacer": [], "oportunidad": ""}
     inf = est.get("info") or info_ahora or {"tick": 0, "al_dia": None, "ctrl": None}
+    if res.get("type") != "succeeded" or "message" not in res:      # c1.1: transmisión perdida (error de la API)
+        p = {"perdido": True, "motivo": res.get("type", "error"), "titular": "", "entradilla": ""}
+        tin = tout = 0
+    else:
+        m = res["message"]
+        txt = "".join(b.get("text", "") for b in m.get("content", []) if b.get("type") == "text")
+        u = m.get("usage", {})
+        tin = u.get("input_tokens", 0) + u.get("cache_read_input_tokens", 0) + u.get("cache_creation_input_tokens", 0)
+        tout = u.get("output_tokens", 0)
+        try:
+            p = lee_json_modelo(txt)
+        except Exception:
+            p = None
+        mot = roto(p, m)
+        if not isinstance(p, dict):
+            p = {"titular": "", "entradilla": "", "puntos": [], "hacer": [], "oportunidad": ""}
+        p = traducir(p, est.get("dic_s") or [], est.get("dic_f") or [])
+        if mot:
+            p.update({"roto": True, "motivo": mot, "bruto": txt[:1500]})
     citados = set(re.findall(r"\[\[(.+?)\]\]", json.dumps(p, ensure_ascii=False)))
-    p.update({"fecha": est["fecha"], "publicar_t": est["publicar_t"], "modelo": modelo, "id_modelo": MODELOS[modelo],
+    if est.get("auto") and not C.get("inicio"):
+        C["inicio"] = est["fecha"]                  # N.º 1 = primer parte automático (no las pruebas forzadas)
+    anio, num = numeracion(C, est["fecha"])
+    pub_t = int(time.time()) if est.get("al_llegar") else est["publicar_t"]
+    p.update({"fecha": est["fecha"], "publicar_t": pub_t, "modelo": modelo, "id_modelo": MODELOS[modelo],
+              "anio": anio, "numero": num,
               "tick": inf["tick"], "al_dia": inf["al_dia"], "ctrl": inf["ctrl"],
               "tokens_in": tin, "tokens_out": tout, "coste": coste(modelo, tin, tout),
               "dudosos": sorted(c for c in citados if c not in nombres), "t": int(time.time())})
@@ -318,7 +386,8 @@ def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
     C.update({"ver": VER, "modelo": cfg.get("modelo"), "t": int(time.time())})
     escribe("cronica_ia.json", C)
     print(f"  parte de {modelo}: {tin} tokens de entrada, {tout} de salida, {p['coste']} $"
-          + (f", nombres dudosos: {p['dudosos']}" if p["dudosos"] else ""))
+          + (f", nombres dudosos: {p['dudosos']}" if p["dudosos"] else "")
+          + (f" · ROTO: {p['motivo']}" if p.get("roto") else "") + (" · PERDIDO" if p.get("perdido") else ""))
 
 
 def main():
@@ -347,23 +416,25 @@ def main():
         return
     est = lee("cronica_estado.json", {}) or {}
     hoy = ahora.strftime("%Y-%m-%d")
-    # recoger un lote pendiente
-    if est.get("batch") and not est.get("recogido"):
+    nombres = set((F.get("sistemas") or {})) | set(F.get("vecinos") or {}) | set(F.get("expansion") or {}) \
+        | set(F.get("zona") or {}) | set((A or {}).get("anarquicos") or {})
+
+    def recoger(est):
         b = json.loads(api("GET", f"/messages/batches/{est['batch']}"))
         print(f"Lote {est['batch']}: {b.get('processing_status')}")
-        if b.get("processing_status") == "ended" and b.get("results_url"):
-            nombres = set((F.get("sistemas") or {})) | set(F.get("vecinos") or {}) | set(F.get("expansion") or {}) \
-                | set(F.get("zona") or {}) | set((A or {}).get("anarquicos") or {})
-            for linea in api("GET", "", url=b["results_url"]).splitlines():
-                if not linea.strip():
-                    continue
+        if b.get("processing_status") != "ended" or not b.get("results_url"):
+            return False
+        for linea in api("GET", "", url=b["results_url"]).splitlines():
+            if linea.strip():
                 r = json.loads(linea)
-                if r["result"]["type"] == "succeeded":
-                    guardar_parte(r["result"], r["custom_id"], est, cfg, nombres, info)
-                else:
-                    print(f"  {r['custom_id']}: {r['result']['type']} {json.dumps(r['result'])[:300]}")
-            est["recogido"] = int(time.time())
-            escribe("cronica_estado.json", est)
+                guardar_parte(r["result"], r["custom_id"], est, cfg, nombres, info)
+        est["recogido"] = int(time.time())
+        escribe("cronica_estado.json", est)
+        return True
+
+    # recoger un lote pendiente
+    if est.get("batch") and not est.get("recogido"):
+        recoger(est)
         return
     if est.get("fecha") == hoy and modo != "forzar":
         print("El parte de hoy ya se envió")
@@ -372,15 +443,23 @@ def main():
     print(("Enviar: " if si else "Aún no: ") + motivo)
     if not si and modo != "forzar":
         return
-    pub = datetime.combine(ahora.date(), datetime.strptime(cfg.get("publicar", "15:00"), "%H:%M").time(), MAD)
+    al_llegar = modo == "forzar" or not re.match(r"^\d\d:\d\d$", str(cfg.get("publicar", "")))
+    pub = ahora if al_llegar else hora_hoy(ahora, cfg["publicar"])
     cuerpo = {"requests": [{"custom_id": m, "params": params(m, texto, cfg)} for m in modelos]}
     b = json.loads(api("POST", "/messages/batches", cuerpo))
     est = {"fecha": hoy, "batch": b["id"], "enviado": int(time.time()), "modelos": modelos,
-           "publicar_t": int(time.time()) if modo == "forzar" or ahora >= pub else int(pub.timestamp()),
-           "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},   # forzar: se publica en cuanto llega
+           "publicar_t": int(time.time()) if al_llegar or ahora >= pub else int(pub.timestamp()),
+           "al_llegar": al_llegar, "auto": modo != "forzar",
+           "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
+           "dic_s": info["dic_s"], "dic_f": info["dic_f"],
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
     print(f"Lote enviado: {b['id']} ({', '.join(modelos)})")
+    # c1.1: esperar aquí mismo (hasta ~30 min) para publicar en cuanto llegue
+    for _ in range(int(cfg.get("espera_min", 30))):
+        time.sleep(60)
+        if recoger(est):
+            break
 
 
 if __name__ == "__main__":

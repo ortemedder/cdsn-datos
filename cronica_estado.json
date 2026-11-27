@@ -1,16 +1,16 @@
 {
  "fecha": "2026-11-27",
- "batch": "msgbatch_01HdhihvdX38vfx4rufaGTUc",
- "enviado": 1795775783,
+ "batch": "msgbatch_014VwRQKypDzquEpc1V2SAaH",
+ "enviado": 1795809879,
  "modelos": [
   "haiku"
  ],
- "publicar_t": 1795775783,
+ "publicar_t": 1795809879,
  "al_llegar": true,
- "auto": false,
+ "auto": true,
  "info": {
-  "tick": 1795708720,
-  "al_dia": 15,
+  "tick": 1795801060,
+  "al_dia": 6,
   "ctrl": 69
  },
  "dic_s": [
@@ -40,15 +40,15 @@
   "Tascheter Sector UT-A b1",
   "Chan Mina",
   "Kunuvii",
+  "Ndabangluya",
   "Tucanae Sector SU-O b6-1",
   "Tucanae Sector HH-V c2-12",
   "Tascheter Sector CG-X b1-3",
   "Tucanae Sector HR-W d1-68",
-  "Ndabangluya",
   "Swoilz AD-F c7",
   "Hyades Sector SU-N b7-5",
-  "Hyades Sector UF-M b8-0",
   "Hyades Sector UF-M b8-3",
+  "Hyades Sector UF-M b8-0",
   "Ibishia",
   "Koamul",
   "BD+34 1378",
@@ -192,10 +192,10 @@
   "Lyncis Sector XJ-R b4-0",
   "Ryujingit",
   "Hyades Sector JX-T c3-11",
+  "Hyades Sector RZ-N b7-5",
   "Jangore",
   "Lyncis Sector XJ-R b4-3",
   "Hidatsa",
-  "Hyades Sector RZ-N b7-5",
   "Satvaneka",
   "Hyades Sector VF-M b8-4",
   "Col 285 Sector RZ-O c6-12",
@@ -218,23 +218,6 @@
   "Celticassag",
   "Hyades Sector RZ-N b7-1",
   "Hyades Sector RZ-N b7-0",
-  "HIP 33287",
-  "Kamu Yamato",
-  "Hyades Sector IC-U c3-14",
-  "77 Kappa Geminorum",
-  "HIP 35755",
-  "Hyades Sector WF-M b8-2",
-  "Hyades Sector IX-R b5-0",
-  "Col 285 Sector NX-S c4-11",
-  "Hyades Sector UK-M b8-5",
-  "Col 285 Sector OX-S c4-17",
-  "Hyades Sector OT-P b6-4",
-  "HR 3277",
-  "HIP 37107",
-  "Col 285 Sector ZJ-N b8-2",
-  "Tiegfries",
-  "Andecavi",
-  "Hyades Sector MY-P b6-0",
   "Hyades Sector PE-O b7-2",
   "HIP 29312",
   "Hyades Sector HX-R b5-1",
@@ -247,6 +230,23 @@
   "Hyades Sector SZ-N b7-1",
   "Hyades Sector QO-P b6-7",
   "HR 2711",
+  "Hyades Sector OT-P b6-1",
+  "Hyades Sector HC-U c3-10",
+  "Xiripa",
+  "Hyades Sector PO-P b6-5",
+  "Awonai",
+  "HDS 1065",
+  "HIP 36319",
+  "Sigma Geminorum",
+  "Saktas",
+  "Kamu Yamato",
+  "HIP 33497",
+  "LHS 1944",
+  "Hyades Sector QO-P b6-6",
+  "Ross 61",
+  "Lyncis Sector NS-T b3-1",
+  "Col 285 Sector OX-S c4-17",
+  "Hyades Sector IC-U c3-14",
   "BD+43 866",
   "Arietis Sector OT-Q b5-1",
   "BD+47 977",
@@ -267,31 +267,29 @@
   "GCRV 2311",
   "Arietis Sector PT-Q b5-5",
   "Hyades Sector VA-M b8-0",
-  "Khaima",
-  "Tascheter Sector ZZ-Y a0",
-  "Ross 584",
-  "HIP 21010",
-  "Tascheter Sector ER-M a7-0",
-  "LHS 1561",
-  "LHS 1547",
-  "HIP 34700",
-  "LP 715-52",
-  "BD+24 1451",
-  "Wolf 229",
-  "LP 535-11",
-  "HIP 24133",
-  "Eudora",
   "Wala",
-  "Didarengu",
-  "Tascheter Sector ZT-A a0",
-  "HIP 29074",
-  "Circe",
-  "RBS 742",
+  "LP 535-11",
+  "10 Tauri",
+  "LHS 1617",
+  "Borr",
   "Ross 588",
-  "Hyades Sector TU-N b7-0",
-  "Lakheo",
-  "Shebera",
-  "Hyades Sector NT-P b6-4",
+  "LHS 1604",
+  "Trianguli Sector RU-O a6-0",
+  "BD+24 1451",
+  "Uoluskas",
+  "Tascheter Sector BA-Z a2",
+  "Ross 584",
+  "Hyades Sector UP-N b7-3",
+  "Gurabru",
+  "GCRV 4259",
+  "HR 2439",
+  "Tascheter Sector AA-Z b4",
+  "Wolf 229",
+  "Snotricopa",
+  "Sioa",
+  "Arietis Sector JS-S b4-5",
+  "Hyades Sector TU-N b7-6",
+  "LP 715-52",
   "Onyaksas",
   "Bota Ili",
   "BD+21 717",
@@ -300,10 +298,7 @@
   "Tascheter Sector CL-Y d115",
   "Ethli",
   "Tascheter Sector BQ-Y c19",
-  "Capo",
-  "San Baltah’Sine",
-  "68 Eridani",
-  "Trianguli Sector TU-O a6-0",
+  "Tascheter Sector BA-Z a1",
   "Venux",
   "LTT 2240",
   "Trianguli Sector KN-S a4-2",
@@ -328,6 +323,12 @@
   "Trianguli Sector UU-O a6-4",
   "Trianguli Sector JC-V b2-7",
   "Trianguli Sector PO-Q a5-4",
+  "Trianguli Sector NT-Q a5-2",
+  "Trianguli Sector KC-V b2-1",
+  "Shokondii",
+  "Dilgariang",
+  "Kameni",
+  "Capo",
   "Nervir",
   "Puppis Sector WJ-R a4-1",
   "Hayimstae",
@@ -343,7 +344,6 @@
   "Sisii",
   "Hyades Sector AC-K b9-7",
   "Ross 23",
-  "Ngauna",
   "HIP 14137",
   "LFT 324",
   "Ndozins",
@@ -356,6 +356,8 @@
   "Wolf 152",
   "Ross 345",
   "Tascheter Sector DB-X b1-4",
+  "Tascheter Sector MY-R a4-3",
+  "LFT 269",
   "Tascheter Sector DB-X b1-6",
   "Arietis Sector HI-H a11-3",
   "Piscium Sector UT-Z a0",
@@ -371,14 +373,8 @@
   "Ross 591",
   "Fomovithi",
   "Beetrix",
-  "Trianguli Sector AB-W a2-3",
-  "Cahuile",
-  "Hyades Sector JZ-K a23-2",
-  "Hyades Sector YG-K b9-6",
-  "LP 658-44",
-  "LHS 1882",
-  "Trianguli Sector RZ-O a6-3",
-  "Puppis Sector YE-R a4-1",
+  "Arietis Sector NU-D a13-3",
+  "Dymiay",
   "LHS 1807",
   "Bohmshohm",
   "Amait",
@@ -399,25 +395,20 @@
   "Tascheter Sector KH-V b2-5",
   "LP 658-33",
   "V352 Canis Majoris",
+  "Trianguli Sector KS-T b3-4",
+  "Trianguli Sector PT-Q a5-2",
+  "Trianguli Sector AH-L a8-1",
+  "58 Eridani",
+  "Tiamat",
+  "Tascheter Sector FR-M a7-1",
+  "El",
+  "Fortuna",
+  "LHS 1882",
   "Hyades Sector IC-U c3-8",
   "Ceti Sector QY-R b4-1",
   "Parrot's Head Sector DQ-Y c14",
   "Hyades Sector EB-X d1-111",
   "Hyades Sector LI-R b5-3",
-  "Ashandras",
-  "Parrot's Head Sector QS-T b3-0",
-  "Ross 27",
-  "Tascheter Sector BQ-Y c21",
-  "Parrot's Head Sector EQ-Y c7",
-  "Bhagutsuk",
-  "Col 285 Sector RZ-O c6-8",
-  "Jastreb Sector CB-X b1-6",
-  "NLTT 14879",
-  "Fortuna",
-  "Col 285 Sector IZ-D b13-1",
-  "Arietis Sector OU-D a13-1",
-  "Tascheter Sector FM-V b2-3",
-  "Manamaya",
   "NLTT 8422",
   "Warnates",
   "Parrot's Head Sector EL-Y d83",
@@ -431,6 +422,17 @@
   "Hajangai",
   "Shedi",
   "Yin Sector YU-Y b4",
+  "Jastreb Sector CB-X b1-7",
+  "Gertrud",
+  "LHS 1814",
+  "Kwaraseti",
+  "Aonga",
+  "Mentor",
+  "LP 157-32",
+  "Gliese 3299",
+  "Col 285 Sector RZ-O c6-8",
+  "Col 285 Sector IZ-D b13-1",
+  "Hlin",
   "Lenginang",
   "Kupana",
   "Lyncis Sector MX-T b3-1",
@@ -445,72 +447,61 @@
   "Lyncis Sector KX-T b3-1",
   "Saras",
   "Crucis Sector AP-R a4-2",
-  "Shenetserii",
-  "LHS 1651",
-  "BD-15 447",
-  "Hyades Sector RE-G b11-4",
+  "Kenna",
+  "Gaunab",
+  "LTT 1190",
+  "BD-22 286",
+  "Ceti Sector KX-T b3-3",
+  "Trianguli Sector RU-O a6-2",
+  "Ceti Sector GR-V b2-1",
   "LAWD 15",
-  "Ceti Sector DL-X b1-6",
-  "Kausalya",
-  "Har Pahary",
-  "Trianguli Sector SU-O a6-4",
-  "Wodimui",
-  "Nogatas",
-  "Arinack",
-  "Ceti Sector CL-X b1-0",
-  "Hsinga",
-  "CD-26 369",
-  "LP 772-72",
   "Findalibila",
-  "Kachian",
-  "Ceti Sector FB-X c1-26",
-  "Trianguli Sector NI-T b3-1",
-  "Trianguli Sector NI-T b3-6",
-  "Tanmark",
-  "LTT 1272",
-  "Wuluwait",
+  "Trianguli Sector OO-Q a5-1",
+  "LTT 1353",
+  "HR 692",
+  "Neits",
+  "Ceti Sector FW-V b2-2",
+  "Decima",
+  "LDS 46",
+  "Ceti Sector GR-V b2-6",
+  "LTT 1479",
   "LP 834-42",
-  "Tau-6 Eridani",
-  "Tum",
-  "Lalande 6320",
+  "Arinack",
+  "LEHPM 1902",
+  "Tascheter Sector YZ-P a5-0",
   "Alpha Fornacis",
+  "LHS 20",
+  "Palliyar",
+  "Ceti Sector CL-X b1-0",
+  "Artemis",
+  "LHS 1582",
+  "Lalande 6320",
   "Nergal",
   "BD+55 570",
   "Wolf 186",
   "Tascheter Sector GM-V a2-0",
   "Muraba",
   "Tascheter Sector CG-X a1-1",
+  "12 Persei",
   "Tascheter Sector EG-X a1-5",
-  "Col 285 Sector PT-Q c5-21",
+  "Ngauna",
+  "Clarus",
+  "Esuvit",
+  "Du Shenge",
   "HR 2339",
   "Tascheter Sector AA-Z b3",
   "Trianguli Sector VF-N a7-1",
   "V1402 Orionis",
   "Hyades Sector EW-V c2-13",
-  "Hrunda",
   "Sanda",
-  "MCC 460",
   "Shivis",
   "Mukun",
-  "Rutena",
   "HIP 20722",
   "Agrippa",
   "Lyncis Sector JR-W c1-12",
   "Lese",
   "Lyncis Sector IR-W c1-11",
   "Lyncis Sector FG-Y d90",
-  "Hyades Sector SK-M b8-3",
-  "Col 285 Sector IX-T d3-62",
-  "Col 285 Sector JE-E b13-1",
-  "Parinta",
-  "Col 285 Sector PA-C b14-6",
-  "Ross 214",
-  "Khun",
-  "Jarildekald",
-  "Col 285 Sector DS-H b11-3",
-  "HR 8696",
-  "Col 285 Sector YR-H b11-4",
-  "Col 285 Sector GT-F b12-0",
   "Col 285 Sector JP-C b14-3",
   "Col 285 Sector JP-C b14-0",
   "HIP 105981",
@@ -527,8 +518,21 @@
   "Col 285 Sector SZ-O c6-15",
   "RZ Cassiopeiae",
   "Sawahinn",
+  "Col 285 Sector RF-C b14-6",
+  "5 Tau Cassiopeiae",
+  "Col 285 Sector IX-T d3-62",
+  "Col 285 Sector IX-T d3-43",
+  "Col 285 Sector QF-C b14-6",
+  "Col 285 Sector AX-H b11-4",
+  "Col 285 Sector GO-E b13-1",
+  "Col 285 Sector OK-C b14-6",
+  "Khun",
+  "Ross 667",
+  "Col 285 Sector BN-H b11-6",
+  "HIP 760",
   "Col 285 Sector VF-N c7-32",
   "Col 285 Sector NF-C b14-5",
+  "Col 285 Sector PA-C b14-6",
   "HIP 44811",
   "Fonga",
   "Akuntsu",
@@ -545,17 +549,15 @@
   "Crucis Sector HB-X b1-6",
   "Col 285 Sector BG-T b18-3",
   "Antliae Sector JM-W c1-31",
-  "LHS 1124",
-  "Audhumla",
   "LP 826-59",
   "Tsim Binba",
   "Othel",
   "Lorden",
   "Chimechilo",
+  "Ceti Sector FB-X c1-26",
   "Apam Napat",
   "Lushu",
   "EGM 762",
-  "LTT 1190",
   "Ceti Sector QY-R b4-4",
   "Ceti Sector GR-V b2-4",
   "LTT 751",
@@ -574,6 +576,7 @@
   "Ceti Sector KX-T b3-2",
   "LP 883-185",
   "Ceti Sector QY-R b4-0",
+  "HDS 123",
   "Tascheter Sector AV-Y b6",
   "Ceti Sector AV-Y c22",
   "HIP 9127",
@@ -590,7 +593,10 @@
   "Nauacan",
   "NLTT 8234",
   "Patal",
+  "HIP 9753",
+  "Tascheter Sector CL-Y d135",
   "Mwamen",
+  "LHS 1124",
   "Arngi",
   "LP 826-605",
   "HR 197",
@@ -599,22 +605,6 @@
   "CD-25 480",
   "LHS 1217",
   "Ahti",
-  "Trianguli Sector II-S a4-4",
-  "LTT 12193",
-  "Hahgwe",
-  "LP 302-22",
-  "LHS 231",
-  "Ninmah",
-  "Tascheter Sector AA-Z b2",
-  "Tascheter Sector FB-X b1-4",
-  "LHS 1794",
-  "LHS 1838",
-  "Sairre",
-  "Zandu",
-  "Tao Ti",
-  "LP 308-10",
-  "LTT 17868",
-  "Trianguli Sector LT-Q a5-0",
   "Crowfor",
   "G 98-44",
   "Yin Sector EQ-Y b3",
@@ -622,6 +612,22 @@
   "Timocani",
   "Tascheter Sector FG-X b1-1",
   "Aravaci",
+  "LHS 1933",
+  "Tamalhikas",
+  "Sete",
+  "Waruts",
+  "LP 302-22",
+  "Psi-5 Aurigae",
+  "Trianguli Sector DL-Y c15",
+  "Ninmah",
+  "LHS 6119",
+  "Tascheter Sector IM-V b2-6",
+  "Tascheter Sector HM-V b2-4",
+  "Shibboleth",
+  "Tascheter Sector FB-X b1-4",
+  "Cosi",
+  "LHS 231",
+  "Nandjabinja",
   "Moram",
   "HIP 46624",
   "Ostyat",
@@ -630,17 +636,13 @@
   "HIP 45533",
   "Antliae Sector KM-W b1-7",
   "HIP 49248",
+  "Muthi",
   "Tascheter Sector AA-Z b0",
   "ICZ WY-A b0",
   "Parrot's Head Sector EL-Y d70",
-  "ICZ BF-Z b4",
-  "Gende",
-  "Iztaccihuatl",
-  "ICZ BF-Z b1",
   "Pegasi Sector AQ-X b1-7",
   "Pegasi Sector ZU-X b1-8",
   "Njungum",
-  "HIP 41777",
   "Harrigus",
   "Monosus",
   "Caereddi",
@@ -658,7 +660,6 @@
   "Piscium Sector SD-T b3-7",
   "LTT 11103",
   "LHS 1228",
-  "LDS 46",
   "Piscium Sector QI-T b3-5",
   "Ceti Sector JX-T b3-2",
   "BD-14 249",
@@ -674,6 +675,7 @@
   "Col 285 Sector NJ-P c6-5",
   "Col 285 Sector DR-V d2-57",
   "Col 285 Sector YP-O d6-107",
+  "Col 285 Sector NJ-L b23-6",
   "Hyades Sector DB-W c2-7",
   "Col 285 Sector DL-X d1-36",
   "Evnis",
@@ -688,32 +690,37 @@
   "Col 285 Sector AL-P a35-3",
   "Col 285 Sector NS-J c9-30",
   "ICZ CV-Y c19",
+  "Col 285 Sector JE-E b13-1",
   "Col 285 Sector AH-J b10-4",
   "HIP 44745",
+  "Hahgwe",
   "HIP 49644",
   "Col 285 Sector XZ-U b17-3",
   "Col 285 Sector FW-N a36-1",
+  "Col 285 Sector VU-E c12-5",
+  "Trianguli Sector ZL-L a8-0",
+  "Col 285 Sector TK-J b24-5",
+  "Col 285 Sector YZ-U b17-9",
+  "Col 285 Sector YP-O d6-99",
+  "Col 285 Sector VU-E c12-2",
+  "Col 285 Sector GM-V d2-89",
+  "Col 285 Sector UY-S a33-1",
   "Hyades Sector WA-M b8-5",
   "HIP 41832",
   "HIP 8717",
   "Col 285 Sector WA-L b9-0",
-  "Arietis Sector JS-S b4-5",
   "Col 285 Sector JM-L c8-6",
+  "Col 285 Sector DS-H b11-3",
   "Col 285 Sector RZ-O c6-5",
+  "Andecavi",
   "Te Kaha",
   "Col 285 Sector NY-Q c5-19",
   "Col 285 Sector VF-L b9-5",
+  "Col 285 Sector PT-Q c5-21",
+  "Col 285 Sector BH-J b10-2",
+  "Col 285 Sector GM-V d2-106",
   "HIP 7916",
   "Ceti Sector KX-T b3-1",
-  "Palliyar",
-  "BD+28 737",
-  "Crathiganit",
-  "Clarus",
-  "Esuvit",
-  "GAT 1373",
-  "LHS 1803",
-  "Trianguli Sector BG-X b1-5",
-  "Tascheter Sector ZT-A a2",
   "StKM 1-626",
   "Tascheter Sector CG-X b1-4",
   "Tascheter Sector HM-V b2-2",
@@ -723,8 +730,15 @@
   "Chonost",
   "Tascheter Sector XO-A b5",
   "Lalande 10797",
+  "LHS 1794",
+  "Eudora",
   "Cemplatui",
-  "Tascheter Sector FR-M a7-1",
+  "Trianguli Sector BG-X b1-0",
+  "Dongkum",
+  "Geawenki",
+  "Crathiganit",
+  "GAT 1373",
+  "Tascheter Sector ZT-A a1",
   "LHS 6127",
   "Kunlun",
   "Kugaybaks",
@@ -732,6 +746,7 @@
   "HIP 21167",
   "Nebthet",
   "Nidanga",
+  "Hyades Sector HC-T b4-4",
   "Col 285 Sector PJ-M b22-1",
   "Kunaheo",
   "Col 285 Sector VK-K b23-1",
@@ -744,26 +759,35 @@
   "Nadur",
   "Col 285 Sector UP-K b23-1",
   "Col 285 Sector RE-M b22-7",
+  "Col 285 Sector RE-M b22-4",
+  "Mons",
+  "Col 285 Sector UE-G c11-14",
+  "Col 285 Sector UE-G c11-31",
   "Ceti Sector HR-V b2-0",
   "Col 285 Sector KE-E b13-1",
   "Wargis",
   "10 Rho-3 Eridani",
   "Gliese 2030",
   "14 Eridani",
+  "HIP 14684",
   "Col 285 Sector HT-F b12-6",
   "Col 285 Sector CK-X b15-6",
   "Col 285 Sector XZ-U b17-5",
   "Col 285 Sector QE-P c6-14",
   "Yanerones",
   "Mundigal",
+  "Hyades Sector RY-I b9-3",
   "Col 285 Sector DR-V d2-53",
-  "HIP 760",
   "Col 285 Sector DR-V d2-31",
+  "Hyades Sector IX-R b5-0",
   "Col 285 Sector JR-U c3-2",
   "Col 285 Sector JR-U c3-3",
   "Col 285 Sector JR-U c3-4",
   "Col 285 Sector NX-S c4-12",
   "Col 285 Sector ZJ-N b8-3",
+  "Col 285 Sector NX-S c4-11",
+  "HIP 37107",
+  "Col 285 Sector ZJ-N b8-2",
   "Pegasi Sector ZU-X b1-3",
   "Naren",
   "Lyncis Sector FG-Y d92",
@@ -781,11 +805,18 @@
   "Arietis Sector HI-H a11-0",
   "Baroju",
   "Lyncis Sector LH-V b2-2",
+  "HIP 20094",
+  "Savian",
+  "HIP 24463",
+  "Hyades Sector EH-T b4-3",
+  "Hyades Sector FR-V c2-13",
   "Col 285 Sector JS-T d3-69",
-  "Cama Zotz",
+  "HR 8696",
   "Trianguli Sector CH-L a8-4",
   "Buzhang Ku",
   "Col 285 Sector VJ-R a34-1",
+  "Col 285 Sector WE-R a34-1",
+  "Col 285 Sector AQ-P a35-3",
   "ICZ CF-Z b5",
   "ICZ DQ-X b1-6",
   "Kamadhenu",
@@ -806,15 +837,30 @@
   "Bragur",
   "Amitrite",
   "ICZ BF-Z b0",
+  "ICZ FL-X b1-0",
+  "ICZ CQ-Y d120",
+  "Swoilz FJ-D c1-2",
+  "ICZ CV-Y c17",
+  "ICZ DQ-X b1-3",
+  "CD-62 136",
+  "Iztaccihuatl",
+  "ICZ HG-X b1-4",
   "Wuluang",
   "Shui Wei Sector HG-X b1-1",
   "HIP 22953",
   "Itzam Crua",
   "Tucanae Sector RJ-Q b5-2",
+  "Col 285 Sector YR-H b11-4",
   "Arugh",
   "Hyades Sector ZB-K b9-4",
+  "Col 285 Sector OE-L b23-3",
+  "ICZ BF-Z b1",
+  "HIP 68598",
   "Col 285 Sector LD-O b21-6",
   "Pegasi Sector VO-Z b7",
+  "Yenici",
+  "Alpha Reticuli",
+  "Erisagirari",
   "Col 285 Sector QL-I b11-1",
   "Col 285 Sector PT-Q c5-17",
   "Trianguli Sector UU-O a6-1",
@@ -824,7 +870,6 @@
   "Tucanae Sector MT-Q b5-2",
   "Meni",
   "Col 285 Sector DR-V d2-19",
-  "Trianguli Sector KC-V b2-1",
   "HR 1668",
   "Lyncis Sector EL-Y c8",
   "Lyncis Sector EL-Y c9",
@@ -837,40 +882,37 @@
   "Hyades Sector TU-N b7-4",
   "Ross 71",
   "Didayac",
+  "Hyades Sector TU-N b7-0",
   "Trianguli Sector SU-O a6-2",
   "Tascheter Sector DG-O a6-4",
   "Bestakas",
-  "GCRV 4259",
   "Tascheter Sector ZZ-Y b4",
   "Strigenses",
   "Sarugh",
   "Gollobo",
-  "Awonai",
+  "HIP 33287",
+  "LHS 1803",
   "BD-09 956",
-  "HR 2439",
   "Apadecavi",
   "Guei",
   "Col 285 Sector YZ-U b17-2",
-  "BD-22 286",
-  "Kwaraseti",
-  "Aonga",
   "Hyades Sector OO-P b6-4",
   "Edenses",
   "Hyades Sector RZ-N b7-4",
   "LHS 1747",
+  "Trianguli Sector SU-O a6-4",
   "HIP 27528",
-  "Trianguli Sector AH-L a8-1",
   "Hyades Sector DW-V c2-12",
   "Daga tri",
   "Tascheter Sector ZZ-P a5-0",
   "Ceti Sector GR-V b2-5",
-  "Tascheter Sector AA-Z b4",
   "Col 285 Sector YR-G b12-4",
   "Trianguli Sector QZ-O a6-3",
-  "Tascheter Sector CL-Y d135",
   "Trianguli Sector QZ-O a6-0",
   "Hou Warwa",
   "Tascheter Sector ZZ-P a5-1",
+  "Tascheter Sector AA-Z b2",
+  "BD+28 737",
   "Bondranses",
   "Chipibogi",
   "Trianguli Sector SU-O a6-3",
@@ -884,30 +926,31 @@
   "Tascheter Sector ZZ-P a5-2",
   "Turmati",
   "Renetes",
+  "Hyades Sector NT-P b6-4",
   "Kwangwutii",
   "Fimbulwinter",
   "Hyades Sector VA-M b8-1",
   "Hyades Sector IN-R b5-1",
-  "LP 157-32",
   "Ross 411",
   "LP 716-35",
-  "Gurabru",
   "Trianguli Sector QZ-O a6-4",
   "Ceti Sector EW-V b2-5",
   "Tascheter Sector ZZ-P a5-6",
   "Hyades Sector NT-P b6-3",
-  "Mentor",
+  "Trianguli Sector TU-O a6-0",
   "HIP 26933",
   "HIP 47625",
-  "Ceti Sector KX-T b3-3",
+  "HIP 35755",
   "Hyades Sector UU-N b7-4",
   "Col 285 Sector RY-W b16-4",
   "Yaro",
   "Hyades Sector DB-X d1-61",
+  "Lakheo",
   "Tascheter Sector BL-O a6-3",
   "BD+24 1529",
   "Hyades Sector YG-K b9-3",
   "Tascheter Sector DG-O a6-1",
+  "Bhagutsuk",
   "Deriv-Dar",
   "Kou Zu",
   "Oscabi",
@@ -915,13 +958,15 @@
   "Onileut",
   "BD-04 782",
   "Findbhair",
+  "68 Eridani",
   "Tascheter Sector CL-O a6-2",
-  "Snotricopa",
   "Arietis Sector QT-Q b5-5",
   "HIP 117390",
   "Ceti Sector EG-X b1-2",
+  "HIP 44510",
   "Tascheter Sector CL-O a6-1",
   "Kwiamo",
+  "Khaima",
   "BD+19 1405",
   "Iku-Turso",
   "Phra Saman",
@@ -929,6 +974,7 @@
   "Tascheter Sector GR-M a7-0",
   "Hyades Sector QE-O b7-3",
   "HIP 28774",
+  "Parrot's Head Sector EQ-Y c7",
   "Trianguli Sector PO-Q a5-2",
   "Hyades Sector SZ-N b7-4",
   "Tascheter Sector CQ-Y c21",
@@ -946,6 +992,7 @@
   "Acokwa",
   "Kamuti",
   "HIP 17820",
+  "Trianguli Sector BG-X b1-5",
   "Ceti Sector GR-V b2-3",
   "Rindjibal",
   "Hyades Sector PE-O b7-4",
@@ -956,6 +1003,7 @@
   "Jeticans",
   "Bero",
   "Vardh",
+  "NLTT 14879",
   "Wolf 289",
   "NLTT 17993",
   "BD+20 1018",
@@ -963,6 +1011,7 @@
   "Trianguli Sector WF-N a7-0",
   "LFT 361",
   "Col 285 Sector JS-T d3-60",
+  "LHS 1651",
   "Hyades Sector YG-K b9-4",
   "Pegasi Sector DB-W b2-1",
   "Tascheter Sector FG-X b1-6",
@@ -975,10 +1024,11 @@
   "LTT 11655",
   "Ceti Sector EW-V b2-4",
   "Yukpenon",
+  "Trianguli Sector RZ-O a6-3",
   "Dakvar",
   "LP 365-24",
   "Tascheter Sector FR-M a7-2",
-  "LHS 1944",
+  "Ashandras",
   "Trianguli Sector BQ-Y c15",
   "Trianguli Sector PO-Q a5-5",
   "Pegasi Sector EB-X c1-10",
@@ -987,12 +1037,12 @@
   "Tascheter Sector WE-Q a5-1",
   "Kutjini",
   "HIP 23302",
+  "Tascheter Sector BQ-Y c21",
+  "Nipibo",
   "Zeta Leporis",
   "Parrot's Head Sector EQ-Y c6",
   "Cursa",
   "Yin Sector XZ-Y b2",
-  "Ceti Sector GR-V b2-1",
-  "Uoluskas",
   "Ndan",
   "Holo",
   "Col 285 Sector KE-E b13-6",
@@ -1003,32 +1053,36 @@
   "Hyades Sector OT-P b6-5",
   "Tascheter Sector HR-M a7-0",
   "EGM 823",
+  "HIP 24133",
   "Col 285 Sector VJ-R a34-3",
   "BD+65 1984",
   "Col 285 Sector RD-T a33-5",
+  "Parrot's Head Sector QS-T b3-0",
   "Col 285 Sector RE-P c6-5",
   "Tascheter Sector HR-M a7-1",
-  "LHS 1933",
   "BD-00 632",
   "Lyncis Sector ZU-P b5-1",
+  "Shenetserii",
   "Thiin",
   "Tascheter Sector IM-M a7-1",
   "BD+22 1802",
   "Trianguli Sector MT-Q a5-3",
-  "Sankula",
   "GCRV 2971",
+  "Tau-6 Eridani",
   "Maiden",
   "Any Na",
+  "Nogatas",
   "HIP 116221",
   "Gyvatices",
   "Col 285 Sector XF-N c7-12",
-  "Trianguli Sector RU-O a6-2",
+  "Sairre",
   "Wakawal",
   "Tascheter Sector HM-M a7-1",
+  "Didarengu",
   "Hyades Sector QO-P b6-5",
   "Mirongkomi",
   "Wiknani",
-  "Hyades Sector OT-P b6-1",
+  "Tanmark",
   "ICZ FL-X b1-4",
   "Bakuari",
   "Col 285 Sector SZ-O c6-1",
@@ -1046,25 +1100,25 @@
   "Piscium Sector SD-T b3-0",
   "Lyncis Sector VO-R b4-2",
   "Caerus",
+  "BD+05 1146",
   "Carichilo",
   "Col 285 Sector RZ-O c6-23",
   "Alhena",
-  "HIP 33497",
   "Padhyas",
   "Piscium Sector TT-Z a5",
   "Sui Xing",
+  "Hyades Sector UK-M b8-5",
   "Ceti Sector KX-T b3-0",
   "Tascheter Sector FB-X b1-7",
-  "Decima",
   "Ross 568",
   "Lyncis Sector IM-V b2-2",
   "Shouvul",
-  "Delphin",
   "Arietis Sector TZ-O b6-1",
   "MCC 488",
   "Koirada",
   "Col 285 Sector BW-V d2-52",
   "Trianguli Sector AM-L a8-1",
+  "Ross 27",
   "Col 285 Sector SZ-O c6-20",
   "Col 285 Sector BF-N b8-3",
   "Col 285 Sector IM-L c8-19",
@@ -1077,25 +1131,24 @@
   "Baraluhet",
   "Synuefe TL-C c29-5",
   "LHS 6103",
+  "HR 3277",
   "Hyades Sector WV-L b8-2",
-  "Geawenki",
   "LTT 1015",
   "HIP 23402",
   "Col 285 Sector XJ-R a34-0",
   "LTT 12089",
   "Tascheter Sector TY-R a4-2",
   "Col 285 Sector RY-W b16-1",
+  "Hyades Sector WF-M b8-2",
   "LFT 179",
   "Umaspi",
   "HIP 48376",
-  "Col 285 Sector BN-H b11-6",
-  "Cosi",
   "Leuctra",
   "Tascheter Sector AL-O a6-0",
   "Arietis Sector MN-S b4-5",
+  "Manamaya",
   "LHS 1798",
   "Argestes",
-  "Kenna",
   "Furuhjelm II-432",
   "Ceti Sector CL-X b1-4",
   "Bestia",
@@ -1104,69 +1157,42 @@
   "Hyades Sector DW-V c2-15"
  ],
  "dic_f": [
-  "Natural Atese Front",
-  "Hima Comms Network",
   "Beasts of Bestia",
+  "THE AZGHARIE",
+  "Natural Atese Front",
   "Sirius Special Forces",
-  "Atese Industries",
   "Nagii Union",
   "Wathiparian Power Corp.",
   "160 S.O.A.R.",
-  "Alchemy Den",
   "CHIMERA",
+  "Atese Industries",
   "HR 6421 Progressive Party",
-  "Social Benapus Green Party",
   "Canonn",
   "Atese Labour",
-  "Browncoat Uprising",
   "Escuadron Centinelas",
-  "Revolutionary BD+34 1378 Future",
-  "Kamilagro Values Party",
-  "Ditia United Interstellar",
   "Sirius Corporation",
-  "NN 3365 Corp.",
-  "Jet Travel Services",
   "The Fatherhood",
   "United Burr Partnership",
   "Agwa Nationalists",
   "Tastis Company",
-  "Leaders of Apinayimas",
+  "Hima Comms Network",
   "Atese Camorra",
   "Elivagar for Equality",
+  "Jet Travel Services",
   "HIP 33282 Commodities",
   "Condharwal Council",
+  "Alchemy Den",
   "Children of Raxxla",
-  "Order of Enblackenment",
-  "THE AZGHARIE",
-  "Guardians of Harmony",
   "Nanamatha Progressive Party",
-  "Flotta Stellare",
-  "Privateer's Alliance",
-  "The Pensioner's Corp",
-  "Federal Republican Guard",
   "Mezanik Empire Group",
   "Interplanetary Explorations",
-  "Wolves of Jonai",
-  "Ukrainian Pilots Federation",
   "Lunar Rising Corporation",
-  "LP 254-40 Co",
-  "The Order of Mobius",
-  "Lavigny's Legion",
-  "Haraka Incorporated",
   "Solaris Xeno-Psychology Group",
+  "Flotta Stellare",
+  "Leaders of Apinayimas",
   "Flat Galaxy Society",
-  "Latji Coalition",
-  "Quebecois Patriots",
-  "Guardians of Tranquillity",
-  "HIP 67527 Inc",
-  "Congressus Tenebris",
-  "Social LP 158-2 Resistance",
-  "Barons of Runab",
-  "Green Party of BD+27 1356",
   "Caballeros de Sion",
-  "Hima Incorporated",
-  "Hima Co-operative",
-  "Cartel of Hima",
+  "Wolves of Jonai",
   "Pirawoth Republic Party",
   "Pirawoth Nobles",
   "Pirawoth Purple Advanced Group",
@@ -1180,53 +1206,28 @@
   "Hand Gang of Eluskapu",
   "New Adjukru Coalition",
   "Adjukru Silver Brotherhood",
-  "Movement for Ariminimi Labour Union",
-  "Jitabed Raiders",
-  "Gang of Undalibaluf",
   "Benapus Netcoms Inc",
+  "Social Benapus Green Party",
   "Benapus Gold Galactic Solutions",
   "League of Benapus Order",
   "Mob of Benapus",
-  "Aristocrats of Lhou Wangs",
   "Mau Labour",
   "Mau Jet Dynamic Co",
   "Mau Council",
   "Mau Life Corporation",
   "Justice Party of Mau",
+  "Gang of Undalibaluf",
   "Diaguthivar Industry",
-  "HIP 28774 Inc",
-  "Chan Mina Jet General Holdings",
-  "Chan Mina Shared",
-  "Chan Mina Purple Organisation",
   "People's Kunuvii Democrats",
   "Kunuvii Jet Comms Co",
   "Kunuvii Pro-Independent Union",
   "Posse of Kunuvii",
-  "Benelux Commanders",
-  "Ndabangluya Corp.",
   "Natural Ndabangluya League",
   "Ndabangluya Independents",
+  "Ndabangluya Corp.",
   "League of Ndabangluya Law Party",
   "Ndabangluya Blue Organisation",
-  "Aisling's Angels",
   "LTT 11648 Partners",
-  "Ibishia Bridge Network",
-  "Ibishia Republic Party",
-  "Ibishia Inc",
-  "Dukes of Ibishia",
-  "Ibishia Blue Posse",
-  "Koamul Silver Brothers",
-  "Koamul Prison Colony",
-  "Confederation of Koamul",
-  "BD+34 1378 Universal & Co",
-  "New BD+34 1378 Conservatives",
-  "BD+34 1378 Natural Interstellar",
-  "BD+34 1378 Gold Pirates",
-  "Kamilagro Universal Group",
-  "Traditional Kamilagro Dominion",
-  "Kamilagro Organisation",
-  "East India Company",
-  "Movement for LHS 20 Liberals",
   "Qahat Services",
   "Prajau Galactic Incorporated",
   "Brotherhood of Prajau",
@@ -1234,24 +1235,13 @@
   "Prajau Democrats",
   "Kolaga Republic Party",
   "Fimbulwinter Camorra",
-  "NN 3365 Focus",
-  "Revolutionary Party of NN 3365",
-  "Independent NN 3365 Green Party",
-  "NN 3365 Posse",
-  "Worker's Party of Alexis Centauri",
-  "Lu Pardan Family",
   "The Guild of Sefry",
   "The Dukes of Mikunn",
-  "United Jitabed Party",
-  "Workers of Jitabed Liberals",
-  "Jitabed Purple Public Corp",
-  "Official Jitabed Justice Party",
   "Burr Jet Fortune Industries",
   "Burr Boys",
   "Children of the Sun",
+  "East India Company",
   "Ngauna Incorporated",
-  "Crimson Private Military Corporation",
-  "Aristocrats of Allowini",
   "Xelas Blue Clan",
   "Wathiparian Crimson Major Group",
   "Wathiparian Defence Party",
@@ -1267,6 +1257,7 @@
   "Dominion of Lu Pardan",
   "Defence Force of Lu Pardan",
   "Revolutionary Lu Pardan Free",
+  "Lu Pardan Family",
   "Wolf 280 Partners",
   "Union of Wolf 280 Coalition",
   "Drug Empire of Wolf 280",
@@ -1276,190 +1267,44 @@
   "HIP 33282 Future",
   "HIP 33282 Mafia",
   "Democrats of Condharwal",
-  "Noblemen of Condharwal",
+  "Order of Enblackenment",
   "Condharwal Exchange",
+  "Noblemen of Condharwal",
   "Condharwal Purple Partnership",
   "HR 6421 Purple Partnership",
-  "League of Apadecavi Order",
-  "Apadecavi Crew",
   "Sanctified Chapter of Backlumba",
   "Brothers of HIP 32382",
-  "Chothe Confederation",
-  "United BD+47 1236 Independents",
-  "Ba Jonandja Republic Party",
-  "Chothe Corporation",
-  "Mafia of Chothe",
-  "Revolutionary Party of Rong",
-  "Mu Kin Co-op",
-  "Windumu Gold Central Holdings",
-  "HIP 31143 Services",
-  "Aristocrats of HIP 31143",
-  "People's HIP 31143 Partnership",
-  "HIP 31143 Silver Mafia",
   "The Winged Hussars",
   "HIP 110094  Governance",
   "HIP 110094 Camorra",
-  "Revolutionary Furuhjelm II-432 Alliance",
-  "Brazilian League of Pilots",
-  "Bubians Purple Syndicate",
   "Edenses Comms Incorporated",
   "Wolf 258 Silver Organisation",
-  "Kwaritreni Creative Industries",
-  "Family of Kwaritreni",
-  "CROSS Corp",
-  "Ariminimi Organisation",
-  "Ariminimi Domain",
-  "277th Rapid Response Division",
-  "Storm Seekers",
-  "Cemiess Empire Party",
-  "HIP 32135 Conservatives",
-  "Radiant Ruby Control Cooperative",
-  "Varati Blue Public Limited",
   "Galactic Rangers",
   "Bar of Dreamers Inc",
   "Bundhar Group",
   "HIP 2364 Systems",
   "Daibamba Gold Ring",
-  "Windizetet Crimson Public & Co",
-  "Windizetet Services",
-  "Union of Windizetet Progressive Party",
-  "League of Windizetet Defence Party",
-  "Windizetet Silver Gang",
-  "Omega Merchant Command",
-  "Bero Silver Brothers",
-  "Gang of LP 254-40",
-  "Varati Ring",
+  "Federal Republican Guard",
   "Clarus Future",
-  "Minerva Corporation",
-  "Revolutionary Kalenile Alliance",
-  "Ross 411 Network",
-  "Earls of Kalenile",
-  "Kalenile Blue Organisation",
-  "Movement for Nauacan Coalition",
   "Beyond Infinity Corporation",
   "HIP 43973 Silver Syndicate",
-  "LP 254-27 Free",
   "Lan Caihe Crimson Creative & Co",
   "Lan Caihe Liberals",
   "Lan Caihe First",
   "Lan Caihe Purple Transport Co",
   "Lan Caihe Ring",
-  "Cruz del Sur Corp.",
-  "Nommai Mob",
-  "Earth Defense Fleet",
-  "Phracani Patron's Principles",
-  "Chapterhouse of Inquisition",
-  "Phracani Jet Family",
-  "Aristocrats of Haraka",
-  "StKM 1-626 Blue Comms & Co",
-  "GCRV 4654 Security Corp",
-  "Society of Haraka",
   "Labour of Any Na",
   "Social Binar Values Party",
-  "HIP 36560 Democrats",
-  "Elite Defense Force",
-  "Capa Gold Cartel",
-  "Attada Posse",
-  "League of Lalande 10797 Front",
-  "SPOCS 253 Free",
-  "SPOCS 253 Central Company",
-  "SPOCS 253 Constitution Party",
-  "SPOCS 253 Federal Industry",
-  "SPOCS 253 Crew",
   "Tastis Shared",
   "Mafia of Tastis",
-  "Independents of Baroahy",
-  "United HIP 69074 Labour",
-  "Caru Company",
-  "Caru Gold Crew",
-  "Astrobiology Research Cooperative",
-  "Wolf 258 Dynasty",
-  "Wolf 258 Dynamic Corporation",
-  "Co-op of Wolf 258",
-  "Ac Yanyamam Dynasty",
-  "Independent LP 254-40 Unionists",
-  "LP 254-40 Incorporated",
-  "LP 254-40 Autocracy",
-  "Revolutionary Eluskapu Partnership",
-  "Dragons of BD+47 1236",
-  "BD+47 1236 Co",
-  "Bundhar Brothers",
-  "UICLI",
-  "Tsakhmet Future",
-  "Borme Silver Clan",
-  "HIP 37376 Blue Creative Group",
-  "Uneligni Gold Cartel",
-  "Gliese 3299 Future",
-  "League of LP 158-2 Order",
-  "LP 158-2 Exchange",
-  "New LP 158-2 Constitution Party",
-  "Grid Jet State Holdings",
-  "Independents of Torenai",
-  "Torenai Party",
-  "Bobo Ukwus Gold Mob",
   "Workers of Yax Balam Alliance",
-  "Hidatsa Liberals",
-  "Gurabru Galactic Corporation",
-  "LHS 5116 Nationalists",
-  "LHS 5116 Industry",
-  "Drug Empire of LHS 5116",
-  "Regulatory State of LHS 5116",
-  "Karamello Star Trading LTD",
-  "The Buurian Protectorate",
-  "Nanamatha Partners",
-  "Social HIP 36037 Labour",
-  "The L.O.S.P.",
-  "Suchi Jet Vision Holdings",
-  "Mob of Nanamatha",
-  "Ryujingit Confederation",
-  "Lords of Ryujingit",
-  "Bero Confederation",
-  "Blue Allied Partners",
-  "Ryujingit Silver Hand Gang",
-  "Friends of Bubians",
-  "Jangore Partnership",
-  "Jangore Monarchy",
-  "Jangore Power Systems",
-  "Jangore Blue Council",
-  "Future of Kamuti",
-  "Hidatsa Services",
-  "Defence Party of Hidatsa",
-  "Hidatsa Crimson Council",
-  "Federal Liberal Command",
-  "Sarugh & Co",
-  "Satvaneka Vision Interstellar",
-  "Revolutionary Satvaneka Liberals",
-  "Satvaneka Incorporated",
-  "Satvaneka Nationalists",
-  "Satvaneka Gold Ring",
-  "GCRV 4259 Limited",
-  "Social Guei Free",
-  "Social Runab Progressive Party",
-  "Celticassag Jet Bridge & Co",
-  "Runab Company",
-  "Runab Purple Crew",
-  "New Pilots Initiative",
-  "Furuhjelm II-432 Camorra",
-  "Lati One",
-  "BD+24 1451 Major Corporation",
-  "Lati Silver General Interstellar",
-  "Aristocrats of Lati",
-  "Lati Gold Brotherhood",
   "Skang Group",
   "New Skang Progressive Party",
+  "Revolutionary Furuhjelm II-432 Alliance",
   "Skang Posse",
-  "BD+27 881 Independents",
-  "BD+27 881 Allied Industry",
-  "BD+27 881 Dynasty",
-  "Diaguthivar Dynasty",
-  "Apadecavi Blue General Solutions",
-  "Diaguthivar Gold Crew",
-  "Co-op of Ngargambo",
-  "Ngargambo Power Systems",
-  "Ngargambo Pro-Independent League",
-  "Raiders of Ngargambo",
   "Kher Ltd",
   "Liberals of Kher",
+  "Revolutionary Eluskapu Partnership",
   "Official Kher Focus",
   "Kher Silver Clan",
   "Enigma Dyson Syndicate",
@@ -1469,41 +1314,56 @@
   "Makum for Equality",
   "Makum Defence Force",
   "Makum Silver Gang",
+  "Quebecois Patriots",
+  "Astrobiology Research Cooperative",
+  "Radiant Ruby Control Cooperative",
+  "Aristocrats of Lhou Wangs",
   "Wolf 186 Inc",
   "Ao Kuang Independent Bond",
   "Galileo Space Agency",
+  "Social HIP 36037 Labour",
+  "Windumu Gold Central Holdings",
   "New Torenai Dominion",
+  "Independents of Torenai",
   "Torenai Public Exchange",
+  "Torenai Party",
   "United Nganji Labour",
+  "Kamilagro Universal Group",
+  "Celticassag Jet Bridge & Co",
   "Celticassag  Co-operative",
   "Celticassag Blue Pirates",
+  "Haraka Incorporated",
+  "The Buurian Protectorate",
   "Allied Onyaksas Party",
   "Brazilian Imperial Society of Pilots",
   "Leviathan Scout Regiment",
   "Armada",
+  "Earth Defense Fleet",
+  "New Pilots Initiative",
   "Kupana Bridge Group",
   "Deep Recon X",
   "Federal Fleet Marine Force",
   "Aseveljet",
-  "Movement for HIP 7670 Unionists",
   "Federal Congress",
   "Loose Screws Network",
   "Imperial Enforcement Division",
   "Verne Partners LLP",
+  "Ukrainian Pilots Federation",
   "Torval Mining Ltd",
   "Pilots of the Catalan Republic",
   "Terra-EX Astro Corp",
   "The Mercs of Mikunn",
-  "The White Templars",
   "Errantry Alliance of Narvert",
   "Royal Praetorian Guard",
   "Alliance Office of Statistics",
   "Pan Galactic Mining Corp.",
+  "Varati Blue Public Limited",
   "Pilots Trade Network",
   "Earls of Evnis",
   "Systems Alliance Sentinels",
   "The Soteria Accord",
   "The Dark Wheel",
+  "Minerva Corporation",
   "Interspecies Friendship Society",
   "Gilgamesh Corps Orbital Protection",
   "After Earth Stellar Alliance",
@@ -1514,28 +1374,40 @@
   "Red Dice Systems",
   "Chuj Coordinated",
   "Canonn Deep Space Research",
+  "HIP 36560 Democrats",
   "Dobunni",
   "The Void Walkers",
   "German Pilot Lounge",
   "Likedeeler of Michel",
   "Booty Bay Butchers",
+  "Aisling's Angels",
   "Talon Order",
+  "Lavigny's Legion",
   "Hakurei Stargaze Musketeers",
   "Elite United Worlds",
   "Union Cosmos",
   "Stellanebula Project",
   "Community of the Vault",
   "A.T.L.A.S",
+  "The 10th Legion",
+  "Federal Liberal Command",
+  "G.O.M. Collective",
   "Screaming Eagles",
   "Black Hand of Orion",
   "Kawal Purple Crew",
   "Tauros Mercantile",
   "The Peculiar Brotherhood",
+  "Storm Seekers",
+  "Varati Ring",
   "Eurybia Blue Mafia",
   "Race Marshalls",
   "Nai Nones Rats",
   "Regiment of Imperial Mongrels",
+  "Caru Company",
+  "Guardians of Harmony",
   "Explorer on Tour",
+  "Mu Kin Co-op",
+  "HIP 67527 Inc",
   "Sidewinder Syndicate",
   "Yen Chelici Blue Life Inc",
   "Civitas Dei",
@@ -1544,15 +1416,850 @@
   "Imperial Black Order",
   "Imperial Signal Corp",
   "Empire Corsairs",
-  "G.O.M. Collective",
+  "The Pensioner's Corp",
   "Traders & Explorers Inc.",
   "EXO",
   "Clan of Nidarijedi",
+  "Grid Jet State Holdings",
   "The Freedom Flotilla",
   "Clarus Silver Partnership",
-  "Khamoori Jet Drug Empire"
+  "LP 254-40 Co"
  ],
- "tokens_aprox": 48422,
- "motivo": "envío fijo a las 08:00 (15/69 sistemas con dato nuevo)",
- "recogido": 1795775964
+ "oblig": [
+  [
+   "Burr",
+   "mantener la influencia de CDSN alta para que la facción que entre lo haga lo más baja posible · HUECO EN IMPRESCINDIBLE: Beasts of Bestia se retira (1,0 %) · 9 facciones en expansión pueden llegar, la más cercana THE AZGHARIE a 5,4 al"
+  ],
+  [
+   "Col 285 Sector PL-I b11-5",
+   "subir influencia: misiones de CDSN, comercio con beneficio y datos de exploración · POSIBLE ATAQUE: 20 pilotos ayer (media 1,6) y la influencia baja 1,6 puntos · resistencia media · avisar a ZEUS703"
+  ],
+  [
+   "Hyades Sector AC-K b9-6",
+   "subir influencia: misiones de CDSN, comercio con beneficio y datos de exploración · POSIBLE ATAQUE: 7 pilotos hoy (media 0,6) y la influencia baja 3,9 puntos · resistencia media · avisar a KERWIN LEN-DAO"
+  ],
+  [
+   "Lan Caihe",
+   "zonas de conflicto y misiones de combate a favor de CDSN · DÍA DECISIVO: Guerra contra Lan Caihe Crimson Creative & Co · día ≥7/7 · 0-0 · ganar = victoria · perder = derrota · sin resultado = empate"
+  ],
+  [
+   "Hyades Sector VA-M b8-3",
+   "subir influencia: misiones de CDSN, comercio con beneficio y datos de exploración · POSIBLE ATAQUE: 5 pilotos ayer (media 0,0) y la influencia baja 2,2 puntos · resistencia baja"
+  ]
+ ],
+ "edicion": "PM",
+ "tick_parte": 1795801060,
+ "foto": {
+  "Col 285 Sector PL-I b11-5": [
+   59.6,
+   36.0
+  ],
+  "Parrot's Head Sector DQ-Y c9": [
+   45.45,
+   0.0
+  ],
+  "Swoilz AM-C d64": [
+   41.01,
+   0.0
+  ],
+  "Hyades Sector UF-M b8-2": [
+   23.42,
+   -10.75
+  ],
+  "Tascheter Sector ZZ-Y b1": [
+   20.96,
+   -25.65
+  ],
+  "Hyades Sector VA-M b8-3": [
+   15.47,
+   -48.3
+  ],
+  "Lan Caihe": [
+   13.74,
+   -35.06
+  ],
+  "Tastis": [
+   12.19,
+   -53.14
+  ],
+  "Kher": [
+   4.69,
+   -53.89
+  ],
+  "Hyades Sector SZ-N b7-0": [
+   4.68,
+   -68.93
+  ],
+  "Makum": [
+   4.2,
+   -67.43
+  ],
+  "Hyades Sector AC-K b9-6": [
+   4.14,
+   -51.82
+  ],
+  "Arietis Sector CQ-Y d60": [
+   3.7,
+   -64.9
+  ],
+  "Windumu": [
+   3.65,
+   -42.35
+  ],
+  "Torenai": [
+   3.49,
+   -46.66
+  ],
+  "Celticassag": [
+   3.29,
+   -55.23
+  ],
+  "Swoilz HE-D c1-13": [
+   78.94,
+   67.86
+  ],
+  "Hima": [
+   75.42,
+   67.16
+  ],
+  "Pirawoth": [
+   72.74,
+   62.99
+  ],
+  "Catun": [
+   71.2,
+   58.97
+  ],
+  "Tucanae Sector DL-Y d58": [
+   66.67,
+   49.95
+  ],
+  "HIP 31451": [
+   66.63,
+   43.31
+  ],
+  "BD+44 1353": [
+   65.53,
+   49.55
+  ],
+  "Adjukru": [
+   64.75,
+   50.91
+  ],
+  "Hyades Sector ND-S c4-15": [
+   63.74,
+   42.73
+  ],
+  "Hyades Sector JX-T c3-13": [
+   63.73,
+   44.19
+  ],
+  "Col 285 Sector FT-F b12-0": [
+   63.64,
+   45.76
+  ],
+  "HIP 101655": [
+   63.13,
+   41.09
+  ],
+  "Benapus": [
+   62.51,
+   49.85
+  ],
+  "Hyades Sector SU-N b7-0": [
+   60.97,
+   43.48
+  ],
+  "Tucanae Sector SU-O b6-3": [
+   60.64,
+   40.76
+  ],
+  "Tucanae Sector WA-N b7-2": [
+   60.64,
+   40.16
+  ],
+  "Tucanae Sector SU-O b6-4": [
+   60.0,
+   40.0
+  ],
+  "Tucanae Sector WA-N b7-3": [
+   59.8,
+   39.4
+  ],
+  "Lyncis Sector YJ-R b4-2": [
+   59.57,
+   38.29
+  ],
+  "Mau": [
+   59.38,
+   48.95
+  ],
+  "Col 285 Sector FT-F b12-4": [
+   58.58,
+   37.52
+  ],
+  "Tucanae Sector WA-N b7-0": [
+   57.98,
+   38.62
+  ],
+  "Tascheter Sector UT-A b1": [
+   57.86,
+   26.91
+  ],
+  "Chan Mina": [
+   57.39,
+   46.81
+  ],
+  "Kunuvii": [
+   57.29,
+   35.28
+  ],
+  "Ndabangluya": [
+   56.78,
+   42.14
+  ],
+  "Tucanae Sector SU-O b6-1": [
+   56.5,
+   34.6
+  ],
+  "Tucanae Sector HH-V c2-12": [
+   56.49,
+   34.03
+  ],
+  "Tascheter Sector CG-X b1-3": [
+   56.27,
+   39.04
+  ],
+  "Tucanae Sector HR-W d1-68": [
+   56.19,
+   28.65
+  ],
+  "Swoilz AD-F c7": [
+   55.1,
+   31.1
+  ],
+  "Hyades Sector SU-N b7-5": [
+   54.95,
+   27.08
+  ],
+  "Hyades Sector UF-M b8-3": [
+   54.65,
+   31.47
+  ],
+  "Hyades Sector UF-M b8-0": [
+   54.55,
+   31.27
+  ],
+  "Ibishia": [
+   53.96,
+   31.29
+  ],
+  "Koamul": [
+   53.9,
+   37.4
+  ],
+  "BD+34 1378": [
+   52.86,
+   40.34
+  ],
+  "Tascheter Sector BQ-Y c18": [
+   52.19,
+   27.16
+  ],
+  "Kamilagro": [
+   51.73,
+   34.75
+  ],
+  "Eurus": [
+   51.6,
+   25.2
+  ],
+  "Synuefe UL-C c29-17": [
+   51.5,
+   21.64
+  ],
+  "Col 285 Sector NY-Q c5-8": [
+   50.65,
+   14.34
+  ],
+  "Prajau": [
+   50.59,
+   29.81
+  ],
+  "Hyades Sector UP-N b7-6": [
+   50.5,
+   27.35
+  ],
+  "Synuefe PI-D b59-5": [
+   50.45,
+   21.79
+  ],
+  "NN 3365": [
+   50.4,
+   36.75
+  ],
+  "Lyncis Sector FG-Y d93": [
+   49.14,
+   26.8
+  ],
+  "Parrot's Head Sector PS-T b3-3": [
+   47.59,
+   19.38
+  ],
+  "Jitabed": [
+   46.87,
+   27.87
+  ],
+  "Tucanae Sector UP-O b6-0": [
+   46.78,
+   9.05
+  ],
+  "Burr": [
+   45.53,
+   22.47
+  ],
+  "Hyades Sector DW-V c2-14": [
+   45.14,
+   11.56
+  ],
+  "Trianguli Sector SU-O a6-1": [
+   44.73,
+   10.75
+  ],
+  "Hyades Sector HC-U c3-21": [
+   44.39,
+   23.65
+  ],
+  "Hyades Sector TK-M b8-4": [
+   44.25,
+   15.92
+  ],
+  "Hyades Sector QZ-N b7-3": [
+   44.07,
+   20.84
+  ],
+  "Tascheter Sector CG-X b1-2": [
+   42.67,
+   24.1
+  ],
+  "Lyncis Sector FG-Y d73": [
+   41.74,
+   22.72
+  ],
+  "HIP 105541": [
+   41.18,
+   7.98
+  ],
+  "Wathiparian": [
+   39.19,
+   19.15
+  ],
+  "Chuntal": [
+   38.95,
+   18.24
+  ],
+  "Elivagar": [
+   38.94,
+   19.67
+  ],
+  "Lu Pardan": [
+   37.22,
+   20.34
+  ],
+  "Wolf 280": [
+   32.71,
+   4.12
+  ],
+  "HIP 33282": [
+   32.08,
+   8.39
+  ],
+  "Tucanae Sector VP-O b6-0": [
+   30.64,
+   -30.02
+  ],
+  "Condharwal": [
+   26.09,
+   6.37
+  ],
+  "HIP 112876": [
+   39.86,
+   -6.49
+  ],
+  "Col 285 Sector OQ-I b11-1": [
+   32.9,
+   -15.2
+  ],
+  "Col 285 Sector NQ-I b11-1": [
+   30.47,
+   -7.59
+  ],
+  "Tucanae Sector TU-O b6-0": [
+   30.12,
+   -28.03
+  ],
+  "Hyades Sector SU-N b7-4": [
+   28.85,
+   -17.0
+  ],
+  "Col 285 Sector MZ-D b13-0": [
+   27.83,
+   -26.09
+  ],
+  "Col 285 Sector PL-I b11-1": [
+   27.53,
+   -22.32
+  ],
+  "Lyncis Sector SI-T b3-0": [
+   24.77,
+   -45.91
+  ],
+  "Chothe": [
+   24.4,
+   -26.39
+  ],
+  "Tascheter Sector YZ-Y b6": [
+   23.92,
+   -7.46
+  ],
+  "Pegasi Sector YZ-Y c0": [
+   23.91,
+   -30.62
+  ],
+  "Col 285 Sector DR-V d2-28": [
+   23.8,
+   -30.62
+  ],
+  "HIP 31143": [
+   23.67,
+   -25.58
+  ],
+  "HIP 99107": [
+   23.28,
+   -35.86
+  ],
+  "Hyades Sector RU-N b7-3": [
+   22.73,
+   -27.82
+  ],
+  "Tucanae Sector RU-O b6-3": [
+   22.65,
+   -26.55
+  ],
+  "HIP 107328": [
+   22.16,
+   -27.44
+  ],
+  "Col 285 Sector JZ-D b13-1": [
+   22.1,
+   -36.8
+  ],
+  "Hyades Sector TK-M b8-3": [
+   22.01,
+   -28.74
+  ],
+  "Col 285 Sector DR-V d2-22": [
+   21.44,
+   -26.22
+  ],
+  "Hyades Sector HC-U c3-18": [
+   21.44,
+   -39.08
+  ],
+  "Lyncis Sector KM-W c1-10": [
+   20.97,
+   -32.74
+  ],
+  "Col 285 Sector DY-F b12-0": [
+   20.88,
+   -32.17
+  ],
+  "Lyncis Sector FG-Y d56": [
+   20.78,
+   -38.86
+  ],
+  "HIP 37216": [
+   20.71,
+   -30.1
+  ],
+  "Parrot's Head Sector PS-T b3-5": [
+   20.5,
+   -39.1
+  ],
+  "Ariminimi": [
+   20.49,
+   -19.51
+  ],
+  "Synuefe RD-D b59-3": [
+   20.0,
+   -40.0
+  ],
+  "Synuefe TL-C c29-9": [
+   19.6,
+   -41.4
+  ],
+  "Tucanae Sector DL-Y d59": [
+   19.5,
+   -38.3
+  ],
+  "Tascheter Sector CG-X b1-1": [
+   19.35,
+   -49.5
+  ],
+  "Swoilz ZC-F c19": [
+   19.06,
+   -36.93
+  ],
+  "Col 285 Sector FT-F b12-6": [
+   18.75,
+   -45.87
+  ],
+  "Lyncis Sector FQ-Y b2": [
+   18.4,
+   -44.3
+  ],
+  "Lyncis Sector ZE-R b4-1": [
+   18.15,
+   -25.8
+  ],
+  "Col 285 Sector CY-E b13-0": [
+   18.09,
+   -43.09
+  ],
+  "Synuefe VG-C c29-7": [
+   18.05,
+   -47.25
+  ],
+  "Ceti Sector DV-Y b0": [
+   17.71,
+   -21.49
+  ],
+  "Col 285 Sector JK-K b10-0": [
+   17.2,
+   -38.1
+  ],
+  "Hyades Sector DB-X d1-112": [
+   16.48,
+   -58.64
+  ],
+  "Col 285 Sector DY-F b12-5": [
+   16.36,
+   -47.78
+  ],
+  "Parrot's Head Sector DQ-Y c23": [
+   16.28,
+   -51.15
+  ],
+  "Col 285 Sector RZ-O c6-25": [
+   16.28,
+   -41.56
+  ],
+  "Windizetet": [
+   16.14,
+   -38.04
+  ],
+  "Tascheter Sector AA-Z b5": [
+   16.12,
+   -39.0
+  ],
+  "Col 285 Sector GE-E b13-5": [
+   16.1,
+   -39.7
+  ],
+  "Yin Sector XJ-A c20": [
+   16.04,
+   -26.49
+  ],
+  "Col 285 Sector PL-I b11-2": [
+   15.95,
+   -39.78
+  ],
+  "Col 285 Sector HE-E b13-4": [
+   15.92,
+   -38.23
+  ],
+  "BD+47 1285": [
+   15.87,
+   -45.2
+  ],
+  "Col 285 Sector NO-P c6-5": [
+   15.62,
+   -48.16
+  ],
+  "Tascheter Sector YZ-Y b4": [
+   15.35,
+   -28.12
+  ],
+  "Col 285 Sector DY-F b12-3": [
+   15.2,
+   -43.4
+  ],
+  "Hyades Sector VA-M b8-2": [
+   14.56,
+   -29.51
+  ],
+  "HIP 101673": [
+   14.53,
+   -31.76
+  ],
+  "1 Kappa Cephei": [
+   14.53,
+   -47.79
+  ],
+  "Kalenile": [
+   14.36,
+   -39.18
+  ],
+  "Ceti Sector CL-X b1-1": [
+   14.31,
+   -46.25
+  ],
+  "Col 285 Sector VD-R c5-10": [
+   14.31,
+   -55.96
+  ],
+  "Yin Sector WO-A b1": [
+   13.8,
+   -27.4
+  ],
+  "Col 285 Sector UX-H b11-2": [
+   13.61,
+   -48.55
+  ],
+  "HIP 41850": [
+   13.55,
+   -49.5
+  ],
+  "Yin Sector XJ-A c21": [
+   13.54,
+   -54.16
+  ],
+  "Col 285 Sector GE-E b13-3": [
+   13.5,
+   -46.2
+  ],
+  "HIP 19292": [
+   13.29,
+   -39.56
+  ],
+  "Haraka": [
+   13.26,
+   -41.87
+  ],
+  "Col 285 Sector DR-V d2-45": [
+   13.0,
+   -47.0
+  ],
+  "Col 285 Sector ET-F b12-1": [
+   13.0,
+   -47.0
+  ],
+  "Tucanae Sector SU-O b6-0": [
+   13.0,
+   -47.0
+  ],
+  "Col 285 Sector DY-F b12-2": [
+   12.81,
+   -47.75
+  ],
+  "Col 285 Sector YZ-U b17-3": [
+   12.73,
+   -38.48
+  ],
+  "Hyades Sector CB-W c2-3": [
+   12.69,
+   -40.56
+  ],
+  "Pegasi Sector YZ-Y c1": [
+   12.5,
+   -51.0
+  ],
+  "Menkalinan": [
+   12.31,
+   -48.35
+  ],
+  "SPOCS 253": [
+   12.23,
+   -36.97
+  ],
+  "Col 285 Sector PJ-M b22-7": [
+   11.95,
+   -44.82
+  ],
+  "Heili": [
+   11.53,
+   -35.31
+  ],
+  "Wolf 258": [
+   11.49,
+   -58.47
+  ],
+  "Ac Yanyamam": [
+   11.12,
+   -35.97
+  ],
+  "LP 254-40": [
+   11.09,
+   -51.88
+  ],
+  "BD+47 1236": [
+   10.9,
+   -35.9
+  ],
+  "Bundhar": [
+   10.65,
+   -63.62
+  ],
+  "Epsilon Sculptoris": [
+   10.6,
+   -35.2
+  ],
+  "Col 285 Sector TK-J b24-1": [
+   10.6,
+   -58.2
+  ],
+  "Col 285 Sector GI-R c5-1": [
+   10.55,
+   -56.91
+  ],
+  "Hyades Sector ER-T b4-0": [
+   10.5,
+   -54.8
+  ],
+  "LP 158-2": [
+   10.26,
+   -18.03
+  ],
+  "Col 285 Sector KE-E b13-0": [
+   10.2,
+   -63.74
+  ],
+  "Tascheter Sector BQ-Y c27": [
+   10.2,
+   -56.2
+  ],
+  "Pegasi Sector YU-X b1-2": [
+   10.11,
+   -47.55
+  ],
+  "Col 285 Sector JS-T d3-45": [
+   10.11,
+   -50.65
+  ],
+  "Lyncis Sector JR-W c1-15": [
+   10.04,
+   -41.27
+  ],
+  "Hyades Sector XV-L b8-3": [
+   9.87,
+   -40.18
+  ],
+  "Hyades Sector JX-T c3-19": [
+   9.85,
+   -46.5
+  ],
+  "LHS 5116": [
+   9.65,
+   -52.34
+  ],
+  "Tascheter Sector AQ-Y c25": [
+   9.41,
+   -50.85
+  ],
+  "Hyades Sector RZ-N b7-3": [
+   9.4,
+   -57.96
+  ],
+  "Lyncis Sector WO-R b4-3": [
+   9.15,
+   -54.23
+  ],
+  "Col 285 Sector PL-I b11-4": [
+   9.09,
+   -46.05
+  ],
+  "BD+40 1697": [
+   9.05,
+   -28.94
+  ],
+  "Lyncis Sector XJ-R b4-0": [
+   8.79,
+   -40.96
+  ],
+  "Ryujingit": [
+   8.58,
+   -50.0
+  ],
+  "Hyades Sector JX-T c3-11": [
+   8.58,
+   -47.21
+  ],
+  "Hyades Sector RZ-N b7-5": [
+   8.52,
+   -52.7
+  ],
+  "Jangore": [
+   7.79,
+   -54.65
+  ],
+  "Lyncis Sector XJ-R b4-3": [
+   7.76,
+   -48.96
+  ],
+  "Hidatsa": [
+   7.31,
+   -63.76
+  ],
+  "Satvaneka": [
+   7.19,
+   -53.59
+  ],
+  "Hyades Sector VF-M b8-4": [
+   6.9,
+   -49.3
+  ],
+  "Col 285 Sector RZ-O c6-12": [
+   6.87,
+   -43.73
+  ],
+  "Hyades Sector LI-S c4-15": [
+   6.29,
+   -58.54
+  ],
+  "Runab": [
+   6.09,
+   -38.27
+  ],
+  "Yin Sector ZU-Y b3": [
+   5.92,
+   -35.64
+  ],
+  "Lati": [
+   5.73,
+   -36.92
+  ],
+  "Skang": [
+   5.69,
+   -48.3
+  ],
+  "BD+27 881": [
+   5.68,
+   -46.96
+  ],
+  "Diaguthivar": [
+   5.32,
+   -61.48
+  ],
+  "Ngargambo": [
+   5.19,
+   -64.87
+  ],
+  "Eluskapu": [
+   5.05,
+   -47.52
+  ]
+ },
+ "tokens_aprox": 36956,
+ "motivo": "SITREP PM: 2 h después del tick de las 18:37",
+ "recogido": 1795810060
 }

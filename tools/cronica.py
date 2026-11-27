@@ -165,27 +165,25 @@ def preparar(F, H, A, tope):
     # grupos de prioridad: 1 imprescindibles nivel 1, 2 nivel 2..., 20 CMDRs de CDSN, 50 historicos, 99 resto
     def grupo(n):
         return niv.get(n.lower()) or (20 if n.lower() in cmdr else 50 if n.lower() in her else 99)
-    # tareas obligatorias: lo que se puede perder hoy (el script las añade al «hacer» si la IA se las salta)
+    # tareas obligatorias: lo que se puede perder hoy, con las MISMAS alertas que la web (tools/alertas.py, a1.0)
+    sys.path.insert(0, AQUI)
+    import alertas as AL
+    ALx = AL.calcula(F, A)
+    ACC = {"⚔": "zonas de conflicto y misiones de combate a favor de CDSN",
+           "✉": "misiones, comercio con beneficio y datos de exploración en estaciones de CDSN (sin violencia)"}
     OB = []
-    for n, s_ in sis.items():
-        for c in s_.get("conflictos") or []:
-            if c.get("fase") in ("decisivo", "derrota", "sin_remedio"):
-                el = c.get("tipo") == "election"
-                OB.append((n, ("misiones, comercio con beneficio y datos de exploración en estaciones de CDSN (sin violencia)" if el
-                               else "zonas de conflicto y misiones de combate a favor de CDSN")
-                           + f" · {'elecciones' if el else 'guerra'} contra {c.get('contra')}, "
-                           + ("día decisivo" if c.get("fase") == "decisivo" else "vamos perdiendo")
-                           + (f", en juego {c.get('en_juego')}" if c.get("en_juego") else "")))
-        mio = next((x for x in s_.get("todas") or [] if x.get("n") == F.get("faccion", "Caballeros de Sion")), {})
-        if "Retreat" in (mio.get("act") or []) + (mio.get("pend") or []):
-            OB.append((n, "subir influencia ya: misiones de CDSN, comercio con beneficio y datos de exploración · CDSN en retirada"))
-    for n, a in ((F.get("ataques") or {}).get("act") or {}).items():
-        if n in sis:
-            OB.append((n, f"subir influencia: misiones de CDSN, comercio con beneficio y datos de exploración · posible ataque"
-                          + (f" de {a.get('quien')}" if a.get("quien") else "")))
-    for n, s_ in sis.items():
-        if (n.lower() in niv or n.lower() in her) and any(x.get("n") != F.get("faccion", "Caballeros de Sion") and "Retreat" in (x.get("act") or []) + (x.get("pend") or []) for x in s_.get("todas") or []):
-            OB.append((n, "mantener la influencia de CDSN alta para que la facción que entre lo haga lo más baja posible · hueco: otra facción se retira"))
+    for n, x in ALx.items():
+        if n in sis and x["critico"]:
+            if x["tit"].startswith("HUECO"):
+                acc = "mantener la influencia de CDSN alta para que la facción que entre lo haga lo más baja posible"
+            elif x["ico"] in ACC:
+                acc = ACC[x["ico"]]
+            else:
+                acc = "subir influencia: misiones de CDSN, comercio con beneficio y datos de exploración"
+            OB.append((n, f"{acc} · {x['tit']}: {x['txt']}"))
+    partes["ALERTAS (las mismas que ve la web; niv 2 = grave, 1 = aviso; las expansiones enemigas leves no van)"] = [
+        f"{S(n)}: {x['niv']} {x['tit']} · {x['txt']}" for n, x in sorted(ALx.items(), key=lambda t: (-t[1]['niv'], t[1]['grupo']))
+        if n in sis and x["niv"] and not (x["niv"] == 1 and x["tit"] == "EXPANSIÓN ENEMIGA")] or ["ninguna"]
     OB.sort(key=lambda t: grupo(t[0]))
     OB = [(n, t + (f" · avisar a {cmdr[n.lower()]}" if n.lower() in cmdr else "")) for n, t in OB]
     if OB:

@@ -1,0 +1,36 @@
+# Alertas de CDSN calculadas UNA sola vez (tools/alertas.py -> alertas.json), con las mismas reglas que la web.
+# La web, el radar y el parte de la IA leen alertas.json. Se lanza cada vez que el escucha sube faccion.json,
+# cuando cambian las listas a mano (imprescindibles.txt, arquitectos.txt) y a mano desde Actions.
+name: alertas
+on:
+  push:
+    branches: [main]
+    paths: [faccion.json, imprescindibles.txt, arquitectos.txt]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: alertas
+  cancel-in-progress: true
+jobs:
+  calcular:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Calcular alertas.json
+        run: python3 -B tools/alertas.py
+      - name: Subir
+        run: |
+          git config user.name "cdsn-alertas"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add alertas.json
+          git diff --cached --quiet && { echo "Sin cambios"; exit 0; }
+          git commit -q -m "Alertas $(date -u +%d/%m/%Y\ %H:%M)"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

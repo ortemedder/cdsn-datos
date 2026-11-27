@@ -229,9 +229,29 @@ def preparar(F, H, A, tope):
             L.append(S(n) + ": " + "; ".join(f"{FA(f)} " + ",".join(r1(v) for _, v in p[-5:]) for f, p in fs.items()))
     partes["HISTORIAL DE INFLUENCIA DE LAS OTRAS FACCIONES (últimos puntos, del más viejo al más nuevo)"] = L or ["sin datos"]
     # --- noticias de las últimas 48 h (incluye el resumen diario de las 21:00) ---
+    # agrupadas como en la web: «Expansión activo» de cada sistema -> una linea al dia; «Elecciones/Guerra activo» fuera
+    # si ya esta la noticia del conflicto; vecindario -> una linea al dia (el detalle ya va en VECINOS)
+    N0 = [(x[0], re.sub(r"\*\*", "", str(x[1])), x[2]) for x in (F.get("noticias") or []) if x[0] > ahora - 172800 and x[2] != "escucha"]
+    conf = [(t, x) for t, x, sec in N0 if sec == "conflictos" and re.match(r"^(✉|⚔)", x)]
+    N1, G, V = [], {}, {}
+    for t, txt, sec in N0:
+        dia = datetime.fromtimestamp(t, MAD).strftime("%d/%m")
+        m = re.match(r"^📣 (.+?): Expansión activo$", txt)
+        if m:
+            G.setdefault(dia, [t, []]); G[dia][0] = max(G[dia][0], t); G[dia][1].append(m.group(1)); continue
+        m = re.match(r"^📣 (.+?): (Elecciones|Guerra|Guerra civil) activo$", txt)
+        if m and any(m.group(1) in x and abs(tc - t) < 86400 for tc, x in conf):
+            continue
+        if sec == "vecindario" or (sec == "expansion" and txt.startswith("🛸")):
+            V.setdefault(dia, [t, 0]); V[dia][0] = max(V[dia][0], t); V[dia][1] += 1; continue
+        N1.append((t, txt, sec))
+    for dia, (t, ss) in G.items():
+        ss = list(dict.fromkeys(ss))
+        N1.append((t, f"📣 Expansión de CDSN activa en {len(ss)} sistemas: " + ", ".join(ss), "expansion"))
+    for dia, (t, k) in V.items():
+        N1.append((t, f"🔭 {k} avisos de facciones vecinas en expansión (el detalle va en VECINOS)", "vecindario"))
     L = []
-    for t, txt, sec, *_ in [x for x in (F.get("noticias") or []) if x[0] > ahora - 172800]:
-        txt = re.sub(r"\*\*", "", str(txt))
+    for t, txt, sec in sorted(N1):
         for nom in sorted(S.d, key=len, reverse=True):
             if nom in txt:
                 txt = txt.replace(nom, S(nom))

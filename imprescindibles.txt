@@ -18,3 +18,7 @@ Ndabangluya
 Pirawoth
 Prajau
 Wathiparian
+
+[nivel 2]
+# solape de minería de painita y decenas de portanaves: no perder presencia
+Hyades Sector DB-X d1-112

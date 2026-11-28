@@ -2336,9 +2336,11 @@
    -47.52
   ]
  },
- "ult_normal": 1795881904,
+ "ult_normal": 1795809879,
  "ult_flash": null,
  "tokens_aprox": 38668,
  "motivo": "SITREP AM: a las 08:00 sin parte en 20 h",
- "recogido": 1795882025
+ "recogido": 1795882025,
+ "roto": true,
+ "ult_normal_prev": 1795809879
 }

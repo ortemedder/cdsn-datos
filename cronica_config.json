@@ -9,7 +9,7 @@
   "prueba": [],
   "esfuerzo": "auto",
   "tope_tokens": 200000,
-  "max_salida": 24000,
+  "max_salida": 40000,
   "espera_min": 30,
   "horas_tras_tick": 2,
   "respaldo": "08:00",

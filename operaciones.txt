@@ -1,0 +1,11 @@
+# OPERACIONES PROPIAS DE CDSN  (lo escribe el almirante)
+# Sirve para que la web, las alertas y el parte de la IA sepan lo que estamos haciendo nosotros
+# y no lo confundan con un ataque (por ejemplo, bajar nuestra influencia a propósito para ayudar a otra facción).
+#
+# Una línea por operación:   Sistema = qué estamos haciendo · hasta DD/MM
+#   - "hasta" es opcional (sin fecha dura 7 días desde que se escribe; mejor ponerla).
+#   - Al pasar la fecha, la operación se ignora sola (puedes borrar la línea cuando quieras).
+#   - Mientras dure: la web pone 🛡 OPERACIÓN PROPIA en lugar de bajada / posible ataque / hueco,
+#     no salta el parte FLASH por ese sistema, y la IA lo explica en el parte.
+#
+Burr = apoyamos a Beasts of Bestia para que no se retire y no quede hueco · hasta 30/11

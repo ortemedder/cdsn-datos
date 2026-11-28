@@ -17,7 +17,7 @@ import json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-VER = "c1.4"
+VER = "c1.5"
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 MAD = ZoneInfo("Europe/Madrid")
@@ -421,6 +421,8 @@ actual; di que hace falta que alguien pase por él con EDMC para saber cómo est
 - Prioriza: primero lo que puede costarnos un sistema, después oportunidades.
 - Las OPERACIONES PROPIAS las hace CDSN a propósito (p. ej. bajar nuestra influencia para que otra facción no se retire): \
 nunca las presentes como un ataque ni como un peligro; explícalas como lo que son y di si están saliendo bien.
+- Si hay una ORDEN DEL ALMIRANTE en los datos, atiéndela: céntrate en lo que pide y empieza la entradilla con \
+«Por orden del Almirante: …». Sigue las demás reglas igual (cifras y nombres solo de los datos).
 - Si es el SITREP FLASH (parte extraordinario): céntrate SOLO en la SITUACIÓN FLASH que lo ha provocado; titular sobre eso, \
 entradilla de 2 frases, 1 a 3 puntos y como mucho 3 tareas en «hacer». Nada de repasar el resto de sistemas.
 - Los sistemas IMPRESCINDIBLES (sobre todo los de nivel 1) son los que el almirante no quiere perder: cualquier peligro en ellos \
@@ -456,7 +458,7 @@ def api(metodo, camino, cuerpo=None, url=None):
 
 
 def params(modelo, texto, cfg, critico=True, edicion="PM"):
-    nombre = {"AM": "SITREP AM, el parte matutino", "FLASH": "SITREP FLASH, un parte extraordinario fuera de hora porque ha \
+    nombre = {"AM": "SITREP AM, el parte matutino", "ESP": "SITREP ESPECIAL, un parte pedido a mano por el almirante", "FLASH": "SITREP FLASH, un parte extraordinario fuera de hora porque ha \
 pasado algo muy grave en un sistema imprescindible"}.get(edicion, "SITREP PM, el parte vespertino")
     sal = cfg.get("flash_salida", 12000) if edicion == "FLASH" else cfg.get("max_salida", 12000)
     if edicion == "FLASH":
@@ -719,6 +721,12 @@ def main():
     info["ult_tick"], info["ult_t"] = est.get("tick_parte") or 0, est.get("enviado") or 0
     info["ult_normal"], info["ult_flash"] = est.get("ult_normal") or est.get("enviado") or 0, est.get("ult_flash")
     info["oblig_prev"] = est.get("oblig") or []
+    esp = modo == "especial"                        # c1.5: SITREP ESPECIAL, pedido a mano desde el Almirantazgo
+    if esp:
+        modo = "forzar"
+        info["edicion"] = "ESP"
+    cuenta = os.environ.get("CRONICA_CUENTA", "no").lower().startswith("s")   # sí = cuenta como parte normal (ocupa el sitio del siguiente)
+    nota = re.sub(r"\s+", " ", os.environ.get("CRONICA_NOTA", "")).strip()[:300]
     if est.get("fecha") == hoy and modo != "forzar" and cfg.get("envio", "F").upper() != "T":
         print("El parte de hoy ya se envió")
         return
@@ -729,6 +737,9 @@ def main():
     al_llegar = modo == "forzar" or not re.match(r"^\d\d:\d\d$", str(cfg.get("publicar", "")))
     pub = ahora if al_llegar else hora_hoy(ahora, cfg["publicar"])
     ed = info.get("edicion") or ("AM" if ahora.hour < 14 else "PM")
+    if ed == "ESP" and nota:
+        texto = f"ORDEN DEL ALMIRANTE (lo que pide en este parte): {nota}\n\n" + texto
+    libre = ed == "FLASH" or (ed == "ESP" and not cuenta)   # no cuenta para la regla de 8 h ni para el tick
     if ed == "FLASH":                               # c1.3: lo que ha provocado el FLASH va delante de los datos
         texto = "SITUACIÓN FLASH (lo que ha provocado este parte extraordinario):\n" + "\n".join(
             f"- {n}: {x.get('tit')} · {x.get('txt')} · activo desde las {datetime.fromtimestamp(x.get('desde') or 0, MAD):%H:%M}"
@@ -740,9 +751,10 @@ def main():
            "al_llegar": al_llegar, "auto": modo != "forzar",
            "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
            "dic_s": info["dic_s"], "dic_f": info["dic_f"], "oblig": info.get("oblig") or [],
-           "edicion": ed, "tick_parte": info["tick"] if ed != "FLASH" else info.get("ult_tick") or 0,
+           "edicion": ed, "tick_parte": info.get("ult_tick") or 0 if libre else info["tick"],
            "foto": info.get("foto") or {},
-           "ult_normal": int(time.time()) if ed != "FLASH" else info.get("ult_normal") or 0,
+           "ult_normal": info.get("ult_normal") or 0 if libre else int(time.time()),
+           "especial": {"cuenta": cuenta, "nota": nota} if ed == "ESP" else None,
            "ult_normal_prev": info.get("ult_normal") or 0,
            "ult_flash": hoy if ed == "FLASH" else info.get("ult_flash"),
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}

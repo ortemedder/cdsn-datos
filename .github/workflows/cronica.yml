@@ -13,10 +13,19 @@ on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "auto (normal), contar (mide tokens, gratis), forzar (envía ya), local (solo prepara datos)"
+        description: "auto (normal), contar (mide tokens, gratis), forzar (envía ya), especial (SITREP ESPECIAL del almirante), local (solo prepara datos)"
         default: "auto"
         type: choice
-        options: [auto, contar, forzar, local]
+        options: [auto, contar, forzar, especial, local]
+      cuenta:
+        description: "Solo especial: ¿cuenta como parte normal? (si = ocupa el sitio del siguiente; no = el PM sale igual)"
+        default: "no"
+        type: choice
+        options: ["no", "si"]
+      nota:
+        description: "Solo especial: indicación para la IA (opcional)"
+        default: ""
+        type: string
 permissions:
   contents: write
 concurrency:
@@ -46,6 +55,8 @@ jobs:
         if: steps.mira.outputs.saltar != 'si'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CRONICA_CUENTA: ${{ github.event.inputs.cuenta }}
+          CRONICA_NOTA: ${{ github.event.inputs.nota }}
         run: python3 tools/cronica.py "${{ github.event.inputs.modo || 'auto' }}"
       - name: Subir
         if: steps.mira.outputs.saltar != 'si'

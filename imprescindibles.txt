@@ -22,3 +22,5 @@ Wathiparian
 [nivel 2]
 # solape de minería de painita y decenas de portanaves: no perder presencia
 Hyades Sector DB-X d1-112
+Hyades Sector SU-N b7-5
+HIP 31451

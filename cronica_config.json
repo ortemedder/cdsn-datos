@@ -1,5 +1,5 @@
 {
-  "_ayuda": "Ajustes del Parte (IA). activo: false lo apaga. envio: T = un parte por tick (SITREP PM «horas_tras_tick» después del tick; SITREP AM a la hora «respaldo» si no hubo parte en 20 h; nunca dos con menos de 8 h); F = hora fija «enviar». publicar: «al_llegar» o «HH:MM». dias_libres: lunes... domingo. modelo: haiku, sonnet u opus. prueba: modelos para comparar. esfuerzo: auto (medio si hay algo crítico, bajo si no), sin, low, medium, high. tope_tokens: máximo de datos. espera_min: minutos que espera al lote.",
+  "_ayuda": "Ajustes del Parte (IA). activo: false lo apaga. envio: T = un parte por tick (SITREP PM «horas_tras_tick» después del tick; SITREP AM a la hora «respaldo» si no hubo parte en 20 h; nunca dos con menos de 8 h); F = hora fija «enviar». publicar: «al_llegar» o «HH:MM». dias_libres: lunes... domingo. modelo: haiku, sonnet u opus. prueba: modelos para comparar. esfuerzo: auto (medio si hay algo crítico, bajo si no), sin, low, medium, high. tope_tokens: máximo de datos. espera_min: minutos que espera al lote. flash: SITREP FLASH (parte extraordinario) si hay algo muy grave en un imprescindible; flash_horas: horas mínimas desde el último parte (10); flash_confirma: minutos que tiene que seguir la alerta antes de enviarlo (60); flash_salida: tope de salida del FLASH.",
   "activo": true,
   "envio": "T",
   "enviar": "08:00",
@@ -12,5 +12,9 @@
   "max_salida": 24000,
   "espera_min": 30,
   "horas_tras_tick": 2,
-  "respaldo": "08:00"
+  "respaldo": "08:00",
+  "flash": true,
+  "flash_horas": 10,
+  "flash_confirma": 60,
+  "flash_salida": 12000
 }

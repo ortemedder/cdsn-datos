@@ -17,7 +17,7 @@ import json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-VER = "c1.2"
+VER = "c1.3"
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 MAD = ZoneInfo("Europe/Madrid")
@@ -184,6 +184,11 @@ def preparar(F, H, A, tope):
     partes["ALERTAS (las mismas que ve la web; niv 2 = grave, 1 = aviso; las expansiones enemigas leves no van)"] = [
         f"{S(n)}: {x['niv']} {x['tit']} · {x['txt']}" for n, x in sorted(ALx.items(), key=lambda t: (-t[1]['niv'], t[1]['grupo']))
         if n in sis and x["niv"] and not (x["niv"] == 1 and x["tit"] == "EXPANSIÓN ENEMIGA")] or ["ninguna"]
+    OPS = [o for o in AL.cargar_ops().values() if o["sys"] in sis]     # c1.3: operaciones propias (operaciones.txt)
+    if OPS:
+        partes["OPERACIONES PROPIAS DE CDSN (las hace el escuadrón a propósito; lo que pase por ellas NO es un ataque)"] = [
+            f"{S(o['sys'])}: {o['txt']}" + (f" · hasta el {datetime.fromtimestamp(o['hasta'], MAD):%d/%m}" if o.get("hasta") else "")
+            for o in OPS]
     OB.sort(key=lambda t: grupo(t[0]))
     OB = [(n, t + (f" · avisar a {cmdr[n.lower()]}" if n.lower() in cmdr else "")) for n, t in OB]
     if OB:
@@ -414,6 +419,10 @@ actual; di que hace falta que alguien pase por él con EDMC para saber cómo est
 - Mira tendencias (varios días), no solo el último cambio.
 - Lo que hagan los comandantes antes del próximo tick cuenta para ese tick: si algo es urgente, di cuánto queda.
 - Prioriza: primero lo que puede costarnos un sistema, después oportunidades.
+- Las OPERACIONES PROPIAS las hace CDSN a propósito (p. ej. bajar nuestra influencia para que otra facción no se retire): \
+nunca las presentes como un ataque ni como un peligro; explícalas como lo que son y di si están saliendo bien.
+- Si es el SITREP FLASH (parte extraordinario): céntrate SOLO en la SITUACIÓN FLASH que lo ha provocado; titular sobre eso, \
+entradilla de 2 frases, 1 a 3 puntos y como mucho 3 tareas en «hacer». Nada de repasar el resto de sistemas.
 - Los sistemas IMPRESCINDIBLES (sobre todo los de nivel 1) son los que el almirante no quiere perder: cualquier peligro en ellos \
 va antes que el resto, aunque sea pequeño, y dilo. Los HISTÓRICOS también pesan más que un sistema cualquiera. Si en uno de ellos \
 otra facción se retira (HUECOS), avisa del riesgo de que entre una facción de fuera, sobre todo si hay expansiones cerca.
@@ -447,8 +456,12 @@ def api(metodo, camino, cuerpo=None, url=None):
 
 
 def params(modelo, texto, cfg, critico=True, edicion="PM"):
-    nombre = "SITREP AM, el parte matutino" if edicion == "AM" else "SITREP PM, el parte vespertino"
-    p = {"model": MODELOS[modelo], "max_tokens": int(cfg.get("max_salida", 12000)),
+    nombre = {"AM": "SITREP AM, el parte matutino", "FLASH": "SITREP FLASH, un parte extraordinario fuera de hora porque ha \
+pasado algo muy grave en un sistema imprescindible"}.get(edicion, "SITREP PM, el parte vespertino")
+    sal = cfg.get("flash_salida", 12000) if edicion == "FLASH" else cfg.get("max_salida", 12000)
+    if edicion == "FLASH":
+        critico = True
+    p = {"model": MODELOS[modelo], "max_tokens": int(sal),
          "system": INSTRUCCIONES.format(publicar=cfg.get("publicar", "15:00"), edicion=nombre),
          "messages": [{"role": "user", "content": texto}]}
     ef = cfg.get("esfuerzo", "medium")
@@ -480,6 +493,36 @@ def hora_hoy(ahora, hhmm):
     return datetime.combine(ahora.date(), datetime.strptime(hhmm, "%H:%M").time(), MAD)
 
 
+def flash(cfg, info, ahora):
+    """c1.3: SITREP FLASH. Sale si: han pasado >= flash_horas (10) desde el último parte; en alertas.json hay un FLASH
+    (alerta crítica en un imprescindible, dato fresco, sin operación propia) activo desde hace >= flash_confirma (60) min;
+    no estaba ya en el parte anterior; no ha salido otro FLASH hoy; y el PM no toca en menos de 4 h."""
+    if not cfg.get("flash", True):
+        return ""
+    t = ahora.timestamp()
+    if t - (info.get("ult_t") or 0) < float(cfg.get("flash_horas", 10)) * 3600:
+        return ""
+    if info.get("ult_flash") == ahora.strftime("%Y-%m-%d"):
+        return ""
+    tg, ult, h_tras = info["tick"] or 0, info.get("ult_tick") or 0, float(cfg.get("horas_tras_tick", 2))
+    pm_eta = (tg if tg > ult else tg + 86400) + h_tras * 3600
+    if tg and 0 <= pm_eta - t < 4 * 3600:
+        return ""
+    antes = {n: str(x) for n, x in (info.get("oblig_prev") or [])}
+    L = []
+    for n, x in ((lee("alertas.json", {}) or {}).get("flash") or {}).items():
+        if t - (x.get("desde") or t) < float(cfg.get("flash_confirma", 60)) * 60:
+            continue
+        if n in antes and x.get("tit", "") in antes[n]:
+            continue                                  # ya salió en el parte anterior
+        L.append((n, x))
+    if not L:
+        return ""
+    info["edicion"] = "FLASH"
+    info["flash"] = L
+    return "SITREP FLASH: " + ", ".join(f"{n} ({x.get('tit')})" for n, x in L)
+
+
 def toca_enviar(cfg, info, ahora):
     if not cfg.get("activo", True):
         return False, "desactivado en cronica_config.json"
@@ -489,14 +532,20 @@ def toca_enviar(cfg, info, ahora):
     if modo == "T":                             # c1.2: un parte por tick
         ult, ult_t, tg = info.get("ult_tick") or 0, info.get("ult_t") or 0, info["tick"] or 0
         h_tras = float(cfg.get("horas_tras_tick", 2))
-        if ahora.timestamp() - ult_t < 8 * 3600:
-            return False, "hace menos de 8 h del último parte"
-        if tg > ult and ahora.timestamp() >= tg + h_tras * 3600:
+        ult_n = info.get("ult_normal") or ult_t           # c1.3: un FLASH no cuenta para la regla de 8 h
+        pm_ya = tg > ult and ahora.timestamp() >= tg + h_tras * 3600
+        if ahora.timestamp() - ult_n < 8 * 3600:
+            fl = flash(cfg, info, ahora)
+            return (True, fl) if fl else (False, "hace menos de 8 h del último parte")
+        if pm_ya:
             info["edicion"] = "PM"
             return True, f"SITREP PM: {h_tras:g} h después del tick de las {datetime.fromtimestamp(tg, MAD):%H:%M}"
         if ahora >= hora_hoy(ahora, cfg.get("respaldo", "08:00")) and ahora.timestamp() - ult_t >= 20 * 3600:
             info["edicion"] = "AM"
             return True, f"SITREP AM: a las {cfg.get('respaldo', '08:00')} sin parte en 20 h"
+        fl = flash(cfg, info, ahora)                # c1.3: el FLASH, solo si no toca un parte normal
+        if fl:
+            return True, fl
         if tg > ult:
             return False, f"tick de las {datetime.fromtimestamp(tg, MAD):%H:%M} detectado: el parte sale {h_tras:g} h después"
         return False, "esperando al próximo tick"
@@ -665,6 +714,8 @@ def main():
         recoger(est)
         return
     info["ult_tick"], info["ult_t"] = est.get("tick_parte") or 0, est.get("enviado") or 0
+    info["ult_normal"], info["ult_flash"] = est.get("ult_normal") or est.get("enviado") or 0, est.get("ult_flash")
+    info["oblig_prev"] = est.get("oblig") or []
     if est.get("fecha") == hoy and modo != "forzar" and cfg.get("envio", "F").upper() != "T":
         print("El parte de hoy ya se envió")
         return
@@ -675,6 +726,10 @@ def main():
     al_llegar = modo == "forzar" or not re.match(r"^\d\d:\d\d$", str(cfg.get("publicar", "")))
     pub = ahora if al_llegar else hora_hoy(ahora, cfg["publicar"])
     ed = info.get("edicion") or ("AM" if ahora.hour < 14 else "PM")
+    if ed == "FLASH":                               # c1.3: lo que ha provocado el FLASH va delante de los datos
+        texto = "SITUACIÓN FLASH (lo que ha provocado este parte extraordinario):\n" + "\n".join(
+            f"- {n}: {x.get('tit')} · {x.get('txt')} · activo desde las {datetime.fromtimestamp(x.get('desde') or 0, MAD):%H:%M}"
+            for n, x in info.get("flash") or []) + "\n\n" + texto
     cuerpo = {"requests": [{"custom_id": m, "params": params(m, texto, cfg, info.get("critico", True), ed)} for m in modelos]}
     b = json.loads(api("POST", "/messages/batches", cuerpo))
     est = {"fecha": hoy, "batch": b["id"], "enviado": int(time.time()), "modelos": modelos,
@@ -682,7 +737,10 @@ def main():
            "al_llegar": al_llegar, "auto": modo != "forzar",
            "info": {k: info[k] for k in ("tick", "al_dia", "ctrl")},
            "dic_s": info["dic_s"], "dic_f": info["dic_f"], "oblig": info.get("oblig") or [],
-           "edicion": ed, "tick_parte": info["tick"], "foto": info.get("foto") or {},
+           "edicion": ed, "tick_parte": info["tick"] if ed != "FLASH" else info.get("ult_tick") or 0,
+           "foto": info.get("foto") or {},
+           "ult_normal": int(time.time()) if ed != "FLASH" else info.get("ult_normal") or 0,
+           "ult_flash": hoy if ed == "FLASH" else info.get("ult_flash"),
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
     print(f"Lote enviado: {b['id']} ({', '.join(modelos)})")

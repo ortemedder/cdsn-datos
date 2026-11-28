@@ -1,11 +1,11 @@
 # Alertas de CDSN calculadas UNA sola vez (tools/alertas.py -> alertas.json), con las mismas reglas que la web.
 # La web, el radar y el parte de la IA leen alertas.json. Se lanza cada vez que el escucha sube faccion.json,
-# cuando cambian las listas a mano (imprescindibles.txt, arquitectos.txt) y a mano desde Actions.
+# cuando cambian las listas a mano (imprescindibles.txt, arquitectos.txt, operaciones.txt) y a mano desde Actions.
 name: alertas
 on:
   push:
     branches: [main]
-    paths: [faccion.json, imprescindibles.txt, arquitectos.txt]
+    paths: [faccion.json, imprescindibles.txt, arquitectos.txt, operaciones.txt]
   workflow_dispatch:
 permissions:
   contents: write

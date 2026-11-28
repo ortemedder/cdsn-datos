@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# alertas.py a1.0 - Calcula UNA sola vez las alertas de cada sistema de CDSN y las guarda en alertas.json.
+# alertas.py a1.2 - Calcula UNA sola vez las alertas de cada sistema de CDSN y las guarda en alertas.json.
 # Mismas reglas que tenía la web (app.js v1.43: alerta0, alerta, hueco, imprescindibles, CMDRs de CDSN), para que
 # la web, el radar y el parte de la IA lean las mismas alertas. Lo lanza GitHub Actions cada vez que el escucha sube
 # faccion.json (.github/workflows/alertas.yml).
@@ -8,7 +8,7 @@
 import json, os, re, sys, time, urllib.request
 from datetime import datetime, timedelta, timezone
 
-VER = "a1.1"
+VER = "a1.2"
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FAC = "Caballeros de Sion"
 DIAS_CONF = 7
@@ -26,6 +26,9 @@ MIN_BUENOS = ["Platinum", "Painite", "LTD", "Void Opals", "Osmium"]
 MIN_ES = {"Platinum": "Platino", "Painite": "Painita", "Osmium": "Osmio", "Void Opals": "Ópalos del vacío"}
 CRIT = re.compile(r"DECISIVO|DERROTA|RETIRADA INMINENTE|^RETIRADA$|POSIBLE ATAQUE|^HUECO")
 NOW = time.time()
+# a1.2: operaciones propias (operaciones.txt) y FLASH
+OVR = re.compile(r"^(POSIBLE ATAQUE|BAJADA|ACTIVIDAD INUSUAL|VENTAJA BAJA|PRESENCIA EN PELIGRO|PROBABLE POWERPLAY|EXPANSIÓN ENEMIGA|HUECO|POSIBLE HUECO)")
+FLASH_FRESCO = 6 * 3600   # el dato del sistema tiene que tener menos de 6 h
 
 
 def ruta(n):
@@ -80,6 +83,44 @@ def cargar_listas():
     except Exception:
         pass
     return niv, arq, miem
+
+
+def cargar_ops():
+    """a1.2: operaciones.txt -> {sistema_en_minúsculas: {"sys","txt","hasta"}} solo las que siguen vigentes.
+    Formato: Sistema = qué hacemos · hasta DD/MM[/AAAA]. Sin fecha: 7 días desde el cambio del archivo."""
+    out = {}
+    try:
+        mt = os.path.getmtime(ruta("operaciones.txt"))
+        L = open(ruta("operaciones.txt"), encoding="utf-8").read().splitlines()
+    except OSError:
+        return out
+    hoy = datetime.now(timezone.utc)
+    for l in L:
+        if "=" not in l or l.lstrip().startswith("#"):
+            continue
+        a, b = [x.strip() for x in l.split("=", 1)]
+        if not a or not b:
+            continue
+        hasta = None
+        m = re.search(r"[·\-,;]?\s*hasta\s+(\d{1,2})[/.-](\d{1,2})(?:[/.-](\d{2,4}))?\s*$", b, re.I)
+        if m:
+            d, me, y = int(m.group(1)), int(m.group(2)), m.group(3)
+            y = int(y) if y else hoy.year
+            y = y + 2000 if y < 100 else y
+            try:
+                f = datetime(y, me, d, 23, 59, tzinfo=timezone(timedelta(hours=1)))
+                if not m.group(3) and f < hoy - timedelta(days=180):
+                    f = f.replace(year=y + 1)
+                hasta = f.timestamp()
+            except ValueError:
+                hasta = None
+            b = b[:m.start()].strip(" ·-,;")
+        else:
+            hasta = mt + 7 * 86400
+        if hasta and hasta < NOW:
+            continue
+        out[a.lower()] = {"sys": a, "txt": b, "hasta": int(hasta) if hasta else None}
+    return out
 
 
 # ---------- ayudas (copiadas de la web) ----------
@@ -378,6 +419,7 @@ def calcula(F, A):
         a = arq.get(n.lower(), "")
         return miem.get(a.lower(), "") if a and not re.match(r"heredad|coloniza", a, re.I) else ""
     ctx = (niv, es_hist, amenazas(F), A.get("ovl_cerca") or {})
+    ops = cargar_ops()
     out = {}
     for n, s in (F.get("sistemas") or {}).items():
         if s.get("fuera") or s.get("inf") is None:
@@ -389,6 +431,13 @@ def calcula(F, A):
         out[n] = {"niv": a[0], "tit": a[1], "txt": a[2], "tono": a[3], "ico": a[4] or "", "parp": bool(a[5]),
                   "alarma": bool(a[6]), "critico": bool(a[0] == 2 and CRIT.search(a[1] or "")), "grupo": grupo,
                   "imp": nv, "hist": es_hist(n), "cmdr": c}
+        op = ops.get(n.lower())
+        if op:   # a1.2: operación propia: no es un ataque, lo hacemos nosotros
+            out[n]["op"] = op["txt"]
+            if out[n]["niv"] == 0 or OVR.search(out[n]["tit"] or ""):
+                antes = (out[n]["tit"] or "").lower()
+                out[n].update({"niv": 1, "tit": "OPERACIÓN PROPIA", "tono": "av", "ico": "🛡", "parp": False, "alarma": False,
+                               "critico": False, "txt": op["txt"] + (f" · ({antes})" if antes else "")})
     return out
 
 
@@ -422,12 +471,20 @@ def main():
     if nn:
         print(f"{nn} sistemas nuevos de CDSN")
     out = calcula(F, lee("anarquicos.json", {}) or {})
+    # a1.2: FLASH = alerta crítica en un imprescindible (nivel 1 o 2) con dato fresco (<6 h) y sin operación propia.
+    # "desde" se guarda entre pasadas: el parte FLASH de la IA solo sale si sigue activo 1 h después (cronica.py).
+    prev = (lee("alertas.json", {}) or {}).get("flash") or {}
+    S = F.get("sistemas") or {}
+    flash = {}
+    for n, x in out.items():
+        if x["critico"] and x["imp"] in (1, 2) and not x.get("op") and NOW - (S.get(n, {}).get("t") or 0) < FLASH_FRESCO:
+            flash[n] = {"desde": (prev.get(n) or {}).get("desde") or int(NOW), "tit": x["tit"], "txt": x["txt"], "imp": x["imp"]}
     res = {"ver": VER, "t": int(NOW), "dato_t": F.get("t"), "n": len(out),
            "graves": sum(1 for x in out.values() if x["niv"] == 2), "avisos": sum(1 for x in out.values() if x["niv"] == 1),
-           "sistemas": out}
+           "flash": flash, "ops": list(cargar_ops().values()), "sistemas": out}
     with open(ruta("alertas.json"), "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"alertas.json: {len(out)} sistemas · {res['graves']} graves · {res['avisos']} avisos")
+    print(f"alertas.json: {len(out)} sistemas · {res['graves']} graves · {res['avisos']} avisos · flash {list(flash)} · ops {len(res['ops'])}")
     if len(sys.argv) > 1 and sys.argv[1] == "ver":
         for n, x in sorted(out.items(), key=lambda t: (-t[1]["niv"], t[1]["grupo"])):
             if x["niv"]:

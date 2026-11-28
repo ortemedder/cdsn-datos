@@ -38,7 +38,8 @@ jobs:
           try: e = json.load(open("cronica_estado.json")) or {}
           except Exception: e = {}
           import time   # c1.2: un parte por tick: solo se salta si hubo parte hace menos de 8 h (el script decide el resto)
-          hecho = bool(e.get("recogido")) and time.time() - (e.get("enviado") or 0) < 8 * 3600
+          # c1.3: la regla de 8 h cuenta desde el último parte normal (AM/PM), no desde un FLASH
+          hecho = bool(e.get("recogido")) and time.time() - (e.get("ult_normal") or e.get("enviado") or 0) < 8 * 3600
           print("saltar=" + ("si" if hecho and "${{ github.event_name }}" != "workflow_dispatch" else "no"))
           PY
       - name: Parte del día

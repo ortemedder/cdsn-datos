@@ -8,4 +8,4 @@
 #   - Mientras dure: la web pone 🛡 OPERACIÓN PROPIA en lugar de bajada / posible ataque / hueco,
 #     no salta el parte FLASH por ese sistema, y la IA lo explica en el parte.
 #
-Burr = apoyamos a Beasts of Bestia para que no se retire y no quede hueco · hasta 30/11
+Burr = operación terminada: subimos a Beasts para que no se retire; esperamos a que salga de la retirada · hasta 30/11

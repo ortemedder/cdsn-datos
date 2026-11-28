@@ -17,7 +17,7 @@ import json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-VER = "c1.3"
+VER = "c1.4"
 AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.dirname(AQUI)
 MAD = ZoneInfo("Europe/Madrid")
@@ -540,7 +540,8 @@ def toca_enviar(cfg, info, ahora):
         if pm_ya:
             info["edicion"] = "PM"
             return True, f"SITREP PM: {h_tras:g} h después del tick de las {datetime.fromtimestamp(tg, MAD):%H:%M}"
-        if ahora >= hora_hoy(ahora, cfg.get("respaldo", "08:00")) and ahora.timestamp() - ult_t >= 20 * 3600:
+        r0 = hora_hoy(ahora, cfg.get("respaldo", "08:00"))      # c1.4: el AM de respaldo solo por la mañana (4 h tras la hora)
+        if r0 <= ahora < r0 + timedelta(hours=4) and ahora.timestamp() - ult_t >= 20 * 3600:
             info["edicion"] = "AM"
             return True, f"SITREP AM: a las {cfg.get('respaldo', '08:00')} sin parte en 20 h"
         fl = flash(cfg, info, ahora)                # c1.3: el FLASH, solo si no toca un parte normal
@@ -635,6 +636,8 @@ def guardar_parte(res, modelo, est, cfg, nombres, info_ahora=None):
                 p["anadidas"] = len(falta)
         if mot:
             p.update({"roto": True, "motivo": mot, "bruto": txt[:1500]})
+            est["roto"] = True    # c1.4: un parte roto no cuenta para la regla de 8 h (se puede mandar el siguiente)
+            est["ult_normal"] = est.get("ult_normal_prev") or 0
     citados = set(re.findall(r"\[\[(.+?)\]\]", json.dumps(p, ensure_ascii=False)))
     if est.get("auto") and not C.get("inicio"):
         C["inicio"] = est["fecha"]                  # N.º 1 = primer parte automático (no las pruebas forzadas)
@@ -740,6 +743,7 @@ def main():
            "edicion": ed, "tick_parte": info["tick"] if ed != "FLASH" else info.get("ult_tick") or 0,
            "foto": info.get("foto") or {},
            "ult_normal": int(time.time()) if ed != "FLASH" else info.get("ult_normal") or 0,
+           "ult_normal_prev": info.get("ult_normal") or 0,
            "ult_flash": hoy if ed == "FLASH" else info.get("ult_flash"),
            "tokens_aprox": info["tokens_aprox"], "motivo": motivo}
     escribe("cronica_estado.json", est)
